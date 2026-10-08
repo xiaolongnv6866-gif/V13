@@ -1,0 +1,72 @@
+{
+  "project": "V13",
+  "round": "R005",
+  "phase": "Nuwa Phase0.5",
+  "status": "DRAFT_NOT_INSTALLED",
+  "nuwa_git_commit": "fe0374687037c4cc51a65c1e0c145afe2981dc69",
+  "upstream": [
+    {
+      "original_path": "SKILL.md",
+      "workspace_path": "references/upstream/NUWA_ORIGINAL_SKILL.md",
+      "expected_git_blob": "788669b7b2ab755ae04d6585c28beeacedda41f2"
+    },
+    {
+      "original_path": "references/extraction-framework.md",
+      "workspace_path": "references/upstream/extraction-framework.md",
+      "expected_git_blob": "02d79947388db500a6b7b4a0097eb32968263fed"
+    },
+    {
+      "original_path": "references/fidelity-scorecard.md",
+      "workspace_path": "references/upstream/fidelity-scorecard.md",
+      "expected_git_blob": "e23a93eba0ecaad9769e0152f9a3653f4fff3af2"
+    },
+    {
+      "original_path": "references/skill-template.md",
+      "workspace_path": "references/upstream/skill-template.md",
+      "expected_git_blob": "29a9028963af912b138098bcde0e2ab69bab30a7"
+    },
+    {
+      "original_path": "scripts/download_subtitles.sh",
+      "workspace_path": "scripts/download_subtitles.sh",
+      "expected_git_blob": "75feab523d9afe8a43e475963fa9a6d8bcf05483"
+    },
+    {
+      "original_path": "scripts/merge_research.py",
+      "workspace_path": "scripts/merge_research.py",
+      "expected_git_blob": "6e511718ebe68214aec489b373b4d3a5a394e899"
+    },
+    {
+      "original_path": "scripts/quality_check.py",
+      "workspace_path": "scripts/quality_check.py",
+      "expected_git_blob": "e84d9edd3c4dc6289c598b55d150c59f8bdef87f"
+    },
+    {
+      "original_path": "scripts/srt_to_transcript.py",
+      "workspace_path": "scripts/srt_to_transcript.py",
+      "expected_git_blob": "64242ffc568eae1fe93659d80a51e6ec21e228bd"
+    },
+    {
+      "original_path": "LICENSE",
+      "workspace_path": "references/upstream/NUWA_MIT_LICENSE",
+      "expected_git_blob": "b95c3fcf6bcd81713196a8523188be50fa712edf"
+    }
+  ],
+  "v13": [
+    {
+      "repo_path": "sources/metadata/wanming_v13_spine.csv",
+      "workspace_path": "sources/books/wanming_v13_spine.csv",
+      "expected_git_blob": "8e440ef5500cf599792d700925366424ca741002"
+    },
+    {
+      "repo_path": "sources/metadata/tiexuecanming_v13_spine.csv",
+      "workspace_path": "sources/books/tiexuecanming_v13_spine.csv",
+      "expected_git_blob": "265d410e214475ac108b822308d793359706e506"
+    },
+    {
+      "repo_path": "SOURCE_MANIFEST.md",
+      "workspace_path": "sources/books/SOURCE_MANIFEST_SNAPSHOT.md",
+      "expected_git_blob": "bf7e8fcd5e4841779626c8b37a3c78e823a964a1"
+    }
+  ],
+  "notice": "Only code, MIT-licensed Nuwa instructions and non-prose V13 metadata are copied. The user source EPUBs are private and not included."
+}

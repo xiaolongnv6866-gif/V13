@@ -1,0 +1,21 @@
+name: V13 R005 Nuwa workspace validation
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check R005 original complete Nuwa workspace and source identity
+        run: python3 scripts/validate_nuwa_workspace.py
+      - name: Check original upstream bash helper syntax
+        run: bash -n nuwa/workspace/scripts/download_subtitles.sh
+      - name: Check 89 rounds and cursor
+        run: python3 scripts/validate_round_integrity.py
