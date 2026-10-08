@@ -7,7 +7,7 @@ id,phase,title,status,started_at,passed_at,commit_sha,result_path,gate_status,fa
 "R006","A 准备","冻结Stage0阅读证据合同和保留盲测","PASSED","2026-10-09","2026-10-09","9a9b9d1fc2d77119e9e373d03e24e200c4dd6d96","runs/R006.md","PASSED",""
 "R007","B Cangjie Stage0原著阅读","《晚明》全文第001—040章","PASSED","2026-10-09","2026-10-09","d9e50da4636fc4416bee6594eda2d661e8acb209","runs/R007.md","PASSED",""
 "R008","B Cangjie Stage0原著阅读","《铁血残明》全文第001—040章","PASSED","2026-10-09","2026-10-09","9527708bda68222577da3a5ade7cdeb8cf6b1f9e","runs/R008.md","PASSED",""
-"R009","B Cangjie Stage0原著阅读","《晚明》全文第041—080章","IN_PROGRESS","2026-10-09","","","runs/R009.md","IN_PROGRESS","40 chapters reviewed; source and literary receipts submitted; GitHub CI pending"
+"R009","B Cangjie Stage0原著阅读","《晚明》全文第041—080章","PASSED","2026-10-09","2026-10-09","PENDING_R009_PASS_COMMIT_SHA","runs/R009.md","PASSED",""
 "R010","B Cangjie Stage0原著阅读","《铁血残明》全文第041—080章","NOT_STARTED","","","","","NOT_CHECKED",""
 "R011","B Cangjie Stage0原著阅读","《晚明》全文第081—120章","NOT_STARTED","","","","","NOT_CHECKED",""
 "R012","B Cangjie Stage0原著阅读","《铁血残明》全文第081—120章","NOT_STARTED","","","","","NOT_CHECKED",""
