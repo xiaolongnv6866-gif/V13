@@ -9,7 +9,7 @@
 |R015来源|原用户私有EPUB SHA256 a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082；ZIP CRC和40章原成员SHA核对通过，2,137个原XHTML非空段|
 |R015收据|40独立章节记录，18 CLOSE_READ +22 FULL_TEXT_READ，76原文段落SHA定位，私有与GitHub收据摘要cf341ba9一致|
 |首次专项失败|原首批40收据event_chain错误写入数字，专项Action 37855207677失败；保留审计，后以commit c7aa341e424ece6eb922ff6da90779b919cf4cac修复|
-|实际GitHub Actions|修复提交R015专用Action 37855398920 与12个其他历史/全局工作流共**13项全部 completed/success**；本次正式PASS状态提交仍须单独回读与核查|
+|实际GitHub Actions|修复提交R015专用Action 37855398920 与12个其他历史/全局工作流共**13项全部 completed/success**；本轮正式PASS状态提交 6e854ceedb749cdc5ec3ab3f7775b1c29b22a3b9 已远程回读通过，13 GitHub Actions completed/success，专项R015 run 37855557114|
 |三证据门|A原著来源真实性本地PASS；B局部文学机制PROVISIONAL，未完成整书Adler；C独立创作能力NOT_RUN|
 |原创SKILL|认证0；Nuwa Phase0.5已准备，Phase1未开始；R006保留盲测SEALED_NOT_RUN|
 |执行策略|MANUAL_USER_TRIGGER；R016不自动执行；禁止额外付费或上传小说完整原文|
