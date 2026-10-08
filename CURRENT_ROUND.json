@@ -19,9 +19,9 @@
   "nuwa_phase05": "WORKSPACE_READY_NOT_RESEARCHED",
   "reading_contract_version": "R006-v1.0-FROZEN",
   "heldout_bank_status": "SEALED_NOT_RUN",
-  "continuation_mode": "AUTO_SEQUENTIAL_UNTIL_GATE_OR_BLOCKED",
+  "continuation_mode": "MANUAL_USER_TRIGGER",
   "continuation_approved_date": "2026-10-09",
-  "continuation_approved_scope": "Execute succeeding existing V13 fixed-89 rounds without separate user 'continue' only after per-round verification and remote GitHub readback; stop for mandatory user decision, permission or budget expansion, inconclusive evidence, tool unavailability or true conflict.",
+  "continuation_approved_scope": "SUPERSEDED on 2026-10-09 by explicit user preference for manual initiation: one current R### per user prompt, resume checkpoints rather than restart, no schedule and no implicit new rounds.",
   "continuation_stop_gates": [
     "R042",
     "R057",
@@ -42,5 +42,8 @@
     "source_sha256": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
     "receipt_file": "cangjie/reading/R011/wanming_081_087_checkpoint.jsonl",
     "formal_round_counted_chapters": 0
-  }
+  },
+  "continuation_schedule_enabled": false,
+  "execution_trigger_policy": "Wait for a new explicit user message such as '继续' to resume only the current V13 round; do not launch the next round automatically, even after PASS, without a new user request.",
+  "continuation_last_updated_on": "2026-10-09"
 }
