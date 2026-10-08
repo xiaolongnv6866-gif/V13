@@ -1,0 +1,13 @@
+name: V13 R012 Literature source receipts
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R012/tiexue_receipts.jsonl
+      - run: python3 scripts/validate_r012_reading.py
+      - run: python3 scripts/validate_round_integrity.py
