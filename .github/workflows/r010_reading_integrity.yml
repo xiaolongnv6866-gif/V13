@@ -1,0 +1,20 @@
+name: V13 R010 TiexueCanming reading evidence integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r010:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: R006 frozen chapter receipt structure (no private EPUB in runner)
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R010/tiexue_receipts.jsonl
+      - name: R010 40 unique original chapters source+literary audit
+        run: python3 scripts/validate_r010_reading.py
+      - name: V13 fixed 89-round regression
+        run: python3 scripts/validate_round_integrity.py
