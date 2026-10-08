@@ -36,10 +36,13 @@
   "continuation_policy_file": "AUTO_CONTINUATION_POLICY.md",
   "current_round_partial_receipts": {
     "book_slug": "wanming",
-    "read": "041-060",
-    "remaining": "061-080",
+    "read": "041-080",
+    "remaining": "NONE",
     "private_original_sha256": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
     "source_notes_written": true,
-    "receipts_not_yet_finalized": true
+    "receipts_40_written": true,
+    "source_private_anchor_fingerprint": "4cf28d54",
+    "source_paragraph_count": 2327,
+    "github_validation": "PENDING"
   }
 }

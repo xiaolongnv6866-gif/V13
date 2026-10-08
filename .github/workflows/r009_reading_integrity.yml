@@ -1,0 +1,20 @@
+name: V13 R009 Wanming narrative reading source contract
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r009-audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: R006 immutable source-structure receipt contract
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R009/wanming_receipts.jsonl
+      - name: R009 original chapters 041-080 source mappings and literary evidence
+        run: python3 scripts/validate_r009_reading.py
+      - name: Fixed 89 rounds and ledger consistency
+        run: python3 scripts/validate_round_integrity.py
