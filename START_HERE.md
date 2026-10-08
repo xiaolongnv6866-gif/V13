@@ -1,11 +1,13 @@
-# V13 任何新会话的唯一恢复入口
+# V13 — 新会话唯一启动与恢复协议
 
-1. **不使用旧聊天作为任务状态**。先从`https://github.com/xiaolongnv6866-gif/V13`的默认分支读取`CURRENT_ROUND.json`、`ROUND_LEDGER.csv`、`PROGRESS.md`，三者互核；如冲突，BLOCKED而非猜测。
-2. 读取`V13_FIXED_89_ROUNDS.md`当前R###整段及`ROUND_EXECUTION_RULES.md`，确认本轮产物与验收。
-3. 从`SKILL_SOURCES.md`指定的固定commit读取**完整原始**仓颉、女娲`SKILL.md`及当前阶段全部methodology、extractors、模板、脚本、检查门，不可用本地摘要替代。
-4. **原著仅可从用户实际提供的EPUB读取**，两本SHA须匹配`SOURCE_MANIFEST.md`；卷界/路径需由`scripts/build_v13_spine.py`独立重建。当前仓库不包含版权EPUB；新对话若未挂载原书，暂停R002或阅读轮并要求用户提供，**绝不能编造阅读**。
-5. 一次普通“继续”只执行当前编号；未完成原轮续做。用户明确要求多轮才可逐轮实际完成、提交、远程回读后推进。遇R004等用户确认门必须明确确认，不用“继续”默认通过。
-6. 提交`runs/R###.md`、本轮产物、ledger、cursor、progress同一事务；远程回读所有关键文件后才能宣称PASSED。
-7. 绝不能把文件SHA检验当成文学解释审核、把旧原著片段换词当原创、把原版工具脚本通过当V13创作SKILL通过。V13最终SKILL须经独立原创盲测、新聊天独立恢复。
+**已完成R001的独立仓库初始化；当前工作轮次不是R001而是GitHub游标规定的R002。** 此行是2026-10-09首版说明；以后无论这里的文本如何过时，均以`CURRENT_ROUND.json`、`ROUND_LEDGER.csv`与`PROGRESS.md`互相核对为唯一真实状态。
 
-**当前初始状态**：R001仓库初始化；0章正式全文研究；Nuwa Phase0用户决策在R004；正式SKILL0。
+1. 先从`https://github.com/xiaolongnv6866-gif/V13`的main分支读取`CURRENT_ROUND.json`、`ROUND_LEDGER.csv`、`PROGRESS.md`，如有矛盾暂停。
+2. 从`V13_FIXED_89_ROUNDS.md`读取当前轮**完整必须操作、原版依据、产物、验收与用户门**，再读取`ROUND_EXECUTION_RULES.md`。一条普通“继续”只做当前轮。
+3. 按`SKILL_SOURCES.md`固定版本完整读取上游Cangjie/Nuwa原始`SKILL.md`与当前阶段全部依赖；不能从旧项目恢复笔记或用摘要替代原版。
+4. 当轮需要原著时必须真实取得用户提供的两本EPUB，校验`SOURCE_MANIFEST.md`中的SHA256。公开仓库不含原著，若新对话无法读取则暂停并请用户重新提供；**绝不从目录标题冒充全文阅读**。
+5. R002从原文实际OPF spine生成只含元数据的两份CSV，检查章节数/路径异常，按轮次真实要求提交GitHub。此轮之前已完成的本地ZIP预检仅是准备，不等于R002通过。
+6. 每轮完工把`runs/R###.md`、产物、`ROUND_LEDGER.csv`、`CURRENT_ROUND.json`和`PROGRESS.md`一次提交，远程回读通过后才升级为下一编号；缺用户明确确认就BLOCKED。
+7. 对小说的判断要独立审核文本证据与反例；保留原创叙事、人物选择、对白、视角、节奏和跨章因果。不上传小说全文，不仿写作者专属语句。
+
+**工作起点**：V13文学研究0/1103；Cangjie Stage0未启动；Nuwa Phase0待R004确认；原创写作SKILL0。
