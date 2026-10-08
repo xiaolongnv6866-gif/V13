@@ -36,12 +36,15 @@
   "continuation_policy_file": "AUTO_CONTINUATION_POLICY.md",
   "current_round_partial_receipts": {
     "book_slug": "wanming",
-    "actual_fully_observed_range": "081-087",
-    "remaining_unread_range": "088-120",
-    "paragraphs_observed": 343,
+    "actual_fully_observed_range": "081-120",
+    "remaining_unread_range": "NONE",
+    "paragraphs_observed": 2295,
     "source_sha256": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
-    "receipt_file": "cangjie/reading/R011/wanming_081_087_checkpoint.jsonl",
-    "formal_round_counted_chapters": 0
+    "receipt_file": "cangjie/reading/R011/wanming_receipts.jsonl",
+    "official_credited_chapters_before_pass": 0,
+    "source_anchor_count": 74,
+    "source_anchor_fingerprint": "45cc01df",
+    "github_validation": "PENDING"
   },
   "continuation_schedule_enabled": false,
   "execution_trigger_policy": "Wait for a new explicit user message such as '继续' to resume only the current V13 round; do not launch the next round automatically, even after PASS, without a new user request.",

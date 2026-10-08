@@ -1,0 +1,20 @@
+name: V13 R011 Wanming 081-120 reading integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  reading-evidence:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: R006 original reading receipt contract (SOURCE_STRUCTURE_ONLY)
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R011/wanming_receipts.jsonl
+      - name: R011 40 original chapters and private-source anchor consistency
+        run: python3 scripts/validate_r011_reading.py
+      - name: V13 fixed 89-round state guardrails
+        run: python3 scripts/validate_round_integrity.py
