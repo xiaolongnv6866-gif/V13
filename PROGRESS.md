@@ -1,18 +1,17 @@
-# V13｜R018《铁血残明》有效叙事201—240正式PASS（2026-10-09）
+# V13｜R019《晚明》241—280原文研究证据提交待验收
 
-|项目|正式状态|
+|核验项|权威状态|
 |---|---|
-|当前唯一游标|**R019 / NOT_STARTED**；《晚明》有效叙事241—280尚未开始|
-|最后完成|**R018 PASSED**；累计**18/89**轮|
-|正式《晚明》阅读|**240/571**章|
-|正式《铁血残明》阅读|**240/532**章|
-|正式两书合计|**480/1103**有效叙事章|
-|原始来源|用户原私有《铁血残明》EPUB全文件大小27764568字节，SHA256 9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf，ZIP CRC None；R018 40章OPF spine217—256|
-|R018原文阅读及成员独立核验|40章2650原XHTML正文非空段落，20 CLOSE_READ +20 FULL_TEXT_READ，80源段SHA；私有与GitHub locator摘要095e5bfb完全一致；原章成员SHA+目录+段落索引FNV32 2fd10f8d也与GitHub冻结元数据一致|
-|文学研究|逐章事件与独立人物目标表、六组局部场景反事实/反证研究、跨章人物/财税/生计/权力连续性账；文学机制仍PROVISIONAL|
-|实际Actions|证据提交 `8183a3652b0f85b60e4ecdebe803b81ca8ca60b3` 共**16项工作流全部completed/success**，包含R018新专项run37859791271、冻结R006、仓颉Doctor、女娲workspace和历史回归；正式通过提交 0a33d75cd158000a792c8bea729620259ed27841 已远程回读，16/16 Actions completed/success，R018专项37859974784|
-|三道门|A私有原著来源性通过；B本批文学理解作了反证但PROVISIONAL，Adler整书未完；C新创作任务效益NOT_RUN|
-|未越界|原创SKILL认证0；Nuwa Phase1未启动；R006独立密封盲测SEALED_NOT_RUN|
-|调度|MANUAL_USER_TRIGGER，R019不自动执行，无额外付费与版权原文泄漏|
+|唯一轮次游标|**R019 / IN_PROGRESS**；R018正式PASSED|
+|正式已通过轮次|**18/89**，本轮不能提前计数|
+|正式原著读量|《晚明》240/571、《铁血残明》240/532，合计**480/1103**|
+|R019私人原著输入|真实有效叙事241—280，40章共**2133个XHTML非空正文段落**，每章原字节SHA与R002独立源索引吻合|
+|卷界特别校正|241—271为原OPF spine255—285，spine286`Chapter_0283.xhtml`为卷标题不能算，272—280跳到spine287—295，最后正文`Chapter_0292.xhtml`|
+|定位验证|20 CLOSE_READ +20 FULL_TEXT_READ去重40章，80原文段落SHA定位，私有与公开收据摘要`3b82a082`；原ZIP member元数据独立摘要`b7f9732c`|
+|六组局部文学研究|事件、人物独立选择、有限视角、信息时差、伦理代价、对照改写损失已逐章记录；结论PROVISIONAL|
+|GitHub Actions|R019专项和R006冻结合同，以及全部历史回归尚待新提交后实际检查，不能提前PASSED|
+|三证据门|A私有源SHA／zip／40章来源PASS；B局部叙事PROVISIONAL；C陌生原创任务测试NOT_RUN|
+|技能/盲测|Cangjie Stage0整书未验收，Nuwa Phase1尚未启动，认证原创SKILL0，R006盲测SEALED_NOT_RUN|
+|用户授权|MANUAL_USER_TRIGGER，仅此轮，不自动R020，无额外付费|
 
-GitHub公开Runner只能核对SOURCE_STRUCTURE_ONLY，不能自行获得私有原EPUB或证明独立创作能力。
+公开GitHub Actions没有版权原著EPUB访问权，只检验`SOURCE_STRUCTURE_ONLY`而非原始阅读的文学充分性。

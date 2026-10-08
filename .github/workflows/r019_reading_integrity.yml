@@ -1,0 +1,20 @@
+name: V13 R019 Wanming 241-280 original literary evidence
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r019:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run frozen R006 full-original-reading contract against R019 receipts
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R019/wanming_receipts.jsonl
+      - name: Validate R019 OPF volume transition, authored notes and private-source SHA index
+        run: python3 scripts/validate_r019_reading.py
+      - name: Check fixed 89 round guardrails
+        run: python3 scripts/validate_round_integrity.py
