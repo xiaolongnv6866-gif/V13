@@ -1,0 +1,16 @@
+name: V13 round integrity
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  round-integrity:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify 89-round controller and original chapter coverage
+        run: python3 scripts/validate_round_integrity.py
