@@ -232,9 +232,14 @@ def check_public():
     source=(ROOT/"SOURCE_MANIFEST.md").read_text("utf-8")
     for val in EXPECTED.values():problem(errs,val["sha"] in source,"R002 source fingerprint missing")
     cursor=json.loads((ROOT/"CURRENT_ROUND.json").read_text("utf-8"))
-    problem(errs,cursor.get("current_round") in ("R006","R007"),"R006 or post-R006 R007 cursor required")
-    problem(errs,cursor.get("full_text_read_chapters")=={"wanming":0,"tiexuecanming":0},"R006 cannot increment chapter reads")
-    problem(errs,cursor.get("skill_certified_count")==0,"R006 cannot certify writing SKILL")
+    token=str(cursor.get("current_round",""))
+    rnd=int(token[1:]) if token.startswith("R") and token[1:].isdigit() else -1
+    problem(errs,6 <= rnd <= 89,"R006 protocol valid only within V13 R006—R089")
+    # Frozen R006 invariants govern the original R006 only; later real reading
+    # and skill certification MUST NOT be falsely flagged by historical CI.
+    if rnd <= 6:
+        problem(errs,cursor.get("full_text_read_chapters")=={"wanming":0,"tiexuecanming":0},"R006 cannot increment chapter reads")
+        problem(errs,cursor.get("skill_certified_count")==0,"R006 cannot certify writing SKILL")
     return errs
 
 def locate_original(srcdir, filename):
