@@ -1,0 +1,74 @@
+{
+  "project": "V13",
+  "round": "R003",
+  "lock_date": "2026-10-09",
+  "policy": "Pinned upstream full originals remain authoritative; this manifest is NOT a substitute for reading SKILL.md and dependencies.",
+  "cangjie": {
+    "repository": "kangarooking/cangjie-skill",
+    "commit": "a28de55ba881b9928956a55048f743f7a9e3b23e",
+    "skill_version": "2.5.0",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "blob_sha": "5d0c0b68425847eb12e7bf3d7109a4d63db42fa3",
+        "verified_via_github": true
+      },
+      {
+        "path": "methodology/00-overview.md",
+        "blob_sha": "6b888c084b80803034a19c12b778ddafc52919be",
+        "verified_via_github": true
+      },
+      {
+        "path": "methodology/01-stage0-adler.md",
+        "blob_sha": "fbb45475ee9e6653e9e8e10b7a637f25f982eabd",
+        "verified_via_github": true
+      },
+      {
+        "path": "templates/BOOK_OVERVIEW.md.template",
+        "blob_sha": "a796e9835c2af7e0d10027d724787063e9992cbe",
+        "verified_via_github": true
+      },
+      {
+        "path": "scripts/cangjie.py",
+        "blob_sha": "279f2b174d77ae7c72545a00ddab3b4c870dca94",
+        "verified_via_github": true
+      },
+      {
+        "path": "scripts/cangjie_common.py",
+        "blob_sha": "d9b53a9a5a69143a0a3431b6b2287e8f18c4209d",
+        "verified_via_github": true
+      },
+      {
+        "path": "schemas/capability-bundle.schema.json",
+        "blob_sha": "56a0b4bac732298568949ac8866423f70a53b622",
+        "verified_via_github": true
+      },
+      {
+        "path": "schemas/registry-entry.schema.json",
+        "blob_sha": "69b6ee1deae2b5f377c95f8042501d98abdc4eaa",
+        "verified_via_github": true
+      },
+      {
+        "path": "schemas/contracts/source-document.schema.json",
+        "blob_sha": "d2d6808257202ae5915be73d9fda186b588eb140",
+        "verified_via_github": true
+      }
+    ]
+  },
+  "nuwa": {
+    "repository": "alchaincyf/nuwa-skill",
+    "commit": "fe0374687037c4cc51a65c1e0c145afe2981dc69",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "blob_sha": "788669b7b2ab755ae04d6585c28beeacedda41f2",
+        "verified_via_github": true
+      }
+    ],
+    "phase0": "NOT_STARTED; requires user decision in R004"
+  },
+  "source_epub_sha": {
+    "wanming": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+    "tiexuecanming": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf"
+  }
+}

@@ -1,0 +1,30 @@
+name: V13 R003 pinned Cangjie doctor
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  pinned-cangjie-doctor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout V13
+        uses: actions/checkout@v4
+      - name: Checkout exact upstream Cangjie pinned commit
+        uses: actions/checkout@v4
+        with:
+          repository: kangarooking/cangjie-skill
+          ref: a28de55ba881b9928956a55048f743f7a9e3b23e
+          path: .v13-cangjie-upstream
+          persist-credentials: false
+      - name: Check upstream git object
+        shell: bash
+        run: |
+          actual="$(git -C .v13-cangjie-upstream rev-parse HEAD)"
+          test "$actual" = "a28de55ba881b9928956a55048f743f7a9e3b23e"
+          echo "UPSTREAM_SHA_OK=$actual"
+      - name: Install mandatory doctor dependency
+        run: python3 -m pip install --disable-pip-version-check pyyaml
+      - name: Run pinned original Cangjie CLI doctor
+        run: python3 .v13-cangjie-upstream/scripts/cangjie.py doctor
+      - name: Verify V13 round controller
+        run: python3 scripts/validate_round_integrity.py

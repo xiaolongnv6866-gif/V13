@@ -1,7 +1,7 @@
 id,phase,title,status,started_at,passed_at,commit_sha,result_path,gate_status,failure_reason
 "R001","A 准备","建立V13清洁仓库与权威状态","PASSED","2026-10-09","2026-10-09","fbd6d37f7458d0e28413ed9a76100dc4283a16eb","runs/R001.md","PASSED",""
 "R002","A 准备","V13原著SHA/EPUB叙事章映射","PASSED","2026-10-09","2026-10-09","8bcf4d40c37d94986072a879ffe4b01108baab17","runs/R002.md","PASSED",""
-"R003","A 准备","仓颉原版输入和环境自检","NOT_STARTED","","","","","NOT_CHECKED",""
+"R003","A 准备","仓颉原版输入和环境自检","IN_PROGRESS","2026-10-09","","","runs/R003.md","NOT_CHECKED",""
 "R004","A 准备","女娲Phase0正式范围与档位","NOT_STARTED","","","","","NOT_CHECKED",""
 "R005","A 准备","女娲Phase0.5独立目录","NOT_STARTED","","","","","NOT_CHECKED",""
 "R006","A 准备","冻结Stage0阅读证据合同和保留盲测","NOT_STARTED","","","","","NOT_CHECKED",""
