@@ -1,0 +1,20 @@
+name: V13 R014 Tiexue full-narrative literary source audit
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  original-reading-evidence:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Frozen R006 reading-receipt source contract
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R014/tiexue_receipts.jsonl
+      - name: R014 independent original-chapter literary record integrity
+        run: python3 scripts/validate_r014_reading.py
+      - name: Global fixed 89 round guardrail
+        run: python3 scripts/validate_round_integrity.py
