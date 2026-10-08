@@ -21,7 +21,9 @@ def main():
     must=["SKILL.md","README.md","sources/SOURCE_REGISTER.csv","sources/books/README.md","sources/transcripts/README.md","sources/articles/README.md","references/research/README.md","references/research/00-school-map.md"]
     for p in must:check((WS/p).is_file(),"Missing "+p)
     draft=(WS/"SKILL.md").read_text("utf-8")
-    check("DRAFT_NOT_INSTALLED" in draft and "research_count: 0" in draft,"Skill draft status")
+    # Phase0.5 is a draft; Phase3 (R081 onward) must be allowed to replace it.
+    if cursor_num < 81:
+        check("DRAFT_NOT_INSTALLED" in draft and "research_count: 0" in draft,"Prematurely activated Nuwa skill")
     research=WS/"references/research"
     chapters=["writings","conversations","expression-dna","external-views","decisions","timeline"]
     placeholders=[research/f"{i:02d}-{slug}.md" for i,slug in enumerate(chapters,1)]
@@ -32,9 +34,12 @@ def main():
         check(p.is_file(),"Missing research slot "+str(p))
         if p.is_file():
             s=p.read_text("utf-8")
-            check("status: NOT_STARTED" in s and "source_count: 0" in s and "research_agent_runs: 0" in s,"Research prematurely claimed "+str(p))
+            if cursor_num < 70:
+                check("status: NOT_STARTED" in s and "source_count: 0" in s and "research_agent_runs: 0" in s,"Research prematurely claimed before R070 "+str(p))
     with (WS/"sources/SOURCE_REGISTER.csv").open(encoding="utf-8",newline="") as f: source_rows=list(csv.DictReader(f))
-    check(len(source_rows)==2 and all(r["access_status"]=="PRIVATE_USER_EPUB_NOT_BUNDLED" for r in source_rows),"Unexpected private corpus claim")
+    originals={r["source_id"]:r for r in source_rows}
+    check({"wm_epub","tx_epub"}.issubset(originals),"Original V13 two novel entries missing")
+    check(all(originals[k]["access_status"]=="PRIVATE_USER_EPUB_NOT_BUNDLED" for k in ("wm_epub","tx_epub") if k in originals),"Original novel EPUBs cannot be bundled in public GitHub")
     for slug,total,narrative in [("wanming",588,571),("tiexuecanming",551,532)]:
         with (WS/"sources/books"/(slug+"_v13_spine.csv")).open(encoding="utf-8",newline="") as f:rows=list(csv.DictReader(f))
         ords=[int(r["narrative_ordinal"]) for r in rows if r["narrative_ordinal"]]
@@ -45,12 +50,17 @@ def main():
         try:compile(p.read_text("utf-8"),str(p),"exec")
         except SyntaxError as e:ERRORS.append(str(e))
     state=json.loads((ROOT/"CURRENT_ROUND.json").read_text("utf-8"))
-    check(state["current_round"] in ("R005","R006"),"Unexpected cursor")
+    # Historical R005 integrity must stay green as V13 moves through later rounds.
+    token=str(state.get("current_round",""))
+    cursor_num=int(token[1:]) if token.startswith("R") and token[1:].isdigit() else -1
+    check(5 <= cursor_num <= 89,"Unexpected cursor before R005 or outside the 89 rounds")
     check(state["nuwa_phase0"]=="APPROVED_THEME_STANDARD","R004 not authorized")
-    check(state["full_text_read_chapters"]=={"wanming":0,"tiexuecanming":0},"False literary progress")
-    check(state["skill_certified_count"]==0,"False certified skill count")
+    if cursor_num <= 6:
+        check(state["full_text_read_chapters"]=={"wanming":0,"tiexuecanming":0},"False early literary progress")
+    if cursor_num <= 6:
+        check(state["skill_certified_count"]==0,"False early certified skill count")
     for e in ERRORS:print("FAIL:",e)
     if ERRORS:return 1
-    print("PASS R005: 9 exact Nuwa upstream files, 3 exact V13 metadata files, 12 NOT_STARTED research slots, 2 private originals registered, 1103 indexed narrative chapters, no public EPUB, 0 literary reads, 0 certified skills")
+    print("PASS R005 invariant: exact pinned Nuwa originals, original metadata, stage-appropriate workspace state, 2 private EPUBs external, 1103 indexed narrative chapters, no public EPUB")
     return 0
 if __name__=="__main__":sys.exit(main())
