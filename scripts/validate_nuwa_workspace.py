@@ -10,6 +10,9 @@ def check(ok,msg):
 def git_blob(p):
     return subprocess.check_output(["git","hash-object","--",str(p)],text=True).strip()
 def main():
+    state=json.loads((ROOT/"CURRENT_ROUND.json").read_text("utf-8"))
+    token=str(state.get("current_round",""))
+    cursor_num=int(token[1:]) if token.startswith("R") and token[1:].isdigit() else -1
     manifest=json.loads((WS/"references/upstream/COPIED_FILES.json").read_text("utf-8"))
     check(manifest.get("nuwa_git_commit")=="fe0374687037c4cc51a65c1e0c145afe2981dc69","Nuwa original commit mismatch")
     check(len(manifest.get("upstream",[]))==9,"Must preserve full Nuwa Skill, 3 refs, 4 scripts, license")
