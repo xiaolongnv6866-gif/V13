@@ -1,0 +1,20 @@
+name: V13 R017 Wanming 201-240 original reading audit
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r017:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Frozen R006 original-reading contract
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R017/wanming_receipts.jsonl
+      - name: R017 original-source metadata and authored literary evidence
+        run: python3 scripts/validate_r017_reading.py
+      - name: V13 89-round global guardrail
+        run: python3 scripts/validate_round_integrity.py
