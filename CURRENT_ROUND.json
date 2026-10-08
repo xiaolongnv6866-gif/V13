@@ -3,7 +3,7 @@
   "plan_version": "13.0-fixed-89",
   "rounds_total": 89,
   "current_round": "R013",
-  "round_status": "NOT_STARTED",
+  "round_status": "IN_PROGRESS",
   "last_passed_round": "R012",
   "full_text_read_chapters": {
     "wanming": 120,
@@ -36,5 +36,17 @@
   "continuation_policy_file": "AUTO_CONTINUATION_POLICY.md",
   "continuation_schedule_enabled": false,
   "execution_trigger_policy": "Wait for a new explicit user message such as '继续' to resume only the current V13 round; do not launch the next round automatically, even after PASS, without a new user request.",
-  "continuation_last_updated_on": "2026-10-09"
+  "continuation_last_updated_on": "2026-10-09",
+  "current_round_partial_receipts": {
+    "book_slug": "wanming",
+    "actually_read_ordinals": "121-160",
+    "remaining_unread": "NONE",
+    "paragraphs_observed": 2086,
+    "source_epub_sha256": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+    "paragraph_sha_anchor_count": 76,
+    "original_private_vs_remote_digest": "cf9513b1",
+    "receipt_file": "cangjie/reading/R013/wanming_receipts.jsonl",
+    "github_validation": "PENDING",
+    "official_round_chapters_counted": 0
+  }
 }

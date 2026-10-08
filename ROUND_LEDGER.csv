@@ -11,7 +11,7 @@ id,phase,title,status,started_at,passed_at,commit_sha,result_path,gate_status,fa
 "R010","B Cangjie Stage0原著阅读","《铁血残明》全文第041—080章","PASSED","2026-10-09","2026-10-09","7fa4fee3092899230b139a93baa0758c98a8ffec","runs/R010.md","PASSED",""
 "R011","B Cangjie Stage0原著阅读","《晚明》全文第081—120章","PASSED","2026-10-09","2026-10-09","7581f6edc745fbed1c5cc01264d6308e3a6c6a9b","runs/R011.md","PASSED","40 chapters 081—120; repaired checkpoint ordinal83 paragraph26 hash; 9 CI passes"
 "R012","B Cangjie Stage0原著阅读","《铁血残明》全文第081—120章","PASSED","2026-10-09","2026-10-09","587af366b1e023523a6185334f14a83e56a68efa","runs/R012.md","PASSED","10 CI successful; 40 original chapters, 2745 XHTML paragraphs, 64 original SHA locators, 12 close studies"
-"R013","B Cangjie Stage0原著阅读","《晚明》全文第121—160章","NOT_STARTED","","","","","NOT_CHECKED",""
+"R013","B Cangjie Stage0原著阅读","《晚明》全文第121—160章","IN_PROGRESS","2026-10-09","","","runs/R013.md","NOT_CHECKED","40 original chapters viewed with individual records and 76 original SHA anchors; GitHub CI pending"
 "R014","B Cangjie Stage0原著阅读","《铁血残明》全文第121—160章","NOT_STARTED","","","","","NOT_CHECKED",""
 "R015","B Cangjie Stage0原著阅读","《晚明》全文第161—200章","NOT_STARTED","","","","","NOT_CHECKED",""
 "R016","B Cangjie Stage0原著阅读","《铁血残明》全文第161—200章","NOT_STARTED","","","","","NOT_CHECKED",""
