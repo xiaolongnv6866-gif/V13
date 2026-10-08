@@ -1,0 +1,20 @@
+name: V13 R020 Tiexue 241-280 full original reading audit
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r020:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Frozen R006 actual chapter receipt contract
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R020/tiexue_receipts.jsonl
+      - name: R020 source, original member SHA and literary receipts
+        run: python3 scripts/validate_r020_reading.py
+      - name: V13 89-round guardrail
+        run: python3 scripts/validate_round_integrity.py
