@@ -1,7 +1,11 @@
 # V13 EPUB 叙事目录元数据
 
-本目录**不存小说原文**。2026-10-09会话本地已用独立V13脚本从两本EPUB重建索引，验证晚明588个spine→571个叙事章、铁血551个spine→532个叙事章，源EPUB SHA和CRC均PASS。R002仍需在V13仓库正式生成完整CSV并远程回读。
+R002 已在本独立 V13 项目使用用户真实提供的两本 EPUB，重建完整 OPF spine→叙事 ordinal CSV；正式审计见 [R002](../../runs/R002.md) 和 [SOURCE_MANIFEST](../../SOURCE_MANIFEST.md)。
 
-未来R002通过时目标文件：`wanming_v13_spine.csv`、`tiexuecanming_v13_spine.csv`（只含ZIP真实路径、标题、章节SHA、简要字符/段数，不含正文）。新会话如没有原始EPUB，不得据本目录冒充已经读过正文。
+- `wanming_v13_spine.csv`：588个spine项目、571个叙事章、17个非叙事项目。
+- `tiexuecanming_v13_spine.csv`：551个spine项目、532个叙事章、19个非叙事项目。
+- 字段包含真实ZIP内部路径、title、逐文件SHA256、字符数、段落数、叙事布尔值与零缺失连续ordinal。
+- 卷界、年表、序、引子、插图及空白占位都保留为非叙事项目，不能丢失。
+- 这些仅是结构元数据，**不代表已完成全文阅读**；不在公开GitHub存小说原文。
 
-初始化启动包本地带有完整生成的两份CSV，下载可见；但**此初始化GitHub提交还未包含CSV本体**，须在R002明确保存。
+后续阅读必须使用叙事 `narrative_ordinal` 和 `epub_path` 双重定位，按章节范围真实读取正文。
