@@ -11,7 +11,7 @@
 |R019实际内容|40个原章2133非空正文段落，20 CLOSE_READ+20 FULL_TEXT_READ去重40份收据，80源段SHA256位置，private/GitHub序列摘要`3b82a082`|
 |卷界异常|OPF spine286为非叙事卷题，原章272跳至spine287 Chapter_0284.xhtml；保留正确真正原章280为spine295 Chapter_0292.xhtml|
 |文学研究|40章独立事件/角色/视角表、六组带反证和替代叙法损失的细读、长期组织民政与人物账；批次机制仅PROVISIONAL|
-|证据提交真实CI|GitHub evidence commit `ea1385c25fab860edcd335d4509221fa765fb467` 经远程回读，**17/17项GitHub Actions completed/success**，含R019专项run37861326571、冻结R006、原版仓颉Doctor及历史回归；正式PASS提交自身仍须单独检查|
+|证据提交真实CI|GitHub evidence commit `ea1385c25fab860edcd335d4509221fa765fb467` 经远程回读，**17/17项GitHub Actions completed/success**，含R019专项run37861326571、冻结R006、原版仓颉Doctor及历史回归；正式PASS提交 26eea37d907c75c1322303bcc7479215794b2cda 已远程核实且17/17 Actions completed/success，专项R019 run37861475951|
 |三证据门|A用户私有原著真实性PASS；B文学阐释仍PROVISIONAL，C原创新输入独立效益NOT_RUN|
 |保留限制|Cangjie Adler整书Stage0+用户确认未完成；Nuwa Phase1未启动；原创SKILL认证0，R006 heldout `SEALED_NOT_RUN`|
 |调度|MANUAL_USER_TRIGGER，R020不得自动开始；不额外使用付费来源|
