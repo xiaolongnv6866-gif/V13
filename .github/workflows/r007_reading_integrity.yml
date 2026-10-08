@@ -1,0 +1,18 @@
+name: V13 R007 Wanming reading evidence integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Structural source-grounded receipts (no private novels in runner)
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R007/wanming_receipts.jsonl
+      - name: Verify 40 unique chapters, paragraph totals and evidence consistency
+        run: python3 scripts/validate_r007_reading.py
+      - name: Verify 89-round cursor and ledger
+        run: python3 scripts/validate_round_integrity.py
