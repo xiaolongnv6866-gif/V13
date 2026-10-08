@@ -1,0 +1,20 @@
+name: V13 R015 Wanming full narrative source and literary receipts
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r015:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Frozen R006 receipt source contract
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R015/wanming_receipts.jsonl
+      - name: Original-source-index and authored content integrity R015
+        run: python3 scripts/validate_r015_reading.py
+      - name: Full fixed 89 rounds controller
+        run: python3 scripts/validate_round_integrity.py
