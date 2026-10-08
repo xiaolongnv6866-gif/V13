@@ -2,19 +2,19 @@
   "project": "V13",
   "plan_version": "13.0-fixed-89",
   "rounds_total": 89,
-  "current_round": "R010",
-  "round_status": "IN_PROGRESS",
-  "last_passed_round": "R009",
+  "current_round": "R011",
+  "round_status": "NOT_STARTED",
+  "last_passed_round": "R010",
   "full_text_read_chapters": {
     "wanming": 80,
-    "tiexuecanming": 40
+    "tiexuecanming": 80
   },
   "cangjie_stage0_gate": "NOT_PASSED",
   "nuwa_phase0": "APPROVED_THEME_STANDARD",
   "skill_certified_count": 0,
   "remote_repo": "https://github.com/xiaolongnv6866-gif/V13",
   "advance_rule": "Only after current round evidence, checks, mandatory user approval, GitHub remote reread",
-  "rounds_completed": 9,
+  "rounds_completed": 10,
   "finalized_on": "2026-10-09",
   "nuwa_phase05": "WORKSPACE_READY_NOT_RESEARCHED",
   "reading_contract_version": "R006-v1.0-FROZEN",
@@ -33,17 +33,5 @@
     "R086",
     "R089"
   ],
-  "continuation_policy_file": "AUTO_CONTINUATION_POLICY.md",
-  "current_round_partial_receipts": {
-    "book_slug": "tiexuecanming",
-    "read": "041-080",
-    "remaining": "NONE",
-    "round_evidence": "cangjie/reading/R010/tiexue_receipts.jsonl",
-    "source_original_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
-    "real_original_zip_test": "PASS",
-    "body_paragraphs": 2847,
-    "original_sha_locators": 60,
-    "private_to_remote_anchor_digest": "9fd05197",
-    "github_validation": "PENDING"
-  }
+  "continuation_policy_file": "AUTO_CONTINUATION_POLICY.md"
 }
