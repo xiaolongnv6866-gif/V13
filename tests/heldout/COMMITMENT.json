@@ -1,0 +1,34 @@
+{
+  "project": "V13",
+  "round": "R006",
+  "version": "v1",
+  "public_release": "COMMITMENT_ONLY",
+  "created_date": "2026-10-09",
+  "bank_case_count": 12,
+  "case_ids": [
+    "H001",
+    "H002",
+    "H003",
+    "H004",
+    "H005",
+    "H006",
+    "H007",
+    "H008",
+    "H009",
+    "H010",
+    "H011",
+    "H012"
+  ],
+  "plaintext_sha256": "c21debe39f5ce3246844a5c328e24744a7641cef9502e157d39ea12ec807c1ce",
+  "sealed_packet_sha256": "ca75ce26d3e80cff06df4b43d5b702ba36dcb30bc9d6a0d7945adf656551f9b0",
+  "cipher": "AES-256-GCM",
+  "aad": "V13-R006-HELDOUT-v1",
+  "key_stored_in_github": false,
+  "plaintext_stored_in_github": false,
+  "private_files_needed_to_unseal": [
+    "V13_R006_HELDOUT_ENCRYPTED.json",
+    "V13_R006_HELDOUT_RECOVERY_KEY.txt"
+  ],
+  "risk": "Current assistant authored tests; separate independent blind evaluator mandatory; sealed is not an independent evaluation",
+  "execution_status": "NOT_RUN"
+}

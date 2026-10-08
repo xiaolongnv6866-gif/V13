@@ -1,0 +1,19 @@
+name: V13 R006 frozen reading and heldout integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  frozen-contract:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate public evidence contract and synthetic rejection tests
+        run: python3 scripts/validate_r006_protocol.py
+      - name: Verify 89-round integrity and R006/R007 cursor
+        run: python3 scripts/validate_round_integrity.py

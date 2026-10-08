@@ -1,19 +1,18 @@
-# V13 权威进度｜R005 Phase0.5目录验收（2026-10-09）
+# V13 唯一权威进度（2026-10-09｜R006 IN_PROGRESS）
 
-|项目|真实状态|
+| 项目 | 真实状态 |
 |---|---|
-|当前轮次|**R006 / NOT_STARTED**（证据合同与保留盲测；未执行）|
-|最后通过|**R005**：Nuwa Phase0.5目录真实落地、原版全文/脚本原样复制、远程Git blob及所有检查成功|
-|轮次|固定89轮，**已通过5**，尚余84|
-|女娲 Phase0|APPROVED_THEME_STANDARD（R004用户授权）|
-|女娲 Phase0.5|WORKSPACE_READY_NOT_RESEARCHED；`nuwa/workspace/` 独立自包含的工具/规则/元数据，原著EPUB正文字节因版权仍外置|
-|Nuwa Phase1|NOT_STARTED；候选独立理论流派未核验|
-|研究底稿|12个NOT_STARTED槽位（6维+5主题slot+school map）；0有效调研报告|
-|原著章节|目录《晚明》571、《铁血残明》532；**文学全文审读0/1103**|
-|仓颉Stage0|NOT_STARTED / NOT_PASSED|
-|正式验收原创SKILL|**0**；workspace SKILL.md仅DRAFT_NOT_INSTALLED|
-|原版版本|Cangjie `a28de55ba881b9928956a55048f743f7a9e3b23e`; Nuwa `fe0374687037c4cc51a65c1e0c145afe2981dc69`|
-|旧研究|V10—V12导入0|
-|成本|未主动产生额外付费项目|
+| 当前唯一轮次 | **R006 / IN_PROGRESS** |
+| 上一通过 | R005（5/89通过） |
+| 本轮核心产物 | Stage0四类独立阅读计数合同、来源/反例锚点收据规范、12道原创私有加密保留盲测及GitHub公开指纹 |
+| 本轮测试 | GitHub Actions待确认（不能提前宣布PASS） |
+| 原著来源 | R002《晚明》571 +《铁血残明》532章，原著仅私有附件 |
+| 原著文学全文审读 | **0/1103**；目录映射/合成验收不计数 |
+| Cangjie Stage0 | NOT_PASSED；R042前不得宣称两书文学理解已验收 |
+| 女娲 | Phase0 APPROVED_THEME_STANDARD；Phase0.5工作区建好；Phase1未开始 |
+| 原创SKILL | 0认证 |
+| 盲测 | 12题预先AES加密封存，**未运行**；密钥不在GitHub，未来需独立评估 |
+| 已批准费用 | 不额外购买或启用新收费项目 |
+| V10—V12旧项目 | 0导入 |
 
-R005自动门经原版文件Git blob、Meta索引及目录语义独立验证通过；仅表明目录准备完成，不表明能阅读私人小说文本或Phase1已完成。GitHub远程回读要求仍必须满足方可最终称本轮PASSED。
+R006只冻结标准并自测否证器；不得以准备文件替代实际章节阅读、独立能力评测或调用最终SKILL。

@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/xiaolongnv6866-gif/V13/blob/main/tests/contracts/reading-receipt.schema.json",
+  "title": "V13 frozen R006 per-chapter evidence receipt",
+  "description": "A structural record; passing JSON Schema alone does not prove that an agent read or understood a book chapter. Production must verify exact private source and paragraph positions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "book_slug",
+    "narrative_ordinal",
+    "spine_index",
+    "epub_path",
+    "source_epub_sha256",
+    "chapter_sha256",
+    "mode",
+    "body_paragraph_count",
+    "observed_paragraph_count",
+    "anchors",
+    "event_chain",
+    "open_questions",
+    "mechanism_claims",
+    "fixture_only"
+  ],
+  "properties": {
+    "book_slug": {
+      "enum": [
+        "wanming",
+        "tiexuecanming"
+      ]
+    },
+    "narrative_ordinal": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 571
+    },
+    "spine_index": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "epub_path": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 512
+    },
+    "source_epub_sha256": {
+      "$ref": "#/$defs/sha"
+    },
+    "chapter_sha256": {
+      "$ref": "#/$defs/sha"
+    },
+    "mode": {
+      "enum": [
+        "INDEX_ONLY",
+        "STRUCTURAL_SAMPLE",
+        "FULL_TEXT_READ",
+        "CLOSE_READ"
+      ]
+    },
+    "body_paragraph_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "observed_paragraph_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "anchors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/anchor"
+      }
+    },
+    "event_chain": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mechanism_claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "fixture_only": {
+      "type": "boolean"
+    },
+    "reader_session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "round_id": {
+      "type": "string",
+      "pattern": "^R0(0[7-9]|[12][0-9]|3[0-5])$"
+    },
+    "paragraph_normalization": {
+      "type": "string",
+      "enum": [
+        "xhtml_visible_text_trim_whitespace_v1"
+      ]
+    }
+  },
+  "$defs": {
+    "sha": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "anchor_id",
+        "paragraph_index",
+        "paragraph_sha256",
+        "locator_note"
+      ],
+      "properties": {
+        "anchor_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "paragraph_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "paragraph_sha256": {
+          "$ref": "#/$defs/sha"
+        },
+        "locator_note": {
+          "type": "string",
+          "minLength": 2
+        },
+        "source_ref": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "book_slug",
+            "narrative_ordinal",
+            "chapter_sha256",
+            "epub_path"
+          ],
+          "properties": {
+            "book_slug": {
+              "enum": [
+                "wanming",
+                "tiexuecanming"
+              ]
+            },
+            "narrative_ordinal": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 571
+            },
+            "chapter_sha256": {
+              "$ref": "#/$defs/sha"
+            },
+            "epub_path": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim_id",
+        "claim_text",
+        "aspect",
+        "support_anchor_ids",
+        "counterexample_status",
+        "counterexample_anchor_ids",
+        "counterexample_search_note",
+        "alternative_rendering_loss",
+        "failure_boundary",
+        "confidence",
+        "verification_state"
+      ],
+      "properties": {
+        "claim_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim_text": {
+          "type": "string",
+          "minLength": 5
+        },
+        "aspect": {
+          "enum": [
+            "scene_entry_exit",
+            "pov_information",
+            "action_reaction",
+            "sentence_rhythm",
+            "dialogue_subtext",
+            "emotion_reader",
+            "causal_payoff",
+            "chapter_handoff",
+            "historical_constraints"
+          ]
+        },
+        "support_anchor_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "counterexample_status": {
+          "enum": [
+            "FOUND",
+            "SEARCHED_NONE",
+            "NOT_CHECKED"
+          ]
+        },
+        "counterexample_anchor_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "counterexample_search_note": {
+          "type": "string"
+        },
+        "alternative_rendering_loss": {
+          "type": "string",
+          "minLength": 5
+        },
+        "failure_boundary": {
+          "type": "string",
+          "minLength": 5
+        },
+        "confidence": {
+          "enum": [
+            "LOW",
+            "MEDIUM",
+            "HIGH"
+          ]
+        },
+        "verification_state": {
+          "enum": [
+            "HYPOTHESIS",
+            "PROVISIONAL",
+            "VERIFIED"
+          ]
+        }
+      }
+    }
+  }
+}
