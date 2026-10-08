@@ -1,16 +1,19 @@
-# V13 进度｜R005目录构建进行中｜2026-10-09
+# V13 权威进度｜R005 Phase0.5目录验收（2026-10-09）
 
-|项目|实际状态|
+|项目|真实状态|
 |---|---|
-|当前|**R005 / IN_PROGRESS**|
-|最近通过|R004，累计4/89|
-|Nuwa Phase0|APPROVED_THEME_STANDARD|
-|Nuwa Phase0.5|目录及全套原版支持文件已写入待远程校验树；不得提前宣布PASS|
-|可恢复研究空间|nuwa/workspace/：原版女娲完整SKILL、3参考、4脚本、MIT许可及主题文件槽位|
-|研究产出|0；12个NOT_STARTED占位文件，外部观点未实证|
-|小说阅读|**0/1103**（571+532为章节索引，不是文学审读）|
-|可用原创SKILL|**0**；骨架DRAFT_NOT_INSTALLED|
-|预算|未主动购买或使用额外付费API|
+|当前轮次|**R006 / NOT_STARTED**（证据合同与保留盲测；未执行）|
+|最后通过|**R005**：Nuwa Phase0.5目录真实落地、原版全文/脚本原样复制、远程Git blob及所有检查成功|
+|轮次|固定89轮，**已通过5**，尚余84|
+|女娲 Phase0|APPROVED_THEME_STANDARD（R004用户授权）|
+|女娲 Phase0.5|WORKSPACE_READY_NOT_RESEARCHED；`nuwa/workspace/` 独立自包含的工具/规则/元数据，原著EPUB正文字节因版权仍外置|
+|Nuwa Phase1|NOT_STARTED；候选独立理论流派未核验|
+|研究底稿|12个NOT_STARTED槽位（6维+5主题slot+school map）；0有效调研报告|
+|原著章节|目录《晚明》571、《铁血残明》532；**文学全文审读0/1103**|
+|仓颉Stage0|NOT_STARTED / NOT_PASSED|
+|正式验收原创SKILL|**0**；workspace SKILL.md仅DRAFT_NOT_INSTALLED|
+|原版版本|Cangjie `a28de55ba881b9928956a55048f743f7a9e3b23e`; Nuwa `fe0374687037c4cc51a65c1e0c145afe2981dc69`|
 |旧研究|V10—V12导入0|
+|成本|未主动产生额外付费项目|
 
-GitHub Actions自检、来源blob一致性与仓库回读通过后，才能在第二个原子提交将游标变为R006。
+R005自动门经原版文件Git blob、Meta索引及目录语义独立验证通过；仅表明目录准备完成，不表明能阅读私人小说文本或Phase1已完成。GitHub远程回读要求仍必须满足方可最终称本轮PASSED。
