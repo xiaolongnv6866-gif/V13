@@ -1,0 +1,11 @@
+# Never upload source novels or book excerpts
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.pdf
+**/__pycache__/
+*.pyc
+# Local ephemeral runtime
+.temp/
+.cache/
