@@ -28,6 +28,8 @@ for x in a:
 assert f"{h:08x}"=="41912408"
 s=json.loads((r/"CURRENT_ROUND.json").read_text())
 assert int(s["current_round"][1:])>=12
-assert s["full_text_read_chapters"]["tiexuecanming"]==(80 if s["current_round"]=="R012" else s["full_text_read_chapters"]["tiexuecanming"])
-assert s["full_text_read_chapters"]["tiexuecanming"]>=80
+if s["current_round"]=="R012":
+ assert s["full_text_read_chapters"]=={"wanming":120,"tiexuecanming":80}
+else:
+ assert s["full_text_read_chapters"]["wanming"]>=120 and s["full_text_read_chapters"]["tiexuecanming"]>=120
 print("PASS R012: 40 original chapters, 2745 paragraph counts, 64 source hashes, 12 focused literature cases")
