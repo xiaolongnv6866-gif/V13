@@ -1,0 +1,20 @@
+name: V13 R016 Tiexue 161-200 original literary evidence
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r016:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run frozen R006 evidence contract on R016 receipts
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R016/tiexue_receipts.jsonl
+      - name: R016 substantive receipt, source and print-heading integrity
+        run: python3 scripts/validate_r016_reading.py
+      - name: Check fixed 89 round controller
+        run: python3 scripts/validate_round_integrity.py

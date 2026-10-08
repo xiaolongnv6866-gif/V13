@@ -1,16 +1,12 @@
-# V13｜权威进度 R015《晚明》161—200正式PASS（2026-10-09）
-|事项|正式状态|
+# V13｜R016《铁血残明》有效叙事161—200 正在验收
+|事项|当前权威状态|
 |---|---|
-|唯一游标|**R016 / NOT_STARTED**，《铁血残明》161—200尚未启动|
-|最近完成|**R015 PASSED**，累计15/89轮|
-|《晚明》全文阅读|**200/571章**|
-|《铁血残明》全文阅读|**160/532章**|
-|正式合计|**360/1103章**|
-|R015来源|原用户私有EPUB SHA256 a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082；ZIP CRC和40章原成员SHA核对通过，2,137个原XHTML非空段|
-|R015收据|40独立章节记录，18 CLOSE_READ +22 FULL_TEXT_READ，76原文段落SHA定位，私有与GitHub收据摘要cf341ba9一致|
-|首次专项失败|原首批40收据event_chain错误写入数字，专项Action 37855207677失败；保留审计，后以commit c7aa341e424ece6eb922ff6da90779b919cf4cac修复|
-|实际GitHub Actions|修复提交R015专用Action 37855398920 与12个其他历史/全局工作流共**13项全部 completed/success**；本轮正式PASS状态提交 6e854ceedb749cdc5ec3ab3f7775b1c29b22a3b9 已远程回读通过，13 GitHub Actions completed/success，专项R015 run 37855557114|
-|三证据门|A原著来源真实性本地PASS；B局部文学机制PROVISIONAL，未完成整书Adler；C独立创作能力NOT_RUN|
-|原创SKILL|认证0；Nuwa Phase0.5已准备，Phase1未开始；R006保留盲测SEALED_NOT_RUN|
-|执行策略|MANUAL_USER_TRIGGER；R016不自动执行；禁止额外付费或上传小说完整原文|
-GitHub Actions的公开来源检查只属于SOURCE_STRUCTURE_ONLY，不能把程序检查通过误认为原著本身在公开仓库或独立创作效能已达标。
+|唯一游标|**R016 / IN_PROGRESS**；上一轮R015 PASSED|
+|正式已通过轮次|**15/89**；R016尚未通过，不能计入正式阅读|
+|已正式认证的原文阅读|《晚明》200/571＋《铁血残明》160/532＝**360/1103**|
+|R016私有原文证据|40有效章对应spine177—216、2510原XHTML非空段落、20 CLOSE_READ及20 FULL_TEXT_READ独立收据，80源段SHA锚点、私有FNV32 4c010a0b|
+|原始文件校验|原《铁血残明》EPUB SHA256 9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf；ZIP CRC None；章节SHA与R002一致|
+|文学审核|每章人物独立动机、信息和资源债务逐章可查；重要场面替代叙法与反例为PROVISIONAL，不称为全书规律|
+|质量检查|R016新Actions和全部历史回归尚未验收，因此本轮未PASSED|
+|知识能力门|A私有来源真实性可回查，B文学候选PROVISIONAL，C新创作任务增益NOT_RUN；原创SKILL认证0|
+|封存与调度|R006盲测SEALED_NOT_RUN，Nuwa Phase1未开始。MANUAL_USER_TRIGGER，一次只做R016。|
