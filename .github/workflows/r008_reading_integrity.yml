@@ -1,0 +1,20 @@
+name: V13 R008 Tiexue Canming reading integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  source-and-literature-evidence:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Original fixed R006 receipt contract (public structure only)
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R008/tiexue_receipts.jsonl
+      - name: Verify 40 substantive receipts, SHA locations and continued consistency
+        run: python3 scripts/validate_r008_reading.py
+      - name: Verify 89-round canonical cursor and coverage
+        run: python3 scripts/validate_round_integrity.py
