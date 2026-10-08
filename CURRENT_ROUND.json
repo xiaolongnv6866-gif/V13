@@ -3,7 +3,7 @@
   "plan_version": "13.0-fixed-89",
   "rounds_total": 89,
   "current_round": "R011",
-  "round_status": "NOT_STARTED",
+  "round_status": "IN_PROGRESS",
   "last_passed_round": "R010",
   "full_text_read_chapters": {
     "wanming": 80,
@@ -33,5 +33,14 @@
     "R086",
     "R089"
   ],
-  "continuation_policy_file": "AUTO_CONTINUATION_POLICY.md"
+  "continuation_policy_file": "AUTO_CONTINUATION_POLICY.md",
+  "current_round_partial_receipts": {
+    "book_slug": "wanming",
+    "actual_fully_observed_range": "081-087",
+    "remaining_unread_range": "088-120",
+    "paragraphs_observed": 343,
+    "source_sha256": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+    "receipt_file": "cangjie/reading/R011/wanming_081_087_checkpoint.jsonl",
+    "formal_round_counted_chapters": 0
+  }
 }
