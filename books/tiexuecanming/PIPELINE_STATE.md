@@ -7,7 +7,7 @@
 - stage0_current: R042_STAGE0_BOOK_OVERVIEW_USER_APPROVED_WITH_LEGACY_DEBT; whole_book_adler: PASSED_FOR_STAGE1_ENTRY_B_PROVISIONAL
 - book_overview: R042_USER_APPROVED; user_stage0_gate: PASSED_APPROVAL_LIMITED_TO_FRAMEWORK
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R053; current_round: R054 NOT_STARTED (manual trigger only)
+- last_passed_round: R054; current_round: R055 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -102,3 +102,9 @@
 
 - R053 PASSED 53/89; R054 V1 NOT_STARTED (manual trigger only). Tiexue original 96 Stage1 RAW candidates retained in complete source-scoped CANDIDATES_INDEX.md and R053_CANDIDATE_MATRIX.tsv; TX-01—TX-10 RAW 10/10 task links in TASK_COVERAGE_DRAFT.md. 177 distinct candidate-cited original p SHA positions and 130 same-paragraph candidate pairs recorded for later semantic adjudication, no automatic deletions. 23 cross-book analogies retain individual original sources and differing narrative contexts.
 - Evidence commit `e4d795c0e2dcdc7527a8746829a1505f7e425354` all 51/51 GitHub Actions SUCCESS including dedicated R053 [37959891334](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37959891334). SOURCE_STRUCTURE_ONLY; literary B PROVISIONAL; V1/V2/V3 NOT_STARTED; creative C NOT_RUN; certified Skill0, old 14 R042 claims quarantined, heldout SEALED_NOT_RUN. Nuwa Phase1 not started.
+
+
+## R054 Stage1.5 V1 source sufficient limited pass｜2026-10-10
+
+- R054 PASS 54/89; R055 V2 NOT_STARTED pending separate user manual trigger. Original-source V1 all 96 RAW IDs separately examined: 80 PASS restricted to original novel scene-supported facts, 16 REVIEW for cross-episode causal leaps, uncertain outcome, or history beyond fictional text; 0 directly disproven FAIL. Original EPUB source SHA+CRC pass, 177 separate n/p paragraph SHA evidence rechecked; books/tiexuecanming/validation/V1_SOURCE.md and V1_EVIDENCE.tsv recorded.
+- Evidence `a03e625a80054fffbd8375424c0c3f3e5a1145e2` all 52/52 Actions successful, dedicated R054 [37962195183](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37962195183); early failure kept in history. Public CI SOURCE_STRUCTURE_ONLY; B PROVISIONAL, C NOT_RUN; V2/V3 not begun, Skill0, legacy 14 quarantined, heldout SEALED.

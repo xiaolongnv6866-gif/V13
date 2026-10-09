@@ -340,3 +340,13 @@ R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回�
 - 严格按R042两个BOOK_OVERVIEW独立任务清单：WM-01—WM-09与TX-01—TX-10，共**19/19项只实现RAW候选关联**。每任务分别列出五提取器真实ID、数量及缺口。特别标记：WM-05敌方消息传播、WM-08家庭自主、WM-09回忆文本、TX-05组织异议、TX-06有限协同、TX-08普通人拒绝权、TX-10开放信用结尾，均不可因粗归并丢失。
 - 证据提交`e4d795c0e2dcdc7527a8746829a1505f7e425354`触发并通过**51/51 GitHub Actions全部SUCCESS**，R053专项 [37959891334](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37959891334) SUCCESS；技术公开CI仅SOURCE_STRUCTURE_ONLY，不能证明B文学解释准确，V1 R054尚未执行；V2 R055和V3 R056也NOT_STARTED，C NOT_RUN，技能数0，R042旧14条问题仍OPEN_QUARANTINED且禁止直接晋级，密封heldout未开启。
 - 正式 R053 PASSED，**53/89**；下一轮**R054 NOT_STARTED**（Stage1.5 V1来源充分性逐项核验），须另一次用户手动『继续』才能启动，不运行R054或后续Nuwa。
+
+
+## R054｜Cangjie Stage1.5 V1两书逐候选原文来源充分性（2026-10-10）
+
+- 由新的用户手动『继续』从正式 main `35c20016f69d3fbae30715d4b58d4b9ef72616f2`、R054 NOT_STARTED、53/89恢复。已读取固定版Cangjie Stage1.5 V1全文、Nuwa固定SKILL、R042两个BOOK_OVERVIEW的19项独立任务与R053保留的187项原始候选，未运行R055/R056的全新合法输入和增益对照。
+- 私有原著两本EPUB真实SHA256/ZIP CRC PASS，OPF原生叙事序号共571+532章；逐原始段落核对**《晚明》145处＋《铁血残明》177处，共322个不同原文SHA**，均与GitHub旧五提取器的证据TSV一致。公开GitHub Actions只能查SOURCE_STRUCTURE_ONLY，不冒充文学B和历史史料经外证。
+- 每一条候选均有单独`V1_SOURCE.md`段落及`V1_EVIDENCE.tsv`行，保留原ID、title、来源路径、n/p及段落SHA、原始候选观察、V1 PASS/REVIEW/FAIL、具体支持或缺口和失效边界；**《晚明》68 PASS／23 REVIEW；《铁血残明》80 PASS／16 REVIEW；两书148限定来源PASS／39待核REVIEW／0可证直接反例FAIL**。PASS只是限定小说文本支持，不是作者普遍规则、不是史实、不是可执行Skill；所有REVIEW不可晋级。
+- 高风险反向证据：WM n143正确会议结果、n305只阶段财务同意、n520只有限试点、n571说书版本并未抹去旧现场；TX n114仓空却有临时补给、n315磋商受阻而n485有限同意、n361被问责后有口头澄清、n526提议虚报实际被拒绝、n532末尾只写承诺尚无履约结局。缺乏跨场景连续因果的候选没有强行PASS。
+- 最初证据commit `aee1bb62154925bd4c0f57b1d5596d73ed14dafc` 的R054专项 [37962032581](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37962032581) FAILED，具体是16项V1 REVIEW理由少于最低长度28字。保留失败历史；仅补齐各条原始场景、SHA定位和具体判停，不删减校验要求。修正证据commit `a03e625a80054fffbd8375424c0c3f3e5a1145e2`的**52/52 GitHub Actions全SUCCESS**，R054专项 [37962195183](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37962195183) SUCCESS。
+- 项目文学B仍`PROVISIONAL`，原创C`NOT_RUN`，认证SKILL0，R042旧14条历史错误主张`OPEN_QUARANTINED`不晋级，盲测`SEALED_NOT_RUN`。正式轮次R054 PASSED **54/89**，下一轮R055 V2 `NOT_STARTED`，必须等待下一次手动触发；本轮绝不执行R055。

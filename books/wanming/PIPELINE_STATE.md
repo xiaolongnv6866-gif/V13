@@ -7,7 +7,7 @@
 - stage0_current: R042_STAGE0_BOOK_OVERVIEW_USER_APPROVED_WITH_LEGACY_DEBT; whole_book_adler: PASSED_FOR_STAGE1_ENTRY_B_PROVISIONAL
 - book_overview: R042_USER_APPROVED; user_stage0_gate: PASSED_APPROVAL_LIMITED_TO_FRAMEWORK
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R053; current_round: R054 NOT_STARTED (manual trigger only)
+- last_passed_round: R054; current_round: R055 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 and R007 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -100,3 +100,9 @@ Formal expected controller after GitHub CI and remote readback: R047 PASSED, rou
 
 - R053 PASSED **53/89**, R054 V1 SOURCE SUFFICIENCY NOT_STARTED, manual trigger required. This book 91 original Stage1 RAW candidates preserved with source IDs/paths/locators in CANDIDATES_INDEX.md + R053_CANDIDATE_MATRIX.tsv; task coverage WM-01..09 RAW 9/9 and gaps in TASK_COVERAGE_DRAFT.md. 145 distinct original n/p source coordinates across candidates, 154 pairs share at least one exact locus, recorded in R053_SOURCE_OVERLAPS.tsv without destructive dedup. Crossbook links 23 provisional relationships with independent TX sources in books/R053_CROSS_BOOK_LINKS.tsv.
 - Evidence commit `e4d795c0e2dcdc7527a8746829a1505f7e425354` all 51/51 GitHub Actions success, R053 [37959891334](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37959891334). Private EPUB SHA matched; CI SOURCE_STRUCTURE_ONLY; literary B PROVISIONAL, V1/V2/V3 NOT_STARTED, C NOT_RUN, skill0, old14 quarantined OPEN_QUARANTINED, heldout SEALED. No author’s novel text uploaded or verified SKILL generated. Historical earlier status snapshots below remain archival and should not supersede authority state.
+
+
+## R054 Stage1.5 V1 source sufficient limited pass｜2026-10-10
+
+- R054 PASS 54/89; R055 V2 NOT_STARTED pending next manual user message. Original-source V1 per 91 candidate IDs: 68 PASS limited to anchored scene-supported contents and 23 REVIEW with precise missing causal or factual outcomes, 0 direct contradiction FAIL. Unique source n/p positions 145 private rehash confirmed against original EPUB and repo source TSV; output validation/V1_SOURCE.md and V1_EVIDENCE.tsv. R042 14 bad old claims remain NO_DIRECT_PROMOTION.
+- Evidence `a03e625a80054fffbd8375424c0c3f3e5a1145e2` all 52/52 Actions successful including R054 [37962195183](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37962195183), initial failed run kept for audit. Public SOURCE_STRUCTURE_ONLY; book literary B PROVISIONAL; V2/V3 NOT_STARTED, C NOT_RUN, Skill0, heldout SEALED. Prior historic statuses lower in this file are archival.
