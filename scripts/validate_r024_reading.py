@@ -33,8 +33,9 @@ for r,s in zip(receipts,source):
         close+=1
         check(len(r["mechanism_claims"])>=1,f"{n} missing close analysis")
         for c in r["mechanism_claims"]:
-            check(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"]=="SEARCHED_NONE",f"{n} overclaim")
+            check(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n} overclaim")
             check(len(c["alternative_rendering_loss"])>=35 and len(c["failure_boundary"])>=35,f"{n} weak interpretation")
+            check(c["counterexample_status"]!="FOUND" or bool(c["counterexample_anchor_ids"]),f"{n} FOUND requires anchored contrary evidence")
     for a in aa:
         for ch in f'{n}/{a["paragraph_index"]}/{a["paragraph_sha256"]}\n':
             d=((d^ord(ch))*16777619)&0xffffffff
@@ -44,6 +45,11 @@ for r,s in zip(receipts,source):
 check((body,anchors,close)==(2220,80,20),"40 chapters 2220 paragraphs 80 original locators 20 close required")
 check(f"{d:08x}"=="12642d3d","private paragraph sequence FNV mismatch")
 check(f"{m:08x}"=="8dd29619","frozen member sequence FNV mismatch")
+# Diversity screen catches the R024 recorded copy-paste failure, but is NOT a semantic literary judge.
+claims=[r["mechanism_claims"][0] for r in receipts if r["mode"]=="CLOSE_READ"]
+check(len({c["failure_boundary"] for c in claims})>=16,"R024 too many repeated generic failure boundaries")
+check(len({c["counterexample_search_note"] for c in claims})>=16,"R024 too many repeated counterexample searches")
+check(len(set(c["aspect"] for c in claims))>=6,"R024 close studies ignore major literary aspects")
 for path in ("cangjie/reading/tiexue_321_360.md","cangjie/reading/R024/tiexue_continuity.md","cangjie/reading/R024/LOCAL_SOURCE_VERIFICATION.md","runs/R024.md"):
     check((root/path).is_file(),"missing "+path)
 state=json.loads((root/"CURRENT_ROUND.json").read_text(encoding="utf-8"))

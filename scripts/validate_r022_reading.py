@@ -44,7 +44,7 @@ for r,i in zip(receipts,source):
         close+=1
         ck(len(r["mechanism_claims"])>=1,f"{n} CLOSE_READ lacks scene mechanism")
         for c in r["mechanism_claims"]:
-            ck(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"]=="SEARCHED_NONE",f"{n} unearned VERIFIED status")
+            ck(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n} unearned VERIFIED status")
             ck(set(c["support_anchor_ids"])<={a["anchor_id"] for a in aa},f"{n} ungrounded support")
             ck(len(c["alternative_rendering_loss"])>=35 and len(c["failure_boundary"])>=35,f"{n} lacks counterfactual or failure-boundary")
     for a in aa:
