@@ -1,0 +1,18 @@
+name: V13 R039 Tiexue original full-book Adler structural integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r039:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: R039 actual source-grounded structural hypothesis source-only audit
+        run: python3 scripts/validate_r039_structure.py
+      - name: Frozen V13 89-round controller
+        run: python3 scripts/validate_round_integrity.py
