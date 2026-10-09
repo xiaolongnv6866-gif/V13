@@ -3,11 +3,11 @@
 - original_epub_sha256: 9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf
 - expected_narrative_chapters: 532
 - round_R002_official_source_validation: PASSED (R002 original OPF/spine/CRC/SHA verified)
-- official_full_text_read_chapters: 520 (source CURRENT_ROUND.json; R032 Tiexue original narrative481—520 privately verified)
+- official_full_text_read_chapters: 532 (source CURRENT_ROUND.json; R032 Tiexue original narrative481—520 privately verified)
 - stage0_current: PARTIAL_BOOK_READING; whole_book_adler: NOT_STARTED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R033; current_round: R034 NOT_STARTED (manual trigger only)
+- last_passed_round: R034; current_round: R035 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -33,3 +33,5 @@
 - R033 studies Wanming only; Tiexue remains 520, R033 IN_PROGRESS, no early promotion.
 
 - R033 studied Wanming only. Tiexue stays 520 chapters; next R034 remains NOT_STARTED until manual request.
+
+- R034 FORMAL PASS: Tiexue all 532/532 original narrative chapters individually read, final12 source SHA and 38 paragraph anchors checked privately; 32/32 evidence CI SUCCESS; B PROVISIONAL, C NOT_RUN, Stage0 whole-book Adler overview and user R042 gate not yet complete. R035 is Wanming only; no automatic next round.

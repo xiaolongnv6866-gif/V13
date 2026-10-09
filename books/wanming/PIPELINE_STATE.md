@@ -7,7 +7,7 @@
 - stage0_current: PARTIAL_BOOK_READING; whole_book_adler: NOT_STARTED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R033; current_round: R034 NOT_STARTED (manual trigger only)
+- last_passed_round: R034; current_round: R035 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 and R007 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -33,3 +33,5 @@
 - R033 staged evidence only: original Wanming 521-560 private chapter receipts complete; official Wanming total retains 520 until CI and GitHub formal PASS, B PROVISIONAL, C NOT_RUN.
 
 - R033 completed evidence: Wanming 40 original chapters 521-560, public validation 31/31 Actions success; original source privately verified; B PROVISIONAL C NOT_RUN. New official count is 560; next R034 requires manual trigger.
+
+- R034 completed all 12 remaining Tiexue narrative chapters; Wanming remains official 560/571. R035 Wanming 561–571 remains NOT_STARTED, pending manual user trigger. B PROVISIONAL, C NOT_RUN; whole-book Adler and R042 confirmation pending.
