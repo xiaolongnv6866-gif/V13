@@ -3,11 +3,11 @@
 - original_epub_sha256: 9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf
 - expected_narrative_chapters: 532
 - round_R002_official_source_validation: PASSED (R002 original OPF/spine/CRC/SHA verified)
-- official_full_text_read_chapters: 532 (source CURRENT_ROUND.json; R032 Tiexue original narrative481—520 privately verified)
-- stage0_current: PARTIAL_BOOK_READING; whole_book_adler: NOT_STARTED
+- official_full_text_read_chapters: 532 (source CURRENT_ROUND.json; all OPF effective narrative chapters now have registered full-reading receipts, not independent literary certification)
+- stage0_current: FULL_TEXT_COVERAGE_COMPLETE_ADLER_NOT_DONE; whole_book_adler: NOT_STARTED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R034; current_round: R035 IN_PROGRESS (manual trigger only)
+- last_passed_round: R035; current_round: R036 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -37,3 +37,5 @@
 - R034 FORMAL PASS: Tiexue all 532/532 original narrative chapters individually read, final12 source SHA and 38 paragraph anchors checked privately; 32/32 evidence CI SUCCESS; B PROVISIONAL, C NOT_RUN, Stage0 whole-book Adler overview and user R042 gate not yet complete. R035 is Wanming only; no automatic next round.
 
 - R035 partial remote checkpoint: local original Wanming561-571 evidence exists and private source verified, remote evidence and Actions pending. Official chapter counts unchanged. Never mark complete until original 14-file research pack, R006/R035 and all Actions verify.
+
+- R035 FORMAL_PASS: Wanming561–571 last11 original narrative chapters fully read and source-checked locally; 35 positions, 11 close analyses, 731 paragraphs; evidence 07049600 33/33 GitHub Actions SUCCESS including R035 dedicated. Official completed: Wanming571/571 and Tiexue532/532. This is full narrative reading coverage only, **not** a passed Cangjie Adler whole-book BOOK_OVERVIEW, not R042 user sign-off, not tested Nuwa skills. B PROVISIONAL, C NOT_RUN. R036 awaiting new manual trigger.

@@ -3,11 +3,11 @@
 - original_epub_sha256: a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082
 - expected_narrative_chapters: 571
 - round_R002_official_source_validation: PASSED (R002 original OPF/spine/CRC/SHA verified)
-- official_full_text_read_chapters: 560 (source CURRENT_ROUND.json; R030 Tiexue 441—480 original private-source evidence)
-- stage0_current: PARTIAL_BOOK_READING; whole_book_adler: NOT_STARTED
+- official_full_text_read_chapters: 571 (source CURRENT_ROUND.json; all OPF effective narrative chapters now have registered full-reading receipts, not independent literary certification)
+- stage0_current: FULL_TEXT_COVERAGE_COMPLETE_ADLER_NOT_DONE; whole_book_adler: NOT_STARTED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R034; current_round: R035 IN_PROGRESS (manual trigger only)
+- last_passed_round: R035; current_round: R036 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 and R007 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -37,3 +37,5 @@
 - R034 completed all 12 remaining Tiexue narrative chapters; Wanming remains official 560/571. R035 Wanming 561–571 remains NOT_STARTED, pending manual user trigger. B PROVISIONAL, C NOT_RUN; whole-book Adler and R042 confirmation pending.
 
 - R035 partial remote checkpoint: local original Wanming561-571 evidence exists and private source verified, remote evidence and Actions pending. Official chapter counts unchanged. Never mark complete until original 14-file research pack, R006/R035 and all Actions verify.
+
+- R035 FORMAL_PASS: Wanming561–571 last11 original narrative chapters fully read and source-checked locally; 35 positions, 11 close analyses, 731 paragraphs; evidence 07049600 33/33 GitHub Actions SUCCESS including R035 dedicated. Official completed: Wanming571/571 and Tiexue532/532. This is full narrative reading coverage only, **not** a passed Cangjie Adler whole-book BOOK_OVERVIEW, not R042 user sign-off, not tested Nuwa skills. B PROVISIONAL, C NOT_RUN. R036 awaiting new manual trigger.
