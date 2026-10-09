@@ -1,0 +1,27 @@
+{
+  "id": "WM-02",
+  "scene_A": "周禾要贴欠款户姓名来催修桥捐助，姚湛说贫户家中正困难，拒绝签字。公告因此撤下，两人仍得一同做账，却都不再如往日那样说笑。",
+  "scene_B": "周禾第二天把匿名统计带来，要求姚湛解释筹款变慢的缘由。姚湛愿意负责解释，却不改反对公开贫户姓名的主张。两人继续合作，争执没被抹去。",
+  "state_contract": "周禾=催进度；姚湛=护隐私；拒绝=撤名单；合作=继续；关系债务=未消。",
+  "unknowns": "捐款是否因此增加仍未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "两种伦理理由都可辨认",
+      "observed_anchor": "贴欠款户姓名"
+    },
+    {
+      "criterion": "拒绝改变行动",
+      "observed_anchor": "拒绝签字"
+    },
+    {
+      "criterion": "保留长期关系负担",
+      "observed_anchor": "关系债务=未消"
+    }
+  ],
+  "candidate_ids": [
+    "WM-f02",
+    "WM-p01"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

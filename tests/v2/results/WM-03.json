@@ -1,0 +1,28 @@
+{
+  "id": "WM-03",
+  "scene_A": "顾遥出示新官帖，旧署却说钥匙仍归他们；两名文书和现存纸张都不足以誊写全册。上级只允许他先编公开目录，不批准调取封存账。",
+  "scene_B": "顾遥把七日交全册改成七日交目录草稿，并在缺纸请拨栏写上未批。他主动向公众告知可查的只是索引，不让书面任命掩盖实际缺口。",
+  "state_contract": "官名=已领；人员=两人；纸张=不足；库钥=旧署；全册权限=未获；产物=目录草稿。",
+  "unknowns": "转交钥匙与拨纸结果未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "名义与实权分离",
+      "observed_anchor": "钥匙仍归他们"
+    },
+    {
+      "criterion": "人财物承诺四项分开",
+      "observed_anchor": "纸张=不足"
+    },
+    {
+      "criterion": "限定同意和未结事",
+      "observed_anchor": "全册权限=未获"
+    }
+  ],
+  "candidate_ids": [
+    "WM-f06",
+    "WM-p12",
+    "WM-p08"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

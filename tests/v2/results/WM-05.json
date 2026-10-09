@@ -1,0 +1,28 @@
+{
+  "id": "WM-05",
+  "scene_A": "北岸记录员只量到新的水痕，南岸织户听别人说桥已修好。她背包走到村口，因巡检使者未回而停下，没有把传言当成亲眼核实。",
+  "scene_B": "北岸的报告只写看到的水痕，并不知道南岸人已经备车。织户又听见相反说法，索性延迟出行，两岸人物此刻都不能代替巡检报告安全。",
+  "state_contract": "北岸亲见=水痕；南岸来源=传闻；彼此信息=不通；桥是否安全=未查明；出行=暂缓。",
+  "unknowns": "使者结论尚未给出。",
+  "criteria_proofs": [
+    {
+      "criterion": "两种视角不共享信息",
+      "observed_anchor": "北岸记录员只量到"
+    },
+    {
+      "criterion": "亲见/转闻/未知分明",
+      "observed_anchor": "北岸亲见=水痕"
+    },
+    {
+      "criterion": "不能伪造桥安全结论",
+      "observed_anchor": "桥是否安全=未查明"
+    }
+  ],
+  "candidate_ids": [
+    "WM-f08",
+    "WM-p07",
+    "WM-p19"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

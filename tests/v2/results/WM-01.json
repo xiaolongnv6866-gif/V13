@@ -1,0 +1,28 @@
+{
+  "id": "WM-01",
+  "scene_A": "沈白把地图给商人看，商人夸他本领高，愿意举荐。但簿房文书说户籍还没核实，只许他暂时誊写公开目录，不许碰旧册。",
+  "scene_B": "库房人握着钥匙问授权何在。沈白拿出商人荐书，被告知称赞不等于批示；主事留座让他学习，库册开封一栏依旧空白。",
+  "state_contract": "商人认可=已发生；身份核实=待核；临时誊写=准许；库册权限=未授权。",
+  "unknowns": "正式录用与户籍最终核实未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "多见证人判断不同",
+      "observed_anchor": "商人夸他"
+    },
+    {
+      "criterion": "资格、赞许、权限分别留痕",
+      "observed_anchor": "身份核实=待核"
+    },
+    {
+      "criterion": "申请不等获得职权",
+      "observed_anchor": "库册权限=未授权"
+    }
+  ],
+  "candidate_ids": [
+    "WM-f01",
+    "WM-p08",
+    "WM-p03"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

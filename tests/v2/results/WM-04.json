@@ -1,0 +1,28 @@
+{
+  "id": "WM-04",
+  "scene_A": "陶匠晏桥得到魏商月末付款的订单，却不能拿那笔未来钱立即买灯油。许商肯现付但报价低，晏桥卖给他十盏，同时告知村里眼下照明须缩减。",
+  "scene_B": "魏商订单未被晏桥擅改，他决定分别问魏商是否愿改期、问许商是否愿多收。两种买卖选择都不是免费的捷径，村活动仍面临油不足。",
+  "state_contract": "预计到款=月末；现款=十盏；可交灯=有限；当前灯油=不足；改期=未获同意。",
+  "unknowns": "魏商最终付款和剩余交货未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "预测与现款不等",
+      "observed_anchor": "报价低"
+    },
+    {
+      "criterion": "两商人自主选择",
+      "observed_anchor": "现款=十盏"
+    },
+    {
+      "criterion": "可见选择代价",
+      "observed_anchor": "当前灯油=不足"
+    }
+  ],
+  "candidate_ids": [
+    "WM-f04",
+    "WM-p05",
+    "WM-p12"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}
