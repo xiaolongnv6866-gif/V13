@@ -1,0 +1,20 @@
+name: V13 R031 Wanming 481-520 original narrative integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r031:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate frozen R006 protocol using structure only
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R031/wanming_receipts.jsonl
+      - name: R031 source-anchored chapter and scene research audit
+        run: python3 scripts/validate_r031_reading.py
+      - name: Round integrity
+        run: python3 scripts/validate_round_integrity.py
