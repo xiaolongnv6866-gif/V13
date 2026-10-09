@@ -116,3 +116,8 @@ Original evidence commit `992dff3b` had 29/29 completed successful GitHub Action
 - Remote reread: `CURRENT_ROUND.json` is R033 NOT_STARTED, `last_passed_round=R032`, `rounds_completed=32`, `full_text_read_chapters` Wanming520/Tiexue520 = **1040/1103**; `ROUND_LEDGER.csv` R032 PASSED/R033 NOT_STARTED, both book pipeline states match.
 - Private original EPUB, all 40 member SHA values and all 82 paragraph SHA values verified locally; public CI is SOURCE_STRUCTURE_ONLY. Literary B PROVISIONAL and original writing C NOT_RUN; certified Skills 0, whole-book Adler/R042 unpassed, Nuwa Phase1 not begun; no R033 was run.
 - This audit adds a history-only note. Its own triggered CI must also be verified. Previous PARTIAL/IN_PROGRESS paragraphs above describe earlier chronological checkpoints, not the current state.
+
+
+## R033 source-evidence staging, NOT PASSED — 2026-10-09
+
+True source work from original private Wanming EPUB narrative521–560: 40 full XHTML chapters/1892 paragraphs/147774 visible characters. Twenty close scene interpretations, 82 actual body paragraph SHA locators and 2 source-ref cross chapter counterexamples. Original private CRC/full-file/member/anchor check passed; public workflow only verifies SOURCE_STRUCTURE_ONLY. Evidence staged on GitHub with research receipts, literary contrast analyses, source indexes, validator and new r033 workflow. Official reads held Wanming520/Tiexue520=1040/1103 and 32/89, R033 IN_PROGRESS until all CI and remote PASS. A private authenticated, B PROVISIONAL, C NOT_RUN; Adler whole-book and R042 user confirmation not passed. No R034.
