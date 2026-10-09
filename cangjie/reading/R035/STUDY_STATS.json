@@ -1,0 +1,16 @@
+{
+  "round_id": "R035",
+  "source_epub_sha": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+  "chapters": 11,
+  "paragraphs": 731,
+  "visible_characters": 45872,
+  "close_read_chapters": 11,
+  "sha_anchors": 35,
+  "cross_chapter_counterexamples": 2,
+  "original_member_fnv": "424a2d84",
+  "paragraph_anchor_fnv": "e7521f1b",
+  "A": "PRIVATE_SOURCE_SHA_VERIFIED",
+  "B": "PROVISIONAL",
+  "C": "NOT_RUN",
+  "remote_pass": false
+}
