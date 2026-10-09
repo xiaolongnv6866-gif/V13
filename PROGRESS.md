@@ -311,3 +311,13 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 ### R050正式提交后发现旧R049 validator游标封顶错误（2026-10-09）
 
 R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回读 R050 PASSED/R051 NOT_STARTED/50轮，但其48项Actions有47项SUCCESS，**旧R049专项 [37955646345](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37955646345) FAILURE**：R049时代原校验脚本限定current_round只能R049或R050，造成合法R051触发兼容性失败。保留失败历史；修复仅限两个原始Stage1校验器的未来游标上界，保留全部原书SHA、候选完整性、任务与质量债要求。修复提交需重新48/48全绿方结束本轮，不执行R051。
+
+
+## R051｜《铁血残明》Stage1反例提取器独立完成（2026-10-10）
+
+- 本次用户新一次『继续』只授权当前R051。起始GitHub HEAD `cb8f22767dcde6aff842fb6600cb15b5b514da08`，R050 PASSED、50/89、R051 NOT_STARTED；重新完整读取固定原版Cangjie SKILL、Stage1方法、Counter-Example Extractor及Nuwa SKILL和两书批准框架；无五Task并行条件，按原版隔离串行只做反例，未运行R052术语。
+- 用户私有EPUB SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`和ZIP CRC真实PASS，OPF 532章、33,278个非空正文段和2,087,501字符，重用R050私有958个真实源chunk/SQLite FTS5索引，不重用R050案例解释。独立负向关键词召回、邻接段扩大复核，形成21条不同的RAW反例候选ce01—ce21、67处不可逆真实原文段落SHA、来自24个真实章/27个用过的chunk，其中41处锚点没有在此前R048/R049/R050的定位表登记。
+- `books/tiexuecanming/candidates/counter-examples.md`严格使用原版failure_mode/mechanism/warning_signs/bound_to等原始字段，每一项逐条区分OBSERVED_FAILURE、CHARACTER_DISAGREEMENT、ANTICIPATED_RISK、PARTIAL_SUCCESS、OUTCOME_NOT_SHOWN等。n114仓库空但有临时替代、n315合作不成却n485有条件同意、n361解释权责不等于长期有效、n526虚报建议被拒绝、n532只有金额落笔未提供兑付结果；不制造小说未写的结局。原著版权全文不上传，原版source_quote公开版空值并附源SHA。
+- TX-01—TX-10全部仅有**原始候选关联**，六个研究叙事弧均有直接原始来源；来源SHA真实性不代替文学解释B与原创新题C，阶段1.5三重验证仍NOT_STARTED。历史14项旧问题仍NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE。现实政治/军务/金融危险做法不被提取成实施指南。
+- 证据提交 `c5588e70d98baa9474ed4fa21eea73a354dca685` 已经经过**49/49 GitHub Actions全部SUCCESS**，专属R051 [37956968094](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37956968094) 成功，失败历史不删除。公开CI仅SOURCE_STRUCTURE_ONLY；文学B PROVISIONAL，原创C NOT_RUN，技能认证0，heldout SEALED_NOT_RUN。
+- 正式标记R051 PASSED、**51/89**，下一轮 **R052 NOT_STARTED**。下次另一次手动『继续』才可进行《铁血残明》术语提取器；本轮不启动R052。

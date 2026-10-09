@@ -7,7 +7,7 @@
 - stage0_current: R042_STAGE0_BOOK_OVERVIEW_USER_APPROVED_WITH_LEGACY_DEBT; whole_book_adler: PASSED_FOR_STAGE1_ENTRY_B_PROVISIONAL
 - book_overview: R042_USER_APPROVED; user_stage0_gate: PASSED_APPROVAL_LIMITED_TO_FRAMEWORK
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R050; current_round: R051 NOT_STARTED (manual trigger only)
+- last_passed_round: R051; current_round: R052 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -82,3 +82,10 @@
 - 原书EPUB SHA+CRC原始校验PASS，OPF n001—n532 33,278非空body/p及2,087,501字符，原文自行索引958私有结构块（SQLite FTS5 trigram），16个真正原文章节邻接核对，54个真实段落SHA（33个R048+R049未曾登记的新定位）、17源块。案例c01—c16都是明确虚构的fictional_narrative_case，而非作者真实firsthand/reported_case/演算例题，枚举扩展REQUIRES_STAGE1_5_REVIEW。全部TX-01—TX-10研究任务候选关联但未通过V1/V2/V3。
 - 初次专项run 37955251570 FAIL（缺PROVISIONAL字面标记），修复后证据SHA 28528936f4d7a7c1e73224ece2a9323729e31812 的全部48/48 GitHub Actions SUCCESS，专属run [37955366305](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37955366305)。公开CI仅SOURCE_STRUCTURE_ONLY，文学B PROVISIONAL、原创C NOT_RUN、技能0；旧14条问题仍隔离，heldout SEALED，历史债OPEN_QUARANTINED。
 - 正式R050 PASSED，50/89，R051 NOT_STARTED（须另一次手动继续）。Stage1 Tiexue已完成framework、principle、case三路RAW，剩余counterexample、glossary尚未执行；Nuwa Phase1、Cangjie Stage1.5仍未执行。
+
+
+## R051 independent counter-example extractor｜2026-10-10
+
+- Official R051 PASSED 51/89; R052 glossary NOT_STARTED manual trigger required. Tiexue Stage1 framework/principle/case/counterexample four RAW extractors completed, glossary not started. No Stage1.5 tests.
+- Private exact EPUB SHA256 and CRC PASS, OPF 532 narrative chapters, 33,278 body paragraphs, 2,087,501 original characters; 958 private source chunks FTS5 reused for independent negative queries and scene inspection (not copied prior case conclusions). 21 ce RAW candidates, 67 original paragraph SHA anchors, 24 source chapters, 27 used source chunks; 41 newly located relative to R048/R049/R050. Coverage TX-01..TX-10 and all six research arcs only RAW.
+- Evidence commit `c5588e70d98baa9474ed4fa21eea73a354dca685` 49/49 Actions SUCCESS including R051 [37956968094](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37956968094). Public SOURCE_STRUCTURE_ONLY; B PROVISIONAL, C NOT_RUN, Skill0, old 14 R042 claims NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE, heldout SEALED. R052 not executed.
