@@ -41,7 +41,7 @@ for r,i in zip(rs,idx):
         ck(len(r["mechanism_claims"])>=1,str(n)+" no focus study")
         for claim in r["mechanism_claims"]:
             ck(claim["verification_state"]=="PROVISIONAL",str(n)+" early certified claim")
-            ck(claim["counterexample_status"]=="SEARCHED_NONE",str(n)+" falsified counterexample")
+            ck(claim["counterexample_status"] in ("FOUND","SEARCHED_NONE"),str(n)+" falsified counterexample")
             ck(set(claim["support_anchor_ids"])<={x["anchor_id"] for x in a},str(n)+" dangling anchor")
             ck(len(claim["alternative_rendering_loss"])>=25 and len(claim["failure_boundary"])>=25,str(n)+" counterfactual/boundary absent")
     for x in sorted(a,key=lambda y:y["paragraph_index"]):

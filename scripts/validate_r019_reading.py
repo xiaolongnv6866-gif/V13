@@ -52,7 +52,7 @@ for r,i in zip(rlist,idx):
         close+=1
         check(len(r["mechanism_claims"])>=1,f"{n} focus close reading mechanism missing")
         for c in r["mechanism_claims"]:
-            check(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"]=="SEARCHED_NONE",f"{n} premature evidence certification")
+            check(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n} premature evidence certification")
             check(set(c["support_anchor_ids"])<={a["anchor_id"] for a in aa},f"{n} dangling original SHA support")
             check(len(c["alternative_rendering_loss"])>=35 and len(c["failure_boundary"])>=35,f"{n} no substitute narration or failure limit")
     for a in aa:

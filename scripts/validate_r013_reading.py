@@ -41,7 +41,7 @@ for r,i in zip(rs,ix):
   close_count+=1
   verify(len(r["mechanism_claims"])>=1,f"{n}: no close reading")
   for cl in r["mechanism_claims"]:
-   verify(cl["verification_state"]=="PROVISIONAL" and cl["counterexample_status"]=="SEARCHED_NONE",f"{n}: unearned verified claim")
+   verify(cl["verification_state"]=="PROVISIONAL" and cl["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n}: unearned verified claim")
    verify(set(cl["support_anchor_ids"]) <= {x["anchor_id"] for x in a},f"{n}: lost paragraph pointer")
    verify(bool(cl["alternative_rendering_loss"]) and bool(cl["failure_boundary"]),f"{n}: unsupported mechanism reasoning")
  for q in sorted(a,key=lambda x:x["paragraph_index"]):

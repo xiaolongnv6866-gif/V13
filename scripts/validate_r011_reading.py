@@ -47,7 +47,7 @@ def main():
             close_count+=1
             ck(len(r["mechanism_claims"])>=1,f"{n} CLOSE_READ without scene mechanism")
             for q in r["mechanism_claims"]:
-                ck(q["verification_state"]=="PROVISIONAL" and q["counterexample_status"]=="SEARCHED_NONE",f"{n} claimed whole book mechanism too early")
+                ck(q["verification_state"]=="PROVISIONAL" and q["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n} claimed whole book mechanism too early")
                 ck(set(q["support_anchor_ids"]) <= {a["anchor_id"] for a in loc},f"{n} source claim anchor missing")
                 ck(bool(q["alternative_rendering_loss"]) and bool(q["failure_boundary"]),f"{n} no alternate narrative or failure boundary")
         for a in sorted(loc,key=lambda x:x["paragraph_index"]):

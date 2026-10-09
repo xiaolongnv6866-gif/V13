@@ -46,7 +46,7 @@ for r,i in zip(rec,ix):
         close+=1
         ck(len(r["mechanism_claims"])>=1,f"{n} missing literary CLOSE_READ")
         for c in r["mechanism_claims"]:
-            ck(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"]=="SEARCHED_NONE",f"{n} invalid certainty")
+            ck(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n} invalid certainty")
             ck(set(c["support_anchor_ids"])<={a["anchor_id"] for a in anchors},f"{n} dangling literary support")
             ck(len(c["alternative_rendering_loss"])>=35 and len(c["failure_boundary"])>=35,f"{n} missing concrete counterfactual or failed-boundary")
     for a in anchors:

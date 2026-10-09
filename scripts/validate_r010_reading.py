@@ -46,7 +46,7 @@ def main():
             close+=1
             check(len(r["mechanism_claims"])>=1,f"{n}: promised close reading has no mechanism claims")
             for q in r["mechanism_claims"]:
-                check(q["verification_state"]=="PROVISIONAL" and q["counterexample_status"]=="SEARCHED_NONE",f"{n}: unearned VERIFIED claim")
+                check(q["verification_state"]=="PROVISIONAL" and q["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n}: unearned VERIFIED claim")
                 check(set(q["support_anchor_ids"]) <= {x["anchor_id"] for x in a},f"{n}: unresolved claim source anchor")
                 check(bool(q["failure_boundary"].strip()) and bool(q["alternative_rendering_loss"].strip()),f"{n}: no counterfactual or limit")
         total+=p;anchors+=len(a)

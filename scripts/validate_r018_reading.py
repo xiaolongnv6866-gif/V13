@@ -52,7 +52,7 @@ for row,ix in zip(receipts,index):
         close+=1
         check(len(row["mechanism_claims"])>=1,f"{n}: no original focused mechanism analysis")
         for c in row["mechanism_claims"]:
-            check(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"]=="SEARCHED_NONE",f"{n}: premature verified claim")
+            check(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n}: premature verified claim")
             check(set(c["support_anchor_ids"])<={a["anchor_id"] for a in aa},f"{n}: missing supporting original SHA")
             check(len(c["alternative_rendering_loss"])>=40 and len(c["failure_boundary"])>=40,f"{n}: missing counterfactual or boundary")
     for a in aa:

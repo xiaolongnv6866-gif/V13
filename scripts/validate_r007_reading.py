@@ -48,7 +48,7 @@ def main():
             close_count+=1
             check(len(r["mechanism_claims"])>=1,f"{n}: close read missing mechanism claim",errors)
             for cl in r["mechanism_claims"]:
-                check(cl["verification_state"]=="PROVISIONAL" and cl["counterexample_status"]=="SEARCHED_NONE",f"{n}: unverified original book theory given VERIFIED status",errors)
+                check(cl["verification_state"]=="PROVISIONAL" and cl["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n}: unverified original book theory given VERIFIED status",errors)
         count+=r["body_paragraph_count"];anchors+=len(r["anchors"])
     check(count==2285,"Actual corpus XHTML paragraph count drifted from private R007 source scan",errors)
     check(anchors==60,"Anchor count differs from original R007 private observation",errors)

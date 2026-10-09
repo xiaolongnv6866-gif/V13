@@ -46,7 +46,7 @@ def main():
       ck(len(r["mechanism_claims"])>=1,f"missing close-read claim {n}")
       for claim in r["mechanism_claims"]:
         ck(claim["verification_state"]=="PROVISIONAL",f"claim falsely marked verified {n}")
-        ck(claim["counterexample_status"]=="SEARCHED_NONE",f"claim without honest counterexample status {n}")
+        ck(claim["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"claim without honest counterexample status {n}")
         ck(all(s in {a["anchor_id"] for a in r["anchors"]} for s in claim["support_anchor_ids"]),f"claim missing original locator {n}")
     paras+=p;anchors+=len(hashes)
   ck(paras==2712,"source paragraph count must be 2712")

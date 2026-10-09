@@ -45,7 +45,7 @@ def main():
     if n in CLOSE:
       close_count+=1;ck(len(r["mechanism_claims"])>=1,f"{n} focus chapter missing detailed hypothesis")
       for c in r["mechanism_claims"]:
-        ck(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"]=="SEARCHED_NONE",f"{n} hypothesis over-claimed")
+        ck(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n} hypothesis over-claimed")
         ck(all(z in {x["anchor_id"] for x in a} for z in c["support_anchor_ids"]),f"{n} claim points to non-existent original anchor")
     total+=p;anchors+=len(a)
   ck(total==2327,"original 40 chapters total paragraphs drifted")

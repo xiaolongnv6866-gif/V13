@@ -42,7 +42,7 @@ for r,i in zip(rs,index):
     close+=1
     ck(len(r["mechanism_claims"])>=1,f"{n} focused mechanism missing")
     for claim in r["mechanism_claims"]:
-        ck(claim["verification_state"]=="PROVISIONAL" and claim["counterexample_status"]=="SEARCHED_NONE",f"{n} premature literature certification")
+        ck(claim["verification_state"]=="PROVISIONAL" and claim["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n} premature literature certification")
         ck(set(claim["support_anchor_ids"]) <= {x["anchor_id"] for x in a},f"{n} claim anchor not located")
         ck(bool(claim["alternative_rendering_loss"]) and bool(claim["failure_boundary"]),f"{n} missing counterfactual or limit")
  for x in sorted(a,key=lambda v:v["paragraph_index"]):

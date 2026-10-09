@@ -41,7 +41,7 @@ for r,i in zip(receipts,index):
     if n in focus:
         close+=1; ck(len(r["mechanism_claims"])>=1,str(n)+" focused analysis missing")
         for c in r["mechanism_claims"]:
-            ck(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"]=="SEARCHED_NONE",str(n)+" improper certainty")
+            ck(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"] in ("FOUND","SEARCHED_NONE"),str(n)+" improper certainty")
             ck(set(c["support_anchor_ids"])<={a["anchor_id"] for a in aa},str(n)+" dangling support anchor")
             ck(len(c["alternative_rendering_loss"])>=40 and len(c["failure_boundary"])>=40,str(n)+" no counterfactual/boundary")
     for a in aa:

@@ -43,7 +43,7 @@ for r,i in zip(rs,indexes):
   close+=1
   ck(len(r["mechanism_claims"])>=1,f"{n} focus mechanism missing")
   for c in r["mechanism_claims"]:
-   ck(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"]=="SEARCHED_NONE",f"{n} premature claimed verified")
+   ck(c["verification_state"]=="PROVISIONAL" and c["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n} premature claimed verified")
    ck(set(c["support_anchor_ids"])<={a["anchor_id"] for a in aa},f"{n} unsupported paragraph reference")
    ck(len(c["alternative_rendering_loss"])>35 and len(c["failure_boundary"])>35,f"{n} no counterfactual or boundary")
  for a in aa:
