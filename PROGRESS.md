@@ -20,3 +20,8 @@ Only R024 authorized by this manual request. Do not begin R025.
 - 这是历史审计补修，不增加章节计数：R025 NOT_STARTED，正式24/89及720/1103维持；文学B PROVISIONAL、能力C NOT_RUN，剩余历史质量债务仍须核查。
 
 - R007质量修复证据正式推送：`4a88ade3c9096732a58e49c7e1cd21ea5c276881`，全部22/22 GitHub Actions 成功，R007专项run 37872759560与冻结R006 run 37872759726均通过；见 `runs/R007_REAUDIT.md`。此复核不增加正式读章，不代表文学B独立认证。
+
+## R025 正在执行（2026-10-09）
+
+- 用户明确发出『继续』，GitHub游标R025 NOT_STARTED，开始按原书有效叙事361—400完整阅读；本地原 EPUB / SHA 与索引复核，40章2099段已逐段读取，另建40份具体事件与视角研究检查点。仍不提前计算为正式读章。
+- 不重做早期24轮；Stage0质量债务保留、旧结论分层处理。待原文锚点/文学精研/CI及远程回读验收后才能PASSED。
