@@ -12,7 +12,7 @@
 |双源指纹|原始章路径/member SHA/段落数量FNV32`b69dfa88`；私人原文段落 SHA FNV32`2fa4eb5f`，私有原EPUB和GitHub索引吻合|
 |文学研究|40章独立事件、人物自主选择与场面信息表，六组反事实与反证，长期权力／教育／财政／家庭连续性账；候选结论PROVISIONAL|
 |失败保留|第一份证据提交 `45166c86e12eb17958b36d3a9fb70fb2b7c7163b` 的R021专项Actions`37864087118`失败：283章第二条人物目标陈述为19字符，低于20字符门槛；保留失败事实，按原文补写，**没有放宽校验**|
-|修复与正式来源验收|修复证据提交 `4741b892e98d033021a13d2b7f6fa6f8ee0a3dda`，19/19 GitHub Actions全部completed/success，专项R021 `37864218814`，冻结R006也通过；官方PASS提交还须自己的远程回读与CI|
+|修复与正式来源验收|修复证据提交 `4741b892e98d033021a13d2b7f6fa6f8ee0a3dda`，19/19 GitHub Actions全部completed/success，专项R021 `37864218814`，冻结R006也通过；正式通过提交 a465d6046adc7c643a9f54699bdf6760924c0bc7 已远程回读并核实19/19 Actions全部成功，其中R021专项运行 37864392142|
 |三证据门|A用户私有原EPUB来源验证PASS，B分批文学研究仍PROVISIONAL，C独立原创增益NOT_RUN|
 |SKILL与盲测|原版Cangjie Stage0整书Adler门和R042尚未达；Nuwa Phase1未启；认证0，R006密封盲测SEALED_NOT_RUN|
 |执行模式|MANUAL_USER_TRIGGER；本轮只推进R022游标，不自动执行R022，不额外付费|
