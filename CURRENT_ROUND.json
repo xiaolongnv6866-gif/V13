@@ -2,19 +2,19 @@
   "project": "V13",
   "plan_version": "13.0-fixed-89",
   "rounds_total": 89,
-  "current_round": "R042",
-  "round_status": "BLOCKED",
-  "last_passed_round": "R041",
+  "current_round": "R043",
+  "round_status": "NOT_STARTED",
+  "last_passed_round": "R042",
   "full_text_read_chapters": {
     "wanming": 571,
     "tiexuecanming": 532
   },
-  "cangjie_stage0_gate": "NOT_PASSED",
+  "cangjie_stage0_gate": "PASSED",
   "nuwa_phase0": "APPROVED_THEME_STANDARD",
   "skill_certified_count": 0,
   "remote_repo": "https://github.com/xiaolongnv6866-gif/V13",
   "advance_rule": "Only after current round evidence, checks, mandatory user approval, GitHub remote reread",
-  "rounds_completed": 41,
+  "rounds_completed": 42,
   "finalized_on": "2026-10-09",
   "nuwa_phase05": "WORKSPACE_READY_NOT_RESEARCHED",
   "reading_contract_version": "R006-v1.0-FROZEN",
@@ -36,5 +36,12 @@
   "continuation_policy_file": "AUTO_CONTINUATION_POLICY.md",
   "continuation_schedule_enabled": false,
   "execution_trigger_policy": "Wait for a new explicit user message such as '继续' to resume only the current V13 round; do not launch the next round automatically, even after PASS, without a new user request.",
-  "continuation_last_updated_on": "2026-10-09"
+  "continuation_last_updated_on": "2026-10-09",
+  "cangjie_stage0_approval_scope": "USER_APPROVED_TWO_BOOK_OVERVIEWS_ONLY",
+  "cangjie_stage0_user_approved_on": "2026-10-09",
+  "cangjie_stage0_approval_record": "cangjie/reading/R042_USER_APPROVAL.md",
+  "legacy_quality_debt_status": "OPEN_QUARANTINED",
+  "literary_interpretation_status": "PROVISIONAL",
+  "original_output_test_status": "NOT_RUN",
+  "last_passed_round_evidence_commit": "92a28cb1f7f2a5348b604a42e1a5d247a3113506"
 }

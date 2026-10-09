@@ -32,3 +32,10 @@ GitHub第二批首稿提交`49509701e02bc76dff4b33f4f6f7ebea90227f3b`，专项R0
 ## 用户已明确批准R042两份BOOK_OVERVIEW框架（2026-10-09）
 
 确认原文：「批准R042两份BOOK_OVERVIEW研究框架，保留历史质量债按原文继续核查」。本条只更新最新用户决策，先前R042 BLOCKED的过程及各种CI失败记录仍按历史保存。用户批准不清除14条旧候选隔离，不升级剩余早期文学B，不触发C盲测；正式R042状态还须GitHub Actions及远程回读。权威审阅凭据`cangjie/reading/R042_USER_APPROVAL.md`。
+
+## R042用户明确批准后的正式状态裁定（2026-10-09）
+
+用户同意两书BOOK_OVERVIEW框架并要求旧质量债持续按原文核查。现批准证据存档`cangjie/reading/R042_USER_APPROVAL.md`，批准证据提交`92a28cb1f7f2a5348b604a42e1a5d247a3113506`及其39个观测到的Actions均已success。正式状态向R042 PASSED、42/89、R043 NOT_STARTED更新；文学B整体PROVISIONAL、历史旧机制债OPEN_QUARANTINED、C NOT_RUN、技能认证0。最终状态提交必须独立经过GitHub Actions与远程回读，不得预报。过去BLOCKED是历史真相而不是错误可抹去。
+
+
+**审批证据提交延迟触发全量确认**：提交`92a28cb1f7f2a5348b604a42e1a5d247a3113506`的GitHub Actions最终已增加到**40/40 completed/success**（包含开始列表中尚未出现的历史工作流），R042专项run`37937292620`成功。早期即时查询只见39项，后续全量查询完成；正式状态提交必须另验，不用上一提交成绩代替。

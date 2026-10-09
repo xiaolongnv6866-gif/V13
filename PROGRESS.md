@@ -222,3 +222,13 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - `cangjie/reading/R042_APPROVAL_BRIEF.md`为原版两书BOOK_OVERVIEW的具体审批提纲：不同的六段结构、核心命题、强反对意见、9+10项原创写作任务，明确批准范围不包含原创能力C认证或源史实之外的历史真值。两书总览追加审批材料和旧claim隔离路径。
 - 专项`scripts/validate_r042_gate_brief.py`和工作流补上对旧JSON ID、状态、两书审批PENDING、R043未启动的自动核查；公开CI只SOURCE_STRUCTURE_ONLY，仍不代替文学评估及用户决议。
 - 本次并无用户明确批准，Stage0仍NOT_PASSED，R042 BLOCKED，完成41/89，R043 NOT_STARTED，阅读登记1103/1103，技能认证0。先等待全套Actions及远程回读，再向用户展示批准材料。
+
+## R042正式用户确认和Stage0通过（2026-10-09）
+
+- 本会话用户明确回复「批准R042两份BOOK_OVERVIEW研究框架，保留历史质量债按原文继续核查」，原话与准确授权范围保存`cangjie/reading/R042_USER_APPROVAL.md`。这是对《晚明》及《铁血残明》原版Adler整书四步+独立任务清单的审阅确认，不是从此前“继续”隐含授权，也不允许开始R043。
+- 已用冻结版本对本轮两份原始用户EPUB作SHA256和ZIP CRC独立核查。R042总览含6段+10条研究命题，《晚明》9项任务，《铁血》10项任务，研究与反证位置、14条历史候选隔离可远程核对。证据提交`92a28cb1f7f2a5348b604a42e1a5d247a3113506`的40/40个最终GitHub Actions已完成成功，专项R042 run`37937292620`成功。正式游标提交的Actions和远程回读另行执行。
+- R042用户关口满足，按既定合约推进正式状态至**R042 PASSED；42/89轮完成**；Cangjie Stage0的**框架确认门PASSED**，下一游标`R043 NOT_STARTED`。这绝不代表早期296条B全验证：14条旧`claim_id`继续源范围隔离，其余旧条目只有B_PROVISIONAL_UNTIL_SOURCE_CHECK；历史质量债`OPEN_QUARANTINED`。B整体`PROVISIONAL`、C`NOT_RUN`、heldout`SEALED_NOT_RUN`、certified Skill 0。阅读覆盖登记《晚明》571、《铁血》532，合计1103，未增减。
+- 用户仍采用**手动一轮一令**：本次只办理R042验收，严禁在本轮自动启动R043或Nuwa Phase1。即使本次状态与Actions全绿，原作者专属情节和表达不作为可复制内容，未来Stage1仍须对每个候选作真实原文来源、反例与独立效用验证。
+
+
+**审批证据提交延迟触发全量确认**：提交`92a28cb1f7f2a5348b604a42e1a5d247a3113506`的GitHub Actions最终已增加到**40/40 completed/success**（包含开始列表中尚未出现的历史工作流），R042专项run`37937292620`成功。早期即时查询只见39项，后续全量查询完成；正式状态提交必须另验，不用上一提交成绩代替。
