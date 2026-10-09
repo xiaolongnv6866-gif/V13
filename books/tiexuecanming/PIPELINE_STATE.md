@@ -4,10 +4,10 @@
 - expected_narrative_chapters: 532
 - round_R002_official_source_validation: PASSED (R002 original OPF/spine/CRC/SHA verified)
 - official_full_text_read_chapters: 532 (source CURRENT_ROUND.json; all OPF effective narrative chapters now have registered full-reading receipts, not independent literary certification)
-- stage0_current: STRUCTURAL_AND_INTERPRETIVE_STEPS_DONE; whole_book_adler: IN_PROGRESS_NOT_PASSED
+- stage0_current: STRUCTURAL_INTERPRETIVE_CRITICAL_APPLICABILITY_STEPS_DONE; whole_book_adler: IN_PROGRESS_NOT_PASSED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R040; current_round: R041 NOT_STARTED (manual trigger only)
+- last_passed_round: R041; current_round: R042 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -49,3 +49,6 @@
 - R039 formal structural step: Tiexue original Adler six independent narrative arcs, original source 58 paragraph SHA anchors from 53 different true chapters, GitHub evidence 2466184b all37/37 Actions SUCCESS incl R039 37924610492; source A privately checked, literary B PROVISIONAL, creative C NOT_RUN, Skills0; R042 full Stage0 BOOK_OVERVIEW gate NOT_PASSED. Chapter coverage unchanged. R040 NOT_STARTED manual only.
 
 - R040 formal interpretation STEP: Tiexue 10 source-grounded propositions, 12 terms, 5 causal chains, 87 original paragraph SHA positions from 81 chapters, evidence eca32786 38/38 Actions SUCCESS incl dedicated R040 37926435292. B PROVISIONAL C NOT_RUN; R041 Critical+Applicability NOT_STARTED, R042 user BOOK_OVERVIEW approval NOT_OBTAINED, certified Skills0. Narrative reading counts remain Wanming571/Tiexue532; no next-round auto execution.
+
+
+- R041 FORMAL STEP PASS: Cangjie Stage0 Critical+Applicability on Tiexue user private original EPUB; all P01—P10 challenged against real contrary scenes; 63 actual paragraph SHA loci, 48 genuine source chapters, 51 old rechecked +12 new positions; original EPUB SHA/ZIP CRC verified privately. R041 original writing task candidates TX-T01—TX-T10, explicit source and ethics boundaries; R040 n445/p1 weak-support claim excluded. GitHub corrected evidence commit `7dc489d64bf1291dfcd7e4190879e74418b66b52` passed 39/39 Actions including dedicated R041 37929298713. A privately verified, B PROVISIONAL, C NOT_RUN, certified Skills0, original heldout SEALED. Whole-book Stage0 BOOK_OVERVIEW and user signoff reserved for R042, which stays NOT_STARTED under manual trigger; historical R008—R024 debt remains open.

@@ -192,3 +192,12 @@ Tiexue Cangjie Stage0 **Structural only**: original source anthology across all 
 ## R040 final formal PASS and remote reread confirmed — 2026-10-09
 
 Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **38/38 GitHub Actions completed/success**, dedicated R040 [37926435292](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37926435292). Official atomic R040 state commit `57b7f0132646bcc79403daccad7fd2a297949fb0`: also **38/38 GitHub Actions completed/success**, R040 [37926661390](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37926661390); frozen R006 and all historic regressions passed in both. Fresh main remote reread verified R040 ledger PASSED, R041 NOT_STARTED, 40/89, Wanming571 and Tiexue532 (1103/1103) and both book pipeline states. Private original source SHA/87 paragraph anchors verified; CI is structure-only, B PROVISIONAL, C NOT_RUN, certified Skills0. Original Adler full Stage0 and user BOOK_OVERVIEW signoff at R042 **NOT_PASSED**, no R041 work performed. This final audit-only commit must pass its own Actions before it is considered sealed.
+
+## R041｜《铁血残明》Adler批判与应用研究正式证据通过（2026-10-09）
+
+- 当前轮由本次用户明确授权手动触发，原版Cangjie Stage0 Critical / Applicability两步及Nuwa原版范围约束核对。用户原始《铁血残明》EPUB SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`，私有原文SHA/ZIP CRC、63个正文段落SHA定位复核；涵盖48个真实有效章、6个研究叙事弧，其中51个R040既有证据重核、12个R041独立新位置。
+- P01—P10各有最强反对意见、跨章事实与反证、叙事调度及失效边界。对R040 n445/p1支持过强的问题明确降级，n361/p35与p36、n114/p27与p29、n527/p30与p31正反同时保留；区分人物话语／叙述事实／研究假说／未核历史事实。
+- 产出`CRITIQUE_APPLICATION.md`、`CRITIQUE_EVIDENCE.tsv`、`CRITIQUE_QUALITY_AUDIT.md`、`TASKS.md`（本书独立TX-T01—TX-T10十项原创写作任务，包含输入／输出／验收／失败边界）、新validator和R041工作流及`runs/R041.md`。没有启动原创盲测或Nuwa Phase1。
+- 初始研究提交及第一次修补因真实内容字段缺漏未通过R041 Actions，错误历史保留；第二次修复未降低validator严格性。最终研究证据提交 **`7dc489d64bf1291dfcd7e4190879e74418b66b52`** 的 **39/39 GitHub Actions completed/success**，专项R041 [37929298713](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37929298713)通过，冻结R006及38项历史回归亦SUCCESS。
+- **本次原子正式游标**：41/89轮；R041 PASSED，**R042 NOT_STARTED**；《晚明》571/571、《铁血残明》532/532，累计1103/1103（阅读登记不增不减）。A私有来源性核实；B文学PROVISIONAL，C原创效用NOT_RUN；Stage0整书BOOK_OVERVIEW／R042用户明确批准**尚未完成**，已认证Skill仍为0。R008—R024历史质量债务按风险抽审保持，不能因R041完成而清零。
+- 正式状态提交自身的39项Actions和远程游标回读必须另外全部成功后才能在对话中宣布R041验收通过；此处不提前虚报状态提交CI结果。下一轮仅待用户下一次明确指令，不自动执行R042。
