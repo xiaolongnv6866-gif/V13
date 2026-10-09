@@ -285,3 +285,13 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - `books/tiexuecanming/candidates/frameworks.md`产出**17条f01—f17原始框架／写作流程／排障候选**，原版最小字段完整，且包括输入/输出/步骤/反面条件与任务ID；`FRAMEWORK_EVIDENCE.tsv`是52处真实原始私有p段落SHA加冻结章节SHA/路径，覆盖Stage0十项独立任务TX-01—TX-10和六段故事结构，不能代替Stage1.5 verified。原版权文本不上传，`source_quote`保留空字段并附私有SHA定位。
 - 原文保留具体反例：n114空仓与临时补给并存，n161个人拒绝招募不能称自愿，n315不同授权人难统一与n485一次有限同意并存，n526有人提出改写战功但遭驳斥，n532当前提供版本停在金额落笔而非未来实际兑付。只有小说叙事机制，不提取危险现实军事、胁迫或金融实操。
 - 新增`scripts/validate_r048_framework_extractor.py`与`.github/workflows/r048_framework_extractor.yml`执行SOURCE_STRUCTURE_ONLY回归、旧14条历史问题隔离和Round Integrity。文学B PROVISIONAL、C NOT_RUN、认证Skill0、历史质量债OPEN_QUARANTINED。完成正式GitHub Actions、远程回读才宣告**R048 PASSED，48/89，R049 NOT_STARTED**；R049和其他三路提取器本轮不执行。
+
+
+## R049｜《铁血残明》原版仓颉原则提取器独立执行（2026-10-09）
+
+- GitHub连接器恢复起始main `a2ee37f91aa839890f338595fd0147741eb013f8`，正式R048 PASSED、R049 NOT_STARTED、48/89；按用户一次手动指令只执行R049，没有运行R050。原版固定Cangjie SKILL/Stage1/Principle Extractor全文、Nuwa SKILL、R042批准的本书BOOK_OVERVIEW与TX-01—TX-10、旧质量债政策均重新读取；没有并行Task条件，采用原版允许的独立串行。
+- 用户私有原始EPUB SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`及ZIP CRC真实PASS，OPF 532有效叙事章、33,278正文段完整计算机全量扫描；白空规范化后2,087,500 Unicode字符（R048的提取规范为2,087,501，差异保留，不假称两个扫描串接摘要完全一致）。本轮为规则文字信号全书扫描及具体段落复核，非逐段完整文学认证。
+- 原版principle extractor产出`books/tiexuecanming/candidates/principles.md` **22条p01—p22原始原则/规则/人物清单候选**，`PRINCIPLE_EVIDENCE.tsv` 51处真实n/p私有SHA，覆盖32有效叙事章和六个研究弧，`R049_NEW_SOURCE_LOCI.tsv`登记15个R048尚未引用的新源SHA。所有10个独立TX任务都有关联，但仅为RAW候选，Stage1.5 V1/V2/V3尚未开始。不同角色的强制主张、叙述者记述和研究推断严格归属；对含异议的段落同时复核相反结果。原文版权文本不上传。
+- 原则原始候选并非从R048 framework文件直接改写；n055首功并非先报即定、n114无仓与临时补救并存、n161个人拒绝从军、n526虚报建议被拒绝、n532当前提供版本仅金额落笔没有未来兑付，均保持反证和边界。不得把书中的军事/金融/政治指令变成现实操作方法；无证据的数学公式不制造。
+- GitHub证据提交 `7a2270ecb55da1cdc65d34d48da3be62d8daf75d` 已经触发并完成 **47/47 GitHub Actions全部success**，包括R049专项 [37953885686](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37953885686)；全部旧失败记录未删除。公开CI SOURCE_STRUCTURE_ONLY；文学解释B仍 PROVISIONAL，原创测试C NOT_RUN，SKILL认证0，R042旧14错引继续OPEN_QUARANTINED/NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE，密封heldout不启用。
+- 本轮正式账本确认 **R049 PASSED，49/89，下一轮R050 NOT_STARTED**；下一次必须有新的用户手动“继续”才可启动R050。《晚明》五路原始候选已完成，《铁血残明》只完成framework+principle两路；尚未开展case/counterexample/glossary、Cangjie Stage1.5或Nuwa Phase1。

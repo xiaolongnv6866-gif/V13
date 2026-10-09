@@ -4,10 +4,10 @@
 - expected_narrative_chapters: 532
 - round_R002_official_source_validation: PASSED (R002 original OPF/spine/CRC/SHA verified)
 - official_full_text_read_chapters: 532 (source CURRENT_ROUND.json; all OPF effective narrative chapters now have registered full-reading receipts, not independent literary certification)
-- stage0_current: STRUCTURAL_INTERPRETIVE_CRITICAL_APPLICABILITY_STEPS_DONE; whole_book_adler: IN_PROGRESS_NOT_PASSED
-- book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
+- stage0_current: R042_STAGE0_BOOK_OVERVIEW_USER_APPROVED_WITH_LEGACY_DEBT; whole_book_adler: PASSED_FOR_STAGE1_ENTRY_B_PROVISIONAL
+- book_overview: R042_USER_APPROVED; user_stage0_gate: PASSED_APPROVAL_LIMITED_TO_FRAMEWORK
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R041; current_round: R042 NOT_STARTED (manual trigger only)
+- last_passed_round: R049; current_round: R050 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -68,3 +68,10 @@
 - Artifacts: `candidates/frameworks.md` has 17 raw framework/procedure/troubleshooting source-scoped units f01-f17; `candidates/FRAMEWORK_EVIDENCE.tsv` has 52 unique real original paragraph SHA locators with R002 chapter path and bytes hash; `candidates/FRAMEWORK_SCAN_REPORT.md` documents six narrative arc textual scan and caveats. All TX-01..TX-10 Stage0 original task IDs and six arcs receive RAW candidate refs only.
 - No copyrighted passages in public GitHub, original `source_quote` blank with explicit private SHA; narrative ideas are NOT author's explicit management rules. Observed disagreement, refusal and provisional commitments preserved. No dangerous real-world war, administrative coercion or unverified finance strategies exposed.
 - R048 script/workflow provides public SOURCE_STRUCTURE_ONLY, private source A authentic; literary B PROVISIONAL; creative C NOT_RUN; Skill certified 0; heldout SEALED_NOT_RUN. All 14 specifically flagged old claims still NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE, remaining old B claims await review, legacy debt OPEN_QUARANTINED. R049 principle/case/counterexample/glossary still NOT_STARTED, Stage1.5 and Nuwa Phase1 NOT_RUN.
+
+
+## R049 Stage1 independent principle extractor｜2026-10-09
+
+- 正式游标：R049 PASSED，49/89，R050 NOT_STARTED；本书Stage1 framework、principle两路独立原始候选已经生成，其余case/counterexample/glossary不在本次授权内。
+- 本轮私有原始EPUB SHA256+ZIP CRC PASS，按OPF n001—n532结构扫描33,278段；字符空白归一化2,087,500（R048原计数2,087,501提取规则不同）。原则提取器核查原著现场，生成22条p01—p22 RAW候选、51真实SHA坐标、32个不同章、15个R048未引用的新段落定位，关联TX-01—TX-10及六个研究弧；未执行三重验证。
+- 证据SHA 7a2270ecb55da1cdc65d34d48da3be62d8daf75d；其GitHub Actions 47/47 SUCCESS，其中专属R049 [37953885686](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37953885686)；公开CI只是SOURCE_STRUCTURE_ONLY。B PROVISIONAL、C NOT_RUN、certified skill 0，历史14条旧错误继续隔离不晋级。R050不得自动开始。
