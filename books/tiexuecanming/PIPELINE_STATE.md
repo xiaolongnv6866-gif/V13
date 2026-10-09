@@ -7,7 +7,7 @@
 - stage0_current: PARTIAL_BOOK_READING; whole_book_adler: NOT_STARTED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R030; current_round: R031 IN_PROGRESS (manual trigger only)
+- last_passed_round: R031; current_round: R032 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -25,3 +25,5 @@
 - R030_reading_note: Tiexue original narrative 441–480, 40 chapters 2101 private body paragraphs 80 verified SHA locators; B PROVISIONAL; original Adler whole-book gate NOT_PASSED.
 
 - R031 GitHub partial-evidence checkpoint: R031 now IN_PROGRESS, with source index and paragraph SHA locators preserved; formal total unchanged. The batch still needs original 40 receipts, study files, GitHub Actions and formal approval.
+
+- R031_FORMAL_PASS: This was a Wanming-only round; Tiexue remains at official480. B PROVISIONAL, C NOT_RUN. R032 NOT_STARTED manual only.
