@@ -1,0 +1,10 @@
+{
+  "id": "TX-07",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "洪水刚退，修复游园的负责人要把旧棚拆掉，好让游客早些回来。渡船女掌柜却挡在湿泥里找账簿，说自己的船票还未核对。修船匠先忙着抢救木料，一家露宿人请求今夜先留下挡风板。负责人只得推迟拆棚。",
+  "scene_B": "夜里女掌柜从旧木箱里找到半本账，决定明天挨家询问欠票；修船匠架起木架晾干余料。露宿人家把挡风板加固，孩子终于睡下。负责人此刻在另一头商议游园的开门日，这几人的行动不取决于他的命令。",
+  "state_contract": "负责人=希望复园；女掌柜=找账且自行询问；匠人=抢救木料；露宿者=保留挡风；游园=暂缓开放。",
+  "unknowns": "生活补偿及开园后果都还未知。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

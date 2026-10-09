@@ -1,0 +1,10 @@
+{
+  "id": "TX-08",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "晴桥报馆的校字工谭青向编辑请半日照顾母亲。编辑说可准，但要先安排校样交接。同事说自己愿先读稿，不等于已经答应所有额外工时。谭青没有借口说人已经找好就立刻离开。",
+  "scene_B": "第二天同事明确表示愿代半日，谭青把修订标记和未校页数交清，编辑在请假单签字。离开前同事递上一张工资询问条，表示可以帮忙，但加班报酬仍要谈。谭青感谢他，没有替他表示自愿放弃工钱。",
+  "state_contract": "请求=照护母亲；许可=有交接前提；代班者=本人确认愿代；实际离岗=交接签字之后；额外报酬=待谈。",
+  "unknowns": "母亲后续状况、报馆是否补偿代班工时都不确定。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "TX-10",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "沙湾旧书铺店主向街坊承诺下一季修好二十本旧谱，邻居指着柜中只够六本的纸张，问其他十四本怎么办。店主不打算收回诺言，却答说会先找工匠和纸铺商量。他把纸面承诺放在账簿第一页，未来进度另空出几页。",
+  "scene_B": "次日老板拿出六本可修的旧谱逐一查看，发现其中一本装订需要额外的线。他打算去问木匠家是否有人能帮忙，却没有把打算写成已经得到人手。邻居在门口问修好了几本，店主答一句：一本还没修完。",
+  "state_contract": "承诺=二十本；现有纸料=六本份；已有完成=零；联系帮工=准备但未办；责任=下一季仍待履行。",
+  "unknowns": "未来材料、人手及二十本能否完成均未知。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

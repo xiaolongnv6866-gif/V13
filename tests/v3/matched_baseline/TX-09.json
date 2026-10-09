@@ -1,0 +1,10 @@
+{
+  "id": "TX-09",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "栖鹭彩灯赛因起风而暂停，评审册只记下暂时停赛。编辑想把报纸标题写成一名参赛者救下全部彩灯，目击孩子却提醒他：是许多人一起搬到屋檐下的。编辑先把夸张稿压住，决定问评审后再写。",
+  "scene_B": "评审只能证明停赛与有人共同护灯，尚不能确认谁出了最多力。孩子在场把记得的部分说完，不敢替没看见的地方作证。编辑当晚没有把英雄稿交给印工，只写下需要进一步核实的名单。",
+  "state_contract": "现场=因风暂停；初稿=夸大单人功劳；目击=多人搬灯；评审=只证暂停与共同移动；实际刊发=未发生。",
+  "unknowns": "比赛何时恢复、最终报道怎么写及全部功劳分配未知。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}
