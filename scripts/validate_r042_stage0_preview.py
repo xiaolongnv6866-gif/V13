@@ -17,8 +17,8 @@ for book,(sha,task_count) in SOURCES.items():
     if not f.is_file():continue
     s=f.read_text(encoding="utf-8")
     check(sha in s,f"{book} source fingerprint missing")
-    check("DRAFT_FOR_USER_APPROVAL" in s,f"{book} not marked as draft")
-    check("PENDING" in s,f"{book} user confirmation forged or missing")
+    check("STAGE0_FRAMEWORK_USER_APPROVED_WITH_LEGACY_DEBT" in s,f"{book} lacks approved-with-debt boundary")
+    check("**用户确认时间**：2026-10-09" in s and "R042_USER_APPROVAL.md" in s,f"{book} explicit user approval missing")
     for section in ["## 基本信息","## 1. 结构","## 2. 解释","## 3. 批判","## 4. 应用潜力","## ✅ 质量门检查"]:
         check(section in s,f"{book} template section {section} missing")
     p1=s[s.find("## 1. 结构"):s.find("## 2. 解释")]
@@ -52,14 +52,20 @@ if run.is_file():
     s=run.read_text(encoding="utf8")
     check("BLOCKED_PENDING_USER_CONFIRMATION" in s,"R042 run not visibly blocked")
 cur=json.loads((root/"CURRENT_ROUND.json").read_text())
-check(cur["current_round"]=="R042","User must still review R042, no automatic R043")
-check(cur["round_status"]=="BLOCKED","R042 stage must remain BLOCKED before user confirmation")
-check(cur["rounds_completed"]==41 and cur["last_passed_round"]=="R041","No premature R042 PASS")
-check(cur["skill_certified_count"]==0 and cur["cangjie_stage0_gate"]=="NOT_PASSED","Stage0 false positive")
+pre_commit=cur["current_round"]=="R042" and cur["round_status"]=="BLOCKED" and cur["rounds_completed"]==41 and cur["last_passed_round"]=="R041" and cur["cangjie_stage0_gate"]=="NOT_PASSED"
+accepted=cur["current_round"]=="R043" and cur["round_status"]=="NOT_STARTED" and cur["rounds_completed"]==42 and cur["last_passed_round"]=="R042" and cur["cangjie_stage0_gate"]=="PASSED"
+check(pre_commit or accepted,"R042 must be pending evidence-commit or formally approved and R043 NOT_STARTED")
+check(cur["skill_certified_count"]==0 and cur["heldout_bank_status"]=="SEALED_NOT_RUN","Unjustified C-test/Skill certification")
+check((root/"cangjie/reading/R042_USER_APPROVAL.md").is_file(),"Explicit user approval receipt missing")
+if (root/"cangjie/reading/R042_USER_APPROVAL.md").is_file():
+    ack=(root/"cangjie/reading/R042_USER_APPROVAL.md").read_text(encoding="utf8")
+    check("批准R042两份BOOK_OVERVIEW研究框架，保留历史质量债按原文继续核查" in ack and "EXPLICIT_USER_APPROVAL_RECEIVED" in ack,"Approval receipt not tied to actual user phrase")
+if accepted:
+    check(cur.get("legacy_quality_debt_status")=="OPEN_QUARANTINED" and cur.get("literary_interpretation_status")=="PROVISIONAL" and cur.get("original_output_test_status")=="NOT_RUN","Quality debt or A/B/C status falsely cleared")
 with (root/"ROUND_LEDGER.csv").open(encoding="utf8",newline="") as f:
     rows={x["id"]:x for x in csv.DictReader(f)}
-check(rows["R042"]["status"]=="BLOCKED","ledger must reflect user-gate BLOCKED")
+check(rows["R042"]["status"]==("PASSED" if accepted else "BLOCKED"),"ledger must reflect correct R042 gate state")
 check(rows["R043"]["status"]=="NOT_STARTED","R043 started without approval")
 for x in issues:print("FAIL:",x)
-print("R042",("FAIL" if issues else "PASS"),"SOURCE_STRUCTURE_ONLY; 2 Cangjie book overviews, 8-batch targeted debt audit, R042 user review BLOCKED, B PROVISIONAL, C NOT_RUN")
+print("R042",("FAIL" if issues else "PASS"),"SOURCE_STRUCTURE_ONLY; approved two-book Stage0 scope, 8-batch legacy risk audit; status="+("FORMAL_PASSED" if accepted else "AWAITING_FORMAL_COMMIT")+" B PROVISIONAL C NOT_RUN")
 sys.exit(bool(issues))

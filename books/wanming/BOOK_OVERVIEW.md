@@ -1,6 +1,6 @@
 # 《晚明》 — 整书理解（Cangjie Stage0 / R042 用户确认草案）
 
-> 本文件严格按固定 Cangjie `templates/BOOK_OVERVIEW.md.template` 构成。不是书评，也不是作者本人的写作宣言；叙事骨架、术语和命题是**研究者对原小说的可反驳解释**。R036/R037/R038已作为前序结构／解释／批判研究，本次以用户原EPUB实地查证并综合。**待用户确认；不能启动 Stage1。**
+> 本文件严格按固定 Cangjie `templates/BOOK_OVERVIEW.md.template` 构成。不是书评，也不是作者本人的写作宣言；叙事骨架、术语和命题是**研究者对原小说的可反驳解释**。R036/R037/R038已作为前序结构／解释／批判研究，本次以用户原EPUB实地查证并综合。**R042整书研究框架已获用户明确批准；Stage1须待下次用户单独触发R043。**
 
 ## 基本信息
 
@@ -10,7 +10,7 @@
 - **内容类型**：历史穿越／架空军事政治长篇小说（叙事实证对象，不是作者提供的管理手册）
 - **版本来源**：用户原版 `晚明 (柯山梦) (z-library.sk, 1lib.sk, z-lib.sk).epub`；SHA256 `a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082`，按R002冻结的OPF有效叙事571章；原OPF spine 588项，有非叙事条目。
 - **处理时间**：2026-10-09
-- **研究版本**：`DRAFT_FOR_USER_APPROVAL`，A私有原书抽查通过；B文学`PROVISIONAL`；C原创陌生任务`NOT_RUN`；已认证Skill=0。
+- **研究版本**：`STAGE0_FRAMEWORK_USER_APPROVED_WITH_LEGACY_DEBT`，A私有原书抽查通过；B文学`PROVISIONAL`；C原创陌生任务`NOT_RUN`；已认证Skill=0。
 - **证据来源**：`books/wanming/adler/{STRUCTURE,INTERPRETATION,CRITIQUE_APPLICATION}.md`和三张对应`*_EVIDENCE.tsv`；R042复核见`cangjie/reading/R042_STAGE0_QUALITY_AUDIT.md`。n/p均为**有效叙事序号／正文非空p索引**，非印刷章号。只引用研究转述与SHA，不复制原文。
 
 ---
@@ -166,14 +166,17 @@
 - [x] 九项独立原创写作任务含来源、产物、重要性和缺口。
 - [x] 用户原 EPUB 全文件SHA/ZIP CRC，R042跨时期来源复核，公开材料不含原著正文。
 - [ ] **历史R007—R024文学质量债务完全关闭：否；R042风险审计对高风险旧样本仍有未证明范围。**
-- [ ] **向用户展示并取得明确骨架／重点确认：尚待用户决策。**
+- [x] **已向用户展示并取得明确骨架／重点确认（2026-10-09）。**
 - [ ] 文学B外部独立认证与陌生原创任务C：尚未完成，不可提前宣称有效SKILL。
 
-**用户确认时间**：PENDING（R042，尚无明确确认）。
+**用户确认时间**：2026-10-09，明确批准；原话见 `cangjie/reading/R042_USER_APPROVAL.md`。
 
 
 ## R042 用户审核说明与旧材料提取限制（不改变原版四步成果）
 
-本书整书理解的精简对照与具体确认范围，见 `cangjie/reading/R042_APPROVAL_BRIEF.md`。该确认只针对研究框架，不是历史细节、文学B或原创效用C的无条件认证。仍须用户明确批准。
+本书整书理解的精简对照与具体确认范围，见 `cangjie/reading/R042_APPROVAL_BRIEF.md`。该确认只针对研究框架，不是历史细节、文学B或原创效用C的无条件认证。用户已经明确批准研究框架；但不授权直接开始R043。
 
 早期R007—R024的所有旧研究结论默认 `B_PROVISIONAL_UNTIL_SOURCE_CHECK`；其中已定向识别的14条旧 `claim_id` 单独登记在 `cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv`。任何Stage1提取器不得直接按旧单段哈希晋级，应根据两份R042定向审计及源章节重新确定实际可支持范围。即使用户批准整书骨架，旧机制的B验证债务不因此自动清零；C仍`NOT_RUN`，已认证技能0。
+
+
+**R042验收声明**：用户于2026-10-09明确回复「批准R042两份BOOK_OVERVIEW研究框架，保留历史质量债按原文继续核查」。本确认满足Cangjie Stage0用户批准门，未确认任何单条旧研究B已认证，也未执行C陌生原创测试。此批准被记录在`cangjie/reading/R042_USER_APPROVAL.md`；对于所有早期研究候选，仍须遵守`cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv`和`STAGE0_QUALITY_CONTROL_POLICY.md`，不得跳过来源场景核对。

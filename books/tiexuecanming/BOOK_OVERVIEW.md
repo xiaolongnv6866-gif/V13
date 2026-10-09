@@ -1,6 +1,6 @@
 # 《铁血残明》 — 整书理解（Cangjie Stage0 / R042 用户确认草案）
 
-> 对固定 Cangjie `templates/BOOK_OVERVIEW.md.template` 的文学作品填充。R039结构、R040解释、R041批判/适用性已完成独立研究；本轮以用户原始EPUB复查并综合。所述“作者核心问题”只表示**研究者对小说叙事的解释**，不冒称柯山梦在书外发表这些论断。**必须经R042用户确认后才有资格进入Stage1；C=NOT_RUN。**
+> 对固定 Cangjie `templates/BOOK_OVERVIEW.md.template` 的文学作品填充。R039结构、R040解释、R041批判/适用性已完成独立研究；本轮以用户原始EPUB复查并综合。所述“作者核心问题”只表示**研究者对小说叙事的解释**，不冒称柯山梦在书外发表这些论断。**R042已得到用户对本框架的明确批准，R043须等待新的手动触发；C=NOT_RUN。**
 
 ## 基本信息
 
@@ -11,7 +11,7 @@
 - **版本来源**：用户原 EPUB `铁血残明 (柯山梦) (z-library.sk, 1lib.sk, z-lib.sk).epub` SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`；原OPF 551 spine条目，按R002冻结索引532有效叙事章（从`chapter7.html`至`chapter541.html`），不以原印刷章号推算。
 - **处理时间**：2026-10-09
 - **版本性质**：给定EPUB的最后有效章n532以拟发行票据金额的书写行为停止叙述；这**不是经证实的作品全部情节终局**。
-- **研究身份**：`DRAFT_FOR_USER_APPROVAL`; A本地来源抽审通过，B`PROVISIONAL`，C`NOT_RUN`，certified skills=0。
+- **研究身份**：`STAGE0_FRAMEWORK_USER_APPROVED_WITH_LEGACY_DEBT`; A本地来源抽审通过，B`PROVISIONAL`，C`NOT_RUN`，certified skills=0。
 - **证据入口**：`books/tiexuecanming/adler/{STRUCTURE,INTERPRETATION,CRITIQUE_APPLICATION}.md`及对应`*_EVIDENCE.tsv`、`books/tiexuecanming/adler/TASKS.md`和`cangjie/reading/R042_STAGE0_QUALITY_AUDIT.md`。所有n/p均是原OPF有效叙事章和正文非空p的不可逆SHA位置，不贴原著长段。
 
 ---
@@ -169,14 +169,17 @@
 - [x] 只将目前提供的532有效叙事章作为研究终点，不推测作者未提供的后来章。
 - [x] 私有原始EPUB匹配SHA与ZIP CRC，跨期证据经R042源核；公开CI不能认证文学B。
 - [ ] 历史Stage0 R008—R024 高风险文学解释已全部复核并无缺口：**否，风险账仍开放，详审审计文件**。
-- [ ] R042向用户展示并取得具体确认：尚待。
+- [x] R042向用户展示并取得具体确认（2026-10-09）。
 - [ ] 独立陌生原创能力C、Nuwa Phase1和Skill认证：均未进行。
 
-**用户确认时间**：PENDING（R042，用户尚未批准）。
+**用户确认时间**：2026-10-09，明确批准；原话见 `cangjie/reading/R042_USER_APPROVAL.md`。
 
 
 ## R042 用户审核说明与旧材料提取限制（不改变原版四步成果）
 
-本书整书理解的精简对照与具体确认范围，见 `cangjie/reading/R042_APPROVAL_BRIEF.md`。该确认只针对研究框架，不是历史细节、文学B或原创效用C的无条件认证。仍须用户明确批准。
+本书整书理解的精简对照与具体确认范围，见 `cangjie/reading/R042_APPROVAL_BRIEF.md`。该确认只针对研究框架，不是历史细节、文学B或原创效用C的无条件认证。用户已经明确批准研究框架；但不授权直接开始R043。
 
 早期R007—R024的所有旧研究结论默认 `B_PROVISIONAL_UNTIL_SOURCE_CHECK`；其中已定向识别的14条旧 `claim_id` 单独登记在 `cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv`。任何Stage1提取器不得直接按旧单段哈希晋级，应根据两份R042定向审计及源章节重新确定实际可支持范围。即使用户批准整书骨架，旧机制的B验证债务不因此自动清零；C仍`NOT_RUN`，已认证技能0。
+
+
+**R042验收声明**：用户于2026-10-09明确回复「批准R042两份BOOK_OVERVIEW研究框架，保留历史质量债按原文继续核查」。本确认满足Cangjie Stage0用户批准门，未确认任何单条旧研究B已认证，也未执行C陌生原创测试。此批准被记录在`cangjie/reading/R042_USER_APPROVAL.md`；对于所有早期研究候选，仍须遵守`cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv`和`STAGE0_QUALITY_CONTROL_POLICY.md`，不得跳过来源场景核对。

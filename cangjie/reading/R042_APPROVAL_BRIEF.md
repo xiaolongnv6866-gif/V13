@@ -1,6 +1,6 @@
 # V13 R042｜双书 Stage0 用户审核简报（决策用，不代替完整原版总览）
 
-status: DRAFT_AWAITING_EXPLICIT_APPROVAL
+status: EXPLICIT_USER_APPROVAL_RECEIVED_WITH_LEGACY_DEBT
 round_id: R042
 prior_passed: R041
 formal_completed: 41/89
@@ -43,9 +43,11 @@ R042第一轮定向审计：5条原始历史候选因证据单段不充分被置
 
 **分门状态**：A原始EPUB/定位真实性有前期和定向核验；B整书文学解释仍是`PROVISIONAL`，可供人审核但未取得全域独立认证；C独立陌生原创任务`NOT_RUN`；认证技能`0`。GitHub Actions只验证`SOURCE_STRUCTURE_ONLY`及管理游标，不能替用户审批。
 
-## 四、R042 用户必须作出的决策（不可由“继续”隐含）
+## 四、R042 用户已作出明确决策（不是从“继续”推定）
 
 **具体批准范围**：你是否认可上面两书的主旨、结构分段、关键命题、批判边界和两份原书关键任务清单，允许在原版Cangjie Stage1及后续阶段以它们作为有保留的研究背景？该批准**不表示**历史事实全部正确、不表示旧296条均有效、不表示小说SKILL已认证、不等于允许复制原著。
+
+已批准研究框架及保留债务的原话记录：`cangjie/reading/R042_USER_APPROVAL.md`。
 
 对照全文：
 - `books/wanming/BOOK_OVERVIEW.md`
@@ -56,3 +58,8 @@ R042第一轮定向审计：5条原始历史候选因证据单段不充分被置
 如果对骨架或任务方向不同意，请指出本书/章节或要更改的机制；保持`R042 BLOCKED`，本轮继续修订，绝不悄悄进入R043。
 
 **审阅完成前**：`CURRENT_ROUND.json` 仍必须`R042 BLOCKED`、`last_passed_round=R041`、41/89、Stage0 `NOT_PASSED`、R043 `NOT_STARTED`。不启用Nuwa Phase1和密封原创任务。
+
+
+## 五、用户审核结果（2026-10-09）
+
+用户现已明确回复「批准R042两份BOOK_OVERVIEW研究框架，保留历史质量债按原文继续核查」。因此本文件第四节旧“如果同意请回复”的句子只保留为审阅时的**历史提问**，不得再拿它阻断已获确认的Stage0用户门。14条旧claim仍隔离，剩余旧研究B待源证，C NOT_RUN；批准范围和用户原话见`R042_USER_APPROVAL.md`。完成GitHub Actions及正式游标远程回读后，才能宣布R042整轮PASSED。R043不在本轮执行。

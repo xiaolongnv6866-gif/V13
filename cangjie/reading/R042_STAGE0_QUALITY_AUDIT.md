@@ -1,6 +1,6 @@
 # V13 R042｜双书Stage0原始来源抽审、文学质量债与用户门审计
 
-status: EVIDENCE_REVIEW_DRAFT / STAGE0_NOT_PASSED / USER_APPROVAL_PENDING
+status: FRAMEWORK_USER_APPROVED / LEGACY_QUALITY_DEBT_OPEN / LITERARY_B_PROVISIONAL / C_NOT_RUN
 audit_date: 2026-10-09
 upstream_cangjie: a28de55ba881b9928956a55048f743f7a9e3b23e
 upstream_nuwa: fe0374687037c4cc51a65c1e0c145afe2981dc69
@@ -74,3 +74,10 @@ R042私有原文即时抽审按**先定义风险、后抽点**：选两书开篇
 - `cangjie/reading/R042_APPROVAL_BRIEF.md`浓缩两份原版BOOK_OVERVIEW不同骨架、关键解释、批判边界、9+10项原著关键创作任务及其审阅范围，供用户具体判断。**R042批准范围与现存历史质量债分开**：用户确认整书骨架，不会消除B文学解释证据缺口，更不会使C陌生原创增益从NOT_RUN升为PASS。
 - 完整质量债台账`cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md`继续有效；未单独复核的早期296条不能自动晋级。现阶段只对14条已被审查的旧案例有精确的纠正证据，其余默认为`B_PROVISIONAL_UNTIL_SOURCE_CHECK`。
 - 本轮**仍为R042 BLOCKED**，`last_passed_round=R041`、41/89、两书已登记阅读571/532；用户迄今多次输入「继续」，但没有对两份原版总览作出明确批准。不能自动进入R043，也不能在公开CI绿灯后声称整书文学理解全部经过独立验证。
+
+
+## 七、2026-10-09 形成的R042用户确认决策（原先PENDING描述是历史快照）
+
+用户明确回复：「批准R042两份BOOK_OVERVIEW研究框架，保留历史质量债按原文继续核查」。已将用户确认另存`cangjie/reading/R042_USER_APPROVAL.md`，按原版仓颉Adler Step0的质量门，**只批准Stage0两本书的结构、解释、批判与应用研究框架，准许以有保留的全球上下文进入后续五路提取**。历史正文收据没有重算；目前14条问题候选以`R042_OLD_CLAIM_QUARANTINE.tsv`逐ID限制提取，未核查的旧论断默认B PROVISIONAL，任何Stage1能力都要回原著重建和寻找反证；整书框架通过不构成全部旧机制B VERIFIED。
+
+当前记录将**文学B保持`PROVISIONAL`、C保持`NOT_RUN`、Skill认证0**。过去“尚待用户确认”“R042 BLOCKED”是此前执行期真实记录，不能删除或改写为从未发生。正式R042 PASSED需另有同一提交的状态文件与CI+远程回读证明。本轮不自动启动R043。

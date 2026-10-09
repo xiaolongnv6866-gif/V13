@@ -31,8 +31,10 @@ audit=(R/'cangjie/reading/R042_RISK_WAVE2_AUDIT.md').read_text(encoding='utf8')
 for k in [*expected,'LATE_CORRECTIVE','CONFIRMED_NARROW_PROVISIONAL','STAGE0','NOT_RUN','SOURCE_STRUCTURE_ONLY']:
  ck(k in audit,"missing explicit caveat / record: "+k)
 cursor=json.loads((R/'CURRENT_ROUND.json').read_text(encoding='utf8'))
-ck(cursor['current_round']=='R042' and cursor['round_status']=='BLOCKED' and cursor['last_passed_round']=='R041' and cursor['rounds_completed']==41,'premature Gate PASS')
-ck(cursor['cangjie_stage0_gate']=='NOT_PASSED' and cursor['skill_certified_count']==0,'false certification')
+pre_commit=cursor['current_round']=='R042' and cursor['round_status']=='BLOCKED' and cursor['last_passed_round']=='R041' and cursor['rounds_completed']==41 and cursor['cangjie_stage0_gate']=='NOT_PASSED'
+accepted=cursor['current_round']=='R043' and cursor['round_status']=='NOT_STARTED' and cursor['last_passed_round']=='R042' and cursor['rounds_completed']==42 and cursor['cangjie_stage0_gate']=='PASSED'
+ck(pre_commit or accepted,'Stage0 formal user confirmation state inconsistent')
+ck(cursor['skill_certified_count']==0,'false SKILL certification')
 print('R042 WAVE2',('FAIL' if errors else 'PASS'),'9 source-chapters and 35 anchored scene observations; SOURCE_STRUCTURE_ONLY / B PROVISIONAL / C NOT_RUN')
 for x in errors:print('FAIL:',x)
 sys.exit(bool(errors))
