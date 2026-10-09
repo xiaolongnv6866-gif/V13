@@ -2,6 +2,8 @@
 
 status: STAGE1_RAW_FICTIONAL_CASE_CANDIDATES
 CI_CLASSIFICATION: SOURCE_STRUCTURE_ONLY
+literary_interpretation_B: PROVISIONAL
+original_output_C: NOT_RUN
 source_epub_sha256: 9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf
 pinned_cangjie_sha: a28de55ba881b9928956a55048f743f7a9e3b23e
 pinned_nuwa_sha: fe0374687037c4cc51a65c1e0c145afe2981dc69
