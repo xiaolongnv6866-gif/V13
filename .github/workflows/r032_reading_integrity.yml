@@ -1,0 +1,20 @@
+name: V13 R032 Tiexue original 481-520 narrative integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r032:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Frozen R006 full narrative receipt schema
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R032/tiexue_receipts.jsonl
+      - name: R032 full chapter original index literary evidence (public structure only)
+        run: python3 scripts/validate_r032_reading.py
+      - name: 89-round controller
+        run: python3 scripts/validate_round_integrity.py

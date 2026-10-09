@@ -100,3 +100,7 @@ Validated the original private 《晚明》 narrative ordinals481—520: 40 comp
 ## R031 remote final audit — 2026-10-09
 
 Original evidence commit `992dff3b` had 29/29 completed successful GitHub Actions (dedicated R031 run 37888210452). Official atomic R031 PASS commit `6e4170139b09adafe32fdf58ec3356c57f6dbcfa` also had 29/29 successful workflows (dedicated R031 run 37888332235), with remote cursor/ledger and book pipelines re-read consistently: R032 NOT_STARTED, 31/89, 520+480=1000/1103. Final audit itself will be checked next; B PROVISIONAL, C NOT_RUN, certified Skills 0. Wait for new manual trigger before R032.
+
+## R032 远程证据检查点 — 2026-10-09
+
+用户明确继续R032《铁血残明》有效叙事481—520。已从原始用户EPUB读取40章、2541个非空XHTML段、160318正文可见字符；20篇场面精读与40章人物行动记录，82原段SHA及2组跨章反证；8处初版支持锚点错位已针对原文纠正。所有本轮证据及源检验器已提交或纳入本次提交；专属Actions将在本次提交启用。**此阶段仍只有R032 IN_PROGRESS，正式31/89轮、520+480=1000/1103章。不得用A源码SHA替代B文学理解或C创作能力，亦不得提前运行R033。**
