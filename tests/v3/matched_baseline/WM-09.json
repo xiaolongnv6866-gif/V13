@@ -1,0 +1,10 @@
+{
+  "id": "WM-09",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "旧渡的戏班正在演唱一位先生独自献钟的故事。刻碑女工在台下听出不对，她记得四十年前三户人搬来铜料，还亲手刻下其中两人的名字。游客只知道戏词，惊讶于这个不同版本，求她指认旧碑。",
+  "scene_B": "女工带游客去看残碑，说这些字是她亲刻的，却不敢把缺失两页账册的内容猜出来。戏班仍依戏词继续演出，游客说他会把女工与戏班两种说法并列记录，不把舞台热闹当作旧事全部。",
+  "state_contract": "四十年前所见=三户搬铜；女工亲证=刻碑两人名；舞台版本=一人独献；游人原认识=戏词；缺失史料=两页。",
+  "unknowns": "第三户捐赠者全名、实际捐额及后世戏词为何改变均待查。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

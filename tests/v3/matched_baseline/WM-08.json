@@ -1,0 +1,10 @@
+{
+  "id": "WM-08",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "伯父把陶念未来三年的帮工安排告诉母亲，说邻铺已经答应收他。陶念听到后开口说自己更想学修钟，他并不否认家里纸坊缺人手，却不肯把伯父替他答应的事当成自己的意愿。母亲问他是否想好如何补家里的工。",
+  "scene_B": "三个月后大集会上，陶念走到钟铺看了一会儿，转身先去邻店说明帮工的事是伯父代许，他还没有答应。他决定在家里做半日活，同时向钟匠询问短期学艺可能；母亲尚未认可这个折中办法。",
+  "state_contract": "陶念本人=学修钟；母亲=守纸坊；伯父=代答应帮工；本人同意=无；三月后=向邻店说明并询问钟匠。",
+  "unknowns": "母亲是否准许、钟匠是否收徒和邻铺如何回应均未落定。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

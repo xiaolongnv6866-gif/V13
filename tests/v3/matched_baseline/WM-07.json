@@ -1,0 +1,10 @@
+{
+  "id": "WM-07",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "东街居民围着图书馆的开放告示议论，几位学生赞成延长夜间时间，制伞妇人却问：我夜里照顾孩子，谁帮我看着？负责人承认志愿者经费没有批，只准先在东街试十天，其他街道不算。",
+  "scene_B": "志愿者提出轮值表，制伞妇人要求十日后也听有孩子的住户讲真实难处。大家商量把退出值守后的缺位也记下来，决定第十日再开会核对使用人数与照顾负担；有人仍保留反对意见。",
+  "state_contract": "地点=东街图书馆；时限=十天；看护异议=已提出；经费=未落实；复核=第十日；推广=不准自动扩大。",
+  "unknowns": "志愿者能否坚持、夜间读者是否增加及照料困难有没有恶化未知。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

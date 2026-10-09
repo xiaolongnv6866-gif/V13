@@ -1,0 +1,10 @@
+{
+  "id": "WM-06",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "官员在芦港广场将奖状交给抢修风雨棚的主事者，掌声正响，花匠挤到台前，问谁来赔他因封路卖不出去的花。领赏的木工学徒低头捻着钱袋，家里还等着用这笔钱买药。记功人只见奖状上的名字，一时答不出来。",
+  "scene_B": "主事者叫书记另备一张受损登记，花匠说自己能带来过去几周的摊位记录。学徒拒绝把赏钱捐回公账，因为母亲的药不能再拖。主事者答应让两件事分别登记，但没人说赔款已经发下。",
+  "state_contract": "公共成果=棚修好；奖状=主事者；花匠=失去生意；学徒=家庭药费；书记=登记奖励；受损登记=刚开始；赔付=尚无。",
+  "unknowns": "花匠损失如何确认、赔付谁出和学徒家庭状况均未解决。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

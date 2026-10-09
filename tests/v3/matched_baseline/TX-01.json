@@ -1,0 +1,10 @@
+{
+  "id": "TX-01",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "何展带着新井水记录去见乡人，旧雇主当众说他以前误报水位，不愿再信他。村妇却记得何展替邻居找回过秤，愿意让他解释。官署文员只盯着记录上没签名这件事，要求先核实今日测量。",
+  "scene_B": "何展补上自己的姓名，主动请另一个测量者陪去复看。旧雇主仍不肯为他担保，村妇答应向人说清楚自己亲眼见过的善举。三人离开时看法依旧不同，谁都不知道复测结论。",
+  "state_contract": "旧名声=误报；新工作=井水异常记录；雇主=不信任；村妇=有具体好评；官署=等待签名与复核；信用=未定。",
+  "unknowns": "井水是否真的异常、最后复测以及何展长久声誉变化未知。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}
