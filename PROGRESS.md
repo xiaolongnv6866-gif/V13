@@ -358,3 +358,13 @@ R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回�
 - 187条候选全部分流：**47项实际参与V2纸面演练且有限通过；11项方法V1 PASS但尚未V2测试；90项案例/反例/术语仅参考；39项仍因V1 REVIEW阻断**。两个A/B版本均由同一Agent编写，重复运行技术检验不等于独立模型重写结果，更不等于R056 V3的任务增益。4/4负例变更被正确拒绝。
 - 首个证据commit `06f98f84a14bb04751bc1072c53473e464a30173` R055专属 [37964867249](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37964867249) FAILED：7处未知条件文字过短及B/C审计标签缺失。保留历史并补充实际未发生条件，校验器未下调；最终证据commit `4ef0470af41039760bbdc4ab5bdfcc32d4231d85` **53/53项Actions全部SUCCESS**，R055专项 [37964994375](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37964994375) SUCCESS。
 - R042历史14项隔离`OPEN_QUARANTINED`/ `NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE`，文学B`PROVISIONAL`、独立原创增益C`NOT_RUN`、SKILL0、heldout封存。正式R055 PASSED **55/89**；下轮R056 V3 `NOT_STARTED`，须下次用户手动触发，不在本轮执行。
+
+
+## R056｜Stage1.5 V3相同原创任务的增益对照（2026-10-10）
+
+- 用户本次新『继续』只执行R056。起点main `7e763e3133258551761df4b4c24b39f776a02ec2`，55/89、R056 NOT_STARTED。严格读取仓颉原版Stage1.5 V3、Nuwa当前完整固定SKILL、R042 19项独立任务、R054 V1及R055 V2结果；未执行R057的强制用户确认。
+- 原R055 19个合法原创同题输入、57条冻结标准、38份候选输出均不修改，先以 `c4d97a582e9b2ec13bad55db3ec00211f9cf9399` 冻结每题五维11分评分，再为19题各写A/B两段对照（38新场景）。发现**首版对照未收到候选组已知的同一预注册标准**，候选201/209与首版对照168/209（14胜、4平、1负）属于**信息不对称混杂，明确判作 INVALID_IMBALANCED_PROMPT**，原稿未删除。
+- 修正公平性时先在commit `79b6a619a8c4577546e272bfad074cf499cdc533` 冻结补救协议，再为19题重写38份**相同题目/相同3条完成标准/相同两场景与状态账要求、但没有候选方法卡**的普通对照，结果保存在`tests/v3/matched_baseline/*.json`，文本commit `43a51d342f8d94eced48e938a2f013b025db1362`。逐项引文和评分`tests/v3/R056_MATCHED_PAIRED_RATINGS.json`。最终匹配对照 **候选201/209、普通203/209，19题0胜17平2负**。退步样本WM-04（商人独立选择）与WM-09（游客自主求证）真实留档。原评分及首版失败样本也保留。
+- **严格区分研究执行PASS与V3方法增益未获证**：这是一位Agent编写两组文本并自评，既非真正盲评也非独立宿主或多次随机复现；尽管形式任务完整，**没有观察到额外方法收益，不能把47个方法判作V3通过**，更不能称已经训练出了比无SKILL更高水平的长篇历史军事写作。其他11个未测V2方法、90项参考、39项V1来源不足原样保留，187条独立去向`tests/v3/R056_CANDIDATE_OUTCOMES.tsv`齐全。14条R042历史错误旧主张仍隔离，B PROVISIONAL、独立C NOT_RUN、SKILL0、heldout封存。
+- R056首次证据commit `27774dbf212bd7f6bdd632a4c3640ad671b24356`专项 [37970986002](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37970986002) FAILURE（3个逐字引文、继承R055字段长度误门）；次次commit `79d05bd206ec0a80c50e7c7e08ce86982d84cc75`专项 [37971135788](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37971135788) FAILURE（仅一处「三户人」短引漏字）。已修订原评分证据与校验器兼容原R055源门，不重写旧场景、不调整201:203或0/17/2；最终证据commit `92b63c63b72b6303bdf810fb32e1b389aac03fbe`通过**54/54 Actions全SUCCESS**，R056专项 [37971219710](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37971219710) SUCCESS。
+- **正式R056 PASSED仅指完成真实V3测试及诚实提交失败结果，不代表任何候选V3 PASSED。** 56/89；下一轮R057 NOT_STARTED，须全体187候选四分流、旧14隔离逐项处置、对照本轮V3无收益与原版不得凑SKILL红线，并向用户展示后取得明确轻确认。仅可由下一次手动触发R057。
