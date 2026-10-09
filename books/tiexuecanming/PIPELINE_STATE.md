@@ -7,7 +7,7 @@
 - stage0_current: FULL_TEXT_COVERAGE_COMPLETE_ADLER_NOT_DONE; whole_book_adler: NOT_STARTED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R037; current_round: R038 NOT_STARTED (manual trigger only)
+- last_passed_round: R038; current_round: R039 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -43,3 +43,5 @@
 - R036: first Cangjie Adler Structural step on Wanming accepted as research only; 34/34 Actions evidence commit 75c11bf8, B PROVISIONAL, C NOT_RUN, full Stage0 and R042 user gate pending; R037 NOT_STARTED.
 
 - R037 completed Wanming Adler interpretation step only; Tiexue literature Adler still NOT_STARTED, original reading coverage remains 532/532. Evidence 46a9c22f 35/35 GitHub Actions SUCCESS. B PROVISIONAL, C NOT_RUN, user BOOK_OVERVIEW gate R042 not passed, R038 NOT_STARTED.
+
+- R038: Wanming critical/applicability research step: 10 strongest objections, 10 new-fiction input/output task candidates, 48 original-source SHA positions across all six volumes, R037 n519/p69 weak support corrected with n519/p70; evidence 1978c979 passed 36/36 GitHub Actions, including R038 37922531362. Literary B PROVISIONAL, new-writing C NOT_RUN, verified Skills0, R042 BOOK_OVERVIEW user gate NOT_PASSED. Tiexue Adler Stage0 has not yet begun. R039 NOT_STARTED; both books' registered narrative chapter counts unchanged.

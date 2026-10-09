@@ -4,10 +4,10 @@
 - expected_narrative_chapters: 571
 - round_R002_official_source_validation: PASSED (R002 original OPF/spine/CRC/SHA verified)
 - official_full_text_read_chapters: 571 (source CURRENT_ROUND.json; all OPF effective narrative chapters now have registered full-reading receipts, not independent literary certification)
-- stage0_current: STRUCTURAL_AND_INTERPRETIVE_STEPS_DONE_ONLY; whole_book_adler: IN_PROGRESS_NOT_PASSED
+- stage0_current: STRUCTURAL_INTERPRETIVE_CRITICAL_APPLICABILITY_RESEARCH_DONE_AWAITING_R042; whole_book_adler: RESEARCH_STEPS_DONE_USER_NOT_APPROVED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R037; current_round: R038 NOT_STARTED (manual trigger only)
+- last_passed_round: R038; current_round: R039 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 and R007 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -43,3 +43,5 @@
 - R036: first Cangjie Adler Structural step on Wanming accepted as research only; 34/34 Actions evidence commit 75c11bf8, B PROVISIONAL, C NOT_RUN, full Stage0 and R042 user gate pending; R037 NOT_STARTED.
 
 - R037: Original Cangjie Stage0 interpretive STEP only, 10 literary hypotheses (B PROVISIONAL), 60 original source anchors, 57 chapters rechecked, evidence commit 46a9c22f GitHub 35/35 Actions successful incl R037 37920687937. Still no independent fiction test C, no R038 criticism/application, no R042 BOOK_OVERVIEW user approval and no certified skills. Last passed R037, R038 NOT_STARTED; 571/571 full original narrative reading coverage remains unchanged.
+
+- R038: Wanming critical/applicability research step: 10 strongest objections, 10 new-fiction input/output task candidates, 48 original-source SHA positions across all six volumes, R037 n519/p69 weak support corrected with n519/p70; evidence 1978c979 passed 36/36 GitHub Actions, including R038 37922531362. Literary B PROVISIONAL, new-writing C NOT_RUN, verified Skills0, R042 BOOK_OVERVIEW user gate NOT_PASSED. Tiexue Adler Stage0 has not yet begun. R039 NOT_STARTED; both books' registered narrative chapter counts unchanged.
