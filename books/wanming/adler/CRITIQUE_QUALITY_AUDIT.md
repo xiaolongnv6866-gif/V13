@@ -20,3 +20,7 @@ R036 六卷结构、R037 的60处来源核验均保留原始记录。R038 有意
 - C = `NOT_RUN`：TASKS.md 所列10个原创输入/输出是一份下一阶段测试对象清单，不是已经进行基线对照，也不是技能认证。
 - 作者在书外想法与真实历史制度 = `EXTERNAL_NOT_VERIFIED`。
 - R042 用户 `BOOK_OVERVIEW` 明确确认 = `NOT_OBTAINED`；Nuwa 后续流程及正式可装 SKILL 仍未执行。固定计划下一轮 R039 在 R038 GitHub 正式 PASS 且下一次用户明确触发后才开始。
+
+## GitHub complete acceptance amendment — 2026-10-09
+
+The earlier `EVIDENCE_LOCAL_DONE_GITHUB_PENDING` heading describes the historical local checkpoint, not the current round status. Evidence `1978c979` and official PASS `bc1fb0b3` both passed 36/36 GitHub Actions, including R038-specific 37922531362 and 37922806285; official remote cursor R039 NOT_STARTED, R038 PASSED, rounds38/89. A private bytes checked, public structure-only. The literary misalignment R037 n519/p69 remains registered NEEDS_REVIEW and the corrective n519/p70 is authentic; B PROVISIONAL, C NOT_RUN, original full Adler Stage0 user R042 approval unpassed, Skills0. This addendum has its own CI still to verify.
