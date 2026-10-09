@@ -125,3 +125,7 @@ True source work from original private Wanming EPUB narrative521–560: 40 full 
 ## R033 passed evidence gates, formal status verification pending (2026-10-09)
 
 Evidence commit afe1de9566369c1e6ed7f864315de7e78a1ccf06: 31/31 GitHub Actions success, including R033 37893303302 and frozen R006. Private EPUB authenticated 40 original Wanming narrative chapters 521-560, 1892 body paragraphs, 20 distinctive close studies, 82 SHA anchors and 2 anchored counterexamples. The atomic status update records R033 PASSED, R034 NOT_STARTED, 33/89 and Wanming560 + Tiexue520 = 1080/1103. Its own CI and GitHub reread must be verified before announcing completion. A privately verified, B PROVISIONAL, C NOT_RUN; no Adler R042 gate and no certified skill.
+
+## R033 final remote verification — 2026-10-09
+
+Evidence `afe1de9` passed 31/31 Actions (R033 37893303302); formal PASS `07f9969` also passed 31/31 Actions (R033 37893610419), both including frozen R006 and all regressions. Remote cursor, ledger and separate book pipeline records agree: R033 PASSED, R034 NOT_STARTED, 33/89, Wanming560+Tiexue520=1080/1103. This append-only audit should be checked for its own CI success; does not claim B or C independently verified.
