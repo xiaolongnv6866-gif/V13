@@ -1,6 +1,6 @@
-# V13 R026 PASSED — handoff to R027 NOT_STARTED
+# V13 R027 PASSED — handoff to R028 NOT_STARTED
 
-Official: 26/89 rounds; Wanming 400/571, TiexueCanming 400/532, 800/1103 chapters.
+Official: 27/89 rounds; Wanming 440/571, TiexueCanming 400/532, 840/1103 chapters.
 R024 40 distinct chapter receipts, 2220 original paragraphs, 20 close studies, 80 SHA locators; source-member FNV 8dd29619 and paragraph FNV 12642d3d.
 Evidence commit e9cda3ed: initial R024 workflow 37869539563 FAILED because event-chain data was mistyped; repaired commit 7443f3fd passed all 22 workflows including R024 run 37869730435 and frozen R006.
 Public CI checks structure, not private novel contents or literary mastery. A private-source check PASSED, B PROVISIONAL, C NOT_RUN; skill certification 0; Nuwa Phase1 NOT_STARTED; R006 heldout SEALED_NOT_RUN.
@@ -48,3 +48,11 @@ Only R024 authorized by this manual request. Do not begin R025.
 - 本轮正式状态：**26/89轮**、《晚明》400/571、《铁血残明》400/532、总计**800/1103章**。下一轮 R027 NOT_STARTED，仅待用户再次手动『继续』。本次原子PASS提交仍须二次Actions和远程回读。
 
 - R026正式 PASS `1d871aec8bc953d3311d0872495c0a6a9b6f08e4` 对应24/24 GitHub Actions 全绿，包括 R026 run [37876928726](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37876928726)；完成再次远程回读，当前仍R027 NOT_STARTED。本条只回填事实，不执行下一轮。
+
+## R027《晚明》401—440原著阅读正式阶段性PASS｜2026-10-09
+
+- 私有原EPUB字节SHA和ZIP CRC PASS；40个原始OPF有效叙事章节ZIP成员（spine416—455）SHA与元数据匹配，1954非空原正文段、153762文字、20章重点CLOSE_READ、20章普通FULL_TEXT_READ与80个不可逆段落SHA，40章事件链和人物独立选择记录。成员清单FNV `85038f0c`，80段落定位FNV `fed81098`，用户原文未公开。
+- 文学研究 `cangjie/reading/wanming_401_440.md`、20章独立精读、6组跨章正反场景、连续性账已提交；有意保留私人财务、权力政治、人物选择与场景留白的约束，避免旧批次模板化分析。
+- 研究证据提交 `d929a336fb26ad758d13bd562a4c7998a2ced4df` 已收到 **25/25 GitHub Actions completed/success**，R027专项run [37879087795](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37879087795)以及冻结R006/旧轮回归全部成功。私有A来源验证与GitHub公开结构性检查分开报告；B文学理解依旧 `PROVISIONAL`，C陌生原创增益 `NOT_RUN`，SKILL认证0。
+- 历史R007—R024质量债务不清零、不自动重做，R036—R042整书Adler与用户门仍未通过，女娲Phase1未启动。正式进度更新为**27/89轮**，《晚明》440/571、《铁血残明》400/532、累计**840/1103章**。R028 `NOT_STARTED`，用户下次手动『继续』才触发，不自动开始。
+- 本次是研究证据Actions全绿后原子状态更新；正式PASS提交自身Actions与远程回读尚需实际完成。
