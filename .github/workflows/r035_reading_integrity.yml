@@ -1,0 +1,20 @@
+name: V13 R035 Wanming original 561-571 final narrative integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r035:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Frozen R006 full-narrative receipt schema
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R035/wanming_receipts.jsonl
+      - name: R035 last eleven chapter original structural and narrative audit
+        run: python3 scripts/validate_r035_reading.py
+      - name: 89-round integrity
+        run: python3 scripts/validate_round_integrity.py

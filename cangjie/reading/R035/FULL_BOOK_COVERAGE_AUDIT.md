@@ -1,5 +1,11 @@
-# V13 whole-book source-reading coverage checkpoint; no certification
+# V13 R035｜两书完整原文连续覆盖终点审计（阅读覆盖，不是文学认证）
 
-R035 consists of the final 11 original narratives 561—571 of the 571-chapter Wanming EPUB. Its original local source verification passed. Previously GitHub accepted original reading evidence for Wanming 1—560 and TiexueCanming 1—532 under R007—R034. This is a **local coverage checkpoint only** until R035's full evidence and all GitHub Actions actually pass. Remote official counts remain Wanming560 + Tiexue532 = 1092/1103, 34/89 rounds.
+冻结计数：《晚明》571个OPF有效叙事成员；《铁血残明》532个OPF有效叙事成员，总计1103。R002已验证原来源，不按印刷章节、非叙事占位或卷标题加章。
 
-Even after the eventual coverage gate, full Adler structural/interpretive/critical/applicability work R036—R042 is not done. B remains PROVISIONAL and independent novel-writing performance C NOT_RUN; no certified SKILL. Earlier quality debt, retrospective source-content alignment and unknown additional counterexamples remain recorded under the frozen Stage0 quality policy.
+本轮《晚明》最后11个有效章561—571已逐段阅读；40章批次此前R007—R033中的《晚明》1—560部分在GitHub各轮收据登记，此处不凭已读目录重算其内容理解。R034《铁血残明》最后12个有效章521—532正式完成。
+
+**读章覆盖的账面终点**：如果R035证据和正式PASS动作通过，正式累计《晚明》571/571、《铁血残明》532/532，共1103/1103。现阶段本地证据完成但不得先更新权威游标。
+
+**尚存质量债务**：旧轮R007—R024按STAGE0_QUALITY_CONTROL_POLICY另行抽检；章节读过也不等于逐段文学解释均已被第三方确证；新轮文学B均PROVISIONAL。R036—R042仍要做结构、解释、批判、应用、竞争解释、真实史事核对与用户书纲确认。独立原创SKILL C NOT_RUN、已认证0。
+
+**R035特殊读法边界**：全书最后一章通过茶馆评书将此前故事呈现为可能被改写的公共叙事，是一项明确的元小说结构。不可照搬其具体场景、人物与台词；可研究抽象的叙事者可靠性、同一史事不同受众、商业需求与文献核对之间的张力。
