@@ -209,3 +209,9 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - 新产物：`books/wanming/BOOK_OVERVIEW.md`、`books/tiexuecanming/BOOK_OVERVIEW.md`（各含原版四步、不同的六段骨架、十项命题、9/10个独立任务及批判边界）；`cangjie/reading/R042_STAGE0_QUALITY_AUDIT.md`及专项source-only validator/workflow和`runs/R042.md`。
 - 历史风险抽审按预定八个批次（R008/R010/R013/R015/R017/R018/R023/R024），八处原段SHA匹配；五处旧单段与宽泛机制结论支持不足已明确列`NEEDS_REVIEW`，不虚报历史B全部合格或清零旧登记。A原书抽查，B PROVISIONAL、C NOT_RUN、Skill认证0。
 - **R042 当前BLOCKED（等待用户审阅并明确批准两份BOOK_OVERVIEW、以及按风险处理仍有的解释缺口），未PASSED；正式完成仍41/89，下一R043 NOT_STARTED，两书1103/1103阅读收据不变、Stage0 NOT_PASSED。** GitHub研发材料提交与Actions也必须实际核验，之后只向用户提出确认，不自动跨轮。
+
+## R042第二批质量风险复核（用户再次「继续」，仍须明确确认）
+
+- 从R009/R011/R012/R014/R016/R019/R020/R021/R022九个未定向审过的旧批次，先风险选样后逐章查证，真实EPUB的9章、35个特定p的来源SHA；其中R011原p28对整条身份归类命题支持错配，但继续精读同章p39找到相关人物对白，因此不得否认整章有限机制，改为换锚缩窄。R021原p32确实为有效财政计算，保留窄义；其他7个案子定位补证或缩窄。具体证据和阶段性判决见`cangjie/reading/R042_RISK_WAVE2_EVIDENCE.tsv`与`cangjie/reading/R042_RISK_WAVE2_AUDIT.md`。
+- 抽审发现率不是全部旧296条判断的失效率，不允许因此重做720篇；所有旧机制进入Stage1必须先检查原文与反例，不可仅按旧JSON的SHA认证。冻结R006/89轮计划不变；A私有来源复核，GitHub CI SOURCE_STRUCTURE_ONLY，B PROVISIONAL，C NOT_RUN。
+- 本轮是既有R042 BLOCKED期间的追加核查，不是R042正式PASS。仍为41/89，R043 NOT_STARTED，Stage0等待用户明确确认两份BOOK_OVERVIEW，SKILL认证0。GitHub远程Actions结果须另查，不预报。
