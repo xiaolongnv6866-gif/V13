@@ -24,3 +24,7 @@ GitHub第二批首稿提交`49509701e02bc76dff4b33f4f6f7ebea90227f3b`，专项R0
 - 输出一页`cangjie/reading/R042_APPROVAL_BRIEF.md`：明确两书六段/核心理解/边界与9+10项任务，并区分《晚明》原OPF卷段与《铁血残明》研究者划分六弧，提供须由用户具体决定的批准范围。两份原版BOOK_OVERVIEW追加该决策材料和旧历史质量债隔离入口；原模板四步保留。
 - 增加`scripts/validate_r042_gate_brief.py`和R042 Actions新检查，要求14条旧ID真实存在、未标B VERIFIED、两书审批仍PENDING且游标BLOCKED，验证公开SOURCE_STRUCTURE_ONLY。补充R042审核政策记录、项目进度和两书Pipeline State。没有用户独立批准，**不能正式PASS或启动R043**。
 - 来源层A=既有原始EPUB和段落定位阶段性可追溯；B=PROVISIONAL且残留旧质量债；C=NOT_RUN；技能数=0。新增质量闸脚本不允许把Github工作流绿灯当作用户明确签署。
+
+## 本次整合首轮CI失败与实质性修订（记录保留）
+
+首次整合研究提交 `4c8ace43882b200a61f3b698edfce4b8d29f83d4` 推送成功，但新增R042独立门禁 run `37935959644` 首次为`FAILED`：已验证14个旧claim_id原收据存在，问题是隔离TSV其中5条`source_boundary`字数太短（R013/R018/R023/R012/R020），不足说明失效边界。公开校验给出5条`FAIL: missing source scope`。修订**只增加确切来源可证明和不可证明的边界说明**，仍强制不少于18字的独立样本边界及14条原收据真实ID检查；不降低脚本标准。修正提交后必须新查全部工作流及远程回读；即使全绿，用户未确认则R042依然BLOCKED，R043不得启动。
