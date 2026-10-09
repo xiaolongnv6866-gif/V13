@@ -1,0 +1,20 @@
+name: V13 R023 Wanming 321-360 original narrative integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r023:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run frozen R006 original full-narrative reading contract
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R023/wanming_receipts.jsonl
+      - name: R023 literature and original-member metadata audit
+        run: python3 scripts/validate_r023_reading.py
+      - name: V13 global 89-round integrity
+        run: python3 scripts/validate_round_integrity.py

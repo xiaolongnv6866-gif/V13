@@ -1,18 +1,16 @@
-# V13｜R022《铁血残明》有效叙事281—320正式PASS（2026-10-09）
+# V13 R023｜《晚明》321—360原著证据验收中
 
-|项|正式状态|
+|条目|仅代表已完成步骤|
 |---|---|
-|唯一游标|**R023 / NOT_STARTED**；下一批《晚明》321—360尚未开始|
-|已验收轮数|**22/89**，R022 PASSED|
-|正式读量|《晚明》**320/571**、《铁血残明》**320/532**，两书累计 **640/1103有效章**|
-|R022原著来源|用户私有《铁血残明》EPUB27764568bytes SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`，ZIP CRC完整|
-|40章真实覆盖|叙事281—320，原OPF spine297—336、`OEBPS/Text/chapter288.html`—`chapter327.html`；合计**2169原XHTML非空段**|
-|40章原始member索引|私有原书与R002冻结源元数据同序FNV32 `4981dd11`，逐章原字节SHA与路径一致|
-|80条私有定位|20CLOSE_READ+20FULL_TEXT_READ，共40独立实读收据，原段落SHA256锚点80，同序FNV32 `47d26b4e`|
-|文学研究|40章独立角色目标和事件链、六组近景反证和改写损失、财政民生与人物长期连续性账；候选机制**PROVISIONAL**|
-|实际来源验收CI|证据提交 `c1fc2c8eaa6c2371a09314c93d553178e6dd8d1c` 经GitHub认证远程回读，**20项Actions全部completed/success**，含R022专项、冻结R006及历史回归；正式PASS提交 76a0cc56d88697027363e2889e9c03b9f8c13385 已远程回读，20/20 Actions completed/success，R022专项37866687854|
-|三证据门|A用户私有源真实性PASS；B局部文学解释PROVISIONAL；C原创SKILL陌生创作任务效用NOT_RUN|
-|原版门|Cangjie Stage0整书Adler和R042用户确认尚未到，Nuwa Phase1未启，认证原创SKILL0、R006 holdout SEALED_NOT_RUN|
-|调度|MANUAL_USER_TRIGGER；R023不能自动执行，不主动产生额外付费|
+|唯一游标|**R023 / IN_PROGRESS**，R022已PASSED|
+|尚未改变正式进度|**22/89轮、640/1103章**；《晚明》320/571、《铁血残明》320/532|
+|本批私有原EPUB|原字节17123520，完整SHA256 `a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082`，ZIP CRC完整|
+|真实原著范围|叙事321—360，原OPF spine336—375、原ZIP Chapter_0333.xhtml—0372.xhtml，40章**2129原XHTML非空段**|
+|可复核来源|40 original member SHA 与R002冻结索引比对；源路径+SHA+段数FNV32`9a726633`；80私人原段 SHA256 FNV32`aeabbd4c`|
+|实际阅读研究|40独立章收据；20 CLOSE_READ+20 FULL_TEXT_READ，共40章不双算；40章逐章事件/角色/视角表、六组带反证和叙法替代损失的研究、长期财税家庭与伦理责任账|
+|GitHub检查|R023专项 workflow、R006冻结收据合同和历史回归 **尚待新证据提交真实Actions验收**，不可提前写PASSED|
+|来源、文学、能力三门|A私人来源真实性核对PASS；B局部文学机制PROVISIONAL；C陌生原创任务效用NOT_RUN|
+|完整技能流程|Cangjie Adler整书Stage0尚未通过，女娲Phase1未启动；认证原创SKILL0，R006密封盲测SEALED_NOT_RUN|
+|调度|MANUAL_USER_TRIGGER，一次只执行R023；若通过只开启R024 NOT_STARTED；不额外付费、不上传版权原文|
 
-公开GitHub Runner没有私有版权EPUB，仅可测SOURCE_STRUCTURE_ONLY，不能据此证明原著理解已完美或原创SKILL已认证。
+**区分**：GitHub公开Runner没有用户私有原EPUB，所谓绿灯至多SOURCE_STRUCTURE_ONLY，不自动证明阅读理解或原创写作能力。
