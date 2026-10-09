@@ -1,0 +1,13 @@
+{
+  "round": "R032",
+  "book": "tiexuecanming",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "chapters": 40,
+  "paragraphs": 2541,
+  "visible_characters": 160318,
+  "close_read_chapters": 20,
+  "anchors": 82,
+  "found_cross_chapter_counterexamples": 2,
+  "literary_quality": "PROVISIONAL",
+  "creative_original_performance": "NOT_RUN"
+}
