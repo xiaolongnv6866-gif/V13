@@ -1,0 +1,9 @@
+{
+  "id": "TX-02",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "木匠林许把公学旧门的破损处画在纸上，去向庶务员递交修补申请。庶务员看完盖了收件戳，说馆主外出，得等几日才有准信。林许想着手头还有别的活，只好先回家。",
+  "scene_B": "后来林许遇见出资的商人，对方说钱很快就会送到。林许便去问木料铺最近的价格，打算把账估清楚，再去向馆主报一遍。",
+  "state_contract": "申请=已送交；馆主=暂缺席；商人=口头允钱；木料=先询价。",
+  "unknowns": "门何时能修、捐款何时实际送达均未知。",
+  "authoring_conditions": "No candidate names; same-agent known prior context may bias; not a blinded independent model."
+}

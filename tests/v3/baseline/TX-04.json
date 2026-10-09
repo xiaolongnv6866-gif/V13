@@ -1,0 +1,9 @@
+{
+  "id": "TX-04",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "北温的阅览室要给夜读的人备三十条毯子，账房说募款簿上的数目够了。主任到了铺子才知道目前只做得出十二条，只好商量可否让邻镇的书社支援。",
+  "scene_B": "书社的人果然送来六条旧毯，临走提醒明年还要用。主任把毯子搬到阅览室，大家看见冬夜里终于有了一些暖意，剩下的人还在等待。",
+  "state_contract": "需求=三十；店铺=十二；邻社借来=六；可用=十八；余缺=十二。",
+  "unknowns": "下一批什么时候到、借来的毯子何时返还还不知道。",
+  "authoring_conditions": "No candidate names; same-agent known prior context may bias; not a blinded independent model."
+}

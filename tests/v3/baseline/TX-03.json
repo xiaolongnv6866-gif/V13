@@ -1,0 +1,9 @@
+{
+  "id": "TX-03",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "安意看到陈列木版上的色彩越来越淡，拉住柳明指给他看。柳明说店里光线好，顾客爱看；安意说要是展品晒坏了，客人看见也没用。老匠听见两人争论，摇头说改位置又会挡住门口。",
+  "scene_B": "第二天柳明挑了几件不甚贵重的作品放到阴影处，叫安意先看三日。老匠仍把最受欢迎的作品摆在亮处，几人说好等下旬再决定怎么陈列。",
+  "state_contract": "晒褪色=已发现；安意=提出挪动；柳明=同意试一试；老匠=有疑虑。",
+  "unknowns": "三日后颜色与客流变化、正式方案仍未定。",
+  "authoring_conditions": "No candidate names; same-agent known prior context may bias; not a blinded independent model."
+}

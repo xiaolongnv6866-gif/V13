@@ -1,0 +1,9 @@
+{
+  "id": "TX-06",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "东乡拿出大厅办诗会，西乡说可以送纸但要写上供纸人的名字。河口乡代表赶来时天正下雨，劝大家不要把时间定得太死。三方最后说先拟个日子，等天气好了再定。",
+  "scene_B": "两日后东乡准备好诗帖，西乡仍在筹纸，河口乡派人说沿河道路湿滑。三乡代表在不同地方各忙各的事，诗会的请柬却迟迟没有送出去。",
+  "state_contract": "东乡=有场地；西乡=筹纸；河口=提醒雨季；合作=原则上愿意；举办=未确定。",
+  "unknowns": "纸能否及时送达、如何正式署名以及时间安排未有结论。",
+  "authoring_conditions": "No candidate names; same-agent known prior context may bias; not a blinded independent model."
+}

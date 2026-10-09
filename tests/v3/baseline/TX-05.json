@@ -1,0 +1,9 @@
+{
+  "id": "TX-05",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "书局宣布校勘员从本月起多领津贴，装帧工皱眉问是否也要听他的校样意见。主管说校勘员有新职责，大家还是要商量着办。几人争论一阵，终于决定下次核稿时再一起看。",
+  "scene_B": "月底第一批书稿送来，装帧工发现版式问题，校勘员说文字没有错。两人把不同意见写成两条送给主管，主管让他们先各自说明理由，不必争出谁更高一等。",
+  "state_contract": "津贴=增加；两种岗位=分别发现问题；决定权=需进一步说明；合作=继续。",
+  "unknowns": "主管最终如何划分核签权限未知。",
+  "authoring_conditions": "No candidate names; same-agent known prior context may bias; not a blinded independent model."
+}
