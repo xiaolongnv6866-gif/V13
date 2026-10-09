@@ -1,16 +1,19 @@
-# V13 R020｜《铁血残明》241—280证据验收中
+# V13｜R020《铁血残明》有效叙事241—280正式PASSED
 
-|核验项目|权威当前状态|
+|条目|正式结果|
 |---|---|
-|唯一游标|**R020 / IN_PROGRESS**，R019已PASSED|
-|正式通过|**19/89轮**；正式原著《晚明》280、《铁血残明》240，**520/1103章**；本轮未完成不能提前计|
-|本轮原文字节|用户原EPUB 27764568字节，SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`，ZIP CRC None|
-|R020完整接触内容|40章有效叙事241—280，原OPF spine257—296，对应chapter248.html—chapter287.html，2512个正文非空XHTML段落|
-|真实原章成员与索引|原member SHA和源章节摘要`4371963e`已本地独立比对冻结R002，40个一致|
-|实际阅读凭据|20重点CLOSE_READ＋20 FULL_TEXT_READ，40份去重章节收据、80个原文段落不可逆SHA位置，私有与公开锚点摘要`93f49811`一致|
-|文学研究|40章独立人物及事件记录、六组带反例和叙事替换损失的深读、长期财政组织和家庭账；结论仍PROVISIONAL|
-|CI和远程检查|证据变更等待GitHub原子提交、R020专项和全部历史回归；此时**尚不能标PASSED**|
-|独立三门|A用户私有源真实性PASS；B局部文学候选PROVISIONAL、整书Adler未通过；C原创SKILL新任务增益NOT_RUN|
-|其他|0已认证原创SKILL，Nuwa Phase1未启动，R006密封盲测SEALED_NOT_RUN，MANUAL_USER_TRIGGER且仅授权R020|
+|唯一游标|**R021 / NOT_STARTED**；《晚明》第281—320章尚未启动|
+|累计正式通过轮次|**20/89**；最近R020 PASSED|
+|《晚明》正式全读|**280/571章**|
+|《铁血残明》正式全读|**280/532章**|
+|两书累计有效叙事全读|**560/1103章**|
+|R020实际私有原EPUB|大小27764568字节，整文件SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`，原ZIP CRC完整|
+|R020原著覆盖|40有效叙事ordinal241—280，OPF spine257—296，2512个完整原XHTML非空段落|
+|R020审计锚点|20 CLOSE_READ＋20 FULL_TEXT_READ去重40章，80个不可逆源段SHA；私有源与GitHub同序FNV32`93f49811`；40原章member与冻结R002同序FNV32`4371963e`|
+|文学批次研究|40章独立行为、人物自主目标及现场信息记录，六组反事实/反证细读，长期财政和家庭连续性账；文学判断**PROVISIONAL**|
+|真实CI验收|R020原始证据提交 `6e485f8d7ab8396559f9e090c36cc1850ac0e66e` 经远程回读，18项GitHub Actions **completed/success**，包含R020专项 `37862487681`、R006收据合同、原版仓颉Doctor与女娲工作区及历史回归；正式PASS提交自身需单独复核|
+|独立三门|A私有原著真实性通过；B本批文学机制PROVISIONAL且Adler整书未过；C原创SKILL陌生新任务效益NOT_RUN|
+|技能与密封测试|认证原创SKILL0、Nuwa Phase1未启动、R006 heldout SEALED_NOT_RUN|
+|用户调度|MANUAL_USER_TRIGGER，仅执行完R020并停止于R021，不增加其他付费项目|
 
-GitHub的源结构检测只能SOURCE_STRUCTURE_ONLY，不能访问用户原著版权全文、也不能自行认证文学能力。
+GitHub公开Actions不拥有用户原版权EPUB，能测SOURCE_STRUCTURE_ONLY，不应当拿CI成功声称完美理解作品或完成原创小说能力。
