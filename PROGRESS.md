@@ -1,6 +1,6 @@
-# V13 R029 PASSED — handoff to R030 NOT_STARTED
+# V13 R030 PASSED — handoff to R031 NOT_STARTED
 
-Official: 29/89 rounds; Wanming 480/571, TiexueCanming 440/532, 920/1103 chapters.
+Official: 30/89 rounds; Wanming 480/571, TiexueCanming 480/532, 960/1103 chapters.
 R024 40 distinct chapter receipts, 2220 original paragraphs, 20 close studies, 80 SHA locators; source-member FNV 8dd29619 and paragraph FNV 12642d3d.
 Evidence commit e9cda3ed: initial R024 workflow 37869539563 FAILED because event-chain data was mistyped; repaired commit 7443f3fd passed all 22 workflows including R024 run 37869730435 and frozen R006.
 Public CI checks structure, not private novel contents or literary mastery. A private-source check PASSED, B PROVISIONAL, C NOT_RUN; skill certification 0; Nuwa Phase1 NOT_STARTED; R006 heldout SEALED_NOT_RUN.
@@ -78,3 +78,11 @@ Only R024 authorized by this manual request. Do not begin R025.
 - 本次原子状态：正式 **29/89**，《晚明》480/571、《铁血残明》440/532，累计 **920/1103**。下一轮R030 NOT_STARTED，仅待用户另一条『继续』才触发。正式状态提交自身Actions和GitHub远程回读还需实测成功。
 
 - R029正式PASS `e5ecbc13f84f79e5af31a0b68895c942b1fc5340` 对应27/27 Actions全部完成成功，R029专项 [37882310859](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37882310859)和冻结R006均成功；main远程核验R030 NOT_STARTED、29/89轮、480+440=920/1103，B PROVISIONAL、C NOT_RUN。本审计只是归档事实。
+
+## R030《铁血残明》原著有效章441—480 正式阶段性PASS｜2026-10-09
+
+- 原EPUB SHA和ZIP CRC、40原XHTML成员SHA与冻结R002来源匹配；实际正文40章、2101非空段落、157868可见字符。20个重点CLOSE_READ、20个普通全章，40份独立场景与人物选择、80个原文SHA定位、8种文学研究维度；章节文件FNV `754094fe`，定位FNV `3753923f`。私有原书未上传GitHub。
+- 本轮研究成果：`cangjie/reading/tiexue_441_480.md`、R030源证据索引、20章精读、全40章独立观察、连续性账和6组跨章反向论点。文学B仅PROVISIONAL，C陌生原创任务NOT_RUN；Stage0 Adler和R042用户确认尚未通过，Nuwa Phase1未启动，独立Skill认证0。
+- 初始证据提交 `a6ec3fc3fe161a66e281d5bb05fe891d88626f49` R030专项run [37883889212](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37883889212)实际FAILED，四份自主选择记录太短。后由 `a4b932c2c4eb98d802788276e6f8062b8439354e` 定向修复四章，保留原文SHA及验证器阈值；R030专项run [37884013408](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37884013408)成功。先前失败如实保留审计。
+- 正式累计 **30/89**，万明480/571、铁血残明480/532、960/1103；下一轮R031 NOT_STARTED，用户另一条『继续』才开始。历史R007—R024质量债务按正式风险审计规则保留，不全量返工。
+- 这一原子状态提交应当仅在修复后的研究证据提交28/28 GitHub Actions实际完成成功后推送；其自身所有Actions还需独立通过并远程回读。未满足则不得宣布最终PASS。
