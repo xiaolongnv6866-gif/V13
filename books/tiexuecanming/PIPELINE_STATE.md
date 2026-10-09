@@ -7,7 +7,7 @@
 - stage0_current: FULL_TEXT_COVERAGE_COMPLETE_ADLER_NOT_DONE; whole_book_adler: NOT_STARTED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R035; current_round: R036 NOT_STARTED (manual trigger only)
+- last_passed_round: R036; current_round: R037 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -39,3 +39,5 @@
 - R035 partial remote checkpoint: local original Wanming561-571 evidence exists and private source verified, remote evidence and Actions pending. Official chapter counts unchanged. Never mark complete until original 14-file research pack, R006/R035 and all Actions verify.
 
 - R035 FORMAL_PASS: Wanming561–571 last11 original narrative chapters fully read and source-checked locally; 35 positions, 11 close analyses, 731 paragraphs; evidence 07049600 33/33 GitHub Actions SUCCESS including R035 dedicated. Official completed: Wanming571/571 and Tiexue532/532. This is full narrative reading coverage only, **not** a passed Cangjie Adler whole-book BOOK_OVERVIEW, not R042 user sign-off, not tested Nuwa skills. B PROVISIONAL, C NOT_RUN. R036 awaiting new manual trigger.
+
+- R036: first Cangjie Adler Structural step on Wanming accepted as research only; 34/34 Actions evidence commit 75c11bf8, B PROVISIONAL, C NOT_RUN, full Stage0 and R042 user gate pending; R037 NOT_STARTED.
