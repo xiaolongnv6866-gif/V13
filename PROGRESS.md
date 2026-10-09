@@ -32,4 +32,4 @@ Only R024 authorized by this manual request. Do not begin R025.
 - 用户提供原版《晚明》EPUB原 SHA匹配；有效序号361—400各一章共40章、2099个原XHTML段落、99个原文SHA锚点，私有重核40成员FNV `6c6bbbf5`、段落FNV `752e2373` 与远程材料一致。
 - 20份不同现场精读、八组跨章反向比较、人物组织财政连续性账已提交。A来源真实性本地PASS；文学解释B依旧PROVISIONAL；原创能力C仍NOT_RUN。旧研究历史质量债务维持分层抽查方案，不重做已登记720章。
 - **正式完成25/89轮**；《晚明》400/571、《铁血残明》360/532，累计760/1103章；原创SKILL认证0；Stage0整书确认未到、女娲Phase1未启动、R006密封测试未开启。**R026 NOT_STARTED，等待用户再次明确『继续』。**
-- 正式PASS提交 SHA 待该原子提交完成后填入追加的 GitHub 审计提交（不可在同一个提交中自引用自己 SHA）。
+- 正式PASS提交 SHA：`a2e8a39ce1092f9c905ffa8a38617d8281d2873c`，由该PASS提交触发的23/23 Actions全部成功，R025专项run [37875016383](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37875016383)，GitHub远程回读一致。证据提交 `dc260a417f3d02513efefb1cda44e7d072b20e9b` 同样23/23成功，错误原始日志保留。最终审计回填不执行R026。
