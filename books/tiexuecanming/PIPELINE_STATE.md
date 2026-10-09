@@ -7,7 +7,7 @@
 - stage0_current: R042_STAGE0_BOOK_OVERVIEW_USER_APPROVED_WITH_LEGACY_DEBT; whole_book_adler: PASSED_FOR_STAGE1_ENTRY_B_PROVISIONAL
 - book_overview: R042_USER_APPROVED; user_stage0_gate: PASSED_APPROVAL_LIMITED_TO_FRAMEWORK
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R049; current_round: R050 NOT_STARTED (manual trigger only)
+- last_passed_round: R050; current_round: R051 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -75,3 +75,10 @@
 - 正式游标：R049 PASSED，49/89，R050 NOT_STARTED；本书Stage1 framework、principle两路独立原始候选已经生成，其余case/counterexample/glossary不在本次授权内。
 - 本轮私有原始EPUB SHA256+ZIP CRC PASS，按OPF n001—n532结构扫描33,278段；字符空白归一化2,087,500（R048原计数2,087,501提取规则不同）。原则提取器核查原著现场，生成22条p01—p22 RAW候选、51真实SHA坐标、32个不同章、15个R048未引用的新段落定位，关联TX-01—TX-10及六个研究弧；未执行三重验证。
 - 证据SHA 7a2270ecb55da1cdc65d34d48da3be62d8daf75d；其GitHub Actions 47/47 SUCCESS，其中专属R049 [37953885686](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37953885686)；公开CI只是SOURCE_STRUCTURE_ONLY。B PROVISIONAL、C NOT_RUN、certified skill 0，历史14条旧错误继续隔离不晋级。R050不得自动开始。
+
+
+## R050 Stage1 case extractor｜2026-10-09正式记录
+
+- 原书EPUB SHA+CRC原始校验PASS，OPF n001—n532 33,278非空body/p及2,087,501字符，原文自行索引958私有结构块（SQLite FTS5 trigram），16个真正原文章节邻接核对，54个真实段落SHA（33个R048+R049未曾登记的新定位）、17源块。案例c01—c16都是明确虚构的fictional_narrative_case，而非作者真实firsthand/reported_case/演算例题，枚举扩展REQUIRES_STAGE1_5_REVIEW。全部TX-01—TX-10研究任务候选关联但未通过V1/V2/V3。
+- 初次专项run 37955251570 FAIL（缺PROVISIONAL字面标记），修复后证据SHA 28528936f4d7a7c1e73224ece2a9323729e31812 的全部48/48 GitHub Actions SUCCESS，专属run [37955366305](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37955366305)。公开CI仅SOURCE_STRUCTURE_ONLY，文学B PROVISIONAL、原创C NOT_RUN、技能0；旧14条问题仍隔离，heldout SEALED，历史债OPEN_QUARANTINED。
+- 正式R050 PASSED，50/89，R051 NOT_STARTED（须另一次手动继续）。Stage1 Tiexue已完成framework、principle、case三路RAW，剩余counterexample、glossary尚未执行；Nuwa Phase1、Cangjie Stage1.5仍未执行。

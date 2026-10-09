@@ -295,3 +295,14 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - 原则原始候选并非从R048 framework文件直接改写；n055首功并非先报即定、n114无仓与临时补救并存、n161个人拒绝从军、n526虚报建议被拒绝、n532当前提供版本仅金额落笔没有未来兑付，均保持反证和边界。不得把书中的军事/金融/政治指令变成现实操作方法；无证据的数学公式不制造。
 - GitHub证据提交 `7a2270ecb55da1cdc65d34d48da3be62d8daf75d` 已经触发并完成 **47/47 GitHub Actions全部success**，包括R049专项 [37953885686](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37953885686)；全部旧失败记录未删除。公开CI SOURCE_STRUCTURE_ONLY；文学解释B仍 PROVISIONAL，原创测试C NOT_RUN，SKILL认证0，R042旧14错引继续OPEN_QUARANTINED/NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE，密封heldout不启用。
 - 本轮正式账本确认 **R049 PASSED，49/89，下一轮R050 NOT_STARTED**；下一次必须有新的用户手动“继续”才可启动R050。《晚明》五路原始候选已完成，《铁血残明》只完成framework+principle两路；尚未开展case/counterexample/glossary、Cangjie Stage1.5或Nuwa Phase1。
+
+
+## R050｜《铁血残明》独立案例提取器正式PASS（2026-10-09）
+
+- 本轮手动仅执行R050，起始main `1dbdd2d4e778818e6c56760f01c1f2c5a1255685`、R049 PASSED/49轮、R050 NOT_STARTED。严格读取固定版仓颉SKILL、Stage1方法、Case Extractor全文、Nuwa SKILL以及R042用户批准的铁血BOOK_OVERVIEW/TX-01—TX-10；本环境无五个并行Task，按原版隔离串行只执行case，不启动R051。
+- 原EPUB `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf` SHA和ZIP CRC通过，原始OPF n001—n532叙事章完整程序遍历：33,278非空body/p、2,087,501字符、连接正文SHA `606c180446c3470e76550cab55558891e8c453c319ebe17cf517b0c29779abc3`。自建兼容检索私有958结构chunk/SQLite FTS5 trigram，明确不是调用上游脚本；选中真实16章和54个段落SHA回读其邻接场景，不冒充已逐句深读全部532章。
+- `books/tiexuecanming/candidates/cases.md`新增**16条c01—c16 RAW虚构叙事案例**、`CASE_EVIDENCE.tsv`54个唯一源段不可逆SHA、`CASE_CHUNK_MANIFEST.tsv`17个私有源块、`R050_NEW_SOURCE_LOCI.tsv`登记33个此前R048+R049两份提取器未用过的定位。全部TX-01—TX-10有原始案例候选关联、R042六弧有来源，但并非通过Stage1.5三重验证。
+- 每案例明确起因、行动、现场结果、后果未知、具体文学作用、竞争解释和失效边界；原版case枚举无真实虚构小说类型，暂用`fictional_narrative_case`并明确`REQUIRES_STAGE1_5_REVIEW`，不以作者亲历、史料、worked_example冒充。文本不公开，私有SHA定位可回原书审计。
+- 初次证据提交 `ab369d815b839411474168f4a09bbc03cc430ab3` 后R050专项 [37955251570](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37955251570) FAILED，唯一原因审核报告未写统一`PROVISIONAL`字面标记，其他结构通过；未删历史或降低脚本要求。纠正报告/记录后提交 `28528936f4d7a7c1e73224ece2a9323729e31812` 的全部**48/48 GitHub Actions成功**，专属R050 [37955366305](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37955366305) SUCCESS。
+- A私有来源检查PASS，公开CI仅SOURCE_STRUCTURE_ONLY，文学B PROVISIONAL，原创C NOT_RUN，Skill认证0，heldout SEALED_NOT_RUN，14条旧问题仍NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE，历史质量债OPEN_QUARANTINED。
+- 正式完成**50/89轮**，下一游标**R051 NOT_STARTED**；必须再由用户手动输入『继续』才能启动《铁血残明》反例提取器。Nuwa Phase1和Stage1.5未开始。
