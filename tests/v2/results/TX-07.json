@@ -1,0 +1,28 @@
+{
+  "id": "TX-07",
+  "scene_A": "负责人急着重开游园，渡船女掌柜却在湿地上找账册，修船匠先抢救自己的木料，露宿一家只希望今夜保留挡风板。开园日期只好暂缓。",
+  "scene_B": "女掌柜夜里寻回半册账，自己决定明早查票；修船匠搭晒架，露宿者加固旧布。他们没等负责人指挥就各自行动。",
+  "state_contract": "公事=复园；掌柜=找账；匠人=救木；露宿者=挡风；个人选择=独立；复园=未成。",
+  "unknowns": "后续赔补未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "配角至少两种自主选择",
+      "observed_anchor": "渡船女掌柜却在湿地上找账册"
+    },
+    {
+      "criterion": "非主角行动产生后果",
+      "observed_anchor": "露宿者=挡风"
+    },
+    {
+      "criterion": "公共工程不抹掉生活",
+      "observed_anchor": "他们没等负责人指挥"
+    }
+  ],
+  "candidate_ids": [
+    "TX-f09",
+    "TX-p14",
+    "TX-f10"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

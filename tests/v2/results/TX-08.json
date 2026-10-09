@@ -1,0 +1,28 @@
+{
+  "id": "TX-08",
+  "scene_A": "谭青请求半日照顾母亲，编辑答应先完成校样交接。代班同事只说愿看看稿，没有答应无偿代工，谭青就没有立即走。",
+  "scene_B": "第二天同事确认愿代半日，编辑签了交接单，谭青才离开。代班的工时补偿仍在等待回复，不等于同事放弃报酬。",
+  "state_contract": "请求=照护；许可=附交接；同事代班=后来同意；离岗=交接后；报酬=未决定。",
+  "unknowns": "母亲病情未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "许可和实际离岗不同",
+      "observed_anchor": "同事只说愿看看稿"
+    },
+    {
+      "criterion": "代班者不能被强制代言",
+      "observed_anchor": "报酬=未决定"
+    },
+    {
+      "criterion": "未定工资留缺口",
+      "observed_anchor": "离岗=交接后"
+    }
+  ],
+  "candidate_ids": [
+    "TX-f11",
+    "TX-p20",
+    "TX-p07"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

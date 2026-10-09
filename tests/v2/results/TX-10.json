@@ -1,0 +1,27 @@
+{
+  "id": "TX-10",
+  "scene_A": "旧书铺主在簿上写下下季修二十本旧谱的承诺，柜里纸只够六本。邻居提醒缺人手，店主没有说工作已经完成。",
+  "scene_B": "送纸车没来，店主只检查现有六本的书脊，计划次日问工匠能否帮忙。那行二十本的承诺仍是尚待实现的责任。",
+  "state_contract": "承诺=二十本；纸料=仅六本；实际完工=零；询问人手=计划；责任=未履行。",
+  "unknowns": "修复最终结果未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "纸面承诺和未来兑现不同",
+      "observed_anchor": "送纸车没来"
+    },
+    {
+      "criterion": "实物缺口可见",
+      "observed_anchor": "纸料=仅六本"
+    },
+    {
+      "criterion": "不得杜撰结局",
+      "observed_anchor": "责任=未履行"
+    }
+  ],
+  "candidate_ids": [
+    "TX-f16",
+    "TX-p21"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

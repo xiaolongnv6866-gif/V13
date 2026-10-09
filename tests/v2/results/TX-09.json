@@ -1,0 +1,28 @@
+{
+  "id": "TX-09",
+  "scene_A": "彩灯赛因风停下，评审册只记暂停。编辑想写一个人救下所有灯，目击的孩子指出许多人一起搬灯，未经核实的稿件没发。",
+  "scene_B": "编辑再问评审能确认什么，答复仅是暂停和共同搬灯。草稿仍在桌上，公告牌空着，孩子的异议没有被当作已刊事实。",
+  "state_contract": "现场=暂停；目击=众人护灯；草稿=夸大功劳；刊发=未发生；正式名次=未知。",
+  "unknowns": "后续赛况与报道未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "现场/草稿/发行三级不同",
+      "observed_anchor": "目击的孩子指出"
+    },
+    {
+      "criterion": "虚增被质疑",
+      "observed_anchor": "刊发=未发生"
+    },
+    {
+      "criterion": "绝不称假报已发行",
+      "observed_anchor": "草稿仍在桌上"
+    }
+  ],
+  "candidate_ids": [
+    "TX-f13",
+    "TX-p19",
+    "TX-p17"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}
