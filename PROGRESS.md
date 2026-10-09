@@ -1,16 +1,20 @@
-# V13｜R021《晚明》281—320原著研究正在验收
+# V13｜R021《晚明》有效叙事281—320正式PASSED
 
-|项目|未经提前计数的真实状态|
+|项目|正式权威状态|
 |---|---|
-|唯一当前轮|**R021 / IN_PROGRESS**；R020 PASSED|
-|截至本轮验收前正式进度|**20/89轮**；《晚明》280/571、《铁血残明》280/532，共**560/1103章**|
-|本批原输入|私有原 EPUB SHA256 a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082；17,123,520字节，ZIP CRC完整|
-|R021原文有效范围|narrative281—320共40章；原OPF spine296—335、原ZIP Chapter_0293.xhtml—Chapter_0332.xhtml；合计2223非空正文段落|
-|证据及研究|20 CLOSE_READ、20 FULL_TEXT_READ合计去重40独立收据；80个源段SHA256定位，私有和公开序列FNV32 2fa4eb5f；源成员和冻结R002索引FNV32 b69dfa88|
-|文学|40章独立事件/人物/现场表、六组重点场面反事实与对立情节、角色和制度长期连续性账；解释PROVISIONAL|
-|提交和检查|待真实 evidence commit、R021专项、冻结R006和历史回归 Actions，以及实际GitHub远程回读完成才能标记PASSED|
-|三门|A私有原EPUB来源验证PASS；B分批文字研究PROVISIONAL；C创作陌生新任务效益NOT_RUN|
-|保留关口|原版Cangjie Adler整书质量门仍未过，Nuwa Phase1未启；认证原创SKILL0，R006盲测SEALED_NOT_RUN|
-|调度|MANUAL_USER_TRIGGER，R022不得自动开始；无额外付费内容|
+|当前唯一游标|**R022 / NOT_STARTED**；《铁血残明》281—320尚未开始|
+|最近正式通过|**R021 PASSED**；累积**21/89轮**|
+|《晚明》正式已读|**320/571**章|
+|《铁血残明》正式已读|**280/532**章|
+|两书正式累计|**600/1103**有效叙事章|
+|原EPUB|17123520字节，SHA256`a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082`，ZIP完整|
+|本轮阅读|40章原始281—320，OPF spine296—335，2223实际XHTML非空正文段落，20 CLOSE_READ+20 FULL_TEXT_READ不重复，80个原文不可逆SHA定位|
+|双源指纹|原始章路径/member SHA/段落数量FNV32`b69dfa88`；私人原文段落 SHA FNV32`2fa4eb5f`，私有原EPUB和GitHub索引吻合|
+|文学研究|40章独立事件、人物自主选择与场面信息表，六组反事实与反证，长期权力／教育／财政／家庭连续性账；候选结论PROVISIONAL|
+|失败保留|第一份证据提交 `45166c86e12eb17958b36d3a9fb70fb2b7c7163b` 的R021专项Actions`37864087118`失败：283章第二条人物目标陈述为19字符，低于20字符门槛；保留失败事实，按原文补写，**没有放宽校验**|
+|修复与正式来源验收|修复证据提交 `4741b892e98d033021a13d2b7f6fa6f8ee0a3dda`，19/19 GitHub Actions全部completed/success，专项R021 `37864218814`，冻结R006也通过；官方PASS提交还须自己的远程回读与CI|
+|三证据门|A用户私有原EPUB来源验证PASS，B分批文学研究仍PROVISIONAL，C独立原创增益NOT_RUN|
+|SKILL与盲测|原版Cangjie Stage0整书Adler门和R042尚未达；Nuwa Phase1未启；认证0，R006密封盲测SEALED_NOT_RUN|
+|执行模式|MANUAL_USER_TRIGGER；本轮只推进R022游标，不自动执行R022，不额外付费|
 
-公开GitHub Actions没有用户的私有版权EPUB，程序绿灯只能证明SOURCE_STRUCTURE_ONLY，不能替代文学内容的实质判断。
+GitHub公开Actions的绿色SOURCE_STRUCTURE_ONLY测试不可代替真实文学理解或独立写作效用验证。
