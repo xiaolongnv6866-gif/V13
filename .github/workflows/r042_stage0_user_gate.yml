@@ -14,5 +14,7 @@ jobs:
           persist-credentials: false
       - name: R042 book overview evidence, risk debt and user approval block
         run: python3 scripts/validate_r042_stage0_preview.py
+      - name: R042 targeted historical source corrections and quarantine
+        run: python3 scripts/validate_r042_targeted_repairs.py
       - name: Frozen 89-round controller
         run: python3 scripts/validate_round_integrity.py
