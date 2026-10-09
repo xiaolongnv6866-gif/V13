@@ -1,0 +1,18 @@
+name: V13 R041 Tiexuecanming Adler critical applicability integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r041:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: R041 Critical and Applicability structural integrity (copyright-safe)
+        run: python3 scripts/validate_r041_critical_applicability.py
+      - name: Frozen 89-round controller integrity
+        run: python3 scripts/validate_round_integrity.py
