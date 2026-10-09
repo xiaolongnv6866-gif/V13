@@ -1,0 +1,18 @@
+name: V13 R042 Cangjie two-book Adler Stage0 user confirmation gate
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r042:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: R042 book overview evidence, risk debt and user approval block
+        run: python3 scripts/validate_r042_stage0_preview.py
+      - name: Frozen 89-round controller
+        run: python3 scripts/validate_round_integrity.py

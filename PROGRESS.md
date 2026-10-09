@@ -201,3 +201,11 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - 初始研究提交及第一次修补因真实内容字段缺漏未通过R041 Actions，错误历史保留；第二次修复未降低validator严格性。最终研究证据提交 **`7dc489d64bf1291dfcd7e4190879e74418b66b52`** 的 **39/39 GitHub Actions completed/success**，专项R041 [37929298713](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37929298713)通过，冻结R006及38项历史回归亦SUCCESS。
 - **本次原子正式游标**：41/89轮；R041 PASSED，**R042 NOT_STARTED**；《晚明》571/571、《铁血残明》532/532，累计1103/1103（阅读登记不增不减）。A私有来源性核实；B文学PROVISIONAL，C原创效用NOT_RUN；Stage0整书BOOK_OVERVIEW／R042用户明确批准**尚未完成**，已认证Skill仍为0。R008—R024历史质量债务按风险抽审保持，不能因R041完成而清零。
 - 正式状态提交自身的39项Actions和远程游标回读必须另外全部成功后才能在对话中宣布R041验收通过；此处不提前虚报状态提交CI结果。下一轮仅待用户下一次明确指令，不自动执行R042。
+
+## R042｜两书整书Stage0草案与强制用户关口（2026-10-09）
+
+- 用户“继续”仅授权启动R042研究，不能算作Cangjie原版Stage0对两份BOOK_OVERVIEW的明确批准。GitHub initial main HEAD `a2d5dd7218ec40e3c8aa38f9551885885d9a0dec`、R041 PASSED/R042 NOT_STARTED、41/89及两书571+532正文收据已远程核对。
+- 读取原版Cangjie、Adler方法、原版模板及Nuwa固定技能，综合R036—R041两书整书骨架/解释/批判。用户原始两份EPUB全文件SHA256与ZIP CRC实核，重看31处铁血、30处晚明真实p文本及早期八批次风险样本；本轮不冒称又通读全部1103章。
+- 新产物：`books/wanming/BOOK_OVERVIEW.md`、`books/tiexuecanming/BOOK_OVERVIEW.md`（各含原版四步、不同的六段骨架、十项命题、9/10个独立任务及批判边界）；`cangjie/reading/R042_STAGE0_QUALITY_AUDIT.md`及专项source-only validator/workflow和`runs/R042.md`。
+- 历史风险抽审按预定八个批次（R008/R010/R013/R015/R017/R018/R023/R024），八处原段SHA匹配；五处旧单段与宽泛机制结论支持不足已明确列`NEEDS_REVIEW`，不虚报历史B全部合格或清零旧登记。A原书抽查，B PROVISIONAL、C NOT_RUN、Skill认证0。
+- **R042 当前BLOCKED（等待用户审阅并明确批准两份BOOK_OVERVIEW、以及按风险处理仍有的解释缺口），未PASSED；正式完成仍41/89，下一R043 NOT_STARTED，两书1103/1103阅读收据不变、Stage0 NOT_PASSED。** GitHub研发材料提交与Actions也必须实际核验，之后只向用户提出确认，不自动跨轮。
