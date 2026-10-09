@@ -1,0 +1,461 @@
+{
+  "round": "R055",
+  "stage": "Cangjie Stage1.5 V2",
+  "preregistered": true,
+  "not_V3": true,
+  "status": "FROZEN_BEFORE_OUTPUT",
+  "cases": [
+    {
+      "id": "WM-01",
+      "book": "wanming",
+      "title": "身份入口",
+      "input": "澄湾城青年沈白善画地图，但想入水务簿房须先查身份；商人认可本领，公署未核户籍，仓房钥匙由另一个人持有。",
+      "candidate_ids": [
+        "WM-f01",
+        "WM-p08",
+        "WM-p03"
+      ],
+      "expected_criteria": [
+        "多见证人判断不同",
+        "资格、赞许、权限分别留痕",
+        "申请不等获得职权"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "WM-02",
+      "book": "wanming",
+      "title": "长期合作者异议",
+      "input": "铜河镇两名善后记录员共同登记修桥捐款，一人建议公布贫户未交款名单，另一人坚决反对，且双方今后还须合作。",
+      "candidate_ids": [
+        "WM-f02",
+        "WM-p01"
+      ],
+      "expected_criteria": [
+        "两种伦理理由都可辨认",
+        "拒绝改变行动",
+        "保留长期关系负担"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "WM-03",
+      "book": "wanming",
+      "title": "授权与资源",
+      "input": "晴沙档案官获得管理水文簿册的名目，只有两名文书和少量纸张，另一署掌管库房钥匙；上级要求七日整理供公众查看。",
+      "candidate_ids": [
+        "WM-f06",
+        "WM-p12",
+        "WM-p08"
+      ],
+      "expected_criteria": [
+        "名义与实权分离",
+        "人财物承诺四项分开",
+        "限定同意和未结事"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "WM-04",
+      "book": "wanming",
+      "title": "商货与到账",
+      "input": "雁堤陶匠收到50盏灯的未来订单，魏商月末付钱，许商报价低但立即付款；村里公共活动当前需要灯油。",
+      "candidate_ids": [
+        "WM-f04",
+        "WM-p05",
+        "WM-p12"
+      ],
+      "expected_criteria": [
+        "预测与现款不等",
+        "两商人自主选择",
+        "可见选择代价"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "WM-05",
+      "book": "wanming",
+      "title": "有限知情",
+      "input": "雨溪暴雨后木桥封闭，北岸记录员只见水痕，南岸织户听到桥已经修好的传言，负责检查的使者还没回来。",
+      "candidate_ids": [
+        "WM-f08",
+        "WM-p07",
+        "WM-p19"
+      ],
+      "expected_criteria": [
+        "两种视角不共享信息",
+        "亲见/转闻/未知分明",
+        "不能伪造桥安全结论"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "WM-06",
+      "book": "wanming",
+      "title": "功劳与家庭成本",
+      "input": "芦港风雨棚抢修竣工，官员表扬负责人；花匠摊位因封路损失，学徒获奖却仍欠家中药钱，记功员只见名单。",
+      "candidate_ids": [
+        "WM-f10",
+        "WM-p04"
+      ],
+      "expected_criteria": [
+        "公共成果/私人损失并置",
+        "三个分配声音",
+        "不虚构补偿已完成"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "WM-07",
+      "book": "wanming",
+      "title": "治理试验",
+      "input": "河石镇允许东街图书馆开放时段由街坊讨论试行十日，制伞妇人担心幼儿看护，志愿者愿值守但经费未批。",
+      "candidate_ids": [
+        "WM-f12",
+        "WM-p20",
+        "WM-p21"
+      ],
+      "expected_criteria": [
+        "有实际异议及理由",
+        "试点边界与复查日明确",
+        "暂行不等永久公正"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "WM-08",
+      "book": "wanming",
+      "title": "普通人独立意愿",
+      "input": "溪岭少年陶念想学修钟，母亲盼他留纸坊，伯父代他答应邻店帮工，却未问过陶念。三月后镇上有大集会。",
+      "candidate_ids": [
+        "WM-f14",
+        "WM-p14"
+      ],
+      "expected_criteria": [
+        "少年自述意愿",
+        "亲属意见不得代本人同意",
+        "时间推进中保留个人线"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "WM-09",
+      "book": "wanming",
+      "title": "亲历与重述",
+      "input": "旧渡四十年前集体献钟，如今戏班唱成一人独献。刻碑女工亲在现场，游人只听戏词，旧账册丢失两页。",
+      "candidate_ids": [
+        "WM-f13",
+        "WM-p23"
+      ],
+      "expected_criteria": [
+        "亲历记忆/舞台版本/未明区分",
+        "不让争论抹掉历史现场",
+        "原创表演场所"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "TX-01",
+      "book": "tiexuecanming",
+      "title": "污名与新评价",
+      "input": "沧浦水位记录员何展旧日误报，今日又测出水井异样；雇主记错误，村妇记善举，官署只见未签名的记录。",
+      "candidate_ids": [
+        "TX-f01",
+        "TX-p01",
+        "TX-p11"
+      ],
+      "expected_criteria": [
+        "三组不同见证人",
+        "旧污点仍存在",
+        "新功不等全员信任"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "TX-02",
+      "book": "tiexuecanming",
+      "title": "申请受理审核",
+      "input": "曲阳木匠申请修理公学门，庶务员收件无审批权，馆主未归，捐助人还没付款。",
+      "candidate_ids": [
+        "TX-f02",
+        "TX-p03",
+        "TX-p12"
+      ],
+      "expected_criteria": [
+        "申请/受理/批准/执行/追责分列",
+        "签收不等批准",
+        "后续职责明确"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "TX-03",
+      "book": "tiexuecanming",
+      "title": "属员纠正负责人",
+      "input": "月槐作坊主决定照旧晒陈列品，年轻木版工发现阳光褪色提出三日小样，主事不懂颜料，老匠仍怀疑。",
+      "candidate_ids": [
+        "TX-f05",
+        "TX-p09",
+        "TX-p04"
+      ],
+      "expected_criteria": [
+        "专业自主提出异议",
+        "负责人承认知识空白",
+        "预留试验结果未知"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "TX-04",
+      "book": "tiexuecanming",
+      "title": "账面与在手物资",
+      "input": "北温阅览室收到足额捐款承诺，答应30条旧毯，目前实物只有12条，邻镇愿暂借6条要次年归还。",
+      "candidate_ids": [
+        "TX-p05",
+        "TX-p21",
+        "TX-f16"
+      ],
+      "expected_criteria": [
+        "货币与实物分离",
+        "临时补偿变成新义务",
+        "未来归还未知"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "TX-05",
+      "book": "tiexuecanming",
+      "title": "等级与权限",
+      "input": "湖桥书局给校勘员增加津贴，资深装帧工担心其称号夺取最后校样的批准权；主管当场解释但尚未试用。",
+      "candidate_ids": [
+        "TX-f08",
+        "TX-p08",
+        "TX-p07"
+      ],
+      "expected_criteria": [
+        "津贴和权力不同",
+        "异议被听取",
+        "不宣称制度长效成功"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "TX-06",
+      "book": "tiexuecanming",
+      "title": "三方有限协作",
+      "input": "榆水三乡办巡回诗会：东乡有场地无纸，西乡有纸要署名，河口乡知道雨季不确定交通但未获两乡确认。",
+      "candidate_ids": [
+        "TX-f12",
+        "TX-p13",
+        "TX-p06"
+      ],
+      "expected_criteria": [
+        "三方独立知情和条件",
+        "谈成须留条件",
+        "未知不得由主角补齐"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "TX-07",
+      "book": "tiexuecanming",
+      "title": "对手与平民目标",
+      "input": "桥溪退水后负责人急着重开游园，渡船女掌柜先找自家账簿，修船匠先找木料，露宿之家更愿夜里安静。",
+      "candidate_ids": [
+        "TX-f09",
+        "TX-p14",
+        "TX-f10"
+      ],
+      "expected_criteria": [
+        "配角至少两种自主选择",
+        "非主角行动产生后果",
+        "公共工程不抹掉生活"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "TX-08",
+      "book": "tiexuecanming",
+      "title": "申请与本人选择",
+      "input": "晴桥报馆校字工谭青请求半日照顾母亲，编辑有条件批准，代班者没有正式答应，额外工时的报酬尚未知。",
+      "candidate_ids": [
+        "TX-f11",
+        "TX-p20",
+        "TX-p07"
+      ],
+      "expected_criteria": [
+        "许可和实际离岗不同",
+        "代班者不能被强制代言",
+        "未定工资留缺口"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "TX-09",
+      "book": "tiexuecanming",
+      "title": "现场与记录版本",
+      "input": "栖鹭彩灯赛因风暂停，评审册只记暂停，编辑想夸写一人救下全部灯彩，目击孩子反对，报纸未发。",
+      "candidate_ids": [
+        "TX-f13",
+        "TX-p19",
+        "TX-p17"
+      ],
+      "expected_criteria": [
+        "现场/草稿/发行三级不同",
+        "虚增被质疑",
+        "绝不称假报已发行"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    },
+    {
+      "id": "TX-10",
+      "book": "tiexuecanming",
+      "title": "留下未履行义务",
+      "input": "沙湾旧书铺承诺下一季为社区修20本旧谱，现纸张只够六本，店主刚把承诺写在账簿，邻居担心人手。",
+      "candidate_ids": [
+        "TX-f16",
+        "TX-p21"
+      ],
+      "expected_criteria": [
+        "纸面承诺和未来兑现不同",
+        "实物缺口可见",
+        "不得杜撰结局"
+      ],
+      "expected_output": [
+        "scene_A",
+        "scene_B",
+        "state_contract",
+        "unknowns",
+        "V2_candidate_links"
+      ],
+      "kind": "fictional_narrative_walkthrough"
+    }
+  ],
+  "ethics": "Original nonviolent civil/family scenes. No authors' characters/plots. No military tactics, financial fraud, coercion or real-world implementation."
+}
