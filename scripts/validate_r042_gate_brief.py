@@ -56,7 +56,7 @@ if approval.is_file():
 if accepted:
  expect(cur.get('legacy_quality_debt_status') in ('OPEN_QUARANTINED','UNDER_REVIEW','CLOSED_WITH_SOURCE_PROOF') and cur.get('literary_interpretation_status') in ('PROVISIONAL','VERIFIED'),'legacy quality status unrecognized')
 with (R/'ROUND_LEDGER.csv').open(encoding="utf8",newline="") as f: ledger={x['id']:x for x in csv.DictReader(f)}
-expect(ledger['R042']['status']==('PASSED' if accepted else 'BLOCKED') and ledger['R043']['status']=='NOT_STARTED','R043 started or R042 gate inconsistent')
+expect(ledger['R042']['status']==('PASSED' if accepted else 'BLOCKED') and ledger['R043']['status'] in (('NOT_STARTED','PASSED') if accepted else ('NOT_STARTED',)),'R042 approval or successor state inconsistent')
 for e in fail:print('FAIL:',e)
 print('R042 BRIEF & LEGACY QUARANTINE', 'FAIL' if fail else 'PASS',str(len(rows))+' verified legacy IDs; user approved Stage0 scope; public SOURCE_STRUCTURE_ONLY; R042 '+('PASSED' if accepted else 'pending state commit'))
 sys.exit(bool(fail))

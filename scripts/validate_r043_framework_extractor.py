@@ -20,7 +20,7 @@ match=re.search(r'```yaml\n(.*?)\n```',text,re.S)
 check(match is not None,'YAML candidate block missing')
 yaml=match.group(1) if match else ''
 blocks=re.split(r'(?=^- id: f\d+\s*$)',yaml,flags=re.M)
-units=[x for x in blocks if re.match(r'^- id: f\d+\s*$',x.splitlines()[0])]
+units=[x for x in blocks if x.strip() and re.match(r'^- id: f\d+\s*$',x.splitlines()[0])]
 ids=[re.match(r'^- id: (f\d+)',x).group(1) for x in units]
 check(len(units)==17,'Original 17 documented frameworks missing')
 check(ids==[f'f{i:02}' for i in range(1,18)],'IDs unstable or duplicate')

@@ -65,7 +65,7 @@ if accepted:
 with (root/"ROUND_LEDGER.csv").open(encoding="utf8",newline="") as f:
     rows={x["id"]:x for x in csv.DictReader(f)}
 check(rows["R042"]["status"]==("PASSED" if accepted else "BLOCKED"),"ledger must reflect correct R042 gate state")
-check(rows["R043"]["status"]=="NOT_STARTED","R043 started without approval")
+check(rows["R043"]["status"] in (("NOT_STARTED",) if not accepted else ("NOT_STARTED","PASSED")),"R043 status is inconsistent with R042 approval")
 for x in issues:print("FAIL:",x)
 print("R042",("FAIL" if issues else "PASS"),"SOURCE_STRUCTURE_ONLY; approved two-book Stage0 scope, 8-batch legacy risk audit; status="+("FORMAL_PASSED" if accepted else "AWAITING_FORMAL_COMMIT")+" B PROVISIONAL C NOT_RUN")
 sys.exit(bool(issues))
