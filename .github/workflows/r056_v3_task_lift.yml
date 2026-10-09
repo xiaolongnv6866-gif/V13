@@ -1,0 +1,18 @@
+name: V13 R056 Stage1.5 V3 matched task lift integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r056:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Recheck 19 frozen paired tasks, source evidence quotes, negatives and no-gain result
+        run: python3 scripts/validate_r056_v3_task_lift.py
+      - name: Frozen 89 round controller
+        run: python3 scripts/validate_round_integrity.py
