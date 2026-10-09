@@ -277,3 +277,11 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - 原小说不等于作者正式词典。原版author_definition字段保留为空，definition_status=SOURCE_CONTEXT_PARAPHRASE_NOT_EXPLICIT_AUTHOR_DEFINITION，小说中实际用法写textual_usage，并列出与一般理解的差异、历史制度无法从小说直接外推的边界；版权源书不公开复制。并且不混入“叙述权”等研究者造词充当原著术语。
 - 已准备books/wanming/candidates/GLOSSARY_AUDIT.md、scripts/validate_r047_glossary_extractor.py和专属.github/workflows/r047_glossary_extractor.yml；公开CI仅SOURCE_STRUCTURE_ONLY，B仍PROVISIONAL，C仍NOT_RUN，SKILL认证0，旧R042 14条问题claim不解封，质量债OPEN_QUARANTINED。
 - 《晚明》Stage1五路至此**全部完成原始候选层**，并不等于Stage1.5 V1/V2/V3三重验证完成。正式验收成功后游标R048 NOT_STARTED，完成47/89；下一次手动「继续」才可开展《铁血残明》框架提取。
+
+## R048｜《铁血残明》Stage1框架提取器独立执行（2026-10-09）
+
+- 本次用户手动「继续」仅启动R048；起始main `fc999099e5ea5ca56f9cc78e53ef31e1f095c54b`，R047 PASSED、47/89、R048 NOT_STARTED。读取R042已批准的《铁血残明》BOOK_OVERVIEW、旧质量债务控制，仓颉Pinned原版SKILL、Stage1方法、Framework Extractor全文及Nuwa Pinned SKILL；按环境不具备五个Task并行的原版降级规则使用独立串行，只执行framework职责。
+- **原始EPUB真实来源**：《铁血残明》用户私有EPUB SHA256`9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`与R002一致，ZIP CRC无坏文件，OPF有效叙事532章（含非叙事文档需过滤），合计**33,278个原始非空正文段、2,087,501个Unicode字符**。按所有原始章节全文建立分六弧结构性检索地图，原文重点审读35个有效章的52个p锚及邻接段；程序全量扫描不等于模型逐句文学精读每个段落。详细报告`books/tiexuecanming/candidates/FRAMEWORK_SCAN_REPORT.md`。
+- `books/tiexuecanming/candidates/frameworks.md`产出**17条f01—f17原始框架／写作流程／排障候选**，原版最小字段完整，且包括输入/输出/步骤/反面条件与任务ID；`FRAMEWORK_EVIDENCE.tsv`是52处真实原始私有p段落SHA加冻结章节SHA/路径，覆盖Stage0十项独立任务TX-01—TX-10和六段故事结构，不能代替Stage1.5 verified。原版权文本不上传，`source_quote`保留空字段并附私有SHA定位。
+- 原文保留具体反例：n114空仓与临时补给并存，n161个人拒绝招募不能称自愿，n315不同授权人难统一与n485一次有限同意并存，n526有人提出改写战功但遭驳斥，n532当前提供版本停在金额落笔而非未来实际兑付。只有小说叙事机制，不提取危险现实军事、胁迫或金融实操。
+- 新增`scripts/validate_r048_framework_extractor.py`与`.github/workflows/r048_framework_extractor.yml`执行SOURCE_STRUCTURE_ONLY回归、旧14条历史问题隔离和Round Integrity。文学B PROVISIONAL、C NOT_RUN、认证Skill0、历史质量债OPEN_QUARANTINED。完成正式GitHub Actions、远程回读才宣告**R048 PASSED，48/89，R049 NOT_STARTED**；R049和其他三路提取器本轮不执行。
