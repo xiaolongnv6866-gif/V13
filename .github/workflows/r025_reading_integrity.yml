@@ -1,0 +1,20 @@
+name: V13 R025 Wanming 361-400 original narrative integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r025:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Frozen R006 public reading contract and synthetic failure cases
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R025/wanming_receipts.jsonl
+      - name: R025 exact 40-chapter provenance and individual interpretation fields
+        run: python3 scripts/validate_r025_reading.py
+      - name: Global V13 89-round controller integrity
+        run: python3 scripts/validate_round_integrity.py
