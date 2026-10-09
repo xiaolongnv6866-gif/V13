@@ -1,0 +1,27 @@
+{
+  "id": "WM-08",
+  "scene_A": "伯父说已替陶念答应邻店帮工，母亲希望他守纸坊。陶念开口说他想学修钟，也愿在家中做半日事情，不能由伯父替他决定全部未来。",
+  "scene_B": "三个月后的集会上，陶念看到钟匠工作，决定亲去邻店解释：帮工约定并非自己签的。他没有指望集会的热闹解决家里的分歧。",
+  "state_contract": "本人目标=修钟；母亲意见=留纸坊；伯父代许=未经本人同意；三月后行动=亲自协商。",
+  "unknowns": "学徒是否获收未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "少年自述意愿",
+      "observed_anchor": "陶念开口说"
+    },
+    {
+      "criterion": "亲属意见不得代本人同意",
+      "observed_anchor": "伯父代许=未经本人同意"
+    },
+    {
+      "criterion": "时间推进中保留个人线",
+      "observed_anchor": "三个月后的集会上"
+    }
+  ],
+  "candidate_ids": [
+    "WM-f14",
+    "WM-p14"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "TX-01",
+  "scene_A": "何展报告井水异常，旧雇主指出他曾误报水位，村妇却记得他替邻居找回秤。官署看到新记录未签名，只要求先复测。",
+  "scene_B": "何展补写测量日期，旧雇主仍不肯担保他的判断；村妇继续向人讲他以前的善举。几位证人的意见并不因今天的动作而合成一致。",
+  "state_contract": "旧污点=误报；今事=待核；三方=雇主怀疑/村妇认可/官署要签字；信誉=未恢复。",
+  "unknowns": "检测结果未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "三组不同见证人",
+      "observed_anchor": "旧雇主指出"
+    },
+    {
+      "criterion": "旧污点仍存在",
+      "observed_anchor": "三方=雇主怀疑/村妇认可/官署要签字"
+    },
+    {
+      "criterion": "新功不等全员信任",
+      "observed_anchor": "信誉=未恢复"
+    }
+  ],
+  "candidate_ids": [
+    "TX-f01",
+    "TX-p01",
+    "TX-p11"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

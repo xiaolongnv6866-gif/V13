@@ -1,0 +1,27 @@
+{
+  "id": "WM-06",
+  "scene_A": "风雨棚修完，主事者在广场受奖，花匠却说封路令花卉滞销。领赏的学徒想起家中未付药费，念表彰册的书记不知损失归谁负责。",
+  "scene_B": "庆功后花匠请求另建损失账，学徒说明奖金已经要拿去买药。书记把表彰名单和受损登记分开摆放，不敢宣布两边都已妥当。",
+  "state_contract": "公共成果=完工；主事=领奖；花匠=损失；学徒=家费；功劳口径=不一致；赔付=未办。",
+  "unknowns": "赔付落实仍未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "公共成果/私人损失并置",
+      "observed_anchor": "花匠却说封路"
+    },
+    {
+      "criterion": "三个分配声音",
+      "observed_anchor": "功劳口径=不一致"
+    },
+    {
+      "criterion": "不虚构补偿已完成",
+      "observed_anchor": "赔付=未办"
+    }
+  ],
+  "candidate_ids": [
+    "WM-f10",
+    "WM-p04"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

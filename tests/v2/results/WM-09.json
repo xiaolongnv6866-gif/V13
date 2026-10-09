@@ -1,0 +1,27 @@
+{
+  "id": "WM-09",
+  "scene_A": "四十年前献钟时刻碑女工亲眼看见三户人搬来铜片，她只刻了两人的名字。戏班如今却唱成一位先生独自献钟，游人只知道戏词。",
+  "scene_B": "女工看完戏说自己只确认三户人在场，不知每家捐了多少。残存账簿少了两页，游客也发现自己听来的戏词不能充当完整账册。",
+  "state_contract": "旧现场=三户；女工记忆=两名刻名；戏班版本=一人独献；账页=遗失两页；完整事实=未知。",
+  "unknowns": "第三户具体身份未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "亲历记忆/舞台版本/未明区分",
+      "observed_anchor": "刻碑女工亲眼看见"
+    },
+    {
+      "criterion": "不让争论抹掉历史现场",
+      "observed_anchor": "戏班版本=一人独献"
+    },
+    {
+      "criterion": "原创表演场所",
+      "observed_anchor": "完整事实=未知"
+    }
+  ],
+  "candidate_ids": [
+    "WM-f13",
+    "WM-p23"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

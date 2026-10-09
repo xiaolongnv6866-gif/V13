@@ -1,0 +1,28 @@
+{
+  "id": "WM-07",
+  "scene_A": "制伞妇人问延长图书馆晚间开放谁替她看孩子。主事员说志愿者经费没着落，只先许东街十天试行，届时再听带孩子的读者陈述。",
+  "scene_B": "另一志愿者担忧排班人突然退出，主事员把替班问题写进复核项，并注明此安排不得自动推到其他街区。众人暂时赞成，只是准许一次试验。",
+  "state_contract": "异议=看护负担；试点=东街十日；经费=未决；复核=十日后；全镇推广=未许可。",
+  "unknowns": "十日后运行效果未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "有实际异议及理由",
+      "observed_anchor": "制伞妇人问"
+    },
+    {
+      "criterion": "试点边界与复查日明确",
+      "observed_anchor": "试点=东街十日"
+    },
+    {
+      "criterion": "暂行不等永久公正",
+      "observed_anchor": "全镇推广=未许可"
+    }
+  ],
+  "candidate_ids": [
+    "WM-f12",
+    "WM-p20",
+    "WM-p21"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}
