@@ -108,3 +108,11 @@ Original evidence commit `992dff3b` had 29/29 completed successful GitHub Action
 ## R032 FORMAL PASS｜2026-10-09
 
 私有用户原始《铁血残明》有效叙事481—520章40章已完整读取并验证原始EPUB整体SHA、全部原成员SHA、2541个非空正文XHTML段及82个真实p段哈希定位（其中两组跨章反证）；40份独立人物/事件观察，20场景精读与8处文学论点定位纠正保留。正式证据GitHub提交 `38c6cf76259212ecb42b449edf4560d79ba9b63e` **30/30 GitHub Actions completed/success**，其中专属 R032 [运行37891257277](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37891257277)，冻结R006及历史回归全绿。A私有来源已校验，公开CI仅SOURCE_STRUCTURE_ONLY；B PROVISIONAL，C NOT_RUN，SKILL认证0，R006密封题库未使用，Adler及R042未越过。此正式原子提交推进游标至R033 NOT_STARTED、32/89轮、晚明520及铁血520=1040/1103。提交自身的全部Actions及远程回读仍须单独核验；不得自动启动R033。
+
+## R032 remote final audit — 2026-10-09
+
+- Original full-evidence staging commit: `38c6cf76259212ecb42b449edf4560d79ba9b63e` — **30/30 GitHub Actions completed/success**, including dedicated R032 run [37891257277](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37891257277), R006 frozen protocol, and all historic workflows.
+- Official atomic PASS commit: `e7c6b8f44861adc25512f26ffbaf67fe5a98df47` — **30/30 GitHub Actions completed/success**, including dedicated R032 run [37891447268](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37891447268), no failures or pending runs.
+- Remote reread: `CURRENT_ROUND.json` is R033 NOT_STARTED, `last_passed_round=R032`, `rounds_completed=32`, `full_text_read_chapters` Wanming520/Tiexue520 = **1040/1103**; `ROUND_LEDGER.csv` R032 PASSED/R033 NOT_STARTED, both book pipeline states match.
+- Private original EPUB, all 40 member SHA values and all 82 paragraph SHA values verified locally; public CI is SOURCE_STRUCTURE_ONLY. Literary B PROVISIONAL and original writing C NOT_RUN; certified Skills 0, whole-book Adler/R042 unpassed, Nuwa Phase1 not begun; no R033 was run.
+- This audit adds a history-only note. Its own triggered CI must also be verified. Previous PARTIAL/IN_PROGRESS paragraphs above describe earlier chronological checkpoints, not the current state.
