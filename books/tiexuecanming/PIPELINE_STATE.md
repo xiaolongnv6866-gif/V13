@@ -3,11 +3,11 @@
 - original_epub_sha256: 9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf
 - expected_narrative_chapters: 532
 - round_R002_official_source_validation: PASSED (R002 original OPF/spine/CRC/SHA verified)
-- official_full_text_read_chapters: 360 (source: CURRENT_ROUND.json; completed rounds R008—R024; do not add R025)
+- official_full_text_read_chapters: 360 (source: CURRENT_ROUND.json; completed rounds R008—R024; R026 not started)
 - stage0_current: PARTIAL_BOOK_READING; whole_book_adler: NOT_STARTED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R024; current_round: R025 NOT_STARTED (manual user trigger only)
+- last_passed_round: R025; current_round: R026 NOT_STARTED (manual user trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN

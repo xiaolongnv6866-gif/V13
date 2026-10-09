@@ -1,4 +1,4 @@
-# V13 R024 PASSED — handoff to R025 NOT_STARTED
+# V13 R025 PASSED — handoff to R026 NOT_STARTED
 
 Official: 24/89 rounds; Wanming 360/571, TiexueCanming 360/532, 720/1103 chapters.
 R024 40 distinct chapter receipts, 2220 original paragraphs, 20 close studies, 80 SHA locators; source-member FNV 8dd29619 and paragraph FNV 12642d3d.
@@ -25,3 +25,11 @@ Only R024 authorized by this manual request. Do not begin R025.
 
 - 用户明确发出『继续』，GitHub游标R025 NOT_STARTED，开始按原书有效叙事361—400完整阅读；本地原 EPUB / SHA 与索引复核，40章2099段已逐段读取，另建40份具体事件与视角研究检查点。仍不提前计算为正式读章。
 - 不重做早期24轮；Stage0质量债务保留、旧结论分层处理。待原文锚点/文学精研/CI及远程回读验收后才能PASSED。
+
+## R025 正式PASS｜2026-10-09
+
+- GitHub修正证据 `dc260a417f3d02513efefb1cda44e7d072b20e9b` 已完成23/23 Actions成功，包含R025专项 [37874857592](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37874857592) 和R006冻结协议及历史回归；此前失败run 37874575589和hash纠错历史仍保留在 `runs/R025.md`。
+- 用户提供原版《晚明》EPUB原 SHA匹配；有效序号361—400各一章共40章、2099个原XHTML段落、99个原文SHA锚点，私有重核40成员FNV `6c6bbbf5`、段落FNV `752e2373` 与远程材料一致。
+- 20份不同现场精读、八组跨章反向比较、人物组织财政连续性账已提交。A来源真实性本地PASS；文学解释B依旧PROVISIONAL；原创能力C仍NOT_RUN。旧研究历史质量债务维持分层抽查方案，不重做已登记720章。
+- **正式完成25/89轮**；《晚明》400/571、《铁血残明》360/532，累计760/1103章；原创SKILL认证0；Stage0整书确认未到、女娲Phase1未启动、R006密封测试未开启。**R026 NOT_STARTED，等待用户再次明确『继续』。**
+- 正式PASS提交 SHA 待该原子提交完成后填入追加的 GitHub 审计提交（不可在同一个提交中自引用自己 SHA）。
