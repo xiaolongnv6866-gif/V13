@@ -1,0 +1,18 @@
+name: V13 R047 Wanming independent glossary extractor
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r047:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: R047 original EPUB glossary census, citations, and category boundaries
+        run: python3 scripts/validate_r047_glossary_extractor.py
+      - name: Frozen V13 89-round integrity controller
+        run: python3 scripts/validate_round_integrity.py

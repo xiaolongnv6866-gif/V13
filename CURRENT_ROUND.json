@@ -2,9 +2,9 @@
   "project": "V13",
   "plan_version": "13.0-fixed-89",
   "rounds_total": 89,
-  "current_round": "R047",
+  "current_round": "R048",
   "round_status": "NOT_STARTED",
-  "last_passed_round": "R046",
+  "last_passed_round": "R047",
   "full_text_read_chapters": {
     "wanming": 571,
     "tiexuecanming": 532
@@ -14,7 +14,7 @@
   "skill_certified_count": 0,
   "remote_repo": "https://github.com/xiaolongnv6866-gif/V13",
   "advance_rule": "Only after current round evidence, checks, mandatory user approval, GitHub remote reread",
-  "rounds_completed": 46,
+  "rounds_completed": 47,
   "finalized_on": "2026-10-09",
   "nuwa_phase05": "WORKSPACE_READY_NOT_RESEARCHED",
   "reading_contract_version": "R006-v1.0-FROZEN",
@@ -45,8 +45,10 @@
   "original_output_test_status": "NOT_RUN",
   "last_passed_round_evidence_commit": null,
   "cangjie_stage1_wanming_framework": "RAW_CANDIDATES_COMPLETE_UNVERIFIED",
-  "cangjie_stage1_other_extractors": "GLOSSARY_NOT_STARTED",
+  "cangjie_stage1_other_extractors": "WANMING_RAW_COMPLETE_TIE_XUE_FIVE_NOT_STARTED",
   "cangjie_stage1_wanming_principle": "RAW_CANDIDATES_COMPLETE_UNVERIFIED",
   "cangjie_stage1_wanming_case": "RAW_FICTIONAL_CASE_CANDIDATES_COMPLETE_UNVERIFIED_ENUM_EXTENSION",
-  "cangjie_stage1_wanming_counterexample": "RAW_CANDIDATES_COMPLETE_UNVERIFIED"
+  "cangjie_stage1_wanming_counterexample": "RAW_CANDIDATES_COMPLETE_UNVERIFIED",
+  "cangjie_stage1_wanming_glossary": "RAW_GLOSSARY_TERMS_COMPLETE_UNVERIFIED",
+  "cangjie_stage1_wanming_five_extractors": "RAW_CANDIDATES_COMPLETE_VERIFICATION_NOT_STARTED"
 }

@@ -269,3 +269,11 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 
 ### R046首轮专项Actions失败记录（修正后不得删除历史）
 首次提交2fc258254271c2b0b7265b24b5735d9be6a133c5的R046专项run 37947878890失败：审核报告没有统一字面标记SOURCE_STRUCTURE_ONLY；19候选/62段落/21检索块其余检查未报错。仅在books/wanming/candidates/COUNTEREXAMPLE_AUDIT.md增加CI_CLASSIFICATION: SOURCE_STRUCTURE_ONLY和说明，不改原始分析与validator要求。新提交应重新检查所有Actions及远程游标，不把旧失败隐瞒为首次全绿。
+
+## R047｜《晚明》原版仓颉术语提取器独立执行（2026-10-09）
+- 用户新「继续」只触发R047；进入时main bb9cdf4ab8f55d31f18b6dd461fa4faf04d5b35c、R046 PASSED、46/89、R047 NOT_STARTED。读取原版Cangjie SKILL.md、Stage1完整方法与glossary-extractor.md。依据原版允许的独立串行降级只做glossary，不提前启动R048。
+- 直接核查用户私有《晚明》EPUB SHA256 a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082；ZIP CRC无错误，571个真实OPF有效叙事XHTML逐章字节SHA匹配R002、30,221个非空段、2,245,824 Unicode正文字符。复用R045私有848源块/FTS5索引，并以全书精确词形计数预筛，回到选定术语的实际邻接正文核对。机器全量扫词不等于每章完整文学验证。
+- books/wanming/candidates/glossary.md保存**18条g01—g18原始词条**（原版建议5—20）；GLOSSARY_CENSUS.tsv记录每个词在用户原书的精确子串总出现次数及涉及的有效章数，均≥3次；GLOSSARY_EVIDENCE.tsv保留**34个不同n/p段落SHA（27个原叙事章）**与R002原章路径/字节SHA。涵盖WM-01—WM-09和六个原著叙事段，但仅为术语候选关联。
+- 原小说不等于作者正式词典。原版author_definition字段保留为空，definition_status=SOURCE_CONTEXT_PARAPHRASE_NOT_EXPLICIT_AUTHOR_DEFINITION，小说中实际用法写textual_usage，并列出与一般理解的差异、历史制度无法从小说直接外推的边界；版权源书不公开复制。并且不混入“叙述权”等研究者造词充当原著术语。
+- 已准备books/wanming/candidates/GLOSSARY_AUDIT.md、scripts/validate_r047_glossary_extractor.py和专属.github/workflows/r047_glossary_extractor.yml；公开CI仅SOURCE_STRUCTURE_ONLY，B仍PROVISIONAL，C仍NOT_RUN，SKILL认证0，旧R042 14条问题claim不解封，质量债OPEN_QUARANTINED。
+- 《晚明》Stage1五路至此**全部完成原始候选层**，并不等于Stage1.5 V1/V2/V3三重验证完成。正式验收成功后游标R048 NOT_STARTED，完成47/89；下一次手动「继续」才可开展《铁血残明》框架提取。
