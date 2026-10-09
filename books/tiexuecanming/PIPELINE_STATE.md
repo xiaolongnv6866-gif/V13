@@ -7,7 +7,7 @@
 - stage0_current: R042_STAGE0_BOOK_OVERVIEW_USER_APPROVED_WITH_LEGACY_DEBT; whole_book_adler: PASSED_FOR_STAGE1_ENTRY_B_PROVISIONAL
 - book_overview: R042_USER_APPROVED; user_stage0_gate: PASSED_APPROVAL_LIMITED_TO_FRAMEWORK
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R051; current_round: R052 NOT_STARTED (manual trigger only)
+- last_passed_round: R052; current_round: R053 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -89,3 +89,10 @@
 - Official R051 PASSED 51/89; R052 glossary NOT_STARTED manual trigger required. Tiexue Stage1 framework/principle/case/counterexample four RAW extractors completed, glossary not started. No Stage1.5 tests.
 - Private exact EPUB SHA256 and CRC PASS, OPF 532 narrative chapters, 33,278 body paragraphs, 2,087,501 original characters; 958 private source chunks FTS5 reused for independent negative queries and scene inspection (not copied prior case conclusions). 21 ce RAW candidates, 67 original paragraph SHA anchors, 24 source chapters, 27 used source chunks; 41 newly located relative to R048/R049/R050. Coverage TX-01..TX-10 and all six research arcs only RAW.
 - Evidence commit `c5588e70d98baa9474ed4fa21eea73a354dca685` 49/49 Actions SUCCESS including R051 [37956968094](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37956968094). Public SOURCE_STRUCTURE_ONLY; B PROVISIONAL, C NOT_RUN, Skill0, old 14 R042 claims NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE, heldout SEALED. R052 not executed.
+
+
+## R052 Stage1 original glossary extractor｜2026-10-10
+
+- Formal status R052 PASSED, 52/89; R053 Stage1.5 NOT_STARTED and only after a new user manual trigger. Tiexue five independent Stage1 extractors framework/principle/case/counterexample/glossary are RAW_COMPLETE but zero verified capabilities.
+- Original private EPUB SHA and ZIP CRC PASS, all OPF 532 effective chapters, 33,278 nonempty paragraphs, 2,087,500 whitespace-normalized characters (differs one character from prior extraction convention); exact original corpus-wide search of 20 candidate terms, 40 real SHA-located source paragraphs in 38 chapters and six arcs, all 10 independent Stage0 tasks linked at RAW level. Real terms only; author_definition not invented, historicity NOT_VERIFIED.
+- Evidence commit `fcefbbfc75592852ae1e167becfa7269a6a129c2` passed 50/50 GitHub Actions; R052 dedicated [37958349033](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37958349033) SUCCESS. Public CI SOURCE_STRUCTURE_ONLY, B PROVISIONAL, C NOT_RUN, Skill0, 14 quarantined historic claims OPEN_QUARANTINED, heldout SEALED_NOT_RUN; no Stage1.5 or Nuwa Phase1 yet.

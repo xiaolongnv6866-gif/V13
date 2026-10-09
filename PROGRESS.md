@@ -321,3 +321,12 @@ R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回�
 - TX-01—TX-10全部仅有**原始候选关联**，六个研究叙事弧均有直接原始来源；来源SHA真实性不代替文学解释B与原创新题C，阶段1.5三重验证仍NOT_STARTED。历史14项旧问题仍NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE。现实政治/军务/金融危险做法不被提取成实施指南。
 - 证据提交 `c5588e70d98baa9474ed4fa21eea73a354dca685` 已经经过**49/49 GitHub Actions全部SUCCESS**，专属R051 [37956968094](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37956968094) 成功，失败历史不删除。公开CI仅SOURCE_STRUCTURE_ONLY；文学B PROVISIONAL，原创C NOT_RUN，技能认证0，heldout SEALED_NOT_RUN。
 - 正式标记R051 PASSED、**51/89**，下一轮 **R052 NOT_STARTED**。下次另一次手动『继续』才可进行《铁血残明》术语提取器；本轮不启动R052。
+
+
+## R052｜《铁血残明》术语提取器独立执行（2026-10-10）
+
+- 本次手动继续从起始Github main `b9610116d39d31f697787e9e849848d1268094e9`、R051 PASSED、51/89、R052 NOT_STARTED恢复。已完整读取固定版Cangjie SKILL、Stage1方法、Glossary Extractor及Nuwa固定版SKILL，独立使用R042批准的BOOK_OVERVIEW和十项TX写作任务清单，14条旧claim仍在禁晋级隔离表；无并行Task条件使用原版允许的隔离串行，R053不执行。
+- 原始私有《铁血残明》EPUB SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`核验与ZIP CRC通过；依源OPF全部532个叙事XHTML扫描33,278个非空正文段，私有脚本压空后2,087,500字符（之前保存2,087,501字符使用另一抽取口径，1字符差异保留）。对**20种**实在文本中存在的术语执行全书精确字符串频次统计，并在**38**个有效原始章实际重核**40处**p段SHA及上下文，覆盖R042六个研究弧和十项独立TX任务；并非宣称文学理解全书自动认证。
+- 新增`books/tiexuecanming/candidates/glossary.md` g01—g20、`GLOSSARY_EVIDENCE.tsv`、`GLOSSARY_CENSUS.tsv`及`GLOSSARY_AUDIT.md`。严格区分作者直接定义（没有充分直接引述证据，author_definition公开保留空值）、小说内人物词义和研究者语境释义。例：“申详”不等于上级批复；“士官”待遇与指挥权限不等；“勤王”名义不等盟友共同授权；“塘报”不等战报或公开时刊；“贴票”在现存结尾未见真实全部兑付。无历史史实外证认证，无金融和军事危险实施指引；不上传原作正文。
+- 证据SHA `fcefbbfc75592852ae1e167becfa7269a6a129c2`经过正式**50/50项GitHub Actions全部SUCCESS**，R052专项 [37958349033](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37958349033) SUCCESS。CI仅SOURCE_STRUCTURE_ONLY；文学B PROVISIONAL，原创C NOT_RUN，Skill0，旧质量债OPEN_QUARANTINED、14项NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE，heldout封存。
+- R052正式PASSED，**52/89轮**。两书Cangjie五提取器均已有独立**RAW候选**，原版Stage1.5还未开始。下轮**R053 NOT_STARTED**，必须有新的手动用户消息才可进入两书候选合并／去重／覆盖分析；不在本轮执行R053。
