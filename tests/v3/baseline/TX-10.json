@@ -1,0 +1,9 @@
+{
+  "id": "TX-10",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "旧书铺老板在簿子上写下明年要修好二十本社区旧谱。邻居见他纸料不多，劝他别答应得太满。老板笑说先把愿望记下，改日再去找几位相熟的工匠。",
+  "scene_B": "第二天老板打开其中一本旧谱，翻看破损的书脊。他列了一张材料清单，打算等纸铺进新货时去问价格。邻居过来探望，见他还没动手，便说这事急不得。",
+  "state_contract": "计划=修二十本；现纸张=只够少量；老板=先列材料清单；工程=还没开始。",
+  "unknowns": "最终能修几本、什么时候材料到位未知。",
+  "authoring_conditions": "Same frozen scenario input, two authored scenes and state/unknown, no candidate list. Same writer is not blind."
+}

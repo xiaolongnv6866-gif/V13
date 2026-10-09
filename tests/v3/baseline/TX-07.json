@@ -1,0 +1,9 @@
+{
+  "id": "TX-07",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "桥溪退水后，负责修复游园的领事站在路口催人清扫。渡船女掌柜蹲在泥里找自己的账簿，修船匠抱走未泡坏的木板，一家露宿的人靠着临时挡风板吃饭。",
+  "scene_B": "天黑后领事沿街巡看，见几处院子仍湿着，知道开园得迟些。女掌柜找回半页账单，打算向熟客问清余款；修船匠则把材料送进棚里，等待晴日晾晒。",
+  "state_contract": "复园=推迟；女掌柜=找账；修船匠=救木；露宿者=暂居街边。",
+  "unknowns": "何时重新开放和民户住处安排尚未确定。",
+  "authoring_conditions": "Same frozen scenario input, two authored scenes and state/unknown, no candidate list. Same writer is not blind."
+}

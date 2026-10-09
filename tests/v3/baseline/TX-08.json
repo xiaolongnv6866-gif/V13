@@ -1,0 +1,9 @@
+{
+  "id": "TX-08",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "谭青到报馆时满脸倦色，说母亲身体不好，想请半日假。编辑翻看排好的稿件，让他把今天的校样先交接好。谭青答应，转身去问同事可否替自己看几页。",
+  "scene_B": "同事接过稿样，说有些字仍要核对，报纸不等人。谭青给母亲写了口信，等到编辑在请假纸上签字，才匆匆出门。报馆里又恢复了印工的催促声。",
+  "state_contract": "谭青=请半日；编辑=希望先交接；同事=接过稿样；谭青=签字后出门。",
+  "unknowns": "母亲身体情况与额外工作报酬尚不知。",
+  "authoring_conditions": "Same frozen scenario input, two authored scenes and state/unknown, no candidate list. Same writer is not blind."
+}

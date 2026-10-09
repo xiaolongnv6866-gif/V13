@@ -1,0 +1,9 @@
+{
+  "id": "TX-09",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "灯彩比赛遇风中断，裁判把暂停时间记在簿上。编辑觉得这消息太平，想写一位参赛者奋力护住了彩灯。旁边看热闹的孩子说，其实大家都把灯往里搬。",
+  "scene_B": "编辑回报馆后写出一版短稿，琢磨该不该突出一个人的英勇。评审还没有定胜负，报纸也没到付印时辰。他最终把稿子放到桌上，想着明日再问问其他目击者。",
+  "state_contract": "比赛=暂停；裁判记录=中止时间；编辑=拟写戏剧性稿件；印行=未发生。",
+  "unknowns": "最后采用哪份稿件与比赛名次未知。",
+  "authoring_conditions": "Same frozen scenario input, two authored scenes and state/unknown, no candidate list. Same writer is not blind."
+}
