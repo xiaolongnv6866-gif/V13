@@ -1,6 +1,6 @@
-# V13 R027 PASSED — handoff to R028 NOT_STARTED
+# V13 R028 PASSED — handoff to R029 NOT_STARTED
 
-Official: 27/89 rounds; Wanming 440/571, TiexueCanming 400/532, 840/1103 chapters.
+Official: 28/89 rounds; Wanming 440/571, TiexueCanming 440/532, 880/1103 chapters.
 R024 40 distinct chapter receipts, 2220 original paragraphs, 20 close studies, 80 SHA locators; source-member FNV 8dd29619 and paragraph FNV 12642d3d.
 Evidence commit e9cda3ed: initial R024 workflow 37869539563 FAILED because event-chain data was mistyped; repaired commit 7443f3fd passed all 22 workflows including R024 run 37869730435 and frozen R006.
 Public CI checks structure, not private novel contents or literary mastery. A private-source check PASSED, B PROVISIONAL, C NOT_RUN; skill certification 0; Nuwa Phase1 NOT_STARTED; R006 heldout SEALED_NOT_RUN.
@@ -58,3 +58,11 @@ Only R024 authorized by this manual request. Do not begin R025.
 - 本次是研究证据Actions全绿后原子状态更新；正式PASS提交自身Actions与远程回读尚需实际完成。
 
 - R027正式PASS提交 `8bcdef3370d5d8c2a7feeb0b127985856ff1e2b2` 的25/25 GitHub Actions 全绿，其中R027专项 [37879233792](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37879233792)成功，已远程回读游标R028 NOT_STARTED，轮次27/89，来源计数440+400=840/1103；质量B仍PROVISIONAL。最后审计提交待本次Actions回归后完成。
+
+## R028完成｜《铁血残明》401—440（2026-10-09）
+
+- 本轮用户手动明确『继续』后，原版Cangjie Stage0与Nuwa Phase0/0.5固定文件、V13质量政策及R006冻结协议已读取；按冻结OPF有效序号完整实读《铁血残明》第401—440章40个正文成员、2441段、167071字符；原始用户EPUB的全文件SHA、ZIP CRC、40个原ZIP成员SHA均匹配。
+- 40章独立事件—自主选择—叙事信息记录、20章CLOSE_READ、80个真实原文段落SHA定位、六组跨章反向研究和连续性账提交。两组不可逆汇总值：member FNV `91dc7c91`、anchor FNV `72e4062f`；暂存阶段发现R028第416章p23 SHA中2位误写，已在GitHub主分支提交前同步更正；私有源重算完全吻合，错误来源未进入main。
+- 研究证据提交 `c07d30ad1f6fdbe149961f3a5dbde800e738dac9` 的 **26/26 GitHub Actions completed/success**，R028专项 [37880808806](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37880808806) 通过，冻结R006协议和25项历史检查同时成功。公开CI只能审核SOURCE_STRUCTURE_ONLY，不能替代私有原书阅读。
+- 质量层级：A 私有原书来源验证；B 文学假说仍为 `PROVISIONAL`；C 原创写作增益 `NOT_RUN`；原版整书Adler Stage0与R042用户门尚未完成，Nuwa Phase1和密封测试未开启，Skill认证0；R007—R024历史文学债务继续风险抽查，不全量重做。
+- **正式进度**28/89；《晚明》440/571、《铁血残明》440/532、总阅读登记 **880/1103**；下一轮R029 `NOT_STARTED`，仅待新的用户指令。当前原子PASS提交需要独立Actions及远程回读后才报告最终验收。
