@@ -3,7 +3,7 @@
   "plan_version": "13.0-fixed-89",
   "rounds_total": 89,
   "current_round": "R024",
-  "round_status": "NOT_STARTED",
+  "round_status": "IN_PROGRESS",
   "last_passed_round": "R023",
   "full_text_read_chapters": {
     "wanming": 360,
@@ -36,5 +36,6 @@
   "continuation_policy_file": "AUTO_CONTINUATION_POLICY.md",
   "continuation_schedule_enabled": false,
   "execution_trigger_policy": "Wait for a new explicit user message such as '继续' to resume only the current V13 round; do not launch the next round automatically, even after PASS, without a new user request.",
-  "continuation_last_updated_on": "2026-10-09"
+  "continuation_last_updated_on": "2026-10-09",
+  "round_started_on": "2026-10-09"
 }

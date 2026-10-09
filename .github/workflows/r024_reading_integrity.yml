@@ -1,0 +1,20 @@
+name: V13 R024 TiexueCanming 321-360 original narrative integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r024:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: R006 frozen original reading receipt contract
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R024/tiexue_receipts.jsonl
+      - name: R024 40-chapter public metadata and literature audit
+        run: python3 scripts/validate_r024_reading.py
+      - name: Global V13 89-round controller integrity
+        run: python3 scripts/validate_round_integrity.py
