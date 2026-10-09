@@ -33,3 +33,8 @@ Only R024 authorized by this manual request. Do not begin R025.
 - 20份不同现场精读、八组跨章反向比较、人物组织财政连续性账已提交。A来源真实性本地PASS；文学解释B依旧PROVISIONAL；原创能力C仍NOT_RUN。旧研究历史质量债务维持分层抽查方案，不重做已登记720章。
 - **正式完成25/89轮**；《晚明》400/571、《铁血残明》360/532，累计760/1103章；原创SKILL认证0；Stage0整书确认未到、女娲Phase1未启动、R006密封测试未开启。**R026 NOT_STARTED，等待用户再次明确『继续』。**
 - 正式PASS提交 SHA：`a2e8a39ce1092f9c905ffa8a38617d8281d2873c`，由该PASS提交触发的23/23 Actions全部成功，R025专项run [37875016383](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37875016383)，GitHub远程回读一致。证据提交 `dc260a417f3d02513efefb1cda44e7d072b20e9b` 同样23/23成功，错误原始日志保留。最终审计回填不执行R026。
+
+## Stage0质量控制正式规则落盘（2026-10-09）
+
+- 新增根目录 `STAGE0_QUALITY_CONTROL_POLICY.md` 并从 `ROUND_EXECUTION_RULES.md`、`START_HERE.md`、`V13_CONTRACT.md` 引用，使不逐轮返工、风险抽审、三层成果判断、R036—R042整书门成为**必须读取的执行约束**，而不止研究日志。未修改原版SKILL或冻结R006、没有撤回正式阅读章数。
+- 本次仅修复政策缺口，**不启动R026，不推进游标，不修改正式25/89轮与760/1103章**。所有技术CI和远程回读按新提交实际结果为准；文学B仍 PROVISIONAL，C NOT_RUN。

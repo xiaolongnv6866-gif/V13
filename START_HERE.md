@@ -3,7 +3,7 @@
 **已完成R001的独立仓库初始化；当前工作轮次不是R001而是GitHub游标规定的R002。** 此行是2026-10-09首版说明；以后无论这里的文本如何过时，均以`CURRENT_ROUND.json`、`ROUND_LEDGER.csv`与`PROGRESS.md`互相核对为唯一真实状态。
 
 1. 先从`https://github.com/xiaolongnv6866-gif/V13`的main分支读取`CURRENT_ROUND.json`、`ROUND_LEDGER.csv`、`PROGRESS.md`，如有矛盾暂停。
-2. 从`V13_FIXED_89_ROUNDS.md`读取当前轮**完整必须操作、原版依据、产物、验收与用户门**，再读取`ROUND_EXECUTION_RULES.md`。用户2026-10-09最新决定改为手动触发，停止自动跨轮与一小时任务；每次输入『继续』只恢复GitHub游标指定的当前轮；详见`AUTO_CONTINUATION_POLICY.md`。不得跳轮或跳验收。
+2. **先读取 `STAGE0_QUALITY_CONTROL_POLICY.md` 与 `cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md`：保留旧真实来源研究，风险抽审定向修复，不清零也不虚报文学验证。** 再从`V13_FIXED_89_ROUNDS.md`读取当前轮**完整必须操作、原版依据、产物、验收与用户门**，再读取`ROUND_EXECUTION_RULES.md`。用户2026-10-09最新决定改为手动触发，停止自动跨轮与一小时任务；每次输入『继续』只恢复GitHub游标指定的当前轮；详见`AUTO_CONTINUATION_POLICY.md`。不得跳轮或跳验收。
 3. 按`SKILL_SOURCES.md`固定版本完整读取上游Cangjie/Nuwa原始`SKILL.md`与当前阶段全部依赖；不能从旧项目恢复笔记或用摘要替代原版。
 4. 当轮需要原著时必须真实取得用户提供的两本EPUB，校验`SOURCE_MANIFEST.md`中的SHA256。公开仓库不含原著，若新对话无法读取则暂停并请用户重新提供；**绝不从目录标题冒充全文阅读**。
 5. R002从原文实际OPF spine生成只含元数据的两份CSV，检查章节数/路径异常，按轮次真实要求提交GitHub。此轮之前已完成的本地ZIP预检仅是准备，不等于R002通过。
