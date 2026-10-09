@@ -1,0 +1,18 @@
+name: V13 R055 Stage1.5 V2 original input executability
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r055:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check 19 pre-frozen tests, 38 original outputs, 57 criteria and four failing mutations
+        run: python3 scripts/validate_r055_v2_executability.py
+      - name: Frozen V13 89-round controller
+        run: python3 scripts/validate_round_integrity.py

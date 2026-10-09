@@ -1,0 +1,26 @@
+{
+  "round": "R055",
+  "purpose": "Validator mutation rejection (not genuine bad fiction quality examples)",
+  "mutations": [
+    {
+      "id": "N01",
+      "mutation": "EMPTY_SECOND_SCENE",
+      "expected_error": "scene_B"
+    },
+    {
+      "id": "N02",
+      "mutation": "FABRICATED_CRITERION_ANCHOR",
+      "expected_error": "criterion_proof"
+    },
+    {
+      "id": "N03",
+      "mutation": "SOURCE_REVIEW_CANDIDATE",
+      "expected_error": "not V1 source PASS"
+    },
+    {
+      "id": "N04",
+      "mutation": "V3_PREMATURE_PASS",
+      "expected_error": "V3"
+    }
+  ]
+}
