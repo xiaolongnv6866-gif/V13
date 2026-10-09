@@ -11,7 +11,7 @@
 |本轮40章|原始有效ordinal321—360、OPF spine336—375、`Chapter_0333.xhtml`—`Chapter_0372.xhtml`，2129真实原XHTML非空正文段|
 |来源原章SHA|40个真实member SHA与冻结R002逐个一致，私有来源/公开冻结元数据索引FNV32`9a726633`|
 |文学证据|20 CLOSE_READ＋20 FULL_TEXT_READ不重复，40份独立实读收据和80原段SHA定位，FNV32`aeabbd4c`；40章不同人物事件、六组反例分析和伦理财政连续性账|
-|真实CI验收|证据提交 `d6af991bfc9c02b8440079af9ff52a6e5f220298`远程核对，**21项GitHub Actions全部completed/success**，含R023专项、R006冻结收据与历史回归；正式PASS自身待后续独立检查|
+|真实CI验收|证据提交 `d6af991bfc9c02b8440079af9ff52a6e5f220298`远程核对，**21项GitHub Actions全部completed/success**，含R023专项、R006冻结收据与历史回归；正式PASS提交 fab3de1a31ebf4f51667d6d48bb0a1ab3dcdc0af 已GitHub远程回读并证明21/21 GitHub Actions completed/success，本轮专项 run 37868123728|
 |三证据门|A私有来源真实性PASS；B分批文学解释**PROVISIONAL**，C独立原创新题增益**NOT_RUN**|
 |后续门|Cangjie原版Adler整书Stage0及R042强制用户确认未到；Nuwa Phase1未启动，认证原创SKILL0，R006盲测仍SEALED_NOT_RUN|
 |执行模式|MANUAL_USER_TRIGGER，只完成R023，不自动开启R024，也不追加付费来源|
