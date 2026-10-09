@@ -1,0 +1,18 @@
+name: V13 R037 Wanming original Adler interpretive evidence integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r037:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate R037 original paragraph locators and interpretive propositions (public structure only)
+        run: python3 scripts/validate_r037_interpretation.py
+      - name: Freeze 89-round controller invariant
+        run: python3 scripts/validate_round_integrity.py
