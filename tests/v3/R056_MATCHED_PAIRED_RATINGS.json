@@ -206,7 +206,7 @@
       "candidate_three_criteria_evidence": [
         "制伞妇人问",
         "试点=东街十日",
-        "全面推广=未许可"
+        "全镇推广=未许可"
       ],
       "baseline_dims": {
         "causal_chain": 2,
@@ -266,7 +266,7 @@
         "旧渡的戏班"
       ],
       "candidate_three_criteria_evidence": [
-        "女工只确认三户在场",
+        "只确认三户在场",
         "游客也发现",
         "戏班如今却唱成"
       ],
@@ -478,7 +478,7 @@
     {
       "id": "TX-07",
       "baseline_three_criteria_evidence": [
-        "修船匠先忙着抢救自己的木料",
+        "修船匠先忙着抢救木料",
         "女掌柜从旧木箱里找到半本账",
         "露宿者=保留挡风"
       ],

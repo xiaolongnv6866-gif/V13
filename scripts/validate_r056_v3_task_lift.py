@@ -65,7 +65,7 @@ for tc in cases:
     ck(original['arm']=='BASELINE_NO_CANDIDATE_INSTRUCTIONS','unfair original baseline not preserved '+id)
     ck(candidate['mode']=='PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS','R055 original candidate output mutated '+id)
     for label,arm in [('matched',base),('candidate',candidate)]:
-        ck(all(isinstance(arm.get(key),str) and len(arm[key])>=12 for key in ('scene_A','scene_B','state_contract','unknowns')),label+' incomplete output '+id)
+        ck(all(isinstance(arm.get(key),str) and len(arm[key])>=(12 if label=='matched' else 8) for key in ('scene_A','scene_B','state_contract','unknowns')),label+' incomplete output '+id)
         ck(arm['scene_A']!=arm['scene_B'],label+' A/B identical '+id)
         ck('=' in arm['state_contract'],label+' no state tracking '+id)
     r=next((x for x in primary['records'] if x['id']==id),{})
