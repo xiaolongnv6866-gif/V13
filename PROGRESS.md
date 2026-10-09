@@ -1,6 +1,6 @@
-# V13 R028 PASSED — handoff to R029 NOT_STARTED
+# V13 R029 PASSED — handoff to R030 NOT_STARTED
 
-Official: 28/89 rounds; Wanming 440/571, TiexueCanming 440/532, 880/1103 chapters.
+Official: 29/89 rounds; Wanming 480/571, TiexueCanming 440/532, 920/1103 chapters.
 R024 40 distinct chapter receipts, 2220 original paragraphs, 20 close studies, 80 SHA locators; source-member FNV 8dd29619 and paragraph FNV 12642d3d.
 Evidence commit e9cda3ed: initial R024 workflow 37869539563 FAILED because event-chain data was mistyped; repaired commit 7443f3fd passed all 22 workflows including R024 run 37869730435 and frozen R006.
 Public CI checks structure, not private novel contents or literary mastery. A private-source check PASSED, B PROVISIONAL, C NOT_RUN; skill certification 0; Nuwa Phase1 NOT_STARTED; R006 heldout SEALED_NOT_RUN.
@@ -68,3 +68,11 @@ Only R024 authorized by this manual request. Do not begin R025.
 - **正式进度**28/89；《晚明》440/571、《铁血残明》440/532、总阅读登记 **880/1103**；下一轮R029 `NOT_STARTED`，仅待新的用户指令。当前原子PASS提交需要独立Actions及远程回读后才报告最终验收。
 
 - R028正式PASS提交 `02c84d5b913e0a56d6b6f3ab90e3f4f7fe21d8c4` 的26/26 Actions已全部成功，包括R028专项 [37880909891](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37880909891)；远程回读main游标R029 NOT_STARTED，正式28/89、两书各440章总880/1103；B仍PROVISIONAL、C NOT_RUN。最终审计回填仅存真实记录，不增读章。
+
+## R029《晚明》有效章441—480，正式PASS记录｜2026-10-09
+
+- 按固定Cangjie Stage0/R006阅读协议实读用户私有完整原EPUB，40个原OPF有效叙事成员、2050非空正文段、144214可见字符，所有原章节SHA与R002冻结来源索引一致，80个实际私有段落SHA已复算，原书从首至末逐章独立记录。20章CLOSE_READ及20章普通全文阅读不重复计数。
+- 研究文件：`cangjie/reading/wanming_441_480.md`、R029/逐章收据、来源索引、20章重点场景分析、40章独立观察和权力／人事／财务连续性账，6组跨章反向机制。来源性A私有本地SHA/CRC通过，成员汇总 `d05bdb81`、80定位 `fa6c9f60`；初稿8处支持段落不够贴切，在推送main前依原文修订，始终不改用户EPUB或冻结R006。
+- 证据提交 `b7135829a872ef6bd6ed1e22264cbbfbc65471e7` 的 **27/27 Actions `completed/success`**，专项R029 [37882193049](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37882193049)成功，原版R006、历史回归全绿；公开CI只能证明SOURCE_STRUCTURE_ONLY，不能替代本地原书文学理解。
+- B文学仅PROVISIONAL，C陌生原创任务NOT_RUN；Cangjie整书Adler和R042用户必审门未到，Nuwa Phase1未启动，R006密封试题未开，Skill认证0，R007—R024质量债务继续风险抽审，不将旧章回拨重读。
+- 本次原子状态：正式 **29/89**，《晚明》480/571、《铁血残明》440/532，累计 **920/1103**。下一轮R030 NOT_STARTED，仅待用户另一条『继续』才触发。正式状态提交自身Actions和GitHub远程回读还需实测成功。
