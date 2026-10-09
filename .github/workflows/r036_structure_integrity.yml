@@ -1,0 +1,18 @@
+name: V13 R036 Wanming original whole-book Adler structure integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r036:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: R036 original OPF six-volume structured-source argument audit
+        run: python3 scripts/validate_r036_structure.py
+      - name: 89-round control invariant
+        run: python3 scripts/validate_round_integrity.py
