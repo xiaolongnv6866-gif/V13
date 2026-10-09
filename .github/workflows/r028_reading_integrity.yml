@@ -1,0 +1,20 @@
+name: V13 R028 TiexueCanming 401-440 original narrative integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r028:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Frozen R006 original reading receipt contract
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R028/tiexue_receipts.jsonl
+      - name: R028 source-member and distinct literary evidence audit
+        run: python3 scripts/validate_r028_reading.py
+      - name: Full V13 89-round integrity and sealed test gate
+        run: python3 scripts/validate_round_integrity.py
