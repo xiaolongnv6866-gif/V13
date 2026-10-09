@@ -1,0 +1,15 @@
+{
+  "round_id": "R034",
+  "source_epub_sha": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "chapters": 12,
+  "paragraphs": 673,
+  "close_read_chapters": 12,
+  "sha_anchors": 38,
+  "cross_chapter_counterexamples": 2,
+  "original_member_fnv": "7abab7b5",
+  "paragraph_anchor_fnv": "5eed412c",
+  "A": "PRIVATE_SOURCE_SHA_VERIFIED",
+  "B": "PROVISIONAL",
+  "C": "NOT_RUN",
+  "remote_pass": false
+}

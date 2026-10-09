@@ -1,0 +1,20 @@
+name: V13 R034 Tiexue 521-532 final original narrative integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r034:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Frozen R006 receipt schema for all original chapters
+        run: python3 scripts/validate_r006_protocol.py --receipts cangjie/reading/R034/tiexue_receipts.jsonl
+      - name: R034 final 12 chapter structural and narrative evidence audit
+        run: python3 scripts/validate_r034_reading.py
+      - name: V13 round integrity
+        run: python3 scripts/validate_round_integrity.py
