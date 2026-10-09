@@ -1,0 +1,10 @@
+{
+  "id": "TX-02",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "木匠林许递上修理公学旧门的申请，庶务员在受理格盖章，又特意将批准栏留白，解释馆主外出。捐助人只是口头承诺，银两还没到。林许只到旧门前看了损坏，没敢让工匠动工。",
+  "scene_B": "三日后馆主传话要先核算木料数量；庶务员把申请、受理、批准、开工、追责写成五格，请林许再来时确认第三格。林许拿着报价单回木工作坊，没有拿收件章冒充开工许可。",
+  "state_contract": "申请=已递；受理=有印；批准=馆主未准；执行=未开始；追责=待明确；捐赠=仅承诺未入账。",
+  "unknowns": "馆主实际批复、出资兑现及谁验收工程都未知。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

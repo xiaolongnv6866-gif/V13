@@ -1,0 +1,10 @@
+{
+  "id": "TX-05",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "湖桥书局宣布给校勘员增津贴，资深装帧工当众问这是不是意味着校勘员以后能取代他的最后校样签字权。主管说不，新津贴不改原来的核准签名。装帧工答应暂时照办，却要求把职责说明写下来。",
+  "scene_B": "校勘员说自己不能替未看过的装帧负责，主管把津贴与签字权限写到不同栏，约定一个月后查看实际校样上谁签过字。装帧工保留继续申诉的权利，没有被要求当场表示满意。",
+  "state_contract": "薪酬=校勘员提高；装帧最后签字=保留；异议=已发问；答复=澄清且将书面确认；复核=一月后。",
+  "unknowns": "该制度以后是否引出新的权限争议仍未知。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

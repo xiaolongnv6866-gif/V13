@@ -1,0 +1,10 @@
+{
+  "id": "TX-04",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "北温阅览室原想为冬夜读者送出三十条毯，账房给主任看足额的捐款承诺。主任走到织毯铺才知在手只有十二条，邻镇书社愿借六条，但要明春归还。主任遂宣布先提供十八条，不能拿承诺款当天换出其余毯子。",
+  "scene_B": "邻社的人把六条借毯逐一数给主任，提醒归还日期。账房在簿上另开一栏写借物，不同于原来的捐赠金额。主任问能否再借十二条，对方说也没有。阅览室仍有一些读者要等。",
+  "state_contract": "募款=承诺数足但尚未到账；现有毯=十二条；暂借=六条；当前可交=十八条；缺额=十二条；还毯=明春义务。",
+  "unknowns": "募款实际到账、未来是否买齐及归还日期能否履行均未确定。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

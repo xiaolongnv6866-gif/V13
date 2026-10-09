@@ -1,0 +1,10 @@
+{
+  "id": "TX-03",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "柳明照旧把木版放在阳光充足的橱窗，木版工安意却拿出颜色已浅的作品，请他看颜料变化。柳明承认自己不懂染料，老匠仍担心换窗会挡住顾客。安意说可以先在一小排试三天，两边都留下观察。",
+  "scene_B": "柳明同意不先换掉整排陈列，而请安意按日记颜色，让老匠记顾客停留。第三日再由二人一起拿记录给他看。安意并没有因此获得最终决策权，老匠也没有被写成保守蠢人。",
+  "state_contract": "安意=发现褪色并提议；负责人=承认知识不足；老匠=顾客顾虑；试行=三天小样；评估=待观察。",
+  "unknowns": "试行后的实际褪色程度和经营影响尚待三日后核对。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

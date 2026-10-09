@@ -1,0 +1,10 @@
+{
+  "id": "TX-06",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "东乡代表说有诗会的大厅，西乡代表答应提供纸张却要求署名，河口代表知道雨季路况不定，没收到两边确定的日期。三人没有只因同样喜欢诗会就说一切妥当，先谈定只举行一次、把场地和供纸分别署名。",
+  "scene_B": "河口代表说明没有实地确认通行，不肯替诗会保证当天一定到场。东乡说等西乡把纸送到再发请柬，西乡说可接受并列署名，但要看到印稿。三方分别带着各自的待办事项离开。",
+  "state_contract": "东乡=场地、接受并列署名；西乡=纸、需确认署名；河口=道路风险、未保证出席；协议=一次附条件；时间=待确认。",
+  "unknowns": "纸何时到、雨季能否通行、诗会是否举办均未知。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}
