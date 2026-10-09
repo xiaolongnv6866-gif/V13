@@ -1,0 +1,612 @@
+{
+  "round": "R056",
+  "primary_validity": "MATCHED_CRITERIA_EXPOSURE_BUT_SAME_AGENT_NONBLIND",
+  "baseline_input": "FROZEN_R055_SCENARIO_PLUS_EXPECTED_CRITERIA_NO_SOURCE_METHOD",
+  "candidate_input": "R055_FROZEN_SCENARIO_PLUS_EXPECTED_CRITERIA_AND_CANDIDATE_METHOD",
+  "baseline_commit": "43a51d342f8d94eced48e938a2f013b025db1362",
+  "candidate_commit": "597b7caa8051db924ba0125e9e0ee4cf37e6c164",
+  "scoring_rubric_commit": "c4d97a582e9b2ec13bad55db3ec00211f9cf9399",
+  "original_unmatched_comparison": "INVALID_IMBALANCED_PROMPT",
+  "stage4_independent_judge": "NOT_RUN",
+  "score_range": "0..11",
+  "records": [
+    {
+      "id": "WM-01",
+      "baseline_three_criteria_evidence": [
+        "掌柜说他的测绘本事可靠",
+        "身份未核仅准公开誊录",
+        "不能以掌柜一句话查看旧档"
+      ],
+      "candidate_three_criteria_evidence": [
+        "商人夸他本领高",
+        "身份核实=待核",
+        "库册权限=未授权"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 10,
+      "candidate_score": 10,
+      "delta": 0,
+      "rationale": "公平对照已分别列清技能赞许、身份审查和库册许可，未测到额外方法收益。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "WM-02",
+      "baseline_three_criteria_evidence": [
+        "催捐可以，但不能拿窘境羞辱人",
+        "他不肯签公告",
+        "信任裂隙=留存"
+      ],
+      "candidate_three_criteria_evidence": [
+        "姚湛说贫户家中正困难",
+        "拒绝签字",
+        "关系债务=未消"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "两组都让伦理反对改变公告且关系继续存在；本次不能区分框架带来的附加价值。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "WM-03",
+      "baseline_three_criteria_evidence": [
+        "任命书",
+        "纸=不足；资金=待拨",
+        "允办=公开目录"
+      ],
+      "candidate_three_criteria_evidence": [
+        "新官帖",
+        "人员=两人；纸张=不足",
+        "不批准调取封存账"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 10,
+      "candidate_score": 10,
+      "delta": 0,
+      "rationale": "匹配条件后，两组都分清人手纸张批复和有限实际权限。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "WM-04",
+      "baseline_three_criteria_evidence": [
+        "月末的银不能点亮今夜的集会",
+        "魏商不肯立即答应",
+        "村活动=缩小"
+      ],
+      "candidate_three_criteria_evidence": [
+        "未来钱",
+        "许商肯现付",
+        "照明须缩减"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 10,
+      "delta": -1,
+      "rationale": "公平对照写出两商人独立讨价和村里后果，R055候选对其他商人选择略弱，是角色能动性反例。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "WM-05",
+      "baseline_three_criteria_evidence": [
+        "北岸记录员只看到",
+        "南岸=修好/未修好互相冲突的转闻",
+        "桥安全"
+      ],
+      "candidate_three_criteria_evidence": [
+        "北岸记录员只量到",
+        "南岸来源=传闻",
+        "桥是否安全=未查明"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 10,
+      "candidate_score": 10,
+      "delta": 0,
+      "rationale": "两组都限制亲见与传闻，桥是否安全仍未确定。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "WM-06",
+      "baseline_three_criteria_evidence": [
+        "风雨棚的主事者",
+        "学徒拒绝把赏钱捐回公账",
+        "赔付=尚无"
+      ],
+      "candidate_three_criteria_evidence": [
+        "风雨棚修完",
+        "领赏的学徒",
+        "赔付=未办"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "两组均把公开胜利、卖花损失、学徒药费和未给付补偿分开。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "WM-07",
+      "baseline_three_criteria_evidence": [
+        "制伞妇人却问",
+        "时限=十天",
+        "推广=不准自动扩大"
+      ],
+      "candidate_three_criteria_evidence": [
+        "制伞妇人问",
+        "试点=东街十日",
+        "全面推广=未许可"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "同条件对照也自然写出十日试点、复核人和不得扩大，不能归功于候选。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "WM-08",
+      "baseline_three_criteria_evidence": [
+        "陶念听到后开口说",
+        "本人同意=无",
+        "三个月后大集会上"
+      ],
+      "candidate_three_criteria_evidence": [
+        "陶念开口说",
+        "伯父代许=未经本人同意",
+        "三个月后的集会上"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "两组保护少年本人对家庭安排的拒绝，连续到三个月后，未测出附加收益。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "WM-09",
+      "baseline_three_criteria_evidence": [
+        "刻碑女工",
+        "不把舞台热闹当作旧事全部",
+        "旧渡的戏班"
+      ],
+      "candidate_three_criteria_evidence": [
+        "女工只确认三户在场",
+        "游客也发现",
+        "戏班如今却唱成"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 10,
+      "delta": -1,
+      "rationale": "公平对照的游人主动记录两种说法，R055候选仅写游人意识到差异；角色独立行动略弱。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "TX-01",
+      "baseline_three_criteria_evidence": [
+        "旧雇主当众说",
+        "旧名声=误报",
+        "信用=未定"
+      ],
+      "candidate_three_criteria_evidence": [
+        "旧雇主指出",
+        "曾误报水位",
+        "旧雇主仍不肯担保"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "两组均让旧雇主、村妇和公署持不同评价，历史污点保留。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "TX-02",
+      "baseline_three_criteria_evidence": [
+        "申请、受理、批准、开工、追责",
+        "受理格盖章",
+        "馆主实际批复"
+      ],
+      "candidate_three_criteria_evidence": [
+        "递交、受理两格已有字",
+        "不能凭那张收据开工",
+        "追责=未分配"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 10,
+      "candidate_score": 10,
+      "delta": 0,
+      "rationale": "配对对照也明确五阶段办理与独立财务承诺，申请不等批准不需额外卡片。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "TX-03",
+      "baseline_three_criteria_evidence": [
+        "安意说可以先在一小排试三天",
+        "柳明承认自己不懂染料",
+        "评估=待观察"
+      ],
+      "candidate_three_criteria_evidence": [
+        "安意发现展窗木版晒褪色",
+        "主事者请安意记颜色",
+        "正式改制=未定"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "同标准下安意的自主质疑、领导知识缺口和三日复查均清晰。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "TX-04",
+      "baseline_three_criteria_evidence": [
+        "募款=承诺数足但尚未到账",
+        "但要明春归还",
+        "还毯=明春义务"
+      ],
+      "candidate_three_criteria_evidence": [
+        "捐款只是承诺",
+        "要求明春归还",
+        "返还义务=未履行"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 10,
+      "candidate_score": 10,
+      "delta": 0,
+      "rationale": "在给予相同要求后，对照把现款/现货/借物/未来归还完整列清，候选没有额外收益。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "TX-05",
+      "baseline_three_criteria_evidence": [
+        "新津贴不改原来的核准签名",
+        "装帧工答应暂时照办",
+        "复核=一月后"
+      ],
+      "candidate_three_criteria_evidence": [
+        "只调酬劳不改装帧核准权",
+        "装帧工提出一个月后",
+        "长期实测=未开始"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "两组均独立处理加薪与核签权利，并把实测结果留在一个月后。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "TX-06",
+      "baseline_three_criteria_evidence": [
+        "东乡代表说有诗会的大厅",
+        "协议=一次附条件",
+        "时间=待确认"
+      ],
+      "candidate_three_criteria_evidence": [
+        "东乡说可以借诗会大厅",
+        "三方仅同意先办一次",
+        "日期=未定"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "对照明确三乡信息不对称、署名条件与风险，候选未增加可见因果。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "TX-07",
+      "baseline_three_criteria_evidence": [
+        "修船匠先忙着抢救自己的木料",
+        "女掌柜从旧木箱里找到半本账",
+        "露宿者=保留挡风"
+      ],
+      "candidate_three_criteria_evidence": [
+        "女掌柜却在湿地上找账册",
+        "他们没等负责人指挥",
+        "露宿者=挡风"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "对照让非主角独立做事和发生后果，候选也完成；本题未见新机制增益。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "TX-08",
+      "baseline_three_criteria_evidence": [
+        "编辑说可准，但要先安排校样交接",
+        "代班者=本人确认愿代",
+        "额外报酬=待谈"
+      ],
+      "candidate_three_criteria_evidence": [
+        "编辑答应先完成校样交接",
+        "同事只说愿看看稿",
+        "报酬=未决定"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "给定相同条件后，普通对照也写出代班者自愿与工资未决。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "TX-09",
+      "baseline_three_criteria_evidence": [
+        "评审册只记下暂时停赛",
+        "目击孩子却提醒他",
+        "实际刊发=未发生"
+      ],
+      "candidate_three_criteria_evidence": [
+        "评审册只记暂停",
+        "目击的孩子指出",
+        "刊发=未发生"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 11,
+      "candidate_score": 11,
+      "delta": 0,
+      "rationale": "两组严格区分风停现场、未发行草稿和角色提出的质疑；没有净收益。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "TX-10",
+      "baseline_three_criteria_evidence": [
+        "下一季修好二十本旧谱",
+        "现有纸料=六本份",
+        "责任=下一季仍待履行"
+      ],
+      "candidate_three_criteria_evidence": [
+        "写下下季修二十本旧谱",
+        "纸料=仅六本",
+        "责任=未履行"
+      ],
+      "baseline_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_dims": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_score": 10,
+      "candidate_score": 10,
+      "delta": 0,
+      "rationale": "相同明确三标准使普通稿也保留二十本承诺、六本库存和零本实际完工。",
+      "semantic_review": "NONBLIND_SAME_AGENT_WITH_IDENTICAL_EXPECTED_CRITERIA_EXPOSURE",
+      "independent_efficacy": "NOT_ESTABLISHED"
+    }
+  ],
+  "aggregate": {
+    "candidate": 201,
+    "baseline": 203,
+    "win": 0,
+    "tie": 17,
+    "loss": 2
+  },
+  "causal_attribution": "NOT_ESTABLISHED",
+  "V3_certification": "NO_INDEPENDENT_GAIN_DEMONSTRATED"
+}
