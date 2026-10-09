@@ -1,0 +1,16 @@
+{
+  "round": "R040",
+  "book_slug": "tiexuecanming",
+  "narrative_total": 532,
+  "proposition_count": 10,
+  "term_count": 12,
+  "citation_anchor_count": 87,
+  "distinct_chapter_count": 81,
+  "new_selected_paragraphs": 29,
+  "prior_R039_reverified": 58,
+  "story_arcs": 6,
+  "A": "PRIVATE_ORIGINAL_SHA_VERIFIED",
+  "B": "PROVISIONAL",
+  "C": "NOT_RUN",
+  "independent_skill_certified": 0
+}

@@ -1,0 +1,18 @@
+name: V13 R040 Tiexuecanming Adler interpretive source integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r040:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Adler Interpretive source structure and scope check (copyright-safe)
+        run: python3 scripts/validate_r040_interpretation.py
+      - name: Frozen 89-round controller integrity
+        run: python3 scripts/validate_round_integrity.py
