@@ -60,3 +60,7 @@ WM-01—WM-09九项Stage0独立任务均有关联，但这是“反例候选覆�
 本轮输出`books/wanming/candidates/counter-examples.md`、`COUNTEREXAMPLE_EVIDENCE.tsv`、`R046_PRIVATE_SOURCE_SHA.tsv`、`COUNTEREXAMPLE_CHUNKS.tsv`和本审计报告；`scripts/validate_r046_counterexample_extractor.py`及对应GitHub Actions须验证19候选、62段、21块、20章、六段与九任务映射、旧质量债不解除，且`CURRENT_ROUND.json`/ledger必须只到下一游标`R047 NOT_STARTED`。Github Actions仅能检验源结构和状态契约，不能核验本地私有EPUB明文或作者真实意图。
 
 A私有来源认证；B文学解释仍`PROVISIONAL`，Stage1.5/1.6未进行；C原创新输入任务`NOT_RUN`；已认证SKILL=0；heldout=`SEALED_NOT_RUN`；Nuwa Phase1未开始，旧质量债`OPEN_QUARANTINED`。本轮成功提交CI并远程回读后，才有资格正式标R046 PASSED/46轮；R047必须另一次用户“继续”启动。
+
+## R046首轮CI结果与技术修订
+
+首次正式提交`2fc258254271c2b0b7265b24b5735d9be6a133c5`的R046专项工作流run`37947878890`失败，因为本审计虽用中文说明公开CI不验证私有原著文学解释，但缺少统一的机器标记`SOURCE_STRUCTURE_ONLY`；验证脚本因此正确拒绝。**修订不改变19个候选、62个哈希、21个来源块、20个有效章节或旧质量债门槛**，只补足与本项目A/B/C分门一致的声明：`CI_CLASSIFICATION: SOURCE_STRUCTURE_ONLY`；文学B仍PROVISIONAL、原创C仍NOT_RUN。正式修订提交须重新运行全部Actions并远程回读后才称R046 PASSED。

@@ -265,3 +265,7 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - 原版counter-example提取器针对作者告诫，但文学作品人物不等于作者声称的真实经验，故全数标记来源证据类型、当场事实范围和未证明条件；没有危险实施技巧或原著受版权保护的正文公开段落。
 - 新增 scripts/validate_r046_counterexample_extractor.py与R046 Actions校验：19条、62锚、21块、20章、六段、九任务、14旧问题claim仍隔离、正式轮次游标。公开CI仅SOURCE_STRUCTURE_ONLY；B PROVISIONAL，C NOT_RUN，已认证SKILL0，legacy_quality_debt_status OPEN_QUARANTINED。
 - 本轮正式成功才使R046 PASSED、46/89、下一轮R047 NOT_STARTED；绝不在本轮执行术语提取或Stage1.5/Nuwa Phase1，等待用户再次「继续」。
+
+
+### R046首轮专项Actions失败记录（修正后不得删除历史）
+首次提交2fc258254271c2b0b7265b24b5735d9be6a133c5的R046专项run 37947878890失败：审核报告没有统一字面标记SOURCE_STRUCTURE_ONLY；19候选/62段落/21检索块其余检查未报错。仅在books/wanming/candidates/COUNTEREXAMPLE_AUDIT.md增加CI_CLASSIFICATION: SOURCE_STRUCTURE_ONLY和说明，不改原始分析与validator要求。新提交应重新检查所有Actions及远程游标，不把旧失败隐瞒为首次全绿。
