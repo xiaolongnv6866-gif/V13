@@ -66,3 +66,5 @@ Only R024 authorized by this manual request. Do not begin R025.
 - 研究证据提交 `c07d30ad1f6fdbe149961f3a5dbde800e738dac9` 的 **26/26 GitHub Actions completed/success**，R028专项 [37880808806](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37880808806) 通过，冻结R006协议和25项历史检查同时成功。公开CI只能审核SOURCE_STRUCTURE_ONLY，不能替代私有原书阅读。
 - 质量层级：A 私有原书来源验证；B 文学假说仍为 `PROVISIONAL`；C 原创写作增益 `NOT_RUN`；原版整书Adler Stage0与R042用户门尚未完成，Nuwa Phase1和密封测试未开启，Skill认证0；R007—R024历史文学债务继续风险抽查，不全量重做。
 - **正式进度**28/89；《晚明》440/571、《铁血残明》440/532、总阅读登记 **880/1103**；下一轮R029 `NOT_STARTED`，仅待新的用户指令。当前原子PASS提交需要独立Actions及远程回读后才报告最终验收。
+
+- R028正式PASS提交 `02c84d5b913e0a56d6b6f3ab90e3f4f7fe21d8c4` 的26/26 Actions已全部成功，包括R028专项 [37880909891](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37880909891)；远程回读main游标R029 NOT_STARTED，正式28/89、两书各440章总880/1103；B仍PROVISIONAL、C NOT_RUN。最终审计回填仅存真实记录，不增读章。
