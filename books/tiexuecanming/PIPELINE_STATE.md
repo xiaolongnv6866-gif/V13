@@ -7,7 +7,7 @@
 - stage0_current: PARTIAL_BOOK_READING; whole_book_adler: NOT_STARTED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R032; current_round: R033 IN_PROGRESS (manual trigger only)
+- last_passed_round: R033; current_round: R034 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -31,3 +31,5 @@
 - R032_FORMAL_PASS: Tiexue original narrative 481–520 now counts 40 chapters after private SHA verification and all30/30 Actions from evidence commit; formal Wanming520 and Tiexue520. B PROVISIONAL, C NOT_RUN. R033 NOT_STARTED, manual trigger only.
 
 - R033 studies Wanming only; Tiexue remains 520, R033 IN_PROGRESS, no early promotion.
+
+- R033 studied Wanming only. Tiexue stays 520 chapters; next R034 remains NOT_STARTED until manual request.
