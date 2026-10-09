@@ -240,3 +240,11 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - 原版Cangjie框架提取器独立输出`books/wanming/candidates/frameworks.md`：17项f01—f17初始YAML候选；`FRAMEWORK_EVIDENCE.tsv`共57处n/p来源位置，其中16处新原文SHA定位；WM-01—WM-09任务关联、六段原著骨架均有候选。原文版权不上传，source_quote按原字段留空，私有源SHA可重新核查。
 - 环境不支持并行五代理，按原版允许的独立串行模式执行**本轮单一framework extractor**；另四路尚未执行。Stage1.5和Nuwa Phase1不运行。
 - 过去14条R042旧候选继续限制为不能直接晋级；其他旧记录文学B须回到真实原文查证。B PROVISIONAL、C NOT_RUN、技能0、质量债OPEN_QUARANTINED。新validator与专项GitHub Actions须检查本轮证据，成功后正式R043 PASSED=43/89，R044 NOT_STARTED且等候下一次用户手动请求。
+
+## R044｜《晚明》原则提取器独立阶段（2026-10-09）
+
+- 本次用户「继续」只执行固定R044。原版Cangjie v2.5 methodology/02-stage1-parallel-extract.md和extractors/principle-extractor.md完整读取；缺五Task并行条件，使用原版允许的独立串行，仅做principle，不复用R043框架候选作文本依据。
+- 用户私有《晚明》真实EPUB SHA匹配，ZIP CRC正常；按照R002 OPF/spine有效叙事顺序独立重读结构，571章、30,221正文非空段、2,245,824 Unicode字符。六段语汇扫描和真实场景反证见books/wanming/candidates/PRINCIPLE_SCAN_REPORT.md。全量程序读入不是571章独立文学B评审通过。
+- 原始候选books/wanming/candidates/principles.md登记p01—p23 **23个原则/规则/清单候选**，关联WM-01—WM-09；原文锚点PRINCIPLE_EVIDENCE.tsv **39处来源p/SHA**分布25个有效章、R044_NEW_SOURCE_LOCI.tsv本轮新核14处。人物台词、研究者叙事准则和有限清单分开，小说数字不冒充真实可套用计算公式；无版权长段上传，原版source_quote留空并有明确source hash定位。
+- 新增脚本scripts/validate_r044_principle_extractor.py、.github/workflows/r044_principle_extractor.yml进行字段、task_id、来源、6个弧、旧14条隔离和轮次账审核；公开CI为SOURCE_STRUCTURE_ONLY，仍须GitHub正式提交验证、远程回读。
+- 本轮完成后正式管理应是**R044 PASSED、44/89、R045 NOT_STARTED**。B全体PROVISIONAL，C NOT_RUN、技能认证0、历史债OPEN_QUARANTINED、密封盲测未开启；案例、反例、术语提取器与Nuwa新阶段均未启动。手动下次「继续」才启动R045。
