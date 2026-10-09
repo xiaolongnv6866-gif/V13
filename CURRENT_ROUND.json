@@ -2,9 +2,9 @@
   "project": "V13",
   "plan_version": "13.0-fixed-89",
   "rounds_total": 89,
-  "current_round": "R043",
+  "current_round": "R044",
   "round_status": "NOT_STARTED",
-  "last_passed_round": "R042",
+  "last_passed_round": "R043",
   "full_text_read_chapters": {
     "wanming": 571,
     "tiexuecanming": 532
@@ -14,7 +14,7 @@
   "skill_certified_count": 0,
   "remote_repo": "https://github.com/xiaolongnv6866-gif/V13",
   "advance_rule": "Only after current round evidence, checks, mandatory user approval, GitHub remote reread",
-  "rounds_completed": 42,
+  "rounds_completed": 43,
   "finalized_on": "2026-10-09",
   "nuwa_phase05": "WORKSPACE_READY_NOT_RESEARCHED",
   "reading_contract_version": "R006-v1.0-FROZEN",
@@ -43,5 +43,7 @@
   "legacy_quality_debt_status": "OPEN_QUARANTINED",
   "literary_interpretation_status": "PROVISIONAL",
   "original_output_test_status": "NOT_RUN",
-  "last_passed_round_evidence_commit": "92a28cb1f7f2a5348b604a42e1a5d247a3113506"
+  "last_passed_round_evidence_commit": null,
+  "cangjie_stage1_wanming_framework": "RAW_CANDIDATES_COMPLETE_UNVERIFIED",
+  "cangjie_stage1_other_extractors": "NOT_STARTED"
 }

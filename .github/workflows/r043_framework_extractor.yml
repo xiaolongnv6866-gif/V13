@@ -1,0 +1,18 @@
+name: V13 R043 Wanming Stage1 independent framework extractor
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r043:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: R043 source-only independent framework extraction quality gate
+        run: python3 scripts/validate_r043_framework_extractor.py
+      - name: Frozen 89-round controller
+        run: python3 scripts/validate_round_integrity.py

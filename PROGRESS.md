@@ -232,3 +232,11 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 
 
 **审批证据提交延迟触发全量确认**：提交`92a28cb1f7f2a5348b604a42e1a5d247a3113506`的GitHub Actions最终已增加到**40/40 completed/success**（包含开始列表中尚未出现的历史工作流），R042专项run`37937292620`成功。早期即时查询只见39项，后续全量查询完成；正式状态提交必须另验，不用上一提交成绩代替。
+
+## R043｜《晚明》Stage1框架提取器（2026-10-09）
+
+- 用户一次「继续」仅授权R043。初始HEAD `78aac860f60c11ad857f04c1dcd9d116055d546a`，R042已通过，42/89。
+- 原用户EPUB SHA256 `a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082`验证。按OPF真实有效571章进行全文字结构扫描，30,221段、2,245,824字；模型对重点场面复核，机器读入不等于逐句语义深读全书。完整来源操作见`books/wanming/candidates/FRAMEWORK_SCAN_REPORT.md`。
+- 原版Cangjie框架提取器独立输出`books/wanming/candidates/frameworks.md`：17项f01—f17初始YAML候选；`FRAMEWORK_EVIDENCE.tsv`共57处n/p来源位置，其中16处新原文SHA定位；WM-01—WM-09任务关联、六段原著骨架均有候选。原文版权不上传，source_quote按原字段留空，私有源SHA可重新核查。
+- 环境不支持并行五代理，按原版允许的独立串行模式执行**本轮单一framework extractor**；另四路尚未执行。Stage1.5和Nuwa Phase1不运行。
+- 过去14条R042旧候选继续限制为不能直接晋级；其他旧记录文学B须回到真实原文查证。B PROVISIONAL、C NOT_RUN、技能0、质量债OPEN_QUARANTINED。新validator与专项GitHub Actions须检查本轮证据，成功后正式R043 PASSED=43/89，R044 NOT_STARTED且等候下一次用户手动请求。

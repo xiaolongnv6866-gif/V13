@@ -60,3 +60,11 @@
 - R042 user-gate review consolidation: original BOOK_OVERVIEW preserves Wanming six actual OPF-volume narrative arcs and 9 independent writing tasks; linked R042_APPROVAL_BRIEF.md; corrected case-specific legacy Wanming claims remain guarded in R042_OLD_CLAIM_QUARANTINE.tsv (14 total across both books). All remaining R007–R024 old claims only B PROVISIONAL_UNTIL_SOURCE_CHECK; no source-only verification can promote to skill. User Stage0 approval PENDING, R042 BLOCKED, 41/89, R043 NOT_STARTED, skills0, C NOT_RUN.
 
 - 2026-10-09 R042 用户明确批准本书`BOOK_OVERVIEW.md`六段骨架、10条命题及9项独立创作任务作为Stage0有保留全局背景；用户原话和范围见`cangjie/reading/R042_USER_APPROVAL.md`。本书Stage0框架用户门PASSED，42/89，当前R043 NOT_STARTED且本次不得启动。旧批次研究B只PROVISIONAL_UNTIL_SOURCE_CHECK，14条具体旧候选跨两书隔离，不得直接晋级；来源SHA真实、公开CI SOURCE_STRUCTURE_ONLY、C NOT_RUN、skills0；新阶段提取仍必须回查实际原文及反例。
+
+## Stage1 R043 framework extraction (2026-10-09)
+
+Current overall round after R043: R044 NOT_STARTED; 43/89 formal rounds. Cangjie Stage0 two-book overview remains user-approved. Stage1 has only one of five independent extractor roles completed: original framework-extractor, sequential fallback because this runtime cannot spawn five parallel agents.
+
+Outputs: `books/wanming/candidates/frameworks.md` (17 raw f01–f17 YAML framework/procedure candidates); `FRAMEWORK_EVIDENCE.tsv` (57 n/p private-source SHA positions); `R043_NEW_SOURCE_LOCI.tsv` (16 new p hashes); `FRAMEWORK_SCAN_REPORT.md` (571 actual chapters, 30,221 nonempty paragraphs, 2,245,824 body Unicode characters covered by deterministic input scan). Frameworks map to all Stage0 independent WM-01..WM-09 tasks and six source arcs. No quote of copyright text published; raw source quote field blank, source positions retained.
+
+Source authenticity A private checked, public GitHub checks SOURCE_STRUCTURE_ONLY; literary B PROVISIONAL pending source scrutiny; creative C NOT_RUN. Prior 14 old claim IDs remain quarantined, other old source interpretations cannot be promoted without actual chapter checks. No Stage1.5/Skill certification; 0 certified. R044 principle extractor awaits a separate manual user request. No other Stage1 extractor was run.

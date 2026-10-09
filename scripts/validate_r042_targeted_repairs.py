@@ -28,7 +28,7 @@ text=(R/'cangjie/reading/R042_TARGETED_REPAIR.md').read_text(encoding='utf8')
 for k in [*expected,'SUPERSEDED_FOR_EXTRACTION','REVISED_PROVISIONAL','REJECTED_OVERCLAIM','NOT_RUN']:
  ck(k in text,'missing audit policy '+k)
 cursor=json.loads((R/'CURRENT_ROUND.json').read_text(encoding='utf8'))
-ck((cursor['current_round']=='R042' and cursor['round_status']=='BLOCKED' and cursor['rounds_completed']==41) or (cursor['current_round']=='R043' and cursor['round_status']=='NOT_STARTED' and cursor['rounds_completed']==42 and cursor['cangjie_stage0_gate']=='PASSED'),'Stage0 approval cursor inconsistent')
+ck((cursor['current_round']=='R042' and cursor['round_status']=='BLOCKED' and cursor['rounds_completed']==41) or (int(cursor['current_round'][1:])>=43 and int(cursor['last_passed_round'][1:])>=42 and cursor['rounds_completed']>=42 and cursor['cangjie_stage0_gate']=='PASSED'),'Stage0 approval cursor inconsistent')
 print('R042_TARGETED', 'PASS' if not errors else 'FAIL',len(rows),'original-locator metadata; A SOURCE_STRUCTURE_ONLY / B PROVISIONAL / C NOT_RUN')
 for e in errors:print('FAIL:',e)
 sys.exit(bool(errors))

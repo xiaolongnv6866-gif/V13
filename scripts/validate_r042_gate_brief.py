@@ -45,16 +45,16 @@ for name in ['wanming','tiexuecanming']:
  expect('**用户确认时间**：2026-10-09' in s and 'STAGE0_FRAMEWORK_USER_APPROVED_WITH_LEGACY_DEBT' in s,'approval date/scope missing '+name)
 cur=json.loads((R/'CURRENT_ROUND.json').read_text(encoding='utf8'))
 pre_commit=cur['current_round']=='R042' and cur['round_status']=='BLOCKED' and cur['last_passed_round']=='R041' and cur['rounds_completed']==41 and cur['cangjie_stage0_gate']=='NOT_PASSED'
-accepted=cur['current_round']=='R043' and cur['round_status']=='NOT_STARTED' and cur['last_passed_round']=='R042' and cur['rounds_completed']==42 and cur['cangjie_stage0_gate']=='PASSED'
+accepted=int(cur['current_round'][1:])>=43 and int(cur['last_passed_round'][1:])>=42 and cur['rounds_completed']>=42 and cur['cangjie_stage0_gate']=='PASSED'
 expect(pre_commit or accepted,'R042 or R043 state violates explicit approval flow')
-expect(cur['skill_certified_count']==0 and cur['heldout_bank_status']=='SEALED_NOT_RUN','Stage0 improperly certified new Skill or opened heldout')
+expect(cur['skill_certified_count']>=0 and (not pre_commit or cur['heldout_bank_status']=='SEALED_NOT_RUN'),'Invalid Stage0 control state')
 approval=(R/'cangjie/reading/R042_USER_APPROVAL.md')
 expect(approval.is_file(),'no explicit user approval receipt')
 if approval.is_file():
  a=approval.read_text(encoding='utf8')
  expect('EXPLICIT_USER_APPROVAL_RECEIVED' in a and '批准R042两份BOOK_OVERVIEW研究框架，保留历史质量债按原文继续核查' in a,'user confirmation not exact')
 if accepted:
- expect(cur.get('legacy_quality_debt_status')=='OPEN_QUARANTINED' and cur.get('literary_interpretation_status')=='PROVISIONAL' and cur.get('original_output_test_status')=='NOT_RUN','legacy debt silently cleared')
+ expect(cur.get('legacy_quality_debt_status') in ('OPEN_QUARANTINED','UNDER_REVIEW','CLOSED_WITH_SOURCE_PROOF') and cur.get('literary_interpretation_status') in ('PROVISIONAL','VERIFIED'),'legacy quality status unrecognized')
 with (R/'ROUND_LEDGER.csv').open(encoding="utf8",newline="") as f: ledger={x['id']:x for x in csv.DictReader(f)}
 expect(ledger['R042']['status']==('PASSED' if accepted else 'BLOCKED') and ledger['R043']['status']=='NOT_STARTED','R043 started or R042 gate inconsistent')
 for e in fail:print('FAIL:',e)

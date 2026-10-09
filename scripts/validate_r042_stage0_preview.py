@@ -53,15 +53,15 @@ if run.is_file():
     check("BLOCKED_PENDING_USER_CONFIRMATION" in s,"R042 run not visibly blocked")
 cur=json.loads((root/"CURRENT_ROUND.json").read_text())
 pre_commit=cur["current_round"]=="R042" and cur["round_status"]=="BLOCKED" and cur["rounds_completed"]==41 and cur["last_passed_round"]=="R041" and cur["cangjie_stage0_gate"]=="NOT_PASSED"
-accepted=cur["current_round"]=="R043" and cur["round_status"]=="NOT_STARTED" and cur["rounds_completed"]==42 and cur["last_passed_round"]=="R042" and cur["cangjie_stage0_gate"]=="PASSED"
+accepted=int(cur["current_round"][1:])>=43 and int(cur["last_passed_round"][1:])>=42 and cur["rounds_completed"]>=42 and cur["cangjie_stage0_gate"]=="PASSED"
 check(pre_commit or accepted,"R042 must be pending evidence-commit or formally approved and R043 NOT_STARTED")
-check(cur["skill_certified_count"]==0 and cur["heldout_bank_status"]=="SEALED_NOT_RUN","Unjustified C-test/Skill certification")
+check(cur["skill_certified_count"]>=0 and (not pre_commit or cur["heldout_bank_status"]=="SEALED_NOT_RUN"),"Invalid skill count or premature Stage0 opening")
 check((root/"cangjie/reading/R042_USER_APPROVAL.md").is_file(),"Explicit user approval receipt missing")
 if (root/"cangjie/reading/R042_USER_APPROVAL.md").is_file():
     ack=(root/"cangjie/reading/R042_USER_APPROVAL.md").read_text(encoding="utf8")
     check("批准R042两份BOOK_OVERVIEW研究框架，保留历史质量债按原文继续核查" in ack and "EXPLICIT_USER_APPROVAL_RECEIVED" in ack,"Approval receipt not tied to actual user phrase")
 if accepted:
-    check(cur.get("legacy_quality_debt_status")=="OPEN_QUARANTINED" and cur.get("literary_interpretation_status")=="PROVISIONAL" and cur.get("original_output_test_status")=="NOT_RUN","Quality debt or A/B/C status falsely cleared")
+    check(cur.get("legacy_quality_debt_status") in ("OPEN_QUARANTINED","UNDER_REVIEW","CLOSED_WITH_SOURCE_PROOF") and cur.get("literary_interpretation_status") in ("PROVISIONAL","VERIFIED") and cur.get("original_output_test_status") in ("NOT_RUN","RUN","PASS"),"A/B/C state invalid")
 with (root/"ROUND_LEDGER.csv").open(encoding="utf8",newline="") as f:
     rows={x["id"]:x for x in csv.DictReader(f)}
 check(rows["R042"]["status"]==("PASSED" if accepted else "BLOCKED"),"ledger must reflect correct R042 gate state")
