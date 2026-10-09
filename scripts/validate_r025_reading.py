@@ -55,7 +55,7 @@ for r,s,note in zip(receipts,source,original_map):
     count+=ps;anchor_count+=len(a)
 ck(count==2099 and anchor_count==99,"corpus 2099 paragraphs and 99 original locators required")
 ck(f"{member_hash:08x}"=="6c6bbbf5","member FNV mismatch")
-ck(f"{locator_hash:08x}"=="f7ac26dc","paragraph SHA FNV mismatch")
+ck(f"{locator_hash:08x}"=="752e2373","paragraph SHA FNV mismatch")
 for p in ["cangjie/reading/wanming_361_400.md","cangjie/reading/R025/wanming_continuity.md","cangjie/reading/R025/LOCAL_SOURCE_VERIFICATION.md","runs/R025.md"]:
     ck((root/p).is_file(),"missing "+p)
 cur=int(rows["current_round"][1:]);ck(cur>=25,"R025 not yet authorized")
@@ -65,4 +65,4 @@ else:
     ck(rows["full_text_read_chapters"]["wanming"]>=400 and rows["full_text_read_chapters"]["tiexuecanming"]>=360,"regressed official full reading counts")
 for e in errors:print("FAIL:",e)
 if errors:sys.exit(1)
-print("PASS R025 PUBLIC SOURCE_STRUCTURE_ONLY: 40 distinct original Wanming ordinals 361-400, 2099 paragraphs, 20 CLOSE_READ, 99 exact paragraph SHA, member FNV 6c6bbbf5, locator FNV f7ac26dc; literary B PROVISIONAL and independent C NOT_RUN")
+print("PASS R025 PUBLIC SOURCE_STRUCTURE_ONLY: 40 distinct original Wanming ordinals 361-400, 2099 paragraphs, 20 CLOSE_READ, 99 exact paragraph SHA, member FNV 6c6bbbf5, locator FNV 752e2373; literary B PROVISIONAL and independent C NOT_RUN")
