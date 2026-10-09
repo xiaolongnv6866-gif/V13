@@ -4,10 +4,10 @@
 - expected_narrative_chapters: 571
 - round_R002_official_source_validation: PASSED (R002 original OPF/spine/CRC/SHA verified)
 - official_full_text_read_chapters: 571 (source CURRENT_ROUND.json; all OPF effective narrative chapters now have registered full-reading receipts, not independent literary certification)
-- stage0_current: STRUCTURAL_INTERPRETIVE_CRITICAL_APPLICABILITY_RESEARCH_DONE_AWAITING_R042; whole_book_adler: RESEARCH_STEPS_DONE_USER_NOT_APPROVED
-- book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
+- stage0_current: R042_STAGE0_BOOK_OVERVIEW_USER_APPROVED_WITH_LEGACY_DEBT; whole_book_adler: PASSED_FOR_STAGE1_ENTRY_B_PROVISIONAL
+- book_overview: R042_USER_APPROVED; user_stage0_gate: PASSED_APPROVAL_LIMITED_TO_FRAMEWORK
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R040; current_round: R041 NOT_STARTED (manual trigger only)
+- last_passed_round: R053; current_round: R054 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 and R007 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -94,3 +94,9 @@ Pinned Cangjie glossary extractor Stage1 independently executed on private origi
 Raw glossary output: candidates/glossary.md has 18 genuine lexical source terms g01-g18 (not analyst-coined terms), GLOSSARY_CENSUS.tsv includes corpus counts and hit chapter counts, GLOSSARY_EVIDENCE.tsv has 34 distinct source paragraph SHA anchors from 27 actual narrative chapters. All Stage0 WM01-WM09 tasks and six source arcs have raw glossary references, not approved abilities. Original author's formal definition is not established; author_definition field deliberately empty, the source-context interpretation is separately marked RESEARCHER_PARAPHRASE_NOT_AUTHOR_DEFINITION. No copyright source text uploaded.
 Wanming Stage1 now has all five **RAW** independent extractor outputs: R043 framework; R044 principle; R045 fictional cases (unapproved genre-kind extension); R046 counterexamples; R047 glossary. No Cangjie V1/V2/V3 Stage1.5 or promotion, Skill certification, Nuwa next phases, formal GLOSSARY.md or Capability Bundle started. A source authenticity checked privately, public CI SOURCE_STRUCTURE_ONLY, B PROVISIONAL, C NOT_RUN, skill count 0, heldout SEALED_NOT_RUN, old14 quarantined, inherited literary debt OPEN_QUARANTINED.
 Formal expected controller after GitHub CI and remote readback: R047 PASSED, rounds_completed 47/89, R048 Tiexue framework NOT_STARTED and requires separate user manual 继续.
+
+
+## R053 two-book Stage1.5 source candidate merge + task coverage｜2026-10-10
+
+- R053 PASSED **53/89**, R054 V1 SOURCE SUFFICIENCY NOT_STARTED, manual trigger required. This book 91 original Stage1 RAW candidates preserved with source IDs/paths/locators in CANDIDATES_INDEX.md + R053_CANDIDATE_MATRIX.tsv; task coverage WM-01..09 RAW 9/9 and gaps in TASK_COVERAGE_DRAFT.md. 145 distinct original n/p source coordinates across candidates, 154 pairs share at least one exact locus, recorded in R053_SOURCE_OVERLAPS.tsv without destructive dedup. Crossbook links 23 provisional relationships with independent TX sources in books/R053_CROSS_BOOK_LINKS.tsv.
+- Evidence commit `e4d795c0e2dcdc7527a8746829a1505f7e425354` all 51/51 GitHub Actions success, R053 [37959891334](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37959891334). Private EPUB SHA matched; CI SOURCE_STRUCTURE_ONLY; literary B PROVISIONAL, V1/V2/V3 NOT_STARTED, C NOT_RUN, skill0, old14 quarantined OPEN_QUARANTINED, heldout SEALED. No author’s novel text uploaded or verified SKILL generated. Historical earlier status snapshots below remain archival and should not supersede authority state.

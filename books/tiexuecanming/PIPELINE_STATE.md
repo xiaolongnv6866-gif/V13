@@ -7,7 +7,7 @@
 - stage0_current: R042_STAGE0_BOOK_OVERVIEW_USER_APPROVED_WITH_LEGACY_DEBT; whole_book_adler: PASSED_FOR_STAGE1_ENTRY_B_PROVISIONAL
 - book_overview: R042_USER_APPROVED; user_stage0_gate: PASSED_APPROVAL_LIMITED_TO_FRAMEWORK
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R052; current_round: R053 NOT_STARTED (manual trigger only)
+- last_passed_round: R053; current_round: R054 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -96,3 +96,9 @@
 - Formal status R052 PASSED, 52/89; R053 Stage1.5 NOT_STARTED and only after a new user manual trigger. Tiexue five independent Stage1 extractors framework/principle/case/counterexample/glossary are RAW_COMPLETE but zero verified capabilities.
 - Original private EPUB SHA and ZIP CRC PASS, all OPF 532 effective chapters, 33,278 nonempty paragraphs, 2,087,500 whitespace-normalized characters (differs one character from prior extraction convention); exact original corpus-wide search of 20 candidate terms, 40 real SHA-located source paragraphs in 38 chapters and six arcs, all 10 independent Stage0 tasks linked at RAW level. Real terms only; author_definition not invented, historicity NOT_VERIFIED.
 - Evidence commit `fcefbbfc75592852ae1e167becfa7269a6a129c2` passed 50/50 GitHub Actions; R052 dedicated [37958349033](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37958349033) SUCCESS. Public CI SOURCE_STRUCTURE_ONLY, B PROVISIONAL, C NOT_RUN, Skill0, 14 quarantined historic claims OPEN_QUARANTINED, heldout SEALED_NOT_RUN; no Stage1.5 or Nuwa Phase1 yet.
+
+
+## R053 two-book Stage1.5 source candidate merge + task coverage｜2026-10-10
+
+- R053 PASSED 53/89; R054 V1 NOT_STARTED (manual trigger only). Tiexue original 96 Stage1 RAW candidates retained in complete source-scoped CANDIDATES_INDEX.md and R053_CANDIDATE_MATRIX.tsv; TX-01—TX-10 RAW 10/10 task links in TASK_COVERAGE_DRAFT.md. 177 distinct candidate-cited original p SHA positions and 130 same-paragraph candidate pairs recorded for later semantic adjudication, no automatic deletions. 23 cross-book analogies retain individual original sources and differing narrative contexts.
+- Evidence commit `e4d795c0e2dcdc7527a8746829a1505f7e425354` all 51/51 GitHub Actions SUCCESS including dedicated R053 [37959891334](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37959891334). SOURCE_STRUCTURE_ONLY; literary B PROVISIONAL; V1/V2/V3 NOT_STARTED; creative C NOT_RUN; certified Skill0, old 14 R042 claims quarantined, heldout SEALED_NOT_RUN. Nuwa Phase1 not started.

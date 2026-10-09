@@ -330,3 +330,13 @@ R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回�
 - 新增`books/tiexuecanming/candidates/glossary.md` g01—g20、`GLOSSARY_EVIDENCE.tsv`、`GLOSSARY_CENSUS.tsv`及`GLOSSARY_AUDIT.md`。严格区分作者直接定义（没有充分直接引述证据，author_definition公开保留空值）、小说内人物词义和研究者语境释义。例：“申详”不等于上级批复；“士官”待遇与指挥权限不等；“勤王”名义不等盟友共同授权；“塘报”不等战报或公开时刊；“贴票”在现存结尾未见真实全部兑付。无历史史实外证认证，无金融和军事危险实施指引；不上传原作正文。
 - 证据SHA `fcefbbfc75592852ae1e167becfa7269a6a129c2`经过正式**50/50项GitHub Actions全部SUCCESS**，R052专项 [37958349033](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37958349033) SUCCESS。CI仅SOURCE_STRUCTURE_ONLY；文学B PROVISIONAL，原创C NOT_RUN，Skill0，旧质量债OPEN_QUARANTINED、14项NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE，heldout封存。
 - R052正式PASSED，**52/89轮**。两书Cangjie五提取器均已有独立**RAW候选**，原版Stage1.5还未开始。下轮**R053 NOT_STARTED**，必须有新的手动用户消息才可进入两书候选合并／去重／覆盖分析；不在本轮执行R053。
+
+
+## R053｜两书候选合并、去重线索与19项任务覆盖（2026-10-10）
+
+- 用户手动『继续』仅触发R053，起始 main `a43ca7e4ca5e0a0303201b2c6f8b8cc57016c4ce`；原状态52/89、R053 NOT_STARTED。已重新读取GitHub三个正式状态、仓颉固定版SKILL、Stage1.5三重验证原版完整方法（只执行其合并和覆盖部分，V1/2/3保留给R054/055/056）、Nuwa固定版SKILL、R042批准的两本BOOK_OVERVIEW、史源质量债；两份私有用户EPUB SHA256与冻存来源一致。
+- 独立读取10份Stage1原始提取器成果和来源SHA表，逐条保全**《晚明》91条**（f17/p23/c14/ce19/g18）与**《铁血残明》96条**（f17/p22/c16/ce21/g20），合计**187条RAW候选**。输出每书`CANDIDATES_INDEX.md`、`TASK_COVERAGE_DRAFT.md`、完整原ID/文件/原文n-p/Stage0任务映射矩阵`R053_CANDIDATE_MATRIX.tsv`、共享准确源段对照`R053_SOURCE_OVERLAPS.tsv`；跨书`books/R053_CROSS_BOOK_LINKS.tsv`和`books/R053_MERGE_AUDIT.md`保存23组具体异同。
+- 精确来源段落碰撞统计：WM原候选使用不同n/p **145个**，同书**154对**候选有共同n/p；TX源n/p **177个**，同书**130对**有共同定位。相同场面复用并不等于重复证据、相同类别技能或必须删除；保留所有187条候选的原始语境，等待R054确定真正支持范围和冗余与否。跨书的晚年评书与当场报功版本、已展开的长期资源义务与TX给定版本末尾未履约责任，不能直接合成相同情节。
+- 严格按R042两个BOOK_OVERVIEW独立任务清单：WM-01—WM-09与TX-01—TX-10，共**19/19项只实现RAW候选关联**。每任务分别列出五提取器真实ID、数量及缺口。特别标记：WM-05敌方消息传播、WM-08家庭自主、WM-09回忆文本、TX-05组织异议、TX-06有限协同、TX-08普通人拒绝权、TX-10开放信用结尾，均不可因粗归并丢失。
+- 证据提交`e4d795c0e2dcdc7527a8746829a1505f7e425354`触发并通过**51/51 GitHub Actions全部SUCCESS**，R053专项 [37959891334](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37959891334) SUCCESS；技术公开CI仅SOURCE_STRUCTURE_ONLY，不能证明B文学解释准确，V1 R054尚未执行；V2 R055和V3 R056也NOT_STARTED，C NOT_RUN，技能数0，R042旧14条问题仍OPEN_QUARANTINED且禁止直接晋级，密封heldout未开启。
+- 正式 R053 PASSED，**53/89**；下一轮**R054 NOT_STARTED**（Stage1.5 V1来源充分性逐项核验），须另一次用户手动『继续』才能启动，不运行R054或后续Nuwa。
