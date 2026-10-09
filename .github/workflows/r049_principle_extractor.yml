@@ -1,0 +1,16 @@
+name: V13 R049 Tiexue independent principle extractor
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  check-r049:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 scripts/validate_r049_principle_extractor.py
+      - run: python3 scripts/validate_round_integrity.py
