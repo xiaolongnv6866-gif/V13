@@ -18,3 +18,5 @@ Only R024 authorized by this manual request. Do not begin R025.
 
 - 使用私有《晚明》原 EPUB 对六个CLOSE_READ章节做现场、段落与原文 SHA 重新核查；纠正原引用位置与文学主张不匹配问题，增加13个真实段落定位、跨章负例与实质不同的叙法比较。旧证据不删除，原60个定位仍保存，R007来源总定位73。
 - 这是历史审计补修，不增加章节计数：R025 NOT_STARTED，正式24/89及720/1103维持；文学B PROVISIONAL、能力C NOT_RUN，剩余历史质量债务仍须核查。
+
+- R007质量修复证据正式推送：`4a88ade3c9096732a58e49c7e1cd21ea5c276881`，全部22/22 GitHub Actions 成功，R007专项run 37872759560与冻结R006 run 37872759726均通过；见 `runs/R007_REAUDIT.md`。此复核不增加正式读章，不代表文学B独立认证。

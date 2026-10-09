@@ -12,4 +12,12 @@ A_source_authenticity: private EPUB rechecked, public SOURCE_STRUCTURE_ONLY rema
 B_literary_interpretation: corrected six close studies, PROVISIONAL, independent blind critic NOT_RUN.
 C_original_skill_gain: NOT_RUN; no stage jump; 0 certified skills; R006 heldout untouched.
 cursor: R025 NOT_STARTED; last passed R024; 24/89 unchanged, 720/1103 unchanged.
-remote_commit_and_ci: pending real GitHub commit, action results and remote readback.
+remote_commit_and_ci: evidence commit `4a88ade3c9096732a58e49c7e1cd21ea5c276881` 22/22 GitHub Actions all completed/success; direct remote readback passed, final audit below.
+
+## GitHub 证据提交、Actions 与远程复核
+
+- evidence_commit_sha: `4a88ade3c9096732a58e49c7e1cd21ea5c276881` — GitHub main branch lease update and remote reread PASS.
+- GitHub Actions on evidence commit: 22/22 `completed/success`, including R007 specialized run [37872759560](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37872759560) and frozen R006 run [37872759726](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37872759726).
+- Remote reread: 40 unchanged unique ordinals, 6 corrected CLOSE_READ, 13 extra original paragraph SHA, total 73, source CSV 40 records, six distinct alternative-loss and failure-boundary fields, study append found; no raw EPUB uploaded.
+- Official cursor still `R025 / NOT_STARTED`, `R024 PASSED`, 24/89, `wanming=360`, `tiexuecanming=360`. No new milestone passed or claimed; R008—R015 and R017 quality debt remains open.
+- The public check is an evidence integrity test, not independent literary review. B remains `PROVISIONAL`, C `NOT_RUN`.
