@@ -1,6 +1,6 @@
-# V13 R025 PASSED — handoff to R026 NOT_STARTED
+# V13 R026 PASSED — handoff to R027 NOT_STARTED
 
-Official: 24/89 rounds; Wanming 360/571, TiexueCanming 360/532, 720/1103 chapters.
+Official: 26/89 rounds; Wanming 400/571, TiexueCanming 400/532, 800/1103 chapters.
 R024 40 distinct chapter receipts, 2220 original paragraphs, 20 close studies, 80 SHA locators; source-member FNV 8dd29619 and paragraph FNV 12642d3d.
 Evidence commit e9cda3ed: initial R024 workflow 37869539563 FAILED because event-chain data was mistyped; repaired commit 7443f3fd passed all 22 workflows including R024 run 37869730435 and frozen R006.
 Public CI checks structure, not private novel contents or literary mastery. A private-source check PASSED, B PROVISIONAL, C NOT_RUN; skill certification 0; Nuwa Phase1 NOT_STARTED; R006 heldout SEALED_NOT_RUN.
@@ -38,3 +38,11 @@ Only R024 authorized by this manual request. Do not begin R025.
 
 - 新增根目录 `STAGE0_QUALITY_CONTROL_POLICY.md` 并从 `ROUND_EXECUTION_RULES.md`、`START_HERE.md`、`V13_CONTRACT.md` 引用，使不逐轮返工、风险抽审、三层成果判断、R036—R042整书门成为**必须读取的执行约束**，而不止研究日志。未修改原版SKILL或冻结R006、没有撤回正式阅读章数。
 - 本次仅修复政策缺口，**不启动R026，不推进游标，不修改正式25/89轮与760/1103章**。所有技术CI和远程回读按新提交实际结果为准；文学B仍 PROVISIONAL，C NOT_RUN。
+
+## R026 正式完成｜2026-10-09
+
+- 仅当前获授权R026：《铁血残明》有效叙事361—400章，按原始OPF而非印刷章号遍历40章真实完整正文（含387章前非叙事条目偏移）；2731非空正文段、20章CLOSE_READ与20章FULL_TEXT_READ，80个原文SHA定位，原文件FNV `003e2989`、定位FNV `f0bcb91c`。
+- 20章不同叙事侧面精研、40章独立事件与人物选择收据、四组跨故事弧反证及连续性账提交于 `cangjie/reading/R026/` 与 `cangjie/reading/tiexue_361_400.md`。此前质量债务照 `STAGE0_QUALITY_CONTROL_POLICY.md` 分层保留，不默认逐轮重做。
+- 源证据首次提交 `481f2855ed75514f4a5f02bd1e367533f4a10a00` 的 R026 run 37876665566 FAILED（专项文学解释字段质量门），**冻结R006 PASS**；研究补充修正提交 `c2cfe28904660f718a1a792131f099bba098c613` 后 24/24 Actions 全绿，R026专项run 37876826900成功，未降低阈值或改写原书来源哈希。
+- 私有A来源确证；B文学解释 `PROVISIONAL`；C陌生原创新任务 `NOT_RUN`；Stage0整书Adler/R042用户关口未到，女娲Phase1未启动、Skill认证0，R006密封测试未开启。
+- 本轮正式状态：**26/89轮**、《晚明》400/571、《铁血残明》400/532、总计**800/1103章**。下一轮 R027 NOT_STARTED，仅待用户再次手动『继续』。本次原子PASS提交仍须二次Actions和远程回读。

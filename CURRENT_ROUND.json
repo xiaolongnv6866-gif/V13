@@ -2,19 +2,19 @@
   "project": "V13",
   "plan_version": "13.0-fixed-89",
   "rounds_total": 89,
-  "current_round": "R026",
+  "current_round": "R027",
   "round_status": "NOT_STARTED",
-  "last_passed_round": "R025",
+  "last_passed_round": "R026",
   "full_text_read_chapters": {
     "wanming": 400,
-    "tiexuecanming": 360
+    "tiexuecanming": 400
   },
   "cangjie_stage0_gate": "NOT_PASSED",
   "nuwa_phase0": "APPROVED_THEME_STANDARD",
   "skill_certified_count": 0,
   "remote_repo": "https://github.com/xiaolongnv6866-gif/V13",
   "advance_rule": "Only after current round evidence, checks, mandatory user approval, GitHub remote reread",
-  "rounds_completed": 25,
+  "rounds_completed": 26,
   "finalized_on": "2026-10-09",
   "nuwa_phase05": "WORKSPACE_READY_NOT_RESEARCHED",
   "reading_contract_version": "R006-v1.0-FROZEN",
