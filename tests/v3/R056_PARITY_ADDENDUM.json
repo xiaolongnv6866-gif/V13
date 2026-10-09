@@ -1,0 +1,37 @@
+{
+  "round": "R056",
+  "revision": "PARITY_CONTROL_ADDENDUM_PRESERVING_EARLY_BIASED_FAILURE",
+  "failed_first_comparison": {
+    "baseline_git_commit": "e1ef40c84bd9143ce09533ab501af29977f18c4b",
+    "exploratory_ratings_commit": "6883f05f5c325cb41c2d81593781672a6b066da8",
+    "invalid_for_causal_V3": true,
+    "why": "Original R055 candidate arm was written with explicit 3 expected_criteria per task; the first no-candidate baseline author prompt hid those three expected criteria. Raw difference of initial 14 wins/4 ties/1 loss, candidate201 vs baseline168 is not attributable to candidates."
+  },
+  "parity_baseline": {
+    "id": "R056_MATCHED_BASELINE",
+    "task_source": "tests/v2/R055_FROZEN_INPUTS.json immutable",
+    "input_fields_given": [
+      "id",
+      "title",
+      "input",
+      "expected_criteria",
+      "expected_output"
+    ],
+    "input_fields_hidden": [
+      "candidate_ids",
+      "candidate source rules",
+      "V1/V2 status",
+      "candidate actual scenes",
+      "candidate score"
+    ],
+    "same_output_fields": [
+      "scene_A",
+      "scene_B",
+      "state_contract",
+      "unknowns"
+    ],
+    "quality_goal": "Write genuinely competent original scenes, meeting explicit three completion criteria without referencing source candidate method cards. Avoid deliberate defects. Same agent still not blinded."
+  },
+  "rubric_unchanged": "tests/v3/R056_FROZEN_SCORING.json 11 points; same 3 criterion + 4 dimensions. Score matched baseline vs unchanged R055 scenes with quote evidence.",
+  "repeatability": "No independent model, no host runtime, no randomized blinding. Individual candidate attribution not identifiable because bundled/co-selected and criterion prompts already encode much of technique."
+}
