@@ -1,0 +1,18 @@
+name: V13 R053 two-book Stage1.5 merge and coverage draft
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r053:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify 187 RAW candidates, 19 Stage0 tasks, source overlaps and crossbook distinctions
+        run: python3 scripts/validate_r053_stage15_merge.py
+      - name: Validate frozen V13 89-round controller
+        run: python3 scripts/validate_round_integrity.py
