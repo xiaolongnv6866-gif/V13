@@ -4,10 +4,10 @@
 - expected_narrative_chapters: 532
 - round_R002_official_source_validation: PASSED (R002 original OPF/spine/CRC/SHA verified)
 - official_full_text_read_chapters: 532 (source CURRENT_ROUND.json; all OPF effective narrative chapters now have registered full-reading receipts, not independent literary certification)
-- stage0_current: FULL_TEXT_COVERAGE_COMPLETE_ADLER_NOT_DONE; whole_book_adler: NOT_STARTED
+- stage0_current: STRUCTURAL_STEP_DONE_ONLY; whole_book_adler: IN_PROGRESS_NOT_PASSED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R038; current_round: R039 NOT_STARTED (manual trigger only)
+- last_passed_round: R039; current_round: R040 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -45,3 +45,5 @@
 - R037 completed Wanming Adler interpretation step only; Tiexue literature Adler still NOT_STARTED, original reading coverage remains 532/532. Evidence 46a9c22f 35/35 GitHub Actions SUCCESS. B PROVISIONAL, C NOT_RUN, user BOOK_OVERVIEW gate R042 not passed, R038 NOT_STARTED.
 
 - R038: Wanming critical/applicability research step: 10 strongest objections, 10 new-fiction input/output task candidates, 48 original-source SHA positions across all six volumes, R037 n519/p69 weak support corrected with n519/p70; evidence 1978c979 passed 36/36 GitHub Actions, including R038 37922531362. Literary B PROVISIONAL, new-writing C NOT_RUN, verified Skills0, R042 BOOK_OVERVIEW user gate NOT_PASSED. Tiexue Adler Stage0 has not yet begun. R039 NOT_STARTED; both books' registered narrative chapter counts unchanged.
+
+- R039 formal structural step: Tiexue original Adler six independent narrative arcs, original source 58 paragraph SHA anchors from 53 different true chapters, GitHub evidence 2466184b all37/37 Actions SUCCESS incl R039 37924610492; source A privately checked, literary B PROVISIONAL, creative C NOT_RUN, Skills0; R042 full Stage0 BOOK_OVERVIEW gate NOT_PASSED. Chapter coverage unchanged. R040 NOT_STARTED manual only.
