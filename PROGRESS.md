@@ -257,3 +257,11 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - `CASE_EVIDENCE.tsv`保存45处不同源段落SHA（16处新增私有原文核查），`CASE_CHUNK_MANIFEST.tsv`保存17个已读chunk及16个章节的映射。每个案例均有`bound_to`、`outcome`、未结后果和WM-01—WM-09任务关联。对应每卷六段有独立场景，但只证明**候选覆盖**，不构成写作能力认证。
 - 新增完整审计`CASE_RETRIEVAL_AUDIT.md`、R045来源与现象结构校验脚本和GitHub专项工作流。旧R042 14条坏引用不能直接晋级，其他文学B仍需真实原文复核；A私有源SHA、公开CI SOURCE_STRUCTURE_ONLY，B PROVISIONAL，C NOT_RUN，skill0，heldout SEALED_NOT_RUN。
 - 正式账本提交按固定计划：**R045 PASSED，45/89完成，R046 NOT_STARTED**。本次不执行反例提取、术语提取、Stage1.5或Nuwa Phase1；GitHub Actions/远程回读成功后才对用户确认PASS，需下次独立手动「继续」才能开启R046。
+
+## R046｜《晚明》原版仓颉反例提取器（2026-10-09）
+- 用户手动「继续」只执行R046，开始时GitHub main=e9a5aeab662f0e53b04cc38b318afc673909a4a2、R045 PASSED、45/89。完整读取仓颉Stage1与独立counter-example-extractor原文，遵循缺五代理时的隔离串行路径，只做反例。
+- 用户私有《晚明》真实EPUB SHA匹配固定a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082、ZIP CRC通过。复用本地私有848检索块/FTS5索引，按负向用语检索并回原文扩大邻接窗口，跨20个有效叙事章重新定位62个UTF-8段落SHA、21源chunk。
+- 产物 books/wanming/candidates/counter-examples.md 收录19个ce01—ce19反例原始候选；COUNTEREXAMPLE_EVIDENCE.tsv与R046_PRIVATE_SOURCE_SHA.tsv保留62原文n/p SHA并对应R002冻结chapter/path；COUNTEREXAMPLE_CHUNKS.tsv保留21检索来源，COUNTEREXAMPLE_AUDIT.md区分已出现的不利结果、人物预判和未经外部史学验证的叙事断言。WM-01—WM-09原书关键任务全部有反例候选引用；六段骨架有来源，不等于能力验证。
+- 原版counter-example提取器针对作者告诫，但文学作品人物不等于作者声称的真实经验，故全数标记来源证据类型、当场事实范围和未证明条件；没有危险实施技巧或原著受版权保护的正文公开段落。
+- 新增 scripts/validate_r046_counterexample_extractor.py与R046 Actions校验：19条、62锚、21块、20章、六段、九任务、14旧问题claim仍隔离、正式轮次游标。公开CI仅SOURCE_STRUCTURE_ONLY；B PROVISIONAL，C NOT_RUN，已认证SKILL0，legacy_quality_debt_status OPEN_QUARANTINED。
+- 本轮正式成功才使R046 PASSED、46/89、下一轮R047 NOT_STARTED；绝不在本轮执行术语提取或Stage1.5/Nuwa Phase1，等待用户再次「继续」。
