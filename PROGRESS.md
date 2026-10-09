@@ -88,3 +88,7 @@ Only R024 authorized by this manual request. Do not begin R025.
 - 这一原子状态提交应当仅在修复后的研究证据提交28/28 GitHub Actions实际完成成功后推送；其自身所有Actions还需独立通过并远程回读。未满足则不得宣布最终PASS。
 
 - R030正式PASS提交 `0965ac07c122dae5724bf41fc16934379414b83b` 28/28 GitHub Actions全绿，R030专项 [37884137437](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37884137437)成功，远程回读30/89、两书各480、960/1103、R031 NOT_STARTED；仍保留原始R030失败run 37883889212与修复记录。最终审计提交另行等待自身Actions。
+
+## R031 IN_PROGRESS — GitHub recoverable partial evidence (2026-10-09)
+
+At the user's explicit request, resumed the R031 evidence transfer. Official progress remains 30/89, Wanming480, Tiexue480 (960/1103). Uploaded the R031 run record, 20-scene content relevance audit, local source SHA verification, study stats, 82-point private paragraph SHA manifest and 40 original OPF source index; full 40 chapter receipts, 40 observation JSONL, complete close scenes, validator, workflow and PASS state still need to be uploaded/verified against the private EPUB and Actions. Not a completed R031; A private source verification supported by the original local EPUB, B PROVISIONAL, C NOT_RUN. Do not start R032.
