@@ -1,0 +1,13 @@
+{
+  "round": "R031",
+  "status": "LOCAL_CHECKPOINT_NOT_REMOTE_PASSED",
+  "epub_sha": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+  "chapters": 40,
+  "paragraphs": 1960,
+  "visible_characters": 151789,
+  "close_read_chapters": 20,
+  "sha_anchors": 82,
+  "cross_chapter_counterexamples": 2,
+  "member_fnv": "2289545f",
+  "anchor_fnv": "39e1af85"
+}
