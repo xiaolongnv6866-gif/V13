@@ -1,0 +1,28 @@
+{
+  "id": "TX-02",
+  "scene_A": "林许递上修门申请，庶务员盖了收件章，却把批准栏留空。馆主不在，捐款没到，他不能凭那张收据开工。",
+  "scene_B": "三日后馆主要求先核报价，林许看见办理纸上递交、受理两格已有字，批准、开工、追责三格仍空，便不再说工程已经允准。",
+  "state_contract": "申请=已递；受理=已收；批准=未定；执行=未开始；追责=未分配；捐款=未到账。",
+  "unknowns": "最终审批未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "申请/受理/批准/执行/追责分列",
+      "observed_anchor": "批准栏留空"
+    },
+    {
+      "criterion": "签收不等批准",
+      "observed_anchor": "申请=已递"
+    },
+    {
+      "criterion": "后续职责明确",
+      "observed_anchor": "追责=未分配"
+    }
+  ],
+  "candidate_ids": [
+    "TX-f02",
+    "TX-p03",
+    "TX-p12"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "TX-05",
+  "scene_A": "装帧工听说校勘员得了高级津贴，问最终校样谁签。主管说只调酬劳不改装帧核准权，装帧工提出一个月后复看实际签字记录。",
+  "scene_B": "校勘员自己也说不会因为涨津贴就承担没看过的装帧责任。主管允许双方分别递意见，并将实施结果留待月底核验。",
+  "state_contract": "待遇=上调；签字权=原装帧工；下属异议=可提；解释=当场；长期实测=未开始。",
+  "unknowns": "月后是否执行一致未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "津贴和权力不同",
+      "observed_anchor": "问最终校样谁签"
+    },
+    {
+      "criterion": "异议被听取",
+      "observed_anchor": "签字权=原装帧工"
+    },
+    {
+      "criterion": "不宣称制度长效成功",
+      "observed_anchor": "长期实测=未开始"
+    }
+  ],
+  "candidate_ids": [
+    "TX-f08",
+    "TX-p08",
+    "TX-p07"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

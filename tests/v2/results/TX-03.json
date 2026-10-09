@@ -1,0 +1,28 @@
+{
+  "id": "TX-03",
+  "scene_A": "安意发现展窗木版晒褪色，柳明承认自己不懂颜料，老匠则担心移位后无人看见。安意建议只试三天，不先取消旧陈列。",
+  "scene_B": "主事者请安意记颜色、老匠记观看人数，三天后分别汇报。她的专业提案获得试用，但没有被主管当场宣布永远正确。",
+  "state_contract": "发现者=安意；负责人知识缺口=颜料；反对者=老匠；试验=三日；正式改制=未定。",
+  "unknowns": "效果未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "专业自主提出异议",
+      "observed_anchor": "安意建议只试三天"
+    },
+    {
+      "criterion": "负责人承认知识空白",
+      "observed_anchor": "负责人知识缺口=颜料"
+    },
+    {
+      "criterion": "预留试验结果未知",
+      "observed_anchor": "正式改制=未定"
+    }
+  ],
+  "candidate_ids": [
+    "TX-f05",
+    "TX-p09",
+    "TX-p04"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

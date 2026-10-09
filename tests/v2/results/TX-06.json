@@ -1,0 +1,28 @@
+{
+  "id": "TX-06",
+  "scene_A": "东乡说可以借诗会大厅，西乡说能给纸但必须署名，河口代表只知道雨季交通可能受阻，还没收到两边完整确认。",
+  "scene_B": "三方仅同意先办一次，东乡答应把场地和纸张各自署名，河口仍不承诺一定按原定日期开会。大家同意等纸到了再公告。",
+  "state_contract": "东乡知道=场地；西乡条件=署名；河口知道=天气风险；合作=一次附条件；日期=未定。",
+  "unknowns": "是否办成未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "三方独立知情和条件",
+      "observed_anchor": "河口代表只知道"
+    },
+    {
+      "criterion": "谈成须留条件",
+      "observed_anchor": "合作=一次附条件"
+    },
+    {
+      "criterion": "未知不得由主角补齐",
+      "observed_anchor": "日期=未定"
+    }
+  ],
+  "candidate_ids": [
+    "TX-f12",
+    "TX-p13",
+    "TX-p06"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}

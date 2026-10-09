@@ -1,0 +1,28 @@
+{
+  "id": "TX-04",
+  "scene_A": "阅览室承诺送三十条毯子，铺上实物只有十二条。邻镇书社愿借六条，但要求明春归还，主任只敢说这次先发十八条。",
+  "scene_B": "有人建议用捐款把毯子买齐，账房打开空钱箱说捐款只是承诺。主任给借出的六条编号，另记来年返还，不能写成已归还。",
+  "state_contract": "预计捐款=未到账；现货=十二；暂借=六；现在可发=十八；欠缺=十二；返还义务=未履行。",
+  "unknowns": "后续归还未知。",
+  "criteria_proofs": [
+    {
+      "criterion": "货币与实物分离",
+      "observed_anchor": "实物只有十二条"
+    },
+    {
+      "criterion": "临时补偿变成新义务",
+      "observed_anchor": "现在可发=十八"
+    },
+    {
+      "criterion": "未来归还未知",
+      "observed_anchor": "返还义务=未履行"
+    }
+  ],
+  "candidate_ids": [
+    "TX-p05",
+    "TX-p21",
+    "TX-f16"
+  ],
+  "mode": "PAPER_WALKTHROUGH_SAME_AGENT_VARIANTS",
+  "v3": "NOT_STARTED_R056"
+}
