@@ -1,6 +1,7 @@
-# V13｜R024《铁血残明》321—360原著文学证据提交（IN_PROGRESS）
+# V13 R024 PASSED — handoff to R025 NOT_STARTED
 
-当前GitHub游标R024 IN_PROGRESS；最近正式通过R023；正式总进度23/89，《晚明》360章＋《铁血残明》320章=680/1103章。R024本次私有原EPUB已逐章接触有效321—360的40章完整文本，共2220个原文非空段落。40份逐章事件链和人物选择、20份CLOSE_READ研究、80原文SHA定位已提交证据，原段定位指纹12642d3d，40章member指纹8dd29619。下一步必须先查本提交GitHub Actions，修复后再正式PASS；未经验收不得把《铁血残明》累计正式数加到360。A私有原文真实性PASS、B文学解释PROVISIONAL、C原创写作独立增益NOT_RUN，Nuwa Phase1未启动，认证Skill0，R006 holdout SEALED_NOT_RUN。用户手动触发只允许本轮；不得启动R025。
-
-
-R024首证据提交e9cda3ed的专项Action 37869539563出现40个事件链字段组装错误，已保留失败并修复事件链，持续IN_PROGRESS直到CI通过。
+Official: 24/89 rounds; Wanming 360/571, TiexueCanming 360/532, 720/1103 chapters.
+R024 40 distinct chapter receipts, 2220 original paragraphs, 20 close studies, 80 SHA locators; source-member FNV 8dd29619 and paragraph FNV 12642d3d.
+Evidence commit e9cda3ed: initial R024 workflow 37869539563 FAILED because event-chain data was mistyped; repaired commit 7443f3fd passed all 22 workflows including R024 run 37869730435 and frozen R006.
+Public CI checks structure, not private novel contents or literary mastery. A private-source check PASSED, B PROVISIONAL, C NOT_RUN; skill certification 0; Nuwa Phase1 NOT_STARTED; R006 heldout SEALED_NOT_RUN.
+Only R024 authorized by this manual request. Do not begin R025.
