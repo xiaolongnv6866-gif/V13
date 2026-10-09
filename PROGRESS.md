@@ -1,19 +1,16 @@
-# V13｜R020《铁血残明》有效叙事241—280正式PASSED
+# V13｜R021《晚明》281—320原著研究正在验收
 
-|条目|正式结果|
+|项目|未经提前计数的真实状态|
 |---|---|
-|唯一游标|**R021 / NOT_STARTED**；《晚明》第281—320章尚未启动|
-|累计正式通过轮次|**20/89**；最近R020 PASSED|
-|《晚明》正式全读|**280/571章**|
-|《铁血残明》正式全读|**280/532章**|
-|两书累计有效叙事全读|**560/1103章**|
-|R020实际私有原EPUB|大小27764568字节，整文件SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`，原ZIP CRC完整|
-|R020原著覆盖|40有效叙事ordinal241—280，OPF spine257—296，2512个完整原XHTML非空段落|
-|R020审计锚点|20 CLOSE_READ＋20 FULL_TEXT_READ去重40章，80个不可逆源段SHA；私有源与GitHub同序FNV32`93f49811`；40原章member与冻结R002同序FNV32`4371963e`|
-|文学批次研究|40章独立行为、人物自主目标及现场信息记录，六组反事实/反证细读，长期财政和家庭连续性账；文学判断**PROVISIONAL**|
-|真实CI验收|R020原始证据提交 `6e485f8d7ab8396559f9e090c36cc1850ac0e66e` 经远程回读，18项GitHub Actions **completed/success**，包含R020专项 `37862487681`、R006收据合同、原版仓颉Doctor与女娲工作区及历史回归；正式PASS提交 670e6e30d470fbecc700af5eaff0e07bed8bf08d 已远程回读确认且18/18 GitHub Actions completed/success，R020专项37862674253|
-|独立三门|A私有原著真实性通过；B本批文学机制PROVISIONAL且Adler整书未过；C原创SKILL陌生新任务效益NOT_RUN|
-|技能与密封测试|认证原创SKILL0、Nuwa Phase1未启动、R006 heldout SEALED_NOT_RUN|
-|用户调度|MANUAL_USER_TRIGGER，仅执行完R020并停止于R021，不增加其他付费项目|
+|唯一当前轮|**R021 / IN_PROGRESS**；R020 PASSED|
+|截至本轮验收前正式进度|**20/89轮**；《晚明》280/571、《铁血残明》280/532，共**560/1103章**|
+|本批原输入|私有原 EPUB SHA256 a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082；17,123,520字节，ZIP CRC完整|
+|R021原文有效范围|narrative281—320共40章；原OPF spine296—335、原ZIP Chapter_0293.xhtml—Chapter_0332.xhtml；合计2223非空正文段落|
+|证据及研究|20 CLOSE_READ、20 FULL_TEXT_READ合计去重40独立收据；80个源段SHA256定位，私有和公开序列FNV32 2fa4eb5f；源成员和冻结R002索引FNV32 b69dfa88|
+|文学|40章独立事件/人物/现场表、六组重点场面反事实与对立情节、角色和制度长期连续性账；解释PROVISIONAL|
+|提交和检查|待真实 evidence commit、R021专项、冻结R006和历史回归 Actions，以及实际GitHub远程回读完成才能标记PASSED|
+|三门|A私有原EPUB来源验证PASS；B分批文字研究PROVISIONAL；C创作陌生新任务效益NOT_RUN|
+|保留关口|原版Cangjie Adler整书质量门仍未过，Nuwa Phase1未启；认证原创SKILL0，R006盲测SEALED_NOT_RUN|
+|调度|MANUAL_USER_TRIGGER，R022不得自动开始；无额外付费内容|
 
-GitHub公开Actions不拥有用户原版权EPUB，能测SOURCE_STRUCTURE_ONLY，不应当拿CI成功声称完美理解作品或完成原创小说能力。
+公开GitHub Actions没有用户的私有版权EPUB，程序绿灯只能证明SOURCE_STRUCTURE_ONLY，不能替代文学内容的实质判断。
