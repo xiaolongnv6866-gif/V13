@@ -1,0 +1,9 @@
+{
+  "id": "WM-02",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "周禾摆好捐款簿，想把欠钱的名字写在桥头。他觉得这样能催促人们早些交钱。姚湛看着末尾一个熟悉的姓氏，忽然想到那一家去年才卖掉家里的农具。",
+  "scene_B": "两个人到了村口，围观的人催着把名单贴出来。姚湛压低声音说这样会惹人难堪，周禾却提醒他桥还等着修。两人商量许久，最后先把公告收回屋里。",
+  "state_contract": "筹款公告=未贴；周禾重视速度；姚湛重视贫户声誉；修桥=继续讨论。",
+  "unknowns": "未收款能否追上进度，以及两人如何合作仍待后续。",
+  "authoring_conditions": "R055 frozen scenario only; no candidate ids or scoring rubric intentionally supplied in baseline writing prompt. Same-author contamination unavoidable; NOT blind."
+}

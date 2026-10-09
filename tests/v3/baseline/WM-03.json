@@ -1,0 +1,9 @@
+{
+  "id": "WM-03",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "顾遥带着新任命走进藏册院，两名文书跟在身后。他将七天的工期告诉大家，负责库门的差役却说没有接到移交的消息，大家只能先清理房前几箱受潮的纸。",
+  "scene_B": "下午文书们把可以翻看的目录摊在桌上，顾遥忙着核对残页。纸张不多，他叫人把还能用的旧纸背面拿出来誊写。这天办成的事比原先想的少，却总算有了个开头。",
+  "state_contract": "任命=已经到手；库册整理=正在准备；人手=两名；七日目标=尚未完成。",
+  "unknowns": "公署是否交出钥匙、剩下的目录是否能做完还不得知。",
+  "authoring_conditions": "R055 frozen scenario only; no candidate ids or scoring rubric intentionally supplied in baseline writing prompt. Same-author contamination unavoidable; NOT blind."
+}

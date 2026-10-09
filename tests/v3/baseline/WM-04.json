@@ -1,0 +1,9 @@
+{
+  "id": "WM-04",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "晏桥望着窑口刚出的灯，想到魏商答应月末来结账，心中高兴。另一位商人许岚赶到，说愿意当天拿几盏，只是价钱比魏商低。他让许岚先坐，打算晚些再作决定。",
+  "scene_B": "晚上村里议事人来借灯，晏桥才想起还没有买足灯油。他翻出订单又看了看空钱匣，决定第二天去问许岚能不能先拿走一部分成品，剩下的交给魏商。",
+  "state_contract": "灯的订单=已有；魏商款项=月末；许岚交易=仍在商量；村里照明=需要安排。",
+  "unknowns": "两位商人会不会接受更改及灯油能否及时买来未知。",
+  "authoring_conditions": "R055 frozen scenario only; no candidate ids or scoring rubric intentionally supplied in baseline writing prompt. Same-author contamination unavoidable; NOT blind."
+}

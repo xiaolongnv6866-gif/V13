@@ -1,0 +1,9 @@
+{
+  "id": "WM-05",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "暴雨后的北岸还留着泥印，记录员弯腰看过，往册子上写下几行。南岸织户出门时听邻居说旧桥已经修好，便将准备好的包袱提到门口。",
+  "scene_B": "织户到了河边，见人们都在议论。一个说桥没事了，一个说使者还没回来。她想了想，决定先到亲戚家等消息，明日再问船夫是否能绕行。",
+  "state_contract": "北岸=检查水痕；南岸=听到消息；织户=暂缓过桥；桥=没有得到共同确认。",
+  "unknowns": "使者的结论以及织户何时真正出行仍没有下文。",
+  "authoring_conditions": "R055 frozen scenario only; no candidate ids or scoring rubric intentionally supplied in baseline writing prompt. Same-author contamination unavoidable; NOT blind."
+}

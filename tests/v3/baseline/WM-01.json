@@ -1,0 +1,9 @@
+{
+  "id": "WM-01",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "沈白拿着自己画的河湾图拜访商铺，东家看了一眼就笑了，觉得这个青年识得河水的脾性，愿意介绍他到簿房试一试。沈白便带着画卷去了公署。",
+  "scene_B": "簿房一早很忙，文书问他来历，沈白把介绍信放在桌上。文书叫他坐在靠窗的位置，先帮着誊一页旧目录。他提笔时瞥见紧闭的库门，暗想总会有一天进去。",
+  "state_contract": "沈白=被商人举荐；簿房=临时抄写；库房=尚未进入。",
+  "unknowns": "最终是否能得到正式职位以及何时能接触旧档尚不清楚。",
+  "authoring_conditions": "R055 frozen scenario only; no candidate ids or scoring rubric intentionally supplied in baseline writing prompt. Same-author contamination unavoidable; NOT blind."
+}
