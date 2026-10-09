@@ -1,0 +1,10 @@
+{
+  "id": "WM-02",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "周禾指着修桥捐款簿说：把欠款户姓名贴出去，大家就会赶紧交。姚湛看着一户曾被迫卖农具的人家，答道催捐可以，但不能拿窘境羞辱人。他不肯签公告。周禾只得收起纸，将开工日期先留白。",
+  "scene_B": "次日周禾拿来只列总额、不列姓名的新告示，让姚湛亲口说明筹款延误。姚湛接过纸，答应向村里解释，也要求周禾到会场面对那户人家的疑问。两人并肩向桥头走去，彼此都不觉得争论已经结束。",
+  "state_contract": "周禾=盼尽快筹款；姚湛=保护贫户声誉；公开名单=撤下；无姓名告示=待会商；协作=仍继续；信任裂隙=留存。",
+  "unknowns": "匿名方案能否筹足款、两人关系能否恢复仍未知。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

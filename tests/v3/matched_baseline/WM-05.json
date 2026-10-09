@@ -1,0 +1,10 @@
+{
+  "id": "WM-05",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "北岸记录员只看到旧桥附近一道新水痕，在册上写下所见，不肯加上可通行三个字。南岸织户却听邻人说桥已经修好，收拾行李走出半里又停下。检查使者尚未回来，她索性请人转告亲戚自己要改期。",
+  "scene_B": "巡河人把北岸水痕报给官署，官署没有立刻把消息传到南岸。织户又听一名挑夫说桥上仍有破木，她一时不知道该信谁，决定先住在家中，不贸然让孩子们一同走桥。两边都没有得到查验后的结论。",
+  "state_contract": "北岸=亲眼看见水痕；南岸=修好/未修好互相冲突的转闻；官署=收到部分报告；跨岸信息=不通；出行=暂缓。",
+  "unknowns": "桥安全、使者查验结论和传闻出处均未确认。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

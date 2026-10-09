@@ -1,0 +1,10 @@
+{
+  "id": "WM-03",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "顾遥举着任命书来到旧水文档案房，两位随员满以为当天就能搬出卷册。守门人却说钥匙归旧署保管，必须先办移交。顾遥清点两名抄手、半包纸张、未拨的采买银，才发现七日抄完旧册只是纸上的话。",
+  "scene_B": "顾遥回去请上级改定期限，得到只许先编公开目录的批示。他让两名文书清理可翻的目录，把封存册的栏目标作未授权，另在请拨单上注明缺纸数。门外公告只允诺七日交一份目录草稿。",
+  "state_contract": "名义=已任档案官；实际=两名文书；纸=不足；资金=待拨；钥匙=归旧署；允办=公开目录；承诺=七日草稿；封存=不得查。",
+  "unknowns": "移交是否成功、钱物何时到账与目录质量均待后续查证。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

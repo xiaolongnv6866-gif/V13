@@ -1,0 +1,10 @@
+{
+  "id": "WM-01",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "沈白将一幅河湾图摊在商号的柜台。掌柜说他的测绘本事可靠，愿意举荐。簿房文书却只看那份尚未核印的身份证明：他可以借桌誊写公开目录，不能以掌柜一句话查看旧档。沈白把画卷重新系好，去找能作证的人。",
+  "scene_B": "第二天沈白到库房门口，守钥人听完掌柜的好评，仍要求正式书面许可。沈白没有争辩。他在临时桌旁一边誊图一边记下缺少的凭据，打算先把手中允许做的事办好。",
+  "state_contract": "商人=认可技能；文书=身份未核仅准公开誊录；库房=钥匙及授权未移交；实际职务=临时辅助；正式权限=没有。",
+  "unknowns": "何时核实户籍、是否正式任用、是否能获得库房权限均不得预告。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}

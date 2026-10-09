@@ -1,0 +1,10 @@
+{
+  "id": "WM-04",
+  "arm": "MATCHED_REQUIREMENTS_NO_CANDIDATE_METHOD",
+  "scene_A": "许岚把现银放在桌上，要买十盏灯，却只愿出低价。另一位魏商答应月末以较高价买走更多盏。晏桥摸着冷掉的灯罩，知道月末的银不能点亮今夜的集会；他还是先卖十盏现货，村里照明规模只好缩小。",
+  "scene_B": "晏桥请魏商另约交付日，魏商不肯立即答应，担心节庆过后没人要灯；许岚却说再多买也须亲验。晏桥把两人的选择分别记下来，没拿未来订单算成手中现款，也没说村里今晚就有了足够灯油。",
+  "state_contract": "魏商=较高价月末付款且改期未同意；许岚=较低价现款买十盏；已售=十盏；灯油=缺；村活动=缩小。",
+  "unknowns": "剩余订单、两名商人后续选择与灯油新货均未兑现。",
+  "brief_type": "FROZEN_STORY_AND_THREE_CRITERIA_NO_METHOD_CARD",
+  "blindness": "SAME_AGENT_NONBLIND"
+}
