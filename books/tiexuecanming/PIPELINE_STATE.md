@@ -3,11 +3,11 @@
 - original_epub_sha256: 9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf
 - expected_narrative_chapters: 532
 - round_R002_official_source_validation: PASSED (R002 original OPF/spine/CRC/SHA verified)
-- official_full_text_read_chapters: 480 (source CURRENT_ROUND.json; R030 Tiexue 441—480 original private-source evidence)
+- official_full_text_read_chapters: 520 (source CURRENT_ROUND.json; R032 Tiexue original narrative481—520 privately verified)
 - stage0_current: PARTIAL_BOOK_READING; whole_book_adler: NOT_STARTED
 - book_overview: NOT_CREATED; user_stage0_gate: NOT_OBTAINED (R042)
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R031; current_round: R032 IN_PROGRESS (manual trigger only)
+- last_passed_round: R032; current_round: R033 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -28,4 +28,4 @@
 
 - R031_FORMAL_PASS: This was a Wanming-only round; Tiexue remains at official480. B PROVISIONAL, C NOT_RUN. R032 NOT_STARTED manual only.
 
-- R032 evidence staged; formal R032 gate not passed; existing certified reading chapters unchanged pending all CI. B PROVISIONAL C NOT_RUN.
+- R032_FORMAL_PASS: Tiexue original narrative 481–520 now counts 40 chapters after private SHA verification and all30/30 Actions from evidence commit; formal Wanming520 and Tiexue520. B PROVISIONAL, C NOT_RUN. R033 NOT_STARTED, manual trigger only.
