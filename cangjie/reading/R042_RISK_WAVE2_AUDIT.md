@@ -47,3 +47,7 @@ previous_commit: `8820231f086ca2e873919ebece2d15e5b96adea5`
 5. Stage0 `BOOK_OVERVIEW` 是现有已展示草案；其暂定主旨和结构无需为旧R011错误“补进”虚假情节。新增审计交给用户时与两份草案同时展示。
 
 **最终状态**：Cangjie Stage0 `NOT_PASSED`（用户尚未明确批准），R042`BLOCKED`，R043`NOT_STARTED`，正式轮次仍41/89；A本次9章35段原始源SHA核实、公开Actions仅SOURCE_STRUCTURE_ONLY，B`PROVISIONAL`，C`NOT_RUN`，已认证SKILL=0。
+
+## 五、CI字段复查与延后补证标识
+
+`LATE_CORRECTIVE` 是本轮证据表 n099/p39 的特定证据角色：它表示初步怀疑全章不支持后，继续读到后半章找到**局部相关的新支持段落**。这既不是此前p28已正确，也不等于新段可以证明人物说法为真实历史。R011的旧锚点被撤销、有限场面判断以p39重新提出，B仍`REVISED_PROVISIONAL`。本条文用于防止脚本遗漏后来修复的实际审阅路径。
