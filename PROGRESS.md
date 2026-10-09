@@ -248,3 +248,12 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - 原始候选books/wanming/candidates/principles.md登记p01—p23 **23个原则/规则/清单候选**，关联WM-01—WM-09；原文锚点PRINCIPLE_EVIDENCE.tsv **39处来源p/SHA**分布25个有效章、R044_NEW_SOURCE_LOCI.tsv本轮新核14处。人物台词、研究者叙事准则和有限清单分开，小说数字不冒充真实可套用计算公式；无版权长段上传，原版source_quote留空并有明确source hash定位。
 - 新增脚本scripts/validate_r044_principle_extractor.py、.github/workflows/r044_principle_extractor.yml进行字段、task_id、来源、6个弧、旧14条隔离和轮次账审核；公开CI为SOURCE_STRUCTURE_ONLY，仍须GitHub正式提交验证、远程回读。
 - 本轮完成后正式管理应是**R044 PASSED、44/89、R045 NOT_STARTED**。B全体PROVISIONAL，C NOT_RUN、技能认证0、历史债OPEN_QUARANTINED、密封盲测未开启；案例、反例、术语提取器与Nuwa新阶段均未启动。手动下次「继续」才启动R045。
+
+## R045｜《晚明》独立案例提取器（2026-10-09）
+
+- 本次用户手动「继续」只运行R045，初始main `d0188640004dbca5dcd0dfb2c2cd613a8ab3b665`，42/42历史Actions全绿、R044 PASSED、44/89、R045 NOT_STARTED。完整读取Pinned仓颉SKILL、Stage1方法和case-extractor.md，原版允许隔离串行降级，没有并行五代理或冒称另三路完成。
+- 直接使用用户原EPUB `a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082`，真实OPF/spine 571有效章、30,221非空段、2,245,824个字符，ZIP CRC通过；将自然章按约4,000字符以内切为**848块**并在私有本地建SQLite FTS5 bigram检索索引，查询与邻接块回读真实文本。此为原版方法的兼容自建索引，而非声明上游build_chunks.py/build_index.py已直接运行；不将版权正文推入仓库。
+- 独立提取`books/wanming/candidates/cases.md`的**14条c01—c14原始情境候选**。全部标为小说内部的**虚构场景**，不当成作者真实亲历、史实转述或演算例题；为尊重原版类型差异，用`fictional_narrative_case`显式扩展并保持`REQUIRES_STAGE1_5_REVIEW`，待来源与内容审核，不伪造原版枚举已通过。
+- `CASE_EVIDENCE.tsv`保存45处不同源段落SHA（16处新增私有原文核查），`CASE_CHUNK_MANIFEST.tsv`保存17个已读chunk及16个章节的映射。每个案例均有`bound_to`、`outcome`、未结后果和WM-01—WM-09任务关联。对应每卷六段有独立场景，但只证明**候选覆盖**，不构成写作能力认证。
+- 新增完整审计`CASE_RETRIEVAL_AUDIT.md`、R045来源与现象结构校验脚本和GitHub专项工作流。旧R042 14条坏引用不能直接晋级，其他文学B仍需真实原文复核；A私有源SHA、公开CI SOURCE_STRUCTURE_ONLY，B PROVISIONAL，C NOT_RUN，skill0，heldout SEALED_NOT_RUN。
+- 正式账本提交按固定计划：**R045 PASSED，45/89完成，R046 NOT_STARTED**。本次不执行反例提取、术语提取、Stage1.5或Nuwa Phase1；GitHub Actions/远程回读成功后才对用户确认PASS，需下次独立手动「继续」才能开启R046。
