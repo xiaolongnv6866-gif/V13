@@ -1,0 +1,68 @@
+{
+  "round": "R056",
+  "stage": "Cangjie Stage1.5 V3 Task Utility",
+  "preregistered_before_baselines": true,
+  "frozen_test_input_commit": "27fa253c133ad892f67f14c6236716835d7c365d",
+  "candidate_output_fixed_commit": "597b7caa8051db924ba0125e9e0ee4cf37e6c164",
+  "task_ids": [
+    "WM-01",
+    "WM-02",
+    "WM-03",
+    "WM-04",
+    "WM-05",
+    "WM-06",
+    "WM-07",
+    "WM-08",
+    "WM-09",
+    "TX-01",
+    "TX-02",
+    "TX-03",
+    "TX-04",
+    "TX-05",
+    "TX-06",
+    "TX-07",
+    "TX-08",
+    "TX-09",
+    "TX-10"
+  ],
+  "baseline_instructions": "Read ONLY task id, title and scenario input from fixed R055 inputs. Do NOT read candidate_ids, expected_criteria, R055 scene outputs or V1 texts to write baseline. Deliver two natural fictional prose scenes, state_contract and unknowns; try to write a competent story. Same agent already knows project broadly, so baseline NOT BLIND and no independence claim.",
+  "candidate_instructions": "Read unchanged R055 actual saved scene_A/scene_B/state_contract/unknowns; do not rewrite or rerun candidate.",
+  "comparison_units": "Each arm is two authored scenes plus a compact state ledger and unknowns for exactly same new fiction input. Do not reward mere verbosity, tags, headings, candidate identification or formulaic lists.",
+  "rubric": [
+    {
+      "dimension": "frozen_criteria",
+      "points": 3,
+      "rule": "For each of 3 R055 frozen output criteria, 1 iff actual A/B scene or ledger provides specific, semantically consistent evidence. Quote ≤25 Chinese chars per proof; no proof yields 0."
+    },
+    {
+      "dimension": "causal_chain",
+      "points": 2,
+      "rule": "0 no meaningful action-consequence; 1 visible action and response but consequence uncertain/untracked; 2 concrete action->other character response->changed situation/next constraint without invented result."
+    },
+    {
+      "dimension": "character_agency_continuity",
+      "points": 2,
+      "rule": "0 others merely echo lead; 1 one other has independent preference/choice OR meaningful time continuation; 2 two distinct preferences and traceable progression across A/B, or explicit informed refusal and preserved downstream impact."
+    },
+    {
+      "dimension": "epistemic_boundaries",
+      "points": 2,
+      "rule": "0 unearned omniscience or falsely claimed outcome; 1 unknown/unverified limitation stated only loosely; 2 separates witnessed/rumor/approval/estimate/promise as appropriate and explicitly leaves outcome not observed unknown."
+    },
+    {
+      "dimension": "deliverable_traceability",
+      "points": 2,
+      "rule": "0 state/outcome incoherent with scenes; 1 ledger exists but leaves important ambiguity/contradiction; 2 compact state_contract and unknowns accurately track scene claims, distinguish completed/pending/undetermined."
+    }
+  ],
+  "max_total": 11,
+  "comparison_rule": "Count total_score candidate-minus-baseline and each dimension, record ties/regressions, do not discard null; benefit if >0 IN THIS SINGLE EXPLORATORY NONBLIND PAIR ONLY. Candidate-level V3 cannot be upgraded merely from co-used scenario, because attribution among multiple candidates is confounded. An independent blind/host run remains required before overall C certification.",
+  "negative_controls": [
+    "DROPPED_BASELINE",
+    "CANDIDATE_FILE_MUTATED",
+    "FAKE_QUOTE_EVIDENCE",
+    "NEGATIVE_DELTA_MARKED_GAIN",
+    "UNREVIEWED_V1_PROMOTED"
+  ],
+  "project_gate": "R057 handles all four-way candidate destinations and user confirmation; no stage 1.6 or R057 state advancement in this R056 turn."
+}
