@@ -350,3 +350,11 @@ R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回�
 - 高风险反向证据：WM n143正确会议结果、n305只阶段财务同意、n520只有限试点、n571说书版本并未抹去旧现场；TX n114仓空却有临时补给、n315磋商受阻而n485有限同意、n361被问责后有口头澄清、n526提议虚报实际被拒绝、n532末尾只写承诺尚无履约结局。缺乏跨场景连续因果的候选没有强行PASS。
 - 最初证据commit `aee1bb62154925bd4c0f57b1d5596d73ed14dafc` 的R054专项 [37962032581](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37962032581) FAILED，具体是16项V1 REVIEW理由少于最低长度28字。保留失败历史；仅补齐各条原始场景、SHA定位和具体判停，不删减校验要求。修正证据commit `a03e625a80054fffbd8375424c0c3f3e5a1145e2`的**52/52 GitHub Actions全SUCCESS**，R054专项 [37962195183](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37962195183) SUCCESS。
 - 项目文学B仍`PROVISIONAL`，原创C`NOT_RUN`，认证SKILL0，R042旧14条历史错误主张`OPEN_QUARANTINED`不晋级，盲测`SEALED_NOT_RUN`。正式轮次R054 PASSED **54/89**，下一轮R055 V2 `NOT_STARTED`，必须等待下一次手动触发；本轮绝不执行R055。
+
+
+## R055｜Stage1.5 V2全新合法输入实演（2026-10-10）
+
+- 由用户本次手动继续仅执行R055；本轮从原始固定仓颉V2和两书V1/R042独立任务恢复，先在不可变Git commit `27fa253c133ad892f67f14c6236716835d7c365d`冻结19个全新架空生活题与57项检查条件，再**实际写出38份原创场景**、19份状态账和未知边界，原文不复制，`tests/v2/results/*.json`逐项可查看。
+- 187条候选全部分流：**47项实际参与V2纸面演练且有限通过；11项方法V1 PASS但尚未V2测试；90项案例/反例/术语仅参考；39项仍因V1 REVIEW阻断**。两个A/B版本均由同一Agent编写，重复运行技术检验不等于独立模型重写结果，更不等于R056 V3的任务增益。4/4负例变更被正确拒绝。
+- 首个证据commit `06f98f84a14bb04751bc1072c53473e464a30173` R055专属 [37964867249](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37964867249) FAILED：7处未知条件文字过短及B/C审计标签缺失。保留历史并补充实际未发生条件，校验器未下调；最终证据commit `4ef0470af41039760bbdc4ab5bdfcc32d4231d85` **53/53项Actions全部SUCCESS**，R055专项 [37964994375](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37964994375) SUCCESS。
+- R042历史14项隔离`OPEN_QUARANTINED`/ `NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE`，文学B`PROVISIONAL`、独立原创增益C`NOT_RUN`、SKILL0、heldout封存。正式R055 PASSED **55/89**；下轮R056 V3 `NOT_STARTED`，须下次用户手动触发，不在本轮执行。

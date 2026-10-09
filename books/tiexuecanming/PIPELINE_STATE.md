@@ -7,7 +7,7 @@
 - stage0_current: R042_STAGE0_BOOK_OVERVIEW_USER_APPROVED_WITH_LEGACY_DEBT; whole_book_adler: PASSED_FOR_STAGE1_ENTRY_B_PROVISIONAL
 - book_overview: R042_USER_APPROVED; user_stage0_gate: PASSED_APPROVAL_LIMITED_TO_FRAMEWORK
 - verified_capabilities: 0; independent_original_skill_gain: NOT_RUN
-- last_passed_round: R054; current_round: R055 NOT_STARTED (manual trigger only)
+- last_passed_round: R055; current_round: R056 NOT_STARTED (manual trigger only)
 - source_authenticity_A: prior private-source study records; public GitHub Actions only SOURCE_STRUCTURE_ONLY
 - literary_mechanism_B: PROVISIONAL; R024 retrospective quality re-audit recorded separately and cannot be upgraded by CI alone
 - nuwa_phase1: NOT_STARTED; R006_heldout: SEALED_NOT_RUN
@@ -108,3 +108,9 @@
 
 - R054 PASS 54/89; R055 V2 NOT_STARTED pending separate user manual trigger. Original-source V1 all 96 RAW IDs separately examined: 80 PASS restricted to original novel scene-supported facts, 16 REVIEW for cross-episode causal leaps, uncertain outcome, or history beyond fictional text; 0 directly disproven FAIL. Original EPUB source SHA+CRC pass, 177 separate n/p paragraph SHA evidence rechecked; books/tiexuecanming/validation/V1_SOURCE.md and V1_EVIDENCE.tsv recorded.
 - Evidence `a03e625a80054fffbd8375424c0c3f3e5a1145e2` all 52/52 Actions successful, dedicated R054 [37962195183](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37962195183); early failure kept in history. Public CI SOURCE_STRUCTURE_ONLY; B PROVISIONAL, C NOT_RUN; V2/V3 not begun, Skill0, legacy 14 quarantined, heldout SEALED.
+
+
+## R055 Cangjie V2 new fictional task walkthrough｜2026-10-10
+
+- Official R055 PASSED 55/89, R056 NOT_STARTED manual trigger only. Same-agent paper walkthrough of 19 frozen legal tasks and 38 original scenes, 57 checked criteria, statuses across all 187 candidates (47 limited V2 PASS, 11 methods not tested, 90 references, 39 V1 source blocked). See validation/V2_EXECUTION.md and tests/v2/R055_CANDIDATE_OUTCOMES.tsv. No independent model repeat or host execution; no V3 gain audit.
+- Evidence commit `4ef0470af41039760bbdc4ab5bdfcc32d4231d85` all 53/53 Actions SUCCESS, dedicated R055 [37964994375](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37964994375); first failure preserved. Source original SHA previously checked in R054, B PROVISIONAL, C NOT_RUN, 0 Skill certified, 14 quarantined claims and heldout SEALED.
