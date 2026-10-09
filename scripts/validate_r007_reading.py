@@ -51,7 +51,15 @@ def main():
                 check(cl["verification_state"]=="PROVISIONAL" and cl["counterexample_status"] in ("FOUND","SEARCHED_NONE"),f"{n}: unverified original book theory given VERIFIED status",errors)
         count+=r["body_paragraph_count"];anchors+=len(r["anchors"])
     check(count==2285,"Actual corpus XHTML paragraph count drifted from private R007 source scan",errors)
-    check(anchors==60,"Anchor count differs from original R007 private observation",errors)
+    check(anchors==73,"13 authenticated R007 corrective locators must add to frozen original 60",errors)
+    claims=[r["mechanism_claims"][0] for r in receipts if r["mode"]=="CLOSE_READ"]
+    check(len(set(c["failure_boundary"] for c in claims))==6,"R007 six close studies must not reuse generic failure boundaries",errors)
+    check(len(set(c["alternative_rendering_loss"] for c in claims))==6,"R007 six close studies must compare genuinely different narrative alternatives",errors)
+    check(len(set(c["counterexample_search_note"] for c in claims))==6,"R007 counterexample searches must remain scene-specific",errors)
+    for rr in receipts:
+        if rr["mode"]=="CLOSE_READ":
+            cc=rr["mechanism_claims"][0]
+            check(len(cc["support_anchor_ids"])>=3 and all(x in {aa["anchor_id"] for aa in rr["anchors"]} for x in cc["support_anchor_ids"]),f"{rr['narrative_ordinal']}: at least three real support positions required for corrected close audit",errors)
     check(close_count==6,"Expected six genuine chapter-level CLOSE_READ receipts",errors)
     for p in ["cangjie/reading/wanming_001_040.md","cangjie/reading/R007/wanming_continuity.md","cangjie/reading/R007/LOCAL_SOURCE_VERIFICATION.md"]:
         check((ROOT/p).is_file(),"Missing required narrative report "+p,errors)
@@ -62,6 +70,6 @@ def main():
     else:check(cursor["full_text_read_chapters"]["wanming"]>=40,"R007 historical reading count regressed",errors)
     for e in errors:print("FAIL:",e)
     if errors:return 1
-    print(f"PASS R007: 40 distinct ordinal receipts in matching R002 source paths; 2285 anchored-body paragraphs, 60 non-prose SHA locators, 6 provisional close studies and 40 unique event notes; no automatic literary understanding or heldout score claimed")
+    print(f"PASS R007: 40 distinct ordinal receipts in matching R002 source paths; 2285 anchored-body paragraphs, 73 private-paragraph SHA locators including 13 corrective anchors, 6 provisional close studies and 40 unique event notes; no automatic literary understanding or heldout score claimed")
     return 0
 if __name__=="__main__":sys.exit(main())

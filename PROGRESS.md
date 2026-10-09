@@ -13,3 +13,8 @@ Only R024 authorized by this manual request. Do not begin R025.
 - R024新增20个真实中段核对后的场景专属文学解释与六组相互制约案例，整改证据 GitHub `75772bbba2375340811cfc76b535fea804ab5be8` 已22/22 Actions成功；私有ZIP成员及段落定位重核对维持40章／2220段／80定位、双FNV吻合。
 - 既有18轮R007—R024共296个 `mechanism_claims` 的状态全为 `SEARCHED_NONE`；R007—R015的失效边界完全重复、R017反例检索完全重复。已登记专项待复核，不把过去GitHub绿灯宣称为文学B VERIFIED。证据见 [Stage0质量债务表](cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md)。
 - 历史专项验证脚本原有强制 `SEARCHED_NONE` 的不良规则已消除（冻结R006不变）。B仍 `PROVISIONAL`，C `NOT_RUN`，Stage0整体关口未通过；当前正式游标仍 **R025 / NOT_STARTED**、24/89轮、720/1103章。
+
+## R007文学质量债务定向回填（2026-10-09）
+
+- 使用私有《晚明》原 EPUB 对六个CLOSE_READ章节做现场、段落与原文 SHA 重新核查；纠正原引用位置与文学主张不匹配问题，增加13个真实段落定位、跨章负例与实质不同的叙法比较。旧证据不删除，原60个定位仍保存，R007来源总定位73。
+- 这是历史审计补修，不增加章节计数：R025 NOT_STARTED，正式24/89及720/1103维持；文学B PROVISIONAL、能力C NOT_RUN，剩余历史质量债务仍须核查。
