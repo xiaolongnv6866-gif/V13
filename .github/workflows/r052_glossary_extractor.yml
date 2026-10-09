@@ -1,0 +1,18 @@
+name: V13 R052 Tiexue Stage1 independent glossary extractor
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r052-glossary:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Original source glossary candidate structural audit
+        run: python3 scripts/validate_r052_glossary_extractor.py
+      - name: Frozen V13 89-round gate
+        run: python3 scripts/validate_round_integrity.py
