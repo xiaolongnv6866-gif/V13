@@ -16,3 +16,11 @@ A：本地原文校验；公开CI仅SOURCE_STRUCTURE_ONLY。B：PROVISIONAL。C�
 **纠偏经过保留**：初步抽看R011 n099/p28未见旧候选涉及的身份归类，曾准备剔除整条旧命题；后来继续检查该章p34—40，在p39确见人物提出重新命名身份的对白，故不应把原证据失配误当全章机制不存在。改为p39窄范围有效、p28失配，所有衍生伦理和历史合法性仍未证实；最新公开证据表35行。此项复核优先于本轮初始暂定判断，不应误读为藏匿错误。
 
 GitHub第二批首稿提交`49509701e02bc76dff4b33f4f6f7ebea90227f3b`，专项R042 run [37934840468](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37934840468)首次FAILED：公开审计尚未明确写出后段补证角色`LATE_CORRECTIVE`，虽然TSV已有该真实位置。修正仅增加审计解释，validator不降标准；全套Actions须另核，R042仍BLOCKED。
+
+## R042第三次「继续」：两书总览验收准备及14条历史候选隔离
+
+- GitHub远程HEAD核对上一正式提交`8329888207eb61dae8a140bcf1fecd74ee1f59f7`，游标R042 BLOCKED、R041最后通过、41/89、R043 NOT_STARTED。读取原固定Cangjie Stage0 Adler四步及BOOK_OVERVIEW模板、Nuwa固定SKILL阶段约束；未修改版本或冻结合同。
+- 本次不冒充又一次独立原创盲评或全文重读；整合R042两次来源抽审：前5条原始旧候选+后一批9条，共14条原始claim_id，按原R008—R023对应历史JSON收据回查全部14条ID存在。录入`cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv`，标原support和修订源位、`NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE`，未复核的剩余旧机制默认B PROVISIONAL而非事实认证。
+- 输出一页`cangjie/reading/R042_APPROVAL_BRIEF.md`：明确两书六段/核心理解/边界与9+10项任务，并区分《晚明》原OPF卷段与《铁血残明》研究者划分六弧，提供须由用户具体决定的批准范围。两份原版BOOK_OVERVIEW追加该决策材料和旧历史质量债隔离入口；原模板四步保留。
+- 增加`scripts/validate_r042_gate_brief.py`和R042 Actions新检查，要求14条旧ID真实存在、未标B VERIFIED、两书审批仍PENDING且游标BLOCKED，验证公开SOURCE_STRUCTURE_ONLY。补充R042审核政策记录、项目进度和两书Pipeline State。没有用户独立批准，**不能正式PASS或启动R043**。
+- 来源层A=既有原始EPUB和段落定位阶段性可追溯；B=PROVISIONAL且残留旧质量债；C=NOT_RUN；技能数=0。新增质量闸脚本不允许把Github工作流绿灯当作用户明确签署。

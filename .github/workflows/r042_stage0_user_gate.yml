@@ -18,5 +18,7 @@ jobs:
         run: python3 scripts/validate_r042_targeted_repairs.py
       - name: R042 second-wave nine-batch source-claim relevance quarantine
         run: python3 scripts/validate_r042_risk_wave2.py
+      - name: R042 unified Stage0 user decision and 14-claim quarantine integrity
+        run: python3 scripts/validate_r042_gate_brief.py
       - name: Frozen 89-round controller
         run: python3 scripts/validate_round_integrity.py

@@ -215,3 +215,10 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - 从R009/R011/R012/R014/R016/R019/R020/R021/R022九个未定向审过的旧批次，先风险选样后逐章查证，真实EPUB的9章、35个特定p的来源SHA；其中R011原p28对整条身份归类命题支持错配，但继续精读同章p39找到相关人物对白，因此不得否认整章有限机制，改为换锚缩窄。R021原p32确实为有效财政计算，保留窄义；其他7个案子定位补证或缩窄。具体证据和阶段性判决见`cangjie/reading/R042_RISK_WAVE2_EVIDENCE.tsv`与`cangjie/reading/R042_RISK_WAVE2_AUDIT.md`。
 - 抽审发现率不是全部旧296条判断的失效率，不允许因此重做720篇；所有旧机制进入Stage1必须先检查原文与反例，不可仅按旧JSON的SHA认证。冻结R006/89轮计划不变；A私有来源复核，GitHub CI SOURCE_STRUCTURE_ONLY，B PROVISIONAL，C NOT_RUN。
 - 本轮是既有R042 BLOCKED期间的追加核查，不是R042正式PASS。仍为41/89，R043 NOT_STARTED，Stage0等待用户明确确认两份BOOK_OVERVIEW，SKILL认证0。GitHub远程Actions结果须另查，不预报。
+
+## R042｜Stage0验收材料合并与14条旧候选隔离（2026-10-09）
+
+- 上轮两轮风险抽审记录分别保留5条和9条的真实`claim_id`，本次将**14条具体旧机制**汇入`cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv`，远程原始收据中14/14的真实ID及对应章号已逐一回查。修订版B仍PROVISIONAL；其余早期旧机制没有获得整体认证，也不清零720份已读收据。
+- `cangjie/reading/R042_APPROVAL_BRIEF.md`为原版两书BOOK_OVERVIEW的具体审批提纲：不同的六段结构、核心命题、强反对意见、9+10项原创写作任务，明确批准范围不包含原创能力C认证或源史实之外的历史真值。两书总览追加审批材料和旧claim隔离路径。
+- 专项`scripts/validate_r042_gate_brief.py`和工作流补上对旧JSON ID、状态、两书审批PENDING、R043未启动的自动核查；公开CI只SOURCE_STRUCTURE_ONLY，仍不代替文学评估及用户决议。
+- 本次并无用户明确批准，Stage0仍NOT_PASSED，R042 BLOCKED，完成41/89，R043 NOT_STARTED，阅读登记1103/1103，技能认证0。先等待全套Actions及远程回读，再向用户展示批准材料。
