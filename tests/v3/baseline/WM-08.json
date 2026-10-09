@@ -1,0 +1,9 @@
+{
+  "id": "WM-08",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "伯父给陶念找到邻店帮工的差事，母亲也说学做纸比修钟可靠。陶念听了半日，没有点头；晚饭后，他翻出一张旧钟图，独自在油灯下照着描线。",
+  "scene_B": "三个月后镇上大集，陶念站在钟铺门外，终于敲门问师傅是否收学徒。钟匠让他先回家商量，伯父正好找来，说邻店还在等他。这回陶念说自己想试试别的路。",
+  "state_contract": "家庭=希望守纸坊；伯父=已替他安排；陶念=有修钟愿望并询问学徒；结果=待协商。",
+  "unknowns": "钟铺收不收人及家庭是否同意仍不知道。",
+  "authoring_conditions": "Only fixed narrative prompt, not candidate rules/expected grade supplied as baseline instructions; same author is not blind."
+}

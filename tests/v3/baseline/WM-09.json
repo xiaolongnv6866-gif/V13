@@ -1,0 +1,9 @@
+{
+  "id": "WM-09",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "旧渡戏台开锣，戏子唱着一位先生如何倾尽家财独自捐钟。刻碑女工站在台边，想到那年在场的几户人，听着唱词不住摇头。游客见了，还以为她不喜欢这场戏。",
+  "scene_B": "演完后年轻游客问她，当年究竟有多少人参加。女工说自己记得三户，却拿不出丢失的旧账。有位老人说戏总要讲得热闹些，游客则想把剩下的碑文抄下来。",
+  "state_contract": "戏剧=单人捐钟；女工=记得多人参与；历史账册=不全；游客=产生疑问。",
+  "unknowns": "全部捐赠情况和戏词形成的过程未知。",
+  "authoring_conditions": "Only fixed narrative prompt, not candidate rules/expected grade supplied as baseline instructions; same author is not blind."
+}

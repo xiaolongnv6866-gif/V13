@@ -1,0 +1,9 @@
+{
+  "id": "TX-01",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "何展把井水测量簿放到桌上，旧雇主看见他就皱眉，说上回水位误报差点惹出大麻烦。旁边村妇记得何展曾帮助别人找回秤，便替他说了句好话。",
+  "scene_B": "官署文员不大理会争论，只问记录上为什么没有签字。何展赶忙拿起笔补写姓名，雇主仍不肯随他一起去看井。村妇劝大家至少再测一次。",
+  "state_contract": "旧雇主=不信任；村妇=认可某次善举；官署=要求补签；井水异常=有待核对。",
+  "unknowns": "复测如何以及何展名声会否改善尚未知。",
+  "authoring_conditions": "Only fixed narrative prompt, not candidate rules/expected grade supplied as baseline instructions; same author is not blind."
+}

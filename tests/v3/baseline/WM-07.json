@@ -1,0 +1,9 @@
+{
+  "id": "WM-07",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "图书馆的议事会开在河石镇东街。负责的人宣布打算晚上多开些时辰，几个年轻人鼓掌，制伞妇人问夜里谁帮她照顾孩子，议事员没有立刻作答。",
+  "scene_B": "会后志愿者把可轮值的日子写在纸上。有人说钱不多，大家先试一段时间再议；制伞妇人又提出晚上的时间不要太迟。第二天门口贴出征求意见的告示。",
+  "state_contract": "晚间延时=计划中；志愿者=愿意协助；制伞妇人=有异议；公告=征求意见。",
+  "unknowns": "经费最后能否筹到、实际开放时段和效果未知。",
+  "authoring_conditions": "Only fixed narrative prompt, not candidate rules/expected grade supplied as baseline instructions; same author is not blind."
+}

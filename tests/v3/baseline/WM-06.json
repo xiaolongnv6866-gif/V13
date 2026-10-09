@@ -1,0 +1,9 @@
+{
+  "id": "WM-06",
+  "arm": "BASELINE_NO_CANDIDATE_INSTRUCTIONS",
+  "scene_A": "芦港的风雨棚修好了，广场上挤满来看热闹的人。县里夸奖管事辛苦，学徒也分到一小笔赏钱。花匠在后排站了很久，终于说棚子是好了，可他门口三周没法摆摊。",
+  "scene_B": "主事者听见花匠的话，答应散会后再找他谈。学徒把赏钱收进衣袋，想着母亲还等他回家买药。来祝贺的人渐渐散去，书记留下整理领奖名单。",
+  "state_contract": "风雨棚=竣工；主事与学徒=受奖；花匠=提出损失；处理=另议。",
+  "unknowns": "是否赔偿花匠、学徒家中的开支能否解决都未知。",
+  "authoring_conditions": "Only fixed narrative prompt, not candidate rules/expected grade supplied as baseline instructions; same author is not blind."
+}
