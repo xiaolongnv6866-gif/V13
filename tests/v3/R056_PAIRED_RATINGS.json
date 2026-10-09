@@ -1,0 +1,601 @@
+{
+  "round": "R056",
+  "source": "Cangjie V3 exploratory same-agent paired review",
+  "immutable_rubric_commit": "c4d97a582e9b2ec13bad55db3ec00211f9cf9399",
+  "candidate_original_output": "R055 tests/v2/results/*.json unchanged",
+  "baseline_written_before_scoring_commit": "e1ef40c84bd9143ce09533ab501af29977f18c4b",
+  "assessor": "same agent; nonblind",
+  "blind_human_evaluation": "NOT_RUN",
+  "stage4_host": "NOT_RUN",
+  "ratings": [
+    {
+      "id": "WM-01",
+      "baseline_criteria_evidence": [
+        "簿房一早很忙",
+        null,
+        "先帮着誊一页旧目录"
+      ],
+      "candidate_criteria_evidence": [
+        "商人夸他本领高",
+        "身份核实=待核",
+        "库册权限=未授权"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 1,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 7,
+      "candidate_total": 10,
+      "delta": 3,
+      "reviewer_explanation": "对照能够写出见证差异及临时工作，候选额外明确核籍与库门权限。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "WM-02",
+      "baseline_criteria_evidence": [
+        "姚湛看着末尾",
+        "最后先把公告收回屋里",
+        null
+      ],
+      "candidate_criteria_evidence": [
+        "姚湛说贫户家中正困难",
+        "拒绝签字",
+        "关系债务=未消"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 9,
+      "candidate_total": 11,
+      "delta": 2,
+      "reviewer_explanation": "对照已有实质性道德冲突和人物行动；候选把之后仍须合作的关系债落账，收益可能只在结构呈现。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "WM-03",
+      "baseline_criteria_evidence": [
+        "新任命",
+        null,
+        "没有接到移交的消息"
+      ],
+      "candidate_criteria_evidence": [
+        "新官帖",
+        "人员=两人；纸张=不足",
+        "不批准调取封存账"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 1,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 1,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 6,
+      "candidate_total": 10,
+      "delta": 4,
+      "reviewer_explanation": "对照有授权受阻的场面，但没有完整人财物承诺拆分；候选可追索交付缩减。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "WM-04",
+      "baseline_criteria_evidence": [
+        "月末来结账",
+        "许岚赶到",
+        "空钱匣"
+      ],
+      "candidate_criteria_evidence": [
+        "未来钱",
+        "许商肯现付",
+        "照明须缩减"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 1,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 8,
+      "candidate_total": 10,
+      "delta": 2,
+      "reviewer_explanation": "对照理解赊付时差，也考虑另一商人，但推迟行动；候选在现场发生取舍并记录代价。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "WM-05",
+      "baseline_criteria_evidence": [
+        "北岸还留着泥印",
+        "南岸织户",
+        "不把其中一个传言当验桥结果"
+      ],
+      "candidate_criteria_evidence": [
+        "北岸记录员只量到",
+        "南岸来源=传闻",
+        "桥是否安全=未查明"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 1,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 8,
+      "candidate_total": 10,
+      "delta": 2,
+      "reviewer_explanation": "两版均不冒称桥已安全；候选的信息层级在状态账中更清晰。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "WM-06",
+      "baseline_criteria_evidence": [
+        "棚子是好了",
+        "学徒把赏钱收进衣袋",
+        "是否赔偿花匠"
+      ],
+      "candidate_criteria_evidence": [
+        "风雨棚修完",
+        "领赏的学徒",
+        "赔付=未办"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 1,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 9,
+      "candidate_total": 11,
+      "delta": 2,
+      "reviewer_explanation": "对照自然引出花匠和家庭负担；候选进一步将损失簿与表彰账分别落实到动作。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "WM-07",
+      "baseline_criteria_evidence": [
+        "制伞妇人问夜里谁帮她照顾孩子",
+        null,
+        "先试一段时间"
+      ],
+      "candidate_criteria_evidence": [
+        "制伞妇人问",
+        "试点=东街十日",
+        "全面推广=未许可"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 1,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 1,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 7,
+      "candidate_total": 11,
+      "delta": 4,
+      "reviewer_explanation": "对照有合理异议但试点边界与复核时间模糊；候选明确十日复核和限制推广。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "WM-08",
+      "baseline_criteria_evidence": [
+        "陶念说自己想试试别的路",
+        "并非自己决定",
+        "三个月后镇上大集"
+      ],
+      "candidate_criteria_evidence": [
+        "陶念开口说",
+        "伯父代许=未经本人同意",
+        "三个月后的集会上"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 11,
+      "candidate_total": 11,
+      "delta": 0,
+      "reviewer_explanation": "两组都给陶念真实自主选择并保留三个月后变化；没有可测任务增益。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "WM-09",
+      "baseline_criteria_evidence": [
+        "女工说自己记得三户",
+        "旧渡戏台开锣",
+        "刻碑女工站在台边"
+      ],
+      "candidate_criteria_evidence": [
+        "女工只确认三户在场",
+        "游客也发现",
+        "戏班如今却唱成"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 11,
+      "candidate_total": 10,
+      "delta": -1,
+      "reviewer_explanation": "对照游客打算抄碑文，有独立求证动作；候选游客仅意识到信息不足，具体能动性反而略弱，构成反例。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "TX-01",
+      "baseline_criteria_evidence": [
+        "旧雇主看见他就皱眉",
+        "误报差点惹出",
+        "雇主仍不肯随他一起去看井"
+      ],
+      "candidate_criteria_evidence": [
+        "旧雇主指出",
+        "曾误报水位",
+        "旧雇主仍不肯担保"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 11,
+      "candidate_total": 11,
+      "delta": 0,
+      "reviewer_explanation": "对照和候选均有三方立场与旧污点，收益未测出。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "TX-02",
+      "baseline_criteria_evidence": [
+        null,
+        "盖了收件戳",
+        null
+      ],
+      "candidate_criteria_evidence": [
+        "递交、受理两格已有字",
+        "不能凭那张收据开工",
+        "追责=未分配"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 1,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 6,
+      "candidate_total": 10,
+      "delta": 4,
+      "reviewer_explanation": "对照懂等待，但把五态办理压缩成等候，候选有阶段性的可追溯记录。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "TX-03",
+      "baseline_criteria_evidence": [
+        "安意看到陈列木版",
+        null,
+        "等下旬再决定"
+      ],
+      "candidate_criteria_evidence": [
+        "安意发现展窗木版晒褪色",
+        "主事者请安意记颜色",
+        "正式改制=未定"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 10,
+      "candidate_total": 11,
+      "delta": 1,
+      "reviewer_explanation": "对照亦有专业属员的意见和有限试行，候选的试验分工略清晰但未见可归因的总分改善。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "TX-04",
+      "baseline_criteria_evidence": [
+        null,
+        "明年还要用",
+        "借来的毯子何时返还"
+      ],
+      "candidate_criteria_evidence": [
+        "捐款只是承诺",
+        "要求明春归还",
+        "返还义务=未履行"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 1,
+        "deliverable_traceability": 2
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 8,
+      "candidate_total": 10,
+      "delta": 2,
+      "reviewer_explanation": "对照账上承诺有歧义，候选避免把募款承诺当现钱并保留归还责任。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "TX-05",
+      "baseline_criteria_evidence": [
+        "是否也要听他的校样意见",
+        "两人把不同意见写成两条",
+        "决定权=需进一步说明"
+      ],
+      "candidate_criteria_evidence": [
+        "只调酬劳不改装帧核准权",
+        "装帧工提出一个月后",
+        "长期实测=未开始"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 10,
+      "candidate_total": 11,
+      "delta": 1,
+      "reviewer_explanation": "对照人物争议充足但最后权力归属模糊；候选区分薪酬与核准权。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "TX-06",
+      "baseline_criteria_evidence": [
+        "东乡拿出大厅",
+        "先拟个日子",
+        "沿河道路湿滑"
+      ],
+      "candidate_criteria_evidence": [
+        "东乡说可以借诗会大厅",
+        "三方仅同意先办一次",
+        "日期=未定"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 1,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 9,
+      "candidate_total": 11,
+      "delta": 2,
+      "reviewer_explanation": "对照有不同诉求，合作方式口头且边界含糊；候选写出一次性条件。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "TX-07",
+      "baseline_criteria_evidence": [
+        "渡船女掌柜蹲在泥里找自己的账簿",
+        "女掌柜找回半页账单",
+        "露宿者=暂居街边"
+      ],
+      "candidate_criteria_evidence": [
+        "女掌柜却在湿地上找账册",
+        "他们没等负责人指挥",
+        "露宿者=挡风"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 11,
+      "candidate_total": 11,
+      "delta": 0,
+      "reviewer_explanation": "两组均保住配角独立劳动与私事，未测出提升。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "TX-08",
+      "baseline_criteria_evidence": [
+        "等到编辑在请假纸上签字",
+        "同事接过稿样",
+        "额外工作报酬尚不知"
+      ],
+      "candidate_criteria_evidence": [
+        "编辑答应先完成校样交接",
+        "同事只说愿看看稿",
+        "报酬=未决定"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 1,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 8,
+      "candidate_total": 11,
+      "delta": 3,
+      "reviewer_explanation": "对照给出交接，但代班者的自主愿望未充分呈现；候选区分试看与明确同意。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "TX-09",
+      "baseline_criteria_evidence": [
+        "裁判把暂停时间记在簿上",
+        "孩子说，其实大家都把灯往里搬",
+        "报纸也没到付印时辰"
+      ],
+      "candidate_criteria_evidence": [
+        "评审册只记暂停",
+        "目击的孩子指出",
+        "刊发=未发生"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 2,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 11,
+      "candidate_total": 11,
+      "delta": 0,
+      "reviewer_explanation": "两组都拒绝把草稿写成已经发行的假报道；没有可归因增益。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    },
+    {
+      "id": "TX-10",
+      "baseline_criteria_evidence": [
+        "写下明年要修好二十本",
+        "纸料不多",
+        "工程=还没开始"
+      ],
+      "candidate_criteria_evidence": [
+        "写下下季修二十本旧谱",
+        "纸料=仅六本",
+        "责任=未履行"
+      ],
+      "baseline_other_dimensions": {
+        "causal_chain": 1,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 1
+      },
+      "candidate_other_dimensions": {
+        "causal_chain": 2,
+        "character_agency_continuity": 1,
+        "epistemic_boundaries": 2,
+        "deliverable_traceability": 2
+      },
+      "baseline_total": 8,
+      "candidate_total": 10,
+      "delta": 2,
+      "reviewer_explanation": "对照也知道未来责任，但数量、可用资源与进度账较笼统；候选明确区分六本和二十本。",
+      "blindness": "SAME_AGENT_NONBLIND_ADJUDICATION",
+      "rating_status": "PROVISIONAL_NONINDEPENDENT"
+    }
+  ]
+}
