@@ -52,7 +52,9 @@ for token in ['532','33,278','2,087,500','22条','51处','15个','SOURCE_STRUCTU
 old=readtsv(R/'cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv')
 ck(len(old)==14 and all(x['stage1_permission']=='NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE' for x in old),'old claim quarantine')
 c=json.loads((R/'CURRENT_ROUND.json').read_text(encoding='utf8'))
-ck((c['current_round']=='R049' and c['round_status']=='NOT_STARTED' and c['rounds_completed']==48) or (c['current_round']=='R050' and c['round_status']=='NOT_STARTED' and c['rounds_completed']==49),'cursor/round status')
+number=int(c['current_round'][1:])
+ck(c['round_status']=='NOT_STARTED' and ((number==49 and c['rounds_completed']==48) or (number>=50 and c['rounds_completed']==number-1)),'cursor/round status')
+ck((number==49 and c['last_passed_round']=='R048') or (number>=50 and int(c['last_passed_round'][1:])>=49),'R049 never completed before newer rounds')
 ck(c['cangjie_stage0_gate']=='PASSED' and c['legacy_quality_debt_status']=='OPEN_QUARANTINED','historical debt')
 ck(c['skill_certified_count']==0 and c['original_output_test_status']=='NOT_RUN' and c['heldout_bank_status']=='SEALED_NOT_RUN','C/skills premature')
 with (R/'ROUND_LEDGER.csv').open(encoding='utf8',newline='') as f:ld={x['id']:x for x in csv.DictReader(f)}

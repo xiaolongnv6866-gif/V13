@@ -65,7 +65,9 @@ for token in ['958','532','33,278','2,087,501','16个','54处','17处','33处','
 legacy=tsv(R/'cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv')
 ck(len(legacy)==14 and all(x['stage1_permission']=='NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE' for x in legacy),'quarantine regressed')
 c=json.loads((R/'CURRENT_ROUND.json').read_text(encoding='utf-8'))
-ck((c['current_round']=='R050' and c['rounds_completed']==49 and c['round_status']=='NOT_STARTED') or (c['current_round']=='R051' and c['rounds_completed']==50 and c['round_status']=='NOT_STARTED'),'cursor mismatched')
+number=int(c['current_round'][1:])
+ck(c['round_status']=='NOT_STARTED' and ((number==50 and c['rounds_completed']==49) or (number>=51 and c['rounds_completed']==number-1)),'cursor mismatched')
+ck((number==50 and c['last_passed_round']=='R049') or (number>=51 and int(c['last_passed_round'][1:])>=50),'R050 not completed before later rounds')
 ck(c['cangjie_stage0_gate']=='PASSED' and c['legacy_quality_debt_status']=='OPEN_QUARANTINED','quality gate drift')
 ck(c['skill_certified_count']==0 and c['heldout_bank_status']=='SEALED_NOT_RUN' and c['original_output_test_status']=='NOT_RUN','C false promotion')
 with (R/'ROUND_LEDGER.csv').open(encoding='utf-8',newline='') as f:ledger={x['id']:x for x in csv.DictReader(f)}

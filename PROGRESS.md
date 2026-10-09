@@ -306,3 +306,8 @@ Original research/evidence commit `eca327860c37e36b4355226a28cd947ff5fade97`: **
 - 初次证据提交 `ab369d815b839411474168f4a09bbc03cc430ab3` 后R050专项 [37955251570](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37955251570) FAILED，唯一原因审核报告未写统一`PROVISIONAL`字面标记，其他结构通过；未删历史或降低脚本要求。纠正报告/记录后提交 `28528936f4d7a7c1e73224ece2a9323729e31812` 的全部**48/48 GitHub Actions成功**，专属R050 [37955366305](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37955366305) SUCCESS。
 - A私有来源检查PASS，公开CI仅SOURCE_STRUCTURE_ONLY，文学B PROVISIONAL，原创C NOT_RUN，Skill认证0，heldout SEALED_NOT_RUN，14条旧问题仍NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE，历史质量债OPEN_QUARANTINED。
 - 正式完成**50/89轮**，下一游标**R051 NOT_STARTED**；必须再由用户手动输入『继续』才能启动《铁血残明》反例提取器。Nuwa Phase1和Stage1.5未开始。
+
+
+### R050正式提交后发现旧R049 validator游标封顶错误（2026-10-09）
+
+R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回读 R050 PASSED/R051 NOT_STARTED/50轮，但其48项Actions有47项SUCCESS，**旧R049专项 [37955646345](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37955646345) FAILURE**：R049时代原校验脚本限定current_round只能R049或R050，造成合法R051触发兼容性失败。保留失败历史；修复仅限两个原始Stage1校验器的未来游标上界，保留全部原书SHA、候选完整性、任务与质量债要求。修复提交需重新48/48全绿方结束本轮，不执行R051。
