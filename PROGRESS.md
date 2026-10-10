@@ -1,3 +1,13 @@
+## V13.3 CURRENT AUTHORITATIVE RECOVERY｜N04 PASSED（2026-10-11）
+
+**Use actual cursor from `V13_CURRENT_V4.json` and `V13_LEDGER_V4.tsv`: N01–N04 PASSED, 4/48 finished; currently N05 NOT_STARTED. Do not start N05 until next user “继续”. Historical prior headers/OLD B076 are snapshots, not active instructions.**
+
+N04 `R015` literary Stage0 B 18/18 source reviewed, scoped credible 14, old overclaims rejected 4 (n164 crowd-reputation addon, n180 fictional multiple real-time toll stops, n182 unproven family patronage, n200 disloyalty inferred from asking about jobs). No R042 quarantine item assigned to N04 (0). Original private EPub file SHA256 matched; 18 chapter XHTML SHA256 matched frozen receipts and 36 distinct original paragraph SHA256 pairs were recalculated and mapped to every ID. `v13_3/n04/N04_LITERARY_B_18.tsv`; `v13_3/n04/N04_ORIGINAL_PARAGRAPH_SHA_36.tsv`; `v13_3/n04/N04_SOURCE_REVIEW.md`. Evidence commit `6a5355a1db53bbf6e75c77bc28aa3b0c6511441b` with 81/81 Actions SUCCESS. Formal receipt `runs/N04_V4.md`.
+
+Cumulative Stage0 B 70/296 reviewed by this plan, 226 remaining; original 192 unreviewed now 45 first-review completed, 147 remaining. Historical 14 R042 quarantine items remain fully excluded from promotion (3 have source-review records, 11 await). Candidate verified0, reference108, needs_review79, rejected0; real independent V3 0, independent Stage0 original C0/20, certified Skill0. N05 next contract R017 20 literature B + 1 original R042 quarantine only on user's new command.
+
+---
+
 ## V13.3 最新恢复入口｜N03 PASSED（2026-10-11）
 
 **唯一生效游标：`V13_CURRENT_V4.json` + `V13_LEDGER_V4.tsv`。N01、N02、N03均PASSED，累计3/48；N04 `NOT_STARTED`。必须等用户新的“继续”指令才执行N04。下方历史段落如称N03未开始、N02为当前、B076旧状态，均只作历史追溯。**
