@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-19",
+  "candidate_id": "WM-p20",
+  "legacy_round": "R070",
+  "batch": "B069",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent authored both arms after seeing frozen task and method cards. True isolated baseline and external evaluator not established.",
+  "arm_parity_contract": "Exactly the same frozen situation, fixed facts, required story, 500-750 Han, 4+ ledger entries and S1-S5 rubric; only intended difference is candidate-only method card. Actual blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "桥边祠堂坐满了村社推举桥工总管的人。主持员请两名候选先讲凭什么能管桥，不许只喊自己与谁交好。年轻木工罗进指着去年修过的一段栏杆，说自己知道木料如何进场，还能找到愿赊木的供货人。另一名候选许峦拿出旧账本，说三年前自己带人修过桥基，虽耽误了工期，后来每笔木料都核清了。老木匠丁叔在门边咳了一声，问罗进去年有两根短料是否用错，又问许峦当年迟工究竟为何。罗进承认短料补做过，却认为交货人也有责任；许峦说当年遇雨，丁叔指出曾有人见到他先错估石墩。两边支持者议论起来，有人看重罗进招工快，有人只信许峦的账。主持员敲桌，让他们明日带凭据，不准今天就喊谁已胜选。",
+    "scene_two": "第二场仍在祠堂，桌上多了罗进的验收牌和许峦的旧账。罗进请去年同工说明短料后来确实换过，丁叔追问换料前桥栏可曾开放，罗进只说自己没掌握开禁记录。许峦逐页指出旧料银数，承认雨后工期拖了两天，但对初次丈量有无错误仍与丁叔各执一词。主持员把两名候选说过的理由分开记，提醒支持者这些只能供判断，表决须到后日等外村工匠也来。一个老人说自己选识账的，一个摆渡人说宁愿选肯听工人说话的，谁都没被几页账说服得一致。丁叔拿着短料木样站起来，请两人明早到桥上各走一遍，再谈能否承担责任。主持员没有宣布赢家，只把封存的投名竹签重新数过，发现缺了几支，还得查是谁领去未还。",
+    "chinese_characters": 502,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "两位候选均已陈述实际履历与理由"
+      },
+      {
+        "item": "2",
+        "fact": "老木匠提出旧错误反证，证据未全面核实"
+      },
+      {
+        "item": "3",
+        "fact": "不同支持者仍各自独立判断"
+      },
+      {
+        "item": "4",
+        "fact": "表决尚未进行，无人被指定赢家"
+      },
+      {
+        "item": "5",
+        "fact": "桥工任务及下一步核查需求仍在"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "method": {
+    "scene_one": "村社要选下任桥工总管，主持员把两位候选请到桥边桌前，先说明每人须交代能做什么、做过什么、哪里可能出过差错。罗进拿出前年补栏的领木条，说自己曾管六名木工，可以让人按时来；许峦铺开修桥旧账，展示自己当年逐笔结过料钱。老木匠丁叔坐在一旁，指出罗进那次短料曾使栏杆重做，许峦那次桥基迟工也有初测失误的传闻。罗进说短料来源是供货人，但承认自己验收不够细；许峦指着雨日记录承认确曾迟两天，却不同意仅凭记日断定错在测量。主持员没有替谁背书，而让三人分别把可回查的记录名称念给书吏。支持者中有人点头，有人怀疑旧账是否能证明人会管工。",
+    "scene_two": "次日上午两名候选带人到桥头勘看。罗进拿出旧栏杆上更换过的木榫，丁叔当面指出新旧木痕能证明换过，却不能单凭木痕证明当时由谁承诺验收。许峦拿出旧记工簿，数出那次雨日，罗进的支持者追问工钱是否因迟工多付，许峦答旧账里有列，但票据需再向账房取。主持员让两边各写愿意负责的事项，不许把未经核的事当成交代清楚。丁叔说桥工总管最怕只会给自己找理由，可在座木工也有人说肯承认短处才值得选。会末主持员宣布后日再表决，并请保管竹签的老人当众点数，候选只能各自回去找证据。桥下水涨了一寸，围观人先忙着把木架抬高；选谁掌管下一次修缮，仍留给尚未投出的竹签。\n桥上行人见几位木工围栏杆争论，以为已经选出了总管，主持员赶忙说明只是核旧账，投票竹签仍封在箱中，众人这才散去。",
+    "chinese_characters": 533,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "两位候选均已陈述实际履历与理由"
+      },
+      {
+        "item": "2",
+        "fact": "老木匠提出旧错误反证，证据未全面核实"
+      },
+      {
+        "item": "3",
+        "fact": "不同支持者仍各自独立判断"
+      },
+      {
+        "item": "4",
+        "fact": "表决尚未进行，无人被指定赢家"
+      },
+      {
+        "item": "5",
+        "fact": "桥工任务及下一步核查需求仍在"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

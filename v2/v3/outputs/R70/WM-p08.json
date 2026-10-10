@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-15",
+  "candidate_id": "WM-p08",
+  "legacy_round": "R070",
+  "batch": "B069",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent authored both arms after seeing frozen task and method cards. True isolated baseline and external evaluator not established.",
+  "arm_parity_contract": "Exactly the same frozen situation, fixed facts, required story, 500-750 Han, 4+ ledger entries and S1-S5 rubric; only intended difference is candidate-only method card. Actual blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "田庄主杜岭推着一辆陷过泥的车来到县署外廊，请主事准车队绕上官道。车轴新换的木楔还露在外面，随行脚夫一路抱怨小路坑深。主事翻过一张泥污的车损清单，当场拒绝改道，说官道经过几处村口，县衙尚未准许，不能由庄主一句话就改路。他命人先查小路三日，修坏得最重的一段，再议是否还有必要报县。杜岭抬头想争，看到书吏已把“不准改道”写入案上，只能问这三日能做什么。主事答允访查和丈量，没允私设路障，也没准车队先上官道试走。杜岭咽下怒气，带着车夫离开，车夫在门外问今晚货物还走不走，杜岭一时答不上。",
+    "scene_two": "次日杜岭带两名车夫回到泥路，先量车辙深度，又让脚夫记下哪处有断板。有人劝他趁早把车队领上官道，说主事未必会知道，杜岭看着车损账，还是让车停在庄口。他请附近石匠看小路的缺口，石匠说修桥板需要有木料和工钱，不能当日保证完工。杜岭把丈量草图和两名车夫的口述带回署门，只请书吏收作调查证据，没有自称已获修路拨款。主事见图上的坑比预料深，许他明日带修路工匠一同来看，仍没准改道。杜岭回去向车队说明要等三日调查届满，车夫急着赶市，决定把一部分易坏的货暂寄邻仓，寄费由谁承担尚未议妥。杜岭拿着补写的损失单，知道即使道路最后修好，这几日耽误的本钱也回不来。\n车夫还递来一张急单，明日赶不上集市便要损失押金，杜岭将单子夹进损失簿，却没能从主事那里要来保证。",
+    "chinese_characters": 506,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "改走官道的申请已当场被驳回"
+      },
+      {
+        "item": "2",
+        "fact": "仅有三日小路调查授权"
+      },
+      {
+        "item": "3",
+        "fact": "原车队损失已发生，赔偿未知"
+      },
+      {
+        "item": "4",
+        "fact": "县衙尚未准许改道"
+      },
+      {
+        "item": "5",
+        "fact": "小路修缮尚在丈量和报价阶段"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "method": {
+    "scene_one": "杜岭把折断的车辕放在廊下，向主事请求让车队改走官道，理由是田庄已有两车货陷在小路。主事当场驳回，说官道涉及别处通行，县衙未曾批准，不能先走再补文书。他只给杜岭三日调查权，要求先查小路哪段可修，期满交图和损失据。杜岭的第一反应是指着车辕追问：“若再坏一辆，谁赔？”主事答不能凭这一根木头决定县里改路，至于旧损可附在报告，自己并未允赔。书吏当面记下三件事：改道提议被拒；三日调查获准；修路与补偿尚无拨款。杜岭本想让脚夫马上去官道探路，看见“被拒”二字，收回口令，只让他们准备丈量绳与木桩标记。",
+    "scene_two": "第二场在第二日上午的小路。杜岭用绳量路面沟深，车夫拿断轴比划曾陷的位置，隔壁田户却不许他们拆自家篱门腾地方，杜岭只能绕开做标记。他请石匠估补一块桥板的费用，石匠提出要先看木料存量，不肯当场报准价。一个随车商人恼火，说县署远，直接从官道走一趟就好了；杜岭把三日调查纸拿给他看，告诉他这张只让查，不让改。商人决定自己将急货寄存在邻村，寄费还未定，不能写成庄主已补偿。日落前杜岭把丈量草图递到书吏案上，书吏收了却没盖准修的章。主事约第三日再看现场；杜岭回庄把车队仍停小路的事实写入行车簿，等主事答复以前，他宁愿承认耽搁，也不肯把一个被驳的请求冒作通行许可。\n庄口围观的脚夫叫嚷走官道省事，杜岭让他们把货搬到廊下遮雨，没下令启程。夜里货主来催，杜岭只拿出调查许可给他看。",
+    "chinese_characters": 517,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "改走官道的申请已当场被驳回"
+      },
+      {
+        "item": "2",
+        "fact": "仅有三日小路调查授权"
+      },
+      {
+        "item": "3",
+        "fact": "原车队损失已发生，赔偿未知"
+      },
+      {
+        "item": "4",
+        "fact": "县衙尚未准许改道"
+      },
+      {
+        "item": "5",
+        "fact": "小路修缮尚在丈量和报价阶段"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-20",
+  "candidate_id": "WM-p21",
+  "legacy_round": "R070",
+  "batch": "B069",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent authored both arms after seeing frozen task and method cards. True isolated baseline and external evaluator not established.",
+  "arm_parity_contract": "Exactly the same frozen situation, fixed facts, required story, 500-750 Han, 4+ ledger entries and S1-S5 rubric; only intended difference is candidate-only method card. Actual blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "绸坊商人晏舟抱来一袋记工木筹，说新法能使十二处工位都算得清楚，最好明日起全坊换用。管事陆茵把木筹倒在桌上，连六套都凑不齐，便指着两个近门工位说只许先试五日。她要求记工人原账照写，工人若发现漏记随时来提，不准把试筹当新规章。晏舟不服，说一处两处做不出好看的样子，拿着木筹去找织机领班。领班问工人肯不肯把自己的旧记工绳收掉，织工春桃说旧绳上记的夜工还没结，不能说换就换。晏舟只好在门边贴了一张试行告示，告示刚写好就被陆茵退回，叫他删去“全坊通用”四字。他气得把笔帽扣紧，问五日后是否能自动扩大，陆茵说那要再议。",
+    "scene_two": "第二场在试行的第一日晚。两个工位上的木筹分别放在小盒里，春桃把自己旧绳上的工数与木筹记数核对，发现午间换纱时间有一刻未记。记工人说新筹不记停机，晏舟原本想让她先不申诉，等全坊都用时再改，春桃却拿着两种记录直去找陆茵。陆茵让值班人把争议记下，第二天同样在两个工位复看，不准急着把多出的木筹分给第三处。另一名工人说木筹确实省了报工时间，但他担心夜工会被漏算，要求先看五日后怎么算钱。晏舟一边写意见，一边看着空荡荡的木筹袋，终于没有再在告示上加“永久”二字。第五日是否继续、十二处何时能用，都要等账本与工人意见凑齐；眼下连第一夜的差额还没有查清。\n坊里的老记工人把两份旧账分别盖住，提醒晏舟木筹够不够只是第一关，怎么认夜工的真实工时仍是未决问题。",
+    "chinese_characters": 523,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "全坊共有十二处工位，筹套不足六套"
+      },
+      {
+        "item": "2",
+        "fact": "批准仅两处工位、五日试行"
+      },
+      {
+        "item": "3",
+        "fact": "旧记工规章保持，工人可提出反对"
+      },
+      {
+        "item": "4",
+        "fact": "试行工位出现争议需核，范围未扩大"
+      },
+      {
+        "item": "5",
+        "fact": "五日之后续行及扩大均未批准"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "method": {
+    "scene_one": "陆茵把十二处工位画成两列，晏舟拿来记工木筹催她全部改用，称能省去每日核绳子的工夫。陆茵数完木筹，发现不足六套，便在试行纸上圈定近门两处、期限五日，并写清旧账继续保留、工人可以逐日提意见。晏舟想把那张纸拿出去当全坊命令，陆茵按住纸角：“我批准的是两处五日，不是十二处永久改规。哪处漏记，先退回旧账复核。”织工春桃刚领到本月夜工单，问木筹可会吞掉换纱时间。晏舟说会改进，却说不出如何算这段停工；春桃表示若今晚漏记，就当场提出异议，不会因为商人保证方便而放弃旧账。陆茵让记录员将两处工人名单单列，其余十处照旧，不准把试验票塞进总账。",
+    "scene_two": "次日试行台上摆了两只筹盒。春桃午间换纱时让记工人当面记时，傍晚核对发现木筹少了一格，旧绳记录却有。晏舟说可以下回补，春桃坚持先记争议，不签“本日全对”。陆茵让记工人在意见纸上写下缺格的具体时辰，只令这两处继续试，其他十处不受波及。另一个工位的工人认为木筹查数更快，但提出夜班无人收筹会漏记，要求第三日有值守人才肯再试。晏舟拿着剩余筹盒问能否增至四处，陆茵指着原纸说本期只能两处，扩大须另有工人意见与批准。第五日是否继续由她核算差错后再决定，今日没把任何试筹写成永久坊规。夜里春桃把旧绳挂回机旁，留下装着少一格记录的筹盒，等明早陆茵给出处理结果。\n晚来的商人问为什么别处工位还在用绳，陆茵让他读墙上五日期限，没让旁人凭他一句推广的话自行更改记工法。",
+    "chinese_characters": 532,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "全坊共有十二处工位，筹套不足六套"
+      },
+      {
+        "item": "2",
+        "fact": "批准仅两处工位、五日试行"
+      },
+      {
+        "item": "3",
+        "fact": "旧记工规章保持，工人可提出反对"
+      },
+      {
+        "item": "4",
+        "fact": "试行工位出现争议需核，范围未扩大"
+      },
+      {
+        "item": "5",
+        "fact": "五日之后续行及扩大均未批准"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

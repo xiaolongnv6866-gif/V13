@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-16",
+  "candidate_id": "WM-p12",
+  "legacy_round": "R070",
+  "batch": "B069",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent authored both arms after seeing frozen task and method cards. True isolated baseline and external evaluator not established.",
+  "arm_parity_contract": "Exactly the same frozen situation, fixed facts, required story, 500-750 Han, 4+ ledger entries and S1-S5 rubric; only intended difference is candidate-only method card. Actual blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "账房把十二贯修缮基金写在纸顶，讲武场管事和粮社管事同时把申请压上去。讲武场要九贯，理由是看台木梁漏水，粮社要七贯修仓门，若雨下大了袋粮搬不出去。账房打开钱匣，里面只有十贯现银，另外两贯还在送款人路上。他把两份申请并排一算，十六贯已经超过基金名额，更不用说今日现钱。讲武场管事指着裂梁说不能再拖，粮社管事反驳仓门若坏，粮食受潮也是损失。两人都想先拿银，各自请账房在自己的纸上写“同意”。账房放下笔，说只有他记账不能替主持人决定谁先用，也不能让同一笔钱两边各领一次。众人只好把拆开修的可能性列在纸旁，约午后再议。",
+    "scene_two": "午后会首来到柜前，要求先保能防雨的修补，不做粉饰。讲武场管事愿先只支四贯补最危险的梁，余处暂搭油布；粮社管事要六贯先补仓门的闩木，把重新刷漆一项划掉。他们把新申请摆在一起正好十贯，账房仍提醒两贯在路上，不算今天的现款。会首依程序批了十贯的上限，账房把十贯中的四贯和六贯分别装袋，暂交专人看守，等工匠报单时才准实际支取。讲武场管事不满意其他梁还会漏，却自己签下缩项表；粮社管事要求明日请木匠看门柱，免得六贯不够。人散后账房把两贯未到一栏单独圈起，没有拿未来送来的银子再批第三份请求。隔日若木匠发现新损坏，该由谁再减一项，两位管事都不肯替对方回答。\n账房把候补工匠名单也收了起来，提醒两位管事，即便立刻找来全部木工，也没有批准他们动用尚在途中的银两。",
+    "chinese_characters": 525,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "名义基金十二贯，今日实有现金十贯"
+      },
+      {
+        "item": "2",
+        "fact": "讲武场原申请九贯，粮社原申请七贯"
+      },
+      {
+        "item": "3",
+        "fact": "两贯在途中，尚不可支用"
+      },
+      {
+        "item": "4",
+        "fact": "批准缩项四贯和六贯锁定待支，不是已完工"
+      },
+      {
+        "item": "5",
+        "fact": "双方未获完整修缮预算，后续修项待定"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "method": {
+    "scene_one": "十二贯修缮基金的名目写在墙上，账房却只从钱箱数出十贯，另两贯仍在路上。讲武场申请九贯修看台，粮社申请七贯补仓门；两张申请被摊开时，管事们才发现相加成十六贯。讲武场管事说屋梁若再漏，练习时学徒无法避雨；粮社管事说仓门脱闩会损粮，自己不肯等他修完。账房把十二贯预算和十贯现款分别画框：“写在基金名下的钱，不能让你们各花一遍。哪怕两贯准时到，也不够十六贯。”两人轮流指自己最急的木料，谁都不愿先删项目。会首让他们各自把非急项划去，在新的申请签字之前，账房不准分出一文银钱。讲武场管事气得把旧纸卷起，粮社管事拿着自己的申请退到门外计算。",
+    "scene_two": "第二场从木匠报估价开始。讲武场管事把原先九贯减为四贯，先补最漏的一根横梁，没准开工的其余五贯仍留作待议；粮社管事把七贯减成六贯，只修仓门闩和腐坏的一小段柱脚，刷漆暂缓。会首看过两张重签的申请，批准从今日已有十贯中分别锁定四贯和六贯，不能提前从路上的两贯里支第三项。账房在现款栏画了两个红圈，重新清点钱箱，确认没有余款；工匠尚未领银，所以他另记“锁定待验收”，不记“工程已完成”。粮社管事仍担心柱脚下方也烂了，决定第二日亲自陪木匠复看；讲武场管事怕雨再下，先挪开横梁下的木凳。两人都在自己的缩项单下落了名，谁也没有承诺十贯能修好全部房屋。送另两贯的人直到傍晚还没出现，账房连账页都没翻过去。\n一名送水的学徒问明天是否就能在讲武场坐回原位，管事指了指梁下的警戒绳，说修补工匠尚未验收，谁也不能提前拆绳。",
+    "chinese_characters": 555,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "名义基金十二贯，今日实有现金十贯"
+      },
+      {
+        "item": "2",
+        "fact": "讲武场原申请九贯，粮社原申请七贯"
+      },
+      {
+        "item": "3",
+        "fact": "两贯在途中，尚不可支用"
+      },
+      {
+        "item": "4",
+        "fact": "批准缩项四贯和六贯锁定待支，不是已完工"
+      },
+      {
+        "item": "5",
+        "fact": "双方未获完整修缮预算，后续修项待定"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

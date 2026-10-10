@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-14",
+  "candidate_id": "WM-p07",
+  "legacy_round": "R069",
+  "batch": "B069",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent authored both arms after seeing frozen task and method cards. True isolated baseline and external evaluator not established.",
+  "arm_parity_contract": "Exactly the same frozen situation, fixed facts, required story, 500-750 Han, 4+ ledger entries and S1-S5 rubric; only intended difference is candidate-only method card. Actual blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "巡河吏姚鹤淋着夜雨回到岸上的商会棚，衣摆还带着淤泥。他在断桥下见到茶筐散在左岸，数得清的有五筐，可商会会首迎面便问：“是不是整船都毁了？”姚鹤急于说明险情，差点顺口应了，随即想起船头的灯影没再出现，自己并未看见河心情况。他把湿纸摊在木箱上，先写“左岸五筐茶叶散落”，另在末尾写船主未归。会首皱眉，说只写五筐难向承运人索赔，又问能否写“疑全失”。同来的更夫不肯画押，他说自己只是听到桥下呼喊，连五筐都没看清。姚鹤被围得发热，还是把“全船货尽失”的口头急报划去，答应天亮再沿岸核查。",
+    "scene_two": "天明岸边站着要索赔的商户，姚鹤将昨夜急报贴在棚柱上，特意在“五筐”前添了“亲见左岸”四字。商会会首不愿这样少，搬来茶行出货册说出船时装过许多筐，想由出货数扣掉五筐推算落水数。姚鹤指出装船单还未见原件，连船主去向也不知道，更不能断言余货都在水里。更夫仍拒签证词，却愿作证自己只听见呼喊的时间。会首于是把正式索赔申请暂写作“待核货损”，请搬货人带出货底单来。有人从对岸喊说见过浮筐，声音被风吹散，没人能核是茶筐还是别的东西。姚鹤收好笔，决定等水退些再问船主去处；那五筐是否包含全部损失，一直没有变成一个能报准的数。\n姚鹤要求商会别把船上货主的急话当作证词，更夫说只肯回忆声音从哪边来，不愿承认看见的东西。\n会首嫌等待耽误了商会的议价时辰，派一名识字伙计去找船主家属，却要求他只询问船行所知，不许逼家属替失踪的人做证。姚鹤把这项查访记为尚未回来。",
+    "chinese_characters": 543,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "姚鹤亲见左岸五筐，其他货损未知"
+      },
+      {
+        "item": "2",
+        "fact": "夜间河中不可见，船主未归"
+      },
+      {
+        "item": "3",
+        "fact": "更夫只听见异常声响，不能见证五筐之外"
+      },
+      {
+        "item": "4",
+        "fact": "货物原载数和实际损失均待底单核实"
+      },
+      {
+        "item": "5",
+        "fact": "商会只提出索赔准备，未确认总额"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "method": {
+    "scene_one": "断桥下的河声压过人声。姚鹤沿左岸走到塌口，灯笼只照出五筐湿茶，其余河面黑得看不出东西。商会会首迎上来追问整船损失，姚鹤在急报纸上先落了“整船”，随即停笔，把前两个字划去：“我看见的是左岸这五筐，河中有多少，我今晚看不到。”会首要求写上“至少全船大半”，说不这样承运人会推责。姚鹤把纸转过去，问对方凭哪张装船底单估算，会首拿不出来。更夫站在棚边说他只听见桥下碰响，五筐也是事后听姚鹤说的，不愿替眼睛没见的货签名。姚鹤把三栏分别写成亲见、听闻和未知，等会首把纸上的“全失”墨迹吹干，才盖自己的小印。",
+    "scene_two": "第二场在第二日上午。商会账房捧着货单，想按商户的进货数拟索赔；姚鹤让他先核装船清单与卸货记录是否一样，不许从进货数直接推算沉河数。昨夜左岸五筐由两名搬夫对着实物重数，湿绳结都还留着；河心是否有散货、整船载了多少、船主在哪里，三处空白被保留在案纸上。会首说空白的申请恐怕办不成，姚鹤承认可能拖慢，但拒绝代不存在的证人画押。更夫只证明自己听见异常声响的时辰，转身去找同班守桥人补证。账房最后把申请封皮改成“先查五筐及其余未明货损”，没有填索赔总数。午后有人从对岸带来一截茶绳，姚鹤没有据此多算一筐，而是拿它去找能识别货号的人，商会仍不知道究竟丢了多少货。\n有个茶贩劝姚鹤把五筐当作损失总量，姚鹤摇头，只说五筐能重数，未见到的不能算零，也不能算整船。",
+    "chinese_characters": 508,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "姚鹤亲见左岸五筐，其他货损未知"
+      },
+      {
+        "item": "2",
+        "fact": "夜间河中不可见，船主未归"
+      },
+      {
+        "item": "3",
+        "fact": "更夫只听见异常声响，不能见证五筐之外"
+      },
+      {
+        "item": "4",
+        "fact": "货物原载数和实际损失均待底单核实"
+      },
+      {
+        "item": "5",
+        "fact": "商会只提出索赔准备，未确认总额"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

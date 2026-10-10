@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-13",
+  "candidate_id": "WM-p05",
+  "legacy_round": "R069",
+  "batch": "B069",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent authored both arms after seeing frozen task and method cards. True isolated baseline and external evaluator not established.",
+  "arm_parity_contract": "Exactly the same frozen situation, fixed facts, required story, 500-750 Han, 4+ ledger entries and S1-S5 rubric; only intended difference is candidate-only method card. Actual blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "染坊院里晒着空竹杆，老板薛澄把一本订货册交给账房，说下月四十卷麻布若卖出，估计能换二十贯。他想拿这笔数说服学徒先等半个月领钱。学徒小满听到两字“估计”，立刻问今日本该领的工钱怎么算。薛澄打开钱匣，只有五贯现钱，便说绸行愿意预付一笔，只是折价很重，不知值不值。账房提醒，那位赊账买家曾有退单的前例，今日签字也算不得到账。几名学徒围着簿子看，他们每人原本约定领取两贯，没人愿意替老板承担卖不出的风险。薛澄先叫大家别散，自己到门外去找绸行掌柜议价，留下小满和另一名学徒对着五贯现银商量怎样分才算不欺人。",
+    "scene_two": "绸行掌柜午后来了，称愿以低价收一部分布，但要亲眼验货后才肯放银。薛澄领他看仓角的卷布，对方嫌有两卷颜色不匀，仍没签单。薛澄回到账房，把眼前五贯摊开，向学徒承认下月预计二十贯还在纸上，不能算今天的工钱。小满说自己家里需米，宁取已确定的一部分，也不肯在欠条上写“结清”。薛澄于是让账房逐人询问愿意先收多少，暂不替没来的人签收；其中一人拒领零头，要完整领两贯后才在账上画押。傍晚绸行掌柜仍未答复，薛澄从五贯中付出已获双方同意的部分，未领的人名旁记“待付”。小满拿着收据出去，见后院的染缸冷了，回头问若明日停工，拖欠的银是否还算数。薛澄答欠账不会凭停工消失，却不敢许何时补齐。\n院外卖米的妇人摇铃催账，小满望了一眼染坊的门槛，告诉同伴哪怕今日只得一贯，也须写明余下一贯仍由薛澄承担。",
+    "chinese_characters": 527,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "预测下月四十卷售价二十贯，买家可退单"
+      },
+      {
+        "item": "2",
+        "fact": "当日原有现款仅五贯，其他预付款未实际收到"
+      },
+      {
+        "item": "3",
+        "fact": "学徒各约两贯工钱，未付额仍是债务"
+      },
+      {
+        "item": "4",
+        "fact": "绸行折价预付款未成交"
+      },
+      {
+        "item": "5",
+        "fact": "小满及其余学徒对领款与去留可分别决定"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "method": {
+    "scene_one": "薛澄把下月出售四十卷麻布、预计收二十贯的数写在桌角，刚想拿去告知学徒，账房就把现钱匣放在他面前：今日可摸到的只有五贯。买布的赊账客能退单，绸行掌柜肯预付，却必定折价且尚未验货。小满和同伴进来催薪，每人原约两贯。薛澄说预计收入足够，话到一半看见小满把欠米的木牌放在桌上，便重新说清那只是下月估价。小满不愿听他们为将来的二十贯争论，只问现在能付多少。账房提出先按实际到手的五贯安排，不足部分须留在应付账，不许用未确认的赊款抵销。薛澄出门找绸行谈，学徒则各自决定是否接受先发一部分，屋里的竹杆在风里互相碰撞，谁都没有把订货册当成银钱拿走。",
+    "scene_two": "午后绸行掌柜查过布样，只肯折价收几卷，还要等自家伙计查完颜色，不立即付银。薛澄见无现款进门，回去告诉学徒：五贯仍是目前能支用的全数。小满先领一贯，把签收旁写成“工钱先收一贯，余一贯未收”；另一名学徒坚持按原约领足两贯，拒收找补的铜钱，转而提出明日停手另谋工钱。账房请两人各自署名，没把拒领者记成拖延自愿。薛澄原想按预计销路雇更多人，被账房拦住，只敢让在场且愿继续的人把现有布匹整理好。日落时已发的钱从现匣真实扣掉，未付工钱仍列负债，下月四十卷麻布能否售出全留作待定。小满把领来的那一贯包紧，说今晚先买米，若明日仍无新账，要带母亲来问余款；薛澄望着空染缸，没再以估数答她。\n另一位学徒看见小满留下余款凭据，也要求账房照样注明自己没有收全。薛澄原想省掉这几笔，最终还是找来干净纸逐一记账。",
+    "chinese_characters": 552,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "预测下月四十卷售价二十贯，买家可退单"
+      },
+      {
+        "item": "2",
+        "fact": "当日原有现款仅五贯，其他预付款未实际收到"
+      },
+      {
+        "item": "3",
+        "fact": "学徒各约两贯工钱，未付额仍是债务"
+      },
+      {
+        "item": "4",
+        "fact": "绸行折价预付款未成交"
+      },
+      {
+        "item": "5",
+        "fact": "小满及其余学徒对领款与去留可分别决定"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

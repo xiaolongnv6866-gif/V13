@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-12",
+  "candidate_id": "WM-p04",
+  "legacy_round": "R069",
+  "batch": "B069",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent authored both arms after seeing frozen task and method cards. True isolated baseline and external evaluator not established.",
+  "arm_parity_contract": "Exactly the same frozen situation, fixed facts, required story, 500-750 Han, 4+ ledger entries and S1-S5 rubric; only intended difference is candidate-only method card. Actual blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "祠堂门前还堆着半车石屑，修庙的碑胚已经竖在墙角。捐银最多的苏员外用折扇敲着碑面，说若刻名不依银数，明年谁还肯出钱。搬石工头魏篆把手上的旧茧摊出来，说他们替换梁柱做了十几日，有的人连自己的名字都不识，难道只配在碑后扫地。坐在阴处的赵婆指着村西几户漏雨的屋顶，说搬石时压坏他们的围墙，刻字之前总该给一句交代。掌事拿出账册：银钱确有十五贯，工时却只记了几个人的几日，两车石料破损也无人肯签是谁的责任。苏员外要求先照捐簿刻，魏篆不肯让搬石工做无名人，赵婆便拦住拿墨斗的师傅。日头越高，人群越密，掌事只得叫刻字匠先收刀，约大家傍晚再议。",
+    "scene_two": "傍晚众人移到祠堂侧廊，桌上摆着三份各不相同的纸。苏员外指着十五贯捐簿，愿按银数列前排，魏篆拿出工友口述的班次，可其中两个名字和旧簿对不上。赵婆带来西巷住户写的损失单，村里识字人替他们记名，却没有人去核墙是何时坏的。掌事提议碑身暂留空白，旁边立一张可更改的纸榜：已收银数照账登记，搬运时日只写核过的部分，住户损失另开核查栏，三种记录不互相折算。苏员外不满意自己名字没有突出，仍准纸榜先贴三日；魏篆则要求让工人各自核对，不许把缺失的工时算作零。赵婆答应找两位住户亲自来指认破损处。刻匠扛走碑胚时嘟囔赶不上庙会，掌事望着空白石面，知道三日之后恐怕仍有人不肯落刀。\n掌事还发现碑后原留的空白地方不够三类人全刻，刻匠说要添石得另花银，十五贯并非无人管束的闲钱。",
+    "chinese_characters": 538,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "捐款十五贯已收；用途刻名口径尚未约定"
+      },
+      {
+        "item": "2",
+        "fact": "工时账仅部分记录，未知不可折算为零"
+      },
+      {
+        "item": "3",
+        "fact": "两车石料破损已知，损失责任未定"
+      },
+      {
+        "item": "4",
+        "fact": "捐款、劳动、受损户三类诉求同时存在"
+      },
+      {
+        "item": "5",
+        "fact": "仅张贴临时可修订的证据榜，碑未刻字"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "method": {
+    "scene_one": "修庙的石碑胚抵在祠堂门边，石匠的錾子却没动。苏员外把捐银簿翻到自己那页：全庙共收十五贯，他出银多，自认名字理当刻在前头。搬石工头魏篆指着木板上的运石日记，说石料坏了两车，工人又白白补搬，单算银钱不算力气不公。赵婆站在门槛外，拍着一户被车轮碰坏的墙砖，问这些受损人若既没捐银又没搬石，就该从庙的故事里消失吗。掌事把三张纸铺开，才发现工时账缺半数人的日子，损失也只有住户口述，没有两份可直接相换的凭据。苏员外想把一贯换作几天工，魏篆拒绝这个算法，说雨天搬石与晴天跑腿根本不同。三人争得刻匠收起笔，掌事禁止今晚在碑上凿一字，只准明日再带证据来。",
+    "scene_two": "第二日侧廊传来算盘声。掌事让三方依次核所能证明的事实：银簿所记十五贯已有收讫，魏篆带的只是部分工时，赵婆列出的墙损尚待住户和赶车者共同认看。苏员外仍要求把银数作为刻名主要顺序，魏篆说若如此工人将各自另立小碑；掌事劝他们先贴一张临时纸榜，把捐银、核实工时、待查损失分成三栏，七日后再决定石碑刻什么。苏员外索性不再替下一次修庙募银，魏篆也只肯提供现有的班次，不许掌事代他补日数。赵婆拿走损失单，逐户去请人核印。纸榜贴上时，一名无名搬石工指着空栏问自己明日算不算有份，掌事只能递他一支笔，让他先留下姓名和同工见证者；刻匠的錾子仍包在布里。\n门外来了一名替父亲搬过石的青年，问工头能否在旧工簿旁附上证人名字。魏篆点头，却不敢代不在场的人记天数。",
+    "chinese_characters": 536,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "捐款十五贯已收；用途刻名口径尚未约定"
+      },
+      {
+        "item": "2",
+        "fact": "工时账仅部分记录，未知不可折算为零"
+      },
+      {
+        "item": "3",
+        "fact": "两车石料破损已知，损失责任未定"
+      },
+      {
+        "item": "4",
+        "fact": "捐款、劳动、受损户三类诉求同时存在"
+      },
+      {
+        "item": "5",
+        "fact": "仅张贴临时可修订的证据榜，碑未刻字"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

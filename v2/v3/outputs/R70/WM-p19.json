@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-18",
+  "candidate_id": "WM-p19",
+  "legacy_round": "R070",
+  "batch": "B069",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent authored both arms after seeing frozen task and method cards. True isolated baseline and external evaluator not established.",
+  "arm_parity_contract": "Exactly the same frozen situation, fixed facts, required story, 500-750 Han, 4+ ledger entries and S1-S5 rubric; only intended difference is candidate-only method card. Actual blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "风灾后县衙门口排着持证言的乡人，差役曹六拿着呈报草稿说牌楼十座都毁了，好让上头早派人清理。木匠陈禹把折尺放在他案头，问谁亲眼去过城南七座。曹六说许多人都讲南边同样受灾，可自己从北边经过，只来得及看几处。陈禹指着账簿中的北城三座，说他量过倾角，记录了柱脚裂缝，却不敢说三座已经全倒，更没有看过南边。曹六嫌这话耽误呈报，准备把“十座全倒”留着，陈禹便说那样他不肯在证言上押手印。围观乡人有人说南边也吹了大风，陈禹答风大并非亲眼见毁。曹六看了一眼等着盖印的递报吏，把“大半已倒”的字也划去，答应午后再带人查证。",
+    "scene_two": "午后曹六到厅里交报告，主事问有多少已经量过。陈禹随行摊开一页有尺数的记录，指出城北三座只是倾斜，并非全部倒塌。主事原想照曹六的数估修费，听完让书吏把报告分成亲见和待查两栏。曹六提出先写“十座受灾”，陈禹仍指出南边七座连受灾程度也未经核对，最终书吏改写为“北城三座倾斜，南七座待查”。递报吏抱怨这样难争取修费，主事说至少可以先要求派人勘查，不准把猜测当结论。门外有村民递来南边一座牌楼掉下的木牌，曹六高兴地想补进损失数；主事让他先核木牌来自哪座、掉于何时，再决定怎样记。陈禹收起折尺，受命明日同另一名吏员去城南，十座中到底坏了多少依然没有确定的总数。\n曹六看着等在廊下的乡人，解释自己急着报数是怕晚报误了清理，陈禹说越是急，越要让后来的人知道哪里查过哪里没查。",
+    "chinese_characters": 525,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "十座牌楼为讨论对象，城北三座有可证倾斜丈量"
+      },
+      {
+        "item": "2",
+        "fact": "城南七座尚未核验，不推定损毁"
+      },
+      {
+        "item": "3",
+        "fact": "曹六的十座全倒是未证估计，已经撤回"
+      },
+      {
+        "item": "4",
+        "fact": "主管仅安排补勘，修缮拨款未知"
+      },
+      {
+        "item": "5",
+        "fact": "来自南边的零散物证需核来源，不能自动加总"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "method": {
+    "scene_one": "差役曹六赶着把风灾报告送上去，提笔写“十座牌楼全倒”。木匠陈禹刚从城北回来，靴上还沾着灰，把自己的丈量薄册压住那行字。他亲见北城三座牌楼柱脚松动、梁角歪斜，有尺寸可查；南边七座他一座也没踏勘。曹六说满街都议论整城牌楼没了，要写得重才会有人拨钱。陈禹把卷尺摊在案头：“这三处我敢押名。你若叫它们全倒，我也不押；那七处你去问真正到过的人。”一位乡人说自己从西门远远看见木尘，陈禹却不肯让远影替代丈量。曹六烦躁地把旧稿折起，只在新纸上记城北三座倾斜，并留下南边查验一栏，仍催大家午前交齐证词。",
+    "scene_two": "第二场在县厅。书吏把报告念出时，主事问为何没有十座损毁总数，曹六承认自己原先凭传闻估了十座全倒。陈禹把北三座的丈量记号逐项指给他看，只答应为这三座的倾斜状况负责。主事思量若写未知可能得不到足够修费，却仍命书吏保留南七座未勘，另发差遣去核，拒绝把“未勘”涂成“无损”或“全毁”。曹六要求至少先处理北三座附近的围栏，主事答可去看安全范围，但修缮拨款尚未批准。忽有脚夫送来半截旧匾，声称是南桥头的，书吏伸手要添一座，主事让他先问姓名和发现地点，把匾单独封存待验。陈禹收尺时听见曹六低声抱怨“实话写起来像空话”，只回他一句：尺子量不到的地方，不能靠笔补齐。\n那截旧匾上还有泥渍，陈禹不肯只凭一块木牌说南边多倒一座，主事让人妥善放入柜中，等核明地点再写补报。",
+    "chinese_characters": 506,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "十座牌楼为讨论对象，城北三座有可证倾斜丈量"
+      },
+      {
+        "item": "2",
+        "fact": "城南七座尚未核验，不推定损毁"
+      },
+      {
+        "item": "3",
+        "fact": "曹六的十座全倒是未证估计，已经撤回"
+      },
+      {
+        "item": "4",
+        "fact": "主管仅安排补勘，修缮拨款未知"
+      },
+      {
+        "item": "5",
+        "fact": "来自南边的零散物证需核来源，不能自动加总"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

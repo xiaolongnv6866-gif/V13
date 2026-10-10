@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-17",
+  "candidate_id": "WM-p14",
+  "legacy_round": "R070",
+  "batch": "B069",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent authored both arms after seeing frozen task and method cards. True isolated baseline and external evaluator not established.",
+  "arm_parity_contract": "Exactly the same frozen situation, fixed facts, required story, 500-750 Han, 4+ ledger entries and S1-S5 rubric; only intended difference is candidate-only method card. Actual blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "孟家客厅摆着一张账坊收徒的空契纸，长辈正在向来访的掌柜说女儿阿纾手脚快，学算账一定学得会。阿纾捧着给弟弟装书的竹篮，刚说想学刻书，就被父亲打断，说账坊的名额难得，不能辜负人情。她母亲还在织机旁赶货，家里银钱主要靠那架机子，入坊定金尚未交。账坊掌柜想让一家人先把话说定，表示定金未到时名额只算暂留。阿纾把刻过半个字的木板放在桌上，给掌柜看刀痕，父亲却说刻书既慢又没有固定师傅。她听完没有再争，只问账坊是否准许学徒每月回家帮母亲理账。掌柜不肯代东家承诺，劝他们明早去坊里问清，她终于把那张空契纸折回桌边。",
+    "scene_two": "翌日阿纾没跟父亲去账坊，先去了街北的刻印摊，请老匠看自己的木板。老匠挑出一道刀口说深浅不齐，愿让她看半日磨刀，但收不收徒还得观察。阿纾把这话带回家，父亲正在找钱准备定金，见她空手回来，以为她后悔入坊。阿纾第一次站在全家面前说自己还没答应账坊，也不愿父亲替她交下钱。弟弟插话说来月仍想继续读书，母亲停下织机，问若女儿不进账坊，眼下给家里添的银钱从何来。阿纾说先试着替人刻小印，再把所得交一份家里；父亲提醒她摊主并未保证雇她。最终定金仍留在木匣里，父亲答应过两天再谈，叮嘱她别错过账坊的截止日。阿纾回屋把刻板藏到弟弟书箱后，知道自己赢得的只是暂缓，不是家中已经认可她的新路。\n父亲一时答不上来自己究竟想让女儿学会算账，还是想尽早多拿一份工钱，母亲便让来客先喝茶，免得争论当场变成签契。",
+    "chinese_characters": 539,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "账坊名额仅暂留，入坊定金未缴"
+      },
+      {
+        "item": "2",
+        "fact": "阿纾明确拒绝立即入账坊并倾向刻书"
+      },
+      {
+        "item": "3",
+        "fact": "刻书摊未承诺收徒及收入"
+      },
+      {
+        "item": "4",
+        "fact": "母亲织布是家庭主要收入，弟弟仍求学"
+      },
+      {
+        "item": "5",
+        "fact": "长辈计划暂缓，期限和家庭冲突未解决"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "method": {
+    "scene_one": "账坊师傅来孟家看徒弟，孟伯抢在女儿阿纾开口前说她已经愿意去。阿纾本想讲自己喜欢刻书，父亲却连着替她回答工时和识字程度。桌上入坊契纸还是空的，定金也没交；母亲在隔屋织布，弟弟抱着私塾书袋等人送他。阿纾把一小块刻字木板放到来客面前：“这是我自己做的。我想先学刻印，不想今天签账坊。”孟伯责备她不懂全家用度，阿纾说清她不愿弟弟因自己而辍学，也没有说刻字马上能赚钱。账坊师傅听完把契纸收回，说名额可以留到后日午前，却不会替她承认入坊。孟伯伸手想留契，师傅摇头，要求当事人自己说愿意才收钱。母亲听见吵声，放下梭子走进屋，先请师傅稍候，让女儿把话讲完。",
+    "scene_two": "第二场在街北刻书摊。阿纾拿出自己的试刻木板，老匠不肯收为正式学徒，只准她在收摊前旁看磨刀；木板的一个笔画还刻歪了。回家后孟伯把准备交定金的铜钱摆在桌边，问她是否真要赌这条没有师傅保证的路。阿纾当面把钱推还母亲，说暂时不签账坊，愿先试一个月刻书小活，若全无收入再重新议事；她没要父亲立刻同意这一期限。弟弟提出自己可以放学后替母亲捻线，母亲却拒绝让他为了姐姐放弃读书，让两人都先完成各自该做的事。孟伯把尚未签的契纸压在盒底，决定暂不去交定金，但说后日名额一过就未必能回来。阿纾没有笑，只把刻歪的木板放在机旁，准备先请母亲看看今天练出的字，母亲摸过粗糙的边角，什么好话也没说。\n母亲把桌上的铜钱重新放回织机旁的小匣，交代弟弟今日仍要去上学。孟伯没有点头，却也没有再叫人来催女儿立刻按手印。",
+    "chinese_characters": 556,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "账坊名额仅暂留，入坊定金未缴"
+      },
+      {
+        "item": "2",
+        "fact": "阿纾明确拒绝立即入账坊并倾向刻书"
+      },
+      {
+        "item": "3",
+        "fact": "刻书摊未承诺收徒及收入"
+      },
+      {
+        "item": "4",
+        "fact": "母亲织布是家庭主要收入，弟弟仍求学"
+      },
+      {
+        "item": "5",
+        "fact": "长辈计划暂缓，期限和家庭冲突未解决"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

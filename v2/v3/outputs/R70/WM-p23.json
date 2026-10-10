@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-21",
+  "candidate_id": "WM-p23",
+  "legacy_round": "R070",
+  "batch": "B069",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent authored both arms after seeing frozen task and method cards. True isolated baseline and external evaluator not established.",
+  "arm_parity_contract": "Exactly the same frozen situation, fixed facts, required story, 500-750 Han, 4+ ledger entries and S1-S5 rubric; only intended difference is candidate-only method card. Actual blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "测绘师闻涉多年后回乡，进酒馆避雨，刚坐下就听说书人唱他当年一人说服全县改修错路。酒客拍桌喝彩，吵着要他去听那段最精彩的桥头争辩。闻涉端着热茶没接话，等听到说书人让他独自识出河岸测错，终于开口问那两位先指出问题的工匠去了哪里。说书人愣了一下，说老人口耳相传，总得有一个响亮的名字才记得住。旁桌老人认出闻涉，既想让他纠错又怕毁了乡里爱听的故事。闻涉说自己后来确去过县署，但最早拦住放线的人并不是他；那两位工匠当年没留姓名，连谁先叫停也不容易证实。酒客有人信，有人说若真如此为何多年无人提。",
+    "scene_two": "散场后说书人带闻涉到后院，摊开写满改词的薄册，说若把两个无名工匠添进去，旧段子就不顺口，客人恐怕不肯再赏钱。闻涉没有逼他当夜改唱，只指出“全县立刻同意”也是夸词，那天争执拖得很久。说书人答县署档案若能查出别人，他肯添一段，不过也不会凭一个人的记忆把旧曲全推倒。闻涉想到旧账册仍在库房，便找当年的书吏后人询问借阅途径，对方只说库吏明日当值，能不能取出未可知。酒客听说有旧账，约了几人明日去看，想知道说书人的戏究竟添了多少。闻涉走出酒馆时雨还在下，墙上的旧修路图已被烟熏得模糊；他连那两位工匠的姓都不敢乱填，唯独决定亲眼去核一次记录。\n旧说书人听见有人怀疑他骗人，拍桌辩称自己只求听众入戏，不是办案的官吏；闻涉反而说正因为如此，才不能要求每个人照唱本记忆。",
+    "chinese_characters": 519,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "酒馆流传独角英雄叙述，但不等于当年事实"
+      },
+      {
+        "item": "2",
+        "fact": "两名匿名工匠先发现错误的事实仍须尊重"
+      },
+      {
+        "item": "3",
+        "fact": "说书人有收入与戏剧节奏诉求，未完全改词"
+      },
+      {
+        "item": "4",
+        "fact": "旧账册仍在库房，尚未调出核对"
+      },
+      {
+        "item": "5",
+        "fact": "当事人记忆与传闻均不可冒充档案"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "method": {
+    "scene_one": "外乡归来的测绘师闻涉刚踏进老酒馆，便听见说书人拍醒木，说十多年前修路争执，是闻涉一人看破错线，三句话说服全县。酒客跟着喝彩，掌柜又添了几盏灯。闻涉听到“无人敢反对”时，把杯子放下，问说书人为何不提当年先喊停工的两位工匠。说书人看他一眼，说这故事传了很多年，大家记得住主角，没人关心两个无名小匠是谁；他靠这段曲子引来茶钱，不愿让陌生人随便改词。闻涉说自己当日虽参与校图，却不是第一个发现错处的人，也没能力让所有人立刻点头。酒客有人不满，叫他拿证据，闻涉承认旧账册还在县库，但自己这次回来尚未调阅，不能把记忆当公文给人盖章。",
+    "scene_two": "翌晨说书人把闻涉请回酒馆，说愿听真正经历，却先声明曲子不是官修实录，不保证删去戏剧场面。闻涉摊开自己保存的旧草图，图上只标了一处需重测的路线，没有两名工匠的签名；这让他更不肯臆造他们的姓名。老酒客说当年似乎见过两人争吵，但年岁太久记不准，闻涉把这句话只记作待核回忆。说书人当场试唱了改过的一句，仍保留闻涉站在县衙前的场面，却加上“先有两名工匠拦线”，酒客反而争论得更响。说书人怕影响生意，决定先只改一折，等真账出现再决定如何排全戏。闻涉和掌柜一同去问库吏，库吏告知旧账册锁在库房，今日未获取阅手续；两人站在门外，只拿到申请的空纸。闻涉收起那张纸，发现争执如今又分成了另一件事：谁有权把一个好听的版本认作当年的全部事实。\n门房告诉闻涉旧库房最近换了钥匙，申请需两人核准，他便在空纸上写清所查年份，不把尚未看见的记录想成一定能证明自己的说法。",
+    "chinese_characters": 570,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "酒馆流传独角英雄叙述，但不等于当年事实"
+      },
+      {
+        "item": "2",
+        "fact": "两名匿名工匠先发现错误的事实仍须尊重"
+      },
+      {
+        "item": "3",
+        "fact": "说书人有收入与戏剧节奏诉求，未完全改词"
+      },
+      {
+        "item": "4",
+        "fact": "旧账册仍在库房，尚未调出核对"
+      },
+      {
+        "item": "5",
+        "fact": "当事人记忆与传闻均不可冒充档案"
+      }
+    ],
+    "unknowns": [
+      "Frozen scenario does not authorize invention of unresolved payments, permissions, losses or consent."
+    ],
+    "failure_risk_note": "Same-agent text may satisfy method criteria in baseline too; no actual independent blind isolation."
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}
