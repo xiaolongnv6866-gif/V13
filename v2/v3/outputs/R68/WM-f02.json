@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-02",
+  "candidate_id": "WM-f02",
+  "legacy_round": "R068",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "屋梁漏水落在青陶学舍的长桌上，叶沅抱来木盆，提议先挪贫童餐钱修瓦。募款还差七贯，他担心再下两场雨，桌案和书卷都留不住。霍音合上账册，指出那钱专供孩子开饭，不该拿来赌之后有人捐钱。叶沅说可先向饭铺赊，霍音问若饭铺不肯，明天学童怎么办。两人共同签过账，谁也不能独自改用途。争执正急，先生抱着被雨打湿的卷册进来，问明日还能不能开课。叶沅看见纸页黏在一起，声音低了些，决定先让霍音去问邻院借屋，自己等瓦匠报价。霍音答应去问，却不许他替她作主，说院主也可能拒绝。二人把餐钱的匣子仍锁在桌下，谁都没有拿走钥匙。",
+    "scene_two": "夜里霍音回来，邻院只肯借南屋一日，北屋堆放粮桶，不让学童进入。叶沅想再谈，却被霍音劝住，院主已经让出了能让的一间。瓦匠看过檐角，怀疑木条也坏了，费用暂不能确定。叶沅只得先在漏处搭油布，又赶着写一张募款帖。霍音拿过帖，看见上面仍写着“餐钱稍借”，就划掉，添上“修瓦缺七贯另募”。叶沅盯着划痕，没再争辩。清晨学童搬着矮凳去了邻院，先生坐在门边点人，屋顶的水暂时没有滴到他们头上。叶沅望着未修的瓦，担心借屋一过还得搬回来；霍音听见他的叹气，仍坚持不能拿孩子的饭换一张没有日期的修缮票。两人一道抬最后一只书箱，指尖碰到一起又各自松开。那个被移进南屋的小学童找不到自己的墨盒，叶沅最后在旧教室一只湿桌脚下寻到了它。霍音帮忙擦干，二人没有交换一句好听的和解话，却照旧把墨盒送还了孩子。",
+    "chinese_characters": 523,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "餐钱没有挪用"
+      },
+      {
+        "item": "2",
+        "fact": "修瓦缺七贯，估价未知"
+      },
+      {
+        "item": "3",
+        "fact": "邻院仅借南屋一日"
+      },
+      {
+        "item": "4",
+        "fact": "课暂迁走，屋顶未修"
+      },
+      {
+        "item": "5",
+        "fact": "双方意见未统一"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "叶沅将接水的盆推到屋梁下，主张先用贫童餐钱垫修瓦费。他惦念的是学舍一旦停课，后续募款就更难；尚缺七贯的账数让他焦躁。霍音把共同签过名的餐钱簿翻开，指出孩子明日就要吃饭，挪去的银钱若迟迟不回，受影响的不是屋瓦，而是来上课的人。叶沅伸手摸钱匣的锁，霍音压住他的手：“你能担保哪天补？若不能，我不能签。”叶沅说不出日期，仍想赶紧行动。先生抱着湿书来问能否借邻院教一天，两人这才各自退一步：今日不动餐钱，叶沅去问瓦匠急修费用，霍音去试借屋，没人许诺修屋已获钱款。叶沅虽同意暂定安排，却把自己的垫钱草条留在袖中。",
+    "scene_two": "霍音来到邻院，院主不肯借北屋，因为粮桶还在里面；她自行答应仅借南屋，并允明日下午前清退课案。叶沅带瓦匠赶到，发现南屋无法放进原来的长桌，便请先生按次序搬矮凳。瓦匠说需查看檐下木条才能定价，七贯缺口还未补。夜间叶沅写募款帖，想保留“紧急时可暂借饭钱”一句，霍音当面划去，改成“餐钱封存，修瓦另募”，才同意在帖上署名。叶沅最后没有坚持，但把划过的草稿折进账簿，觉得老友当众驳他伤了情面。次晨学童在南屋读书，旧饭铺仍送粥，院主却提醒借屋仅有一天。霍音将门钥匙放到叶沅面前，说眼下这一步已经做了，不代表她以后会同意挪餐钱。叶沅点头，却把账簿合得比平日重。两人当日合作，信任债却没有一笔勾销。借屋的院主还担心学童弄坏自己的凳脚，霍音亲自拿出账册记下借用件数，叶沅则去找一根绳索把摇晃的桌腿系紧。他们在这些小事上依旧可以互相帮忙。",
+    "chinese_characters": 546,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "餐钱依旧按原用途封存"
+      },
+      {
+        "item": "2",
+        "fact": "新增修缮募款未到账"
+      },
+      {
+        "item": "3",
+        "fact": "南屋借用仅一日"
+      },
+      {
+        "item": "4",
+        "fact": "瓦工报价未出"
+      },
+      {
+        "item": "5",
+        "fact": "暂时合作，不代表伦理分歧消失"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

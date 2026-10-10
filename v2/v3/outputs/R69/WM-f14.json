@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-09",
+  "candidate_id": "WM-f14",
+  "legacy_round": "R069",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "石门绣坊扩建的告示贴在院门外，户长带人围着新屋量木架，兴致很高。他告诉来访商队，若女儿随队去外县学艺，将来坊里能多出新绣样。商队三日后启程，领队催他尽早答复。女儿在侧房替弟弟缝书袋，听见父亲把自己的行程说得像已经定下，放下针走出来，说弟弟下月才入学，如今家里还要有人照料，她并未答应走。父亲说修路新政让商路更好走，这是机会，她反问商路通畅与家里谁给弟弟备饭有什么关系。领队看见父女僵持，没有立刻收她做学徒的名帖，只说三日内来答即可。扩建的木架还在立，家里的决定却没有随着木架一起架好。",
+    "scene_two": "当晚女儿把家中米罐和弟弟要带的书册摊在桌上，算起下月入学前谁能替弟弟管饭。父亲觉得她把机会看得太小，女儿却说自己学艺也不只靠离家，还能向坊里一名年长绣师求教。父亲担心这样学不到外县的新式花样，提出等商队离开后请领队留几张样稿。女儿没有马上答应，她想先问绣师是否愿意教。第二日坊外施工声不断，木料按时送到一半，却有一道墙因测量不合需要重画。父亲忙着修正扩建图，女儿独自去找绣师谈了半个时辰。绣师愿让她看一幅旧样，却不能保证每月都有空。商队仍三日后走，父亲没有再在告示上写女儿的名字，坊里扩建与家中照看弟弟两件事各自有了新的难题。女儿回家把商队领队留的名帖放在针线筐底，既没撕也没交。父亲见了没有再伸手去拿，只问绣坊木料明日能否照时送达，家里的安静显得比早上的争执更难熬。",
+    "chinese_characters": 530,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "扩建告示发布但木架仍需重测"
+      },
+      {
+        "item": "2",
+        "fact": "商队三日后启程"
+      },
+      {
+        "item": "3",
+        "fact": "弟弟下月入学"
+      },
+      {
+        "item": "4",
+        "fact": "女儿未确定离家"
+      },
+      {
+        "item": "5",
+        "fact": "老绣师仅愿暂借旧样"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "石门绣坊院门外，户长揭下旧招牌，贴上扩建告示，来往商人赞工坊会越做越大。他趁人多，说女儿准备随三日后启程的大商队去外县学艺，回来便有新绣样。女儿听见自己被算进扩建计划，抱着给弟弟缝的书袋走到门前，明确说尚未同意。弟弟下月才入学，如今她每日照看吃饭和认字，若立即离家，谁接手这些事没有安排。父亲拿修路新政为由，说商道通便正好走，女儿回他：“路通不等于家里有人了。”领队见状收回预备登记的名帖，约定三日内等本人答复。坊内木架已经搭起，扩建计划照常推进；女儿是否随队，则仍是她可以拒绝的一道选择。",
+    "scene_two": "夜里父女没有继续为修路争吵，女儿拿出弟弟下月入学要用的书袋和饭碗，逐项问父亲谁能接手。父亲试探请邻婶帮几日，女儿说几日不是一整月，且邻婶并未同意。她另提出去问坊里的老绣师能否教花样，保留不随队的学习路子。次日父亲忙着处理扩建木架长度不合的返工，木匠来报需再量一遍；女儿则自行去问老绣师，得到允许旁观一次，却没有得到长期收徒的承诺。傍晚父亲把商队名帖还给女儿，请她自己决定交不交。弟弟听说商队要走，拉着她问自己的书袋还缝不缝，她说今晚会缝完，但三日后的去留仍在考虑。工坊墙基已立，女儿的路却不由墙基决定；修路政策也没有替她解决家中照护。父亲在扩建账上写下木料返工的时辰，女儿则在另一张纸上记弟弟入学前要买的文具。两张纸都摆在饭桌上，谁也没有再用对方的责任替自己作结论。",
+    "chinese_characters": 526,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "工坊扩建继续且有返工"
+      },
+      {
+        "item": "2",
+        "fact": "女儿保留明确拒绝权"
+      },
+      {
+        "item": "3",
+        "fact": "商队三日后离开未改"
+      },
+      {
+        "item": "4",
+        "fact": "弟弟照看责任尚未转移"
+      },
+      {
+        "item": "5",
+        "fact": "师徒关系尚非长期承诺"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

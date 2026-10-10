@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-01",
+  "candidate_id": "WM-f01",
+  "legacy_round": "R068",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "顾岑把临摹的水渠图抱在怀里，在堤务署门前站了许久。客栈的房钱只够再住两夜，他想凭绘图本领寻个差事。门房先问旧铺保状，顾岑展开画卷，说能看出几道渠线画错了。门房也承认他笔下清楚，却坚持没有保状不能放人进去。隔街香料商看见争执，愿意写荐名，但坦言没有替旧铺担保的资格。顾岑问，能否先在署里搬纸箱，门房指着廊下几只潮箱，说要等管事回来才知道有没有工钱。顾岑仍不愿离开，把卷轴放到屋檐下，想等管事亲自看一眼。香料商催他先去吃饭，免得空着肚子等到日落。顾岑看着画纸湿了一角，只得随商人先回铺中写荐纸。",
+    "scene_two": "午后荐纸写好，顾岑回到署门，门房让他把姓名填在访客册末页。管事回来，允许他先将潮纸箱搬到干处，但工钱须等库房清点，不能当场给数。顾岑搬完三箱，听见库吏开图纸柜，便请求借原图对一段弯道。库吏把钥匙握在手心，说这柜从未许陌生人取图；若顾岑确有疑问，可以当面看一页，不能带走。顾岑伏在柜前辨了片刻，只发现两条墨线不合，旧图又被收回。门房劝他别急，等有了旧铺保状再来求正式名分。黄昏时客栈伙计来问房钱，顾岑只说工钱尚未核清，不敢许明天就能交付。他把商人的荐纸折好，决定先替店家绘招牌抵些住宿钱，然而掌柜是否愿意，仍要明日才知道。当天他搬过箱，见过原图，却没有入署任职。门房把那页名册压到桌角，叮嘱他下次来时带上商人的原荐纸，别让雨水把字迹洗掉。顾岑应声，走了几步又折回，把今日搬运的箱数问清，才愿离开。",
+    "chinese_characters": 532,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "荐名已递但无旧铺保状"
+      },
+      {
+        "item": "2",
+        "fact": "顾岑只列访客而非雇员"
+      },
+      {
+        "item": "3",
+        "fact": "已搬三箱，工钱未定"
+      },
+      {
+        "item": "4",
+        "fact": "图柜钥匙仍归库吏"
+      },
+      {
+        "item": "5",
+        "fact": "客栈是否接受画图抵租待定"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "顾岑离开客栈前又数了一遍铜钱，余钱最多住两夜。他带着水渠图求见堤务署管事，门房看过画上的尺寸，认他确会临图，却提出必须有旧铺保状。顾岑说隔街香料商愿荐名，门房解释商人只能说明认识他，不能替旧铺承担保状责任。香料商被请来后也没有顺着顾岑撒谎，只写自己亲见他绘图工整。顾岑恳求至少允许搬纸箱，门房指了指廊下的旧簿，说要管事同意才有活，谁能付工钱也不由门房决定。顾岑把荐纸放在胸前，暂在屋檐下等。香料商惦念铺里卸货，告辞时还提醒他，别因为急缺房钱就把一句好话当成正式差事。顾岑没反驳，只把旧图上的几处疑点抄在另一张纸上。",
+    "scene_two": "第二天管事看过荐纸，准顾岑搬三箱潮纸，条件是每箱都由值守员点过；正式差事仍须旧铺保状，工钱也得等清点。顾岑搬到图柜旁，听库吏说旧图中有河湾卷，便提出当面核线。库吏握住钥匙，说管事的搬箱许可并不包含取图权；他可以翻开一页，但不会交出原件。顾岑只得隔着柜沿看，发现两条墨线有差别，写成问题纸条请库吏留存。库吏允夹纸条，却拒绝当场改图，因为原图何时测绘还没查明。门房在访客簿记下三箱潮纸，依旧不在雇员册盖章。黄昏客栈店主催租，顾岑把尚未确定的工钱与借图结果如实说明，请店主明天看看自己新绘的铺面图，能否抵一晚房钱。店主没有立刻点头。顾岑在油灯下磨墨，明白次日还要分别等店主、管事与库吏的答复。客栈掌柜让他别在案桌上乱试昂贵的朱砂，先用自己的廉价墨做样。顾岑把剩下的线条画得格外小心，因为这一次连纸张都不能再轻易耗费。",
+    "chinese_characters": 558,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "房费只够两晚，续住未知"
+      },
+      {
+        "item": "2",
+        "fact": "商人只作有限荐名"
+      },
+      {
+        "item": "3",
+        "fact": "搬箱许可不含雇佣或工钱"
+      },
+      {
+        "item": "4",
+        "fact": "当面翻图不等于取走原图"
+      },
+      {
+        "item": "5",
+        "fact": "图线差异及住宿抵租仍待核验"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

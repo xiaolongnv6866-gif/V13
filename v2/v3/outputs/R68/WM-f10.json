@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-06",
+  "candidate_id": "WM-f10",
+  "legacy_round": "R068",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "谷仓被水泡过后，镇上的表彰宴仍按期摆开。主持人让人擦亮银牌，准备奖给抢出账册的人，奖银只有八贯，帮工名单上却有三人。磨坊主带着妻儿站在门外，手里攥着失去两季储粮的旧账，要求至少先给家人今日的口粮。主持人想把他家损失添在英雄事迹的附注里，磨坊主当场拒绝：“那是我家吃饭的事，不是旁人的功劳。”帮工里有一人听见，放下酒盏，愿替他把诉求递进去，另一人担心会搅乱宴席。主持人只好宣布先核对三人获奖资格，银牌暂未颁出，同时请账房登记磨坊主今日的求粮请求，至于赔偿从哪笔钱出，他没给答案。",
+    "scene_two": "午后账房带着登记纸来到磨坊，发现仓水退去，磨石周围仍是湿泥。磨坊主说今日借粮可让孩子吃上饭，但两季储粮损失并非一顿饭能抵销。账房带来的是求粮回条，没有赔偿批文，磨坊主看得明白，拒绝让妻子在“已结清”一栏按手印。回到会馆，主持人按名单重新询问三个帮工各自做过什么，决定先给确有见证的一人颁牌，其他两人的奖银等查清再议。席上有人责怪磨坊主坏了喜气，磨坊主却早离开去寻今日能赊米的店家。夜里会馆仍挂着庆功红布，磨坊窗上新糊的纸被潮气顶出一角。妻子告诉磨坊主米铺愿赊一天，往后怎么过还不知道。磨坊主的儿子看见酒楼贴着奖功的告示，问为什么上面没有自己家的名字。磨坊主没有去撕告示，只叫儿子先提好借来的米袋，明早还得去看被水浸坏的磨石。",
+    "chinese_characters": 500,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "奖银八贯未全部分配"
+      },
+      {
+        "item": "2",
+        "fact": "三个帮工须核功"
+      },
+      {
+        "item": "3",
+        "fact": "家户两季粮损失未核赔"
+      },
+      {
+        "item": "4",
+        "fact": "当日借米一天不等于补偿"
+      },
+      {
+        "item": "5",
+        "fact": "颁奖与生计各有后果"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "表彰宴上，主持人把银牌放在案头，称抢出账册的帮工值得记功，奖银共八贯，却有三人列名。磨坊主携妻儿在门外要求当日能领到口粮，因为仓水毁了他家两季储粮。主持人试图把损失写进抢救账册的英雄附注，磨坊主不肯：“我的粮没了，不是你们奖词里的景色。”一名帮工听见后停下试穿礼袍，主动请求先核谁参加了抢救，不愿让未核人数分掉已定奖银；另一人觉得他不该当众提争议。主持人最终只答应把奖功与求粮分成两份单独登记，不能承诺用奖银赔家户的损失。宴席开始，门外的一家人仍没有米，前厅的奖牌也还没有交到任何人手中。",
+    "scene_two": "第二场在磨坊。账房按求粮登记来核损，却只能看到空仓和湿泥，无法凭这一趟认定两季粮的确数。磨坊主的妻子先问今日是否能在公仓领一点粮，账房说粮要待另一个管仓人清点，自己只有收取诉求的权利。磨坊主拒绝在写着“已获补偿”的条子上按手印，改让账房记下只是受理。与此同时，会馆里主持人核对三名帮工的证人名单，先颁给有证据的一人银牌，其余功劳留待查证，八贯奖银也未全数分发。席间有人问既然救出账册，百姓是否都应感恩，负责端茶的少年答自己家也在找米，没人再问他。傍晚磨坊妻子到米铺争得一天赊米，仍不知第二日的粮从哪里来。磨坊主望见街头新挂的庆功灯笼，没有走去摘它，只把借粮纸重新折进袖里。负责端茶的少年把听见的求粮消息带回家，说有人在会馆为一块银牌争论了一下午。他母亲只问粮仓明早开不开，少年也回答不上来，恰好留下了另一个需要核实的民间问题。",
+    "chinese_characters": 555,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "功劳与家户损失分两本账"
+      },
+      {
+        "item": "2",
+        "fact": "银牌只授有证的一人"
+      },
+      {
+        "item": "3",
+        "fact": "八贯奖银尚未全数支付"
+      },
+      {
+        "item": "4",
+        "fact": "求粮诉求受理未批准赔偿"
+      },
+      {
+        "item": "5",
+        "fact": "磨坊家庭只争得一天赊米"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

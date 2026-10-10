@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-04",
+  "candidate_id": "WM-f06",
+  "legacy_round": "R068",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "修湖议事厅里，测量员沈陆摊开两份图报，一份说先开西闸可减水压，另一份却标明东岸民舍更危险。监理听完，将写着“先护东岸住户”的木牌竖在桌边，宣布按这个次序议办。沈陆抢着解释西闸若不开可能误了水位，监理问他为何两份测报矛盾，沈陆答说观测时段不同，还须复查。席间有人喊着先备工料，账房提醒经费尚未批下，不能随便招匠人。沈陆不甘心，想让另一名吏员替他呈上西闸图。吏员却说监理的公开决定还在墙上，擅自照图动工只会留下更多争议。沈陆卷起图纸，要求至少准他把东岸原有水痕再查一次；监理同意登记问题，却未批准改动工程次序。",
+    "scene_two": "次日沈陆赶到东岸，带着一名记数的青年寻找旧水痕。他们只用线绳量了几处门槛，没有请人搬动闸具，也没私下雇工。几户人家来问昨日宣布是否意味着马上发修房钱，沈陆说只定了优先护东的方向，拨款还没批下。有人抱怨官里空说，他没有代监理答应期限，只请住户把可见的水痕标出来。返回议事厅后，他把西闸图另置桌角，在新纸上列出两份报告差异，请监理决定要不要复测。监理看过，要求先把东岸登记补齐，不批准他自行开西闸。沈陆放下笔，想到自己最初的方案仍可能有理，却拿不出消除矛盾的数据。窗外有住户等着询问下一步，管事拿着未批的经费单也正走上石阶，沈陆只好留在原处继续解释。青年记数人提出先把两份报告的日期列在同一页，沈陆同意，让他保留其中空白的一格。沈陆离开时没有带走闸房钥匙，也没有对住户说第二天就能开工。",
+    "chinese_characters": 541,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "公开决定先护东岸"
+      },
+      {
+        "item": "2",
+        "fact": "西闸方案未获批准"
+      },
+      {
+        "item": "3",
+        "fact": "两测报矛盾待复核"
+      },
+      {
+        "item": "4",
+        "fact": "经费仍未批准"
+      },
+      {
+        "item": "5",
+        "fact": "只能合法登记与测量"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "州县修湖议事上，沈陆把两份互相冲突的测报并放在监理面前，坚持先开西闸。监理问他两张纸为何写出不同水位，沈陆承认观测时日不一，尚无复核记录。监理没有让争论继续空转，当众宣布先护东岸住户，西闸建议暂不采纳。沈陆的手停在图纸上，他原想带队查闸，听到决定后只问自己还能做什么。账房提示经费尚未批下，任何工程开支都不能凭厅上的一句好话出账。监理让他先整理互相矛盾的水位记录并记录东岸所见，明确没有许他擅动西闸。沈陆转向原本帮他说话的吏员，对方也承认公开决定已经生效，只能先把异议归档。他收起西闸图时动作很慢，但没有撕毁图纸。",
+    "scene_two": "翌日沈陆走到东岸，先问住户是否愿他在门槛旁核对旧水痕。一位老妇拒绝让陌生人进屋，他便在院外记录她指出的水线，没有强行测屋内。随行青年提出旧纸上还缺一处日期，沈陆将那格空着，不把昨天的推断写成确定。他请书吏代传复核申请，却不让书吏替监理签章。回厅后，监理重申优先护东的决定未变，查看了新记录，允许继续核数但不拨工程款，因为批文尚未到手。沈陆当场划出自己可以执行的查证事项，把“开西闸”保留为被否提议。他知道住户已经听到先护东岸的承诺，然而何日能得到材料仍无人可答。廊下有人问西闸究竟危险不危险，他没有用尚未核实的另一份报告下定论，只表示复核结果出来后会公开说明。一名年轻住户指着门槛问，若复核仍不一致该怎么办。沈陆说仍应把差处如实上报，不能为让人人安心就在报告上任意填一个数；那年轻人听完却显得更不放心。",
+    "chinese_characters": 558,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "西闸建议被公开否决"
+      },
+      {
+        "item": "2",
+        "fact": "东岸优先方向已定但未开工"
+      },
+      {
+        "item": "3",
+        "fact": "两份报告冲突未消除"
+      },
+      {
+        "item": "4",
+        "fact": "查证记录被允许，动工未授权"
+      },
+      {
+        "item": "5",
+        "fact": "经费批准仍待上级"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

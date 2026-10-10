@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-10",
+  "candidate_id": "WM-p01",
+  "legacy_round": "R069",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "修井义卖收摊后，凌亭把秤和布篷收进木箱，搭档捧着两贯余款找来，想分给她一份。凌亭把银钱推回，说自己只是借了场地，没有答应参与售卖。搭档以为她嫌数少，急忙说愿多给些，凌亭却拿出最初借场地的纸条，指着上面仅写的借用时日。搭档的告示已经写好，打算署上两人的名字，让捐款者知道这场义卖有人一起操办。凌亭看了告示，说署她的名便会让别人以为她经手货款，她既没有清点也没有监督，不能同意。搭档不满，说少一个名字可能让人觉得义卖无凭，她只答借地是真，合伙卖货不是。告示还没贴，两人先把纸折回摊布里，各自收拾东西。",
+    "scene_two": "次日搭档带着改过的告示再来，删了凌亭的分成，却保留她曾借场地一行。凌亭读了，愿让“借场地”三个字留下，但不同意在落款处签名。搭档担心义卖余款无人信，决定自己去请真正记账的人核对两贯，并让那人署名。他没有让凌亭代他办账，也没有因为她拒绝而取消公开。傍晚告示贴在井边，围观者问凌亭为何不收钱，她说钱是不是自己挣的，要看做过什么；搭档在旁说记录稍后由记账者补齐。有人夸凌亭清高，也有人觉得她小题大做。凌亭不愿再争论，转身去收昨天忘在井边的木杆。她仍愿下次借场地给乡邻，可是否参与下一次售卖，要等有人把事项说清。贴榜的人走开后，搭档重新数了钱匣中的两贯，发现自己还需找到实际经手人补齐昨日的零散货单。他这才明白凌亭不签名，不只是不给他面子，也给账目留下必须回答的问题。",
+    "chinese_characters": 522,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "凌亭只曾出借场地"
+      },
+      {
+        "item": "2",
+        "fact": "两贯余款待真实经手人核对"
+      },
+      {
+        "item": "3",
+        "fact": "拒收收益并非参与交易"
+      },
+      {
+        "item": "4",
+        "fact": "告示经修改并由搭档负责"
+      },
+      {
+        "item": "5",
+        "fact": "下一次借地须另谈"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "修井义卖结束时，搭档递来两贯余款中的一份，说凌亭也是合办人。凌亭没接，反把最初的借场地纸条平铺在摊上：“我答应你们在这里卖货，没有答应替你们决定卖什么，更没看过银钱。”搭档说如果她不要钱，至少让大家知道她支持义卖。他掏出已写好却未贴的告示，落款列着两人名字。凌亭指住自己的名字，要求删去，因为落款会使未到场的人误认为她同意全部交易。搭档脸色发白，担心别人据此怀疑他私吞了两贯。凌亭没有把他当贼，只说拒收收益、允许借场地与同意经营是三件事。搭档最终先把告示收回，没有替她签名，也未把银钱扔在她摊上。",
+    "scene_two": "第二天搭档在井边把告示重新展开，删去“共同义卖”，改写“凌亭出借场地，售卖与收支由某某负责”，却仍想在落款添她名字。凌亭读完明确拒签，只允保留事实陈述。搭档衡量一会儿，决定自己署名张贴，并去请实际管账者核对余款两贯，承受别人对他单独负责的追问。有人路过指责凌亭不领情，她没有顺势认下经营身份，只把前一晚借给义卖的木桌收回。搭档看见木桌搬走，知道下次再借得重新说好时限，于是另寻收摊地点。他的两贯仍在钱匣，待账房核对，不因凌亭拒收就能任意分掉。井边告示虽然贴了，乡邻怎样理解、下一次凌亭愿不愿再借地方，还须由后来行动决定。搭档把钱匣重新上锁，心里仍怨凌亭不肯顾全场面，却也没有偷偷在告示上添回她的名字。隔壁摊贩问义卖是否下次还办，他说场地必须再借，今日不能替别人答应。",
+    "chinese_characters": 522,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "凌亭拒收钱也拒签合办名"
+      },
+      {
+        "item": "2",
+        "fact": "搭档自行决定张贴修订告示"
+      },
+      {
+        "item": "3",
+        "fact": "两贯余款仍待核对"
+      },
+      {
+        "item": "4",
+        "fact": "出借场地不构成售卖授权"
+      },
+      {
+        "item": "5",
+        "fact": "日后合作关系未预先确认"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

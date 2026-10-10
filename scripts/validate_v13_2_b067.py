@@ -29,9 +29,9 @@ assert_ok(Counter(x["book"] for x in cases)=={"wanming":21,"tiexuecanming":26},"
 assert_ok(len(extra)==len({x["candidate_id"] for x in extra})==22,"22 exact extra")
 assert_ok(Counter(x["route_batch"] for x in extra)=={"B073":10,"B074":12},"10+12 extras")
 assert_ok(set(x["candidate_id"] for x in extra).isdisjoint(x["candidate_id"] for x in cases),"additional must be separate")
-assert_ok(d["preregistered_not_results"] and state["v3_original_47_completed"]==0,"V3 must be 0/47")
-assert_ok(state["current_batch"] in ("B067","B068"),"only expected current batch")
-assert_ok(state["overall_management_units_completed"] in (66,67),"do not jump ahead")
+assert_ok(d["preregistered_not_results"] and 0 <= state["v3_original_47_completed"] <= 47,"frozen V3 prereg preserved with bounded progress")
+assert_ok(state["current_batch"] in tuple(f'B{i:03d}' for i in range(67,97)),"V13.2 execution batch valid")
+assert_ok(66 <= state["overall_management_units_completed"] <= 96,"administrative range valid")
 assert_ok(v2["rounds_completed"]==66,"historical 66 unchanged")
 for x in cases:
     id=x["candidate_id"]
@@ -47,5 +47,6 @@ for x in cases:
     assert_ok(x["evaluation"]["outcome"]=="NOT_TESTED" and x["evaluation"]["arm_outputs"]=="NOT_CREATED",id+" no future outputs")
     assert_ok(x["evaluation"]["independent_judge_available"]=="NOT_ESTABLISHED",id+" no fake judges")
     assert_ok(x["test_id"] and x["candidate_title"] and x["hypothesis"],id+" test completeness")
-assert_ok(not (ROOT/"v2/v3/outputs").exists() and not (ROOT/"v2/v3/results").exists(),"B067 cannot generate experiment outputs")
-print("B067 PREREG STRUCTURE PASS: 47/47, WM21 TX26, batches 11+10+9+9+8, extras WM10 TX12, 0 V3 outputs; only structural validation")
+if state["v3_original_47_completed"] == 0:
+    assert_ok(not (ROOT/"v2/v3/outputs").exists() and not (ROOT/"v2/v3/results").exists(),"before B068, no V3 tests")
+print("B067 PREREG INVARIANTS PASS: frozen 47/47 contracts, WM21 TX26, 11+10+9+9+8, extras22. Rolling V3 outputs are checked by their own batch workflows; this is not literary certification.")

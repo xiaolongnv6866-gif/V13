@@ -1,0 +1,15 @@
+name: V13.2 B068 actual paired output audit
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  validate-b068-raw-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify 11 paired raw outputs and independent limitation labels
+        run: python scripts/validate_v13_2_b068.py

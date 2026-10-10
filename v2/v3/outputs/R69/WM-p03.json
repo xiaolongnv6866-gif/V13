@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-11",
+  "candidate_id": "WM-p03",
+  "legacy_round": "R069",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "沼泽邮驿贴出征募誊写员的告示，宁望读了两遍，觉得自己识字够用，便主动问招募者能否去试。招募者说驿站有固定餐宿，问他愿不愿在名册留下姓名。宁望想到家里平日供他读书不易，先说愿意，但很快追问每月能否回来探亲。招募者翻看手中的纸，只说还没有写定这项规矩，路程也须等驿站派人领去才能知道。宁望不愿马上按指印，请人把自己列作“有意询问”，而非已经应募。同行少年笑他胆小，他没有争辩，只说母亲尚不知道这会是长时间离乡的工作。招募者答应第二日查问行程，未保证一定有探亲假。宁望拿着空白名帖回家，路过桥头时一直在想怎么开口。",
+    "scene_two": "回家后母亲正在补破衣，听说邮驿招人，先问工钱和离家多久。宁望说只知有饭吃有地方睡，其余尚无定数。母亲没有斥他妄想，只说妹妹病后仍需人每日送药，如果离开，必须先找好谁代做；她愿等他去问清楚，但不愿在全无路程消息时替他答应。翌晨宁望带着两条写在纸角的问题回到征募处，招募者这才意识到名册空着的栏太多，答应向上问月休与路程，暂不登记正式录用。宁望和母亲另约好，若能每月返家再讨论，若不能就考虑留镇找抄写活。母亲把他外出的布包放在柜上，没有拆也没有交给他。今日他们只知道自己要问什么，尚未知道邮驿会怎样答。妹妹坐在门槛上问哥哥何时会回来，宁望听完一时答不上，只说得等招募者弄清楚路程和月休。母亲让他别随便许诺，将名帖压在茶碗下，留待明日拿回来对照。",
+    "chinese_characters": 522,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "宁望初表达意愿但未正式应募"
+      },
+      {
+        "item": "2",
+        "fact": "有固定餐宿但探亲与路程未定"
+      },
+      {
+        "item": "3",
+        "fact": "母亲提出接替取药的实际条件"
+      },
+      {
+        "item": "4",
+        "fact": "主管未答复月休问题"
+      },
+      {
+        "item": "5",
+        "fact": "家庭尚未同意长途离乡"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "宁望在沼泽邮驿告示前站着，听招募者说誊写员有固定餐宿，便说愿去试做。他想靠识字减轻家中负担，却没有问清离乡时日。招募者递来名帖，宁望想到母亲尚不知要长期离家，忽然停笔，问每月能否探亲、从镇上走到驿站需几日。招募者承认告示没有这些内容，不能代主管保证，只能说饭宿已经列明。宁望把已写的姓名划到“询问”栏，拒绝在正式应募处按印。旁边的少年笑他拖泥带水，他举起那张没有填满的纸，说连路要走多久都不知，今日答应便不是自己真正懂了代价。招募者让他次日来问回音，没有把这段谈话算作录用。",
+    "scene_two": "宁望回到家，把名帖和告示内容摊在桌上。母亲听见“长时间离乡”，先问谁照顾家里的妹妹，妹妹近日虽能起身，取药仍靠宁望。宁望说已知邮驿供餐宿，却不知道路程，也不知道月休，不能声称一定能回。母亲没有直接替他拒绝，而是提出新条件：若要走，得先确认探亲能否实行，再找到可靠人接替取药，并且让她见过真正的工作地点说明。第二天宁望带着问题回到征募处，招募者尚未从主管处拿到答复，只肯收下疑问条。宁望决定继续候问，同时留意镇上是否有短期抄写差事，不将自己当成已经入职。母亲在门边叠起出行布包，告诉他行李可以先准备，是否带走要等他们共同核对这些未知。他点头时虽有些失落，却终于知道自己究竟在等什么。宁望把那张未签的名帖收进书袋，与平日练习的抄字纸分开。母亲提醒他，即使邮驿后来允许回家，也还须确认路上费时多久；他答应下次要问得具体一些。",
+    "chinese_characters": 538,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "学徒暂列询问者不是录用者"
+      },
+      {
+        "item": "2",
+        "fact": "已知餐宿不代表知晓探亲路程"
+      },
+      {
+        "item": "3",
+        "fact": "母亲要求核实接替照护"
+      },
+      {
+        "item": "4",
+        "fact": "招募者不能代主管许假"
+      },
+      {
+        "item": "5",
+        "fact": "宁望暂不按印，下一步等答复"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

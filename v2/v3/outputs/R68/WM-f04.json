@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-03",
+  "candidate_id": "WM-f04",
+  "legacy_round": "R068",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "阿梅把槐湾布庄三十匹祭布的预订单放在柜台上，追问谭宿下旬的钱能否提前取出。染料商今日来催，钱匣里却凑不够，她一说到这里便放低了声音。谭宿拿出无印的兑款单，说行会惯常不会失信，但今日无法替她提银。傅漪愿给六贯现钱，却要求交货时先挑上等布。阿梅担心祭布被选走就无法凑齐三十匹，提出另拿几匹素布交付。傅漪听完摇头，说自己买的就是上等货，何必要替她周转。谭宿也不肯代行会答应更改祭布数量。店门外催债的染料商敲了两回门板，阿梅仍没在两份新纸上落笔。她约两人明日先到渡头看染料船，再议货能否拆分，今夜暂时没有成交。",
+    "scene_two": "次日渡头风急，装染料的船还停在对岸。船夫不肯保证午前能渡，阿梅知道就算现在拿到钱，也不一定能当日开染。谭宿带着仍未盖印的兑单来，说或许下午会有消息，催她相信行会。傅漪随即捧出六贯，却坚持先挑一部分上品，阿梅怕误祭布订单，不肯把货先交。傅漪也不愿放弃条件，把银钱收回，走向另一家布铺。谭宿想追上说合，阿梅拦住他：“她有自己的买卖，你替不得她。”她回铺在账上分别记下行会下旬预计、六贯未收、染料未到，又盘点架上的素布，核对哪些尚能换染。染料商听见她仍无现银，说明日再来，不肯写新的赊账条。阿梅坐在织机旁听着梭声，觉得这笔订单暂时还不能算是养活全家的一笔进款。回到门前时，一名小徒问织机为什么迟迟不换经线。阿梅没有告诉他行会一定会付钱，只让他把未染的布逐匹记数，免得明日有人把计划中的货当成已经可卖的成品。",
+    "chinese_characters": 544,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "三十匹祭布预订单存在"
+      },
+      {
+        "item": "2",
+        "fact": "行会款下旬承诺未到"
+      },
+      {
+        "item": "3",
+        "fact": "傅漪六贯未实际交付"
+      },
+      {
+        "item": "4",
+        "fact": "染料滞在对岸"
+      },
+      {
+        "item": "5",
+        "fact": "货品交割仍待决定"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "阿梅把预订三十匹祭布的纸压在染料账下，让谭宿重新看清下旬付款四个字。谭宿虽然有兑款单，但印还没盖，也不能拿出今日可用的银钱。她问：“你说行会一定会给，现在谁能把银交给染料商？”谭宿承认自己只能催印，没有取款权。傅漪愿先给六贯，条件却是交货时先挑部分上等布。阿梅想顾全祭布订单，提出先看样布再决定是否让傅漪挑；傅漪说她的六贯要换选择权，若无选择权就去别家。三人都不肯替对方作决定，阿梅于是只提议次日渡头看染料能否到岸，再续谈货品和钱的交割。谭宿收回未盖印单据，傅漪收回六贯，阿梅在账上都记作未收，而不是现钱。",
+    "scene_two": "风停得迟，染料船仍滞在河对岸。船家解释船能否靠岸要看水面，不愿许诺今日必达。阿梅将白布锁进箱中，没按尚未到的染料安排开染日期。傅漪在渡头提出愿立刻点出六贯，仍要求先挑好布，阿梅让她看样布，却明确不能当场带走祭布。傅漪看过便说要去另一家比较，六贯始终没有离手。谭宿见交易将散，强调行会三十匹的预订单还在；阿梅请他回去催盖印，拒绝把他的好意当成到账。入夜她写下三栏：下旬行会允诺、未盖印兑单；傅漪的报价六贯、未成交；染料在对岸、实物未到。染料商再次来问今日能否付款，她没有谎称已收到行会的钱，只请对方等次日船讯再议。阿梅不知道傅漪会不会回来，也不知道行会会否盖印，却清楚今夜钱匣里没有那六贯。她将两张纸压在秤旁，留着给第二天来催账的人看。小徒问她是否还要熬夜赶织，她摇头，说没有确定染料和货款，连夜赶工也只会多压一堆暂时交不出去的素布。",
+    "chinese_characters": 559,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "行会未盖印单不具现银效果"
+      },
+      {
+        "item": "2",
+        "fact": "谭宿只有催办承诺"
+      },
+      {
+        "item": "3",
+        "fact": "傅漪六贯附挑货条件，仍未支付"
+      },
+      {
+        "item": "4",
+        "fact": "染料实物未到"
+      },
+      {
+        "item": "5",
+        "fact": "阿梅没有用预计款记现款"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

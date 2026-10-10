@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-07",
+  "candidate_id": "WM-f12",
+  "legacy_round": "R068",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "鹭塘镇议事厅里，乡老把新写的夜间巡灯规矩高举起来，要求全镇照办。守庙人说码头几盏灯的油来自私人船户，不能由镇上说用就用。主持员摸着案上的印，提醒自己今天最多只能批西街三盏灯试七天。有人拿出早年旧制，声称那时整镇都巡，今日也应该照旧；另一名夜行妇人说旧制没有照亮她回家的小巷，若还是只点三盏，她宁愿先把路口选对。乡老恼火，嫌大家只会挑错，主持员请他先说明三盏由谁管看。守庙人不肯替船户允油，妇人愿每日记一次灯是否真的点亮。众人议到午后，纸上从“全镇”改成“西街试点”，但船户是否出油仍没签字。",
+    "scene_two": "当夜主持员带人走到西街，看见灯座一处摇晃，先让看灯者停在安全处查看，并未强行点满三盏。乡老跟在后面，抱怨这般谨慎算不上改革，夜行妇人指出巷口那盏比路中间更要紧。守庙人说可以借旧灯罩做样子，却仍不肯擅用码头私油。主持员在小册记了三处灯位，派人明日去问船户愿不愿出油；七天试点从正式开始点灯时怎样计算，还得另问主持员。乡老要求今天就往全镇贴新规，主持员否决，理由是批准只及西街。夜半有孩子从巷口走出，说那处石阶容易绊脚，妇人将位置画在页角。这一夜还没证明三盏灯能否长期点亮，大家只能拿着尚未验成的灯座走回议事厅。妇人提着空灯罩走过石阶，发现脚边有一道新裂缝，特地让主持员记在灯位图的旁边。主持员记下后强调图上能画位置，却不能凭一幅图证明灯油已经有人送来。",
+    "chinese_characters": 519,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "仅西街三盏七天可试"
+      },
+      {
+        "item": "2",
+        "fact": "私油尚无船户同意"
+      },
+      {
+        "item": "3",
+        "fact": "灯位勘查不等于实际点燃"
+      },
+      {
+        "item": "4",
+        "fact": "全镇推广未获批准"
+      },
+      {
+        "item": "5",
+        "fact": "七天起算及反馈尚待确定"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "乡老在鹭塘镇议事厅要求推夜巡灯新规，称早年全镇已有先例。守庙人提出具体障碍：码头灯油由私人船户供给，没有船户同意便不能拿来用。夜行妇人又指西街巷口原来很暗，若试点不照居民需要设灯，只是换了张规矩纸。主持员明确说自己仅有权批西街三盏灯七天，任何全镇执行的口号都超出当日权限。他让乡老把草稿上“全镇一体”划去，改成“三灯、七日、先验供油”。乡老虽然不满，仍主张把旧制理由保留在讨论记录里，守庙人不愿替船户签名。妇人自愿记录夜间经过灯位的体验，主持员说这只算意见，不代表出油协议已有。",
+    "scene_two": "傍晚众人到西街核灯位，第一处灯座稳当，第二处风口太急，第三处临近窄石阶，走路妇人坚持应照那块路面。守庙人取来空灯罩示意，却没有带来船户的油，说明至今无人代表船户答应。主持员让人只在纸上修改位置，不许写“已点亮”。乡老提议次日直接把试点扩到北街，主持员指给他看批准条款中的西街和七日，要求等西街形成记录再审扩大提议。他们约定若真点灯，就每日查实燃点和是否影响住户，试点七天后重议，不允许自生效延长。妇人拿回记录册，想邀请两名邻居一同夜行看看，邻居是否愿来仍未知。西街今日只完成踏勘，船户供油、正式点灯日期、七日验收全部待落实。乡老仍追着问新规何时能写上公示板，主持员说要先见到灯确实点起且有人记录，再谈七日从哪夜起算。乡老把旧制册子卷好，终于不再催人今夜就印全镇告示。",
+    "chinese_characters": 517,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "乡老的全镇提议被限为西街三盏"
+      },
+      {
+        "item": "2",
+        "fact": "七日与供油仍受限制"
+      },
+      {
+        "item": "3",
+        "fact": "船户尚未同意交油"
+      },
+      {
+        "item": "4",
+        "fact": "现场勘查无正式点灯"
+      },
+      {
+        "item": "5",
+        "fact": "七日反馈与是否推广尚待复议"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

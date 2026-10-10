@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-08",
+  "candidate_id": "WM-f13",
+  "legacy_round": "R069",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "戏班在旧堤岸旁排练十年前的倒堤故事，班主让小旦高举一盏火把，唱词说当年是救济功臣举火召回所有船只。老船妇听见这句，从围观的人里挤出来，说自己当年只在下游帮人登岸，根本没有见过台上那盏火把。班主解释戏不这样演，观众认不出转折；她却说堤岸一塌，有人把她从船边推开，她只听见水声和哭喊，哪有心思看别处。三个幸存者中另两人的亲见尚未问到，班主又说镇上要借这戏立牌匾，催她至少别当众拆台。老船妇指着牌匾拟稿，问落款是谁核的，班主拿不出凭据。班里一个年轻演员听完沉默，等众人散了又追着她问下游到底有几条船。",
+    "scene_two": "次日试演，台上仍点了一只灯笼代替火把，却把唱词改作“有人传来火光”，不说老船妇亲眼见过。班主担心唱段失了气势，临时让鼓手加了两声急鼓。老船妇坐在侧边，看年轻演员学着自己当年拉船绳的手势，提醒他绳子受水一冲，不会轻巧地停在手上。演员重做了动作，班主却不愿把戏全部变成证言核查。看戏的乡老追问牌匾何时立，班主说落款尚待查验，不能许日期。散场后有人赞那盏灯笼感人，老船妇没有反驳别人感动，只说这不是她的记忆。年轻演员回到布幕后翻看唱本，想去问另外两名幸存者的家人，然而他们如今住在哪里，班里无人知道。班主把当天收到的戏钱小心收入箱中，对年轻演员说观众愿意听故事是真，证词不全也是真。演员答应下次排练带一张自己写的问题纸，免得每次都凭记忆争辩。",
+    "chinese_characters": 515,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "老船妇仅见下游撤离"
+      },
+      {
+        "item": "2",
+        "fact": "火把属于唱本设计非亲见"
+      },
+      {
+        "item": "3",
+        "fact": "牌匾落款尚未核证"
+      },
+      {
+        "item": "4",
+        "fact": "另外两名幸存者未被访证"
+      },
+      {
+        "item": "5",
+        "fact": "戏班继续排演"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "旧堤岸边的戏班正在排十年前的倒堤故事，班主坚持把一盏火把安在“救济功臣”手里，称没有光，观众便看不清英雄。老船妇站在台下纠正：她只亲见下游的人撤离，水响盖住了呼喊，未见过谁在上游高举火把。班主担心观众记不住功臣，试图请她签个“按此演出”的字。她拒绝，说唱本可以有舞台法，却不能借她的证言替没有见过的火把作证。牌匾的落款还缺凭据，班主却已让木匠量了碑位。年轻演员在旁边拿着灯罩，问该演成真有火光，还是只演有人说起。老船妇提议在唱词里标明传闻，让人去问另外两名幸存者，别把自己不知道的事一股脑算作真的。",
+    "scene_two": "试演时，班主保留火把的舞台动作，却把唱词改成“有人说见火光”，老船妇坐在台侧，没有替这句传闻点头。鼓声一起，几个听众仍以为当年人人都看见了光；年轻演员谢幕后专门解释自己演的是唱本版本，不是替幸存者作证。木匠拿着牌匾草样来催刻字，老船妇指着落款空白，要求等另一位证人到场再定。班主怕误开戏期，提出先演不立匾，双方勉强同意。离开前有孩子学着台上动作，叫老船妇“举火救人”的人，她听后愣了一下，带孩子走到旧堤边，指向自己当年确曾看见的下游木桩。孩子问火把在哪里，她说不知道，并让他把这两个字记住。戏可以继续演，刻字却还不能动刀，传播造成的误会也没有随着一场解释消失。班主将刻匾木料暂时收进戏台后的小仓，生怕潮气坏了木纹。老船妇临走时摸了摸一块旧堤石，说她只愿替亲见之事留下姓名，别的还需各自找证人。",
+    "chinese_characters": 535,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "亲见下游与传闻火光分层"
+      },
+      {
+        "item": "2",
+        "fact": "唱词标记传闻不等于确认"
+      },
+      {
+        "item": "3",
+        "fact": "牌匾延期刻落款"
+      },
+      {
+        "item": "4",
+        "fact": "班主可继续演出但不得假借证言"
+      },
+      {
+        "item": "5",
+        "fact": "儿童仍误以为老船妇举火"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

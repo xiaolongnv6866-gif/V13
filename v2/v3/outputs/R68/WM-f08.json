@@ -1,0 +1,75 @@
+{
+  "test_id": "V13-B067-05",
+  "candidate_id": "WM-f08",
+  "legacy_round": "R068",
+  "batch": "B068",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same single agent has seen frozen method cards and authored both arms. No true context-isolation or external blinded evaluator; cannot infer independent causal gain.",
+  "arm_parity_contract": "Same frozen input, facts, length, rubric, output requirements; only candidate method card intended extra for method arm; actual real-context separation NOT ESTABLISHED",
+  "baseline": {
+    "scene_one": "渡口税改的消息沿山路传到织社，社首顾棠刚把新收的丝线放进木柜，副手就递上一张商贩口述的消息纸。纸上说过河货物以后可能要改缴税数，却没有正式印章。顾棠担心一旦定价大涨，自己的老客户会走；副手更怕织工本月工钱付不齐，坚持要先提高报价。旧税户也到了门外，声称自己以后可能失去代收生意，求顾棠帮他说话。顾棠没有马上站队，问副手消息从哪里来，副手说听的是返乡车夫。顾棠暂令织社保持原报价，等打听清楚后再议，旧税户却气得直摇头。天黑前几名织工来催发料，有人发现库中藏着一批次等丝，副手急忙合上柜门，没向顾棠解释为什么早前未报。",
+    "scene_two": "次日在织社内部，顾棠让每位经手人说清自己知道的事。车夫没有带回官府文书，旧税户也只是担忧生意将失，没人见过税改主持者。副手起初要求立刻涨价，担心一批劣丝在原价卖出亏损；顾棠听到劣丝的事，先检查了一小捆样线，发现有几根断头。他坚持先把样线按成色分别存放，不对外声称整批好坏已经核定。副手不满，说这样耽误发货，仍答应在当天把已有账目摊给其他织工看。旧税户在门外候了半天，得到的只是织社暂不签联名反对帖的答复。顾棠把未核消息纸挂到柜旁，注明来源是车夫传闻。夜里他数着未发的丝包，知道真正报价仍要等货色核清和税令有无确认，两件事并不相同。副手临走时把那张车夫的消息纸又读了一遍，问顾棠是否连自己的账也不信。顾棠答只是不愿把传闻写成确价，副手听后仍去找织工询问是否能加快发货。",
+    "chinese_characters": 542,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "税改仅有传闻没有正式文书"
+      },
+      {
+        "item": "2",
+        "fact": "旧税户担忧失利但无确切结果"
+      },
+      {
+        "item": "3",
+        "fact": "次等丝批次和质量待登记"
+      },
+      {
+        "item": "4",
+        "fact": "报价暂不调整"
+      },
+      {
+        "item": "5",
+        "fact": "社首与副手立场有别"
+      }
+    ],
+    "unknowns": [
+      "Never presume all pending approvals, future outcomes or confirmations have occurred"
+    ],
+    "failure_risk_note": "Must review factual status and role agency"
+  },
+  "method": {
+    "scene_one": "顾棠听见渡口税改传闻时，正守着织社本月发料账。副手急着要求涨价，因为织工工钱不能断；顾棠却担心熟客听到涨价便转往别社，两人的生计算盘并不一致。旧税户进门诉苦，说税改若成自己恐怕失去代收差事，他希望织社立即联名反对。顾棠没有答应，先追问消息出处。副手说来自返乡车夫，旧税户说是码头传开的闲话，没人拿得出官府印文，也没人见过主持改革的人。顾棠只允今日继续原报价，保留议价权。副手不甘心，在柜中藏着的次等丝上加了第二把小锁，打算单独处理，顾棠只看见他出门太急，还未发现柜内账货不符。",
+    "scene_two": "第二场移到织社后院。织工将断头丝送来请顾棠查验，副手先说不过是几捆潮丝，转而承认有一批次等货未及时登记。他想降价速卖以筹工钱，顾棠担心若与上品混售会坏掉熟客信任，提出两种货分开验色，不先公布统一售价。副手要求明日之前做完，顾棠只承诺带两名织工抽查现货，其余数量仍记不明。旧税户再来问是否支持上书，顾棠说没有见到正式税令，也不能替织工全部签字。副手听罢自行留下准备价目草案，声明不会无限期等顾棠，他的工钱压力依旧真实。顾棠把车夫传闻贴在账后另页，写清未验证。夜色中副手单独去找一名买货人议价，是否已经谈成顾棠并不知道；这场税改争论并未把织社内部的分歧消除。仓门口一名年长织工劝顾棠干脆听副手的，顾棠却请她先验一捆次丝。她摸出断头，便收回了劝说的话，转而要求账房把原先的发料数也核一遍。",
+    "chinese_characters": 530,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "改革信息来自车夫及码头传闻"
+      },
+      {
+        "item": "2",
+        "fact": "次等丝藏账问题被揭露"
+      },
+      {
+        "item": "3",
+        "fact": "抽验只限现货并非全面核验"
+      },
+      {
+        "item": "4",
+        "fact": "顾棠未代表全社签反对帖"
+      },
+      {
+        "item": "5",
+        "fact": "副手独立寻买家结果未知"
+      }
+    ],
+    "unknowns": [
+      "Open material uncertainties remain unfilled"
+    ],
+    "failure_risk_note": "Check against frozen method-specific hard-fail"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}
