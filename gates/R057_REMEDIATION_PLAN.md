@@ -1,4 +1,7 @@
 # V13 R057｜方案A补证计划（拟执行工作包，尚未批实际测试）
+
+> **2026-10-10轮次对账澄清：此文件全部为可选的增量补证方案，不构成冻结89轮里的新增强制R057验收项。** R054、R055、R056已按原计划正式PASSED；39条V1 REVIEW与11条V2未测允许作为待核缺口保留；早先提出的14+11+8工作包不是默认后续任务。当前R057仍BLOCKED的实质原因为零verified无法合法编译，不是因为没有执行本计划。完整逐轮缺口与未来任务见根目录 `V13_REMAINING_WORK_BY_ROUND.md`。保留本历史计划，不撤销用户此前对其“可以制定”的批准。
+
 status: PLAN_DRAFT_SCOPE_CONFIRMATION_REQUIRED
 date: 2026-10-10
 approval: gates/R057_USER_APPROVAL_A.md

@@ -377,3 +377,9 @@ R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回�
 
 ## R057 方案A已批准（2026-10-10），执行范围仍待定
 用户批准四分流与补证计划编制：零verified，90参考，97待核，零rejected不变。39条V1、11条V2、47条V3完整逐ID队列及新题草案已形成，不表示有新增实际验证。首批提案14项V1源重审、11份V2输入合同冻结、V3独立消融8方法/24对仅拟议。不得因用户方案A批准推进R058、改变89轮或动用密封测试；R057继续BLOCKED、已过56轮、B PROVISIONAL、独立C NOT_RUN、SKILL0。详见`gates/R057_REMEDIATION_PLAN.md`。
+
+## 2026-10-10｜冻结89轮缺口与未开工轮次重新对账（不改变游标）
+
+- 用户指出此前14个V1+11个V2+8个V3试点草案造成额外强制步骤；重新对照原版`V13_FIXED_89_ROUNDS.md`，已确认R054/R055/R056均是**已完成的研究轮次**，它们的候选级不足不得误写成“必须整轮重做”。该补证方案重标**可选、非固定轮门**。
+- 新增唯一逐轮状态清单：`V13_REMAINING_WORK_BY_ROUND.md`（按R001—R056已完成但缺口、R057阻断和R058—R089逐轮NOT_STARTED归档）。历史14项隔离另计；不添加新轮号。
+- 本次仅整理状态/计划描述，**CURRENT_ROUND.json和ROUND_LEDGER.csv不更改**：56轮PASSED、R057 BLOCKED、R058—R089 32轮NOT_STARTED，V1 REVIEW39、V2未测11、V3无可证净增益47、verified0、独立C NOT_RUN。原版零verified必须停止编译仍然有效，不能靠把测试“放到Stage4”来绕过Stage1.6门。
