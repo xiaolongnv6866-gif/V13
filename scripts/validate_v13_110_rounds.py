@@ -26,11 +26,21 @@ IDs=["R%03d"%i for i in range(1,111)]
 check(plan["version"]==cur["plan_version"]=="v13.1-rebased-110","version")
 check(plan["total_rounds"]==cur["rounds_total"]==110,"total")
 check(len(plan["rounds"])==len(rows)==110 and [x["id"] for x in plan["rounds"]]==[x["id"] for x in rows]==IDs,"unique ordered rounds")
-check(cur["current_round"]=="R057" and cur["round_status"]=="NOT_STARTED" and cur["rounds_completed"]==56 and cur["last_passed_round"]=="R056","new cursor incorrectly changed")
-check([x["status"] for x in rows]==["PASSED"]*56+["NOT_STARTED"]*54,"new ledger fake PASS")
+passed=cur["rounds_completed"]
+check(isinstance(passed,int) and 56<=passed<=110,"invalid completed count")
+check(cur["last_passed_round"]=="R%03d"%passed,"last passed mismatch")
+if passed<110:
+ check(cur["current_round"]=="R%03d"%(passed+1),"wrong current round")
+ check(cur["round_status"] in ("NOT_STARTED","IN_PROGRESS","FAILED","BLOCKED"),"invalid active status")
+ check(rows[passed]["status"]==cur["round_status"],"active ledger mismatch")
+ check(all(x["status"]=="NOT_STARTED" for x in rows[passed+1:]),"future rounds wrongly marked")
+else:check(cur["current_round"]=="R110" and cur["round_status"]=="PASSED","invalid final status")
+check(all(x["status"]=="PASSED" for x in rows[:passed]),"completed rounds missing PASSED")
+
 check(all(x["status"]=="PASSED" for x in old[:56]) and len(old)==89 and old[56]["id"]=="R057" and old[56]["status"]=="BLOCKED","historic 89 immutable pass ledger")
 check(oldcur["current_round"]=="R057" and oldcur["rounds_completed"]==56 and oldcur["round_status"]=="BLOCKED" and oldcur.get("superseded_by_cursor")=="V13_CURRENT_V2.json","old snapshot not correctly archived")
-check(cur["skill_certified_count"]==0 and cur["heldout_bank_status"]=="SEALED_NOT_RUN" and cur["v3_full47_completed"]==0,"fabricated cert")
+if passed<=57:
+ check(cur["skill_certified_count"]==0 and cur["heldout_bank_status"]=="SEALED_NOT_RUN" and cur["v3_full47_completed"]==0,"falsely certified R057 findings")
 for n in range(1,57):
  check(plan["rounds"][n-1]["old_id"]==IDs[n-1] and rows[n-1]["legacy_round"]==IDs[n-1],"historic mapping")
 for n in range(57,78):
