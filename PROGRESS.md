@@ -1,3 +1,15 @@
+## V13.3｜N11正式封账及唯一恢复游标（2026-10-11）
+
+**唯一权威状态以`V13_CURRENT_V4.json`与`V13_LEDGER_V4.tsv`为准：N01—N11已PASSED，共11/48轮；下一轮为`N12 NOT_STARTED`。不得从以下旧N10/N09段落恢复，也不得在用户再次单独发送“继续”前启动N12。**
+
+N11研究《铁血残明》R016冻结文学B20项：16项限定可信、4项旧命题拒绝（n163现场惧意不曾取代实际军律解释；n165角色私下策略说明并非外部证实事实；n168无具体住房现场不能靠宏观叙述补写；n193两组主限知视角不得说成三条独立视角）。旧R042 `LEGACY:tiexue-R016-180-candidate`独立来源核查但继续OPEN_QUARANTINED：p38上层存银讨论不能证明p21吴达财本人已存款。20原XHTML成员与用户私有EPUB整本SHA吻合、40条真实原文段落SHA重新计算一致。公开仓库只有原创批判报告和哈希，未上传原著长段文字。
+
+研究成果：`v13_3/n11/N11_SOURCE_REVIEW.md`、`N11_LITERARY_B_20.tsv`、`N11_ORIGINAL_PARAGRAPH_SHA_40.tsv`、`N11_LEGACY_R042.tsv`、两份独立R016研究记录；专属校验`scripts/validate_v13_n11.py`与`.github/workflows/v13_3_n11.yml`；正式轮次收据`runs/N11_V4.md`。证据版本`ab327132ad19bdc9c5c54790f28713fc653fac0c`获全部89/89项适用GitHub Actions SUCCESS，最后封账提交需额外检查自己的最终HEAD所有适用Actions，不能用旧提交代替。
+
+累计Stage0文学B216/296已处理，剩80；原192项历史未逐审首次核查147，剩45；旧R042来源已核11/14，但全部14项仍隔离；187方法候选verified0/reference108/needs_review79/rejected0，真正独立V3通过0，Stage0原20独立C完成0/20，认证SKILL0。CI证实结构和账户状态一致，不冒充独立文学盲审或方法能力认证。N12范围是《铁血残明》R018的20项文学B及1项R042历史隔离，必须下次用户明确继续才可开始。
+
+---
+
 ## V13.3｜N10正式封账与唯一恢复游标（2026-10-11）
 
 **N01—N10共10/48轮PASSED。唯一生效游标为`V13_CURRENT_V4.json`及`V13_LEDGER_V4.tsv`：下轮`N11 NOT_STARTED`。只有用户下一次明确输入“继续”，才可以执行N11。以下早期N09/N08等状态段落只是历史记录，不可覆盖本声明。**
