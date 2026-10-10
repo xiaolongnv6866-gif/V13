@@ -1,3 +1,13 @@
+# V13.2最新进度｜B076分流证据齐备，用户硬门阻断（2026-10-10）
+
+**管理批次75/96完成**；B076原R078当前状态为`BLOCKED_PENDING_USER_CONFIRM`，未计入完成；B077不得启动。原R067—R077共11份旧合同已交付，R078—R110尚33份（其中本轮R078文件已建而批准未完成）。
+
+Stage1.5唯一候选187（晚明91/铁血96），四类`verified=0`、`reference=90`、`needs_review=97`、`rejected=0`。B068—B074新增双臂诊断69项是这187原ID的一部分，不是209个方法。原Stage0 R057 19任务有候选关联，完整独立C仍NOT_RUN，早期Adler20项原任务映射仍有未等价部分；R042旧14项隔离、192项未逐项B文学复核、R056两个负样本均保留。参考资料90条当前实际在两书references.md，未来Stage3 overview/glossary为PLANNED_ONLY，不宣称已经构建。
+
+B076源实物与门控文件：`gates/CANGJIE_STAGE15_V2.md`、`runs/R078_V2.md`、`runs/B076_V3.md`、两书`R078_V2_DECISION_MATRIX.tsv`、`gates/R078_OLD14_QUARANTINE_ROUTE.tsv`和`gates/R078_STAGE0_ORIGINAL20_TO_R057_19_CROSSWALK.tsv`。B076证据提交`16c1410e9cddb41de99c635ce48bd9c6114ee490` 已21/21文件SHA回读及76/76 Actions SUCCESS。封账Actions尚需另验。零verified触发仓颉原版停止编译；本轮用户确认还没有批准，必须明确选择A认可真实分流并只授权合规补证准备，或B保留冻结暂停。严禁默认为批准并跨入B077。
+
+---
+
 # V13.2最新进度｜2026-10-10 B075综合审计交付
 
 行政进度**75/96**；原R067—R077 11/44合同已交付，R078—R110尚33份，当前B076 NOT_STARTED且为用户强制选择门，不能自动认证/跨批推进。

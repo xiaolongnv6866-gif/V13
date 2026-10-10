@@ -20,7 +20,7 @@
   "last_completed_legacy_round": "R077",
   "last_passed_batch": "B075",
   "current_batch": "B076",
-  "batch_status": "NOT_STARTED",
+  "batch_status": "BLOCKED_PENDING_USER_CONFIRM",
   "work_contract_legacy_coverage": "R067_TO_R077_11_OF_44_COMPLETE_R078_TO_R110_33_REMAIN",
   "v3_original_47_total": 47,
   "v3_original_47_completed": 47,
@@ -145,5 +145,18 @@
   "b075_ci": "75_OF_75_SUCCESS_EVIDENCE_COMMIT",
   "b075_sha": "8_OF_8_EVIDENCE_FILES_REMOTE_MATCH",
   "b076_confirmation": "MANDATORY_USER_CONFIRM_NOT_REQUESTED_NOT_GRANTED",
-  "b075_b077_contract_result": "R077_COMPLETE_AUDIT_DELIVERY_WITH_METHOD_UTILITY_NEEDS_REVIEW"
+  "b075_b077_contract_result": "R077_COMPLETE_AUDIT_DELIVERY_WITH_METHOD_UTILITY_NEEDS_REVIEW",
+  "b076_evidence_commit": "16c1410e9cddb41de99c635ce48bd9c6114ee490",
+  "b076_decisions": {
+    "verified": 0,
+    "reference": 90,
+    "needs_review": 97,
+    "rejected": 0,
+    "unique": 187,
+    "legacy14": 14
+  },
+  "b076_next_batch": "B077_NOT_AUTHORIZED",
+  "b076_user_approval": "NOT_GRANTED",
+  "b076_actions_evidence": "76_OF_76_SUCCESS",
+  "b076_evidence_remote": "21_OF_21_MATCH"
 }

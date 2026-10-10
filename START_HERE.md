@@ -1,3 +1,13 @@
+# V13.2｜B076 R078用户硬门已写入、尚待确认（2026-10-10）
+
+唯一权威：**75/96已完成；当前B076 BLOCKED_PENDING_USER_CONFIRM，B077 NOT_STARTED**，不是76/96。B076已聚合原187唯一候选：《晚明》91、《铁血残明》96；verified 0、reference 90、needs_review 97、rejected 0。追加22条V3只是这187候选的最新证据，不要虚增到209。原R042历史隔离14另计。
+
+B076分流原始实物：`gates/CANGJIE_STAGE15_V2.md`、两书`R078_V2_DECISION_MATRIX.tsv`、现存各`verified.md/references.md/needs-review.md/rejected/README.md/coverage-audit.md`和`runs/R078_V2.md`、`runs/B076_V3.md`。R057十九任务19/19有测试候选关联，完整独立C仍0；原Adler二十任务须保留差异，见`gates/R078_STAGE0_ORIGINAL20_TO_R057_19_CROSSWALK.tsv`。已执行69项共138臂只是非盲同Agent诊断：50平、19项+1，真正独立verified仍0。Stage0 B文学192未逐审、旧14隔离、密封题库NOT_RUN不解除。
+
+B076证据提交`16c1410e9cddb41de99c635ce48bd9c6114ee490`已有**21/21远程SHA匹配及76/76 Actions SUCCESS**，只证明审计产物存在，不证明SKILL有效。封账commit自身还须再做76/76回归。**等待用户对本轮四类分流和后续补证范围作出新的明确A/B确认**；原R057的旧批准不是本轮确认。经确认也不能在零verified时开始Stage1.6或编译，必须按仓颉原版停止。用户下次含糊的“继续”也不能视作批复B076硬门，更不能自动跑B077。
+
+---
+
 # V13.2｜B075证据真实性综合审计已交付（2026-10-10）
 
 **唯一GitHub正式状态：75/96管理批次完成，B075 PASSED_AUDIT_ONLY，B076 NOT_STARTED（用户强制确认尚未启动/尚未授权）。** 原R067—R077共11份原合同交付，R078—R110剩33份不可削减。
