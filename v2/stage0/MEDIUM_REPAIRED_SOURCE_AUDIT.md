@@ -7,6 +7,8 @@ authority: V13_REVISED_110_ROUNDS.md R059 contract; Cangjie Stage0 Adler + R006 
 book_source_sha_wanming: a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082
 book_source_sha_tiexuecanming: 9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf
 
+**验收分母：本轮已实际复核61/166条；未逐条复核105/166条，均不得无证升级。**
+
 ## 原书真实重查与范围
 
 1. 从最新版`V13_CURRENT_V2.json`确认**58/110、R059 NOT_STARTED**后，根据R057的冻结清单，调取旧R007、R016、R018—R024各章原始`*_receipts.jsonl`与两本真实EPUB，在原始spine/XHTML正文中检查原claim所指章、原`support_anchor_ids`、支持场景、前后动作、人物认知及可能的竞争解释；两书私有EPUB SHA256和ZIP CRC与R002/R006保持一致。
