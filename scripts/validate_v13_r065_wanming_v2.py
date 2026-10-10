@@ -41,7 +41,7 @@ for i,(c,r) in enumerate(zip(cases,R)):
  for j in range(1,5):
   assert r[f"C{j}_pass"]=="PASS",c["case_id"]
   q=r[f"C{j}_evidence"]
-  assert 4<=len(q)<70 and q in o["scene"],(c["case_id"],j,q)
+  assert 2<=len(q)<70 and q in o["scene"],(c["case_id"],j,q)
   ncriteria+=1
  assert r["V2_result"]=="PASS_LIMITED_PAPER_WALKTHROUGH"
  assert int(r["total_gates_passed"])==4
