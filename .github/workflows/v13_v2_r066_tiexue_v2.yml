@@ -1,0 +1,10 @@
+name: V13 R066 Tiexue V2 audit
+on:
+  push:
+    branches: [main]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validate_v13_r066_tiexue_v2.py
