@@ -1,6 +1,6 @@
 # V13.2｜唯一执行、节省GitHub操作与质量门规则
 
-status: APPROVED_USER_2026-10-10_PENDING_ACTIVE_CURSOR_COMMIT
+status: ACTIVE_V13_2_APPROVED_2026_10_10
 plan: V13_V3_BATCH_PLAN.md
 new_cursor: V13_CURRENT_V3.json
 new_ledger: V13_LEDGER_V3.csv

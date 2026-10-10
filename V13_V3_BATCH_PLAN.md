@@ -1,6 +1,6 @@
 # V13.2｜精简执行计划（66个历史完成轮次 + 30个新批次）
 
-status: APPROVED_REPLAN_AWAITING_NEW_V3_CURSOR_ACTIVATION
+status: ACTIVE_V13_2
 date: 2026-10-10
 old_plan: V13_REVISED_110_ROUNDS.md
 old_plan_git_blob_sha1: 55256653a7f9359339a5f7a8924e4210ee25203a
