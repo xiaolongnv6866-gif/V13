@@ -166,9 +166,19 @@
   "b076_independent_v3_queue": "gates/B076_APPROVED_A_V3_69_REPLICATION_QUEUE.tsv",
   "b076_stage0_original20_gap_queue": "gates/B076_APPROVED_A_STAGE0_20_CONTRACT_GAP_PLAN.tsv",
   "b076_new_independent_v3_results": 0,
-  "b076_new_v1_source_reaudits": 0,
+  "b076_new_v1_source_reaudits": 28,
   "b076_stage0_full_independent_acceptance": 0,
   "b076_confirmation_complete": true,
   "b076_promotion_authorized": false,
-  "b076_heldout_status": "SEALED_NOT_RUN"
+  "b076_heldout_status": "SEALED_NOT_RUN",
+  "b076_new_v1_pass": 0,
+  "b076_v1_source_recheck_status": "28_OF_28_ANCHOR_RECHECKED_V1_CAUSAL_SCOPE_STILL_OPEN",
+  "b076_private_epub_exact_sha_confirmed": "WANMING_AND_TIEXUE_BOTH_MATCH_R002",
+  "b076_28_source_locus_visits": 89,
+  "b076_28_source_locus_unique": 76,
+  "b076_28_distinct_epub_chapter_files": 36,
+  "b076_v1_recheck_actual_evidence": "gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv",
+  "b076_v1_recheck_report": "gates/B076_V1_28_SOURCE_RECHECK_REPORT.md",
+  "b076_true_independent_creators_or_judges": "NOT_ESTABLISHED",
+  "b076_real_v3_replicates": 0
 }

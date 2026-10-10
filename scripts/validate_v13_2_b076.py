@@ -75,4 +75,25 @@ assert len({x["old_task_id"] for x in q20})==20
 assert all(x["original_required_output"] and x["original_success_and_failure"] and x["independent_full_task_acceptance"]=="NOT_RUN" for x in q20)
 assert {x["old_task_id"] for x in q20}=={x["old_Stage0_id"] for x in cross}
 assert "approved" in (P/"gates/B076_APPROVED_A_EVIDENCE_PROTOCOL.md").read_text().lower()
-print("B076 USER A RECORDED; 69+28+20 PLANNED_ONLY, 0 independently verified, B076 BLOCKED")
+audit=rows("gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv")
+assert len(audit)==28
+audit_by_id={x["candidate_id"]:x for x in audit}
+assert set(audit_by_id)=={x["candidate_id"] for x in q28}
+assert sum(x["book"]=="wanming" for x in audit)==18
+assert sum(x["book"]=="tiexuecanming" for x in audit)==10
+assert sum(len(x["source_loci"].split(";")) for x in audit)==89
+assert len(set((x["book"],y) for x in audit for y in x["source_loci"].split(";")))==76
+assert all(x["V1_result"]=="REVIEW_SOURCE_RECHECKED_NOT_PASSED" and x["independent_v3"]=="NOT_RUN" for x in audit)
+assert all(len(x["paragraph_digest_sha256"])==64 for x in audit)
+for x in q28:
+ y=audit_by_id[x["candidate_id"]]
+ assert x["book"]==y["book"] and x["source_loci"]==y["source_loci"]
+ assert x["evidence_digest_sha256"]==y["paragraph_digest_sha256"]
+ assert x["actual_source_recheck_file"]=="gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv"
+ assert x["status"]=="B076_ORIGINAL_SOURCE_RECHECKED_V1_CAUSAL_SCOPE_STILL_OPEN"
+ assert x["B076_V1"]=="REVIEW"
+ assert x["reviewer"]=="SAME_AGENT_EPUB_CONTEXT_REVIEW_NOT_INDEPENDENT"
+assert "89" in (P/"gates/B076_V1_28_SOURCE_RECHECK_REPORT.md").read_text()
+assert "source_paths" in (P/"scripts/verify_b076_v1_private_epub_receipts.py").read_text()
+print("B076 A SOURCE_RECHECK: 28/28 private EPUB anchors reviewed; 89 visits, 76 unique, 0 new V1 PASS, V3 NOT_RUN; B076 BLOCKED")
+

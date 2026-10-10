@@ -1,3 +1,9 @@
+## B076补证执行状态（最新更新）
+
+2026-10-10：对28个原V1待核候选按两份用户EPUB原始哈希及89次n/p定位执行来源重查，实际36章文件、76个唯一段落；每条限制性结论和段落摘要见`gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv`及`gates/B076_V1_28_SOURCE_RECHECK_REPORT.md`。**这只是来源证据重新核对；28/28的过宽因果/执行主张仍REVIEW，V1新PASS=0。** 69条需要实际独立双臂/盲评的V3仍未执行，原Stage0二十任务完整C未独立验收，verified=0，SKILL0。用户明确选择A已存档，B076继续`BLOCKED`，不得前进B077。原文版权文本不上传GitHub。
+
+---
+
 # V13.2 B076｜Cangjie Stage1.5 V2分流及用户强制确认
 
 status: BLOCKED_ZERO_VERIFIED_APPROVAL_A_RECORDED

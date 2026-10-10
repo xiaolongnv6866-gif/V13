@@ -1,3 +1,11 @@
+## B076后续实作更新｜28项原文定位复核（2026-10-10）
+
+本节为最新补充，覆盖下文A节写于本次实作前的“尚未重新核查”时间状态。已从两份SHA完整匹配的用户私人EPUB中现场复核28个V1待核候选，89个原文n/p读入位置、36章文件和76个唯一段落，并以各段SHA256组成候选摘要；逐项受限文学解释及未证因果见`gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv`；完整程序和验证边界见`gates/B076_V1_28_SOURCE_RECHECK_REPORT.md`，可在私人EPUB存在时离线复验。`B076_APPROVED_A_V1_28_REPAIR_QUEUE.tsv`已改成来源锚点查阅完成、**正式V1过宽主张仍待重构**。成果是来源位置审查28/28完成，不是V1 28项PASS；新V1 PASS=0，V3独立复制69/69仍NOT_RUN，Stage0 20项独立C仍NOT_RUN。
+
+目前可用的GitHub、私人EPUB和单Agent检查不提供真实隔离的第二创作者及两名盲评员。未经可核证独立执行不能使用这些工具假称V3，故B076依然BLOCKED，用户此前批准A保持有效，不启动B077。
+
+---
+
 # B076 已批准方案A｜真实证据恢复方案（计划，不是测试结果）
 
 status: APPROVED_FOR_PLANNING_ONLY

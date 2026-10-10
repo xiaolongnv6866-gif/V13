@@ -1,3 +1,9 @@
+# V13.2 B076｜用户批准A后新增真实V1来源复核（2026-10-10）
+
+**最新GitHub游标75/96已完成，B076 BLOCKED，B077 NOT_STARTED，用户方案A已经批准。** 两份用户授权EPUB的SHA256现场与原R002登记一致。本次在B076内部执行28项V1来源锚点重查：89次n/p原文定位、76个唯一段落、36章文件；逐ID受限证据、尚未证明的扩展与摘要见`gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv`及`gates/B076_V1_28_SOURCE_RECHECK_REPORT.md`。旧28队列已从NOT_EXECUTED更新为SOURCE_RECHECKED，**正式V1新PASS为0**，不冒充方法验证；原187分流0verified/90reference/97needs_review/0rejected不变。69个独立V3复制仍NOT_RUN且独立执行者与盲审者未落实；Stage0 20项完整独立验收仍0，旧14隔离/192项文学B债务持续，密封题库未打开。零verified须停止晋级与编译，下一次继续仍在B076。
+
+---
+
 # V13.2｜B076用户已批准方案A，实质效用仍阻断（2026-10-10）
 
 **唯一当前状态：75/96个管理批次已完成；B076 BLOCKED（ZERO_VERIFIED），B077 NOT_STARTED。** R078强制用户确认门于2026-10-10已由用户明确批准方案A，旧日志中“未批准”只是历史状态，不能再作为本轮最新判断。确认见`gates/R078_USER_APPROVAL_A_20261010.md`，汇总门`gates/CANGJIE_STAGE15_V2.md`。
