@@ -1,3 +1,13 @@
+## V13.3｜最新权威恢复入口 N08 PASSED（2026-10-11）
+
+**生效游标：`V13_CURRENT_V4.json` + `V13_LEDGER_V4.tsv`；N01—N08 PASSED（8/48）。下轮只能是N09 NOT_STARTED，须等用户下一次“继续”方可开工；以下旧N07等段落均属历史状态。**
+
+N08完成《晚明》R023旧20/20文学B逐ID原文复核，14项限定可信、6项旧强命题拒绝：n321开头情报错位、n331装备故障主因错置、n340虚构同一数字贯通、n344虚构商场价格争执转场、n349急报抵达不等于春节中止、n356承诺处罚不等于实际处分。独立旧R042 `LEGACY:v13-r023-wanming-339-candidate` 1/1已重核来源，但仍OPEN_QUARANTINED，不获方法晋级。EPUB完整SHA256 `a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082`、ZIP、20个XHTML成员及40个原文段落SHA全部复验一致。证据版提交 `8a742c646ad815672a90208d0b58336e8a32596a` 的全部当时适用Actions 77/77 SUCCESS；封账版自身的检查仍必须单独验证。
+
+成果：`v13_3/n08/N08_LITERARY_B_20.tsv`、`N08_ORIGINAL_PARAGRAPH_SHA_40.tsv`、`N08_LEGACY_R042.tsv`、`N08_SOURCE_REVIEW.md`、`N08_CASEWORK_SOURCE_NOTES.tsv`；`scripts/validate_v13_n08.py`、`.github/workflows/v13_3_n08.yml`、`runs/N08_V4.md`。累计B来源处置150/296，余146；原192未逐审已审105，余87；原14项R042已有7项来源复核，14项仍隔离。187候选reference108/needs_review79/verified0/rejected0，独立V3合格0，Stage0独立C0/20，正式认证SKILL0。N09依既定48轮计划研究《铁血残明》R008、R010来源修复20 B+1旧R042，不先行开工。CI仅验证结构与证据坐标，不能冒充独立文学盲审。
+
+---
+
 ## V13.3｜最新权威恢复入口 N07 PASSED（2026-10-11）
 
 **生效游标：`V13_CURRENT_V4.json` 与 `V13_LEDGER_V4.tsv`，N01–N07全部PASSED，完成7/48，新一轮只能是N08 NOT_STARTED。必须收到用户下一次独立“继续”命令才开始N08；下方旧N07/N06乃至B076历史状态不可覆盖本首段。**
