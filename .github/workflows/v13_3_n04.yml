@@ -1,0 +1,19 @@
+name: V13.3 N04 R015 source integrity
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v13_3/n04/**'
+      - 'runs/N04_V4.md'
+      - 'V13_CURRENT_V4.json'
+      - 'V13_LEDGER_V4.tsv'
+      - 'scripts/validate_v13_n04.py'
+      - '.github/workflows/v13_3_n04.yml'
+  workflow_dispatch:
+jobs:
+  n04-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: N04 structural source and locator checks
+        run: python3 scripts/validate_v13_n04.py

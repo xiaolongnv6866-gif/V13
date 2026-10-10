@@ -1,0 +1,239 @@
+# V13.3 N04｜《晚明》R015真实原文文学B逐ID审查
+
+round: N04
+status: EVIDENCE_WRITTEN_WAIT_FOR_CI
+authorized_epub_SHA256: a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082
+contract: 18 original Stage0 B claims; 0 original R042 legacy quarantine
+scope: original reading R015, narrative 161–200 (18 selected claims)
+results: 14 SCOPED_CREDIBLE, 4 REJECT_OLD_STRONG_CLAIM; no method V1/V2/independent V3/C/Skill promotion
+
+## Evidence handling and method
+Use pinned original Cangjie `kangarooking/cangjie-skill@a28de55ba881b9928956a55048f743f7a9e3b23e` Stage0 Adler structural/interpretive/critical/applicability rubric. Nuwa `alchaincyf/nuwa-skill@fe0374687037c4cc51a65c1e0c145afe2981dc69` productization is not in scope yet. Primary source is user's local original EPUB (entire zip SHA matched), tested no damaged ZIP entry. All 18 XHTML member SHA values agree with their original GitHub R015 receipt; actual chapter paragraphs, first/last context and 18 existing weak anchors have been read alongside corrective loci. 36 distinct paragraph hashes were recalculated from nonempty `body//p` text, with original text kept private. Old historical receipt and 426 issue registry remain unchanged. Structural pass cannot itself prove literary interpretation or independent skill effect.
+
+## 18 original claim IDs and substantive adjudications
+
+### STAGE0:R015:wanming-R015-161-narrative-candidate — SCOPED_CREDIBLE_REANCHOR
+
+- **Original candidate:** 移动视角让江南土地与商贸的意义被同伴分别发现，而非先验资源说明。
+- **Original XHTML:** `OEBPS/Text/Chapter_0172.xhtml`; member SHA256 `2dc50233fa942c03c2344804639c8b2872ddb5c36d20eda2834be5f544a24db0`; frozen `p27`; rechecked `n161/p23-34,p37-45,p46-53`.
+- **Visible actions:** 海船抵江口，同行者询问航道与港口；车行江南农田时，刘民有就棉桑与粮食发问，宋闻贤提出屯民供粮风险。
+- **Separate character positions and knowledge limits:** 陈廷栋熟悉本地地理，刘重视农政安排，宋从整个组织的口粮安全评估商业收益；三人并不同意一套简单发展方案。
+- **Confirmed results versus open promises:** 各人得到了新见闻并提出不同解释，屯地作物安排没有因本次观景而当场修改。
+- **Specific counterexample or old error:** 旧p27只是周来福盼望游览，不能证明利益分歧；p41-45才展示经济作物收入和保粮目标的冲突。
+- **What another narration would lose:** 如果预先旁白概述江南富庶，无法展示同一土地被交易者、移民治理者及旅行者读成不同含义。
+- **Scope and failure boundary:** 局部观察不足以判定江南全部农业史实或后续治理成效；文学上限于旅途见闻和角色判断。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-164-narrative-candidate — REJECT_OLD_CROWD_REPUTATION_ADDON
+
+- **Original candidate:** 动作与空间错位生成喜剧，再以围观反应修正主角的自我形象。
+- **Original XHTML:** `OEBPS/Text/Chapter_0175.xhtml`; member SHA256 `14614fc746786897fc99bf5e77eb9aa98d4848dbd004c75e9ca5a3c38caae8ca`; frozen `p44`; rechecked `n164/p25-32,p38-52,p69-88`.
+- **Visible actions:** 旅途闲逛因随员误会不断跑题，船上主人公想旁观朋友尴尬，末尾却因突发动作成为受影响者。
+- **Separate character positions and knowledge limits:** 宋闻贤、侍从和船家对礼貌玩笑有不同理解，主角事先自以为旁观者，不曾料到自己会受牵连。
+- **Confirmed results versus open promises:** 章节以身体动作失衡结束，并未展开围观者评价主角社会名声的独立链条。
+- **Specific counterexample or old error:** 旧p44只是预订交际活动，主要动作在p85-87，缺少旧主张声称的公众围观后重评。
+- **What another narration would lose:** 若删掉预期和动作反转，滑稽场面不成立；这种效果不等于主角声誉被围观者正式重新认定。
+- **Scope and failure boundary:** 否定完整‘公众形象修正’旧说法，仅保留动作喜剧的狭义观察，不复用原著具体桥段。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-169-narrative-candidate — SCOPED_CREDIBLE
+
+- **Original candidate:** 混乱现场限制知情范围，通过角色即时反应呈现风险而非英雄总结。
+- **Original XHTML:** `OEBPS/Text/Chapter_0180.xhtml`; member SHA256 `466e9e29e0e9bfd338ec1d757a8536c34e640ef6f992f04f152dbf9b21a78052`; frozen `p20`; rechecked `n169/p1-16,p17-24,p30-39`.
+- **Visible actions:** 船内危机冲散原定谈判，人物各守有限现场视野；陈新短暂得意后局面再次转变，刘民有虽害怕仍做出帮助同伴的选择。
+- **Separate character positions and knowledge limits:** 许心素不了解陈的全部准备，刘既害怕又关心同伴，陈的自信并没有比别人获得更多全知信息。
+- **Confirmed results versus open promises:** 即时行动与风险均出现，未来人员损失、后续关系和政治后果本章尚不能完全计算。
+- **Specific counterexample or old error:** p20是陈对优势的个人估计，p21以后即显示新风险，不能改写成英雄稳定掌控全局。
+- **What another narration would lose:** 若先公布成功结局，就失去人物惊惧、误判与现场决策依次改变的读者认知。
+- **Scope and failure boundary:** 只研究有限视角而不复制危险或暴力的具体过程；不能据主角一次反应认定所有判断正确。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-173-narrative-candidate — SCOPED_CREDIBLE_REANCHOR
+
+- **Original candidate:** 商业计划回落为财物、信用、关卡与旁人意愿四项条件。
+- **Original XHTML:** `OEBPS/Text/Chapter_0184.xhtml`; member SHA256 `a94d45a3e2879d24d2dc27fe5cf704f733ba024d7ed91ef0190b8d0eb47b5358`; frozen `p23`; rechecked `n173/p1-16,p17-25,p27-45`.
+- **Visible actions:** 陈、刘、周商议货物运输、通兑票据、合作签字权和关卡费用，后半章另转前次危机余波及送别。
+- **Separate character positions and knowledge limits:** 刘担忧合作商知晓全部账务规则，陈想暂借现成商路再发展自身机构，许心素也非无偿提供帮助。
+- **Confirmed results versus open promises:** 商货分段运输和经营地点有阶段方案，防伪、对账、实际盈利仍没有验收结果。
+- **Specific counterexample or old error:** 旧p23是危机余波，不能证明商业四条件；真正谈关税与互信在p3-16。
+- **What another narration would lose:** 若用一句‘双方开成钱庄’会遮掉费用、权限和信任如何逼迫人物调整主意。
+- **Scope and failure boundary:** 只能分析书中谈判限制，商业规则与历史数字不能作为真实经营指南或已核史实。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-176-narrative-candidate — SCOPED_CREDIBLE_REANCHOR
+
+- **Original candidate:** 让施助者离去后仍保留当事人的现实局限，情绪不靠解释性旁白。
+- **Original XHTML:** `OEBPS/Text/Chapter_0187.xhtml`; member SHA256 `02fb6aa8bbb78ac271769b00fd584aa57bad29a308a931afc6e5415ce1654b35`; frozen `p50`; rechecked `n176/p36-56,p70-85,p86-99`.
+- **Visible actions:** 刘民有夜间听莲荷描述个人生活限制，改变原本意图并离开，她留在原有关系中；刘后又见其他继续等候工作的女子。
+- **Separate character positions and knowledge limits:** 刘的同情属于他的情绪，莲荷有普通生活愿望却不能支配自己处境，双方的感动并不等价于保障。
+- **Confirmed results versus open promises:** 当晚没有可靠安置或有效制度改变，受影响者的现实生活未因刘离开而获得自由。
+- **Specific counterexample or old error:** 旧p50是同行礼仪对话，关键的当事人叙述和离别见p73-85；同情不能写作已成功救助。
+- **What another narration would lose:** 如果立刻旁白说好人解决了困境，人物真实的权力差与未兑现责任就会被抹去。
+- **Scope and failure boundary:** 限定于未遂帮助与人物选择的伦理叙事，不把弱势者当作主角道德成果，也不复述剥削细节。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-179-narrative-candidate — SCOPED_CREDIBLE
+
+- **Original candidate:** 两人不以旁白代替价值判断，而由言行、象征物和承诺改变关系。
+- **Original XHTML:** `OEBPS/Text/Chapter_0190.xhtml`; member SHA256 `72f00ed51e9863c9df068d2ee1292d33ed03aacbc8093b33443bd21076a1aea0`; frozen `p14`; rechecked `n179/p1-6,p13-20,p21-28`.
+- **Visible actions:** 两人由旧预言书谈宿命与责任，主人公承认权力兴趣，朋友以普通人的遭遇反对退避；随后有明确象征物动作和相互支持的承诺。
+- **Separate character positions and knowledge limits:** 陈和刘都不被对方说服成完全一致，刘同意同行也保留对权力目的的质疑。
+- **Confirmed results versus open promises:** 象征性的选择和握手当场完成，未来胜负、长期合作和个人愿望尚待后文兑现。
+- **Specific counterexample or old error:** 旧p14是厉声争辩，不足以独立证明合作改变；真正抛下旧象征和承诺在p20-27。
+- **What another narration would lose:** 只用旁白宣布‘二人终于团结’，会损失冲突、私欲自陈、行动决定之间的先后因果。
+- **Scope and failure boundary:** 人物政治历史判断属于书内立场，本轮仅研究争论如何由现场动作变成阶段承诺。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-180-narrative-candidate — REJECT_OLD_REPEATED_CHECKPOINT_SCENES
+
+- **Original candidate:** 行旅不断遇税卡与中介，沿途阻力将空间地图改造成利益地图。
+- **Original XHTML:** `OEBPS/Text/Chapter_0191.xhtml`; member SHA256 `a5a46d28aa8f229571a635806faa805ba5d908a64bf4565f46a178aea03181ad`; frozen `p21`; rechecked `n180/p1-8,p12-25,p26-41`.
+- **Visible actions:** 大运河沿途大部分是地理概述，抵临清后人物会见地方旧识与师爷，围绕牙行、官吏和商业协助进行谈判。
+- **Separate character positions and knowledge limits:** 周洪谟自知关系范围有限，陈新希望借他发展南货贸易但仍不熟悉地方官商环境。
+- **Confirmed results versus open promises:** 本章主要发生一次抵达后的会谈，并没有一站又一站税卡当场阻拦的连锁场面。
+- **Specific counterexample or old error:** 旧p21是谈南货而非受卡拦截，‘一路不断遇税卡’在原文叙事频率上不成立。
+- **What another narration would lose:** 移除官商谈判会失去人脉与利润限制，然而不能保留原本并未出现的反复查卡镜头。
+- **Scope and failure boundary:** 拒绝旧重复过卡的叙事结论，仅参考行程概述接地方中介利益交谈。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-182-narrative-candidate — REJECT_OLD_NEPOTISM_PROVEN
+
+- **Original candidate:** 柜台现场和女职员反应揭露任用偏私，组织运转不是抽象改革口号。
+- **Original XHTML:** `OEBPS/Text/Chapter_0193.xhtml`; member SHA256 `b6705014c5e281b49d161749bb17e1a61178af8b488b6f002375c144305aa8ce`; frozen `p22`; rechecked `n182/p1-23,p24-43`.
+- **Visible actions:** 刘民有听见女职员向民政负责人要求门市场地，她以调查线索揭示可能存在的亲眷利益，负责人改变口风；后段另切军务。
+- **Separate character positions and knowledge limits:** 王二丫主动追问并善于取证，徐元华忙于民政且受到指责；商户的亲戚关系有被夸大或冒认的可能。
+- **Confirmed results versus open promises:** 上级要求处理场地问题，未形成亲戚关系独立裁断，更不能由争执认定部门所有用人均属偏私。
+- **Specific counterexample or old error:** p20-21女职员明确承认商户可能乱借名号，旧‘柜台揭露任用偏私为已证事实’过强。
+- **What another narration would lose:** 只写改革口号会消去基层女职员当场争取权利，但不能用其争取行为替代事实审计。
+- **Scope and failure boundary:** 否定旧偏私已坐实结论，仅保留调查线索和基层协调的有限文学参考。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-185-narrative-candidate — SCOPED_CREDIBLE_REANCHOR
+
+- **Original candidate:** 问话的疑点与用人的实际选择分开，识人能力不自动等于道德正确。
+- **Original XHTML:** `OEBPS/Text/Chapter_0196.xhtml`; member SHA256 `d6c490697f0ca50a7a8d187f3e90e05abf52b099df301ee5952140f7cb0f23ef`; frozen `p41`; rechecked `n185/p1-16,p25-49,p55-81`.
+- **Visible actions:** 应募人讲述经历获同情，陈新追问后发现细节不合，再经过安排仍为其提供有条件职位。
+- **Separate character positions and knowledge limits:** 陈识破部分表述矛盾，也从个人组织目的选择留用此人，部下的纪律和信任忧虑没有因此消失。
+- **Confirmed results versus open promises:** 任用安排已有，却不能证明当事人可靠、能长期服从或决定符合伦理。
+- **Specific counterexample or old error:** 旧p41只是主角表面赞许，与p44-49质问和p78-81具体用人利益构成反差。
+- **What another narration would lose:** 若直接评价‘识人如神’，会掩盖真假难辨和即使识破仍作功利选择的判断缺陷。
+- **Scope and failure boundary:** 分析识人选择和伦理冲突，不把书中审问及情报行动当可操作程序。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-187-narrative-candidate — SCOPED_CREDIBLE
+
+- **Original candidate:** 切换对立政权视角让敌方有自己的技术和利益逻辑。
+- **Original XHTML:** `OEBPS/Text/Chapter_0198.xhtml`; member SHA256 `fc30543763fe9a059af72b1252f393d418b7367a3e36d3e76434e5a5a8bc568f`; frozen `p21`; rechecked `n187/p1-20,p21-35,p36-42`.
+- **Visible actions:** 后金统治中心检查工匠与物资状况，工匠因生计压力服从问话，各层级对技术与政治利益关注各异。
+- **Separate character positions and knowledge limits:** 皇太极重视自身威望和组织能力，工匠及技术人员害怕权力而非平等自愿合作。
+- **Confirmed results versus open promises:** 招人、现场讨论与试制意向可以确认，长期产能和自主技术突破未在此章得到验证。
+- **Specific counterexample or old error:** p19-21工匠得到允许仍不敢正常起身，反驳‘敌方集团内部全部同心主动献策’的强解释。
+- **What another narration would lose:** 如果只写‘敌方愚昧’会失去另外一个政权的技能组织和被控制者处境之间的张力。
+- **Scope and failure boundary:** 仅限文学对照，不分享军事制造工艺，不把书中史料化叙述直接当外部史实。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-189-narrative-candidate — SCOPED_CREDIBLE_REANCHOR
+
+- **Original candidate:** 两处营门、证人及契税资料逐步改变当事人话语地位。
+- **Original XHTML:** `OEBPS/Text/Chapter_0200.xhtml`; member SHA256 `9892df2ed2fa98456589022995d4a7622f06f3328ddaceca2afefc00fe794bcf`; frozen `p41`; rechecked `n189/p1-16,p28-49,p50-75,p76-81`.
+- **Visible actions:** 视察期间土地持有人及生员以地契诉求争地，官兵与地方代表在营门对峙，随后以契据年代和旧税册进行证据争议。
+- **Separate character positions and knowledge limits:** 陈有军政威望与行政便利，刘关心减少公开冲突，申诉人以文书和生员身份争取优势。
+- **Confirmed results versus open promises:** 申诉一方暂时失势，但全部土地权属合法性与军政程序公正没有被这场谈话彻底证实。
+- **Specific counterexample or old error:** 旧p41只有军人声称奉命，p54和p64-75才是证据争论；末段文书处置亦不能视为客观司法裁决。
+- **What another narration would lose:** 若只写‘讹诈者被揭穿’，耕种事实、文书真伪、谁能动用税册和官署权力的差异都将消失。
+- **Scope and failure boundary:** 这里只讨论文本内证据与话语地位变化，不输出强制执行建议，不把书中土地法律当客观定论。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-190-narrative-candidate — SCOPED_CREDIBLE_REANCHOR
+
+- **Original candidate:** 农兵操练接到战友家庭、再切上层密谈，仁厚形象受到强烈反证。
+- **Original XHTML:** `OEBPS/Text/Chapter_0201.xhtml`; member SHA256 `7ea680a7d0512c2b5ee31b54959c92859a83e868ca8ba505f6a9fd0c55c7ee6c`; frozen `p28`; rechecked `n190/p1-18,p20-39,p40-56`.
+- **Visible actions:** 农兵训练牵出故人家属的生活压力，老兵私下谈论考核成本；下半章转到高层钱粮和不愿公开的政治决定。
+- **Separate character positions and knowledge limits:** 老兵关照故人家人却同时施加粗暴管束，陈在官署里又以组织利益作出另一类选择，双方动机不应被统一道德评价。
+- **Confirmed results versus open promises:** 训练和供养讨论已经发生，家属长期安顿与官署暗中计划的实际后果没有完成验证。
+- **Specific counterexample or old error:** 旧p28是训练负担叙说，不是秘密决定或‘仁厚被反证’的独立支持；相关上层意图见p42-56。
+- **What another narration would lose:** 若只写仁厚管理或纪律井然，会抹去身边家计与未公开决策的成本差别。
+- **Scope and failure boundary:** 仅用于伦理反差和信息差分析，不复述或传授暴力与秘密活动的做法。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-191-narrative-candidate — SCOPED_CREDIBLE
+
+- **Original candidate:** 从新年内宅转庙会再到税卡，连贯展示安居改善和身份成本共存。
+- **Original XHTML:** `OEBPS/Text/Chapter_0202.xhtml`; member SHA256 `6755f628a579aa3ef85dc47638729044f32f94b74cbae7a230b09bd585066544`; frozen `p29`; rechecked `n191/p1-9,p18-37,p38-58`.
+- **Visible actions:** 过年内宅有人争取带薪工作机会，庙会与日常消费显示收入增长，随后新税卡让既有商业扩大成本。
+- **Separate character positions and knowledge limits:** 肖家花希望脱离家务控制，陈以身分和自身利益解释人事，刘反对额外收费而陈选择妥协。
+- **Confirmed results versus open promises:** 年节商货和收入改善可见，具体岗位尚待落实，税卡带来的商业负担并未取消。
+- **Specific counterexample or old error:** 旧p29只是家务岗位商量，不能单证庙会与税卡两线；p43-56仍有上层组织索取收益。
+- **What another narration would lose:** 若只写祥和过年，新岗位、女性地位和经营成本的压力会被抹平。
+- **Scope and failure boundary:** 可研究真实改善与权利限制共存，但不把书中对女性任用的偏见当应然规范。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-194-narrative-candidate — SCOPED_CREDIBLE_REANCHOR
+
+- **Original candidate:** 由现成盐法反驳科技优越论，再以隐性组织显示主角另一面。
+- **Original XHTML:** `OEBPS/Text/Chapter_0205.xhtml`; member SHA256 `838e8228f5e29088bcd6c16f42d8f2d382ded3d7aa9b52938f6cb230274aa035`; frozen `p26`; rechecked `n194/p1-18,p19-35,p40-52`.
+- **Visible actions:** 刘从田亩与采购问题转向新财源，发现自认先进的制盐主意早被当地专业人士采用；另线陈了解组织消息。
+- **Separate character positions and knowledge limits:** 刘基于自身所见过度自信，宋掌握旧行当情况，陈有不同政治需求。
+- **Confirmed results versus open promises:** 想靠技术优势获得新收入的期待受挫，机构改革与秘密事务结果均未在本章兑现。
+- **Specific counterexample or old error:** 旧p26位于后半段对话，不能支持制盐反例；p12-16有明确已有方法的反证，p52历史注仍需外部核验。
+- **What another narration would lose:** 若写现代知识必定碾压旧技术，会丢掉前人现成积累和主角理解局限。
+- **Scope and failure boundary:** 仅保留两条叙事线，不能据小说获得制盐或秘密工作操作技巧。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-196-narrative-candidate — SCOPED_CREDIBLE_REANCHOR
+
+- **Original candidate:** 读者知道陈新说法不实而王徵不知道，合作成功留下伦理后账。
+- **Original XHTML:** `OEBPS/Text/Chapter_0207.xhtml`; member SHA256 `878db3cf41057854f62d28c91f12e636cc80347418a7254c0e459f2b0b81a14d`; frozen `p27`; rechecked `n196/p1-18,p20-35,p36-47,p48-53`.
+- **Visible actions:** 王徵因信仰和家庭安排想辞职，陈为了取得专业人才作出失实许诺，使其暂时留下并调整任职地点。
+- **Separate character positions and knowledge limits:** 王有自己的良知与期待，孙盼他继续任职，陈却只计算人才的组织用途，读者后来比王知道更多。
+- **Confirmed results versus open promises:** 暂时合作的决定发生了，许诺的帮助没有可验证来源，诚实与信任的长期问题未清偿。
+- **Specific counterexample or old error:** 旧p27是孙的附和，失实许诺在p36-39，场外承认话不实在p50-51。
+- **What another narration would lose:** 如果把它简写为‘主角成功请到专家’，专业人才独立信仰和诚信债务便被消除。
+- **Scope and failure boundary:** 不预判王之后一定察觉，也不把误导信任的行为当现实管理策略。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-197-narrative-candidate — SCOPED_CREDIBLE_REANCHOR
+
+- **Original candidate:** 餐铺偏见与屯户家计转换视角，公共声誉不能抵消小人物负担。
+- **Original XHTML:** `OEBPS/Text/Chapter_0208.xhtml`; member SHA256 `8324c959cc165c3afa9426c90623d5f628adb56df84eb20279cf978a442bea18`; frozen `p24`; rechecked `n197/p1-17,p18-29,p30-47`.
+- **Visible actions:** 餐铺里的地方食客排斥外来兵，随后同桌议实发薪饷与编制，再切到屯堡基层被罚后的家庭婚嫁教育负担。
+- **Separate character positions and knowledge limits:** 当事士兵关心受到平等对待，陈计算军力，关大弟想有自己的婚姻和可支配收入但需承担亲人的期望。
+- **Confirmed results versus open promises:** 军中规模与名声不能替平民解决具体待遇；家庭仍有开支与机会不均的问题。
+- **Specific counterexample or old error:** 旧p24是军械编制问题，p1-15才见餐铺排斥，p30-47则反映家庭日常成本。
+- **What another narration would lose:** 如果仅展示军队绩效，普通人员受羞辱、操练负担和家庭账就会失去画面依据。
+- **Scope and failure boundary:** 不能把个别食客偏见当社会全部态度，也不推广粗暴训练。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-199-narrative-candidate — SCOPED_CREDIBLE_REANCHOR
+
+- **Original candidate:** 从古书中发现方法，再进入教室实践，结尾切到更大政治危机。
+- **Original XHTML:** `OEBPS/Text/Chapter_0210.xhtml`; member SHA256 `4ee8c0186dbc622a1f07bf8256d98e1c56d661e71e18e5a9de098504f06ae490`; frozen `p20`; rechecked `n199/p1-22,p23-30,p31-40`.
+- **Visible actions:** 从前人技术著作引出刘的理论教学想法，随后王徵已在工坊组织课程并参与技术讨论，章末转至大旱与岛上政治消息。
+- **Separate character positions and knowledge limits:** 刘希望培养教师和方法意识，陈关注人才留任时长，王有自主研究兴趣，学员尚需长期成长。
+- **Confirmed results versus open promises:** 学校已经开始实际讲习而不是纸上计划，规模化技术产能和长期教师队伍并未兑现。
+- **Specific counterexample or old error:** 旧p20只要求尽快培养老师；p29-30才见真实教学，历史危机转场不证明科技教育已解决外部风险。
+- **What another narration would lose:** 若只说主角发明新教育，已有书籍、学者与课堂实施之间的结构会消失。
+- **Scope and failure boundary:** 不将科教场景解释为可立刻获得生产收益，也不把文本中的历史数字和灾情认作外证已核。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+### STAGE0:R015:wanming-R015-200-narrative-candidate — REJECT_OLD_DISLOYALTY_INFERENCE
+
+- **Original candidate:** 从岛上商贸运转和人员避难愿望切入新视角，隐性服从并非真忠诚。
+- **Original XHTML:** `OEBPS/Text/Chapter_0211.xhtml`; member SHA256 `cbd0716e584ce64f025a5bcd344ef4e81c5ff354a761fcd21d371ea617d46631`; frozen `p19`; rechecked `n200/p1-16,p17-30,p31-37`.
+- **Visible actions:** 张东随商船到皮岛接触商社和家丁，少数人打听文登薪饷和离岛出路，岛上派系及贫困通过局部观察显现。
+- **Separate character positions and knowledge limits:** 家丁担忧饭碗与生活并不意味着已背叛上司；张东对外展现的亲切也与自己的真实任务不同。
+- **Confirmed results versus open promises:** 部分家丁询问未来机会，实际去留和政治忠诚没有据此改变。
+- **Specific counterexample or old error:** 旧p19只是派系情况说明，p21-25是谋生问题而非背叛证据，不能把‘留退路’推出‘伪装忠心’。
+- **What another narration would lose:** 若只列港口势力图，普通受雇者的收入和生存焦虑不可见，但不能把生存顾虑当作忠诚审判。
+- **Scope and failure boundary:** 否定旧心态断言，保留局部视角与谋生取向的参考，避免从原书提取侦查实践技巧。
+- **Gate:** `B_ONLY_NO_V1_V2_V3_INDEPENDENT_C_OR_CERTIFICATION` (not independently validated).
+
+## Final critical check
+
+- In n164 the old anchor records a social booking, but the actual comic action occurs at the end. There is no grounded crowd-wide reputation reclassification.
+- In n180 the narrator summarizes river travel before one local negotiation; repeated real-time customs stops cannot be inferred from mentions of checkpoints.
+- In n182 the female employee has independently investigated and alleged a relative's interest, yet also allows the possibility of someone falsely claiming kinship. Allegation is not proven patronage.
+- In n200 several guards ask about their own future livelihood. Asking about alternatives does not demonstrate disloyalty or prove what they will do.
+- Examples not rejected still retain meaningful contrary evidence: n173 a joint finance venture has open controls; n176 compassion does not complete liberation; n185 identifying a dubious recruit does not make the appointment ethically good; n187 involuntary craftsmen do not share ruler incentives; n189 claims remain legally contestable beyond a public debate; n191 improved incomes attract taxation; n194 prior local technique refutes automatic modern technical superiority; n196 cooperation is tied to unreliable promises; n199 classroom activity is not long-term productivity proof.
+
+**Round N04 evidence conclusion:** all 18 mapped claims addressed, 14 locally credible with narrow boundaries, 4 old strong claims rejected with distinct limited references. 14 previous unreviewed old Stage0 B objects have now been individually reviewed. There are no N04 legacy R042 items and no R042 historical isolation release. 187 method candidate grades, true independent V3, original Stage0 C and certified skills are unchanged.
