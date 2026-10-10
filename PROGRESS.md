@@ -1,3 +1,11 @@
+# V13 最新正式进度（2026-10-10，v13.1）
+ 
+**58/110轮 PASSED；当前新版R059 NOT_STARTED。** 本次R058从原始两本EPUB实际复核9个早期高风险批次中34条R057预先锁定样本，并依同类证据错误扩查9条，合计43/130条旧机制。补充19条真实新段落SHA256公开指纹，逐条保存`v2/stage0/R058_WM_24_DECISIONS.tsv`、`v2/stage0/R058_TX_19_DECISIONS.tsv`和`HIGH_RISK_SOURCE_AUDIT.md`，剩余87条未经逐项文学审查继续B PROVISIONAL。7个与R042隔离重叠的旧主张依然不得直接晋级。
+ 
+R058专项和仓库全部检查于证据commit `88c206e7f1038f318b40f705ac9c17be6edd03b1` **58/58 SUCCESS**。新V1/V2/V3尚未运行，新V3 0/47，Skill0，C NOT_RUN，sealed不动。后续R059必须由用户再次「继续」触发。
+ 
+---
+ 
 # V13 最新实际进度｜2026-10-10（v13.1）
  
 **57/110轮正式通过；新版R057 PASSED；当前R058 NOT_STARTED。**
