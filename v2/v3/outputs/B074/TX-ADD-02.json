@@ -1,0 +1,85 @@
+{
+  "schema": "V13_B074_RAW_PAIRED_DIAGNOSTIC_v1",
+  "case_id": "TX-ADD-02",
+  "candidate_id": "TX-f04",
+  "frozen_contract_blob": "b44928f5728e771127dacdeefb0ad61a12ad8c28",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND_SAME_AGENT",
+  "arm_parity": "Same task/setup, length standard, constraints and scoring; only a narrow method card differs; same author knows both arms, not blinded.",
+  "baseline": {
+    "arm_id": "TX-ADD-02-A",
+    "method_card": "NONE",
+    "scene_one": "港口茶棚外的木桥模型上盖着红绸，郑老先生作为荣誉会长当众赞了两句，木匠便请工人准备明天围路开工。伍嫂推着茶车拦在桥边：“围了这段石道，船客到我棚里怎么走？”郑先生脸色一沉，说自己只是希望镇子热闹，又不是专管占路的吏员。港口管理会的李晟站在旁边，手里拿的是船只靠泊安排；街面人行道的许可还得另一处同意。木匠担心买下的木料租放一天便多亏一天，却也不敢在伍嫂面前说她的摊位不算数。",
+    "scene_two": "午后李晟在茶棚里把模型摆到桌上。荣誉会长签过一张祝贺纸，停船方位却尚需港口商议，封路范围也没送街道委员会。伍嫂叫来另一位摊主，指出封路会影响送面和挑箱的路线。木匠说自己按郑先生的口气备了料，心里觉得受骗；郑先生觉得好心反遭埋怨，却也没有拿出审批令。三个大人围着两个空白签字处争论，早上挂在模型上的红绸被风吹进泥水。志愿者们站在棚外，只敢把绳栏堆在角落。\n工头决定先搁置围路，木材退回棚下；伍嫂要看正式的道路图才愿意商量改道。郑先生把开工致辞收起，说等主管机关答复再定日期。桥没有因为他的头衔提前得到许可。\n临收摊时伍嫂把茶车沿拟封闭的路推了一遍，让众人看见木轮正好经过桥模型标出的栏口。木匠把纸上的小桥转了半圈，发现只看模型时确实没想过茶车。郑先生主动问伍嫂如果换一条路她是否愿试，伍嫂说要先看到尺寸和日期。几人没有因此变成朋友，但至少不再拿一声称赞替代具体答复。港口的船照常靠岸，真正的桥还只在桌上。",
+    "han_characters": 540,
+    "state_ledger": [
+      {
+        "fact": "荣誉头衔无行政审批权"
+      },
+      {
+        "fact": "靠泊与占道属不同部门"
+      },
+      {
+        "fact": "伍嫂有独立经济诉求"
+      },
+      {
+        "fact": "两份许可证尚未到位"
+      },
+      {
+        "fact": "开工计划被暂缓"
+      }
+    ],
+    "unknowns": "Future institutional approval and effects not established; stated omissions remain unresolved.",
+    "failure_risk_note": "荣誉赞许可代替全部机关批准"
+  },
+  "method": {
+    "arm_id": "TX-ADD-02-M",
+    "method_card": "ONE_NARROW_PREREGISTERED_CARD",
+    "scene_one": "港口茶棚外的木桥模型上盖着红绸，郑老先生作为荣誉会长当众赞了两句，木匠便请工人准备明天围路开工。伍嫂推着茶车拦在桥边：“围了这段石道，船客到我棚里怎么走？”郑先生脸色一沉，说自己只是希望镇子热闹，又不是专管占路的吏员。港口管理会的李晟站在旁边，手里拿的是船只靠泊安排；街面人行道的许可还得另一处同意。木匠担心买下的木料租放一天便多亏一天，却也不敢在伍嫂面前说她的摊位不算数。",
+    "scene_two": "午后李晟在茶棚里把模型摆到桌上。荣誉会长签过一张祝贺纸，停船方位却尚需港口商议，封路范围也没送街道委员会。伍嫂叫来另一位摊主，指出封路会影响送面和挑箱的路线。木匠说自己按郑先生的口气备了料，心里觉得受骗；郑先生觉得好心反遭埋怨，却也没有拿出审批令。三个大人围着两个空白签字处争论，早上挂在模型上的红绸被风吹进泥水。志愿者们站在棚外，只敢把绳栏堆在角落。\n李晟请人分出“荣誉赞许”“船只靠泊”“道路占用”三份文书，把各自缺失的批准及申诉人都记清。伍嫂当众提出可以接受的通行条件，工头选择不擅自动工，郑先生撤回对明日开工的暗示。两个机关的空签章仍然空着。\n临收摊时伍嫂把茶车沿拟封闭的路推了一遍，让众人看见木轮正好经过桥模型标出的栏口。木匠把纸上的小桥转了半圈，发现只看模型时确实没想过茶车。郑先生主动问伍嫂如果换一条路她是否愿试，伍嫂说要先看到尺寸和日期。几人没有因此变成朋友，但至少不再拿一声称赞替代具体答复。港口的船照常靠岸，真正的桥还只在桌上。",
+    "han_characters": 557,
+    "state_ledger": [
+      {
+        "fact": "荣誉头衔无行政审批权"
+      },
+      {
+        "fact": "靠泊与占道属不同部门"
+      },
+      {
+        "fact": "伍嫂有独立经济诉求"
+      },
+      {
+        "fact": "两份许可证尚未到位"
+      },
+      {
+        "fact": "开工计划被暂缓"
+      }
+    ],
+    "unknowns": "Later outcomes and evidence absent; no conclusion fabricated.",
+    "failure_risk_note": "荣誉赞许可代替全部机关批准"
+  },
+  "rating": {
+    "evaluator": "SAME_AUTHOR_NONBLIND",
+    "baseline_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "method_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "baseline_total": 8,
+    "method_total": 8,
+    "delta": 0,
+    "independent_judge": "NOT_ESTABLISHED",
+    "replication": "NOT_RUN",
+    "utility": "DIAGNOSTIC_ONLY_NO_VERIFIED",
+    "critical_limit": "Not an independent causal comparison"
+  },
+  "candidate_specific_counterexample": "荣誉赞许可代替全部机关批准"
+}

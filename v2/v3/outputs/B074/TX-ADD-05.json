@@ -1,0 +1,85 @@
+{
+  "schema": "V13_B074_RAW_PAIRED_DIAGNOSTIC_v1",
+  "case_id": "TX-ADD-05",
+  "candidate_id": "TX-p15",
+  "frozen_contract_blob": "b44928f5728e771127dacdeefb0ad61a12ad8c28",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND_SAME_AGENT",
+  "arm_parity": "Same task/setup, length standard, constraints and scoring; only a narrow method card differs; same author knows both arms, not blinded.",
+  "baseline": {
+    "arm_id": "TX-ADD-05-A",
+    "method_card": "NONE",
+    "scene_one": "北坡镇筹备开一间临时避寒房。代表韩墨拿着旧居民名簿，提议设在公所后屋，方便分配钥匙并找人值守。阮禾却说河岸棚屋住着未登册的临工，他们晚归且带小孩，距公所太远。韩墨担心名单外的人没有核对就进入，会令值夜者难以负责。阮禾没有嘲笑她，反问只用名簿就能得出谁需要过冬吗。镇长手里拿着供暖物资的预订单，商家催问送往哪里，几个代表都知道一旦写下地址便有人要按那个决定搬东西。",
+    "scene_two": "午后他们分别走到公所和旧鱼市。公所离主街近，房门完好；鱼市靠近临工住处，木板墙上却有旧雨留下的水痕。一名临工妇人带着孩子停在门口，说夜里出工回来走到公所要半个时辰，鱼市又怕漏雨。韩墨问谁愿看守炉子，阮禾问最晚什么时辰还可以来登记。正式天气预报尚未送达，只有邻镇人说夜里可能霜冻。妇人听见两位代表争论，要求不要替她作决定，她要先知道房子是否能真正暖和。\n镇长决定先查房屋与值守人数，供暖物资仍在商家仓里。韩墨暂记已登记住户，阮禾另问临工需要。两位代表谁也没得到最终胜利，避寒房尚未开门。\n回程中韩墨从口袋里摸出那本旧居民簿，指给阮禾看其中几页去年还更新过，并非全无价值。阮禾也承认如果不留联系方式，许多临工的真实需要只会成为难查的传话。二人交换了一张空白登记页，各自愿意补自己能看到的那部分。镇长没有把这点合作当成政策已执行：煤没有运来，值守没排定，妇人仍在冷风里抱紧孩子。下一次议会必须面对这些未完的事情。",
+    "han_characters": 535,
+    "state_ledger": [
+      {
+        "fact": "旧名簿有管理价值但遗漏临工"
+      },
+      {
+        "fact": "河岸更近却有漏雨疑虑"
+      },
+      {
+        "fact": "临工妇人保有自主意见"
+      },
+      {
+        "fact": "天气信息未核"
+      },
+      {
+        "fact": "避寒房未正式开放"
+      }
+    ],
+    "unknowns": "Future institutional approval and effects not established; stated omissions remain unresolved.",
+    "failure_risk_note": "把一位代表写成无理由而另一位无条件正确"
+  },
+  "method": {
+    "arm_id": "TX-ADD-05-M",
+    "method_card": "ONE_NARROW_PREREGISTERED_CARD",
+    "scene_one": "北坡镇筹备开一间临时避寒房。代表韩墨拿着旧居民名簿，提议设在公所后屋，方便分配钥匙并找人值守。阮禾却说河岸棚屋住着未登册的临工，他们晚归且带小孩，距公所太远。韩墨担心名单外的人没有核对就进入，会令值夜者难以负责。阮禾没有嘲笑她，反问只用名簿就能得出谁需要过冬吗。镇长手里拿着供暖物资的预订单，商家催问送往哪里，几个代表都知道一旦写下地址便有人要按那个决定搬东西。",
+    "scene_two": "午后他们分别走到公所和旧鱼市。公所离主街近，房门完好；鱼市靠近临工住处，木板墙上却有旧雨留下的水痕。一名临工妇人带着孩子停在门口，说夜里出工回来走到公所要半个时辰，鱼市又怕漏雨。韩墨问谁愿看守炉子，阮禾问最晚什么时辰还可以来登记。正式天气预报尚未送达，只有邻镇人说夜里可能霜冻。妇人听见两位代表争论，要求不要替她作决定，她要先知道房子是否能真正暖和。\n镇长把韩墨的管理顾虑和阮禾的遗漏人群分别记为有实际依据的争议，又把屋顶检查、天气消息与夜间值守列为待核项目。妇人自行表达距离和安全的取舍。限期查验两处地址后再决定，现时不把其中一人写成全然正确。\n回程中韩墨从口袋里摸出那本旧居民簿，指给阮禾看其中几页去年还更新过，并非全无价值。阮禾也承认如果不留联系方式，许多临工的真实需要只会成为难查的传话。二人交换了一张空白登记页，各自愿意补自己能看到的那部分。镇长没有把这点合作当成政策已执行：煤没有运来，值守没排定，妇人仍在冷风里抱紧孩子。下一次议会必须面对这些未完的事情。",
+    "han_characters": 566,
+    "state_ledger": [
+      {
+        "fact": "旧名簿有管理价值但遗漏临工"
+      },
+      {
+        "fact": "河岸更近却有漏雨疑虑"
+      },
+      {
+        "fact": "临工妇人保有自主意见"
+      },
+      {
+        "fact": "天气信息未核"
+      },
+      {
+        "fact": "避寒房未正式开放"
+      }
+    ],
+    "unknowns": "Later outcomes and evidence absent; no conclusion fabricated.",
+    "failure_risk_note": "把一位代表写成无理由而另一位无条件正确"
+  },
+  "rating": {
+    "evaluator": "SAME_AUTHOR_NONBLIND",
+    "baseline_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "method_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "baseline_total": 8,
+    "method_total": 8,
+    "delta": 0,
+    "independent_judge": "NOT_ESTABLISHED",
+    "replication": "NOT_RUN",
+    "utility": "DIAGNOSTIC_ONLY_NO_VERIFIED",
+    "critical_limit": "Not an independent causal comparison"
+  },
+  "candidate_specific_counterexample": "把一位代表写成无理由而另一位无条件正确"
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "V13_B074_RAW_PAIRED_DIAGNOSTIC_v1",
+  "case_id": "TX-ADD-06",
+  "candidate_id": "TX-p18",
+  "frozen_contract_blob": "b44928f5728e771127dacdeefb0ad61a12ad8c28",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND_SAME_AGENT",
+  "arm_parity": "Same task/setup, length standard, constraints and scoring; only a narrow method card differs; same author knows both arms, not blinded.",
+  "baseline": {
+    "arm_id": "TX-ADD-06-A",
+    "method_card": "NONE",
+    "scene_one": "社区种子馆墙上的四周轮值表写得细，连哪天浇花哪天查盒都标明。连雨三日，后室积了水，底层种匣已经变潮。馆员严璟照表请谢宁先去前院浇水，谢宁却说家里老人突然需要照顾，她只能留下半个时辰。另一个志愿者去了邻镇，尚未回来。严璟刚想让她在表上打勾，走进后室便闻到湿纸味；那些种子究竟有没有坏掉，没有人拆盒检查。他把笔搁在桌上，才发现一张完整排班表并不等于一间没有意外的仓房。",
+    "scene_two": "取种的顾客下午来问能否按约领一袋菜籽，谢宁先替他搬开被水浸过的木凳，又说自己不能等到天黑。严璟向顾客解释箱外只是潮湿，箱内状况未知，不能说全部仍可播种。顾客说明日要下种，若拖延需要另找种源，也不愿把错误品质的籽领走。谢宁提出先把最下层箱子移上干架，严璟却发现搬运后还得有人核数量和封口；旧表中今天的岗位根本没有这一项。\n严璟暂停浇水，把尚未核验的种子暂时封存。他帮谢宁搬上两箱，余下的留待其他人到场，给顾客记下改天答复。谢宁准时回家，没有被指责不肯留下。种子实际完好多少仍然未知。\n傍晚谢宁把最后一只干燥木框靠墙放好，提醒严璟门槛边还有水缝，不是抬高箱子就能万事无忧。严璟记下这话，却没有立刻宣布整个馆要停运，他只关了最潮的后室。等外头铃响，一位来访者看见门上写着暂缓领用的纸条，问明天是否一定能拿到种子。严璟说会查，但明天是否有好消息要由真实检查结果决定。轮值表仍贴在墙上，这回它只记录原来的计划。",
+    "han_characters": 531,
+    "state_ledger": [
+      {
+        "fact": "排班只覆盖常规条件"
+      },
+      {
+        "fact": "连雨导致库房实际受潮"
+      },
+      {
+        "fact": "谢宁参与时长有限"
+      },
+      {
+        "fact": "种子质量未检测"
+      },
+      {
+        "fact": "封存搬箱不等于问题解决"
+      }
+    ],
+    "unknowns": "Future institutional approval and effects not established; stated omissions remain unresolved.",
+    "failure_risk_note": "照旧计划打勾即认定湿种安全"
+  },
+  "method": {
+    "arm_id": "TX-ADD-06-M",
+    "method_card": "ONE_NARROW_PREREGISTERED_CARD",
+    "scene_one": "社区种子馆墙上的四周轮值表写得细，连哪天浇花哪天查盒都标明。连雨三日，后室积了水，底层种匣已经变潮。馆员严璟照表请谢宁先去前院浇水，谢宁却说家里老人突然需要照顾，她只能留下半个时辰。另一个志愿者去了邻镇，尚未回来。严璟刚想让她在表上打勾，走进后室便闻到湿纸味；那些种子究竟有没有坏掉，没有人拆盒检查。他把笔搁在桌上，才发现一张完整排班表并不等于一间没有意外的仓房。",
+    "scene_two": "取种的顾客下午来问能否按约领一袋菜籽，谢宁先替他搬开被水浸过的木凳，又说自己不能等到天黑。严璟向顾客解释箱外只是潮湿，箱内状况未知，不能说全部仍可播种。顾客说明日要下种，若拖延需要另找种源，也不愿把错误品质的籽领走。谢宁提出先把最下层箱子移上干架，严璟却发现搬运后还得有人核数量和封口；旧表中今天的岗位根本没有这一项。\n严璟把旧班表、现场水患、志愿者实际可用时间分成三笔，准谢宁只做半小时搬箱。今天的浇水改为暂停，检查封口与库存另派人负责，领取暂缓并向顾客说明缺口。尚未拆开的种匣不能写成已经抢救成功。\n傍晚谢宁把最后一只干燥木框靠墙放好，提醒严璟门槛边还有水缝，不是抬高箱子就能万事无忧。严璟记下这话，却没有立刻宣布整个馆要停运，他只关了最潮的后室。等外头铃响，一位来访者看见门上写着暂缓领用的纸条，问明天是否一定能拿到种子。严璟说会查，但明天是否有好消息要由真实检查结果决定。轮值表仍贴在墙上，这回它只记录原来的计划。",
+    "han_characters": 542,
+    "state_ledger": [
+      {
+        "fact": "排班只覆盖常规条件"
+      },
+      {
+        "fact": "连雨导致库房实际受潮"
+      },
+      {
+        "fact": "谢宁参与时长有限"
+      },
+      {
+        "fact": "种子质量未检测"
+      },
+      {
+        "fact": "封存搬箱不等于问题解决"
+      }
+    ],
+    "unknowns": "Later outcomes and evidence absent; no conclusion fabricated.",
+    "failure_risk_note": "照旧计划打勾即认定湿种安全"
+  },
+  "rating": {
+    "evaluator": "SAME_AUTHOR_NONBLIND",
+    "baseline_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "method_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "baseline_total": 8,
+    "method_total": 8,
+    "delta": 0,
+    "independent_judge": "NOT_ESTABLISHED",
+    "replication": "NOT_RUN",
+    "utility": "DIAGNOSTIC_ONLY_NO_VERIFIED",
+    "critical_limit": "Not an independent causal comparison"
+  },
+  "candidate_specific_counterexample": "照旧计划打勾即认定湿种安全"
+}

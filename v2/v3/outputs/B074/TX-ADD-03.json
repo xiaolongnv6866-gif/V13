@@ -1,0 +1,85 @@
+{
+  "schema": "V13_B074_RAW_PAIRED_DIAGNOSTIC_v1",
+  "case_id": "TX-ADD-03",
+  "candidate_id": "TX-f15",
+  "frozen_contract_blob": "b44928f5728e771127dacdeefb0ad61a12ad8c28",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND_SAME_AGENT",
+  "arm_parity": "Same task/setup, length standard, constraints and scoring; only a narrow method card differs; same author knows both arms, not blinded.",
+  "baseline": {
+    "arm_id": "TX-ADD-03-A",
+    "method_card": "NONE",
+    "scene_one": "海岛洗衣社门外晾满白床单，社长沈闻宣布准备把工人的早晚班全部改成晨班，觉得这样能多接旅店的活。罗青把笔放在签名册上，说明自己上午要照料瘫病的伯母，半夜洗衣虽累，却还能陪她用早饭。吴平一直站在门边不说话，账房便低声说大家都没反对，应算已经同意。罗青听见了，转头问吴平：“你真愿意这样排，还是怕说错话？”吴平望着社长手里的新班表，没回答，社长把一摞未交付的床单推向桌边，催他们别误事。",
+    "scene_two": "次日洗衣社又聚齐工人。吴平终于说晨间要送孩子过海上学，昨日沉默是因为谁都盯着他，觉得说不太难。账房提出旅店新订单若不接就会赔钱，但旧班实际能洗多少件也还没清点。罗青建议以两个班组各试三天，却要求社长先说明谁可以选择不参加。另一人担心无人补她的晚班，提出必须有人核对负担。新班表写得整齐，纸上每个姓名却指向一个要生活的人，没有谁能只靠排表把这些难处抹掉。\n沈闻请众人再议两天，旧班照行，吴平回家接孩子，罗青把自己的照护时间写给账房。旅店的订单没有得到肯定答复，账房在册上记下待决定。是否试行还没有投票。\n会散时吴平走到院里，把晾衣绳上滑落的一只木夹捡起来，还给年纪最大的洗衣娘。洗衣娘说自己愿意早来，可不愿替吴平答话。沈闻第一次听见班表之外还有这些彼此不同的愿望，没再拿谁的沉默充当多数。账房仍担忧订单被别家抢去，那份风险不会因为工人被听见就自动消失。雨云在海上压低，明日的晾晒也未必会完全按纸上时辰进行。",
+    "han_characters": 539,
+    "state_ledger": [
+      {
+        "fact": "罗青受照护责任限制"
+      },
+      {
+        "fact": "吴平沉默不代表同意"
+      },
+      {
+        "fact": "晨班计划尚未表决"
+      },
+      {
+        "fact": "旅店订单还未承诺"
+      },
+      {
+        "fact": "生产效率与试行结果未知"
+      }
+    ],
+    "unknowns": "Future institutional approval and effects not established; stated omissions remain unresolved.",
+    "failure_risk_note": "把未明确表态的人记为永久同意"
+  },
+  "method": {
+    "arm_id": "TX-ADD-03-M",
+    "method_card": "ONE_NARROW_PREREGISTERED_CARD",
+    "scene_one": "海岛洗衣社门外晾满白床单，社长沈闻宣布准备把工人的早晚班全部改成晨班，觉得这样能多接旅店的活。罗青把笔放在签名册上，说明自己上午要照料瘫病的伯母，半夜洗衣虽累，却还能陪她用早饭。吴平一直站在门边不说话，账房便低声说大家都没反对，应算已经同意。罗青听见了，转头问吴平：“你真愿意这样排，还是怕说错话？”吴平望着社长手里的新班表，没回答，社长把一摞未交付的床单推向桌边，催他们别误事。",
+    "scene_two": "次日洗衣社又聚齐工人。吴平终于说晨间要送孩子过海上学，昨日沉默是因为谁都盯着他，觉得说不太难。账房提出旅店新订单若不接就会赔钱，但旧班实际能洗多少件也还没清点。罗青建议以两个班组各试三天，却要求社长先说明谁可以选择不参加。另一人担心无人补她的晚班，提出必须有人核对负担。新班表写得整齐，纸上每个姓名却指向一个要生活的人，没有谁能只靠排表把这些难处抹掉。\n沈闻让每个人自己标出可上工的时间，吴平的沉默不记成赞同；罗青有权提出照护例外。她把试行的日数、谁补班、何时可退出三处留下待议，要求有人先清点旧班产能。工人并未同意永久晨班，旅店订单也没有凭空完成。\n会散时吴平走到院里，把晾衣绳上滑落的一只木夹捡起来，还给年纪最大的洗衣娘。洗衣娘说自己愿意早来，可不愿替吴平答话。沈闻第一次听见班表之外还有这些彼此不同的愿望，没再拿谁的沉默充当多数。账房仍担忧订单被别家抢去，那份风险不会因为工人被听见就自动消失。雨云在海上压低，明日的晾晒也未必会完全按纸上时辰进行。",
+    "han_characters": 562,
+    "state_ledger": [
+      {
+        "fact": "罗青受照护责任限制"
+      },
+      {
+        "fact": "吴平沉默不代表同意"
+      },
+      {
+        "fact": "晨班计划尚未表决"
+      },
+      {
+        "fact": "旅店订单还未承诺"
+      },
+      {
+        "fact": "生产效率与试行结果未知"
+      }
+    ],
+    "unknowns": "Later outcomes and evidence absent; no conclusion fabricated.",
+    "failure_risk_note": "把未明确表态的人记为永久同意"
+  },
+  "rating": {
+    "evaluator": "SAME_AUTHOR_NONBLIND",
+    "baseline_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "method_scores": [
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "baseline_total": 8,
+    "method_total": 9,
+    "delta": 1,
+    "independent_judge": "NOT_ESTABLISHED",
+    "replication": "NOT_RUN",
+    "utility": "DIAGNOSTIC_ONLY_NO_VERIFIED",
+    "critical_limit": "Not an independent causal comparison"
+  },
+  "candidate_specific_counterexample": "把未明确表态的人记为永久同意"
+}

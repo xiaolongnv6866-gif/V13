@@ -1,0 +1,85 @@
+{
+  "schema": "V13_B074_RAW_PAIRED_DIAGNOSTIC_v1",
+  "case_id": "TX-ADD-04",
+  "candidate_id": "TX-p02",
+  "frozen_contract_blob": "b44928f5728e771127dacdeefb0ad61a12ad8c28",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND_SAME_AGENT",
+  "arm_parity": "Same task/setup, length standard, constraints and scoring; only a narrow method card differs; same author knows both arms, not blinded.",
+  "baseline": {
+    "arm_id": "TX-ADD-04-A",
+    "method_card": "NONE",
+    "scene_one": "镇博物馆的展室里挂着旧织样，导览员宋河能背出一整册馆藏出借规定。陆奶奶拄杖进门，想借一张自家祖辈留下的织机纹样，她的会员号牌却落在家中。馆长外出，签领处还空着。宋河认得老人，她年轻时曾亲自教馆里人整理织样，于是他几乎拿起装画的竹筒递过去。清洁工叫住他：“认得人和借得出是两件事。”陆奶奶没生气，问自己腿脚不便，可否今天先把手续尽可能办完，免得再来三趟。",
+    "scene_two": "宋河打开旧借出簿，发现同类纸图曾允许馆内查阅，但带出馆仍要求另行签领。陆奶奶说孙女午后可以送号牌，眼下只想知道哪一项手续真正缺失。宋河把申请表放到窗下，逐项说身份证明、图样状态、归还日期，讲得分明却仍不能代馆长落笔。老人问如果等不到馆长，能不能先看展室展示的复制品，宋河看见那份规则另有页码，却不确定值班主管是否能许可。馆外有人敲门催闭馆，他必须在好心与权限之间作一个眼下能兑现的选择。\n宋河请老人先留下联系方式，把两项缺失记在申请纸上，再去寻找有权核定馆内阅览的当班同事。陆奶奶没带走竹筒里的原图，说明日若孙女把牌送到还会再来。\n老人走前扶住展柜，端详另一块旧布样上的裂纹，说自己也不知道图纸如今是否完整。宋河因此在单据旁添上“借前核对现状”，免得将来损坏不明。他让清洁工暂时把竹筒放回锁柜，钥匙留在规定地方。博物馆的钟敲了两下，陆奶奶拿着的是填了一半的申请表而非藏品；她仍能选择明日是否回来，也没有因被拒绝越权借出而丧失求助的机会。",
+    "han_characters": 540,
+    "state_ledger": [
+      {
+        "fact": "馆员背得条文但不能自动代签"
+      },
+      {
+        "fact": "老人缺会员号牌"
+      },
+      {
+        "fact": "馆长签领未完成"
+      },
+      {
+        "fact": "馆内阅览与外带手续不同"
+      },
+      {
+        "fact": "纹样尚未借出"
+      }
+    ],
+    "unknowns": "Future institutional approval and effects not established; stated omissions remain unresolved.",
+    "failure_risk_note": "熟悉条例就直接代替馆长签字"
+  },
+  "method": {
+    "arm_id": "TX-ADD-04-M",
+    "method_card": "ONE_NARROW_PREREGISTERED_CARD",
+    "scene_one": "镇博物馆的展室里挂着旧织样，导览员宋河能背出一整册馆藏出借规定。陆奶奶拄杖进门，想借一张自家祖辈留下的织机纹样，她的会员号牌却落在家中。馆长外出，签领处还空着。宋河认得老人，她年轻时曾亲自教馆里人整理织样，于是他几乎拿起装画的竹筒递过去。清洁工叫住他：“认得人和借得出是两件事。”陆奶奶没生气，问自己腿脚不便，可否今天先把手续尽可能办完，免得再来三趟。",
+    "scene_two": "宋河打开旧借出簿，发现同类纸图曾允许馆内查阅，但带出馆仍要求另行签领。陆奶奶说孙女午后可以送号牌，眼下只想知道哪一项手续真正缺失。宋河把申请表放到窗下，逐项说身份证明、图样状态、归还日期，讲得分明却仍不能代馆长落笔。老人问如果等不到馆长，能不能先看展室展示的复制品，宋河看见那份规则另有页码，却不确定值班主管是否能许可。馆外有人敲门催闭馆，他必须在好心与权限之间作一个眼下能兑现的选择。\n宋河没有继续背诵守则，而是把现在可以执行与必须等授权的事项拆开：记录申请、补会员号牌、等馆长签领，另询问当班主管是否允许馆内查阅。他请陆奶奶选择优先问哪件事，不代签，也不把熟识当作出借权。\n老人走前扶住展柜，端详另一块旧布样上的裂纹，说自己也不知道图纸如今是否完整。宋河因此在单据旁添上“借前核对现状”，免得将来损坏不明。他让清洁工暂时把竹筒放回锁柜，钥匙留在规定地方。博物馆的钟敲了两下，陆奶奶拿着的是填了一半的申请表而非藏品；她仍能选择明日是否回来，也没有因被拒绝越权借出而丧失求助的机会。",
+    "han_characters": 559,
+    "state_ledger": [
+      {
+        "fact": "馆员背得条文但不能自动代签"
+      },
+      {
+        "fact": "老人缺会员号牌"
+      },
+      {
+        "fact": "馆长签领未完成"
+      },
+      {
+        "fact": "馆内阅览与外带手续不同"
+      },
+      {
+        "fact": "纹样尚未借出"
+      }
+    ],
+    "unknowns": "Later outcomes and evidence absent; no conclusion fabricated.",
+    "failure_risk_note": "熟悉条例就直接代替馆长签字"
+  },
+  "rating": {
+    "evaluator": "SAME_AUTHOR_NONBLIND",
+    "baseline_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "method_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "baseline_total": 8,
+    "method_total": 8,
+    "delta": 0,
+    "independent_judge": "NOT_ESTABLISHED",
+    "replication": "NOT_RUN",
+    "utility": "DIAGNOSTIC_ONLY_NO_VERIFIED",
+    "critical_limit": "Not an independent causal comparison"
+  },
+  "candidate_specific_counterexample": "熟悉条例就直接代替馆长签字"
+}

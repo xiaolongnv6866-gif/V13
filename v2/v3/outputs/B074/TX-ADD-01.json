@@ -1,0 +1,85 @@
+{
+  "schema": "V13_B074_RAW_PAIRED_DIAGNOSTIC_v1",
+  "case_id": "TX-ADD-01",
+  "candidate_id": "TX-f03",
+  "frozen_contract_blob": "b44928f5728e771127dacdeefb0ad61a12ad8c28",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND_SAME_AGENT",
+  "arm_parity": "Same task/setup, length standard, constraints and scoring; only a narrow method card differs; same author knows both arms, not blinded.",
+  "baseline": {
+    "arm_id": "TX-ADD-01-A",
+    "method_card": "NONE",
+    "scene_one": "山镇诊所门口新贴的价目牌把候诊人拦住。柳兰领着孩子来复查，发现挂号钱比上月多两文，便问记账的周启谁批准加价。任掌柜闻声赶来，说上周漏雨修房，诊所不收多两文就没人负担木瓦钱。柳兰指着价目牌问修缮费用是否已经核实，任掌柜拿出的却只是瓦匠口头估价。他想请众人按手印，证明这项新收费受到欢迎。柳兰却收起孩子的旧挂号票：“我愿意听你解释，哪能算已经同意？”周启找遍抽屉没有找到新的核价文书，只有旧费收据和未盖章的申请表。",
+    "scene_two": "两人随周启到议事处，值日执事顾晖收下申诉，却说议事处只有转交和问询的权限。任掌柜讲修房如何麻烦，柳兰说自己昨日已经借钱买药，谁也没有立刻让步。顾晖请周启把旧规、掌柜希望涨的数目分别记下，又问哪一家机构有权改收费。那份批准还没有来，门外等待看诊的人却越来越多。小伙计误把申诉号念成了新价批号，柳兰马上拦住，说两张纸绝不能当一张用。\n傍晚任掌柜答应补交修缮账，柳兰依旧按旧价申请挂号；申诉人和经营者各拿一份受理回执。顾晖没有替诊所作决定。周启将纸放进抽屉，知道自己明日还得答复排队的人。\n诊所门口的孩子伸手摸了摸被雨打皱的旧告示，柳兰赶紧拉开他，怕纸被撕坏后更说不清原来定了什么价。任掌柜看见这一幕，叫伙计去找旧年的收费册。他明白自己有修屋顶的难处，但那些难处也需要真正能拍板的人核对。顾晖安排下次接收材料的日期，没有向任何一方保证一定会赢。屋顶仍有一小处渗水，诊所的生意也仍在继续。",
+    "han_characters": 544,
+    "state_ledger": [
+      {
+        "fact": "柳兰实际提出异议"
+      },
+      {
+        "fact": "任掌柜修房成本主张待核"
+      },
+      {
+        "fact": "议事处只受理不核价"
+      },
+      {
+        "fact": "新费批准缺失"
+      },
+      {
+        "fact": "实际收费仍应按有效旧价"
+      }
+    ],
+    "unknowns": "Future institutional approval and effects not established; stated omissions remain unresolved.",
+    "failure_risk_note": "受理申诉即宣告新收费生效"
+  },
+  "method": {
+    "arm_id": "TX-ADD-01-M",
+    "method_card": "ONE_NARROW_PREREGISTERED_CARD",
+    "scene_one": "山镇诊所门口新贴的价目牌把候诊人拦住。柳兰领着孩子来复查，发现挂号钱比上月多两文，便问记账的周启谁批准加价。任掌柜闻声赶来，说上周漏雨修房，诊所不收多两文就没人负担木瓦钱。柳兰指着价目牌问修缮费用是否已经核实，任掌柜拿出的却只是瓦匠口头估价。他想请众人按手印，证明这项新收费受到欢迎。柳兰却收起孩子的旧挂号票：“我愿意听你解释，哪能算已经同意？”周启找遍抽屉没有找到新的核价文书，只有旧费收据和未盖章的申请表。",
+    "scene_two": "两人随周启到议事处，值日执事顾晖收下申诉，却说议事处只有转交和问询的权限。任掌柜讲修房如何麻烦，柳兰说自己昨日已经借钱买药，谁也没有立刻让步。顾晖请周启把旧规、掌柜希望涨的数目分别记下，又问哪一家机构有权改收费。那份批准还没有来，门外等待看诊的人却越来越多。小伙计误把申诉号念成了新价批号，柳兰马上拦住，说两张纸绝不能当一张用。\n顾晖当着两人将“提出申诉”“受理转交”“定价批准”“实际执行”分别写明，并给每一项标出尚缺谁的签字。柳兰自主留下书面反对，任掌柜有机会继续举证；眼下只能按已有效的旧规则办事，新的价目牌先被取下。\n诊所门口的孩子伸手摸了摸被雨打皱的旧告示，柳兰赶紧拉开他，怕纸被撕坏后更说不清原来定了什么价。任掌柜看见这一幕，叫伙计去找旧年的收费册。他明白自己有修屋顶的难处，但那些难处也需要真正能拍板的人核对。顾晖安排下次接收材料的日期，没有向任何一方保证一定会赢。屋顶仍有一小处渗水，诊所的生意也仍在继续。",
+    "han_characters": 557,
+    "state_ledger": [
+      {
+        "fact": "柳兰实际提出异议"
+      },
+      {
+        "fact": "任掌柜修房成本主张待核"
+      },
+      {
+        "fact": "议事处只受理不核价"
+      },
+      {
+        "fact": "新费批准缺失"
+      },
+      {
+        "fact": "实际收费仍应按有效旧价"
+      }
+    ],
+    "unknowns": "Later outcomes and evidence absent; no conclusion fabricated.",
+    "failure_risk_note": "受理申诉即宣告新收费生效"
+  },
+  "rating": {
+    "evaluator": "SAME_AUTHOR_NONBLIND",
+    "baseline_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "method_scores": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "baseline_total": 8,
+    "method_total": 8,
+    "delta": 0,
+    "independent_judge": "NOT_ESTABLISHED",
+    "replication": "NOT_RUN",
+    "utility": "DIAGNOSTIC_ONLY_NO_VERIFIED",
+    "critical_limit": "Not an independent causal comparison"
+  },
+  "candidate_specific_counterexample": "受理申诉即宣告新收费生效"
+}
