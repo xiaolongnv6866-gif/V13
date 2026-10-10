@@ -5,9 +5,9 @@
   "approved_at": "2026-10-11",
   "plan": "V13_3_FIXED_48_ROUNDS.md",
   "ledger": "V13_LEDGER_V4.tsv",
-  "current_round": "N03",
-  "current_round_status": "IN_PROGRESS",
-  "completed_new_rounds": 2,
+  "current_round": "N04",
+  "current_round_status": "NOT_STARTED",
+  "completed_new_rounds": 3,
   "total_new_rounds": 48,
   "historical_parent_main_sha": "df6b1f8fefe3f51324182d53bd50f531c99a1b08",
   "historical_v13_2_state": "V13_CURRENT_V3.json",
@@ -49,10 +49,10 @@
     "N45 NUWA PHASE5 TWO DISTINCT SUBJECTS NOT ASSIGNED",
     "N47 FINAL FOUR-ARM INDEPENDENT BLIND EVALUATION UNCONFIRMED"
   ],
-  "v13_3_stage0_B_disposed_this_plan": 34,
-  "v13_3_stage0_B_pending_remaining": 262,
-  "v13_3_from_old_192_unreviewed_done": 18,
-  "v13_3_from_old_192_unreviewed_remaining": 174,
-  "v13_3_R042_quarantines_source_reviewed": 2,
+  "v13_3_stage0_B_disposed_this_plan": 52,
+  "v13_3_stage0_B_pending_remaining": 244,
+  "v13_3_from_old_192_unreviewed_done": 31,
+  "v13_3_from_old_192_unreviewed_remaining": 161,
+  "v13_3_R042_quarantines_source_reviewed": 3,
   "v13_3_R042_quarantines_still_not_promoted": 14
 }

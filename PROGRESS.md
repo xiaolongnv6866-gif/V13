@@ -1,3 +1,15 @@
+## V13.3 最新恢复入口｜N03 PASSED（2026-10-11）
+
+**唯一生效游标：`V13_CURRENT_V4.json` + `V13_LEDGER_V4.tsv`。N01、N02、N03均PASSED，累计3/48；N04 `NOT_STARTED`。必须等用户新的“继续”指令才执行N04。下方历史段落如称N03未开始、N02为当前、B076旧状态，均只作历史追溯。**
+
+N03实绩：原《晚明》R013文学B **18/18** ID逐章真原文核查（13项有界限可信，5项旧强主张拒绝，禁止直接晋级方法），另R042 `LEGACY:wanming-R013-143-narrative-candidate` **1/1** 独立来源处置仍保留隔离至N16/N28。用户私有原EPUB SHA256 `a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082` 匹配，18份对应XHTML章原始SHA匹配，新增36处真实私有段落SHA现场重算登记。严禁把坐标与结构CI当作独立文学盲审。
+
+证据提交`2ae20ba8b6573f043919b6663847df9669314882`：77/77 Actions SUCCESS。交付`v13_3/n03/N03_LITERARY_B_18.tsv`、`N03_ORIGINAL_PARAGRAPH_SHA_36.tsv`、`N03_LEGACY_R042.tsv`、`N03_SOURCE_REVIEW.md`，正式封账`runs/N03_V4.md`。
+
+累计Stage0 B处置52/296，剩余244；原192未逐审中已首次复核31，剩161；14隔离来源复核3项但14项均仍不得不当晋级。候选四类 **verified0/reference108/needs_review79/rejected0**；69独立V3实际通过0、原Stage0独立C0/20、认证SKILL0。N04合同为《晚明》R015共18项文学B且本轮隔离0，严格逐轮执行，不提前开工。 
+
+---
+
 ## V13.3 最新正式恢复与执行状态｜N02 PASSED（2026-10-11）
 
 **正式V4游标：N03 NOT_STARTED；已完成新计划2/48轮。** 新会话必须以`V13_CURRENT_V4.json`和`V13_LEDGER_V4.tsv`为准。历史B076冻结/旧N01提示词仅供追溯；下一次用户明确发送“继续”才开始N03，N03研究对象《晚明》R013的18项文学B + 1项R042旧隔离。
