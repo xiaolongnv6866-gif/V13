@@ -105,12 +105,12 @@ for token in ['201/209','203/209','47个','11个','90项','39项','168/209','19�
 old=readt(R/'cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv')
 ck(len(old)==14 and all(r['stage1_permission']=='NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE' for r in old),'14 legacy quality claims incorrectly released')
 state=readj(R/'CURRENT_ROUND.json');n=int(state['current_round'][1:])
-ck(state['round_status']=='NOT_STARTED' and ((n==56 and state['rounds_completed']==55 and state['last_passed_round']=='R055') or (n>=57 and state['rounds_completed']==n-1 and int(state['last_passed_round'][1:])>=56)),'controller progression invalid')
+ck((state["round_status"]=="NOT_STARTED" or (state["current_round"]=="R057" and state["round_status"]=="BLOCKED" and state["rounds_completed"]==56 and state["last_passed_round"]=="R056" and state.get("cangjie_stage1_5_user_confirm")=="PENDING_R057_USER_APPROVAL")) and ((n==56 and state['rounds_completed']==55 and state['last_passed_round']=='R055') or (n>=57 and state['rounds_completed']==n-1 and int(state['last_passed_round'][1:])>=56)),'controller progression invalid')
 ck(state['legacy_quality_debt_status']=='OPEN_QUARANTINED' and state['literary_interpretation_status']=='PROVISIONAL' and state['skill_certified_count']==0 and state['heldout_bank_status']=='SEALED_NOT_RUN','quality debt, B, Skill or heldout incorrectly promoted')
 ck(state['original_output_test_status']=='NOT_RUN','independent original test C prematurely upgraded')
 with (R/'ROUND_LEDGER.csv').open(encoding='utf8',newline='') as f: ledger={row['id']:row for row in csv.DictReader(f)}
 ck(ledger['R055']['status']=='PASSED' and ledger['R056']['status']==('NOT_STARTED' if n==56 else 'PASSED'),'round R056 ledger status inconsistent')
-if n==57:ck(ledger['R057']['status']=='NOT_STARTED','R057 gate triggered without user confirmation')
+if n==57:ck(ledger['R057']['status']==state['round_status'] and state['round_status'] in ('NOT_STARTED','BLOCKED'),'R057 approval gate drift: status mismatch')
 # Negative mutation controls validate evaluator catches the major forms.
 tc=cases[0];r=next(x for x in rr if x['id']==tc['id']);base=readj(T/'matched_baseline'/(tc['id']+'.json'));cand=readj(U/'results'/(tc['id']+'.json'))
 def invalid_change(fn):

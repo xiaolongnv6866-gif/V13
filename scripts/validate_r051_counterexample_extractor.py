@@ -68,7 +68,7 @@ audit=(B/'COUNTEREXAMPLE_AUDIT.md').read_text(encoding='utf8')
 for tok in ['532','33,278','2,087,501','958','21条','67处','24个','27个','41处','SOURCE_STRUCTURE_ONLY','PROVISIONAL','NOT_RUN','R052']:ck(tok in audit,'report '+tok)
 cur=json.loads((ROOT/'CURRENT_ROUND.json').read_text(encoding='utf8'))
 number=int(cur['current_round'][1:])
-ck(cur['round_status']=='NOT_STARTED' and ((number==51 and cur['rounds_completed']==50) or (number>=52 and cur['rounds_completed']==number-1)),'cursor')
+ck((cur["round_status"]=="NOT_STARTED" or (cur["current_round"]=="R057" and cur["round_status"]=="BLOCKED" and cur["rounds_completed"]==56 and cur["last_passed_round"]=="R056" and cur.get("cangjie_stage1_5_user_confirm")=="PENDING_R057_USER_APPROVAL")) and ((number==51 and cur['rounds_completed']==50) or (number>=52 and cur['rounds_completed']==number-1)),'cursor')
 ck(cur['skill_certified_count']==0 and cur['heldout_bank_status']=='SEALED_NOT_RUN' and cur['original_output_test_status']=='NOT_RUN','false B/C/skill certification')
 ck(cur['legacy_quality_debt_status']=='OPEN_QUARANTINED','old debt cleared without proof')
 with (ROOT/'ROUND_LEDGER.csv').open(encoding='utf8',newline='') as f:ld={x['id']:x for x in csv.DictReader(f)}

@@ -115,7 +115,7 @@ old=tab(R/'cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv')
 ck(len(old)==14 and all(x['stage1_permission']=='NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE' for x in old),'R042 old claim quarantine lifted')
 state=json.loads((R/'CURRENT_ROUND.json').read_text(encoding='utf8'))
 roundno=int(state['current_round'][1:])
-ck(state['round_status']=='NOT_STARTED' and ((roundno==55 and state['rounds_completed']==54 and state['last_passed_round']=='R054') or (roundno>=56 and state['rounds_completed']==roundno-1 and int(state['last_passed_round'][1:])>=55)),'official cursor wrong for evidence/formal commit')
+ck((state["round_status"]=="NOT_STARTED" or (state["current_round"]=="R057" and state["round_status"]=="BLOCKED" and state["rounds_completed"]==56 and state["last_passed_round"]=="R056" and state.get("cangjie_stage1_5_user_confirm")=="PENDING_R057_USER_APPROVAL")) and ((roundno==55 and state['rounds_completed']==54 and state['last_passed_round']=='R054') or (roundno>=56 and state['rounds_completed']==roundno-1 and int(state['last_passed_round'][1:])>=55)),'official cursor wrong for evidence/formal commit')
 ck(state['literary_interpretation_status']=='PROVISIONAL' and state['original_output_test_status']=='NOT_RUN' and state['skill_certified_count']==0,'V2 walkthrough misrepresented as independent V3/SKILL')
 ck(state['heldout_bank_status']=='SEALED_NOT_RUN' and state['legacy_quality_debt_status']=='OPEN_QUARANTINED','heldout or old quality claims released')
 with (R/'ROUND_LEDGER.csv').open(encoding='utf8',newline='') as f:

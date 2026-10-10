@@ -1,0 +1,14 @@
+name: V13 R057 Cangjie Stage1.5 exact routing and approval gate
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  r057-stage15:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify 187 origin IDs, 3-gate decisions, 14 quarantines, 19 Stage0 tasks and approval BLOCKED
+        run: python3 scripts/validate_r057_stage15.py
+      - name: Frozen 89-round controller (no R058 advancement)
+        run: python3 scripts/validate_round_integrity.py
