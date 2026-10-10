@@ -1,0 +1,12 @@
+name: V13 v13.1 R062 Stage0 Quality Debt Crosswalk
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  check-r062:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify 426 frozen IDs, 19 tasks, 14 legacy dispositions and zero false certifications
+        run: python3 scripts/validate_v13_r062_quality_debt.py
