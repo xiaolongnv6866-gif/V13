@@ -43,6 +43,9 @@ ensure([obstacles.get(k) for k in rules]==[47,11,39,90],"47/11/39/90 source brea
 old=read("cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv");qu=read("gates/R057_LEGACY_QUARANTINE.tsv")
 ensure(len(old)==len(qu)==14,"14 history quarantine")
 ensure({r["legacy_claim_id"] for r in old}=={r["legacy_claim_id"] for r in qu},"missing old ID")
+ensure(sum(x["book_slug"]=="wanming" for x in qu)==7 and sum(x["book_slug"]=="tiexuecanming" for x in qu)==7,"legacy book split")
+report=(ROOT/"gates/CANGJIE_STAGE15.md").read_text(encoding="utf8")
+ensure("|晚明|91|0|42|49|0|7|" in report and "|铁血残明|96|0|48|48|0|7|" in report,"gate table split mismatch")
 for x in qu:
  ensure(x["decision"]=="needs_review" and x["stage1_permission"]=="NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE","old claim accidentally promoted")
  ensure(x["source_boundary"] and x["next_evidence_responsibility"],"legacy source obligation omitted")

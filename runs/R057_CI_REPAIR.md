@@ -9,3 +9,9 @@ This correction **only permits R057 BLOCKED when current_round R057, rounds_comp
 New dedicated R057 structural validator checks exact 187 original identifiers and all V1/V2/V3 statuses, 97+90 classifications, all 14 old quarantine ids, 19 Stage0 task IDs/coverage/deltas, lack of false verified status, and authoritative BLOCKED gate. This validator is a **structural evidence check only**, not literary independent validation.
 
 The old 8 failures must remain available in GitHub Actions history. New commit must re-run all Actions and be remote-read before asserting technical success. User consent pending; R057 still BLOCKED.
+
+## R057 CI及人工交叉检查增补
+
+- Regression repair commit c3f25b08cd25241103c995ed9a4dc3ceb6495c34: **55/55 GitHub Actions completed SUCCESS**, including newly installed R057 validator (run 38030493734).
+- 额外审阅发现汇总门表将14条旧隔离误写为WM6/TX8；原始14行和两书逐条needs-review.md实际为WM7/TX7。仅修正汇总表为7+7，新增逐书一致性验证，不修改旧ID/原著证据/三门判定或正式分流0/90/97/0。
+- 修正提交须重新检验其触发的全套Actions及远程回读，仍BLOCKED等待用户批准。
