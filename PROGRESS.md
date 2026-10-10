@@ -1,3 +1,15 @@
+## V13.3｜最新权威恢复入口 N09 PASSED（2026-10-11）
+
+**唯一生效游标：`V13_CURRENT_V4.json` 和 `V13_LEDGER_V4.tsv`，N01—N09均PASSED，累计9/48；下一轮N10 NOT_STARTED。必须收到用户下一次新的“继续”才能开始N10，不提前研究N10；以下任何N08、N07、B076历史说明均只追溯。**
+
+N09完成《铁血残明》R008与R010共20/20项冻结文学B原ID的真实EPUB来源核查：18项限定可信，2项拒绝旧强命题（R008 n39：庞雨卷入财利活动而非仍单纯乐观旁观；R010 n79：巡街计划培养未来信任，不是多年前既有信任）。旧R042 `LEGACY:tx-r008-033`单独1/1审查：幕后上司授命没有证据，仍OPEN_QUARANTINED，不许晋级。整本EPUB SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`、ZIP CRC、20/20个原XHTML成员及40/40条真实段落SHA均重新验证一致。证据提交`faaf50c1a184f24c3ffed06eaf0e4c0862d9e84f`在自身全部86/86个适用GitHub Actions SUCCESS；最终封账HEAD还须重新确认自己的全部适用Actions。
+
+交付文件：`v13_3/n09/N09_SOURCE_REVIEW.md`、`N09_LITERARY_B_20.tsv`、`N09_ORIGINAL_PARAGRAPH_SHA_40.tsv`、`N09_LEGACY_R042.tsv`，原始逐项现场记录`N09_R008_PRIVATE_SOURCE_NOTES.tsv`和`N09_R010_PRIVATE_SOURCE_NOTES.tsv`，专属验收`scripts/validate_v13_n09.py`及`.github/workflows/v13_3_n09.yml`、正式收据`runs/N09_V4.md`。
+
+累计Stage0文学B修复170/296，待修126；历史原192项未逐审首审116，余76；旧R042 14项中来源复核8项，全部14项仍不可方法晋级。187候选reference108 / needs_review79 / verified0 / rejected0，真正独立V3=0，原Stage0独立C=0/20，认证SKILL=0。CI证明结构合同验收，不冒充独立文学盲审。N10固定范围《铁血残明》R012与R014文学B26项加独立R042隔离2项；本轮不得提前开N10。
+
+---
+
 ## V13.3｜最新权威恢复入口 N08 PASSED（2026-10-11）
 
 **生效游标：`V13_CURRENT_V4.json` + `V13_LEDGER_V4.tsv`；N01—N08 PASSED（8/48）。下轮只能是N09 NOT_STARTED，须等用户下一次“继续”方可开工；以下旧N07等段落均属历史状态。**
