@@ -1,3 +1,13 @@
+## V13.3｜N12 正式恢复入口（2026-10-11）
+
+**唯一权威游标为`V13_CURRENT_V4.json`及`V13_LEDGER_V4.tsv`：N01—N12全部PASSED，累计12/48轮，下一轮是`N13 NOT_STARTED`，用户下次输入“继续”时才能启动。以下旧状态属于历史记录。**
+
+N12《铁血残明》R018文学B20/20逐ID研究，16项限定可信、4项原判断否决（n218、n226、n228、n232）；20/20原始XHTML SHA和40/40正文段落SHA已核。独立历史R042 n226仍然OPEN_QUARANTINED，不晋级。完整研究`v13_3/n12/N12_SOURCE_REVIEW.md`、两份场景记录、20项裁决与40条哈希；专属CI`scripts/validate_v13_n12.py`与`.github/workflows/v13_3_n12.yml`。修正后证据提交`415bb2d36e1b26a89c013bc744e3d5522a3adf45`适用Actions 77/77 SUCCESS；封账版另需检查自身全部Actions。
+
+累计Stage0 B236/296、待复核60；旧192首次复核162、余30；历史R042已复核12/14、14项仍隔离。187候选verified0/reference108/needs_review79/rejected0，真正独立V3通过0，原Stage0独立C0/20，认证SKILL0。N13固定研究《铁血残明》R020文学B20项与历史隔离1项，本轮不启动。
+
+---
+
 ## V13.3｜N11正式封账及唯一恢复游标（2026-10-11）
 
 **唯一权威状态以`V13_CURRENT_V4.json`与`V13_LEDGER_V4.tsv`为准：N01—N11已PASSED，共11/48轮；下一轮为`N12 NOT_STARTED`。不得从以下旧N10/N09段落恢复，也不得在用户再次单独发送“继续”前启动N12。**
