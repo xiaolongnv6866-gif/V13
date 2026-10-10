@@ -1,0 +1,21 @@
+old_task_id	book	R057_topic_id	old_required_output	R057_expected_deliverable	old_acceptance_failure	exact_gap_adjudication	contract_execution	independent_acceptance
+WM-T01	wanming	WM-01	3场连续原创剧情 + 身份/职业/人情信用变更记录	三场不同见证人场面＋合法性变更表	技能必须有展示、他人认可或拒绝、后续兑现；失败：技能一亮即无限授权	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+WM-T02	wanming	WM-02	双视角场景 + 一次真实行动分歧 + 合作关系未来代价	双视角冲突＋关系债务	两人有可理解的独立理由，至少一项决定对未来形成债务；失败：一人只是说教工具	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+WM-T03	wanming	WM-03	权限/人员/财政/训练/责任五账 + 两场冲突剧情	权限/人力/资金/承诺四账与现场	每种资源有来源及撤回条件，不能直接从官衔生成完整队伍；失败：跳过授权或持续供养	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+WM-T04	wanming	WM-04	时间轴+小说内部收支账+一场因欠付或延期导致的原创现场	跨章虚构资源时序＋两名商人选择	账期不凭空消失，至少一方受影响并行动；失败：账面利润直接转为即时兵饷	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+WM-T05	wanming	WM-05	3个有限视角场景 + 行动—误解—修正—后果链	两地有限视角场景＋消息差清单	不能写可复制的危险操作流程；各层理解差异影响剧情；失败：下属仿佛共享统帅全知	SPECIAL_RESTORED_3_LAYERS_INFORMATION	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+WM-T06	wanming	WM-05	三方知识表 + 两个交叉现场 + 信息揭示时点	两地有限视角场景＋消息差清单	每方目标、误报和自主选择可复查；失败：反派只按主角预言行动	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+WM-T07	wanming	WM-06	四方后果网：决策层、执行者、受益者、反对者 + 3章钩子	战后四方结果网＋未结事项	下一场冲突必须由先前改变的资源或责任引起；失败：一次胜利直接收束治理	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+WM-T08	wanming	WM-07	原创冲突现场、发言权表、决定权表、复核缺口、失败边界	一场制度争辩＋试点验收表	区分“有人发言”与“公平得到证明”，记录结果与新债；失败：主持者一句提问就被当正式论证	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+WM-T09	wanming	WM-08	`seen/heard/confirmed/unknown` 四栏人物状态账 + 逆向复核测试	人物认知/关系/个人意愿连续账	对人物的传闻不能升级为确定事实；失败：视角里消失就自动宣告死亡	SPECIAL_RESTORED_CROSS_VOLUME_FOUR_STATES	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+WM-T10	wanming	WM-09	过去场景、晚年讲述场景、事实/记忆/传闻/演出对照表	事件／见闻／谣说／评书四层对照	修订的是评价和部分可信信息，不凭无证据反转全书事实；失败：一句说书推翻前文全部现场	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+TX-T01	tiexuecanming	TX-01	三段场景＋关系事实表（本人/旁观者/权威/受伤者各知什么）	多见证人开场＋后续信用账	新成功不能抹去曾经恶评，至少一位角色的态度基于亲眼可见的新行为改变；最后保留未回收旧债	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+TX-T02	tiexuecanming	TX-02	申请—受理—授权—执行—追责状态表＋两场具体签办与驳回场景	申请—受理—承认—执行—追责五态表和两场争议	任何阶段不允许跳级，有一次独立审查和至少一个后果尚未结清	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+TX-T03	tiexuecanming	TX-03	职责依赖图、干部自主提案的会议现场、之后一次独立执行场	会议争论＋岗位执行结果场	下属提出与领袖不同且实质可行的方案，下一章由结果而不是领导训话验收	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+TX-T04	tiexuecanming	TX-04	三时点资源台账＋供给出现前后的两场反应＋下一章债务	资金/实物/到账时点三账及小说事件	用备用资金补当期缺口后必须写供给者新增议价权或实际成本，未到账不能当现钱	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+TX-T05	tiexuecanming	TX-05	提案—质疑—口头解释—实测缺口四栏＋争论场＋后续差分复核	提案—反问—答复—实测差异链	反问必须指出真正冲突，口头澄清不代表长期运行成功；至少一名利益受损者可表明态度	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+TX-T06	tiexuecanming	TX-06	三方知情表＋一次未能说服和一次条件谈成的对照场景＋时延清单	三方信息状态账＋协作场	不能用主角说服力跳过独立他者同意，成功协作有签约范围与有效期	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+TX-T07	tiexuecanming	TX-07	两段偏离主视角的现场＋选择引发的后续因果树	双群像场景及后续因果树	至少一人的行动真实改变下一章，不能只安排受难旁白或反派独白	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+TX-T08	tiexuecanming	TX-08	请求—回话—许可—真正落实四时间节点＋两人视角短场	请求—回答—许可条件—兑现状态表	场面需标记各人是否有拒绝权；存在附条件许可而非口头答应万事皆成	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+TX-T09	tiexuecanming	TX-09	事实/见闻/转述/编修/发布版本台账＋一场内审争议	现场事实／报告／编辑／受众分层账	至少一项可核查事实在转述中发生精度损失，人物能因错误版本改动行动，但不能把一切报道设为虚假	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN
+TX-T10	tiexuecanming	TX-10	首尾两场＋已发生/当事人估算/未发生三栏事实账＋后续选择钩子	末场决定＋已经发生/估算/未来未知三栏	结尾做决定但不抢写未来成功或失败，下一章允许合法延迟与客观障碍	ORIGINAL_OUTPUT_AND_FAILURE_GATE_NOT_INDEPENDENTLY_TESTED	CONTRACT_RESTORED_NOT_RUN	NOT_RUN

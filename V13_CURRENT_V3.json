@@ -180,5 +180,15 @@
   "b076_v1_recheck_actual_evidence": "gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv",
   "b076_v1_recheck_report": "gates/B076_V1_28_SOURCE_RECHECK_REPORT.md",
   "b076_true_independent_creators_or_judges": "NOT_ESTABLISHED",
-  "b076_real_v3_replicates": 0
+  "b076_real_v3_replicates": 0,
+  "b076_v1_claim_scope_reviewed": 28,
+  "b076_v1_scope_only_supported": 4,
+  "b076_v1_composite_still_unsupported": 6,
+  "b076_v1_source_only_reference_material": 18,
+  "b076_v1_claim_repair_report": "gates/B076_V1_28_CLAIM_REPAIR_REPORT.md",
+  "b076_v1_claim_repair_matrix": "gates/B076_V1_28_CLAIM_SCOPE_ADJUDICATION.tsv",
+  "b076_stage0_20_output_reaudit": "gates/B076_STAGE0_20_EXACT_DELIVERABLE_REAUDIT.tsv",
+  "b076_stage0_wm_t05_t09_contracts": "gates/B076_STAGE0_WM_T05_T09_RESTORED_CONTRACTS.md",
+  "b076_stage0_new_independent_full_pass": 0,
+  "b076_independent_v3_creator_and_judges": "NOT_AVAILABLE_UNASSIGNED"
 }

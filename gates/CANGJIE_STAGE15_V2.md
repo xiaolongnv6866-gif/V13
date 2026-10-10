@@ -1,3 +1,8 @@
+# 2026-10-10｜B076 28项主张缩窄＋Stage0合同缺口实修（最新）
+本次对已通过独立本地SHA重算的28/28原文收据（89处/76段/36章）逐ID裁剪。新`gates/B076_V1_28_CLAIM_SCOPE_ADJUDICATION.tsv`分别为窄场景可支持4、不同故事拼接因果仍不足6、仅有可查案例/反例素材18；**正式V1方法PASS新增0、独立V3 0、认证0**，官方187四分类不变。另建20条旧Stage0输出合同差异复核表与WM-T05三级认知、WM-T09跨卷四状态的独立陌生题合同，**仅完成合同复原，未创作和盲评，Stage0独立C仍0/20**。见`gates/B076_V1_28_CLAIM_REPAIR_REPORT.md`和`gates/B076_STAGE0_WM_T05_T09_RESTORED_CONTRACTS.md`。本轮继续B076 BLOCKED，75/96，B077 NOT_STARTED，零verified禁止晋级编译。
+
+---
+
 ## B076补证执行状态（最新更新）
 
 2026-10-10：对28个原V1待核候选按两份用户EPUB原始哈希及89次n/p定位执行来源重查，实际36章文件、76个唯一段落；每条限制性结论和段落摘要见`gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv`及`gates/B076_V1_28_SOURCE_RECHECK_REPORT.md`。**这只是来源证据重新核对；28/28的过宽因果/执行主张仍REVIEW，V1新PASS=0。** 69条需要实际独立双臂/盲评的V3仍未执行，原Stage0二十任务完整C未独立验收，verified=0，SKILL0。用户明确选择A已存档，B076继续`BLOCKED`，不得前进B077。原文版权文本不上传GitHub。

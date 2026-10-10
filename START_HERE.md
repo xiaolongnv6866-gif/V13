@@ -1,3 +1,8 @@
+# 2026-10-10｜B076 28项主张缩窄＋Stage0合同缺口实修（最新）
+本次对已通过独立本地SHA重算的28/28原文收据（89处/76段/36章）逐ID裁剪。新`gates/B076_V1_28_CLAIM_SCOPE_ADJUDICATION.tsv`分别为窄场景可支持4、不同故事拼接因果仍不足6、仅有可查案例/反例素材18；**正式V1方法PASS新增0、独立V3 0、认证0**，官方187四分类不变。另建20条旧Stage0输出合同差异复核表与WM-T05三级认知、WM-T09跨卷四状态的独立陌生题合同，**仅完成合同复原，未创作和盲评，Stage0独立C仍0/20**。见`gates/B076_V1_28_CLAIM_REPAIR_REPORT.md`和`gates/B076_STAGE0_WM_T05_T09_RESTORED_CONTRACTS.md`。本轮继续B076 BLOCKED，75/96，B077 NOT_STARTED，零verified禁止晋级编译。
+
+---
+
 # V13.2 B076｜用户批准A后新增真实V1来源复核（2026-10-10）
 
 **最新GitHub游标75/96已完成，B076 BLOCKED，B077 NOT_STARTED，用户方案A已经批准。** 两份用户授权EPUB的SHA256现场与原R002登记一致。本次在B076内部执行28项V1来源锚点重查：89次n/p原文定位、76个唯一段落、36章文件；逐ID受限证据、尚未证明的扩展与摘要见`gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv`及`gates/B076_V1_28_SOURCE_RECHECK_REPORT.md`。旧28队列已从NOT_EXECUTED更新为SOURCE_RECHECKED，**正式V1新PASS为0**，不冒充方法验证；原187分流0verified/90reference/97needs_review/0rejected不变。69个独立V3复制仍NOT_RUN且独立执行者与盲审者未落实；Stage0 20项完整独立验收仍0，旧14隔离/192项文学B债务持续，密封题库未打开。零verified须停止晋级与编译，下一次继续仍在B076。

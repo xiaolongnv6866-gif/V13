@@ -97,3 +97,21 @@ assert "89" in (P/"gates/B076_V1_28_SOURCE_RECHECK_REPORT.md").read_text()
 assert "source_paths" in (P/"scripts/verify_b076_v1_private_epub_receipts.py").read_text()
 print("B076 A SOURCE_RECHECK: 28/28 private EPUB anchors reviewed; 89 visits, 76 unique, 0 new V1 PASS, V3 NOT_RUN; B076 BLOCKED")
 
+
+# Incremental B076 literary-claim scope and Stage0 contract preservation (not a V1/V3 certification).
+fix=rows("gates/B076_V1_28_CLAIM_SCOPE_ADJUDICATION.tsv")
+assert len(fix)==28 and {x["candidate_id"] for x in fix}==set(audit_by_id)
+assert sum(x["V1_scope_adjudication"]=="NARROW_SOURCE_SUPPORT" for x in fix)==4
+assert sum(x["V1_scope_adjudication"]=="REVIEW_COMPOSITE" for x in fix)==6
+assert sum(x["V1_scope_adjudication"]=="SOURCE_ONLY_REFERENCE" for x in fix)==18
+assert all(x["formal_v1_method_pass"]=="NO_FORMAL_PASS_PRESERVE_BLOCK" and x["independent_V3"]=="NOT_RUN" and x["formal_four_way_unchanged"]=="needs_review" for x in fix)
+assert all(x["source_loci"]==audit_by_id[x["candidate_id"]]["source_loci"] and x["paragraph_digest_sha256"]==audit_by_id[x["candidate_id"]]["paragraph_digest_sha256"] for x in fix)
+audit20=rows("gates/B076_STAGE0_20_EXACT_DELIVERABLE_REAUDIT.tsv")
+assert len(audit20)==20 and {x["old_task_id"] for x in audit20}=={x["old_task_id"] for x in q20}
+assert all(x["contract_execution"]=="CONTRACT_RESTORED_NOT_RUN" and x["independent_acceptance"]=="NOT_RUN" for x in audit20)
+assert all(x["old_required_output"]==next(y["original_required_output"] for y in q20 if y["old_task_id"]==x["old_task_id"]) for x in audit20)
+for oldid in ("WM-T05","WM-T09"):
+ assert next(x for x in audit20 if x["old_task_id"]==oldid)["exact_gap_adjudication"].startswith("SPECIAL_RESTORED")
+assert state["b076_v1_claim_scope_reviewed"]==28 and state["b076_new_v1_pass"]==0
+assert "Original immutable requirement" in (P/"gates/B076_STAGE0_WM_T05_T09_RESTORED_CONTRACTS.md").read_text()
+print("B076 incremental: 28 claim scopes adjudicated (4/6/18); 20 original Stage0 outputs retained, T05/T09 executable test contracts restored; no V1/V3 promotion")
