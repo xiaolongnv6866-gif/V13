@@ -1,3 +1,13 @@
+# V13 v13.1新版执行规则（上游SKILL验收标准保持不变）
+
+用户2026-10-10明确授权正式重排管理轮次。**唯一当前权威：`V13_CURRENT_V2.json`、`V13_LEDGER_V2.csv`、`V13_REVISED_110_ROUNDS.md`**。旧`CURRENT_ROUND.json`、`ROUND_LEDGER.csv`、`V13_FIXED_89_ROUNDS.md`只保留原版历史事实和CI追溯，不能作新阶段启动/通关依据。
+
+每次新消息「继续」只执行新版当前R###轮，完成当轮所有原版要求、文学A/B/C独立判断、GitHub提交、Actions和远程回读后才原子更新**新版**游标和账目，若无法真实完成，则保持当前轮IN_PROGRESS/FAILED/BLOCKED。通过后停止，等待下次用户触发。用`runs/R###_V2.md`避免覆盖旧R###收据。未得到授权不得借用付费资源。当前新版R057 NOT_STARTED、56/110。
+
+---
+
+## 以下是历史原文（不能覆盖新版进度）
+
 # V13 不允许跳轮的唯一执行规范
 
 1. 按`CURRENT_ROUND.json`找当前轮，与`ROUND_LEDGER.csv`及`PROGRESS.md`一致后才行动。

@@ -70,5 +70,9 @@
   "cangjie_stage1_5_remediation_plan": "PLAN_DRAFT_SCOPE_CONFIRMATION_REQUIRED",
   "cangjie_stage1_5_remediation_v1_count": 39,
   "cangjie_stage1_5_remediation_v2_count": 11,
-  "cangjie_stage1_5_remediation_v3_count": 47
+  "cangjie_stage1_5_remediation_v3_count": 47,
+  "v13_0_record_type": "ARCHIVED_HISTORICAL_SNAPSHOT_NOT_ACTIVE_CURSOR",
+  "superseded_by_plan": "V13_REVISED_110_ROUNDS.md",
+  "superseded_by_cursor": "V13_CURRENT_V2.json",
+  "superseded_on": "2026-10-10"
 }
