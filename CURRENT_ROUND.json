@@ -3,7 +3,7 @@
   "plan_version": "13.0-fixed-89",
   "rounds_total": 89,
   "current_round": "R057",
-  "round_status": "NOT_STARTED",
+  "round_status": "BLOCKED",
   "last_passed_round": "R056",
   "full_text_read_chapters": {
     "wanming": 571,
@@ -62,5 +62,8 @@
   "cangjie_stage1_5_v1": "COMPLETE_148_LIMITED_SOURCE_PASS_39_REVIEW_0_FAIL_B_GLOBAL_PROVISIONAL",
   "cangjie_stage1_5_v2": "COMPLETE_19_NEW_TASKS_38_AUTHORED_WALKTHROUGHS_57_CRITERIA_47_LIMITED_PASS_11_NOT_TESTED_90_REFERENCE_39_V1_BLOCKED",
   "cangjie_stage1_5_v3": "TASK_COMPARISON_EXECUTED_19_MATCHED_CASES_CANDIDATE_201_BASELINE_203_0_WIN_17_TIE_2_LOSS_NO_INCREMENTAL_V3_CERTIFICATION",
-  "cangjie_stage1_5_user_confirm": "NOT_STARTED_R057_STRONG_APPROVAL_REQUIRED"
+  "cangjie_stage1_5_user_confirm": "PENDING_R057_USER_APPROVAL",
+  "cangjie_stage1_5_r057_triage": "0_VERIFIED_90_REFERENCE_97_NEEDS_REVIEW_0_REJECTED",
+  "cangjie_stage1_5_r057_coverage": "RAW19_VERIFIED0",
+  "cangjie_stage1_5_legacy_quality": "14_OPEN_QUARANTINED"
 }

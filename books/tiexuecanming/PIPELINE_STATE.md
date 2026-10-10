@@ -120,3 +120,7 @@
 
 - Formal R056 passed as testing/audit completion (56/89), R057 remains NOT_STARTED pending separate user trigger and explicit R057 strong light confirmation. Original frozen 19 R055 tasks retained, 38 original candidate scenes, first unfair baseline 38 scenes quarantined as invalid comparator; matched baseline another 38 scenes after parity protocol. Matched candidate 201/209 vs no-method baseline 203/209, 0 win 17 tie 2 loss. This is same-agent NONBLIND and cannot establish causal utility. No V3 active method certified; do not automatically promote 47 R055 walkthrough method IDs.
 - `validation/V3_TASK_LIFT.md` contains task-level exact evidence and rating limits; 187 candidacy statuses in `tests/v3/R056_CANDIDATE_OUTCOMES.tsv` (47 no proven gain/11 V2 not tested/90 source reference/39 V1 blocked). Old R042 14 claims remain quarantined, literary B PROVISIONAL, independent C NOT_RUN, skill 0, heldout SEALED. Evidence SHA `92b63c63b72b6303bdf810fb32e1b389aac03fbe` 54/54 Actions all SUCCESS including R056 [37971219710](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37971219710); failed CI records retained, frozen original fiction not rewritten.
+
+## R057 Stage1.5 分流检查点（2026-10-10）
+
+R057 BLOCKED：verified0、reference48、needs_review48、rejected0；本书历史隔离7另列。用户未确认；全部Stage0任务仍0 verified。Stage1.6不得绕过证据或用户门，后续不得把纸面V2当作独立Skill。

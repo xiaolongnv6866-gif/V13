@@ -368,3 +368,9 @@ R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回�
 - **严格区分研究执行PASS与V3方法增益未获证**：这是一位Agent编写两组文本并自评，既非真正盲评也非独立宿主或多次随机复现；尽管形式任务完整，**没有观察到额外方法收益，不能把47个方法判作V3通过**，更不能称已经训练出了比无SKILL更高水平的长篇历史军事写作。其他11个未测V2方法、90项参考、39项V1来源不足原样保留，187条独立去向`tests/v3/R056_CANDIDATE_OUTCOMES.tsv`齐全。14条R042历史错误旧主张仍隔离，B PROVISIONAL、独立C NOT_RUN、SKILL0、heldout封存。
 - R056首次证据commit `27774dbf212bd7f6bdd632a4c3640ad671b24356`专项 [37970986002](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37970986002) FAILURE（3个逐字引文、继承R055字段长度误门）；次次commit `79d05bd206ec0a80c50e7c7e08ce86982d84cc75`专项 [37971135788](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37971135788) FAILURE（仅一处「三户人」短引漏字）。已修订原评分证据与校验器兼容原R055源门，不重写旧场景、不调整201:203或0/17/2；最终证据commit `92b63c63b72b6303bdf810fb32e1b389aac03fbe`通过**54/54 Actions全SUCCESS**，R056专项 [37971219710](https://github.com/xiaolongnv6866-gif/V13/actions/runs/37971219710) SUCCESS。
 - **正式R056 PASSED仅指完成真实V3测试及诚实提交失败结果，不代表任何候选V3 PASSED。** 56/89；下一轮R057 NOT_STARTED，须全体187候选四分流、旧14隔离逐项处置、对照本轮V3无收益与原版不得凑SKILL红线，并向用户展示后取得明确轻确认。仅可由下一次手动触发R057。
+
+## R057 Stage1.5四分流与coverage审计（2026-10-10）— BLOCKED
+
+- 完整187条原ID及源坐标，对接R054 V1、R055 V2、R056 V3，严格分流verified **0**、reference **90**、needs_review **97**、rejected **0**；97项是39源REVIEW、11项V2未测、47项V3未证实效用。14条R042历史隔离独立待核，R007—R024其他风险未清除。
+- Stage0全部19任务有RAW及短场景对照，但0任务有verified能力。公平V3候选201对照203、0胜17平2负；B PROVISIONAL、独立C NOT_RUN、Skill0、heldout SEALED。
+- 书籍两EPUB SHA本地匹配；原始证据仍在，R057交付见books/*/R057_DECISION_MATRIX.tsv和分流文件、gates/CANGJIE_STAGE15.md及两张逐项TSV、runs/R057.md。用户关口未批准，本轮状态BLOCKED，进度保持56/89，游标不许推进R058。
