@@ -96,7 +96,9 @@ ensure(baseline["v3_evaluation_contract"]["actual_new_tests_complete"]==0,"fabri
 cur=j("V13_CURRENT_V2.json")
 ledger=rows("V13_LEDGER_V2.csv",",")
 ensure(len(ledger)==110,"new plan ledger")
-ensure(cur["rounds_total"]==110 and cur["skill_certified_count"]==0 and cur["heldout_bank_status"]=="SEALED_NOT_RUN","cursor certification drift")
+ensure(cur["rounds_total"]==110,"plan cursor total drift")
+if cur["rounds_completed"]<=57:
+    ensure(cur["skill_certified_count"]==0 and cur["heldout_bank_status"]=="SEALED_NOT_RUN","R057 must not claim certified skill or released tests")
 if cur["rounds_completed"]==56:
     ensure(cur["current_round"]=="R057" and cur["round_status"]=="NOT_STARTED" and ledger[56]["status"]=="NOT_STARTED","unexpected prereg state")
 elif cur["rounds_completed"]>=57:
