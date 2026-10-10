@@ -1,3 +1,9 @@
+# V13.2 B076 current authoritative phase — 2026-10-10
+
+Phase1.5 R078: BLOCKED_PENDING_EXPLICIT_USER_CONFIRM and ZERO_VERIFIED. The 91 baseline candidates remain 0 verified / 42 reference / 49 needs_review / 0 rejected; 31 have nonblind paired diagnostics, 18 have open V1 gaps. Current authoritative ledger is `V13_CURRENT_V3.json` and per-candidate updated decisions `books/wanming/R078_V2_DECISION_MATRIX.tsv`. The R057 legacy history below is frozen and should not reset the current B076 cursor. No Stage1.6 and no Skill compile with 0 verified.
+
+---
+
 # V13《晚明》独立流水线 — 与 GitHub 正式状态同步（2026-10-09）
 
 - original_epub_sha256: a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082

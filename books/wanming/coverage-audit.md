@@ -1,3 +1,9 @@
+# R078 UPDATE: 9/9 R057 tasks candidate-linked, 0/9 verified
+
+B075 raw 47+22 diagnostic outputs yield at least one tested candidate associated with each of WM-01..09. This means possible source association only, not full Task acceptance, actual independent C or V3 net benefit. Full 9-row linked candidate list: `v2/v3/B075_STAGE0_19_COVERAGE_AUDIT.tsv`. Old Adler original T01..T10 are ten different contracts: see `gates/R078_STAGE0_ORIGINAL20_TO_R057_19_CROSSWALK.tsv`; the WM-T05 and WM-T09 exact tasks remain partially unmatched to revised R057 9 Task definitions. Do not merge silently. Method decisions: `books/wanming/R078_V2_DECISION_MATRIX.tsv`. Reference 42 sources are at references.md; Stage3 copies are planned, not delivered. Independent C=NOT_RUN, verified=0, no skill compilation.
+
+---
+
 # 《晚明》Stage1.5 coverage-audit（R057）
 
 raw_task_coverage: 9/9

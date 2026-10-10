@@ -1,5 +1,7 @@
-# 《铁血残明》Stage1.5 rejected（R057）
+# R078 Stage1.5 rejected / tiexuecanming
 
 count: 0
 
-当前资料不足以将39项V1 REVIEW自动认定为彻底无依据或与其他候选完全重复；不凑rejected。R042旧夸大断言不得直接晋级，但修订假说仍待核，不与正式187候选重复计数。以后若判错须给`rejected/<id>.md`列举来源和canonical ID。
+Examined 96 unique candidate IDs against R057 original matrix, R064–R066 restricted new V1/V2 and B075 69-case raw audit. None has independently supported evidence proving outright absence of source, wrong attribution or full duplication of another candidate. V1 limitations and failures to demonstrate V3 utility must remain needs_review rather than silently be called rejected. No placeholder rejected/<id>.md is invented. Historical R042 rejected generalizations/overclaims remain in the separate 14-claim quarantine ledger; those IDs must never be counted a second time as new rejected candidates.
+
+Main authoritative audit: books/tiexuecanming/R078_V2_DECISION_MATRIX.tsv. Pending user approval; do not promote or compile.

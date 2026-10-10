@@ -1,3 +1,5 @@
+R078: 10/10 candidate links, 0/10 independently verified full tasks; 48 reference entries, 48 needs_review. Original20 crosswalk: gates/R078_STAGE0_ORIGINAL20_TO_R057_19_CROSSWALK.tsv. All source paths and IDs remain in the R078 decision matrix. No Stage3 materialized; zero skill certified.
+
 # 《铁血残明》Stage1.5 coverage-audit（R057）
 
 raw_task_coverage: 10/10

@@ -1,0 +1,15 @@
+name: V13.2 B076 four-way Stage1.5 evidence and user gate
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  audit-b076-routing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Audit 187 unique candidate decisions, 14 legacy quarantine and 20 to 19 crosswalk
+        run: python scripts/validate_v13_2_b076.py

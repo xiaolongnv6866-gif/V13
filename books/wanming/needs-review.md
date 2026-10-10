@@ -1,3 +1,9 @@
+# R078 B076 CURRENT OVERRIDE — 2026-10-10
+
+Current count: **49 needs_review** (out of 91 unique book candidates). The R057 detail retained below is HISTORICAL: its 10 candidates with R065 V2 and B073 V3 diagnostic now have new narrow evidence, and 21 frozen R068–R070 have paired nonblind outputs. Each row's current V1, V2, V3, raw source Git SHA, stopping condition and distinct source IDs are in `books/wanming/R078_V2_DECISION_MATRIX.tsv`. The **31 evidence-bearing IDs remain needs_review**, not verified: actual independent A/B separation and judge not established; B075 self-rating <=+1. Of the other 18 needs_review IDs, V1 source-scope conflicts remain open. Seven R042 historical quarantines separately tracked, not counted in 49. Prior R057 explanations below preserved for traceability and must not overwrite the current matrix. User confirmation for B076 still pending; no Stage1.6.
+
+---
+
 # 《晚明》Stage1.5 needs-review（R057）
 
 formal_count: 49

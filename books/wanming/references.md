@@ -1,3 +1,9 @@
+# R078 CURRENT — 42 references; no active methods
+
+The 42 documentary references below retain source value but lack standalone V2/V3 method verification. R057 details remain intact. Current per-ID disposition: `books/wanming/R078_V2_DECISION_MATRIX.tsv`; planned Stage3 destinations: 12 cases + 12 counterexamples -> `.cangjie/capabilities/book/overview.md`, 18 terms -> `.cangjie/capabilities/book/glossary.md` (each candidate retains source ID). **Both Stage3 destinations are PLANNED_ONLY, NOT_MATERIALIZED**, because verified=0 and compiler progression is blocked. The reference text here is the real present destination; no knowledge was silently discarded, and no Skill was compiled. This updates the delivery route, not the historical source evidence.
+
+---
+
 # 《晚明》Stage1.5 references（R057）
 
 count: 42

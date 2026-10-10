@@ -1,3 +1,9 @@
+# R078 B076 CURRENT OVERRIDE — 2026-10-10
+
+Current count: **48 needs_review** (out of 96 unique candidates). R057 details below are HISTORICAL: 12 previously incomplete V2 candidates passed R066 restricted paper V2, and B074 wrote 12 paired nonblind diagnostics; frozen earlier B071–B072 original 26 also have paired outputs. All **38 evidence-bearing IDs remain needs_review**, with true independent V3 task gain NOT_ESTABLISHED, 0 reached +2 preregistered threshold. The remaining 10 needs_review still have unrepaired V1 source boundary. Full up-to-date per-ID source/V1/V2/V3/next-evidence and raw Git blob is `books/tiexuecanming/R078_V2_DECISION_MATRIX.tsv`. Seven historical R042 quarantined claims are separate, not among these 48. Keep old R057 analyses below for provenance; this overlay supersedes its stale NOT_TESTED labels. B076 explicit approval absent; no Stage1.6.
+
+---
+
 # 《铁血残明》Stage1.5 needs-review（R057）
 
 formal_count: 48

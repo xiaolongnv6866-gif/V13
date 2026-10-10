@@ -1,3 +1,9 @@
+# R078 CURRENT — 48 references; no active methods
+
+The 48 documentary references below remain source-grounded but not standalone verified methods. R057 details are retained. Current per-ID route: `books/tiexuecanming/R078_V2_DECISION_MATRIX.tsv`; 15 cases and 13 counterexamples plan Stage3 `book/overview.md`, 20 terms plan `book/glossary.md`, each linked to old source ID and R057 source loci. **Future destinations PLANNED_ONLY, NOT_MATERIALIZED** because zero verified blocks Stage1.6 through Stage5. This references.md is the actual current delivery location; no ability or literary effectiveness is certified. Seven separate historical R042 quarantines are not counted in the 48.
+
+---
+
 # 《铁血残明》Stage1.5 references（R057）
 
 count: 48
