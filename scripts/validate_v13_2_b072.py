@@ -55,7 +55,10 @@ for row in r73[4:]+r74:
 if state['v3_original_47_completed']==39:
  must(state['current_batch']=='B072' and state['last_passed_batch']=='B071','valid evidence-first stage')
 elif state['v3_original_47_completed']==47:
- must(state['current_batch']=='B073' and state['last_passed_batch']=='B072','B072 seal must point B073')
+ # B072's 47-case invariant remains valid after later batches advance the legitimate cursor.
+ current=state['current_batch'];last=state['last_passed_batch']
+ must(re.fullmatch(r'B[0-9]{3}',current) is not None and re.fullmatch(r'B[0-9]{3}',last) is not None,'valid V13.2 batch IDs')
+ must(73<=int(current[1:])<=96 and 72<=int(last[1:])<=int(current[1:]),'B072 complete and no cursor regression')
 # Check all 47 frozen candidate IDs have one result row, one raw file, and one tested-not-verified allocation.
 results=[]
 for f in ['R68_WM_7.tsv','R69_WM_7.tsv','R70_WM_7.tsv','R71_TX_7.tsv','R72_TX_7.tsv','R73_TX_6.tsv','R74_TX_6.tsv']:
