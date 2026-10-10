@@ -1,3 +1,13 @@
+## V13.3 ACTIVE RECOVERY AND CURRENT POSITION｜N05 PASSED（2026-10-11）
+
+**Latest single authority: `V13_CURRENT_V4.json` and `V13_LEDGER_V4.tsv`. N01–N05 all PASSED; 5 of 48 new rounds completed; cursor N06 NOT_STARTED. Do NOT research N06 before user's next separate “继续”. Earlier lines below are historical progress snapshots and must not override this header.**
+
+N05 contract 《晚明》R017 20/20 frozen Stage0 B literary assertions studied from user's real EPUB, with chapter sequence, character POV, action, consequences, counterproof, alternative rendering loss and failure boundary per ID. 16 scoped credible, 4 old-overclaims rejected (n212 wrong postwar timing; n217 actual grieving homecoming, not uniformly splendid triumph; n220 exterior humility not proof of secret motivation; n225 false attribution of omnipotent author thesis). Separate R042 original `LEGACY:wanming-R017-220-candidate` source reviewed 1/1 but stays OPEN_QUARANTINED through N16/N28, without Stage1 promotion. Verified original EPUB SHA256 `a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082`, 20 actual XHTML source chapters and 40 private paragraph SHA256 records. Evidence commit `0a76ade9404644bfed5272222ce9a296032cd650`: 82/82 CI SUCCESS. Detail: `v13_3/n05/N05_SOURCE_REVIEW.md`, 20-row `N05_LITERARY_B_20.tsv`, 40-row `N05_ORIGINAL_PARAGRAPH_SHA_40.tsv`, old quarantine `N05_LEGACY_R042.tsv`; final receipt `runs/N05_V4.md`.
+
+Cumulative B adjudicated 90/296, remaining 206; original 192 unreviewed first reviewed 60, remaining 132; of 14 R042 old quarantines 4 now have source-specific review, all 14 remain excluded from direct promotion. Candidate counts unchanged: verified=0/reference=108/needs_review=79/rejected=0. True independent V3 passed 0; original Stage0 independently tested C 0/20; certified SKILL=0. Next N06 contract per frozen ledger: 晚明历史R019的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离. Nuwa/Cangjie original versions and all 48 contracts remain unchanged.
+
+---
+
 ## V13.3 CURRENT AUTHORITATIVE RECOVERY｜N04 PASSED（2026-10-11）
 
 **Use actual cursor from `V13_CURRENT_V4.json` and `V13_LEDGER_V4.tsv`: N01–N04 PASSED, 4/48 finished; currently N05 NOT_STARTED. Do not start N05 until next user “继续”. Historical prior headers/OLD B076 are snapshots, not active instructions.**
