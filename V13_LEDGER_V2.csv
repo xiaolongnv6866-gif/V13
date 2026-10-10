@@ -57,7 +57,7 @@ id,phase,title,status,started_at,passed_at,commit_sha,result_path,gate_status,le
 "R056","E Stage1.5三重验证","Stage1.5 V3任务增益","PASSED","2026-10-10","2026-10-10","92b63c63b72b6303bdf810fb32e1b389aac03fbe","runs/R056.md","PASSED","R056","INHERITED_PASSED_READONLY_HISTORICAL; SEE original ROUND_LEDGER.csv"
 "R057","I 审计恢复","遗留冻结问题全量锁定与风险分层","PASSED","2026-10-10","2026-10-10","9b9ffc26a5e72cc5610c97fca8f83adf8c2b4a37","runs/R057_V2.md","PASSED_57_OF_57_ACTIONS_SOURCE_INVENTORY_ONLY","NEW","旧R007—R024、R042、R054—R057；R006原文证据合同"
 "R058","I 旧源风险","R008—R015及R017高风险文学证据定向补审","PASSED","2026-10-10","2026-10-10","88c206e7f1038f318b40f705ac9c17be6edd03b1","runs/R058_V2.md","PASSED_58_OF_58_ACTIONS_43_SCENE_CHECKS_WITH_87_UNREVIEWED","NEW","cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md; STAGE0_QUALITY_CONTROL_POLICY.md"
-"R059","I 旧源风险","R007、R016、R018—R024纠正与中风险文学证据补审","NOT_STARTED","","","","","AUTO","NEW","R007、R016、R018—R024原章证据和质量债"
+"R059","I 旧源风险","R007、R016、R018—R024纠正与中风险文学证据补审","PASSED","2026-10-10","2026-10-10","c09e1267160fcbce43d3499e15ef0416a03c92b1","runs/R059_V2.md","PASSED_59_OF_59_ACTIONS_61_SOURCE_AUDITS_WITH_105_UNREVIEWED","NEW","R007、R016、R018—R024原章证据和质量债"
 "R060","I 旧源隔离","《晚明》R042历史隔离旧主张7条逐项处置","NOT_STARTED","","","","","AUTO","NEW","R042_OLD_CLAIM_QUARANTINE.tsv; gates/R057_LEGACY_QUARANTINE.tsv"
 "R061","I 旧源隔离","《铁血残明》R042历史隔离旧主张7条逐项处置","NOT_STARTED","","","","","AUTO","NEW","R042_OLD_CLAIM_QUARANTINE.tsv; gates/R057_LEGACY_QUARANTINE.tsv"
 "R062","I 文学汇总","两书BOOK_OVERVIEW与任务清单的质量债闭合映射","NOT_STARTED","","","","","AUTO","NEW","R042批准原overview、R058-R061单轮审计"
