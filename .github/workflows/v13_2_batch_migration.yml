@@ -1,0 +1,11 @@
+name: V13 v13.2 batch migration integrity
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  migration-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validate_v13_2_batch_migration.py
