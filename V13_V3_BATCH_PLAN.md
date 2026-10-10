@@ -1,6 +1,6 @@
 # V13.2｜精简执行计划（66个历史完成轮次 + 30个新批次）
 
-status: PROPOSED_CONTENT_COMPLETE_PENDING_ACTIVE_CURSOR_SWITCH
+status: APPROVED_REPLAN_AWAITING_NEW_V3_CURSOR_ACTIVATION
 date: 2026-10-10
 old_plan: V13_REVISED_110_ROUNDS.md
 old_plan_git_blob_sha1: 55256653a7f9359339a5f7a8924e4210ee25203a
@@ -126,13 +126,13 @@ original_task_loss_allowed: 0
 ### B082 · 《晚明》Stage5编译、安装校验及用户交付关口
 
 - 原合同：R089；各项**完整操作、产物、验收、失败处理**仍必须逐条读取原合同，不得因合并归零。
-- 用户硬门：R089（在本批次中必须停下，取得真实批准后才能标PASS）
+- 用户硬门：原R089为NOT_CHECKED，按原文执行编译/校验及必要的交付选择，不新增强制用户确认。
 - 新收据：`runs/B082_V3.md`，子任务每项有 `legacy_id` 与独立完成状态；新账仅在全部旧合同均已交付时更新本批PASS。
 
 ### B083 · 《铁血残明》Stage5编译、安装校验及用户交付关口
 
 - 原合同：R090；各项**完整操作、产物、验收、失败处理**仍必须逐条读取原合同，不得因合并归零。
-- 用户硬门：R090（在本批次中必须停下，取得真实批准后才能标PASS）
+- 用户硬门：原R090为NOT_CHECKED，按原文执行编译/校验及必要的交付选择，不新增强制用户确认。
 - 新收据：`runs/B083_V3.md`，子任务每项有 `legacy_id` 与独立完成状态；新账仅在全部旧合同均已交付时更新本批PASS。
 
 ### B084 · Nuwa Phase1独立观点3—5来源图谱
@@ -224,7 +224,7 @@ original_task_loss_allowed: 0
 - `V13_V3_47_METHOD_ALLOCATION_V3.tsv`：原47个方法逐ID分配到B068—B072，恰好WM21+TX26，不允许跳过/补造。
 - `V13_LEDGER_V3.csv`：只包含30个未开始的新批次；原R001—R066正式账继续留存 `V13_LEDGER_V2.csv`。
 - `V13_CURRENT_V3.json`：唯一V13.2当前游标；旧 `V13_CURRENT_V2.json` 保留66/110历史截图，**不得再读取为现行游标**。
-- R078/R089/R090/R098/R101/R104/R107/R110用户关口对应B076/B082/B083/B087/B088/B090/B093/B096；其他隐含原版必过关不降低。
+- 原合同明确的6个`MANDATORY_USER_CONFIRM`：R078/R098/R101/R104/R107/R110对应B076/B087/B088/B090/B093/B096；R089/R090虽然需要交付方式选择，但原合同状态为`NOT_CHECKED`，不得伪称独立强制确认门。其他原版必过关不降低。
 - GitHub效率：每批先一次权威恢复，缓存未变附件按SHA，不重复下载原文；可一笔合并多个非冻结研究文件，但冻结与测试输出必须分提交；不得为减少Actions调用篡改历史CI而降低质量。
 - 每批按原合同验收，未完成保持IN_PROGRESS/BLOCKED/FAILED而非下批；验证结构的CI不能替代文学质量和独立效用证据。
 
