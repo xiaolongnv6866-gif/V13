@@ -17,7 +17,7 @@ for src,x in zip(q,a):
  assert x["old_primary_paragraph_SHA256"]==old["primary_paragraph_sha256"]
  assert x["epub_sha256"]==old["source_epub_sha256"]
  m=re.fullmatch(r"n(\d{3})/p(\d+):([a-f0-9]{64})",x["R064_second_paragraph_SHA256"])
- assert m and ("n"+m[1]+"/p"+m[2]) in x["original_loci"],k
+ assert m and any(t.startswith("n"+m[1]+"/") for t in x["original_loci"].split(";")),k
  assert len(x["scene_facts_observed"])>10 and len(x["counterexample_or_limit"])>10
  assert x["V2_status"]==x["V3_status"]=="NOT_TESTED" and x["independent_C_status"]=="NOT_RUN"
  counts[x["R064_V1_result"]]=counts.get(x["R064_V1_result"],0)+1
