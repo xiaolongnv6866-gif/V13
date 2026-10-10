@@ -1,0 +1,164 @@
+{
+  "project": "V13",
+  "round": "R065",
+  "phase": "V2_CANGJIE_TASK_FIRST_PAPER_WALKTHROUGH",
+  "date": "2026-10-10",
+  "source_head_before_freeze": "24026732726cfb969c557da0c82089f360030c13",
+  "source_prior": "R057_V2_5_DESIGN_ONLY_AND_R063_NEW_V1_5",
+  "methodology": "kangarooking/cangjie-skill@a28de55ba881b9928956a55048f743f7a9e3b23e methodology/03-stage1.5-triple-verify.md",
+  "evaluation_isolation": "All ten inputs, acceptance checks, length bands, and non-success traps frozen before scene output. The same assistant authors and self-rates. Neither independent blind judge nor V3 gain test.",
+  "source_text_prohibition": "Do not copy named characters, plot, or distinctive language from source novels.",
+  "fixed_scorer": "For an individual: four criteria explicitly demonstrated=PASS_LIMITED_WALKTHROUGH; any criterion absent or contradiction=FAIL_OR_NEEDS_REVIEW. Outcome states must be separated from intentions; no fabricated future payoff. Each output requires scene and state ledger. Tests may genuinely fail. Do not retroactively edit input/gates.",
+  "tests": [
+    {
+      "case_id": "WM-V2-01",
+      "candidate_id": "WM-f11",
+      "candidate_origin": "LEGACY_V1_PASS_V2_NOT_TESTED",
+      "task_ids": "WM-03,WM-07",
+      "input": "悬海城的公共阅览馆挂牌宣布居民均可借书，但负责登记的职员刚到岗，借阅证还没有发放。织工阿桥前来借书，馆长陆序希望先拍合影展示新政。馆章程尚未确定临时借阅办法。",
+      "expected_deliverable": "一段160—380字互动小说场景；附宣告、权利主张、手续受理三栏状态账。",
+      "criteria": [
+        "C1 居民自己提出需要并能选择回应",
+        "C2 馆长公开宣告与实际证件发放明确分开",
+        "C3 未确定的临时流程不得假称已经合法办理",
+        "C4 说明下一步负责人和未决时限，不擅造法令"
+      ],
+      "required_unknowns": "Any facts not supplied remain UNKNOWN; no real-world historical or institutional claims required."
+    },
+    {
+      "case_id": "WM-V2-02",
+      "candidate_id": "WM-f16",
+      "candidate_origin": "LEGACY_V1_PASS_V2_NOT_TESTED",
+      "task_ids": "WM-04,WM-07",
+      "input": "岛上陶坊的制坯女师傅方蓉提议把午后休息改为早晨统一休息，以减少窑边等待。工头许旦认为不同班的取坯时点不一，而且晚班两人照顾家人。工坊只有一次意见会；新的轮班规则尚未试行。",
+      "expected_deliverable": "一段160—380字互动场景；附提案/评价/决定/即时关系后果表。",
+      "criteria": [
+        "C1 提案由方蓉有理由提出而非旁白代言",
+        "C2 负责人听取至少两个利益方及可检查反对理由",
+        "C3 明确未采纳且未试行，不能补造长期效率结论",
+        "C4 呈现当场具体人际后果和后续可改条件"
+      ],
+      "required_unknowns": "Any facts not supplied remain UNKNOWN; no real-world historical or institutional claims required."
+    },
+    {
+      "case_id": "WM-V2-03",
+      "candidate_id": "WM-p06",
+      "candidate_origin": "LEGACY_V1_PASS_V2_NOT_TESTED",
+      "task_ids": "WM-05,WM-08",
+      "input": "山坳义诊队正要清点一个月后的纸本病例，忽闻木桥临时封闭，通往河东药房的车不能通行。队里尚不知道桥何时修好。医务员宁夏与书吏郁青对先办哪项有分歧；一位老人明早仍要来复诊。",
+      "expected_deliverable": "一段160—380字现场场景；附眼前紧急事项、长期重要事项、未知项三栏账。",
+      "criteria": [
+        "C1 明确不同时间紧急与长期重要的任务",
+        "C2 有双方相反优先理由且限制可用信息",
+        "C3 当场做一项可见的有限选择，同时不遗弃后续病历责任",
+        "C4 不虚构桥已修好或病人得到保证"
+      ],
+      "required_unknowns": "Any facts not supplied remain UNKNOWN; no real-world historical or institutional claims required."
+    },
+    {
+      "case_id": "WM-V2-04",
+      "candidate_id": "WM-p13",
+      "candidate_origin": "LEGACY_V1_PASS_V2_NOT_TESTED",
+      "task_ids": "WM-03,WM-07",
+      "input": "小港镇商户会获得广场北侧棚架一季的临时市集使用许可。商户吴柏已刻上永久招牌，住户杨春指称周日通道被堵。许可仅从本月起算至秋末，续期须再议，期限以外细则未知。",
+      "expected_deliverable": "一段160—380字期限争辩场景；附有效许可、尚未授权、复核触发条件表。",
+      "criteria": [
+        "C1 双方各自表达具体利益与反对",
+        "C2 临时许可时间范围及永久使用主张明显不同",
+        "C3 有可查的复核日期或触发条件，续期未知",
+        "C4 不将条件许可描述为永久产权或全面执行"
+      ],
+      "required_unknowns": "Any facts not supplied remain UNKNOWN; no real-world historical or institutional claims required."
+    },
+    {
+      "case_id": "WM-V2-05",
+      "candidate_id": "WM-p18",
+      "candidate_origin": "LEGACY_V1_PASS_V2_NOT_TESTED",
+      "task_ids": "WM-04,WM-07",
+      "input": "海岚学馆决定是否把按书名的旧索引改为按借阅次数自动排序。库吏沈稚提出新法，读书会代表邵文认为古籍很少被借，若按次数排会从借书单上消失。负责经费的阮时只准两人讨论一次，没有试验数据。",
+      "expected_deliverable": "一段160—380字审议场景；附方案A/B比较表、否决决定和下一步待证项。",
+      "criteria": [
+        "C1 两套选择包含利弊，不把新方案描写为天生正确",
+        "C2 提案者和反对者本人说出合理动机",
+        "C3 领导明确否决有条件及理由，但没有声称试用后的坏结果",
+        "C4 指出以后如要重开议题需要哪项信息"
+      ],
+      "required_unknowns": "Any facts not supplied remain UNKNOWN; no real-world historical or institutional claims required."
+    },
+    {
+      "case_id": "WM-V2-06",
+      "candidate_id": "WM-f05",
+      "candidate_origin": "R063_NEW_V1_PASS_NARROW",
+      "task_ids": "WM-03,WM-07",
+      "input": "西岭驿站刚经历一场三天暴雨，物资登记队复盘时小队长柳昭提议每天改记录簿，年轻队员江鱼请求让临时人员核对货签。队长陈晏担忧频繁改簿会造成版本混乱。昨日已有一张货签重复登记，但未核出实际损失。",
+      "expected_deliverable": "一段160—380字复盘对话；附提案/是否接纳/尚待执行状态表。",
+      "criteria": [
+        "C1 具体前因和两个不同发言者可见",
+        "C2 主事人对两种提案分别给出理由及不同答复",
+        "C3 口头答应不得冒充制度落地或损失结清",
+        "C4 记录明确后续执行责任及可观察下次检查点"
+      ],
+      "required_unknowns": "Any facts not supplied remain UNKNOWN; no real-world historical or institutional claims required."
+    },
+    {
+      "case_id": "WM-V2-07",
+      "candidate_id": "WM-p10",
+      "candidate_origin": "R063_NEW_V1_PASS_NARROW",
+      "task_ids": "WM-03,WM-07",
+      "input": "城郊图书装订室出现一批封面标签贴错，管理员闻琴连做四日夜班，主管闻东得知她疲劳并肯定其加班；另一位领书人葛子已领到错本。责任原因尚待检查，馆里没有现成处罚条款。",
+      "expected_deliverable": "一段160—380字责任对话；附成因、职责、待查事实三栏账。",
+      "criteria": [
+        "C1 上级承认失误条件但未直接免除责任",
+        "C2 领书人的具体权益和补救需求可见",
+        "C3 不预断处罚或把未知原因写成已证",
+        "C4 明确纠正错误的具体下一步而不臆造制度"
+      ],
+      "required_unknowns": "Any facts not supplied remain UNKNOWN; no real-world historical or institutional claims required."
+    },
+    {
+      "case_id": "WM-V2-08",
+      "candidate_id": "WM-p15",
+      "candidate_origin": "R063_NEW_V1_PASS_NARROW",
+      "task_ids": "WM-03,WM-05",
+      "input": "新城档案馆改造阅览室。负责人白纹已签过上月的第1版平面图，本周施工队在第2版增加一扇玻璃门，但变更只通知了库房。值班馆员柳仪以为所有窗门仍与旧图一致，来访少年发现通道被挡；门尚未验收。",
+      "expected_deliverable": "一段160—380字变更现场；附版本、接收者知情、验收状态表。",
+      "criteria": [
+        "C1 V1/V2明确区分且信息到达路径可见",
+        "C2 至少一人依据旧版作出有代价的错误判断",
+        "C3 不把签旧版写成知道新版或已验收",
+        "C4 指出谁须补做哪项确认，结果未决"
+      ],
+      "required_unknowns": "Any facts not supplied remain UNKNOWN; no real-world historical or institutional claims required."
+    },
+    {
+      "case_id": "WM-V2-09",
+      "candidate_id": "WM-p16",
+      "candidate_origin": "R063_NEW_V1_PASS_NARROW",
+      "task_ids": "WM-03,WM-07",
+      "input": "暮溪社区公用书柜归小组长曹岚日常维护；居民反映她既安排借用时段又独自审批遗失赔付。曹岚说需及时处理，小组会记录员于彻主张至少由另一人核对赔付账。事实是有两次赔付争议，尚未证实有人舞弊。",
+      "expected_deliverable": "一段160—380字会商；附现行权限、反对意见、暂定分工、仍需核查四栏账。",
+      "criteria": [
+        "C1 权限争议有明确制度对象且双方动机可辩",
+        "C2 不把未证实争议描述为腐败确证",
+        "C3 负责者只作有期限或待批准分工",
+        "C4 受影响使用者保留提出具体意见机会"
+      ],
+      "required_unknowns": "Any facts not supplied remain UNKNOWN; no real-world historical or institutional claims required."
+    },
+    {
+      "case_id": "WM-V2-10",
+      "candidate_id": "WM-p22",
+      "candidate_origin": "R063_NEW_V1_PASS_NARROW",
+      "task_ids": "WM-04,WM-06",
+      "input": "河湾编书社本周只剩十二箱白纸，馆主屈禾承诺明日交付六箱给义学；采购人阿梅说下月另可订二十箱，但船期未确认，市集人流又可能升高。义学教师周汀当天要求改成十箱。",
+      "expected_deliverable": "一段160—380字调度协商；附现货、已经确认的明日承诺、未来未确定供货和风险表。",
+      "criteria": [
+        "C1 精确区分12箱现货、6箱承诺、20箱不确定未来供货",
+        "C2 处理新增十箱需求时有实际数量推理，避免同箱重复承诺",
+        "C3 未证实船期和未来需求保持未知，不能写成已到账",
+        "C4 记录人物各自权限及下一步交付验证"
+      ],
+      "required_unknowns": "Any facts not supplied remain UNKNOWN; no real-world historical or institutional claims required."
+    }
+  ]
+}
