@@ -1,0 +1,12 @@
+name: V13 v13.1 R057 Frozen Issues and Evidence
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  audit-r057-freeze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate original 296 claims and 426 exact source-linked issues
+        run: python3 scripts/validate_v13_r057_freeze.py
