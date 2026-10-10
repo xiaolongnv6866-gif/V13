@@ -13,7 +13,7 @@ def csvs(path):
  with (P/path).open(encoding="utf-8",newline="") as f:return list(csv.DictReader(f))
 s=json.loads((P/"V13_CURRENT_V3.json").read_text(encoding="utf-8"))
 h=json.loads((P/"V13_CURRENT_V2.json").read_text(encoding="utf-8"))
-assert s["plan_version"]=="v13.2-consolidated-96" and s["batch_status"] in {"NOT_STARTED","IN_PROGRESS","BLOCKED","FAILED","PASSED"}
+assert s["plan_version"]=="v13.2-consolidated-96" and s["batch_status"] in {"NOT_STARTED","IN_PROGRESS","BLOCKED","BLOCKED_PENDING_USER_CONFIRM","FAILED","PASSED"}
 assert s["overall_management_units_total"]==96 and s["overall_management_units_completed"]==66+s["v13_2_new_batches_completed"]
 assert s["v13_2_new_batches_total"]==30 and 0<=s["v13_2_new_batches_completed"]<=30
 assert h["rounds_completed"]==66 and h["current_round"]=="R067" and h["round_status"]=="NOT_STARTED"
@@ -22,7 +22,7 @@ assert blob("V13_LEDGER_V2.csv")==s["frozen_v13_1_ledger_blob"]=="3c5e7a34e752e4
 assert blob("V13_REVISED_110_ROUNDS.md")=="55256653a7f9359339a5f7a8924e4210ee25203a"
 L=csvs("V13_LEDGER_V3.csv")
 assert len(L)==30 and [x["batch_id"] for x in L]==["B%03d"%i for i in range(67,97)]
-assert all(x["status"] in {"NOT_STARTED","IN_PROGRESS","FAILED","BLOCKED","PASSED"} for x in L)
+assert all(x["status"] in {"NOT_STARTED","IN_PROGRESS","FAILED","BLOCKED","BLOCKED_PENDING_USER_CONFIRM","PASSED"} for x in L)
 n=s["v13_2_new_batches_completed"]
 assert [x["status"] for x in L[:n]]==["PASSED"]*n
 assert all(x["status"]!="PASSED" for x in L[n:])
