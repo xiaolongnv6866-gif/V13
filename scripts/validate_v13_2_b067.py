@@ -32,7 +32,7 @@ assert_ok(set(x["candidate_id"] for x in extra).isdisjoint(x["candidate_id"] for
 assert_ok(d["preregistered_not_results"] and state["v3_original_47_completed"]==0,"V3 must be 0/47")
 assert_ok(state["current_batch"] in ("B067","B068"),"only expected current batch")
 assert_ok(state["overall_management_units_completed"] in (66,67),"do not jump ahead")
-assert_ok(v2["overall_management_units_completed"]==66 if "overall_management_units_completed" in v2 else v2["completed_rounds"]==66,"historical 66 unchanged")
+assert_ok(v2["rounds_completed"]==66,"historical 66 unchanged")
 for x in cases:
     id=x["candidate_id"]
     assert_ok(x["prior_evidence"]["v1_status"]=="PASS" and x["prior_evidence"]["v2_status"]=="V2_WALKTHROUGH_PASS_LIMITED",id+" origin")
