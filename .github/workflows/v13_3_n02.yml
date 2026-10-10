@@ -1,0 +1,19 @@
+name: V13.3 N02 literary B source and R042
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v13_3/n02/**'
+      - 'runs/N02_V4.md'
+      - 'V13_CURRENT_V4.json'
+      - 'V13_LEDGER_V4.tsv'
+      - 'scripts/validate_v13_n02.py'
+      - '.github/workflows/v13_3_n02.yml'
+  workflow_dispatch:
+jobs:
+  n02-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check N02 structural evidence, not semantic literary pass
+        run: python3 scripts/validate_v13_n02.py
