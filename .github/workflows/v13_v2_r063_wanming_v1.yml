@@ -1,0 +1,12 @@
+name: V13 v13.1 R063 Wanming V1 Source Reaudit
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  audit-r063:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify frozen 23 candidate IDs, original V1, SHA-loci and narrow decisions
+        run: python3 scripts/validate_v13_r063_wanming_v1.py

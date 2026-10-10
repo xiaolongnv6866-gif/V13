@@ -8,7 +8,7 @@
   "rounds_completed": 62,
   "last_passed_round": "R062",
   "current_round": "R063",
-  "round_status": "NOT_STARTED",
+  "round_status": "IN_PROGRESS",
   "last_authoritative_commit": "c14d801176eba4ad24d920e2232efbd28056826b",
   "source_epub_wanming_chapters": 571,
   "source_epub_tiexuecanming_chapters": 532,
@@ -73,5 +73,8 @@
   "r062_legacy": "14_OF_14_OLD_OPEN_QUARANTINED_14_NEW_B_PROVISIONAL",
   "r062_tasks": "19_OF_19_49_CHAPTERS_68_PRIVATE_PARAGRAPH_LOCI_CHECKED",
   "r062_gate": "NO_NEW_V1_V2_V3_C_VERIFIED_OR_SKILL",
-  "r062_actions": "62_OF_62_SUCCESS_EVIDENCE_COMMIT"
+  "r062_actions": "62_OF_62_SUCCESS_EVIDENCE_COMMIT",
+  "r063_review": "23_WANMING_OLD_V1_REVIEW_CHECKED_5_NARROW_SOURCE_PASS_10_REFERENCE_8_REVIEW_PENDING_CI",
+  "r063_cum_verified_skill": 0,
+  "r063_new_v2v3": "NOT_TESTED"
 }
