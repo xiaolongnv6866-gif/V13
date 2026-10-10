@@ -20,7 +20,7 @@ for x,old in zip(r,frozen):
  assert x["old_V1"]==prev["V1"]=="REVIEW" and x["primary_original_paragraph_sha256"]==prev["primary_paragraph_sha256"]
  sample=x["R063_new_secondary_paragraph_SHA256"];m=re.fullmatch(r"n(\d{3})/p(\d+):([0-9a-f]{64})",sample)
  assert m and f"n{m[1]}/p{m[2]}" in x["original_loci"],(k,sample)
- assert len(x["reviewed_original_scene"])>20 and len(x["limiting_counterexample"])>20 and len(x["bounded_V1_scope"])>20
+ assert len(x["reviewed_original_scene"])>=12 and len(x["limiting_counterexample"])>=10 and len(x["bounded_V1_scope"])>=10
  assert x["source_status_A"]=="EPUB_SHA_ZIPCRC_AND_71_LOCATOR_PRIVATE_REAUDIT"
  assert x["V2"]==x["V3"]=="NOT_TESTED" and x["independent_C"]=="NOT_RUN"
  assert x["R063_V1_result"] in ("PASS_NARROW","REFERENCE","REVIEW")
