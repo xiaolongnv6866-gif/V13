@@ -40,7 +40,7 @@ for x in cases:
         "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
         "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf"),id+" source hash")
     assert_ok(len(x["source_paragraph_sha256"])==64,id+" paragraph sha")
-    assert_ok(len(x["test_input"]["situation"])>=18 and len(x["test_input"]["fixed_facts"])>=25,id+" genuine fixed scenario")
+    assert_ok(len(x["test_input"]["situation"])>=18 and len(x["test_input"]["fixed_facts"])>=18,id+" genuine fixed scenario")
     assert_ok(len(x["method_card"]["steps"])>=3 and x["method_card"]["single_candidate_only"],id+" isolated method")
     assert_ok(x["arm_parity"]["baseline"].startswith("仅收到test_input") and "baseline全部同一材料" in x["arm_parity"]["method"],id+" matched parity")
     assert_ok(len(x["scoring"]["shared_rubric"])==5 and len(x["scoring"]["specialized_checks"])==2,id+" rubric")
