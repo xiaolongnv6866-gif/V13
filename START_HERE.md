@@ -1,3 +1,9 @@
+# V13 当前正式入口｜R064 PASSED（2026-10-10）
+
+**已完成64/110；最后R064 PASSED；当前R065 NOT_STARTED。** 仅用户下次单独发送“继续”才允许执行R065《晚明》原V2未测5条及新V1可用方法实际演练。正式游标V13_CURRENT_V2.json与账本V13_LEDGER_V2.csv及新版110轮合同优先于历史89轮。
+
+R064已私有原著实审《铁血残明》16/16冻结V1历史REVIEW：6有界V1来源PASS、9 REFERENCE、1 REVIEW。两书39/39合并：V1来源窄PASS11、参考19、待审9。新V1不是V2/V3也不是独立原创C；Skill0、V3新增测试0/47、封存题库SEALED_NOT_RUN。审计源详见v2/v1/TIEXUE_16_RESULTS.tsv、v2/v1/V1_39_COMBINED_ROUTE.tsv、runs/R064_V2.md。现有63个Actions全绿，但R064单独新工作流因平台安全拦截**未装**；结构验证已通过GitHub远程数据独立执行，不将其伪称专项CI。
+---
 # V13最新正式执行入口（R063 PASSED，2026-10-10）
 
 **正式完成63/110轮，最后R063 PASSED，当前R064 NOT_STARTED。** 用户下一次手动输入「继续」才执行R064《铁血残明》16条V1 REVIEW来源核查，禁止提前启动。权威游标V13_CURRENT_V2.json、新版账V13_LEDGER_V2.csv与合同V13_REVISED_110_ROUNDS.md。旧89轮文件不能作游标。
