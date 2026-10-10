@@ -50,7 +50,7 @@ assert set(Counter(e["issue_id"] for e in proof).values())=={2}
 for sample in proof:
  case=next(z for z in rows if z["issue_id"]==sample["issue_id"])
  assert sample["claim_id"]==case["original_claim_id"] and sample["epub_path"]==case["original_epub_path"]
- assert sample["ordinal"]==re.match(r"n(\\d+)/",case["reviewed_loci"]).group(1)
+ assert sample["ordinal"]==re.match(r"n(\d+)/",case["reviewed_loci"]).group(1)
  assert re.fullmatch(r"[0-9a-f]{64}",sample["paragraph_sha256"])
  assert sample["source_hash_status"]=="DIRECT_PRIVATE_EPUB_SHA256_MATCH"
  assert sample["locus_role"] in ("OLD_OR_SCENE_LOCUS","CORRECTIVE_OR_CONTRARY_CONTEXT")
