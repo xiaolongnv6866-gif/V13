@@ -1,149 +1,149 @@
 work_id	original_id	new_round	work_title	evidence_origin	expected_check	prior_state	planned_status
-R059	STAGE0:R007	R007	源阅读R007质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R058	STAGE0:R008	R008	源阅读R008质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R058	STAGE0:R009	R009	源阅读R009质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R058	STAGE0:R010	R010	源阅读R010质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R058	STAGE0:R011	R011	源阅读R011质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R058	STAGE0:R012	R012	源阅读R012质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R058	STAGE0:R013	R013	源阅读R013质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R058	STAGE0:R014	R014	源阅读R014质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R058	STAGE0:R015	R015	源阅读R015质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R059	STAGE0:R016	R016	源阅读R016质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R058	STAGE0:R017	R017	源阅读R017质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R059	STAGE0:R018	R018	源阅读R018质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R059	STAGE0:R019	R019	源阅读R019质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R059	STAGE0:R020	R020	源阅读R020质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R059	STAGE0:R021	R021	源阅读R021质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R059	STAGE0:R022	R022	源阅读R022质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R059	STAGE0:R023	R023	源阅读R023质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R059	STAGE0:R024	R024	源阅读R024质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R061	LEGACY:tx-r008-033	tx-r008-033	旧R042隔离主张逐项核证	R008/n33/p1	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R060	LEGACY:wanming-R013-143-narrative-candidate	wanming-R013-143-narrative-candidate	旧R042隔离主张逐项核证	R013/n143/p29	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R060	LEGACY:wanming-R017-220-candidate	wanming-R017-220-candidate	旧R042隔离主张逐项核证	R017/n220/p24	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R061	LEGACY:v13-R018-tiexue-226-candidate	v13-R018-tiexue-226-candidate	旧R042隔离主张逐项核证	R018/n226/p36	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R060	LEGACY:v13-r023-wanming-339-candidate	v13-r023-wanming-339-candidate	旧R042隔离主张逐项核证	R023/n339/p28	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R060	LEGACY:wm-r009-65-candidate	wm-r009-65-candidate	旧R042隔离主张逐项核证	R009/n65/p1	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R060	LEGACY:wm-r011-99-candidate	wm-r011-99-candidate	旧R042隔离主张逐项核证	R011/n99/p28	源A/解释B重建或继续隔离	REVISED_PROVISIONAL_LATE_CORRECTIVE	UNRESOLVED_NO_NEW_PASS
-R061	LEGACY:tx-r012-109	tx-r012-109	旧R042隔离主张逐项核证	R012/n109/p40	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R061	LEGACY:tx-r014-153-candidate	tx-r014-153-candidate	旧R042隔离主张逐项核证	R014/n153/p22	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R061	LEGACY:tiexue-R016-180-candidate	tiexue-R016-180-candidate	旧R042隔离主张逐项核证	R016/n180/p38	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R060	LEGACY:v13-r019-wanming-265-candidate	v13-r019-wanming-265-candidate	旧R042隔离主张逐项核证	R019/n265/p28	源A/解释B重建或继续隔离	REVISED_PROVISIONAL_PARTIAL_SUPPORT	UNRESOLVED_NO_NEW_PASS
-R061	LEGACY:tiexue-R020-254-provisional	tiexue-R020-254-provisional	旧R042隔离主张逐项核证	R020/n254/p37	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R060	LEGACY:V13-R021-wanming-305-candidate	V13-R021-wanming-305-candidate	旧R042隔离主张逐项核证	R021/n305/p32	源A/解释B重建或继续隔离	CONFIRMED_NARROW_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R061	LEGACY:v13-r022-tiexue-286-candidate	v13-r022-tiexue-286-candidate	旧R042隔离主张逐项核证	R022/n286/p27	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-f03	WM-f03	纸面职位向长期组织能力转换的阶段框架	n052/p28;n070/p36;n494/p17;n514/p34	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-f05	WM-f05	组织训后复盘—异议—编制调整的反馈环	n089/p1;n089/p18;n089/p26;n111/p1;n488/p2	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-f07	WM-f07	消息产生—转述—接收的有限视角链	n140/p36;n220/p35;n220/p42;n248/p35	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-f09	WM-f09	市场收益与组织供给之间的竞争制约	n099/p18;n297/p1;n345/p29;n437/p6	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-f15	WM-f15	内部方案与外部见证的两种真实性检验	n390/p25;n494/p17;n514/p34;n561/p45	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-f17	WM-f17	新义务产生后跨章节偿还的追踪框架	n089/p26;n305/p35;n529/p38;n529/p40;n530/p1	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-p02	WM-p02	收付款角色的信任不由口头关系保证	n048/p17;n099/p18	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-p09	WM-p09	纸面压缩不必然兑现现金节约	n155/p30;n305/p29	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-p10	WM-p10	事多必错是组织角色的主张而非免责卡	n222/p28;n390/p25	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-p11	WM-p11	条例中的数字须带作用范围	n295/p3;n425/p40	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-p15	WM-p15	批准过方案不保证领会每项细节	n390/p25;n494/p17	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-p16	WM-p16	基层管理者权力边界要有人明确反对	n425/p27;n425/p40	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-p17	WM-p17	事务、资金、人员、资产是场内讨论项	n425/p40;n425/p35	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-p22	WM-p22	风险预期必须落实为未来时间状态	n530/p1;n099/p18	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-c05	WM-c05	交易伙伴归来暴露单一资金来源风险	n099/p18;n099/p19	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-c11	WM-c11	一个新设想被否定之后又有采购争论	n437/p6;n437/p29;n437/p31	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-ce06	WM-ce06	核心贸易伙伴单点依赖	n099/p17;n099/p18;n099/p19	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-ce08	WM-ce08	机构裁撤的纸面节省不等于实际财政恢复	n155/p28;n155/p30	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-ce12	WM-ce12	压制竞争会诱发忽视实际改进的诱因	n380/p25;n380/p27;n380/p28	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-ce13	WM-ce13	基层负责人集资源权与监督权的隐藏成本	n425/p25;n425/p26;n425/p35;n425/p40	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-ce15	WM-ce15	从组织总体利益推算的安置政策可能忽视个人意愿	n494/p8;n494/p11;n494/p18	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-ce17	WM-ce17	新制度引入后未必产生预想中的共同价值观	n519/p66;n519/p67;n519/p69;n519/p70;n520/p15;n520/p17	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R063	V1:WM-ce18	WM-ce18	频繁改动部门需求会积累隐形时间成本	n529/p38;n529/p40;n529/p41	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-f06	TX-f06	账面储备、临时替代与后来对账的三段资源链	n114/p27;n114/p29;n531/p8	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-f07	TX-f07	外来上级命令与本地原方案相撞的局部重规划	n315/p40;n320/p36;n420/p2;n485/p23	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-f14	TX-f14	地点技术条件与计划外现场障碍的回写	n285/p5;n285/p6;n490/p28	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-f17	TX-f17	属员提案—首领裁量—未来责任归属的会商机制	n174/p23;n174/p24;n361/p35;n361/p36;n527/p30;n527/p31	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-p10	TX-p10	出版的费用与编辑异议分别保留	n175/p23;n531/p25;n531/p26	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-p16	TX-p16	发令归属和情报准确是两项不确定	n420/p2;n430/p59;n475/p25	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-p22	TX-p22	个人生存焦虑与大范围风险推测并列	n103/p16;n103/p18	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-c05	TX-c05	幕友给出处理申诉的方案，知县接受但后果未示	n095/p28;n095/p35;n095/p36	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-ce01	TX-ce01	后台倚赖被人事变动打断	n013/p34;n013/p52;n013/p56	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-ce08	TX-ce08	严密军律的内部张力不是已发生崩溃	n165/p1;n165/p5;n165/p80	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-ce09	TX-ce09	资源收入预估无法抹掉真实现金流压力	n174/p13;n174/p37;n174/p39	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-ce10	TX-ce10	高回报说辞不能消灭家庭现金需求	n180/p12;n180/p20;n180/p29	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-ce12	TX-ce12	签了任命册也有尚未核清的职位空缺	n213/p2;n213/p5;n213/p18;n213/p21	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-ce14	TX-ce14	胜利发生不表示战后责任已经关闭	n357/p49;n357/p58;n357/p60	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-ce15	TX-ce15	新士官饷等会制造新的权责歧义	n361/p34;n361/p35;n361/p36	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R064	V1:TX-ce18	TX-ce18	纸面后勤方案无法覆盖实际劳动现场	n490/p28;n490/p30;n505/p8	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
-R065	V2:WM-f11	WM-f11	制度宣称、他人权利与实际手续的分层	n265/p21;n265/p29;n425/p27	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R065	V2:WM-f16	WM-f16	想法—评估—否决—组织后果的创新检验	n345/p29;n437/p6;n437/p29	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R065	V2:WM-p06	WM-p06	紧急与重要的先后说法须限定场景	n140/p30;n140/p36	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R065	V2:WM-p13	WM-p13	暂时同意不等于永久执行	n305/p35;n305/p36;n520/p17	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R065	V2:WM-p18	WM-p18	新设想经比较后可以被拒绝	n437/p6;n345/p29	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R066	V2:TX-f03	TX-f03	地方调解与官署利益交错的制度现场	n008/p2;n030/p33;n055/p31	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R066	V2:TX-f04	TX-f04	名义官职与跨部门实际约束的不等式	n145/p29;n315/p40;n420/p2;n485/p23	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R066	V2:TX-f15	TX-f15	制度扩大后反对者的真实生存空间	n161/p65;n380/p31;n527/p29;n527/p30	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R066	V2:TX-p02	TX-p02	背会制度文件不能等同实际运用	n030/p33;n055/p32	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R066	V2:TX-p15	TX-p15	对立官员主张不得冒充作者一致立场	n386/p39;n386/p45;n386/p49	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R066	V2:TX-p18	TX-p18	预制方案不能取消现场劳动摩擦	n490/p28;n505/p8	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
-R68	V3:WM-f01	WM-f01	社会入口—资格—实际被承认的分层框架	WM-01,WM-03	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R68	V3:WM-f02	WM-f02	长期合作者分歧与关系债务的两本账	WM-02,WM-07	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R68	V3:WM-f04	WM-f04	承诺—可支配资金—实物到位的时间差	WM-03,WM-04,WM-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R68	V3:WM-f06	WM-f06	上级公开定案与当事人目标落差	WM-01,WM-03	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R68	V3:WM-f08	WM-f08	对立阵营的独立目标与认知约束	WM-05,WM-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R68	V3:WM-f10	WM-f10	胜利表彰与战后家庭成本的双后果网	WM-06,WM-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R68	V3:WM-f12	WM-f12	治理试点由争议到有限授权的状态框架	WM-07,WM-02	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R69	V3:WM-f13	WM-f13	已演事件与后世讲述版本的分层框架	WM-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R69	V3:WM-f14	WM-f14	重大历史线与家庭个体选择的双进度账	WM-08,WM-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R69	V3:WM-p01	WM-p01	拒绝收益不等于同意交易	WM-02,WM-04	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R69	V3:WM-p03	WM-p03	承担新工作前应让角色知道实际代价	WM-01,WM-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R69	V3:WM-p04	WM-p04	不同贡献口径不能被称为自然共识	WM-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R69	V3:WM-p05	WM-p05	预计收入不能提前当作现款	WM-03,WM-04	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R69	V3:WM-p07	WM-p07	未知数量保留估计身份	WM-05,WM-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R70	V3:WM-p08	WM-p08	被上级否决的提议不能伪作已获授权	WM-01,WM-03	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R70	V3:WM-p12	WM-p12	多个部门不能同时花掉同一笔预算	WM-03,WM-04	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R70	V3:WM-p14	WM-p14	家属主张不能代替本人意愿	WM-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R70	V3:WM-p19	WM-p19	证词的数字不应越过所见范围	WM-05,WM-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R70	V3:WM-p20	WM-p20	提出理由的要求与实际给出的理由不同	WM-07,WM-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R70	V3:WM-p21	WM-p21	试点范围是许可的一部分	WM-07	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R70	V3:WM-p23	WM-p23	被讲述的版本不等于现场真实	WM-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R71	V3:TX-f01	TX-f01	旧名声、当场能力、外部评价的三层身份连续性	TX-01,TX-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R71	V3:TX-f02	TX-f02	办事从会背文书到得到第三方认可的多级路径	TX-02,TX-03	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R71	V3:TX-f05	TX-f05	首领的知识缺口如何交给专业属员修正	TX-03,TX-05	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R71	V3:TX-f08	TX-f08	岗位待遇、实际权限与专业承认之间的区分	TX-03,TX-05	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R71	V3:TX-f09	TX-f09	对立阵营与弱势人物的独立利益空间	TX-06,TX-07	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R71	V3:TX-f10	TX-f10	公共事件的成果与普通人战后生活双后果账	TX-04,TX-07,TX-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R71	V3:TX-f11	TX-f11	家户与属员是否同意须脱离命令单独审视	TX-01,TX-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R72	V3:TX-f12	TX-f12	把猜测、对方未知和事后判断分成有限视角	TX-06,TX-07	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R72	V3:TX-f13	TX-f13	现场事件、报功文本与编辑再传播的层级差	TX-02,TX-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R72	V3:TX-f16	TX-f16	信誉想象到新承诺形成，不能直接跳至兑现	TX-04,TX-09,TX-10	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R72	V3:TX-p01	TX-p01	旧声誉与新帮助可以同时存在	TX-01	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R72	V3:TX-p03	TX-p03	报文先发未必赢得正式确认	TX-02,TX-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R72	V3:TX-p04	TX-p04	公开训话不能替代领导实际知识	TX-03,TX-04	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R72	V3:TX-p05	TX-p05	仓库账面计划与实际物资分开	TX-04	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R73	V3:TX-p06	TX-p06	调查所得和亲见证人区别	TX-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R73	V3:TX-p07	TX-p07	屈从压力与自愿选择不同	TX-05,TX-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R73	V3:TX-p08	TX-p08	制度条文允许被专业下属质疑	TX-05	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R73	V3:TX-p09	TX-p09	属员方案不能写成上司复读机	TX-03	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R73	V3:TX-p11	TX-p11	公共表扬与私人控诉互不注销	TX-01,TX-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R73	V3:TX-p12	TX-p12	正式签任命册不等于顺利履职	TX-02,TX-05	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R74	V3:TX-p13	TX-p13	不同权力方有各自同意边界	TX-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R74	V3:TX-p14	TX-p14	普通人的遭遇不能被大事件抹掉	TX-07	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R74	V3:TX-p17	TX-p17	传闻中的身份与正式公告区分	TX-09,TX-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R74	V3:TX-p19	TX-p19	实绩核对不可被文书虚增建议代替	TX-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R74	V3:TX-p20	TX-p20	请求清单各项都需要独立答复	TX-08,TX-05	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R74	V3:TX-p21	TX-p21	信用估价与兑现结果不得混同	TX-04,TX-10	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:WM-01	WM-01	从失去身份到获得他人有条件认可，写新人物入局	n001/p44、n022/p1、n052/p28	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:WM-02	WM-02	让两位长期合作者的道德分歧产生真实后果	n034/p18、n064/p55、n468/p44	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:WM-03	WM-03	区分纸面军职与组织实际运营条件	n052/p28、n070/p36、n494/p17	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:WM-04	WM-04	设计商业收益转供给的延时和竞争	n099/p18、n297/p1、n345/p29	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:WM-05	WM-05	写敌我不共享情报的选择与误判	n106/p1、n140/p36、n556/p3	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:WM-06	WM-06	大胜后重新分配功劳和社会成本	n085/p25、n155/p52、n425/p27	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:WM-07	WM-07	组织治理改革必须经过质疑、试验、复核	n425/p27、n519/p70、n520/p17	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:WM-08	WM-08	跨卷维护普通人和家庭的个人弧线	n540/p33、n568/p44、n569/p21	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:WM-09	WM-09	把后世讲述与曾经发生过的事实比较	n166/p30、n571/p5	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:TX-01	TX-01	让带旧身份污点的新主角承受互相矛盾的社会评价	n001/p20、n201/p54→p56	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:TX-02	TX-02	把地方事务的文书申请与实际认可分层写	n030/p33、n055/p31	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:TX-03	TX-03	让属员自主提案实质改变工作流程	n081/p59、n174/p23→p24	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:TX-04	TX-04	把资源补救写成新的时间与人情债	n114/p27→p29、n531/p8	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:TX-05	TX-05	把规章质疑与口头解释之后的未测结果分开	n165/p1、n361/p35→p36、n380/p31	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:TX-06	TX-06	写出三方独立知情与有条件合作	n315/p40、n420/p2、n430/p59、n485/p23	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:TX-07	TX-07	给对手与被战事牵连者独立行动线	n250/p31、n305/p50、n350/p69、n505/p8	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:TX-08	TX-08	将普通人的请求和实际批准区分	n015/p49、n370/p19、n527/p30→p31	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:TX-09	TX-09	叙述战果报道被不同人改写和质疑	n526/p82→p87、n531/p25→p26	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
-R062;R077;R078	TASK:TX-10	TX-10	以尚未履行的新责任而非假定结果收束章节	n530/p41、n531/p8、n532/p47→p49	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+STAGE0:R007	R007	R059	源阅读R007质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R008	R008	R058	源阅读R008质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R009	R009	R058	源阅读R009质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R010	R010	R058	源阅读R010质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R011	R011	R058	源阅读R011质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R012	R012	R058	源阅读R012质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R013	R013	R058	源阅读R013质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R014	R014	R058	源阅读R014质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R015	R015	R058	源阅读R015质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R016	R016	R059	源阅读R016质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R017	R017	R058	源阅读R017质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R018	R018	R059	源阅读R018质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R019	R019	R059	源阅读R019质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R020	R020	R059	源阅读R020质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R021	R021	R059	源阅读R021质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R022	R022	R059	源阅读R022质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R023	R023	R059	源阅读R023质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+STAGE0:R024	R024	R059	源阅读R024质量风险抽审	cangjie/reading/STAGE0_QUALITY_DEBT_AUDIT.md	段落上下文/文学反例/可证主张/剩余B风险	ORIGINAL_READING_PASSED_B_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:tx-r008-033	tx-r008-033	R061	旧R042隔离主张逐项核证	R008/n33/p1	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:wanming-R013-143-narrative-candidate	wanming-R013-143-narrative-candidate	R060	旧R042隔离主张逐项核证	R013/n143/p29	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:wanming-R017-220-candidate	wanming-R017-220-candidate	R060	旧R042隔离主张逐项核证	R017/n220/p24	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:v13-R018-tiexue-226-candidate	v13-R018-tiexue-226-candidate	R061	旧R042隔离主张逐项核证	R018/n226/p36	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:v13-r023-wanming-339-candidate	v13-r023-wanming-339-candidate	R060	旧R042隔离主张逐项核证	R023/n339/p28	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:wm-r009-65-candidate	wm-r009-65-candidate	R060	旧R042隔离主张逐项核证	R009/n65/p1	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:wm-r011-99-candidate	wm-r011-99-candidate	R060	旧R042隔离主张逐项核证	R011/n99/p28	源A/解释B重建或继续隔离	REVISED_PROVISIONAL_LATE_CORRECTIVE	UNRESOLVED_NO_NEW_PASS
+LEGACY:tx-r012-109	tx-r012-109	R061	旧R042隔离主张逐项核证	R012/n109/p40	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:tx-r014-153-candidate	tx-r014-153-candidate	R061	旧R042隔离主张逐项核证	R014/n153/p22	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:tiexue-R016-180-candidate	tiexue-R016-180-candidate	R061	旧R042隔离主张逐项核证	R016/n180/p38	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:v13-r019-wanming-265-candidate	v13-r019-wanming-265-candidate	R060	旧R042隔离主张逐项核证	R019/n265/p28	源A/解释B重建或继续隔离	REVISED_PROVISIONAL_PARTIAL_SUPPORT	UNRESOLVED_NO_NEW_PASS
+LEGACY:tiexue-R020-254-provisional	tiexue-R020-254-provisional	R061	旧R042隔离主张逐项核证	R020/n254/p37	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:V13-R021-wanming-305-candidate	V13-R021-wanming-305-candidate	R060	旧R042隔离主张逐项核证	R021/n305/p32	源A/解释B重建或继续隔离	CONFIRMED_NARROW_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+LEGACY:v13-r022-tiexue-286-candidate	v13-r022-tiexue-286-candidate	R061	旧R042隔离主张逐项核证	R022/n286/p27	源A/解释B重建或继续隔离	REVISED_PROVISIONAL	UNRESOLVED_NO_NEW_PASS
+V1:WM-f03	WM-f03	R063	纸面职位向长期组织能力转换的阶段框架	n052/p28;n070/p36;n494/p17;n514/p34	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-f05	WM-f05	R063	组织训后复盘—异议—编制调整的反馈环	n089/p1;n089/p18;n089/p26;n111/p1;n488/p2	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-f07	WM-f07	R063	消息产生—转述—接收的有限视角链	n140/p36;n220/p35;n220/p42;n248/p35	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-f09	WM-f09	R063	市场收益与组织供给之间的竞争制约	n099/p18;n297/p1;n345/p29;n437/p6	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-f15	WM-f15	R063	内部方案与外部见证的两种真实性检验	n390/p25;n494/p17;n514/p34;n561/p45	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-f17	WM-f17	R063	新义务产生后跨章节偿还的追踪框架	n089/p26;n305/p35;n529/p38;n529/p40;n530/p1	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-p02	WM-p02	R063	收付款角色的信任不由口头关系保证	n048/p17;n099/p18	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-p09	WM-p09	R063	纸面压缩不必然兑现现金节约	n155/p30;n305/p29	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-p10	WM-p10	R063	事多必错是组织角色的主张而非免责卡	n222/p28;n390/p25	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-p11	WM-p11	R063	条例中的数字须带作用范围	n295/p3;n425/p40	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-p15	WM-p15	R063	批准过方案不保证领会每项细节	n390/p25;n494/p17	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-p16	WM-p16	R063	基层管理者权力边界要有人明确反对	n425/p27;n425/p40	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-p17	WM-p17	R063	事务、资金、人员、资产是场内讨论项	n425/p40;n425/p35	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-p22	WM-p22	R063	风险预期必须落实为未来时间状态	n530/p1;n099/p18	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-c05	WM-c05	R063	交易伙伴归来暴露单一资金来源风险	n099/p18;n099/p19	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-c11	WM-c11	R063	一个新设想被否定之后又有采购争论	n437/p6;n437/p29;n437/p31	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-ce06	WM-ce06	R063	核心贸易伙伴单点依赖	n099/p17;n099/p18;n099/p19	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-ce08	WM-ce08	R063	机构裁撤的纸面节省不等于实际财政恢复	n155/p28;n155/p30	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-ce12	WM-ce12	R063	压制竞争会诱发忽视实际改进的诱因	n380/p25;n380/p27;n380/p28	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-ce13	WM-ce13	R063	基层负责人集资源权与监督权的隐藏成本	n425/p25;n425/p26;n425/p35;n425/p40	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-ce15	WM-ce15	R063	从组织总体利益推算的安置政策可能忽视个人意愿	n494/p8;n494/p11;n494/p18	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-ce17	WM-ce17	R063	新制度引入后未必产生预想中的共同价值观	n519/p66;n519/p67;n519/p69;n519/p70;n520/p15;n520/p17	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:WM-ce18	WM-ce18	R063	频繁改动部门需求会积累隐形时间成本	n529/p38;n529/p40;n529/p41	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-f06	TX-f06	R064	账面储备、临时替代与后来对账的三段资源链	n114/p27;n114/p29;n531/p8	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-f07	TX-f07	R064	外来上级命令与本地原方案相撞的局部重规划	n315/p40;n320/p36;n420/p2;n485/p23	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-f14	TX-f14	R064	地点技术条件与计划外现场障碍的回写	n285/p5;n285/p6;n490/p28	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-f17	TX-f17	R064	属员提案—首领裁量—未来责任归属的会商机制	n174/p23;n174/p24;n361/p35;n361/p36;n527/p30;n527/p31	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-p10	TX-p10	R064	出版的费用与编辑异议分别保留	n175/p23;n531/p25;n531/p26	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-p16	TX-p16	R064	发令归属和情报准确是两项不确定	n420/p2;n430/p59;n475/p25	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-p22	TX-p22	R064	个人生存焦虑与大范围风险推测并列	n103/p16;n103/p18	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-c05	TX-c05	R064	幕友给出处理申诉的方案，知县接受但后果未示	n095/p28;n095/p35;n095/p36	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-ce01	TX-ce01	R064	后台倚赖被人事变动打断	n013/p34;n013/p52;n013/p56	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-ce08	TX-ce08	R064	严密军律的内部张力不是已发生崩溃	n165/p1;n165/p5;n165/p80	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-ce09	TX-ce09	R064	资源收入预估无法抹掉真实现金流压力	n174/p13;n174/p37;n174/p39	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-ce10	TX-ce10	R064	高回报说辞不能消灭家庭现金需求	n180/p12;n180/p20;n180/p29	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-ce12	TX-ce12	R064	签了任命册也有尚未核清的职位空缺	n213/p2;n213/p5;n213/p18;n213/p21	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-ce14	TX-ce14	R064	胜利发生不表示战后责任已经关闭	n357/p49;n357/p58;n357/p60	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-ce15	TX-ce15	R064	新士官饷等会制造新的权责歧义	n361/p34;n361/p35;n361/p36	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V1:TX-ce18	TX-ce18	R064	纸面后勤方案无法覆盖实际劳动现场	n490/p28;n490/p30;n505/p8	可定源上下文/反例/范围收缩/结论	V1_REVIEW	UNRESOLVED_NO_NEW_PASS
+V2:WM-f11	WM-f11	R065	制度宣称、他人权利与实际手续的分层	n265/p21;n265/p29;n425/p27	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V2:WM-f16	WM-f16	R065	想法—评估—否决—组织后果的创新检验	n345/p29;n437/p6;n437/p29	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V2:WM-p06	WM-p06	R065	紧急与重要的先后说法须限定场景	n140/p30;n140/p36	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V2:WM-p13	WM-p13	R065	暂时同意不等于永久执行	n305/p35;n305/p36;n520/p17	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V2:WM-p18	WM-p18	R065	新设想经比较后可以被拒绝	n437/p6;n345/p29	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V2:TX-f03	TX-f03	R066	地方调解与官署利益交错的制度现场	n008/p2;n030/p33;n055/p31	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V2:TX-f04	TX-f04	R066	名义官职与跨部门实际约束的不等式	n145/p29;n315/p40;n420/p2;n485/p23	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V2:TX-f15	TX-f15	R066	制度扩大后反对者的真实生存空间	n161/p65;n380/p31;n527/p29;n527/p30	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V2:TX-p02	TX-p02	R066	背会制度文件不能等同实际运用	n030/p33;n055/p32	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V2:TX-p15	TX-p15	R066	对立官员主张不得冒充作者一致立场	n386/p39;n386/p45;n386/p49	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V2:TX-p18	TX-p18	R066	预制方案不能取消现场劳动摩擦	n490/p28;n505/p8	冻结新题+真实纸面输出/异常处理	V2_NOT_TESTED	UNRESOLVED_NO_NEW_PASS
+V3:WM-f01	WM-f01	R068	社会入口—资格—实际被承认的分层框架	WM-01,WM-03	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-f02	WM-f02	R068	长期合作者分歧与关系债务的两本账	WM-02,WM-07	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-f04	WM-f04	R068	承诺—可支配资金—实物到位的时间差	WM-03,WM-04,WM-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-f06	WM-f06	R068	上级公开定案与当事人目标落差	WM-01,WM-03	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-f08	WM-f08	R068	对立阵营的独立目标与认知约束	WM-05,WM-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-f10	WM-f10	R068	胜利表彰与战后家庭成本的双后果网	WM-06,WM-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-f12	WM-f12	R068	治理试点由争议到有限授权的状态框架	WM-07,WM-02	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-f13	WM-f13	R069	已演事件与后世讲述版本的分层框架	WM-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-f14	WM-f14	R069	重大历史线与家庭个体选择的双进度账	WM-08,WM-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p01	WM-p01	R069	拒绝收益不等于同意交易	WM-02,WM-04	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p03	WM-p03	R069	承担新工作前应让角色知道实际代价	WM-01,WM-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p04	WM-p04	R069	不同贡献口径不能被称为自然共识	WM-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p05	WM-p05	R069	预计收入不能提前当作现款	WM-03,WM-04	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p07	WM-p07	R069	未知数量保留估计身份	WM-05,WM-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p08	WM-p08	R070	被上级否决的提议不能伪作已获授权	WM-01,WM-03	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p12	WM-p12	R070	多个部门不能同时花掉同一笔预算	WM-03,WM-04	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p14	WM-p14	R070	家属主张不能代替本人意愿	WM-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p19	WM-p19	R070	证词的数字不应越过所见范围	WM-05,WM-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p20	WM-p20	R070	提出理由的要求与实际给出的理由不同	WM-07,WM-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p21	WM-p21	R070	试点范围是许可的一部分	WM-07	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:WM-p23	WM-p23	R070	被讲述的版本不等于现场真实	WM-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-f01	TX-f01	R071	旧名声、当场能力、外部评价的三层身份连续性	TX-01,TX-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-f02	TX-f02	R071	办事从会背文书到得到第三方认可的多级路径	TX-02,TX-03	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-f05	TX-f05	R071	首领的知识缺口如何交给专业属员修正	TX-03,TX-05	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-f08	TX-f08	R071	岗位待遇、实际权限与专业承认之间的区分	TX-03,TX-05	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-f09	TX-f09	R071	对立阵营与弱势人物的独立利益空间	TX-06,TX-07	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-f10	TX-f10	R071	公共事件的成果与普通人战后生活双后果账	TX-04,TX-07,TX-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-f11	TX-f11	R071	家户与属员是否同意须脱离命令单独审视	TX-01,TX-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-f12	TX-f12	R072	把猜测、对方未知和事后判断分成有限视角	TX-06,TX-07	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-f13	TX-f13	R072	现场事件、报功文本与编辑再传播的层级差	TX-02,TX-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-f16	TX-f16	R072	信誉想象到新承诺形成，不能直接跳至兑现	TX-04,TX-09,TX-10	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p01	TX-p01	R072	旧声誉与新帮助可以同时存在	TX-01	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p03	TX-p03	R072	报文先发未必赢得正式确认	TX-02,TX-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p04	TX-p04	R072	公开训话不能替代领导实际知识	TX-03,TX-04	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p05	TX-p05	R072	仓库账面计划与实际物资分开	TX-04	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p06	TX-p06	R073	调查所得和亲见证人区别	TX-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p07	TX-p07	R073	屈从压力与自愿选择不同	TX-05,TX-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p08	TX-p08	R073	制度条文允许被专业下属质疑	TX-05	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p09	TX-p09	R073	属员方案不能写成上司复读机	TX-03	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p11	TX-p11	R073	公共表扬与私人控诉互不注销	TX-01,TX-08	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p12	TX-p12	R073	正式签任命册不等于顺利履职	TX-02,TX-05	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p13	TX-p13	R074	不同权力方有各自同意边界	TX-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p14	TX-p14	R074	普通人的遭遇不能被大事件抹掉	TX-07	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p17	TX-p17	R074	传闻中的身份与正式公告区分	TX-09,TX-06	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p19	TX-p19	R074	实绩核对不可被文书虚增建议代替	TX-09	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p20	TX-p20	R074	请求清单各项都需要独立答复	TX-08,TX-05	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+V3:TX-p21	TX-p21	R074	信用估价与兑现结果不得混同	TX-04,TX-10	新输入同题两臂、单方法拆解、V3最终逐项结论	V3_UNPROVEN	UNRESOLVED_NO_NEW_PASS
+TASK:WM-01	WM-01	R062;R077;R078	从失去身份到获得他人有条件认可，写新人物入局	n001/p44、n022/p1、n052/p28	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:WM-02	WM-02	R062;R077;R078	让两位长期合作者的道德分歧产生真实后果	n034/p18、n064/p55、n468/p44	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:WM-03	WM-03	R062;R077;R078	区分纸面军职与组织实际运营条件	n052/p28、n070/p36、n494/p17	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:WM-04	WM-04	R062;R077;R078	设计商业收益转供给的延时和竞争	n099/p18、n297/p1、n345/p29	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:WM-05	WM-05	R062;R077;R078	写敌我不共享情报的选择与误判	n106/p1、n140/p36、n556/p3	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:WM-06	WM-06	R062;R077;R078	大胜后重新分配功劳和社会成本	n085/p25、n155/p52、n425/p27	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:WM-07	WM-07	R062;R077;R078	组织治理改革必须经过质疑、试验、复核	n425/p27、n519/p70、n520/p17	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:WM-08	WM-08	R062;R077;R078	跨卷维护普通人和家庭的个人弧线	n540/p33、n568/p44、n569/p21	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:WM-09	WM-09	R062;R077;R078	把后世讲述与曾经发生过的事实比较	n166/p30、n571/p5	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:TX-01	TX-01	R062;R077;R078	让带旧身份污点的新主角承受互相矛盾的社会评价	n001/p20、n201/p54→p56	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:TX-02	TX-02	R062;R077;R078	把地方事务的文书申请与实际认可分层写	n030/p33、n055/p31	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:TX-03	TX-03	R062;R077;R078	让属员自主提案实质改变工作流程	n081/p59、n174/p23→p24	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:TX-04	TX-04	R062;R077;R078	把资源补救写成新的时间与人情债	n114/p27→p29、n531/p8	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:TX-05	TX-05	R062;R077;R078	把规章质疑与口头解释之后的未测结果分开	n165/p1、n361/p35→p36、n380/p31	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:TX-06	TX-06	R062;R077;R078	写出三方独立知情与有条件合作	n315/p40、n420/p2、n430/p59、n485/p23	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:TX-07	TX-07	R062;R077;R078	给对手与被战事牵连者独立行动线	n250/p31、n305/p50、n350/p69、n505/p8	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:TX-08	TX-08	R062;R077;R078	将普通人的请求和实际批准区分	n015/p49、n370/p19、n527/p30→p31	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:TX-09	TX-09	R062;R077;R078	叙述战果报道被不同人改写和质疑	n526/p82→p87、n531/p25→p26	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
+TASK:TX-10	TX-10	R062;R077;R078	以尚未履行的新责任而非假定结果收束章节	n530/p41、n531/p8、n532/p47→p49	19项任务原著来源及covered by verified方法的实际去向	RAW_MAPPED_VERIFIED0	UNRESOLVED_NO_NEW_PASS
