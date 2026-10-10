@@ -6,7 +6,7 @@
   "plan": "V13_3_FIXED_48_ROUNDS.md",
   "ledger": "V13_LEDGER_V4.tsv",
   "current_round": "N01",
-  "current_round_status": "NOT_STARTED",
+  "current_round_status": "IN_PROGRESS",
   "completed_new_rounds": 0,
   "total_new_rounds": 48,
   "historical_parent_main_sha": "df6b1f8fefe3f51324182d53bd50f531c99a1b08",
@@ -41,7 +41,7 @@
   "active_plan_authority": "V13_CURRENT_V4.json+V13_LEDGER_V4.tsv+V13_3_FIXED_48_ROUNDS.md",
   "next_user_command": "继续",
   "previous_v13_2_cursor_is_read_only": true,
-  "actual_N01_work_started": false,
+  "actual_N01_work_started": true,
   "additional_paid_tools_approved": false,
   "known_future_blockers": [
     "N21 TRUE INDEPENDENT V3 CREATORS AND 2 BLIND JUDGES NOT ASSIGNED",
