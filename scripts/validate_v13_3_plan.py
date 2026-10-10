@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """V13.3 source-of-truth integrity: identities and contracts only, not literary pass."""
-import csv,json,re,hashlib
+import csv,json,re,subprocess
 from pathlib import Path
 from collections import Counter
 P=Path(__file__).resolve().parents[1]
@@ -81,11 +81,11 @@ for claim in (row for row in a if row["issue_type"]=="STAGE0_B_CLAIM"):
  assert r["verification_scope"]=="LOCATOR_VERIFIED_ONLY_B_PROVISIONAL"
  if expected not in receipt_cache:
   blob=(P/expected).read_bytes()
-  object_sha=hashlib.sha1(("blob "+str(len(blob))).encode("ascii")+bytes([0])+blob).hexdigest()
+  object_sha=subprocess.check_output(["git","hash-object",expected],cwd=P,text=True).strip()
   lines=[json.loads(line) for line in blob.decode("utf-8").splitlines() if line.strip()]
   receipt_cache[expected]=(object_sha,{int(p["narrative_ordinal"]):p for p in lines})
  sha,chapters=receipt_cache[expected]
- assert r["receipt_git_blob_sha"]==sha
+ assert r["receipt_git_blob_sha"]==sha,(claim["issue_id"],expected,r["receipt_git_blob_sha"],sha)
  chapter=chapters.get(int(r["resolved_ordinal"]))
  assert chapter and chapter["book_slug"]==book
  recorded={t["anchor_id"] for t in chapter["anchors"]}
