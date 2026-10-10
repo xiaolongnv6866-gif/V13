@@ -1,6 +1,6 @@
 # V13.2 B076｜Cangjie Stage1.5 V2分流及用户强制确认
 
-status: BLOCKED_PENDING_EXPLICIT_USER_CONFIRM
+status: BLOCKED_ZERO_VERIFIED_APPROVAL_A_RECORDED
 batch: B076
 legacy: R078
 cangjie_pin: a28de55ba881b9928956a55048f743f7a9e3b23e
@@ -13,7 +13,7 @@ independent_verified: 0
 skill_certified: 0
 independent_creative_C: NOT_RUN
 heldout: SEALED_NOT_RUN
-user_confirmation: NOT_YET_GRANTED
+user_confirmation: APPROVED_A_2026_10_10_PLANNING_ONLY
 
 ## 一、按唯一候选ID重新聚合，绝不重复计数
 
@@ -37,12 +37,10 @@ B068–B072 original47, B073 WM额外10, B074 TX额外12的候选ID全部是原R
 
 Cangjie pinned `methodology/03-stage1.5-triple-verify.md` 规定：verified须V1来源、V2可执行、V3任务效用**全部**通过；无verified则交付参考和缺口、停止编译。原Nuwa pinned SKILL Phase1.5、2.5、4、5各检查点、真正子Agent验证和两主体精炼也不能被假扮同一Agent取代。结构CI只审核账本和Git原始输出存在，不构成专业文学鉴定。
 
-本轮R078硬门 `MANDATORY_USER_CONFIRM`：必须用户明确选择并批准本次四类分流和欠证范围；先前对R057方案A的批准不是R078新证据聚合的批准，用户一句“继续”只是授权启动B076，不等于确认结果。即使用户批准分流，**verified仍为0时Stage1.6晋级和Stage5编译依然被原版方法阻断**。必须先依规则补真实独立V3并重新通过三重验证；不得把当前B076标PASSED或推进B077。符合要求的门控状态是BLOCKED_AWAITING_USER_DECISION，并明确把原R078所有实物保存、Actions远程核验、历史资产只读冻结。
+## 四、本轮用户确认已收到，不代表三重验证通过
 
-## 四、需要用户选择的真实事项
+用户于2026-10-10在本聊天明确批准B076方案A，核准187项四分类与全部现有欠证，允许仅在B076内部规划真实独立V3补证、28项V1来源修复和原Stage0完整任务映射。正式确认及权限限制：`gates/R078_USER_APPROVAL_A_20261010.md`；可逐项复核的计划见`gates/B076_APPROVED_A_EVIDENCE_PROTOCOL.md`及三份具体队列TSV。
 
-建议方案A（合规且不虚报）：确认187项四分类（90参考，97待核，0verified，0rejected）和14旧隔离持续保留；接受B076先停在BLOCKED，授权**仅规划和准备**后续隔离独立评审与长篇连续性实测、28项V1来源纠错、Stage0 20→19任务差异重构。独立受试者/真正盲评工具没有可证权限前，不实际宣告补测开始或通过；下一实际执行仍在B076内部直到新证据有效。继续不改变原R078以外的强制质量门，也不额外收费。
+原R078强制用户选择要求现**已满足**，先前的“等待用户确认”仅为历史进程。但B076仍`BLOCKED`，因为真正独立效用verified=0，正式Stage1.6或编译必须遵守仓颉零verified停止规则。原47及额外22项非盲诊断无独立增益认证；无独立作者、盲评者时不得冒充完成测试。早期Stage0二十原任务及旧14隔离持续保留，独立C=NOT_RUN，SKILL=0。
 
-方案B：暂缓推进，保留187项及全部研究成果、CI与欠债，不授权进一步测试计划。
-
-**等待用户明确A或B，当前没有批准。**
+下一轮不是B077。需在B076范围内先取得真实独立主体/证据条件并重新完成可信V1/V2/V3验证；若无法获得该条件，继续阻断，不为了管理进度强行认定PASS。

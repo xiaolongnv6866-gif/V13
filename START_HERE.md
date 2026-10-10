@@ -1,3 +1,15 @@
+# V13.2｜B076用户已批准方案A，实质效用仍阻断（2026-10-10）
+
+**唯一当前状态：75/96个管理批次已完成；B076 BLOCKED（ZERO_VERIFIED），B077 NOT_STARTED。** R078强制用户确认门于2026-10-10已由用户明确批准方案A，旧日志中“未批准”只是历史状态，不能再作为本轮最新判断。确认见`gates/R078_USER_APPROVAL_A_20261010.md`，汇总门`gates/CANGJIE_STAGE15_V2.md`。
+
+已批准187项四分流：verified **0**、reference **90**、needs_review **97**、rejected **0**；旧R042隔离14另列。69个真实V3双臂诊断仍只属同一Agent非盲，独立结果0。用户只授权在B076内规划真实独立V3补证、28项V1来源纠错、早期20项Stage0任务与R057 19项任务的完整差异恢复，不降低原版仓颉或女娲规则，**没有授权启动B077**。
+
+四份实际文件：`gates/B076_APPROVED_A_EVIDENCE_PROTOCOL.md`、`gates/B076_APPROVED_A_V3_69_REPLICATION_QUEUE.tsv`、`gates/B076_APPROVED_A_V1_28_REPAIR_QUEUE.tsv`、`gates/B076_APPROVED_A_STAGE0_20_CONTRACT_GAP_PLAN.tsv`。当前独立作者及评分者UNASSIGNED，69个独立复制NOT_RUN、28项V1重新回看NOT_RUN、20项完整Stage0验收NOT_RUN；无新可核证verified，不得编译。R042旧14、Stage0文学B未逐查192项和密封题库SEAL均保持不变。
+
+旧章节、旧B075封账及此前B076“待用户确认”的说明作为历史过程保留，以上**最新顶部记录才是当前批准状态**。即使GitHub全绿也只证明实物一致，不证明文学方法任务增益。当前只允许B076内真正满足原版证据条件的补证；若独立条件不可用，则继续BLOCKED。
+
+---
+
 # V13.2｜B076 R078用户硬门已写入、尚待确认（2026-10-10）
 
 唯一权威：**75/96已完成；当前B076 BLOCKED_PENDING_USER_CONFIRM，B077 NOT_STARTED**，不是76/96。B076已聚合原187唯一候选：《晚明》91、《铁血残明》96；verified 0、reference 90、needs_review 97、rejected 0。追加22条V3只是这187候选的最新证据，不要虚增到209。原R042历史隔离14另计。

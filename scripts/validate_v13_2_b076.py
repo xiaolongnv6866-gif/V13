@@ -7,6 +7,7 @@ def rows(path):
 def sha(path):return subprocess.check_output(["git","hash-object",str(P/path)],text=True).strip()
 counts={"wanming":(91,42,49,31),"tiexuecanming":(96,48,48,38)}
 allids=[]
+all_new=[]
 for book,(total,refs,needs,tested) in counts.items():
  old=rows(f"books/{book}/R057_DECISION_MATRIX.tsv")
  new=rows(f"books/{book}/R078_V2_DECISION_MATRIX.tsv")
@@ -31,6 +32,7 @@ for book,(total,refs,needs,tested) in counts.items():
  assert "count: 0" in (P/f"books/{book}/verified.md").read_text()
  assert "count: 0" in (P/f"books/{book}/rejected/README.md").read_text()
  allids.extend(x["candidate_id"] for x in new)
+ all_new.extend(new)
 assert len(allids)==len(set(allids))==187
 original=rows("v2/v3/FINAL_47_EVIDENCE_AUDIT.tsv")
 additional=rows("v2/v3/FINAL_22_ADDITIONAL_AUDIT.tsv")
@@ -49,9 +51,28 @@ state=json.loads((P/"V13_CURRENT_V3.json").read_text())
 assert state["current_batch"]=="B076"
 assert state["last_passed_batch"]=="B075"
 assert state["skill_certified_count"]==0
-assert state["batch_status"] in ("NOT_STARTED","BLOCKED_PENDING_USER_CONFIRM")
+assert state["batch_status"]=="BLOCKED"
 gate=(P/"gates/CANGJIE_STAGE15_V2.md").read_text()
-assert "BLOCKED_PENDING_EXPLICIT_USER_CONFIRM" in gate
-assert "user_confirmation: NOT_YET_GRANTED" in gate
+assert "BLOCKED_ZERO_VERIFIED_APPROVAL_A_RECORDED" in gate
+assert "user_confirmation: APPROVED_A_2026_10_10_PLANNING_ONLY" in gate
 assert "187" in gate and "97" in gate and "90" in gate
-print("B076 TRIAGE_EVIDENCE_OK: 187 unique, 90 reference, 97 needs review, 0 verified, 14 historic; user confirmation absent, B076 BLOCKED")
+assert state["overall_management_units_completed"]==75
+assert state["b076_user_approval"]=="APPROVED_A_2026_10_10_PLANNING_ONLY"
+assert "user_selection: A" in (P/"gates/R078_USER_APPROVAL_A_20261010.md").read_text()
+q28=rows("gates/B076_APPROVED_A_V1_28_REPAIR_QUEUE.tsv")
+q69=rows("gates/B076_APPROVED_A_V3_69_REPLICATION_QUEUE.tsv")
+q20=rows("gates/B076_APPROVED_A_STAGE0_20_CONTRACT_GAP_PLAN.tsv")
+assert len(q28)==28 and len(q69)==69 and len(q20)==20
+assert sum(x["book"]=="wanming" for x in q28)==18
+assert sum(x["book"]=="tiexuecanming" for x in q28)==10
+assert {x["candidate_id"] for x in q69}=={x["candidate_id"] for x in original+additional}
+assert len(set(x["repeat_id"] for x in q69))==69
+assert all(x["independent_author"]==x["blind_judge"]=="UNASSIGNED" and x["real_independent_test"]=="NOT_RUN" for x in q69)
+raw={x["candidate_id"]:(x["raw_path"],x["raw_git_blob_sha1"]) for x in original+additional}
+assert all((x["source_raw_path"],x["source_git_sha"])==raw[x["candidate_id"]] for x in q69)
+assert {x["candidate_id"] for x in q28}=={x["candidate_id"] for x in all_new if x["B076_final_decision"]=="needs_review" and x["raw_pair_git_sha"]=="NONE"}
+assert len({x["old_task_id"] for x in q20})==20
+assert all(x["original_required_output"] and x["original_success_and_failure"] and x["independent_full_task_acceptance"]=="NOT_RUN" for x in q20)
+assert {x["old_task_id"] for x in q20}=={x["old_Stage0_id"] for x in cross}
+assert "approved" in (P/"gates/B076_APPROVED_A_EVIDENCE_PROTOCOL.md").read_text().lower()
+print("B076 USER A RECORDED; 69+28+20 PLANNED_ONLY, 0 independently verified, B076 BLOCKED")

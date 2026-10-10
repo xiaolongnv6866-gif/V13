@@ -20,7 +20,7 @@
   "last_completed_legacy_round": "R077",
   "last_passed_batch": "B075",
   "current_batch": "B076",
-  "batch_status": "BLOCKED_PENDING_USER_CONFIRM",
+  "batch_status": "BLOCKED",
   "work_contract_legacy_coverage": "R067_TO_R077_11_OF_44_COMPLETE_R078_TO_R110_33_REMAIN",
   "v3_original_47_total": 47,
   "v3_original_47_completed": 47,
@@ -155,8 +155,20 @@
     "unique": 187,
     "legacy14": 14
   },
-  "b076_next_batch": "B077_NOT_AUTHORIZED",
-  "b076_user_approval": "NOT_GRANTED",
+  "b076_next_batch": "B077_NOT_AUTHORIZED_ZERO_VERIFIED",
+  "b076_user_approval": "APPROVED_A_2026_10_10_PLANNING_ONLY",
   "b076_actions_evidence": "76_OF_76_SUCCESS",
-  "b076_evidence_remote": "21_OF_21_MATCH"
+  "b076_evidence_remote": "21_OF_21_MATCH",
+  "b076_block_reason": "ZERO_INDEPENDENT_VERIFIED_V3_PENDING_REAL_EVIDENCE",
+  "b076_approval_receipt": "gates/R078_USER_APPROVAL_A_20261010.md",
+  "b076_approved_plan": "gates/B076_APPROVED_A_EVIDENCE_PROTOCOL.md",
+  "b076_v1_repair_queue": "gates/B076_APPROVED_A_V1_28_REPAIR_QUEUE.tsv",
+  "b076_independent_v3_queue": "gates/B076_APPROVED_A_V3_69_REPLICATION_QUEUE.tsv",
+  "b076_stage0_original20_gap_queue": "gates/B076_APPROVED_A_STAGE0_20_CONTRACT_GAP_PLAN.tsv",
+  "b076_new_independent_v3_results": 0,
+  "b076_new_v1_source_reaudits": 0,
+  "b076_stage0_full_independent_acceptance": 0,
+  "b076_confirmation_complete": true,
+  "b076_promotion_authorized": false,
+  "b076_heldout_status": "SEALED_NOT_RUN"
 }
