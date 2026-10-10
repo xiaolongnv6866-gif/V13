@@ -69,7 +69,22 @@ for slug,refc,reviewc in (("wanming",42,49),("tiexuecanming",48,48)):
   ensure((ROOT/"books"/slug/file).exists(),slug+" missing delivery "+file)
 cur=json.loads((ROOT/"CURRENT_ROUND.json").read_text(encoding="utf8"))
 ensure(cur["current_round"]=="R057" and cur["round_status"]=="BLOCKED" and cur["rounds_completed"]==56 and cur["last_passed_round"]=="R056","unapproved round advanced")
-ensure(cur.get("cangjie_stage1_5_user_confirm")=="PENDING_R057_USER_APPROVAL","user consent falsified")
+ensure(cur.get("cangjie_stage1_5_user_confirm") in ("PENDING_R057_USER_APPROVAL","USER_APPROVED_R057_TRIAGE_SCHEME_A_EXECUTION_SCOPE_PENDING"),"user consent falsified")
+if cur.get("cangjie_stage1_5_user_confirm")=="USER_APPROVED_R057_TRIAGE_SCHEME_A_EXECUTION_SCOPE_PENDING":
+ ensure((ROOT/"gates/R057_USER_APPROVAL_A.md").exists() and (ROOT/"gates/R057_REMEDIATION_PLAN.md").exists(),"scope approval artifacts missing")
+ for filename,expected,source_status in (("R057_REPAIR_V1_39_QUEUE.tsv",39,"BLOCKED_BY_V1_NEEDS_SOURCE_REPAIR"),("R057_REPAIR_V2_11_TEST_DESIGNS.tsv",11,"V1_PASS_V2_NOT_TESTED"),("R057_REPAIR_V3_47_TEST_QUEUE.tsv",47,"V2_WALKTHROUGH_PASS_LIMITED")):
+  rs=read("gates/"+filename)
+  ids={k for k,z in D.items() if z["V2"]==source_status}
+  ensure(len(rs)==expected and {z["candidate_id"] for z in rs}==ids,"invalid remediation queue "+filename)
+ p1=read("gates/R057_REPAIR_V1_39_QUEUE.tsv")
+ p2=read("gates/R057_REPAIR_V2_11_TEST_DESIGNS.tsv")
+ p3=read("gates/R057_REPAIR_V3_47_TEST_QUEUE.tsv")
+ ensure(sum(z["priority"]=="P0_FIRST_WAVE" for z in p1)==14,"V1 P0 count")
+ ensure(sum(z["pilot_tier"]=="PILOT_8_FIRST_WAVE" for z in p3)==8,"V3 pilot count")
+ ensure(all(z["execution_status"]=="DESIGN_ONLY_NO_OUTPUT" for z in p2),"V2 claimed execution")
+ ensure(all(z["evaluation_state"]=="PLANNED_NO_RESULTS" for z in p3),"V3 claimed evaluation")
+ ensure(cur["skill_certified_count"]==0 and cur["heldout_bank_status"]=="SEALED_NOT_RUN","scope approval falsely certified result")
+
 with (ROOT/"ROUND_LEDGER.csv").open(encoding="utf8",newline="") as f:ledger={x["id"]:x for x in csv.DictReader(f)}
 ensure(ledger["R056"]["status"]=="PASSED" and ledger["R057"]["status"]=="BLOCKED","ledger approval gate")
 print("R057 STRUCTURE PASS: 187 exact candidate origins; verified0 reference90 needs_review97 rejected0; 14 old quarantines, 19 RAW/0 verified tasks; cursor BLOCKED.")

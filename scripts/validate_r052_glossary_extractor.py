@@ -67,7 +67,7 @@ old=tsv(R/'cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv')
 ck(len(old)==14 and all(x['stage1_permission']=='NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE' for x in old),'old source debt accidentally promoted')
 ctrl=json.loads((R/'CURRENT_ROUND.json').read_text(encoding='utf8'))
 number=int(ctrl['current_round'][1:])
-ck((ctrl["round_status"]=="NOT_STARTED" or (ctrl["current_round"]=="R057" and ctrl["round_status"]=="BLOCKED" and ctrl["rounds_completed"]==56 and ctrl["last_passed_round"]=="R056" and ctrl.get("cangjie_stage1_5_user_confirm")=="PENDING_R057_USER_APPROVAL")) and ((number==52 and ctrl['rounds_completed']==51 and ctrl['last_passed_round']=='R051') or (number>=53 and ctrl['rounds_completed']==number-1 and int(ctrl['last_passed_round'][1:])>=52)),'R052 cursor mismatch')
+ck((ctrl["round_status"]=="NOT_STARTED" or (ctrl["current_round"]=="R057" and ctrl["round_status"]=="BLOCKED" and ctrl["rounds_completed"]==56 and ctrl["last_passed_round"]=="R056" and ctrl.get("cangjie_stage1_5_user_confirm") in ("PENDING_R057_USER_APPROVAL","USER_APPROVED_R057_TRIAGE_SCHEME_A_EXECUTION_SCOPE_PENDING"))) and ((number==52 and ctrl['rounds_completed']==51 and ctrl['last_passed_round']=='R051') or (number>=53 and ctrl['rounds_completed']==number-1 and int(ctrl['last_passed_round'][1:])>=52)),'R052 cursor mismatch')
 ck(ctrl['cangjie_stage0_gate']=='PASSED' and ctrl['legacy_quality_debt_status']=='OPEN_QUARANTINED','Stage0/old debt barrier changed')
 ck(ctrl['skill_certified_count']==0 and ctrl['heldout_bank_status']=='SEALED_NOT_RUN' and ctrl['original_output_test_status']=='NOT_RUN','premature skill certification')
 with (R/'ROUND_LEDGER.csv').open(encoding='utf8',newline='') as f:ld={x['id']:x for x in csv.DictReader(f)}

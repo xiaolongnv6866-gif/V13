@@ -144,7 +144,7 @@ with (R/"cangjie/reading/R042_OLD_CLAIM_QUARANTINE.tsv").open(encoding="utf8",ne
 ck(len(old)==14 and all(x["stage1_permission"]=="NO_DIRECT_PROMOTION_RECONSTRUCT_FROM_SOURCE" for x in old),"historical debt quarantine lifted")
 c=json.loads((R/"CURRENT_ROUND.json").read_text(encoding="utf8"))
 n=int(c["current_round"][1:])
-ck((c["round_status"]=="NOT_STARTED" or (c["current_round"]=="R057" and c["round_status"]=="BLOCKED" and c["rounds_completed"]==56 and c["last_passed_round"]=="R056" and c.get("cangjie_stage1_5_user_confirm")=="PENDING_R057_USER_APPROVAL")) and ((n==53 and c["rounds_completed"]==52 and c["last_passed_round"]=="R052") or (n>=54 and c["rounds_completed"]==n-1 and int(c["last_passed_round"][1:])>=53)),"official cursor inconsistent")
+ck((c["round_status"]=="NOT_STARTED" or (c["current_round"]=="R057" and c["round_status"]=="BLOCKED" and c["rounds_completed"]==56 and c["last_passed_round"]=="R056" and c.get("cangjie_stage1_5_user_confirm") in ("PENDING_R057_USER_APPROVAL","USER_APPROVED_R057_TRIAGE_SCHEME_A_EXECUTION_SCOPE_PENDING"))) and ((n==53 and c["rounds_completed"]==52 and c["last_passed_round"]=="R052") or (n>=54 and c["rounds_completed"]==n-1 and int(c["last_passed_round"][1:])>=53)),"official cursor inconsistent")
 ck(c["legacy_quality_debt_status"]=="OPEN_QUARANTINED" and c["literary_interpretation_status"]=="PROVISIONAL" and c["original_output_test_status"]=="NOT_RUN","ABC claims inappropriately upgraded")
 ck(c["skill_certified_count"]==0 and c["heldout_bank_status"]=="SEALED_NOT_RUN","skill/heldout incorrectly promoted")
 with (R/"ROUND_LEDGER.csv").open(encoding="utf8",newline="") as f:ledger={r["id"]:r for r in csv.DictReader(f)}
