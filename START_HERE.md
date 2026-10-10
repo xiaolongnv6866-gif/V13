@@ -1,3 +1,10 @@
+# V13 最新唯一实时执行入口（R061 PASSED，2026-10-10）
+
+**正式通过61/110轮；最后R061 PASSED；新版唯一下一轮R062 NOT_STARTED。** 仅在用户下一次手动“继续”时启动R062《两书BOOK_OVERVIEW与任务清单的质量债闭合映射》。不得提前启动R062。权威状态仍以V13_CURRENT_V2.json、V13_LEDGER_V2.csv、V13_REVISED_110_ROUNDS.md为准。
+
+R061成果见v2/legacy/TIEXUE_7_DECISIONS.tsv、runs/R061_V2.md：7条旧ID逐条审原EPUB与行动/人物认知/结果时态，7旧仍OPEN_QUARANTINED，7个窄B候选PROVISIONAL；合并R060已有7条，《晚明》《铁血残明》历史R042隔离**14/14均已完成指定复核但不直升verified**，R062综合仍须处理缺口和覆盖。R061最终证据提交436f933a33d3d012e549c4ce8f550338ab622bf1，61/61 GitHub Actions SUCCESS；首次专属校验由于公开CI依赖设计错误失败，修正后的全套61绿，不能以绿灯当文学认证。47项V3真实新增0/47，Skill认证0，独立C未测试，原296 Stage0之192未逐ID复核仍B PROVISIONAL，密封题库SEALED_NOT_RUN。
+---
+
 # V13 v13.1 最新执行入口（R060 正式PASS后）
 **当前完成60/110轮，最后R060 PASSED，唯一下一轮R061 NOT_STARTED。** 仅在用户下一次手动「继续」时执行新版R061《铁血残明》另7条R042历史隔离主张。不提前启动。
 唯一游标V13_CURRENT_V2.json；账目V13_LEDGER_V2.csv；轮次合同V13_REVISED_110_ROUNDS.md。R060实审产物v2/legacy/WANMING_7_DECISIONS.tsv与runs/R060_V2.md：7/7有私有原书章节SHA及局部哈希，旧7条保持隔离、新7条仅B_PROVISIONAL；60/60证据提交Actions SUCCESS，不代表C或Skill质量认证。原R057冻结登记、历史1103章研究和192项未补审B债均原样保留，V3新测试0/47，Skill0，密封题库未开。
