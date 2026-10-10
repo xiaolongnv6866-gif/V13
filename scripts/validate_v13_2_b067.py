@@ -47,6 +47,6 @@ for x in cases:
     assert_ok(x["evaluation"]["outcome"]=="NOT_TESTED" and x["evaluation"]["arm_outputs"]=="NOT_CREATED",id+" no future outputs")
     assert_ok(x["evaluation"]["independent_judge_available"]=="NOT_ESTABLISHED",id+" no fake judges")
     assert_ok(x["test_id"] and x["candidate_title"] and x["hypothesis"],id+" test completeness")
-if state["v3_original_47_completed"] == 0:
-    assert_ok(not (ROOT/"v2/v3/outputs").exists() and not (ROOT/"v2/v3/results").exists(),"before B068, no V3 tests")
+if state["current_batch"] == "B067":
+    assert_ok(not (ROOT/"v2/v3/outputs").exists() and not (ROOT/"v2/v3/results").exists(),"only B067 pre-registration phase requires no V3 outputs")
 print("B067 PREREG INVARIANTS PASS: frozen 47/47 contracts, WM21 TX26, 11+10+9+9+8, extras22. Rolling V3 outputs are checked by their own batch workflows; this is not literary certification.")
