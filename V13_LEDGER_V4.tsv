@@ -1,0 +1,49 @@
+round_id	stage	tasks	original_source_rounds	required_objects	old_unreviewed_count	old_R042_quarantine_count	acceptance	required_user_gate	status
+N01	A_STORY_SOURCE_REPAIR	晚明历史R007;R009的17条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R007;R009	17	6	1	本轮全部17条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N02	A_STORY_SOURCE_REPAIR	晚明历史R011的17条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R011	17	12	1	本轮全部17条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N03	A_STORY_SOURCE_REPAIR	晚明历史R013的18条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R013	18	13	1	本轮全部18条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N04	A_STORY_SOURCE_REPAIR	晚明历史R015的18条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理0条旧R042隔离	R015	18	14	0	本轮全部18条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；0条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N05	A_STORY_SOURCE_REPAIR	晚明历史R017的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R017	20	15	1	本轮全部20条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N06	A_STORY_SOURCE_REPAIR	晚明历史R019的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R019	20	15	1	本轮全部20条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N07	A_STORY_SOURCE_REPAIR	晚明历史R021的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R021	20	15	1	本轮全部20条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N08	A_STORY_SOURCE_REPAIR	晚明历史R023的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R023	20	15	1	本轮全部20条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N09	A_STORY_SOURCE_REPAIR	铁血历史R008;R010的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R008;R010	20	11	1	本轮全部20条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N10	A_STORY_SOURCE_REPAIR	铁血历史R012;R014的26条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理2条旧R042隔离	R012;R014	26	16	2	本轮全部26条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；2条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N11	A_STORY_SOURCE_REPAIR	铁血历史R016的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R016	20	15	1	本轮全部20条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N12	A_STORY_SOURCE_REPAIR	铁血历史R018的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R018	20	15	1	本轮全部20条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N13	A_STORY_SOURCE_REPAIR	铁血历史R020的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R020	20	15	1	本轮全部20条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N14	A_STORY_SOURCE_REPAIR	铁血历史R022的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离	R022	20	15	1	本轮全部20条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；1条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N15	A_STORY_SOURCE_REPAIR	铁血历史R024的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理0条旧R042隔离	R024	20	0	0	本轮全部20条原始ID均有真实出处坐标、前后文、动作/观点/结果区别、反例/替代叙事机制/失效边界和逐ID最终可信或不合格裁决；0条旧隔离不得直接晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N16	B	296文学B及14隔离汇总、BOOK_OVERVIEW与五类提取器、原Stage0完整20任务及新19映射	R077	296	0	0	296条及14隔离与20任务原合同完全可溯源；提取五职责覆盖实核；旧待核不能假晋级	IF_MAJOR_BLOCKER	NOT_STARTED
+N17	B	晚明全部91候选V1来源及方法资格终审	HISTORIC_STAGE0_SOURCE	91	0	0	91/91逐ID原文证据、反例、方法可用范围与去向最终裁决	IF_MAJOR_BLOCKER	NOT_STARTED
+N18	B	铁血全部96候选V1来源及方法资格终审	HISTORIC_STAGE0_SOURCE	96	0	0	96/96逐ID裁决；合计187资格无遗漏	IF_MAJOR_BLOCKER	NOT_STARTED
+N19	B	晚明全部V1合格方法V2陌生输入实作，含历史5项及新窄3项	HISTORIC_STAGE0_SOURCE	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	先预注册后逐项实际输出/分支/拒绝与结论；不能冒充独立V3	IF_MAJOR_BLOCKER	NOT_STARTED
+N20	B	铁血全部V1合格方法V2陌生输入实作，含历史6项	HISTORIC_STAGE0_SOURCE	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	所有合格TX V2结果与可送V3资格逐ID封闭	IF_MAJOR_BLOCKER	NOT_STARTED
+N21	C	真实V3独立性资源、双臂冻结合同、69候选有效准入及预算门	R067	69	0	0	有真正隔离创作者和至少两位盲审，预注册测试先独立提交；否则BLOCKED并由用户选择	IF_MAJOR_BLOCKER	NOT_STARTED
+N22	C	晚明原47中21条方法真实独立V3	R068;R069;R070	21	0	0	21/21独立生成+匿名盲审，或上游V1/V2不适用的逐ID正式裁决	IF_MAJOR_BLOCKER	NOT_STARTED
+N23	C	铁血原47中26条方法真实独立V3	R071;R072;R073;R074	26	0	0	26/26独立生成+匿名盲审，或上游不适用正式裁决	IF_MAJOR_BLOCKER	NOT_STARTED
+N24	C	晚明额外10项及新增合法方法真实独立V3	R075	10	0	0	每个ID独立输出、盲审、失败及效用决定	IF_MAJOR_BLOCKER	NOT_STARTED
+N25	C	铁血额外12项及新增合法方法独立V3；69项总核	R076	12	0	0	69/69全部真实测试或资格不适用明证，不能以原自评通过	IF_MAJOR_BLOCKER	NOT_STARTED
+N26	C	晚明原Stage0十项完整原创C独立验收	R077	10	0	0	WM-T01—WM-T10完整输出/跨场或跨卷状态账/负例及独立验收	IF_MAJOR_BLOCKER	NOT_STARTED
+N27	C	铁血原Stage0十项完整原创C独立验收	R077	10	0	0	TX-T01—TX-T10完整输出及独立验收；20旧合同不被19主题替换	IF_MAJOR_BLOCKER	NOT_STARTED
+N28	C	Stage1.5最后187四类分流/覆盖/负例/旧隔离/用户确认	R077;R078	187	0	0	187/187有最终去向、用户确认；0 verified必须阻断N29	MANDATORY_USER_CONFIRM	NOT_STARTED
+N29	D	Cangjie Stage1.6五判据晋级/promoted/router	R079	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	全部已验证候选五项独立Skill判据及Bundle去向真实审查	IF_MAJOR_BLOCKER	NOT_STARTED
+N30	D	晚明Cangjie Stage2 RIA++及Bundle	R080	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	全部合格单元R/I/A1/A2/E/B齐备，stable ID/schema有效	IF_MAJOR_BLOCKER	NOT_STARTED
+N31	D	铁血Cangjie Stage2 RIA++及Bundle	R081	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	全部合格单元六段完整，Bundle合格	IF_MAJOR_BLOCKER	NOT_STARTED
+N32	D	两书Stage3 Zettelkasten、术语、参考实体路由	R082;R083	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	两书索引、相邻能力引用、reference实际资源存在且链接有效	IF_MAJOR_BLOCKER	NOT_STARTED
+N33	D	两书Stage4触发/诱饵/近邻/拒绝测试	R084;R085	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	真实宿主验证promoted与router的触发、可达与拒绝，负例容错按原版	IF_MAJOR_BLOCKER	NOT_STARTED
+N34	D	晚明Stage4实际任务输出压力	R086	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	实际完成每个计划任务、断言与独立语义评估，失败入账	IF_MAJOR_BLOCKER	NOT_STARTED
+N35	D	铁血Stage4实际任务输出压力	R087	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	实际完成每个计划任务、断言与独立语义评估，失败入账	IF_MAJOR_BLOCKER	NOT_STARTED
+N36	D	两书Stage4失败回炉与负面WM-04/09回归	R088	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	失败修至对应Stage2并真实重测，关键断言通过、历史失败保留	IF_MAJOR_BLOCKER	NOT_STARTED
+N37	D	两书Stage5 DIGEST/compile/validate/真实交付选择	R089;R090	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	两书正式编译校验PASS、用户确认single/pack/安装或仅仓库	MANDATORY_USER_CONFIRM	NOT_STARTED
+N38	E	Nuwa主题3—5独立研究学派图谱和六维来源策略	R091	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	至少3独立可核来源体系，主题与人物路径区别清楚	IF_MAJOR_BLOCKER	NOT_STARTED
+N39	E	Nuwa主题观点1—3分别深入研究	R092;R093;R094	3	0	0	3个学派各有真实一手来源、反面观点与时间维资料	IF_MAJOR_BLOCKER	NOT_STARTED
+N40	E	Nuwa主题观点4—5分别研究或有据N/A	R095;R096	2	0	0	两项都得到来源档或理由充分不适用的终态	IF_MAJOR_BLOCKER	NOT_STARTED
+N41	E	Nuwa调研汇总、冲突账、Phase1.5用户门	R097;R098	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	真实Phase1来源质量审查完成、用户明确批准	MANDATORY_USER_CONFIRM	NOT_STARTED
+N42	E	Nuwa模型与启发式、专业中性表达DNA、Phase2.5用户门	R099;R100;R101	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	全部模型3重检验、边界与反例，用户确认	MANDATORY_USER_CONFIRM	NOT_STARTED
+N43	E	Nuwa Phase3自包含主题SKILL与Agentic Protocol	R102	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	完整内部研究资源、工作流和正负触发可独立使用	IF_MAJOR_BLOCKER	NOT_STARTED
+N44	E	Nuwa Phase4独立已知/边缘/表达测试、六项门及用户确认	R103;R104	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	隔离主体实际测试、最多2次回炉、质量门和用户确认	MANDATORY_USER_CONFIRM	NOT_STARTED
+N45	E	Nuwa Phase5真正不同主体A/B优化及用户验收	R105;R106;R107	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	两份真实独立报告、合并diff/回归和用户确认	MANDATORY_USER_CONFIRM	NOT_STARTED
+N46	F	仓颉女娲融合为原创长篇历史军事小说SKILL	R108	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	自包含、来源路由、版权边界、状态机制实际可运行	IF_MAJOR_BLOCKER	NOT_STARTED
+N47	F	无Skill/仅仓颉/仅女娲/融合四臂盲测与跨章连续性	R109	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	四臂真正隔离、独立评价及可归因效用、失败回归全留	IF_MAJOR_BLOCKER	NOT_STARTED
+N48	F	GitHub发布、干净对话恢复、真正触发及最终验收	R110	ALL_QUALIFIED_ORIGINAL_CONTRACTS	0	0	新会话真正重建可调用、BUILD_MANIFEST、用户最终签收	MANDATORY_USER_CONFIRM	NOT_STARTED

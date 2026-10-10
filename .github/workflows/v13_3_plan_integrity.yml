@@ -1,0 +1,20 @@
+name: V13.3 Approved 48 Round Plan Integrity
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'V13_3_*'
+      - 'V13_CURRENT_V4.json'
+      - 'V13_LEDGER_V4.tsv'
+      - 'START_HERE.md'
+      - 'PROGRESS.md'
+      - 'scripts/validate_v13_3_plan.py'
+      - '.github/workflows/v13_3_plan_integrity.yml'
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify all plan and original issue coverage
+        run: python3 scripts/validate_v13_3_plan.py

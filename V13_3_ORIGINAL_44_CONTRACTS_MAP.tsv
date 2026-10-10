@@ -1,0 +1,45 @@
+original_contract	original_title	new_rounds	original_required_actions	original_required_files	original_acceptance	old_96_batches	do_not_delete
+R067	V3逐方法对照冻结与47条全量任务分配	N21	冻结原47方法（21晚明+26铁血）逐项完整ID/任务/验收指标/失败判据，保证同题有方法与无方法两臂除单方法操作卡外输入一致；对R065—R066新增V2通过的方法另开队列，未通过者留待核；先提交冻结输入再写输出。	v2/v3/FROZEN_TEST_CONTRACT.json; v2/v3/V3_TASK_ALLOCATIONS.tsv; runs/R067_V2.md	47/47均有唯一单方法测试合同、同题基线和可检效用假说；新增候选也全部已分流；独立评审条件如实标可用性；未写输出时不能伪称完成	B067	TRUE
+R068	《晚明》V3逐方法对照 第1/3批（7条）	N22	依R067冻结合同，对本轮7条 WM-f01、WM-f02、WM-f04、WM-f06、WM-f08、WM-f10、WM-f12 分别生成独立原创新输入下的候选/普通对照，保存真实输出和预定义评判指标；单方法隔离防止旧R056混搭归因。	v2/v3/results/R68_WM_7.tsv; v2/v3/outputs/R68/; runs/R68_V2.md	精确本批7/7均有双臂原始输出、差值、反例及候选级初判；不要求7条都PASS；同Agent非盲须如实标局限	B068	TRUE
+R069	《晚明》V3逐方法对照 第2/3批（7条）	N22	依R067冻结合同，对本轮7条 WM-f13、WM-f14、WM-p01、WM-p03、WM-p04、WM-p05、WM-p07 分别生成独立原创新输入下的候选/普通对照，保存真实输出和预定义评判指标；单方法隔离防止旧R056混搭归因。	v2/v3/results/R69_WM_7.tsv; v2/v3/outputs/R69/; runs/R69_V2.md	精确本批7/7均有双臂原始输出、差值、反例及候选级初判；不要求7条都PASS；同Agent非盲须如实标局限	B068;B069	TRUE
+R070	《晚明》V3逐方法对照 第3/3批（7条）	N22	依R067冻结合同，对本轮7条 WM-p08、WM-p12、WM-p14、WM-p19、WM-p20、WM-p21、WM-p23 分别生成独立原创新输入下的候选/普通对照，保存真实输出和预定义评判指标；单方法隔离防止旧R056混搭归因。	v2/v3/results/R70_WM_7.tsv; v2/v3/outputs/R70/; runs/R70_V2.md	精确本批7/7均有双臂原始输出、差值、反例及候选级初判；不要求7条都PASS；同Agent非盲须如实标局限	B069	TRUE
+R071	《铁血残明》V3逐方法对照 第1/4批（7条）	N23	依R067冻结合同，对 TX-f01、TX-f02、TX-f05、TX-f08、TX-f09、TX-f10、TX-f11 分别做单候选有/无方法等条件的原创任务、双臂输出、适用边界、失败/回退与评分证据，避免外推作者语言。	v2/v3/results/R71_TX_7.tsv; v2/v3/outputs/R71/; runs/R71_V2.md	本批7/7全部真实生成两臂新输出并有可审判定，未证净增益不能记verified	B070	TRUE
+R072	《铁血残明》V3逐方法对照 第2/4批（7条）	N23	依R067冻结合同，对 TX-f12、TX-f13、TX-f16、TX-p01、TX-p03、TX-p04、TX-p05 分别做单候选有/无方法等条件的原创任务、双臂输出、适用边界、失败/回退与评分证据，避免外推作者语言。	v2/v3/results/R72_TX_7.tsv; v2/v3/outputs/R72/; runs/R72_V2.md	本批7/7全部真实生成两臂新输出并有可审判定，未证净增益不能记verified	B070;B071	TRUE
+R073	《铁血残明》V3逐方法对照 第3/4批（6条）	N23	依R067冻结合同，对 TX-p06、TX-p07、TX-p08、TX-p09、TX-p11、TX-p12 分别做单候选有/无方法等条件的原创任务、双臂输出、适用边界、失败/回退与评分证据，避免外推作者语言。	v2/v3/results/R73_TX_6.tsv; v2/v3/outputs/R73/; runs/R73_V2.md	本批6/6全部真实生成两臂新输出并有可审判定，未证净增益不能记verified	B071;B072	TRUE
+R074	《铁血残明》V3逐方法对照 第4/4批（6条）	N23	依R067冻结合同，对 TX-p13、TX-p14、TX-p17、TX-p19、TX-p20、TX-p21 分别做单候选有/无方法等条件的原创任务、双臂输出、适用边界、失败/回退与评分证据，避免外推作者语言。	v2/v3/results/R74_TX_6.tsv; v2/v3/outputs/R74/; runs/R74_V2.md	本批6/6全部真实生成两臂新输出并有可审判定，未证净增益不能记verified	B072	TRUE
+R075	《晚明》新获V2合格方法的V3闭环与边界补证	N24	对R063→R065中新获得合法V1+V2资格的晚明可执行方法，及从历史14隔离中重建且真正有依据的新候选，若存在逐项同题V3评估；没有新增资格则用零样本有据N/A；另审查WM-04/WM-09既有回退是否有真实修复证据。	v2/v3/results/WANMING_ADDITIONAL.tsv; runs/R075_V2.md	所有本轮新增eligible WM候选均得到V3实测/明确未能测试并BLOCKED，绝不假装零样本通过；如需较多样本在本轮真实续做	B073	TRUE
+R076	《铁血残明》新获V2合格方法的V3闭环与边界补证	N25	对R064→R066新符合V1+V2的TX可执行方法和真正重新构建的旧隔离方法，逐ID独立V3验证；无新候选则列有据N/A，防止漏测11条V2原未测中转化的方法。	v2/v3/results/TIEXUE_ADDITIONAL.tsv; runs/R076_V2.md	新增eligible TX候选全部真实核验并有去向，无增益就是未通过，不能利用别的候选借分	B074	TRUE
+R077	两书全部47条V3证据及新增方法独立性、反例、任务覆盖总审计	N16;N26;N27;N28	合并R068—R076全量结果，47个原ID必须各有可复核V3结论及双臂输出；判定单方法隔离、同题输入公平性、独立评审是否真实可用，失败可定位；交叉核19项原著任务，质量不足的维持needs_review而非伪PASS。	v2/v3/FINAL_47_EVIDENCE_AUDIT.tsv; v2/v3/QUALITY_FINDINGS.md; runs/R077_V2.md	固定47/47完成真实V3逐项审计；未经真实独立评价不得称独立C合格；证据错误回到本轮真实修正直到通过检查；缺项BLOCKED	B075	TRUE
+R078	更新四类分流、coverage-audit与新版用户确认	N28	对应旧R057历史审计门但重做的是**分流聚合与本轮用户关口**而不是重做V1/V2；按R057—R077的新增真实证据更新原187加合法新增候选的去向，分别记录legacy14，完善reference到Stage3计划，向用户展示verified/reference/needs_review/rejected并确认。	books/*/{verified.md,references.md,needs-review.md,coverage-audit.md,rejected/}; gates/CANGJIE_STAGE15_V2.md; runs/R078_V2.md	全体可溯源、19任务覆盖与用户明确确认；若0 verified则交付缺口并按仓颉原版停止编译，**不假通过下一轮**	B076	TRUE
+R079	Stage1.6独立Skill晋级门	N29	按独立意图/契约/运行3个必过+复用或评测至少1个，给所有候选明确promoted/router去向	`books/*/.cangjie/capabilities/destinations.json`	不漏去向、active恰好一条路径	B077	TRUE
+R080	《晚明》RIA++与Bundle	N30	为每个verified建立R/I/A1/A2/E/B完整6段，区别原书例与合成例，稳定capability_id	`books/wanming/.cangjie/capabilities/verified.yaml + cards/*.md`	原版schema校验通过，非verified不得混入	B077	TRUE
+R081	《铁血残明》RIA++与Bundle	N31	为每个verified建立R/I/A1/A2/E/B完整6段，区别原书例与合成例，稳定capability_id	`books/tiexuecanming/.cangjie/capabilities/verified.yaml + cards/*.md`	原版schema校验通过	B077	TRUE
+R082	《晚明》Zettelkasten依赖与术语	N32	处理also_read、GLOSSARY、近邻区别及reference正式交付去向	`books/wanming/GLOSSARY.md + also_read`	无死链、参考不冒充active	B078	TRUE
+R083	《铁血残明》Zettelkasten依赖与术语	N32	处理also_read、GLOSSARY、近邻区别及reference正式交付去向	`books/tiexuecanming/GLOSSARY.md + also_read`	无死链、参考不冒充active	B078	TRUE
+R084	《晚明》Stage4触发/路由压测	N33	每个promoted Skill用3—5正例、2—3负例、1—3边缘和近邻冲突真实触发测试	`books/wanming/tests/trigger-prompts.json + results.md`	逐个测试有真实输出、分母、失败	B079	TRUE
+R085	《铁血残明》Stage4触发/路由压测	N33	同等正例、负例、边缘与近邻路由实际测试	`books/tiexuecanming/tests/trigger-prompts.json + results.md`	不能以触发即成功	B080	TRUE
+R086	《晚明》Stage4真实任务输出压测	N34	独立原创任务有/无Skill对照，核叙事质量、遗漏和边界	`books/wanming/tests/output-results.md + cases/`	真实结果与失败回炉建议	B079	TRUE
+R087	《铁血残明》Stage4真实任务输出压测	N35	独立原创任务有/无Skill对照，核叙事质量、遗漏和边界	`books/tiexuecanming/tests/output-results.md + cases/`	真实结果与失败回炉建议	B080	TRUE
+R088	Stage4失败回炉与回归	N36	把两书触发/路由/输出失败按源追责，退回RIA++修复并重测，不只修改评分	`cangjie/FAILURE_REPAIR_LOG.md + regression-results.md`	失败已修正或明确不通过	B081	TRUE
+R089	《晚明》Stage5编译与DIGEST	N37	按原版生成DIGEST、compile(single/pack/auto)、validate_skill_pack，报告生成目录及用户交付选择	`books/wanming/DIGEST.md + dist/wanming/ + BUILD_MANIFEST`	脚本实际通过且用户确认输出形式	B082	TRUE
+R090	《铁血残明》Stage5编译与DIGEST	N37	按原版生成DIGEST、compile(single/pack/auto)、validate_skill_pack，报告生成目录及用户交付选择	`books/tiexuecanming/DIGEST.md + dist/tiexuecanming/ + BUILD_MANIFEST`	脚本实际通过且用户确认输出形式	B083	TRUE
+R091	主题3—5独立学派/代表选择与来源边界	N38	沿R004用户确认的Nuwa主题路径，选择3—5个各有真实来源的观点流派/学者；若R004实际选人物路径，不得静默沿用主题计划，需在原编号暂停修订	`nuwa/references/research/00-school-map.md`	至少3个彼此独立真实可核观点；资料边界符合用户授权	B084	TRUE
+R092	主题路径第1个独立观点来源研究	N39	完整遵守Nuwa Phase1主题变体：针对已选第1独立流派用1—2隔离调研任务收集原始观点、论据、反对意见及时间变化；若实际只确认3—4个来源，剩余轮次标有理据的NOT_APPLICABLE而非伪造	`nuwa/references/research/school_01.md`	来源可核、没有将同作者两本书冒充两个派别；N/A不影响至少3个真实流派	B085	TRUE
+R093	主题路径第2个独立观点来源研究	N39	完整遵守Nuwa Phase1主题变体：针对已选第2独立流派用1—2隔离调研任务收集原始观点、论据、反对意见及时间变化；若实际只确认3—4个来源，剩余轮次标有理据的NOT_APPLICABLE而非伪造	`nuwa/references/research/school_02.md`	来源可核、没有将同作者两本书冒充两个派别；N/A不影响至少3个真实流派	B085	TRUE
+R094	主题路径第3个独立观点来源研究	N39	完整遵守Nuwa Phase1主题变体：针对已选第3独立流派用1—2隔离调研任务收集原始观点、论据、反对意见及时间变化；若实际只确认3—4个来源，剩余轮次标有理据的NOT_APPLICABLE而非伪造	`nuwa/references/research/school_03.md`	来源可核、没有将同作者两本书冒充两个派别；N/A不影响至少3个真实流派	B085	TRUE
+R095	主题路径第4个独立观点来源研究	N40	完整遵守Nuwa Phase1主题变体：针对已选第4独立流派用1—2隔离调研任务收集原始观点、论据、反对意见及时间变化；若实际只确认3—4个来源，剩余轮次标有理据的NOT_APPLICABLE而非伪造	`nuwa/references/research/school_04.md`	来源可核、没有将同作者两本书冒充两个派别；N/A不影响至少3个真实流派	B086	TRUE
+R096	主题路径第5个独立观点来源研究	N40	完整遵守Nuwa Phase1主题变体：针对已选第5独立流派用1—2隔离调研任务收集原始观点、论据、反对意见及时间变化；若实际只确认3—4个来源，剩余轮次标有理据的NOT_APPLICABLE而非伪造	`nuwa/references/research/school_05.md`	来源可核、没有将同作者两本书冒充两个派别；N/A不影响至少3个真实流派	B086	TRUE
+R097	Nuwa Phase1维度汇总与冲突账	N41	按主题路径可获得的著作/论述/表达/评价/决策/时间线各维汇总；如资料缺失标缺，不编造访谈	`nuwa/references/research/RESEARCH_SUMMARY.md + contradictions.md`	核来源数量、一手比例、冲突与缺口	B087	TRUE
+R098	Phase1.5调研质量审查与用户关口	N41	展示调研强弱、矛盾和缺口，并让用户决定可否进入提炼	`nuwa/gates/PHASE15_REVIEW.md`	资料达到实际适用门且用户明确审查通过	B087	TRUE
+R099	Phase2心智模型独立提炼	N42	依原版extraction-framework作跨域复现、生成力和排他性验证；保留共识与分歧	`nuwa/synthesis/MENTAL_MODELS.md`	3—7个证据充足模型，含条件反例	B088	TRUE
+R100	Phase2启发式、表达DNA与诚实边界	N42	提炼5—10 if/then启发式、专业中性写作DNA、内在张力、反模式与知识来源边界	`nuwa/synthesis/HEURISTICS_DNA_BOUNDARIES.md`	不模仿原作者专属措辞，所有条目可回查	B088	TRUE
+R101	Phase2.5模型与DNA用户确认	N42	展示模型、反例、启发式、表达及局限，允许用户指出错误	`nuwa/gates/PHASE25_REVIEW.md`	用户明确同意具体成果	B088	TRUE
+R102	Phase3主题SKILL与Agentic Protocol	N43	按原版skill-template建立自包含Skill，路由问题→证据研究→模型选择→输出；主题不是扮演作者	`nuwa/skill/SKILL.md + references + sources`	触发及边界明确、全部依赖可恢复	B089	TRUE
+R103	Phase4独立已知/边缘/表达实测	N44	独立上下文做3个已知案例、1个边缘案例及短表达测试，保存真实输入输出	`nuwa/tests/SANITY_EDGE_VOICE_RESULTS.md`	测试主体与提炼隔离、案例确实执行	B090	TRUE
+R104	Phase4质量脚本、迭代上限和用户关口	N44	运行原版6项硬门和测试脚本，一手来源>50%等源标准据实检验；失败最多两次回炉并披露	`nuwa/FIDELITY.md + nuwa/tests/QUALITY_CHECK.md + gates/PHASE4.md`	用户明确确认已达门；没有虚报独立通过	B090	TRUE
+R105	Phase5独立优化主体A	N45	按原版Agent A从8个结构维度和3项干跑检测弱点，提出有diff的修改	`nuwa/optimization/AGENT_A.md`	真实独立主体或明确说明独立性限制	B091	TRUE
+R106	Phase5独立优化主体B	N45	按原版Agent B审触发/路由/防漂移/信息缺口，提出2—3可操作修改	`nuwa/optimization/AGENT_B.md`	不让同一假扮双独立审稿者	B092	TRUE
+R107	Phase5合并改动、回归与用户确认	N45	比对A/B冲突和改动，保留真实差异，复测并交用户决定	`nuwa/optimization/FINAL_DIFF.md + gates/PHASE5.md`	用户认可且正式测试复验	B093	TRUE
+R108	统一创作技能路由/契约	N46	保留仓颉可执行任务与女娲认知/表达的独立来源和优先级，建原创技能路由	`v13-creative/SKILL.md + FUSION_MAP.md`	不会把长Prompt或人物模仿包装成可检验SKILL	B094	TRUE
+R109	四臂盲测与长篇连续性压力	N47	同原创输入评无Skill/仅仓颉/仅女娲/融合；盲评情节因果、人物行动、对白、叙事感、阅读留存和持续状态	`tests/FINAL_BLIND_TRIALS.md + CONTINUITY.md`	真实隔离输出和失败回归，不能凭自评发布	B095	TRUE
+R110	GitHub出厂、干净会话恢复与用户验收	N48	在新对话只依据V13仓库+授权原文恢复，执行正负触发和陌生续写，给版本证据与用户验收	`README_RELEASE.md + BUILD_MANIFEST + RESTORE_TEST_REPORT.md`	所有原版门通过、实际可调用、用户最后确认	B096	TRUE
