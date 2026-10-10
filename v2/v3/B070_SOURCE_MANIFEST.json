@@ -1,0 +1,82 @@
+{
+  "batch": "B070",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "frozen_contract_sha": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "original_ids": [
+    "TX-f01",
+    "TX-f02",
+    "TX-f05",
+    "TX-f08",
+    "TX-f09",
+    "TX-f10",
+    "TX-f11",
+    "TX-f12",
+    "TX-f13"
+  ],
+  "files": {
+    ".github/workflows/v13_2_b070_pair_tests.yml": {
+      "git_blob_sha1": "3d1b8a343555f096b198b0f78e4ef9531406e141",
+      "bytes": 435
+    },
+    "runs/B070_V3.md": {
+      "git_blob_sha1": "cdf64784df33616ae882596faf3ef18009d5d27e",
+      "bytes": 2599
+    },
+    "runs/R71_V2.md": {
+      "git_blob_sha1": "e495e8e93a2c9f87c25c6d916da16353220fded7",
+      "bytes": 624
+    },
+    "runs/R72_V2_PARTIAL.md": {
+      "git_blob_sha1": "f14f6f7b81472ddcfe76743fe662ad97f309e5d5",
+      "bytes": 609
+    },
+    "scripts/validate_v13_2_b070.py": {
+      "git_blob_sha1": "9af32aa2c023e2281bb9c2ed88af46abd6099549",
+      "bytes": 4134
+    },
+    "v2/v3/outputs/R71/TX-f01.json": {
+      "git_blob_sha1": "1edfcc2ac8b17a84c90ad3a0419d3994253a4d22",
+      "bytes": 6619
+    },
+    "v2/v3/outputs/R71/TX-f02.json": {
+      "git_blob_sha1": "5927af6554f0f518df780029d5d241a8937cac4e",
+      "bytes": 6406
+    },
+    "v2/v3/outputs/R71/TX-f05.json": {
+      "git_blob_sha1": "52219284cc35732b22ffc72914f833997a9616c4",
+      "bytes": 6481
+    },
+    "v2/v3/outputs/R71/TX-f08.json": {
+      "git_blob_sha1": "4c819c8efa34d56f3d3017064d89efc7f918e14d",
+      "bytes": 6439
+    },
+    "v2/v3/outputs/R71/TX-f09.json": {
+      "git_blob_sha1": "0c0f9505849cfb16d77ba9008f1aef5fa1f5b85a",
+      "bytes": 6535
+    },
+    "v2/v3/outputs/R71/TX-f10.json": {
+      "git_blob_sha1": "003de0f5de6534ad99de68bae2a9a399de3ad153",
+      "bytes": 6434
+    },
+    "v2/v3/outputs/R71/TX-f11.json": {
+      "git_blob_sha1": "da47976f6be95a140988c7e3a72e2c9d10731209",
+      "bytes": 6346
+    },
+    "v2/v3/outputs/R72/TX-f12.json": {
+      "git_blob_sha1": "2d611a3ce684c718c7f87043b00b1444cd93074b",
+      "bytes": 6355
+    },
+    "v2/v3/outputs/R72/TX-f13.json": {
+      "git_blob_sha1": "ef25f5f3f6651ff7751425066624fcf5229f8733",
+      "bytes": 6685
+    },
+    "v2/v3/results/R71_TX_7.tsv": {
+      "git_blob_sha1": "062166379692a7eb0fc5c4eeac58ec29a617110c",
+      "bytes": 3467
+    },
+    "v2/v3/results/R72_TX_2_PARTIAL.tsv": {
+      "git_blob_sha1": "f3e3d9e7657f13be21a324a3d3e74256a0dde83f",
+      "bytes": 1174
+    }
+  }
+}

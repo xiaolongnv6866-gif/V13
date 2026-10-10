@@ -1,0 +1,77 @@
+{
+  "test_id": "V13-B067-30",
+  "candidate_id": "TX-f13",
+  "legacy_round": "R072",
+  "batch": "B070",
+  "book": "tiexuecanming",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same agent authored both paired arms in this session after viewing both frozen prompt and method cards. Real arm context-isolation and independent reviewer NOT ESTABLISHED. Raw writing is fictional, original and cannot prove literary method utility.",
+  "arm_parity_contract": "Frozen situation, fixed facts, required story, 500-750 Chinese characters, >=4 ledger items and S1-S5 identical in both intended prompts. Sole intended change: method arm receives candidate-specific three-step method card. Actual independent blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "刻印铺的桌上放着一篇称颂治水的手稿，作者陶珩把邻村协助的段落划成乌黑一片，说文章若太多人名便无人记得功臣。编辑方絮看着被抹掉的那页，说自己去年在堤旁看过一块旧碑，上面似乎列着邻村工匠，不愿就这样改成一人独劳。陶珩说碑也未必可靠，何况稿子讲的是主事人的决心。店主在旁拨算盘，提醒版费还没付，文章今天不能直接刻版；陶珩却要求编辑先照删改稿排样。方絮承认自己记不清碑文全貌，提出先把有争议的段落留空，待去查证再决定。陶珩不肯耽误交稿，自己拿一张新纸改写结尾。店主没有替编辑作内容决定，只让二人明早拿定稿再谈版费与是否付印。",
+    "scene_two": "第二天方絮拿着排过的一页草样到街口茶棚，请见过旧治水工程的老人看看。老人指着一句“全赖一人”，说当年确有邻村人撑船送木，可每家出了多少他记不清。他不愿在草样上签整句证明，只愿记下自己所见的一角。方絮回铺，发现陶珩把文章题目改得更响亮，删邻村的句子反而更露骨。两人争了一阵，陶珩说作者有权定文字，方絮则说她不能在自己修订栏写下明知有争议的结论。店主看着未付版费的账单，只准先排一张供核稿的纸样，不许上市售卖。陶珩抱怨失去好时机，仍拿走一张样稿，约下次带确切证据。方絮将老人所说另记在案，却不知道库房中仍存的旧账究竟记录了多少邻村工。夜里纸样压在石板下，街上已有茶客听说新文章，真实旧事却还未因此定案。排字学徒见两人争论，把已拣出的字粒分格放好，免得修改稿一来就被误当作定稿排进版框。",
+    "chinese_characters": 549,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "陶珩要求删邻村贡献，方絮明确提出异议"
+      },
+      {
+        "item": "2",
+        "fact": "碑文、亲见证人、作者手稿内容不完全同"
+      },
+      {
+        "item": "3",
+        "fact": "旧账簿尚在库房未调取，不能擅认事实"
+      },
+      {
+        "item": "4",
+        "fact": "版费尚未支付，店主掌握正式印制安排"
+      },
+      {
+        "item": "5",
+        "fact": "仅校样用于核对，不等于公开定稿或历史定论"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "Baseline can already display implicit common-sense distinctions, so observable single-method effect may be contaminated; 没有调旧账，不许用校样或个人记忆判定治水真相。"
+  },
+  "method": {
+    "scene_one": "陶珩将治水颂文送进刻印铺，指着其中邻村参与的一段，要求编辑方絮全部删去，好让主人公的名字更加醒目。方絮把店里的旧样本和这张手稿摊开，说颂文是陶珩的叙述，不等于当年的全貌；她记得碑文曾提到邻村，但原碑全文尚未核对。陶珩反驳，碑也有人出钱刻字，凭什么比自己的稿更真。店主从账台后说版费至今未付，自己的职责是决定何时开版与收款，不替二人断历史是非。方絮只肯先排带空白记号的校样，要求作者注明哪里是亲见、哪里是事后听说。陶珩不愿接受“待查”二字，自己抽出纸重写，把邻村的工作轻描淡写成路过帮忙。方絮没有替作者偷偷复原句子，而将双方不同的稿页分别标号，留待查旧账时对照。",
+    "scene_two": "次日陶珩带来删改后的定稿，坚持要赶集前刊出。方絮把一张校样摊到门口，让曾参与木料运送的老工人看看；老人说亲见邻村两家送过木，但不敢证明碑上刻的全部名单。旁边买纸的客人听见，问陶珩文章为什么写成“一人调齐全河工”。陶珩说那是为突出主事人的功劳，读者可以自己理解，却不同意在稿上补回所有人名。店主计算未付版费，只许再印几份注明“校样未售”的纸给双方核对，不准按正式印本发行。方絮在校样旁附一张差异表：作者稿删了邻村、碑文传言提过邻村、老工人亲见两家帮忙；库房的旧账仍未调出，任何一栏都不能据此替换成完全真相。茶客拿着校样追问何时能看到旧簿，店主把账台上的版费欠单翻给陶珩看，双方都没能给一个准日。方絮把差异表折在旧样页里，提醒读者仅是编辑的核查线索，并不是自己已掌握那段岁月的完整见闻。",
+    "chinese_characters": 565,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "陶珩要求删邻村贡献，方絮明确提出异议"
+      },
+      {
+        "item": "2",
+        "fact": "碑文、亲见证人、作者手稿内容不完全同"
+      },
+      {
+        "item": "3",
+        "fact": "旧账簿尚在库房未调取，不能擅认事实"
+      },
+      {
+        "item": "4",
+        "fact": "版费尚未支付，店主掌握正式印制安排"
+      },
+      {
+        "item": "5",
+        "fact": "仅校样用于核对，不等于公开定稿或历史定论"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "没有调旧账，不许用校样或个人记忆判定治水真相。"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

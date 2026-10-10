@@ -1,0 +1,77 @@
+{
+  "test_id": "V13-B067-25",
+  "candidate_id": "TX-f08",
+  "legacy_round": "R071",
+  "batch": "B070",
+  "book": "tiexuecanming",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same agent authored both paired arms in this session after viewing both frozen prompt and method cards. Real arm context-isolation and independent reviewer NOT ESTABLISHED. Raw writing is fictional, original and cannot prove literary method utility.",
+  "arm_parity_contract": "Frozen situation, fixed facts, required story, 500-750 Chinese characters, >=4 ledger items and S1-S5 identical in both intended prompts. Sole intended change: method arm receives candidate-specific three-step method card. Actual independent blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "舟具铺的年轻掌事周澄把一块“资深检工”的木牌递给老检工许翁，说有了新名目便能多领一份工钱。许翁没有接牌，先问仓里的舟钉、桨木归谁发放。周澄说资深检工既然负责查验，应当可以直接叫人开仓；库房管事杜娘从门后出来，晃了晃腰间钥匙，说没有改过仓柜制度，检工的眼力再好也不能替她签出入账。周澄有些尴尬，解释待遇只是拟好，明日才公示；许翁指出连工钱是否真的增加都未见白纸，谈不上凭新称呼指挥众人。一个年轻工人抱着裂开的木桨来求验，许翁照旧检查缺口，认为还要再晒一日，杜娘同意将桨留在柜外候检，但没有把仓钥交给他。周澄把木牌收回袖中，请两人傍晚再议岗位条目。",
+    "scene_two": "傍晚周澄在铺中画出一份岗位告示，写资深检工查验修过的舟具、建议报废与领加班钱。杜娘要求删掉“统管仓储”四字，因为她还须按自己的簿册验料，仓房责任不能靠另一块木牌移走。许翁也说他肯查木材老化，不愿替所有进料背责，便提出由库房继续验收入库，自己只在检验单上记缺陷和建议。周澄改稿后答应第二天公开征求工人意见，增加待遇须从公示后算，不追认今天的名号。杜娘把钥匙放回柜中，没有签任何交接纸。年轻工人问如果资深检工仍不能开仓，找谁领木桨，周澄叫他照旧找杜娘。这答复让他脸色稍缓，却也提醒周澄，此前许给工友的加薪若最后没落实，连检验单也未必有人愿认真填。许翁把裂桨上的记号留在检验簿，提醒周澄不能因新名目谈成，就不再检查今日已经出现的问题。",
+    "chinese_characters": 534,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "资深检工待遇仍在拟定、公示阶段"
+      },
+      {
+        "item": "2",
+        "fact": "许翁的专业查验能力得到认可"
+      },
+      {
+        "item": "3",
+        "fact": "仓柜钥匙和进出料责任仍在杜娘"
+      },
+      {
+        "item": "4",
+        "fact": "新岗位不自动包含仓储指挥权"
+      },
+      {
+        "item": "5",
+        "fact": "加薪是否批准实施尚未定"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "Baseline can already display implicit common-sense distinctions, so observable single-method effect may be contaminated; 加薪计划公示不意味着工资已付，且不能改变杜娘保管钥匙的事实。"
+  },
+  "method": {
+    "scene_one": "周澄在舟具铺里提出设“资深检工”，说许翁眼力好，工钱应当多些，日后也可以帮忙把关。许翁把一根裂桨举到窗边，让周澄先看裂纹，随后问：“我查得出问题，是不是就能动仓柜？”杜娘听见后拿钥匙站到二人中间：库房钥匙一直由她保管，进出料要凭簿，许翁能指出缺陷并不能自动使她免去交接责任。周澄把拟好的待遇纸铺开，才发现名目尚未公示，自己说的加薪也只是提议。许翁并不要求杜娘交钥，只要出具检验意见时不被年轻工人打断；杜娘答应在领料簿旁留一格记意见，却反对他单凭一句“有问题”把整批舟具锁起来。周澄把三人的要求逐条写下，没有在那张纸上盖铺印。",
+    "scene_two": "次日一早，掌事召集铺中工人，重新念拟定的资深检工条目：公示通过后可按月多领工钱，平日负责复核修补质量，不负责仓柜发料。许翁提出若检验与工期冲突，自己有权把异议写入记录，却不能越过杜娘扣下库钥；杜娘则坚持出入仓的每一笔仍须她核。几个工人嫌新称号只多事不便利，周澄便决定先把告示贴三日听意见，待遇仍待核定，不将拟定日算为已发工资。午后有人拿一支断桨求修，许翁在检验单上写了“不可直接复用”，杜娘凭单另找合适木料，但仍亲自开柜和登记。两个岗位因此能合作，却没有谁因此获得另一人的权限。周澄看着未盖印的加薪告示，明白技术上的认可已出现，钱和正式名分还须过另一个关口。年轻工人见告示上仍留空的印记，虽然没能立刻领到新待遇，倒知道下一次质疑要找哪位掌事听证。",
+    "chinese_characters": 529,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "资深检工待遇仍在拟定、公示阶段"
+      },
+      {
+        "item": "2",
+        "fact": "许翁的专业查验能力得到认可"
+      },
+      {
+        "item": "3",
+        "fact": "仓柜钥匙和进出料责任仍在杜娘"
+      },
+      {
+        "item": "4",
+        "fact": "新岗位不自动包含仓储指挥权"
+      },
+      {
+        "item": "5",
+        "fact": "加薪是否批准实施尚未定"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "加薪计划公示不意味着工资已付，且不能改变杜娘保管钥匙的事实。"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

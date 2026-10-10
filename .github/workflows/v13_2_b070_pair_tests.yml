@@ -1,0 +1,15 @@
+name: V13.2 B070 actual paired output audit
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  audit-b070-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check R071 seven and R072 first two, freeze, lengths, score arithmetic and provenance
+        run: python scripts/validate_v13_2_b070.py

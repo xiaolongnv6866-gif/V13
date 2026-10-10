@@ -1,0 +1,77 @@
+{
+  "test_id": "V13-B067-29",
+  "candidate_id": "TX-f12",
+  "legacy_round": "R072",
+  "batch": "B070",
+  "book": "tiexuecanming",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same agent authored both paired arms in this session after viewing both frozen prompt and method cards. Real arm context-isolation and independent reviewer NOT ESTABLISHED. Raw writing is fictional, original and cannot prove literary method utility.",
+  "arm_parity_contract": "Frozen situation, fixed facts, required story, 500-750 Chinese characters, >=4 ledger items and S1-S5 identical in both intended prompts. Sole intended change: method arm receives candidate-specific three-step method card. Actual independent blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "孤峰瞭望台的夜风从窗缝钻进来，值宿人林庚刚拨完火盆，远处忽然传来一阵钟声。他走到栏边，只听到一次，过了些时候又传来第二次，山下黑得连坡脚也看不清。客商杜程说自己路过的镇子若有喜事会敲钟，猜是城外办婚礼；林庚记得从前有人靠急钟求救，担心哪里失了火。杜程反问两响为何就是求救，林庚拿不出证据，只说不能不留意。两人把钟响的前后次序写在值宿簿上，没写具体出处。杜程想立刻下山找人问，林庚提醒山路夜里难走，值宿台也不能没人。他们决定先留一人值守，另一人准备天亮后带着记录去问附近邮舍，若夜间另有异动再记录；此时谁也不知道钟声从哪里来。",
+    "scene_two": "更深夜时杜程在台阶边整理包袱，仍想起曾经见过的一场迎亲，耳中把那两声钟响连成喜庆的节拍。林庚却在值宿簿旁贴了一张纸，记着两次声响相隔许久，没有第三次。杜程问他是不是认定失火，林庚说自己只是担心，连哪个镇子的钟都无法分辨。山下没有灯火能够从高台看清，风吹过瓦角又响了几下，两人险些将瓦声当成新钟。黎明前一直没有信使到台，林庚便请杜程先别把猜测写进商队报单，免得平白惊动家眷。杜程不肯保证不向熟人提起，答应只说自己听见过两次，不说知道原因。天色略白，他拎着包袱等下山，林庚把记录压在石镇纸下；要验证的不是他们谁更有经验，而是那钟究竟出自何处。他们直到月光落在背后的山石上，才敢确认今夜并无第三声远钟；至于更远处的事，簿上只能空着。",
+    "chinese_characters": 525,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "林庚与杜程共同听到远钟两次"
+      },
+      {
+        "item": "2",
+        "fact": "夜里无法观察远处具体发生何事"
+      },
+      {
+        "item": "3",
+        "fact": "失火与婚礼都只是个人推测"
+      },
+      {
+        "item": "4",
+        "fact": "黎明前无信使抵达"
+      },
+      {
+        "item": "5",
+        "fact": "晨间走访证实工作尚未发生"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "Baseline can already display implicit common-sense distinctions, so observable single-method effect may be contaminated; 不能将婚礼或火灾写成既定真相，不能让角色夜间看见远城。"
+  },
+  "method": {
+    "scene_one": "夜宿孤峰瞭望台的林庚听见远处第一次钟声时，正拿炭条记值更的时辰。片刻之后第二响传来，山外一片漆黑，他只能确认自己听了两次，连来自哪个方向都拿不准。客商杜程想起某地办婚事用钟，猜是喜宴；林庚想到旧年失火时曾有人敲钟，猜是求助。杜程提议先写“婚礼”，林庚在簿上只记“闻钟二次”，把他们各自的推测分写在旁注，未加任何起因。他想让人去问，但山路此时不可辨，值宿台也需留人。杜程说若真有事，等天亮恐怕误了消息，却又拿不出能证明现在发生什么的办法。两人于是分别做事：林庚守住观察记录，杜程整理走访路线，谁也不把自己的往年经历说成今夜的证据。",
+    "scene_two": "第二场转到台下的小石屋，杜程在灯前给商队写一封短札，本想说城外恐有大火，写到“恐”字又停住。他只写孤峰夜间听到两声远钟，原因不知，请收信人不要当作确定的警讯。林庚来取热水，问札中有没有写“婚礼”，杜程摇头，说自己仍觉得像喜事，但不愿让商队据他一人的猜测改路线。两人各自保留推断：林庚将钟声记录备作晨间查问，杜程决定天亮沿常走的驿路向往来行人求证。窗外山脊逐渐发灰，却依旧看不见远处城门；黎明前始终没有信使到台。林庚把观察、推断、待查三行分开誊在值宿簿里，最后一栏空着。他知道空白比填上一个自己希望为真的答案更可靠，但若天亮仍无人带信，谁也不能替那个空格作主。杜程把未寄的草稿撕去那句断言，留下誊清的短札，打算等晨路可走时再交给遇见的第一位可靠信使。",
+    "chinese_characters": 528,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "林庚与杜程共同听到远钟两次"
+      },
+      {
+        "item": "2",
+        "fact": "夜里无法观察远处具体发生何事"
+      },
+      {
+        "item": "3",
+        "fact": "失火与婚礼都只是个人推测"
+      },
+      {
+        "item": "4",
+        "fact": "黎明前无信使抵达"
+      },
+      {
+        "item": "5",
+        "fact": "晨间走访证实工作尚未发生"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "不能将婚礼或火灾写成既定真相，不能让角色夜间看见远城。"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

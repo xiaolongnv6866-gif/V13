@@ -1,0 +1,77 @@
+{
+  "test_id": "V13-B067-26",
+  "candidate_id": "TX-f09",
+  "legacy_round": "R071",
+  "batch": "B070",
+  "book": "tiexuecanming",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same agent authored both paired arms in this session after viewing both frozen prompt and method cards. Real arm context-isolation and independent reviewer NOT ESTABLISHED. Raw writing is fictional, original and cannot prove literary method utility.",
+  "arm_parity_contract": "Frozen situation, fixed facts, required story, 500-750 Chinese characters, >=4 ledger items and S1-S5 identical in both intended prompts. Sole intended change: method arm receives candidate-specific three-step method card. Actual independent blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "河西船户在自家晒网场聚会，船户长魏通把听来的码头迁移消息念给众人。县城主持者他从没见过，不知所谓新码头究竟要落在哪段岸，却担心老渡一迁便少了过桥赶集的人。几个大船主赞成他带头反对，说只要齐声便能要回旧址；年轻船娘阿苓却说，自己每日还须照料病老的父亲，若船停远处，来回一趟要误饭点。魏通嫌她把家事带进商量，她回他：“你家船大，能另雇一人撑，我只有自己。”邻居小范说从前水涨确曾淹过旧码头，未必完全不能搬，只是县城的方案他们没见到一张。众人争得有人卷网离场，魏通最终只让每户各写最怕失去什么，而不是替大家凑一份空泛请愿。",
+    "scene_two": "傍晚阿苓回家，把父亲的晚饭端到窗边。父亲问她码头是不是明日就迁，她说只在晒网场听魏通念了传闻，既无公文又没见过县城的人，不敢拿这话当成已定的事。她掏出一本过渡账，发现旧渡口仍有几户熟客欠着零钱，若搬远了要怎样收账也成难题。邻居小范来借绳，说愿陪她去问岸边老铺消息，却不愿替魏通的反迁名册画押。阿苓决定第二天照常接一趟早船，路过商铺时打听有无正式告示；若真有改变，再与父亲商量谁来照料。她并非全盘反对安全的新码头，只怕有人替她算了时间与粮钱，却从未问过她。外面魏通的儿子又喊大家明早集合，阿苓说可以去听，不保证会签名。她把父亲的药碗洗净，仍不知水位传闻是真是假。魏通把众人留下的纸页扎成一束，发现意见甚至没法用同一个题目来概括，只好等明日逐户再问。",
+    "chinese_characters": 530,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "魏通从未与县城主持者见面，消息只是传闻"
+      },
+      {
+        "item": "2",
+        "fact": "船户群体存在经营、安全与家庭照料分歧"
+      },
+      {
+        "item": "3",
+        "fact": "阿苓必须照料老父且经济资源有限"
+      },
+      {
+        "item": "4",
+        "fact": "水位和搬迁新址未经核实"
+      },
+      {
+        "item": "5",
+        "fact": "请愿与个人意见尚未被县城接收批准"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "Baseline can already display implicit common-sense distinctions, so observable single-method effect may be contaminated; 传闻来源无正式令书，不应推断县城计划细节或终局结果。"
+  },
+  "method": {
+    "scene_one": "船户长魏通把大家请到河西自家的晒网场，打算反对传闻中的码头迁移。他怕客流被引向别处，少了沿渡口几十年积累的生意，却从未见过县城的主持者，连新址也不知道。两个大船主说只要守住旧渡便好，邻居小范却拿出涨水时坏掉的木牌，说旧岸未必没有隐患。年轻船娘阿苓在门边低声提出另一件事：她父亲病着，换个起船处会打乱每日送饭和照料的时辰。魏通说可以多雇帮工，阿苓指着手里旧账反问谁出工钱，魏通答不上来。会上有人只关心船位，有人关心安全，有人关心家中老人，最后没有统一请愿。魏通决定暂收各户意见，却坚持要等看见告示再决定怎样行动，不把自己的猜测说成县城已经下令。",
+    "scene_two": "第二场转到阿苓的小院。她把父亲的水壶放到炕边，取下悬着的旧渡班次牌，算明日若照旧摆渡还能回家做饭。父亲听她说起迁移，问是不是已开工，阿苓摇头：“我只听说水位恐有变化，连是谁量的都不知道。”她去邻家换了些米，顺手询问小范愿不愿意一起去镇上找公示，小范答应同行，却提醒她自己支持调查新码头的安全问题，不会跟着签全面反对的字。阿苓因此决定只写一张具体的请求：无论码头迁不迁，请公布路程、到岸位置和照顾老人者的来往安排。她把纸放进围裙，先回家照料父亲，未让魏通替自己交。晒网场的呼声尚未变成公文，县城里的人也不知这个院子的困难。第二日她仍要靠照旧摆渡挣粮，若公示不到，她就得再去找一次。阿苓把请求纸塞在水壶下，嘱父亲若她出门后有人来询，也只说尚未得到确切通知，不要替她许诺。",
+    "chinese_characters": 550,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "魏通从未与县城主持者见面，消息只是传闻"
+      },
+      {
+        "item": "2",
+        "fact": "船户群体存在经营、安全与家庭照料分歧"
+      },
+      {
+        "item": "3",
+        "fact": "阿苓必须照料老父且经济资源有限"
+      },
+      {
+        "item": "4",
+        "fact": "水位和搬迁新址未经核实"
+      },
+      {
+        "item": "5",
+        "fact": "请愿与个人意见尚未被县城接收批准"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "传闻来源无正式令书，不应推断县城计划细节或终局结果。"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

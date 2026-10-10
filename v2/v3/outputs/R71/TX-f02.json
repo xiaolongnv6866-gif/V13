@@ -1,0 +1,77 @@
+{
+  "test_id": "V13-B067-23",
+  "candidate_id": "TX-f02",
+  "legacy_round": "R071",
+  "batch": "B070",
+  "book": "tiexuecanming",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same agent authored both paired arms in this session after viewing both frozen prompt and method cards. Real arm context-isolation and independent reviewer NOT ESTABLISHED. Raw writing is fictional, original and cannot prove literary method utility.",
+  "arm_parity_contract": "Frozen situation, fixed facts, required story, 500-750 Chinese characters, >=4 ledger items and S1-S5 identical in both intended prompts. Sole intended change: method arm receives candidate-specific three-step method card. Actual independent blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "州档案房新来的抄手季和把借阅条款背得滚熟，却在修家谱的申请前停住了笔。卷宗保管人要他有押签、有编号方可提出原卷，他以为只要写清家族姓名便能借出，便在申请上写了半张家谱缘由。东家昨日口头说可以帮忙，但没替他签字。季和拿草稿去柜台，保管人只看一眼就退回，说无号无押签，纸再工整也不是受理的案子。季和解释自己熟读条款，保管人指着柜外那叠退件说：“谁不会背，难处在谁愿担责。”季和带着退纸去找东家，东家却正忙修一间店铺，只说等空下来再看。季和沿路记下保管人的要求，把写错的取卷字样改成请求在场核对，心里仍希望下午能得到答复。",
+    "scene_two": "次日季和终于见到东家，东家听完缘由，只肯在边栏写“曾听其说明”，不愿为未经查明的世系押签。季和带着新稿重回档房，请柜边的登记吏看一遍。登记吏说缺了规定押签仍不能编号，却许他把理由写得更清楚后再呈保管人。季和一笔一划改掉“借出三日”的要求，写成先查询现存卷目。保管人午后收下纸，画了待核记号，却没有给正式编号，也没有打开原卷柜门。季和站在门口问自己是否已经获准修家谱，对方说只是让人看一眼申请，等押签齐全才谈取卷。东家派人来问办得怎样，季和回话说稿已重写、柜中仍未借出一卷。他把未获编号的纸收进夹板，约明早再问谁有资格作押签，免得又将一个口头应允当成门票。他又把背熟的规程默念一遍，终于将纸页上错写的“领取”改为“请核”，并小心夹回木板，不肯让墨迹沾到退件。",
+    "chinese_characters": 527,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "申请由草稿改为馆内核卷目请求"
+      },
+      {
+        "item": "2",
+        "fact": "东家口头协助不等于正式押签"
+      },
+      {
+        "item": "3",
+        "fact": "登记吏暂收并标注待补，尚未正式编号"
+      },
+      {
+        "item": "4",
+        "fact": "保管人拒绝取走原卷"
+      },
+      {
+        "item": "5",
+        "fact": "家谱是否准借和申请是否通过皆未知"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "Baseline can already display implicit common-sense distinctions, so observable single-method effect may be contaminated; 送达、受理、正式编号和取得档卷四个节点不得混为一谈。"
+  },
+  "method": {
+    "scene_one": "季和在州档案房当抄手，能当场背完借阅条款。他想修复族里破损的家谱，写了一张申请便伸手取卷，保管人却以木尺挡住柜门：“这纸还没有编号，也没有押签。”季和说东家答应帮忙，保管人追问究竟是口头帮着问，还是愿正式署名担保。东家的话季和不敢擅改，只得承认尚是口头。保管人把申请退回，指出修书与带走原卷是两种不同请求，得先写明如何在馆内核对，不可直接写“借走”。季和把纸摊在长凳上，划去带卷外出的句子，改成申请查卷目，准备送给登记吏先核格式。旁边另一名抄手劝他先偷看柜中目录，他拒绝，说若被查出，连正规申请也会受阻。",
+    "scene_two": "第二场在登记柜前。季和已把家谱修复缘由写清，仍缺合格押签。登记吏收下修订稿，给它盖上“待补材料”的小戳，但没有编成正式借阅号。东家随后来了，只愿证明季和确在其店抄书，不肯担保世系真实性；季和依照此限度重写证明，没有说服东家多签一个字。保管人翻完修改稿，表示材料齐时可以再来核卷目，却明确拒绝今日把原卷取出。季和问以后是否一定获准，保管人将柜钥放回腰侧：“我只管保卷，不替审批人许诺。”季和回店向同族交代已重写、送到登记处、待补押签三件不同进度，同族有人抱怨耽搁，他便把退件上的戳给人看。他们要修的家谱仍在原柜，下一步须找到肯对申请范围负责的押签人。登记吏在他离开前又说了一遍申报与借出的差别，季和点头记下；即便明日有人签字，他仍须再等柜房单独审查。",
+    "chinese_characters": 515,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "申请由草稿改为馆内核卷目请求"
+      },
+      {
+        "item": "2",
+        "fact": "东家口头协助不等于正式押签"
+      },
+      {
+        "item": "3",
+        "fact": "登记吏暂收并标注待补，尚未正式编号"
+      },
+      {
+        "item": "4",
+        "fact": "保管人拒绝取走原卷"
+      },
+      {
+        "item": "5",
+        "fact": "家谱是否准借和申请是否通过皆未知"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "送达、受理、正式编号和取得档卷四个节点不得混为一谈。"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

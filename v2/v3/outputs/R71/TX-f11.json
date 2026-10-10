@@ -1,0 +1,77 @@
+{
+  "test_id": "V13-B067-28",
+  "candidate_id": "TX-f11",
+  "legacy_round": "R071",
+  "batch": "B070",
+  "book": "tiexuecanming",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same agent authored both paired arms in this session after viewing both frozen prompt and method cards. Real arm context-isolation and independent reviewer NOT ESTABLISHED. Raw writing is fictional, original and cannot prove literary method utility.",
+  "arm_parity_contract": "Frozen situation, fixed facts, required story, 500-750 Chinese characters, >=4 ledger items and S1-S5 identical in both intended prompts. Sole intended change: method arm receives candidate-specific three-step method card. Actual independent blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "驿站的赴任榜贴在饭房外，厨娘叶荷被调去远山值守。她看完榜仍站在门口，没有立刻收拾包裹。她父亲腿脚不好，家里还需有人晨起烧粥；若她走了，没人能天天照看。朋友柳珊说愿意替她先顶几日，却担心换班以后工钱会被算作临时帮工。叶荷想去找主管求缓，柳珊拉住她问能否一并说明工资安排，免得帮过忙反而少领。榜边的书吏只说调令已公布，没说她们商量的替班得到批准。叶荷把名字写在一张请求纸上，说明父亲需要照料，并未在赴任栏写“已应”。柳珊也没有在替班册上画押，只答应陪她到主管面前说清愿意的天数和不能接受的条件。",
+    "scene_two": "第二日主管在偏房听两人陈述。叶荷提出暂缓去远山，至少等亲戚回来接手照看父亲；主管说驿务不能长期空缺，但愿先查还有无人可临时顶岗。柳珊表示自己可以替三日，不愿在未说明工钱前承诺一月，主管因此让书吏先登记这项请求，不把她填成已正式到任。叶荷回家问父亲是否能让邻居每日送饭，父亲说偶尔可以，不愿长久求人。叶荷虽着急仍回驿站上当日的班，没有擅自离岗。傍晚书吏告知主管尚未批准替班，也没有撤回原调令，劝她们别提前把新工钱算进家用。柳珊把自己准备好的围裙又挂回原钉，叶荷在账簿里留下父亲药钱支出，等明日答复再决定下一步。柳珊临走又指着榜上调往远山的字，提醒叶荷千万别因同情朋友便擅改主管印过的事项；那样两人都要担责。",
+    "chinese_characters": 502,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "赴任榜已发布，但叶荷个人尚未同意"
+      },
+      {
+        "item": "2",
+        "fact": "叶荷父亲需要照料，家庭安排未落实"
+      },
+      {
+        "item": "3",
+        "fact": "柳珊替班只是有条件意愿，主管未准"
+      },
+      {
+        "item": "4",
+        "fact": "远山调令未撤，暂留申请仍待批"
+      },
+      {
+        "item": "5",
+        "fact": "工资标准与减薪风险尚未确认"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "Baseline can already display implicit common-sense distinctions, so observable single-method effect may be contaminated; 发榜不能当作知情同意；主管收件不等于正式转任或允许替班。"
+  },
+  "method": {
+    "scene_one": "叶荷在官驿灶前收拾炭灰，朋友柳珊拿来刚公布的赴任榜，榜上写她须去远山值守。叶荷把榜看了两遍，说这只是上面派了差，自己尚未答应何时离家；父亲近来起身不便，家中灶火还靠她。柳珊提出可以替班，话出口又停住：“若按替工算，工钱会不会少？”她不能只为帮朋友让自家也断粮。书吏过来催叶荷签赴任栏，叶荷没有假装没听见，而是当面写一张延期请求，请主管决定谁照看驿务、是否接受替班。柳珊另写自己只愿先替三日、必须核明薪钱，不同意长期顶缺。两张纸夹在同一本簿里，却分写两人的条件。书吏收件时只给了登记记号，不肯说等于主管批准。",
+    "scene_two": "第二场在主管廊下。主管承认人手紧，仍不同意直接把柳珊填作远山正式厨工，因为替班未获同意，工钱标准也须由管薪者核。叶荷只请求暂留三日找邻居分担照护，主管让她继续做本驿值班，远山调令暂不撤，待次日核人手再答。柳珊听见这话没有自行出发，转身去问账房若临时协助会按哪个名目计薪；账房翻了半晌账册，只能说尚无新安排。叶荷回家扶父亲坐稳，说明自己可能不得不离开，但今天尚未得到准许，父亲提出让表妹隔日来帮忙，也不肯由旁人代他决定生活。柳珊夜间来到院门口，说若工资没说明白她就不替，叶荷答应不怪她。赴任榜仍挂着，两人的请求还在主管桌上，明日是否批准仍没有结果。叶荷把两张不同的申请各誊了一份，一张写父亲的照护，一张写柳珊的工资，不让主管以后误以为她们提出的是一件事。",
+    "chinese_characters": 524,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "赴任榜已发布，但叶荷个人尚未同意"
+      },
+      {
+        "item": "2",
+        "fact": "叶荷父亲需要照料，家庭安排未落实"
+      },
+      {
+        "item": "3",
+        "fact": "柳珊替班只是有条件意愿，主管未准"
+      },
+      {
+        "item": "4",
+        "fact": "远山调令未撤，暂留申请仍待批"
+      },
+      {
+        "item": "5",
+        "fact": "工资标准与减薪风险尚未确认"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "发榜不能当作知情同意；主管收件不等于正式转任或允许替班。"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

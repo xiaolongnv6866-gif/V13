@@ -1,0 +1,77 @@
+{
+  "test_id": "V13-B067-27",
+  "candidate_id": "TX-f10",
+  "legacy_round": "R071",
+  "batch": "B070",
+  "book": "tiexuecanming",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same agent authored both paired arms in this session after viewing both frozen prompt and method cards. Real arm context-isolation and independent reviewer NOT ESTABLISHED. Raw writing is fictional, original and cannot prove literary method utility.",
+  "arm_parity_contract": "Frozen situation, fixed facts, required story, 500-750 Chinese characters, >=4 ledger items and S1-S5 identical in both intended prompts. Sole intended change: method arm receives candidate-specific three-step method card. Actual independent blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "绸市雹灾后的第一场集日，商会把“百家复市”的告示挂在大门口。会首站在台上说街道已清出、店家能回市交易，救济仓也发出十包干草铺垫湿地。摊贩罗嫂捧着一匹起斑的绸布走到台前，说她的货前夜受潮，客人闻见霉味便退下，这损失并不在干草之内。另一摊主认为应先修棚顶，免得下一场雨又浸货；还有人要求减免本周摊租，不愿只领干草。会首说公告写的是街市恢复通行，并不是赔偿单，可这一句并不能让罗嫂当日开张。邻摊已有人拿新布招客，罗嫂却只能把受潮的布翻到背面晾。她见围观者越来越多，决定不在台上吵赔款，而要把各家不同损失记清，免得之后被一句“百家”掩盖。",
+    "scene_two": "午后罗嫂把湿布铺在摊木上，叫来识字的小陈帮忙写清受损匹数，只填自己亲眼核过的货，不替另一家估数。小陈说救济仓的十包干草已经分出，不能改称给了赔布。会首派账房来问能不能先在开市名册上签名，罗嫂说她没有阻止别人开市，但自己的货不能交易，不愿签“恢复营业”。账房听后留了空格，转去请商会商量是否设独立的赔损收件处。隔壁摊主把棚上的破布扎紧，仍准备做今日生意；罗嫂则决定先把能晒好的两匹拿给熟客看，坏的留下作证。一个老客摸了摸布边，摇头走了，她这才知道即使开市公告是真，家里今日也没有可指望的收入。黄昏时账房尚未回来，她把受损清单塞到柜底，约小陈明日一起去问是否有人肯接件。会首看见罗嫂抱着湿布离去，也没叫人把她从开市名单里删掉，只命账房明日分别问生意与损失。",
+    "chinese_characters": 537,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "街道恢复通行不代表百家都获收入"
+      },
+      {
+        "item": "2",
+        "fact": "救济仓十包干草不等于赔布"
+      },
+      {
+        "item": "3",
+        "fact": "摊贩的损失和减租诉求不同"
+      },
+      {
+        "item": "4",
+        "fact": "罗嫂仅登记自己可核受损货物"
+      },
+      {
+        "item": "5",
+        "fact": "赔偿是否受理及何时支付未知"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "Baseline can already display implicit common-sense distinctions, so observable single-method effect may be contaminated; 10包干草不可能被当作赔布或经济修复已经全部完成。"
+  },
+  "method": {
+    "scene_one": "绸市的大门重新打开时，商会把写着“百家复市”的告示钉在新刷的木板上。街道确已清理，救济仓的十包干草也被发往湿地摊位，可罗嫂手中的两匹受潮绸仍卖不出价。她举着发黑的布边问会首：“复的是街还是我的生意？”会首解释公告只确认可以通行和摆摊，不包含赔布承诺；旁边摊贩却说大字告示会让外来的买家以为人人恢复。另一名卖线的摊主只求修棚，卖绸的人要求清点破损，租棚的商贩则想减摊租，几项请求彼此不同。罗嫂拒绝把十包干草算作自己的损失赔付，提出先建立一个有人收件、有编号的清单。会首不肯立即许赔银，只允让账房记录不同诉求，摊位实际能否卖出货仍由各家自己承担。",
+    "scene_two": "第二场在罗嫂的摊前。她没有跟着其他铺子敲锣招客，而把湿布逐匹铺在木框上，请熟悉货色的小陈见证其中几处水斑。小陈认得布色，却不肯替她估一个必能赔到的数。商会账房拿来空表，写“受损申报”而非“赔偿已准”，罗嫂亲手把不确定的两项划掉，只留下眼前能核的货。隔摊商户决定继续卖新货，还劝她也先开张，她说要卖可以卖，但不能拿坏布当好布，于是只挂出几匹未受潮的余布。第一位老客听见开市锣声，却嫌剩下花色太少，没有成交。账房把她的单子编成待查一号，明确没有赔款批准；罗嫂把号纸收进荷包，明日仍得来摆摊。街道开市已是公事的成果，家中欠下的染工费用却丝毫不因告示落地而减少。另一名商贩终于把干草铺好了地面，罗嫂见他确能开张并不嫉妒，只希望自己的赔损申请也能有回音。",
+    "chinese_characters": 538,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "街道恢复通行不代表百家都获收入"
+      },
+      {
+        "item": "2",
+        "fact": "救济仓十包干草不等于赔布"
+      },
+      {
+        "item": "3",
+        "fact": "摊贩的损失和减租诉求不同"
+      },
+      {
+        "item": "4",
+        "fact": "罗嫂仅登记自己可核受损货物"
+      },
+      {
+        "item": "5",
+        "fact": "赔偿是否受理及何时支付未知"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "10包干草不可能被当作赔布或经济修复已经全部完成。"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

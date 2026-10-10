@@ -1,0 +1,77 @@
+{
+  "test_id": "V13-B067-22",
+  "candidate_id": "TX-f01",
+  "legacy_round": "R071",
+  "batch": "B070",
+  "book": "tiexuecanming",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same agent authored both paired arms in this session after viewing both frozen prompt and method cards. Real arm context-isolation and independent reviewer NOT ESTABLISHED. Raw writing is fictional, original and cannot prove literary method utility.",
+  "arm_parity_contract": "Frozen situation, fixed facts, required story, 500-750 Chinese characters, >=4 ledger items and S1-S5 identical in both intended prompts. Sole intended change: method arm receives candidate-specific three-step method card. Actual independent blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "曲简从渡口出来时，老人家的孙子还拿着他留下的药包。会馆执事把一张写着“仁心”的红纸放上柜台，要在午后茶会上宣读。曲简曾被邻里指责糟蹋药材，见这张红纸倒有些不自在，只问老人今日是否还安稳。执事说会馆只听病家讲过昨日救人的事，过去传闻他并不清楚。来报信的病家也说自己只知今日得他照顾，不敢为三年前的事作证。曲简刚要退出，故友梁度把一张借粮旧账压在柜上，问那两斗粮何时还。执事皱眉要梁度先别扫兴，梁度却说自己不是来争救人的真假，家里的口粮也不能靠一纸表彰补回来。曲简把红纸放回桌上，请两人在茶会前听他讲完旧账，执事说今日只是谢医，并不是替他清偿任何人的债。",
+    "scene_two": "午后会馆外搭了简陋的席棚。曲简没有避开梁度，先在众人面前接过老人孙子送来的一碗茶，随后走到旁边，翻看梁度带来的借粮纸。纸边被水浸过，日期还能辨，归还栏却空着。梁度要求他定个还日，曲简当下药钱不多，只能先把自用的一袋干粮交过去，说剩下的仍记在账上。梁度没有收那袋粮，说自己要的是约定和可查的数，不能让旧借据被一碗谢茶遮住。会馆执事见两人在席棚外说话，没再劝他们和解，只把当天赠给病家的药材另写在新账中。病家不知旧债内容，仍向曲简行礼；路过的人却有人夸他，有人低声提起借粮。曲简将借据抄了一份，答应回家核清欠额再商量偿还，梁度带走原纸。两人的下一次见面还没有约下，席棚里的掌声也没有把这个空白填满。归路经过药铺时，曲简还特地托伙计留一份病家的药方副本；他知道这份今日的记录不能拿去改写三年前的借据。",
+    "chinese_characters": 569,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "会馆只凭救治一事拟谢帖"
+      },
+      {
+        "item": "2",
+        "fact": "三年前粮债金额与还款记录尚需核对"
+      },
+      {
+        "item": "3",
+        "fact": "病家只亲见当前救治"
+      },
+      {
+        "item": "4",
+        "fact": "梁度仍保留原借据且可拒绝和解"
+      },
+      {
+        "item": "5",
+        "fact": "表彰发生不抵消旧债，也不否定本次照护"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "Baseline can already display implicit common-sense distinctions, so observable single-method effect may be contaminated; 临时约定核账不可暗写成粮债已偿清；救治的好坏还需独立复诊。"
+  },
+  "method": {
+    "scene_one": "渡口老人喘息平稳后，病家把救治的消息送到了会馆。执事准备颁一张谢帖，赞曲简会医；他只知道这次救人，不知道当年曲简用药失当遭邻里责备的经过。老人孙子带来一包干果，说自己亲见郎中熬药守了一夜，其余一概不知。曲简没有趁机辩白过去，反问执事病家可否先留一份复诊的药钱。正说着，旧友梁度拎着借粮纸进门，问三年前的两斗粮何时归还。曲简认得纸上的签记，却记不得当时双方是否结清过一小部分，要求先看原账。梁度不愿等会馆表彰完再谈：“我没有说你昨天没救人，可我家今天仍缺粮。”执事想请他避到后院，梁度拒绝。曲简把谢帖折好，说即便会馆要颁，也请别在纸上写他旧日行事已无可挑剔。",
+    "scene_two": "席棚搭在会馆门旁，宣读谢帖的人只说病家的亲见之事，没有添加曲简过去如何清白的评语。曲简谢过，转身到街角与梁度核账。他拿出自己记下的三年前支粮数，承认有一笔欠账还须回家查证，不能凭记忆说已还。梁度坚持原借据暂由自己收着，也拒绝曲简把会馆谢礼直接塞来抵债，因为数目还没核清。曲简接受这个限制，请梁度三日后带借据再来，他先找当年的记账人。病家见两人沉着脸说话，仍来求曲简明日复诊；梁度没有替病家表态，也没有因谢帖撤回索债。曲简先答应明日看病，却把三日后查粮账写在袖中的小簿子上。当天会馆认得的是医术，病家记得的是帮助，梁度追究的是旧债；三个人离开街角时并没有形成一种共同的评价。柜外还有人问曲简能否开一门新课，他答得很慢，只说医方可以讲，旧债的来龙去脉却必须另查。",
+    "chinese_characters": 552,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "会馆只凭救治一事拟谢帖"
+      },
+      {
+        "item": "2",
+        "fact": "三年前粮债金额与还款记录尚需核对"
+      },
+      {
+        "item": "3",
+        "fact": "病家只亲见当前救治"
+      },
+      {
+        "item": "4",
+        "fact": "梁度仍保留原借据且可拒绝和解"
+      },
+      {
+        "item": "5",
+        "fact": "表彰发生不抵消旧债，也不否定本次照护"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "临时约定核账不可暗写成粮债已偿清；救治的好坏还需独立复诊。"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}

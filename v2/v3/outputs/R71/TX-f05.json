@@ -1,0 +1,77 @@
+{
+  "test_id": "V13-B067-24",
+  "candidate_id": "TX-f05",
+  "legacy_round": "R071",
+  "batch": "B070",
+  "book": "tiexuecanming",
+  "frozen_contract_blob_sha1": "4e24d782632210c1e1637eba4954bde3d8f3846f",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "experiment_mode": "DIAGNOSTIC_ONLY_NONBLIND",
+  "environment_note": "Same agent authored both paired arms in this session after viewing both frozen prompt and method cards. Real arm context-isolation and independent reviewer NOT ESTABLISHED. Raw writing is fictional, original and cannot prove literary method utility.",
+  "arm_parity_contract": "Frozen situation, fixed facts, required story, 500-750 Chinese characters, >=4 ledger items and S1-S5 identical in both intended prompts. Sole intended change: method arm receives candidate-specific three-step method card. Actual independent blind isolation NOT ESTABLISHED.",
+  "baseline": {
+    "scene_one": "泥湾粮社刚挂出新登记办法，社首沈桥站在条案后看众人交来的谷簿。老会计朱叔把一页递到他眼前，问簿中写的一石究竟按多少斗来算。沈桥曾向大家保证新簿更公平，却没有核过单位，嘴里只说沿用旧规；朱叔问旧规是哪年、出自谁手，沈桥答不上来。印章还在另一名社员陈婶那里，她今日去看亲戚尚未回来。围观的社员催快些发榜，认为有数便能分粮，朱叔却点出两家的收入被写到同一栏，若按错单位便可能当场吵起来。沈桥不肯硬撑，先叫人把预备张贴的榜撤回桌下，宣布今日不发榜，等账册重新核过。有人抱怨白跑，朱叔把错记的两处用纸条遮住，说至少不能让这个数字先传到各家。",
+    "scene_two": "次日朱叔拿出两套旧簿，发现书写习惯并不相同；他建议先按袋数核到各户，再问上年记账的人究竟采用哪种单位。沈桥带着榜纸来，原想先贴无争议的几户，朱叔说若栏头单位仍写错，其他人会以为全榜都可靠。陈婶携印章回来，听清误记后拒绝随便盖上，表示她只负责保管，不能替大伙证明数字。沈桥改口让登记吏在现场收原始交谷票，不抄换成石斗的数，先列袋号和户名，未核的地方留空。社员中有人怕留空影响分粮，沈桥只肯说明核账期限另议，今日谁也不能凭错数领。朱叔把更正提议夹进账页，陈婶仍锁着印章。天晚时沈桥自己拿着错簿去找旧掌账者，才发现对方已经搬出村，何时能查清单位没有准信。那一夜他听到院外还有人催发粮，便把收回的榜纸平铺晾干，不想让人把未核的数字误当作已经颁出的结算。",
+    "chinese_characters": 537,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "社首承认不懂具体换算标准"
+      },
+      {
+        "item": "2",
+        "fact": "一石对应多少斗在本项目未获可靠来源"
+      },
+      {
+        "item": "3",
+        "fact": "老会计建议以原票与袋号核对"
+      },
+      {
+        "item": "4",
+        "fact": "印章始终由陈婶控制，未盖正式榜"
+      },
+      {
+        "item": "5",
+        "fact": "社首只批准暂缓发榜与有限核票"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "Baseline can already display implicit common-sense distinctions, so observable single-method effect may be contaminated; 没有给出石斗换算标准，不得借常识为粮社强填单位。"
+  },
+  "method": {
+    "scene_one": "新谷簿摆在泥湾粮社门前时，社首沈桥还不懂其中一栏单位怎么核。他宣布暂用新登记法，却当众承认自己只会认户名，不会校换谷数。老会计朱叔听完拿起簿页，指出“一石”和“若干斗”的对应并未在社中现有凭据里写清，两份旧账甚至用法不同。有人催他随便按常见算法补上，朱叔把笔搁下：“补错一格，后头每户都是假数。”管印章的陈婶不在，沈桥本也无权替她盖印，于是说暂缓发榜，要求朱叔提出能做的核查办法。朱叔让各家先交存谷时的原票，只把仓中袋号与户名相对，不用尚未确认的单位换算。沈桥当场记下这一建议，吩咐学徒抬走空白榜架，明日请社员亲自带票来核。",
+    "scene_two": "第二日粮社内摆起两张桌：一张查原票和袋号，一张专放有争议的旧簿。朱叔告诉沈桥，已有三户票据能够对上仓牌，其他几户仍缺凭证；这不意味着登记办法已经全部可用。沈桥提议先把三户贴出来，朱叔提醒即使袋号对上，石斗单位仍未解决，榜题不能叫“正式谷数”。陈婶带着印章出现，听两人说完便说自己不盖正式榜，但可在核票清单上签明“仅收票”。沈桥接受，把宣布改成有限的原始票据核对，并把未核的石斗栏整列封空。他向社员解释今日可确认的是袋号，不是分配额度；有急着取粮的人提出异议，沈桥请其留下票据并承认自己还不能回答领取日期。散会后他把朱叔的单位疑点抄在工作簿，留给下次会核，陈婶仍把印章带回了家。有人催朱叔按习惯填数，他把笔收回盒中，让那人看仍然空白的单位栏，坚决不愿由自己替不明出处的换算担责。",
+    "chinese_characters": 540,
+    "state_ledger": [
+      {
+        "item": "1",
+        "fact": "社首承认不懂具体换算标准"
+      },
+      {
+        "item": "2",
+        "fact": "一石对应多少斗在本项目未获可靠来源"
+      },
+      {
+        "item": "3",
+        "fact": "老会计建议以原票与袋号核对"
+      },
+      {
+        "item": "4",
+        "fact": "印章始终由陈婶控制，未盖正式榜"
+      },
+      {
+        "item": "5",
+        "fact": "社首只批准暂缓发榜与有限核票"
+      }
+    ],
+    "unknowns": [
+      "Frozen input does not license invented approvals, background knowledge, unprovided chronology or outcomes; preserve unknown status."
+    ],
+    "failure_risk_note": "没有给出石斗换算标准，不得借常识为粮社强填单位。"
+  },
+  "rating": "NOT_RATED_IN_RAW_OUTPUT",
+  "independent_judge": "NOT_AVAILABLE",
+  "skill_verified": false
+}
