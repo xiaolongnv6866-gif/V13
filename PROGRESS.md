@@ -1,3 +1,13 @@
+## V13.3 当前有效进度｜N01已完成（2026-10-11）
+
+**唯一实际游标：`V13_CURRENT_V4.json` 和 `V13_LEDGER_V4.tsv`。最新确认 N01 `PASSED`、完成 1/48，当前 **N02 NOT_STARTED**。N02仅在用户下次发送“继续”时启动。旧文档中关于 `N01 NOT_STARTED / 0/48` 的说法均为V13.3迁移当天历史快照，不能作为当前进度。旧 B076 状态仍只读。**
+
+N01《晚明》旧R007、R009文学B **17/17逐ID处置**（限定可信15、旧主张越界拒绝2），R042旧隔离 **1/1源研究，仍保留历史隔离并交N16总核**。N01新原文复查覆盖过去192项未逐项复审声明中的6项；按新计划已处置17/296，余279待N02—N15处理；历史192项基线目前尚有186项未首次逐项复核。候选verified0/reference108/needs_review79/rejected0，69项独立V3为0，原Stage0独立C0/20，认证SKILL0。Source/semantic不等于V3独立效用。
+
+N01正式收据：`runs/N01_V4.md`；逐ID裁决：`v13_3/n01/N01_LITERARY_B_17.tsv`；论证及反例：`v13_3/n01/N01_SOURCE_REVIEW.md`；隔离：`v13_3/n01/N01_LEGACY_R042.tsv`。每轮必须完成本轮100%对象并GitHub Actions全绿，方可逐轮推进。 
+
+---
+
 ## V13.3 最新唯一正式恢复入口（用户已批准 2026-10-11）
 
 **当前必须读取：`V13_CURRENT_V4.json` → `V13_LEDGER_V4.tsv` → `V13_3_FIXED_48_ROUNDS.md` → `V13_3_ISSUES_426_TO_ROUNDS.tsv` → `V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv` → 两个固定原版SKILL及本轮适用methodology。** 新48轮为唯一执行计划，N01 NOT_STARTED / 0/48；本次仅完成计划迁移，下一次用户“继续”才能开始N01。旧V13_CURRENT_V3.json的B076 BLOCKED是只读历史快照、75/96是历史行政进度，不能用它抢回新游标。原296文学B（192未逐项复核）、14隔离、39 V1、11 V2、原47+额外22 V3、原Stage0 20合同、新19主题差异、187候选四类、Cangjie+Nuwa全流程和最终四臂均纳入新轮。严格原版SKILL，不凭GitHub绿灯自称文学/V3成功；重大问题警告并由用户决定。
