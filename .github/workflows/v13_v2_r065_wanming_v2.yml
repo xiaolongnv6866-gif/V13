@@ -1,0 +1,12 @@
+name: V13 v13.1 R065 Wanming V2 frozen walkthrough audit
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  audit-r065:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate ten historical and new V1 candidates against frozen V2
+        run: python3 scripts/validate_v13_r065_wanming_v2.py
