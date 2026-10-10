@@ -1,0 +1,7 @@
+issue_id	source_round	claim_id	ordinal	original_epub_path	anchor_ids	counterexample_status	review_round	current_state
+STAGE0:R007:wm-1-candidate	R007	wm-1-candidate	1	OEBPS/Text/Chapter_0009.xhtml	r27;r35;r46	SEARCHED_NONE	R059	B_PROVISIONAL
+STAGE0:R007:wm-20-candidate	R007	wm-20-candidate	20	OEBPS/Text/Chapter_0028.xhtml	r44;r61;r68;r70	SEARCHED_NONE	R059	B_PROVISIONAL
+STAGE0:R007:wm-34-candidate	R007	wm-34-candidate	34	OEBPS/Text/Chapter_0042.xhtml	p12;p18;p20;r2	SEARCHED_NONE	R059	B_PROVISIONAL
+STAGE0:R007:wm-35-candidate	R007	wm-35-candidate	35	OEBPS/Text/Chapter_0043.xhtml	r8;r10;p37;p44;r45	SEARCHED_NONE	R059	B_PROVISIONAL
+STAGE0:R007:wm-39-candidate	R007	wm-39-candidate	39	OEBPS/Text/Chapter_0047.xhtml	p24;p29;p30;r31	SEARCHED_NONE	R059	B_PROVISIONAL
+STAGE0:R007:wm-40-candidate	R007	wm-40-candidate	40	OEBPS/Text/Chapter_0048.xhtml	p27;p28;r32;p33	SEARCHED_NONE	R059	B_PROVISIONAL
