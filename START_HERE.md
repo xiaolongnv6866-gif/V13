@@ -1,3 +1,12 @@
+# V13最新正式执行入口（R063 PASSED，2026-10-10）
+
+**正式完成63/110轮，最后R063 PASSED，当前R064 NOT_STARTED。** 用户下一次手动输入「继续」才执行R064《铁血残明》16条V1 REVIEW来源核查，禁止提前启动。权威游标V13_CURRENT_V2.json、新版账V13_LEDGER_V2.csv与合同V13_REVISED_110_ROUNDS.md。旧89轮文件不能作游标。
+
+R063成果：`v2/v1/WANMING_23_RESULTS.tsv` + `runs/R063_V2.md`。对原R054冻结的《晚明》23条V1 REVIEW逐项回读原私人EPUB，涉及原来源锚点71处、27个XHTML章节，结果 **V1_PASS_NARROW 5、REFERENCE 10、REVIEW 8、REJECTED 0**。5条仅来源充分性通过，需R065新输入V2演练及后续V3真实增益审验；10条不是现成方法；8条仍缺同一事件因果或角色自主证据。23条均未verified，原创C无新测试，Skill认证0，原47个V3新独立测试0/47，密封题库SEALED_NOT_RUN。旧14条R042隔离及早期192条未逐审文学主张保持债务。
+
+R063审计期间一次CI失败，原因是校验器对说明文字长度阈值过严，已按真实内容修正；修复版完整63/63 Actions SUCCESS，审计内容与结论未改。最终管理轮PASS提交仍须新提交Actions全绿与远程回读。
+---
+
 # V13 v13.1 最新唯一正式执行入口（2026-10-10；R062已通过）
 
 **正式完成62/110轮，最后R062 PASSED；唯一当前轮R063 NOT_STARTED。** 等用户下一次手动「继续」，才执行R063《晚明》23条V1 REVIEW原文逐项复核；不预先启动R063。唯一正式状态依据`V13_CURRENT_V2.json`、`V13_LEDGER_V2.csv`、`V13_REVISED_110_ROUNDS.md`，旧89轮文件仅历史快照。
