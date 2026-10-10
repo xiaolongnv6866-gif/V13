@@ -12,7 +12,7 @@ assert all(x["status"]=="PASSED" for x in ledger[:7])
 if cur["completed_new_rounds"]==7:
  assert cur["current_round"]=="N08" and cur["current_round_status"] in ("IN_PROGRESS","BLOCKED","FAILED")
  assert ledger[7]["status"]==cur["current_round_status"]
-else:assert cur["completed_new_rounds"]>=8 and ledger[6]["status"]=="PASSED"
+else:assert cur["completed_new_rounds"]>=8 and ledger[7]["status"]=="PASSED"
 issues=rd("V13_3_ISSUES_426_TO_ROUNDS.tsv")
 B={x["issue_id"]:x for x in issues if x["new_primary_round"]=="N08" and x["issue_type"]=="STAGE0_B_CLAIM"}
 Q=[x for x in issues if x["new_primary_round"]=="N08" and x["issue_type"]=="LEGACY_R042_QUARANTINE"]
