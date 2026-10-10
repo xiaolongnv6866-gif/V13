@@ -5,7 +5,6 @@ Optionally run locally with --epub <USER_PRIVATE_TIE_XUE_EPUB> to verify byte-le
 """
 import csv,json,re,sys,hashlib,zipfile
 from pathlib import Path
-from lxml import etree
 P=Path(__file__).resolve().parents[1]
 def table(f):
  with (P/f).open(encoding="utf-8",newline="") as h:return list(csv.DictReader(h,delimiter="\t"))
@@ -53,6 +52,7 @@ for r in rows:
  for k in ("old_defect","observed_actions_and_information","counterexample_or_competing_explanation","bounded_new_literary_hypothesis","agency_authority_time_and_payoff","alternative_rendering_loss"):
   assert len(r[k])>=25, (r["legacy_claim_id"],k)
  if epub:
+  from lxml import etree
   data=epub.read(item["epub_path"])
   assert hashlib.sha256(data).hexdigest()==item["chapter_sha256"]
   ps=["".join(e.itertext()).strip() for e in etree.HTML(data).xpath("//body//p")]
