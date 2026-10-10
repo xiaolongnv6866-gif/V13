@@ -1,0 +1,20 @@
+name: V13.3 V4 cursor ledger receipt and progress sync
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'V13_CURRENT_V4.json'
+      - 'V13_LEDGER_V4.tsv'
+      - 'START_HERE.md'
+      - 'PROGRESS.md'
+      - 'runs/N*_V4.md'
+      - 'scripts/validate_v13_v4_sync.py'
+      - '.github/workflows/v13_3_v4_sync.yml'
+  workflow_dispatch:
+jobs:
+  v4-consistency:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify authoritative V4 ledger cursor receipts recovery entry and aggregate counts
+        run: python3 scripts/validate_v13_v4_sync.py
