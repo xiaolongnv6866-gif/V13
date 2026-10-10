@@ -1,3 +1,13 @@
+## V13.3 最新正式恢复与执行状态｜N02 PASSED（2026-10-11）
+
+**正式V4游标：N03 NOT_STARTED；已完成新计划2/48轮。** 新会话必须以`V13_CURRENT_V4.json`和`V13_LEDGER_V4.tsv`为准。历史B076冻结/旧N01提示词仅供追溯；下一次用户明确发送“继续”才开始N03，N03研究对象《晚明》R013的18项文学B + 1项R042旧隔离。
+
+N02证据：R011 17/17逐ID原XHTML文学B复核，14限定可信/3旧强主张否定；R042 n99隔离已研究但保持OPEN_QUARANTINED待N16整合。证据版提交`7fbe9b32b08ad6d08c32a0be4bcd835661092caa`已于77/77 Actions成功；审查表`v13_3/n02/N02_LITERARY_B_17.tsv`、报告`v13_3/n02/N02_SOURCE_REVIEW.md`、旧隔离`v13_3/n02/N02_LEGACY_R042.tsv`，最终收据`runs/N02_V4.md`。N01、N02合计处置文学B 34/296，待查262；历史192未初审原始项补审18、余174；14旧隔离中来源已复核2，14项均不得未经全面流程直接晋级。候选verified0/reference108/needs_review79/rejected0；独立V3通过0；原Stage0独立C0/20；认证SKILL0。未触发Nuwa阶段、独立V3或额外费用。
+
+本段为最新正式入口，其下所有`N01 NOT_STARTED`、`N02 NOT_STARTED`或旧96轮描述均属历史快照，不能作为新轮启动依据。
+
+---
+
 ## V13.3 当前有效进度｜N01已完成（2026-10-11）
 
 **唯一实际游标：`V13_CURRENT_V4.json` 和 `V13_LEDGER_V4.tsv`。最新确认 N01 `PASSED`、完成 1/48，当前 **N02 NOT_STARTED**。N02仅在用户下次发送“继续”时启动。旧文档中关于 `N01 NOT_STARTED / 0/48` 的说法均为V13.3迁移当天历史快照，不能作为当前进度。旧 B076 状态仍只读。**
