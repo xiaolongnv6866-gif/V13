@@ -103,7 +103,7 @@ execution_trigger: MANUAL_USER_TRIGGER_ONLY_ONE_ROUND
 |R075|K V3补充|《晚明》新获V2合格方法的V3闭环与边界补证|NOT_STARTED|NEW|
 |R076|K V3补充|《铁血残明》新获V2合格方法的V3闭环与边界补证|NOT_STARTED|NEW|
 |R077|K 质量审计|两书全部47条V3证据及新增方法独立性、反例、任务覆盖总审计|NOT_STARTED|NEW|
-|R078|L Stage1.5验收|更新四类分流、coverage-audit与新版用户确认|NOT_STARTED|NEW|
+|R078|L Stage1.5验收|更新四类分流、coverage-audit与新版用户确认|NOT_STARTED|R057|
 |R079|F Stage1.6—Stage5|Stage1.6独立Skill晋级门|NOT_STARTED|R058|
 |R080|F Stage1.6—Stage5|《晚明》RIA++与Bundle|NOT_STARTED|R059|
 |R081|F Stage1.6—Stage5|《铁血残明》RIA++与Bundle|NOT_STARTED|R060|
@@ -331,7 +331,7 @@ execution_trigger: MANUAL_USER_TRIGGER_ONLY_ONE_ROUND
 - **失败处理**：不足则当前轮IN_PROGRESS/FAILED/BLOCKED，写`runs/R077_V2.md`，不把单条假PASS计入verified；GitHub CI只能验结构与溯源，内容需真实核验。
 
 ### R078 · 更新四类分流、coverage-audit与新版用户确认
-- 来源：用户2026-10-10明确新增的修复轮；继承原版Cangjie/Nuwa方法与已核来源
+- 来源：原R057 Stage1.5最终分流关口，结合新版R057—R077的真实新增结果复核
 - **必须操作**：对应旧R057历史审计门但重做的是**分流聚合与本轮用户关口**而不是重做V1/V2；按R057—R077的新增真实证据更新原187加合法新增候选的去向，分别记录legacy14，完善reference到Stage3计划，向用户展示verified/reference/needs_review/rejected并确认。
 - **必须产物**：books/*/{verified.md,references.md,needs-review.md,coverage-audit.md,rejected/}; gates/CANGJIE_STAGE15_V2.md; runs/R078_V2.md
 - **验收标准**：全体可溯源、19任务覆盖与用户明确确认；若0 verified则交付缺口并按仓颉原版停止编译，**不假通过下一轮**
