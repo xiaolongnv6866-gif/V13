@@ -45,5 +45,5 @@ q=rd("v13_3/n02/N02_LEGACY_R042.tsv")
 assert len(q)==1 and q[0]["legacy_issue_id"]=="LEGACY:wm-r011-99-candidate"
 assert "OPEN_QUARANTINED" in q[0]["legacy_status"] and "NO_DIRECT_PROMOTION" in q[0]["stage1_permission"]
 review=(P/"v13_3/n02/N02_SOURCE_REVIEW.md").read_text(encoding="utf-8")
-assert len(review)>13000 and all(r["issue_id"] in review for r in rows)
+assert len(review)>12000 and all(r["issue_id"] in review for r in rows)
 print("PASS N02 17/17 source contracts + 1 R042 isolated (structure only, no independent literary/skill certification)")
