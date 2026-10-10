@@ -1,0 +1,122 @@
+{
+  "project": "V13.2",
+  "batch": "B076",
+  "phase": "CANGJIE_STAGE1_5_V2_FRESH_TASK_WALKTHROUGH",
+  "timestamp": "2026-10-10",
+  "base_main_sha": "e8f644ce82ac49cbab6a3b5025fee165db02bc89",
+  "narrow_V1_source": "gates/B076_V1_4_NARROW_FINAL_ADJUDICATION.tsv",
+  "candidate_ids": [
+    "WM-f15",
+    "WM-p09",
+    "WM-p17"
+  ],
+  "isolation": "SINGLE_AGENT_V2_WALKTHROUGH_ONLY_NOT_INDEPENDENT_V3",
+  "copyright": "ORIGINAL_ONLY_NO_BOOK_PROSE_OR_PERSONS",
+  "safety": "NONTACTICAL_CIVIC_FICTION_NO_REAL_OPERATIONAL_HARM",
+  "expected_output_root": "tests/b076_v2_3_outputs/",
+  "precommit_rule": "Inputs and pass/fail standards must exist on main in a distinct earlier commit from any actual narrative outputs",
+  "common_rules": {
+    "required_sections": [
+      "# 原创新题执行",
+      "## 原创场景",
+      "## 状态与来源账",
+      "## 反例检查",
+      "## 结论与未决事项"
+    ],
+    "min_chinese_chars_scene": 220,
+    "max_chinese_chars_scene": 900,
+    "unique_original_character_names": true,
+    "prohibit": "不得复制《晚明》《铁血残明》角色/事件组合/原句；不能凭自己写的反例推称原著已证明后续历史结果",
+    "status_accounting": "Record confirmed / heard / hypothesized / unresolved separately, and prevent future facts appearing earlier",
+    "scoring": "V2 pass is checklist/walkthrough only; no pretense of external literary/blind V3 reviewer"
+  },
+  "tasks": [
+    {
+      "id": "B076-V2-WM-f15",
+      "candidate_id": "WM-f15",
+      "new_fictional_setting": "虚构江南临河镇，1640年纸坊账册迁存，不涉及兵事",
+      "fixed_input": [
+        "清晨，典簿陆霁签字同意将十册旧帐移到东阁；此为第一版A。",
+        "当日上午屋瓦漏水，修书匠许穗将第七至第十册改列在西厢，形成第二版B，已向库房小吏赵平口头告知。",
+        "陆霁没有看到B，也无人向陆霁复述。午后陆霁仍按A在东阁找第八册，赵平知道B，许穗知道改订原因。",
+        "傍晚的后续修缮及最终搬运是否完成未知。"
+      ],
+      "required_specific": [
+        "原创现场包含至少陆霁和赵平的实时话语/动作，不允许陆霁知道未接获的B。",
+        "四栏记录版本、具体事实、人物知情及确认方式、未决后果。",
+        "明确标出旧版导致的一次误解、真实改订消息送达过程与更正后的一个可见行为。",
+        "禁止记录原小说任何军事场面；即使正文提及转移也不提供现实危险搬运技术。"
+      ],
+      "fail_if": [
+        "主角/上级无凭据得知新版本",
+        "被告知只是旁白总结，没有可见通话/信件/当场对话",
+        "补订前后的十册数量不闭合",
+        "傍晚的结果被写为已完成"
+      ],
+      "expected_closed_facts": [
+        "A:十册东阁",
+        "B:一至六东阁，七至十西厢",
+        "陆霁事先仅知A，赵平与许穗事先知B",
+        "事件尾部实际最终迁存仍未知"
+      ]
+    },
+    {
+      "id": "B076-V2-WM-p09",
+      "candidate_id": "WM-p09",
+      "new_fictional_setting": "虚构清河县义学经费争议，1641年春；内部示例数字不代表史实",
+      "fixed_input": [
+        "虚构义学旧方案每月付馆舍租银12两，本月12两已经实付。",
+        "本月议事人苏仰提出：从下个月起缩减两间闲房、月租可少4两。但房东未确认变更，故下月减少4两还只是预测。",
+        "义学库中现银5两，今晚需要为学生纸墨支付8两，尚有3两实际资金缺口；没有新增收入到账。",
+        "议事人杜函看见这张收入支出账，苏仰只有减租设想；任何历史真实财政标准都不是证据。"
+      ],
+      "required_specific": [
+        "写一场由人物误把预计节省4两当今晚可支款引发的具体行为冲突。",
+        "三栏明细为预计减租、已经发生现金/支付、可动用余额或缺口，并写时间状态。",
+        "要能在剧情里观察到谁纠正、谁改变行动、仍有什么未到期/未确认。",
+        "不可新增可以平账的虚构即时收入，也不能将尚未执行的节省变成现银。"
+      ],
+      "fail_if": [
+        "将4两预测当本月现银",
+        "把下月减租写作房东已批准",
+        "无证据把3两缺口凭空抹平",
+        "假托《晚明》人物推算为真实明代财政定论"
+      ],
+      "expected_closed_facts": [
+        "本月月租实付12",
+        "下月计划少付4但未经批准",
+        "库存5、应付8、当前缺口3",
+        "无新增到账"
+      ]
+    },
+    {
+      "id": "B076-V2-WM-p17",
+      "candidate_id": "WM-p17",
+      "new_fictional_setting": "虚构县城公共书屋事务会议，1642年秋；仅供文学场景",
+      "fixed_input": [
+        "书屋主事沈窈与资助人顾岑对谁负责日常开门产生争议；沈窈主张书屋按时开放，顾岑要求先检查屋顶，尚未决定。",
+        "资金方面：顾岑允诺捐五两修屋顶但还没有交付；现存屋修款为零。",
+        "人员方面：志愿抄写者阿洛只有自愿抄书的承诺，未同意被排定每日守门。",
+        "资产方面：一套借来的旧木架所属人是隔壁私塾，未经同意不能改制或擅移；今天会议不可能在四事项上全部定案。"
+      ],
+      "required_specific": [
+        "原创新会场景，两位当事人意见都须可理解且影响决议。",
+        "四列至少包含事务、资金、人员、资产；每项写谁主张、事实状态、是否获得合法同意、尚未解决谁负责。",
+        "至少一处由阿洛本人表达拒绝或条件，不能自动把口头代他同意当成事实。",
+        "部分解决是允许的，但不允许虚构捐款到账、书架产权变化或所有人一致。"
+      ],
+      "fail_if": [
+        "资金允诺被记为可用五两",
+        "志愿者无同意自动被指派守门",
+        "借来书架被当成书屋所有",
+        "一声命令取代四项具体约定"
+      ],
+      "expected_closed_facts": [
+        "open_hours unresolved",
+        "pledge5 not paid cash0",
+        "A-Luo did not consent to daily door duty",
+        "wooden shelf borrowed, ownership outside bookhouse"
+      ]
+    }
+  ]
+}
