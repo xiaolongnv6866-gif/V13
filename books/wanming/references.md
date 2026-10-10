@@ -1,4 +1,74 @@
-# R078 CURRENT — 42 references; no active methods
+# B076 LATEST: 51 reference / 40 needs_review / 0 verified
+本书新增9项来源受限的案例/反例，正式保存在此处；下方原R057和旧R078所列42项参考历史记录不变。Stage3/book/overview.md仅PLANNED_ONLY_NOT_CREATED。0主动方法晋级。
+
+### WM-c05
+**交易伙伴归来暴露单一资金来源风险** (case)
+- 来源：`n099/p18;n099/p19`，段落组合SHA256 `c98776fd15c896cbcf4341b6c47180919e87e0fe293018317cdda7aca71f9727`。
+- 原文限域事实：案例仅呈现单点依赖风险被意识到，随后担忧暂缓。
+- **不得宣称：** 无既成长期断供与损失；伙伴返回引发担忧，但没有证明单一来源风险已经造成经济损失。。
+- 当前真实交付：`books/wanming/references.md#wm-c05`；未来 `books/wanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### WM-c11
+**一个新设想被否定之后又有采购争论** (case)
+- 来源：`n437/p6;n437/p29;n437/p31`，段落组合SHA256 `f4dff33ea20897cece93a5f547e677c994cab8463e679f53afeeb789b1438e60`。
+- 原文限域事实：两个不同问题并列参考；不推定否决触发合同改革。
+- **不得宣称：** 两者之间不存在已证同案因果；新想法遭否决和另项采购争议之间缺真正因果。；原文定位n437/p6的现场可见：场景起因与行动：工坊曾提出一项新制品设想，但评议认为不适合而否决；后续其他产品的交付争执又促使上级宣布调整签约责任。。该候选缺完整结果或连续因果，故暂保持V1 REVIEW，不能越界推广。。
+- 当前真实交付：`books/wanming/references.md#wm-c11`；未来 `books/wanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### WM-ce06
+**核心贸易伙伴单点依赖** (counter-example)
+- 来源：`n099/p17;n099/p18;n099/p19`，段落组合SHA256 `257eb5efbffde4f27569e9eae07c2a6f3e710aeec3e0a7b30ae2dbf7e3254016`。
+- 原文限域事实：单点风险是尚未发生的假设，不是断供事故。
+- **不得宣称：** 担心发生不等于断供发生；主人公担心关键伙伴受损，不能将担心冒充已经断供。；原文定位n099/p17的现场可见：局面：负责人把后续多项经营计划寄托在一位合作伙伴的归来。。该候选缺完整结果或连续因果，故暂保持V1 REVIEW，不能越界推广。。
+- 当前真实交付：`books/wanming/references.md#wm-ce06`；未来 `books/wanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### WM-ce08
+**机构裁撤的纸面节省不等于实际财政恢复** (counter-example)
+- 来源：`n155/p28;n155/p30`，段落组合SHA256 `f8a9c95e9354d1f05c871983402d6b3c7e463d732388fb3de2ada70dff9d15b4`。
+- 原文限域事实：政策影响只能归为书内叙事判断，不能当历史成本实测。
+- **不得宣称：** 无独立收支净额审计；关于裁撤纸面收益的批评不能替代真实收支核对。；原文定位n155/p28的现场可见：局面：叙事回望社会变动及行政整顿对普通人的潜在影响。。该候选缺完整结果或连续因果，故暂保持V1 REVIEW，不能越界推广。。
+- 当前真实交付：`books/wanming/references.md#wm-ce08`；未来 `books/wanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### WM-ce12
+**压制竞争会诱发忽视实际改进的诱因** (counter-example)
+- 来源：`n380/p25;n380/p27;n380/p28`，段落组合SHA256 `bce2a507f4e1dbe13e724d8cf10f56275d4ad58456c461f9d094847067cbbfac`。
+- 原文限域事实：保留垄断风险担忧与暂缓意向，不写已发生创新衰退。
+- **不得宣称：** 未见相应决策长期结果；人物推测限制竞争可能产生负激励，未见完整后果。；原文定位n380/p25的现场可见：局面：商业机构讨论是否进一步吞并生产环节。。该候选缺完整结果或连续因果，故暂保持V1 REVIEW，不能越界推广。。
+- 当前真实交付：`books/wanming/references.md#wm-ce12`；未来 `books/wanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### WM-ce13
+**基层负责人集资源权与监督权的隐藏成本** (counter-example)
+- 来源：`n425/p25;n425/p26;n425/p35;n425/p40`，段落组合SHA256 `567c774a542faebe2cee92a3ee0fb11ffbdbd7bff4b38421667d553361675de8`。
+- 原文限域事实：控告、处分、推测三种证据层级必须分开。
+- **不得宣称：** 不能凭投诉认定全部指控属实或长效；资源权监督权重叠受到质疑，未能证明实质违法或弊端已发生。。
+- 当前真实交付：`books/wanming/references.md#wm-ce13`；未来 `books/wanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### WM-ce15
+**从组织总体利益推算的安置政策可能忽视个人意愿** (counter-example)
+- 来源：`n494/p8;n494/p11;n494/p18`，段落组合SHA256 `77cee5e6a168916bf8085aa81f4caaa80e7a7030807d0c7cb8d46ef2a9cda9f2`。
+- 原文限域事实：组织方案与安置对象真实意愿分离，不伪造同意或拒绝。
+- **不得宣称：** 无普通当事人独立接受记录；集体安排被质疑未必尊重个人，却缺独立个人的实际表态。；原文定位n494/p8的现场可见：局面：管理者认为让成员迁居另一个地方对组织和个人都有长远好处。。该候选缺完整结果或连续因果，故暂保持V1 REVIEW，不能越界推广。。
+- 当前真实交付：`books/wanming/references.md#wm-ce15`；未来 `books/wanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### WM-ce17
+**新制度引入后未必产生预想中的共同价值观** (counter-example)
+- 来源：`n519/p66;n519/p67;n519/p69;n519/p70;n520/p15;n520/p17`，段落组合SHA256 `e050661d462477a1175be20d6cb0453c177aa042b5bd6784c3ee2b94a02aeaa3`。
+- 原文限域事实：单一裁议可能违背主持人预期，不能推断试点整体成败。
+- **不得宣称：** 长期制度成败未验收；旁听与陪审中的立场差异未必证明制度长期共同价值观的成败。。
+- 当前真实交付：`books/wanming/references.md#wm-ce17`；未来 `books/wanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### WM-ce18
+**频繁改动部门需求会积累隐形时间成本** (counter-example)
+- 来源：`n529/p38;n529/p40;n529/p41`，段落组合SHA256 `f665a15a3a454efdcf31800f7508695e806d5670dedf702cadb5f3fb5b89a1a3`。
+- 原文限域事实：现场出现改期协调摩擦，真实返工成本仍未知。
+- **不得宣称：** 累计工时返工费用与交付结果缺失；短期需求反复增加可见，累计工时及真实返工成本未被证明。；原文定位n529/p38的现场可见：局面：多个部门正在处理已经排定的运输与物资供给计划。。该候选缺完整结果或连续因果，故暂保持V1 REVIEW，不能越界推广。。
+- 当前真实交付：`books/wanming/references.md#wm-ce18`；未来 `books/wanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+---
+
+## 原有参考（历史完整保留）
+
+# R078 HISTORICAL BASELINE — 42 references; no active methods
 
 The 42 documentary references below retain source value but lack standalone V2/V3 method verification. R057 details remain intact. Current per-ID disposition: `books/wanming/R078_V2_DECISION_MATRIX.tsv`; planned Stage3 destinations: 12 cases + 12 counterexamples -> `.cangjie/capabilities/book/overview.md`, 18 terms -> `.cangjie/capabilities/book/glossary.md` (each candidate retains source ID). **Both Stage3 destinations are PLANNED_ONLY, NOT_MATERIALIZED**, because verified=0 and compiler progression is blocked. The reference text here is the real present destination; no knowledge was silently discarded, and no Skill was compiled. This updates the delivery route, not the historical source evidence.
 

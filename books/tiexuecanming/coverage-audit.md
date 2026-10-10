@@ -1,3 +1,15 @@
+# B076最新覆盖：reference 57 / needs_review 39 / verified0
+以下是本次新增参考路线对旧R057任务的关联（**不是完整独立任务通过**）：
+- TX-02: TX-c05, TX-ce01, TX-ce12
+- TX-03: TX-ce09, TX-ce12, TX-ce18
+- TX-04: TX-ce09, TX-ce10, TX-ce14
+- TX-05: TX-c05, TX-ce08, TX-ce12, TX-ce15
+- TX-07: TX-ce14, TX-ce18
+- TX-08: TX-ce08, TX-ce10
+原Stage0各10任务的合同不变，独立C均0/10；旧19项R057任务对应候选关联也不等于验收。下文历史数量保留为审计快照；新分类以R078_V2_DECISION_MATRIX.tsv为准。
+
+---
+
 R078: 10/10 candidate links, 0/10 independently verified full tasks; 48 reference entries, 48 needs_review. Original20 crosswalk: gates/R078_STAGE0_ORIGINAL20_TO_R057_19_CROSSWALK.tsv. All source paths and IDs remain in the R078 decision matrix. No Stage3 materialized; zero skill certified.
 
 # 《铁血残明》Stage1.5 coverage-audit（R057）

@@ -1,3 +1,16 @@
+# B076最新覆盖：reference 51 / needs_review 40 / verified0
+以下是本次新增参考路线对旧R057任务的关联（**不是完整独立任务通过**）：
+- WM-02: WM-ce17
+- WM-03: WM-c11, WM-ce08, WM-ce13, WM-ce15, WM-ce18
+- WM-04: WM-c05, WM-c11, WM-ce06, WM-ce12, WM-ce18
+- WM-05: WM-c05, WM-ce06
+- WM-06: WM-ce08
+- WM-07: WM-ce12, WM-ce13, WM-ce17
+- WM-08: WM-ce15
+原Stage0各10任务的合同不变，独立C均0/10；旧19项R057任务对应候选关联也不等于验收。下文历史数量保留为审计快照；新分类以R078_V2_DECISION_MATRIX.tsv为准。
+
+---
+
 # R078 UPDATE: 9/9 R057 tasks candidate-linked, 0/9 verified
 
 B075 raw 47+22 diagnostic outputs yield at least one tested candidate associated with each of WM-01..09. This means possible source association only, not full Task acceptance, actual independent C or V3 net benefit. Full 9-row linked candidate list: `v2/v3/B075_STAGE0_19_COVERAGE_AUDIT.tsv`. Old Adler original T01..T10 are ten different contracts: see `gates/R078_STAGE0_ORIGINAL20_TO_R057_19_CROSSWALK.tsv`; the WM-T05 and WM-T09 exact tasks remain partially unmatched to revised R057 9 Task definitions. Do not merge silently. Method decisions: `books/wanming/R078_V2_DECISION_MATRIX.tsv`. Reference 42 sources are at references.md; Stage3 copies are planned, not delivered. Independent C=NOT_RUN, verified=0, no skill compilation.

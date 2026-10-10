@@ -5,7 +5,7 @@ P=pathlib.Path(__file__).resolve().parents[1]
 def rows(path):
  with (P/path).open("r",encoding="utf-8",newline="") as f:return list(csv.DictReader(f,delimiter="\t"))
 def sha(path):return subprocess.check_output(["git","hash-object",str(P/path)],text=True).strip()
-counts={"wanming":(91,42,49,31),"tiexuecanming":(96,48,48,38)}
+counts={"wanming":(91,51,40,31),"tiexuecanming":(96,57,39,38)}
 allids=[]
 all_new=[]
 for book,(total,refs,needs,tested) in counts.items():
@@ -18,7 +18,7 @@ for book,(total,refs,needs,tested) in counts.items():
  assert sum(x["B076_final_decision"] in ("verified","rejected") for x in new)==0
  assert sum(x["raw_pair_git_sha"]!="NONE" for x in new)==tested
  for a,b in zip(old,new):
-  assert a["decision"]==b["B076_final_decision"]
+  assert a["decision"]==b["B076_final_decision"] or (a["decision"]=="needs_review" and b["B076_final_decision"]=="reference" and b["candidate_id"] in {x["candidate_id"] for x in rows("gates/B076_18_SOURCE_ONLY_REFERENCE_ROUTE.tsv")})
   assert a["original_source_loci"]==b["source_loci"]
   assert a["candidate_id"]==b["candidate_id"]
   if b["raw_pair_git_sha"]!="NONE":
@@ -90,8 +90,8 @@ for x in q28:
  assert x["book"]==y["book"] and x["source_loci"]==y["source_loci"]
  assert x["evidence_digest_sha256"]==y["paragraph_digest_sha256"]
  assert x["actual_source_recheck_file"]=="gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv"
- assert x["status"]=="B076_ORIGINAL_SOURCE_RECHECKED_V1_CAUSAL_SCOPE_STILL_OPEN"
- assert x["B076_V1"]=="REVIEW"
+ assert x["status"] in ("B076_REFERENCE_ROUTED","B076_V1_NARROW_PASS","B076_V1_SOURCE_GAP_REMAINS")
+ assert x["B076_V1"] in ("REVIEW","PASS_NARROW","REFERENCE_SOURCE_ONLY")
  assert x["reviewer"]=="SAME_AGENT_EPUB_CONTEXT_REVIEW_NOT_INDEPENDENT"
 assert "89" in (P/"gates/B076_V1_28_SOURCE_RECHECK_REPORT.md").read_text()
 assert "source_paths" in (P/"scripts/verify_b076_v1_private_epub_receipts.py").read_text()
@@ -112,6 +112,25 @@ assert all(x["contract_execution"]=="CONTRACT_RESTORED_NOT_RUN" and x["independe
 assert all(x["old_required_output"]==next(y["original_required_output"] for y in q20 if y["old_task_id"]==x["old_task_id"]) for x in audit20)
 for oldid in ("WM-T05","WM-T09"):
  assert next(x for x in audit20 if x["old_task_id"]==oldid)["exact_gap_adjudication"].startswith("SPECIAL_RESTORED")
-assert state["b076_v1_claim_scope_reviewed"]==28 and state["b076_new_v1_pass"]==0
+assert state["b076_v1_claim_scope_reviewed"]==28 and state["b076_new_v1_pass"]==3
 assert "Original immutable requirement" in (P/"gates/B076_STAGE0_WM_T05_T09_RESTORED_CONTRACTS.md").read_text()
 print("B076 incremental: 28 claim scopes adjudicated (4/6/18); 20 original Stage0 outputs retained, T05/T09 executable test contracts restored; no V1/V3 promotion")
+
+# The 18 source-only references are real markdown destinations, not skill methods.
+new18=rows("gates/B076_18_SOURCE_ONLY_REFERENCE_ROUTE.tsv")
+new4=rows("gates/B076_V1_4_NARROW_FINAL_ADJUDICATION.tsv")
+assert len(new18)==18 and len({x["candidate_id"] for x in new18})==18
+assert len(new4)==4 and {x["candidate_id"] for x in new4 if x["V1"]=="PASS_NARROW"}=={"WM-f15","WM-p09","WM-p17"}
+assert all(x["V2"]=="NOT_RUN" and x["V3"]=="NOT_RUN" for x in new4)
+assert sum(x["book"]=="wanming" for x in new18)==sum(x["book"]=="tiexuecanming" for x in new18)==9
+for x in new18:
+ r=next(y for y in all_new if y["candidate_id"]==x["candidate_id"])
+ assert r["B076_final_decision"]=="reference" and r["actual_destination"]==x["destination"]
+ assert r["stage3_materialized"]=="PLANNED_ONLY_NOT_CREATED"
+ assert r["raw_pair_git_sha"]=="NONE"
+ assert x["digest"]==audit_by_id[x["candidate_id"]]["paragraph_digest_sha256"]
+ path,anchor=x["destination"].split("#")
+ assert ("### "+x["candidate_id"]) in (P/path).read_text()
+assert state["b076_decisions"]["reference"]==108 and state["b076_decisions"]["needs_review"]==79
+assert state["b076_reference_routing_new"]==18 and state["overall_management_units_completed"]==75
+print("B076 refreshed: 18 references, 3 narrow V1 only, 0 real V2/V3, block unchanged")

@@ -1,3 +1,8 @@
+# 最新B076内部复核（2026-10-10）
+通过用户EPUB原文支持的新审核，将旧28项V1来源缺口中的18项案例/反例真实转入两书references.md（WM9/TX9），另外3项只取得限定范围V1 PASS_NARROW（WM-f15/p09/p17），剩7项保持REVIEW。正式分流 **verified0 / reference108 / needs_review79 / rejected0，总187**；早先用户方案A确认的0/90/97/0为修复前基线并保留收据。三项新V1均没有V2实际新题结果和独立V3；全部69个独立V3复制未做。Stage0独立C0、旧隔离14及文学B未审192不清零，SKILL0。B076仍BLOCKED，75/96，B077 NOT_STARTED，零verified不得编译。详情：`gates/B076_V1_REFERENCE_ROUTE_REPORT.md`、`gates/B076_18_SOURCE_ONLY_REFERENCE_ROUTE.tsv`、`gates/B076_V1_NARROW_METHOD_RECORDS.md`。
+
+---
+
 # 2026-10-10｜B076 28项主张缩窄＋Stage0合同缺口实修（最新）
 本次对已通过独立本地SHA重算的28/28原文收据（89处/76段/36章）逐ID裁剪。新`gates/B076_V1_28_CLAIM_SCOPE_ADJUDICATION.tsv`分别为窄场景可支持4、不同故事拼接因果仍不足6、仅有可查案例/反例素材18；**正式V1方法PASS新增0、独立V3 0、认证0**，官方187四分类不变。另建20条旧Stage0输出合同差异复核表与WM-T05三级认知、WM-T09跨卷四状态的独立陌生题合同，**仅完成合同复原，未创作和盲评，Stage0独立C仍0/20**。见`gates/B076_V1_28_CLAIM_REPAIR_REPORT.md`和`gates/B076_STAGE0_WM_T05_T09_RESTORED_CONTRACTS.md`。本轮继续B076 BLOCKED，75/96，B077 NOT_STARTED，零verified禁止晋级编译。
 

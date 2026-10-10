@@ -1,4 +1,74 @@
-# R078 CURRENT — 48 references; no active methods
+# B076 LATEST: 57 reference / 39 needs_review / 0 verified
+本书新增9项来源受限的案例/反例，正式保存在此处；下方原R057和旧R078所列48项参考历史记录不变。Stage3/book/overview.md仅PLANNED_ONLY_NOT_CREATED。0主动方法晋级。
+
+### TX-c05
+**幕友给出处理申诉的方案，知县接受但后果未示** (case)
+- 来源：`n095/p28;n095/p35;n095/p36`，段落组合SHA256 `18d4f00feb3305e56206b1110c960a372de7a5391b2769cc0cb2c49d8b57805d`。
+- 原文限域事实：案例仅记录建议与口头接受，权力伦理保持批判。
+- **不得宣称：** 没有后续实施及效果证明；幕友的建议与官员暂时接受可见，实际执行和后果未在引文中发生。。
+- 当前真实交付：`books/tiexuecanming/references.md#tx-c05`；未来 `books/tiexuecanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### TX-ce01
+**后台倚赖被人事变动打断** (counter-example)
+- 来源：`n013/p34;n013/p52;n013/p56`，段落组合SHA256 `071a8a3692a0b20a0228ed45988ff51646541300d0c722365eaebaa5eb9cb06c`。
+- 原文限域事实：一次人事交接中的口头通知存在争议，不宣布旧授权法律无效。
+- **不得宣称：** 人物猜测不得代替真实授权过程；承发官担忧追责并拟隐瞒手续，不足证明其旧幕后授权已正式无效。。
+- 当前真实交付：`books/tiexuecanming/references.md#tx-ce01`；未来 `books/tiexuecanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### TX-ce08
+**严密军律的内部张力不是已发生崩溃** (counter-example)
+- 来源：`n165/p1;n165/p5;n165/p80`，段落组合SHA256 `2d4d8ba5950c7aa7eef232e052a42303b66b1f8d34a8af5ce6dd5ccd32ba4858`。
+- 原文限域事实：高压组织引发对风险的讨论，不代表反效果已经出现。
+- **不得宣称：** 未有长期制度反效果验证；军律规则遭质疑，没有发生可确认的未来全组织长期反噬。；原文定位n165/p1的现场可见：原文当场可见：一名文职属员对制度条款提出具体质疑，主持者担心长期紧张产生反作用，同时强调职位权威。。该候选缺完整结果或连续因果，故暂保持V1 REVIEW，不能越界推广。。
+- 当前真实交付：`books/tiexuecanming/references.md#tx-ce08`；未来 `books/tiexuecanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### TX-ce09
+**资源收入预估无法抹掉真实现金流压力** (counter-example)
+- 来源：`n174/p13;n174/p37;n174/p39`，段落组合SHA256 `051fa77d94d2aaece38db539b5b74ea7ab458fc29ef0e04fa74a8724b6f74ffe`。
+- 原文限域事实：预算预估和现有开支可分辨，未来现金结果尚未知。
+- **不得宣称：** 无同口径实际现金结果；经营收入预估与支出相撞，尚需证明同一口径的真实现金净流量结果。。
+- 当前真实交付：`books/tiexuecanming/references.md#tx-ce09`；未来 `books/tiexuecanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### TX-ce10
+**高回报说辞不能消灭家庭现金需求** (counter-example)
+- 来源：`n180/p12;n180/p20;n180/p29`，段落组合SHA256 `549f6ba9deccf39725d82dcb153dba175445a696b9a30b4b8a0c2efda5ca8f89`。
+- 原文限域事实：参与者意见不同，未证制度成功或失败。
+- **不得宣称：** 无未来利息兑付或违约结局；角色对高利率和家庭现金的异议只是意见差别，未来产品失败未见。。
+- 当前真实交付：`books/tiexuecanming/references.md#tx-ce10`；未来 `books/tiexuecanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### TX-ce12
+**签了任命册也有尚未核清的职位空缺** (counter-example)
+- 来源：`n213/p2;n213/p5;n213/p18;n213/p21`，段落组合SHA256 `b1138f4323e6f01b0d9dc1c54908886e303d0292d570855e06e394bacfda14a2`。
+- 原文限域事实：正式登记和实际就任可不同步；举报真实性必须留空。
+- **不得宣称：** 举报真伪与最终处理未证；签署任命与举报、空岗同时出现，但举报真伪不能提前判定。；原文定位n213/p2的现场可见：原文当场可见：上司已签署人事册，却遇到举报尚需调查；争端在营内升级，而例行简报没有完整呈报。。该候选缺完整结果或连续因果，故暂保持V1 REVIEW，不能越界推广。。
+- 当前真实交付：`books/tiexuecanming/references.md#tx-ce12`；未来 `books/tiexuecanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### TX-ce14
+**胜利发生不表示战后责任已经关闭** (counter-example)
+- 来源：`n357/p49;n357/p58;n357/p60`，段落组合SHA256 `4e59bee60358965a987e56ce8195366d39197e88bc99d904e2d1d8070517e4ff`。
+- 原文限域事实：阶段性成果产生新的协商责任，不预设安置成功。
+- **不得宣称：** 未经落实不得判政策成败；事后安置责任仍在商议，不等于方案已失败或已解决。；原文定位n357/p49的现场可见：原文当场可见：事后大量人员安置、粮食、地方承受力和管理责任成为新争论，地方官提出附带条件。。该候选缺完整结果或连续因果，故暂保持V1 REVIEW，不能越界推广。。
+- 当前真实交付：`books/tiexuecanming/references.md#tx-ce14`；未来 `books/tiexuecanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### TX-ce15
+**新士官饷等会制造新的权责歧义** (counter-example)
+- 来源：`n361/p34;n361/p35;n361/p36`，段落组合SHA256 `c3d5087761142fde755c8e728fa0b92ea97ee52962ad986aa75525d06ec576bc`。
+- 原文限域事实：薪酬地位与指挥关系可在讨论时被区分；不能写长期落实。
+- **不得宣称：** 口头解释并非长期执行验证；士官分级引出权限问题，但当场得到解释，长期歧义仍待实施证明。。
+- 当前真实交付：`books/tiexuecanming/references.md#tx-ce15`；未来 `books/tiexuecanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+### TX-ce18
+**纸面后勤方案无法覆盖实际劳动现场** (counter-example)
+- 来源：`n490/p28;n490/p30;n505/p8`，段落组合SHA256 `71165d8c64b34ee30c0a84d5716fbec8afb786b9d9d5c83b1b002ea454b2944d`。
+- 原文限域事实：两个局部场面分别证明纸面/现场差异与后果存在。
+- **不得宣称：** 两个场面直接因果无法确认；n490现场事务和n505普通人的生活异议不一定是同一纸面方案直接造成。。
+- 当前真实交付：`books/tiexuecanming/references.md#tx-ce18`；未来 `books/tiexuecanming/.cangjie/capabilities/book/overview.md` 尚未创建；V2/V3方法资格均未获证。
+
+---
+
+## 原有参考（历史完整保留）
+
+# R078 HISTORICAL BASELINE — 48 references; no active methods
 
 The 48 documentary references below remain source-grounded but not standalone verified methods. R057 details are retained. Current per-ID route: `books/tiexuecanming/R078_V2_DECISION_MATRIX.tsv`; 15 cases and 13 counterexamples plan Stage3 `book/overview.md`, 20 terms plan `book/glossary.md`, each linked to old source ID and R057 source loci. **Future destinations PLANNED_ONLY, NOT_MATERIALIZED** because zero verified blocks Stage1.6 through Stage5. This references.md is the actual current delivery location; no ability or literary effectiveness is certified. Seven separate historical R042 quarantines are not counted in the 48.
 

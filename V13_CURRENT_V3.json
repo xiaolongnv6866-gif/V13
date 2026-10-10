@@ -149,8 +149,8 @@
   "b076_evidence_commit": "16c1410e9cddb41de99c635ce48bd9c6114ee490",
   "b076_decisions": {
     "verified": 0,
-    "reference": 90,
-    "needs_review": 97,
+    "reference": 108,
+    "needs_review": 79,
     "rejected": 0,
     "unique": 187,
     "legacy14": 14
@@ -171,7 +171,7 @@
   "b076_confirmation_complete": true,
   "b076_promotion_authorized": false,
   "b076_heldout_status": "SEALED_NOT_RUN",
-  "b076_new_v1_pass": 0,
+  "b076_new_v1_pass": 3,
   "b076_v1_source_recheck_status": "28_OF_28_ANCHOR_RECHECKED_V1_CAUSAL_SCOPE_STILL_OPEN",
   "b076_private_epub_exact_sha_confirmed": "WANMING_AND_TIEXUE_BOTH_MATCH_R002",
   "b076_28_source_locus_visits": 89,
@@ -190,5 +190,22 @@
   "b076_stage0_20_output_reaudit": "gates/B076_STAGE0_20_EXACT_DELIVERABLE_REAUDIT.tsv",
   "b076_stage0_wm_t05_t09_contracts": "gates/B076_STAGE0_WM_T05_T09_RESTORED_CONTRACTS.md",
   "b076_stage0_new_independent_full_pass": 0,
-  "b076_independent_v3_creator_and_judges": "NOT_AVAILABLE_UNASSIGNED"
+  "b076_independent_v3_creator_and_judges": "NOT_AVAILABLE_UNASSIGNED",
+  "b076_historic_user_A_approved_counts": {
+    "verified": 0,
+    "reference": 90,
+    "needs_review": 97,
+    "rejected": 0
+  },
+  "b076_new_v1_narrow_ids": [
+    "WM-f15",
+    "WM-p09",
+    "WM-p17"
+  ],
+  "b076_real_v2_gain": 0,
+  "b076_reference_routing_new": 18,
+  "b076_original28_current": "18_REFERENCE_3_V1_NARROW_PASS_7_REVIEW",
+  "b076_reference_manifest": "gates/B076_18_SOURCE_ONLY_REFERENCE_ROUTE.tsv",
+  "b076_v1_narrow_sheet": "gates/B076_V1_4_NARROW_FINAL_ADJUDICATION.tsv",
+  "b076_latest_route_report": "gates/B076_V1_REFERENCE_ROUTE_REPORT.md"
 }
