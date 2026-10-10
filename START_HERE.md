@@ -1,3 +1,12 @@
+# V13 v13.1 最新唯一正式执行入口（2026-10-10；R062已通过）
+
+**正式完成62/110轮，最后R062 PASSED；唯一当前轮R063 NOT_STARTED。** 等用户下一次手动「继续」，才执行R063《晚明》23条V1 REVIEW原文逐项复核；不预先启动R063。唯一正式状态依据`V13_CURRENT_V2.json`、`V13_LEDGER_V2.csv`、`V13_REVISED_110_ROUNDS.md`，旧89轮文件仅历史快照。
+
+R062研究见`v2/stage0/BOOK_OVERVIEW_DELTA.md`和`v2/stage0/QUALITY_DEBT_ROUTING.tsv`、`runs/R062_V2.md`：两份R042批准BOOK_OVERVIEW原样保留，以Delta限制原书结论；426冻结原ID全部映射（早期296 B：R058审43+R059审61=104限域审核、192仍未逐ID复审；R042历史14旧ID仍隔离；39 V1+11 V2+47 V3待后轮；19写作任务核49个原章68个p锚点并保留部分语义错位）。最关键的TX-08早期源锚点与所称制度流程并不全部对应，不得因此主动升级。完成来源性/审计任务不等于已认证原创SKILL。R062证据提交`c14d801176eba4ad24d920e2232efbd28056826b` 62/62 Actions SUCCESS，最终游标提交还应单独核验。
+
+认证Skill0、V3新增真实测试0/47、独立创作C NOT_RUN、密封题库SEALED_NOT_RUN，均未变化。
+---
+
 # V13 最新唯一实时执行入口（R061 PASSED，2026-10-10）
 
 **正式通过61/110轮；最后R061 PASSED；新版唯一下一轮R062 NOT_STARTED。** 仅在用户下一次手动“继续”时启动R062《两书BOOK_OVERVIEW与任务清单的质量债闭合映射》。不得提前启动R062。权威状态仍以V13_CURRENT_V2.json、V13_LEDGER_V2.csv、V13_REVISED_110_ROUNDS.md为准。
