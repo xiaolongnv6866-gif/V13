@@ -1,6 +1,6 @@
 # V13 R057｜Cangjie Stage1.5分流与用户门
 
-status: BLOCKED_USER_CONFIRMATION_AND_ZERO_VERIFIED
+status: BLOCKED_ZERO_VERIFIED_SCHEME_A_TRIAGE_APPROVED_EXECUTION_PENDING
 cangjie_pin: a28de55ba881b9928956a55048f743f7a9e3b23e
 nuwa_pin: fe0374687037c4cc51a65c1e0c145afe2981dc69
 
@@ -16,4 +16,7 @@ R056首次候选201/209对照168/209因题干条件不公无效；公平重比�
 
 Stage0 BOOK_OVERVIEW 19项独立写作任务全部有原始来源、R055短篇试写及R056公平同题比较；但**0/19有verified方法**。缺口：单条方法盲评增益、真实明代外证、跨章/跨卷人物与资源连续性、个人自主与后果、文学质量独立审查。详细覆盖见`R057_TASK_COVERAGE.tsv`和两书coverage-audit.md。
 
-用户必须明确批准本次**诚实的分流与缺口范围**，批准不能代替V3。依原版`methodology/03-stage1.5-triple-verify.md`无verified应停止编译；即使确认本轮范围，现阶段也不能正常将任何方法送入R058独立Skill晋级。推荐另外获得明确授权的**定向补证**：先复核39个V1 REVIEW，补11个V2，针对47个优先高价值方法做公平预注册、独立盲评、逐方法消融与长篇连续性新题，未证实者继续待核。不擅自改89轮计划/降低三重门/动用密封题库。用户批准前保持R057 BLOCKED、56轮PASSED、R058未启动。
+用户已于2026-10-10明确批准本次**诚实的分流与缺口范围（方案A）**，批准不能代替V3。依原版`methodology/03-stage1.5-triple-verify.md`无verified应停止编译；即使确认本轮范围，现阶段也不能正常将任何方法送入R058独立Skill晋级。推荐另外获得明确授权的**定向补证**：先复核39个V1 REVIEW，补11个V2，针对47个优先高价值方法做公平预注册、独立盲评、逐方法消融与长篇连续性新题，未证实者继续待核。不擅自改89轮计划/降低三重门/动用密封题库。用户批准前保持R057 BLOCKED、56轮PASSED、R058未启动。
+
+## 方案A已经明确批准，但实质验证仍阻断
+用户批准四分流范围和专项补证计划准备，见`gates/R057_USER_APPROVAL_A.md`和`gates/R057_REMEDIATION_PLAN.md`。39条V1、11条V2、47条V3仍无新验证，尚未批准具体执行包。R057 BLOCKED，R058不得启动。

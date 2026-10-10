@@ -374,3 +374,6 @@ R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回�
 - 完整187条原ID及源坐标，对接R054 V1、R055 V2、R056 V3，严格分流verified **0**、reference **90**、needs_review **97**、rejected **0**；97项是39源REVIEW、11项V2未测、47项V3未证实效用。14条R042历史隔离独立待核，R007—R024其他风险未清除。
 - Stage0全部19任务有RAW及短场景对照，但0任务有verified能力。公平V3候选201对照203、0胜17平2负；B PROVISIONAL、独立C NOT_RUN、Skill0、heldout SEALED。
 - 书籍两EPUB SHA本地匹配；原始证据仍在，R057交付见books/*/R057_DECISION_MATRIX.tsv和分流文件、gates/CANGJIE_STAGE15.md及两张逐项TSV、runs/R057.md。用户关口未批准，本轮状态BLOCKED，进度保持56/89，游标不许推进R058。
+
+## R057 方案A已批准（2026-10-10），执行范围仍待定
+用户批准四分流与补证计划编制：零verified，90参考，97待核，零rejected不变。39条V1、11条V2、47条V3完整逐ID队列及新题草案已形成，不表示有新增实际验证。首批提案14项V1源重审、11份V2输入合同冻结、V3独立消融8方法/24对仅拟议。不得因用户方案A批准推进R058、改变89轮或动用密封测试；R057继续BLOCKED、已过56轮、B PROVISIONAL、独立C NOT_RUN、SKILL0。详见`gates/R057_REMEDIATION_PLAN.md`。

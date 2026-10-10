@@ -62,8 +62,13 @@
   "cangjie_stage1_5_v1": "COMPLETE_148_LIMITED_SOURCE_PASS_39_REVIEW_0_FAIL_B_GLOBAL_PROVISIONAL",
   "cangjie_stage1_5_v2": "COMPLETE_19_NEW_TASKS_38_AUTHORED_WALKTHROUGHS_57_CRITERIA_47_LIMITED_PASS_11_NOT_TESTED_90_REFERENCE_39_V1_BLOCKED",
   "cangjie_stage1_5_v3": "TASK_COMPARISON_EXECUTED_19_MATCHED_CASES_CANDIDATE_201_BASELINE_203_0_WIN_17_TIE_2_LOSS_NO_INCREMENTAL_V3_CERTIFICATION",
-  "cangjie_stage1_5_user_confirm": "PENDING_R057_USER_APPROVAL",
+  "cangjie_stage1_5_user_confirm": "USER_APPROVED_R057_TRIAGE_SCHEME_A_EXECUTION_SCOPE_PENDING",
   "cangjie_stage1_5_r057_triage": "0_VERIFIED_90_REFERENCE_97_NEEDS_REVIEW_0_REJECTED",
   "cangjie_stage1_5_r057_coverage": "RAW19_VERIFIED0",
-  "cangjie_stage1_5_legacy_quality": "14_OPEN_QUARANTINED"
+  "cangjie_stage1_5_legacy_quality": "14_OPEN_QUARANTINED",
+  "cangjie_stage1_5_user_approval_record": "gates/R057_USER_APPROVAL_A.md",
+  "cangjie_stage1_5_remediation_plan": "PLAN_DRAFT_SCOPE_CONFIRMATION_REQUIRED",
+  "cangjie_stage1_5_remediation_v1_count": 39,
+  "cangjie_stage1_5_remediation_v2_count": 11,
+  "cangjie_stage1_5_remediation_v3_count": 47
 }
