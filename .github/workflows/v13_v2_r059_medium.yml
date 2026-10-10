@@ -1,0 +1,12 @@
+name: V13 v13.1 R059 Medium Risk Literary Source Audit
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  validate-r059:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify 61 audited claims, 34 preregistered samples and 26 prior repairs
+        run: python3 scripts/validate_v13_r059_medium.py
