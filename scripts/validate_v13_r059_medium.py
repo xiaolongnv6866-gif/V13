@@ -77,6 +77,18 @@ for x in sha:
  # CI does not have user private EPUB bytes; hashes are not independent source-content proof.
  require(1<=int(x["paragraph_index"])<=next(r["body_paragraph_count"] for (r,c) in claims.values() if r["book_slug"]==x["book"] and str(r["narrative_ordinal"])==x["narrative_ordinal"]),"alternate hash paragraph outside original chapter")
  require(x["status"]=="SUPPORT_LOCUS_CANDIDATE_REVIEW_ONLY_NOT_CERTIFIED","SHA incorrectly promoted")
+live=rows("v2/stage0/STAGE0_B_AUDIT_STATUS_V2.tsv")
+asserted=rows("v2/ISSUE_REGISTRY.tsv")
+all_b={x["issue_id"] for x in asserted if x["issue_type"]=="STAGE0_B_CLAIM"}
+require(len(all_b)==296 and len(live)==296 and len({x["issue_id"] for x in live})==296,"296 current literary B statuses exact")
+require({x["issue_id"] for x in live}==all_b,"living B audit index differs from R057 frozen source registry")
+all_r058={x["issue_id"] for x in rows("v2/stage0/R058_WM_24_DECISIONS.tsv")+rows("v2/stage0/R058_TX_19_DECISIONS.tsv")}
+require(len(all_r058)==43 and all_r058.isdisjoint(actual_ids),"R058 and R059 must remain disjoint")
+require({x["issue_id"] for x in live if x["review_state"]=="REVIEWED_R058"}==all_r058,"R058 living record drift")
+require({x["issue_id"] for x in live if x["review_state"]=="REVIEWED_R059"}==actual_ids,"R059 living record drift")
+require(sum(x["review_state"]=="B_PROVISIONAL_NOT_REAUDITED" for x in live)==192,"must explicitly retain 192 untouched B claims")
+require({x["origin_id"] for x in live if x["R042_quarantine"].startswith("NO_DIRECT_PROMOTION")}==oldq,"14 quarantined original claims lost")
+require(all(x["execution_truth"]=="NO_B_VERIFIED_NO_C_OR_SKILL" for x in live),"historical B or C certification fabricated")
 doc=(P/"v2/stage0/MEDIUM_REPAIRED_SOURCE_AUDIT.md").read_text(encoding="utf-8")
 rec=(P/"runs/R059_V2.md").read_text(encoding="utf-8")
 require("61/166" in doc and "105/166" in doc and "61/166" in rec,"must disclose 105 unreviewed B records")
