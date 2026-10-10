@@ -1,0 +1,12 @@
+name: V13 v13.1 Revised 110-round Master Plan
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  audit-revised-plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify v13.1 authoritative round table, source routes and zero false certifications
+        run: python3 scripts/validate_v13_110_rounds.py
