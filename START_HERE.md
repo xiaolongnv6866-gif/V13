@@ -1,3 +1,8 @@
+# V13 v13.1 最新执行入口（R060 正式PASS后）
+**当前完成60/110轮，最后R060 PASSED，唯一下一轮R061 NOT_STARTED。** 仅在用户下一次手动「继续」时执行新版R061《铁血残明》另7条R042历史隔离主张。不提前启动。
+唯一游标V13_CURRENT_V2.json；账目V13_LEDGER_V2.csv；轮次合同V13_REVISED_110_ROUNDS.md。R060实审产物v2/legacy/WANMING_7_DECISIONS.tsv与runs/R060_V2.md：7/7有私有原书章节SHA及局部哈希，旧7条保持隔离、新7条仅B_PROVISIONAL；60/60证据提交Actions SUCCESS，不代表C或Skill质量认证。原R057冻结登记、历史1103章研究和192项未补审B债均原样保留，V3新测试0/47，Skill0，密封题库未开。
+---
+
 # V13 唯一实时执行入口（v13.1，2026-10-10）
  
 **累计59/110轮PASSED，新版R059 PASSED，当前R060 NOT_STARTED。** 下次用户手动「继续」，仅执行新版R060《晚明》7条R042历史隔离主张逐项审计；不自动启动R061。
