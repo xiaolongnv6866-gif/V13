@@ -1,0 +1,12 @@
+name: V13 v13.1 R060 Wanming Quarantine
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  verify-r060:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify R060 seven archived IDs and conservative dispositions
+        run: python3 scripts/validate_v13_r060_wanming.py

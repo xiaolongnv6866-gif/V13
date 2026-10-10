@@ -8,7 +8,7 @@
   "rounds_completed": 59,
   "last_passed_round": "R059",
   "current_round": "R060",
-  "round_status": "NOT_STARTED",
+  "round_status": "IN_PROGRESS",
   "last_authoritative_commit": "c09e1267160fcbce43d3499e15ef0416a03c92b1",
   "source_epub_wanming_chapters": 571,
   "source_epub_tiexuecanming_chapters": 532,
@@ -54,5 +54,8 @@
   "r059_historical_quarantine_total": 14,
   "r059_private_alternative_sha_count": 26,
   "r059_actions": "59_OF_59_SUCCESS",
-  "r059_new_v3_tests": 0
+  "r059_new_v3_tests": 0,
+  "r060_evidence": "SEVEN_WANMING_PRIVATE_SOURCE_REVIEWS_DONE_PENDING_CI",
+  "r060_old_quarantines": "7_OPEN_QUARANTINED",
+  "r060_new_b_candidates": "7_B_PROVISIONAL_NO_VERIFICATION"
 }
