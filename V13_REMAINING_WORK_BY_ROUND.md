@@ -1,5 +1,7 @@
 # V13｜冻结89轮的遗留缺口与未完成轮次（2026-10-10核对版）
 
+> **2026-10-10新增用户范围明确化**：47条V1/V2有限通过的候选，用户要求全部完成V3逐方法核验，而不是只做1条或8条的试点。这是新增的明确研究执行范围，不是“原89轮从一开始强制47条全通过”；详见`gates/R057_FULL47_V3_EXECUTION.md`。目前新增测试结果仍0/47，R057 BLOCKED、正式56/89不变。
+
 status: INFORMATIONAL_ROUND_BY_ROUND_AUDIT_NOT_A_REVISED_PLAN
 repository: https://github.com/xiaolongnv6866-gif/V13
 authoritative_plan: V13_FIXED_89_ROUNDS.md

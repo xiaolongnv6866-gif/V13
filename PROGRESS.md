@@ -383,3 +383,7 @@ R050正式状态commit `62e624c8ec544be255e1e89ff31ada6101ed9c80` 已远程回�
 - 用户指出此前14个V1+11个V2+8个V3试点草案造成额外强制步骤；重新对照原版`V13_FIXED_89_ROUNDS.md`，已确认R054/R055/R056均是**已完成的研究轮次**，它们的候选级不足不得误写成“必须整轮重做”。该补证方案重标**可选、非固定轮门**。
 - 新增唯一逐轮状态清单：`V13_REMAINING_WORK_BY_ROUND.md`（按R001—R056已完成但缺口、R057阻断和R058—R089逐轮NOT_STARTED归档）。历史14项隔离另计；不添加新轮号。
 - 本次仅整理状态/计划描述，**CURRENT_ROUND.json和ROUND_LEDGER.csv不更改**：56轮PASSED、R057 BLOCKED、R058—R089 32轮NOT_STARTED，V1 REVIEW39、V2未测11、V3无可证净增益47、verified0、独立C NOT_RUN。原版零verified必须停止编译仍然有效，不能靠把测试“放到Stage4”来绕过Stage1.6门。
+
+## 2026-10-10｜用户纠正R057 V3目标：必须47/47有实际结论
+
+此前建议只从47条选1条解除R057或先8条试点，已被用户明确质疑为不完整。**新的执行目标是47条全部逐ID做单方法V3核验**，任何先过1条都不表示剩余46条已完成；最终可以verified/reference/needs_review/rejected四类分流，不承诺47条都PASS。统一合同`gates/R057_FULL47_V3_EXECUTION.md`，候选队列`gates/R057_REPAIR_V3_47_TEST_QUEUE.tsv`已设为全47范围。当前**新V3实际补证0/47**，R054/R055/R056原轮均已PASSED，R057仍BLOCKED，Skill0、已通过56/89，Stage4和R088继续按冻结轮次执行。
