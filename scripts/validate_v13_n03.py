@@ -42,6 +42,19 @@ for x in rows:
   assert m,(n,part)
   if "n148/" in part:continue
   assert 1<=int(m.group(1))<=int(m.group(2) or m.group(1))<=int(doc["body_paragraph_count"]),(n,part)
+proof=read("v13_3/n03/N03_ORIGINAL_PARAGRAPH_SHA_36.tsv")
+assert len(proof)==36 and len({(e["issue_id"],e["paragraph_index"]) for e in proof})==36
+assert {e["issue_id"] for e in proof}==set(expected)
+from collections import Counter
+assert set(Counter(e["issue_id"] for e in proof).values())=={2}
+for sample in proof:
+ case=next(z for z in rows if z["issue_id"]==sample["issue_id"])
+ assert sample["claim_id"]==case["original_claim_id"] and sample["epub_path"]==case["original_epub_path"]
+ assert sample["ordinal"]==re.match(r"n(\\d+)/",case["reviewed_loci"]).group(1)
+ assert re.fullmatch(r"[0-9a-f]{64}",sample["paragraph_sha256"])
+ assert sample["source_hash_status"]=="DIRECT_PRIVATE_EPUB_SHA256_MATCH"
+ assert sample["locus_role"] in ("OLD_OR_SCENE_LOCUS","CORRECTIVE_OR_CONTRARY_CONTEXT")
+ assert 1<=int(sample["paragraph_index"])<=int(cache["cangjie/reading/R013/wanming_receipts.jsonl"][int(sample["ordinal"])]["body_paragraph_count"])
 q=read("v13_3/n03/N03_LEGACY_R042.tsv")
 assert len(q)==1 and q[0]["legacy_issue_id"]=="LEGACY:wanming-R013-143-narrative-candidate"
 assert "OPEN_QUARANTINED" in q[0]["quarantine_after_N03"] and "NO_DIRECT_PROMOTION" in q[0]["promotion_permission"]

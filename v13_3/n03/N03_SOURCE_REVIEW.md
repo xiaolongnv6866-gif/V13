@@ -15,6 +15,10 @@ status: literary source decisions drafted; no independent method validation
 - 原承诺、人物口头想法、不同地点同章并列、公开指派与实际兑现、可观察行动和后期补叙必须区分。对可能未成立的旧文学主张明确拒绝，不强求全部通过。原R042历史隔离独立记账，不直接晋级。
 - 以下只发布自己的事实概括、问题分析、匿名可检验的章段坐标与不可逆SHA；不上传用户原著正文，不提取现实危险行动步骤，也不让原作角色、剧情桥段流入原创技能。
 
+## 原始私有EPUB段落SHA现场复核
+
+本轮除了18个章级ZIP member SHA256，还在用户私有EPUB原段落按原协议提取的非空 `body//p` 位置上现场重算并登记36个原文段落SHA256（每个原始ID两处，含旧弱支持和反向/更正语境；部分点仅属于事实定位，不代表文学结论已通过）。明细文件：`v13_3/n03/N03_ORIGINAL_PARAGRAPH_SHA_36.tsv`。完整小说文本不上传仓库；CI仅能检查该记录的覆盖、格式与冻结读书收据对应关系，无法在公开仓库独立重算私有EPUB的全部原段落，更不代表V3独立文学审阅。
+
 ## 逐原始ID裁决
 
 ### STAGE0:R013:wanming-R013-121-narrative-candidate — REJECT_OLD_ALTERNATING_OPENING_KEEP_END_HANDOFF
