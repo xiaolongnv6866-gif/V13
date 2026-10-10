@@ -24,7 +24,7 @@ must([x['candidate_id'] for x in full]==R72_OLD+R72_NEW,'R072 seven complete')
 must(full[:2]==prior,'R072 B070 first two must be byte-equivalent fields')
 must([x['candidate_id'] for x in part]==R73_FIRST,'R073 exactly first 4 partial')
 must(len(list((P/'v2/v3/outputs/R72').glob('TX-*.json')))==7,'R072 seven files')
-must(len(list((P/'v2/v3/outputs/R73').glob('TX-*.json')))==4,'R073 only first four raw files')
+must(len(list((P/'v2/v3/outputs/R73').glob('TX-*.json'))) in (4,6),'R073 first four remain and subsequent B072 may legally add two')
 must(30<=state['v3_original_47_completed']<=47,'rolling V3 in range')
 must(state['skill_certified_count']==0 or state['current_batch'] not in ('B071','B072'),'no premature certified skill')
 for row in full[2:]+part:
