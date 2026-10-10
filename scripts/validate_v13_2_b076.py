@@ -70,7 +70,7 @@ assert len(set(x["repeat_id"] for x in q69))==69
 assert all(x["independent_author"]==x["blind_judge"]=="UNASSIGNED" and x["real_independent_test"]=="NOT_RUN" for x in q69)
 raw={x["candidate_id"]:(x["raw_path"],x["raw_git_blob_sha1"]) for x in original+additional}
 assert all((x["source_raw_path"],x["source_git_sha"])==raw[x["candidate_id"]] for x in q69)
-assert {x["candidate_id"] for x in q28}=={x["candidate_id"] for x in all_new if x["B076_final_decision"]=="needs_review" and x["raw_pair_git_sha"]=="NONE"}
+assert {x["candidate_id"] for x in q28}==({x["candidate_id"] for x in all_new if x["B076_final_decision"]=="needs_review" and x["raw_pair_git_sha"]=="NONE"} | {x["candidate_id"] for x in rows("gates/B076_18_SOURCE_ONLY_REFERENCE_ROUTE.tsv")})
 assert len({x["old_task_id"] for x in q20})==20
 assert all(x["original_required_output"] and x["original_success_and_failure"] and x["independent_full_task_acceptance"]=="NOT_RUN" for x in q20)
 assert {x["old_task_id"] for x in q20}=={x["old_Stage0_id"] for x in cross}
