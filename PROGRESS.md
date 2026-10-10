@@ -1,3 +1,8 @@
+# V13.2当前唯一96轮统一执行表｜不加轮次（2026-10-11）
+权威计划`V13_V3_BATCH_PLAN.md`保持66+30=96个管理单位，原R067–R110全部44个旧合同不减。**`V13_96_UNIFIED_EXECUTION_TABLE.md`**把426个冻结问题、187现行候选、69项V3缺真正独立复测、原Stage0 20项未独立验收全量纳入**现有B076**。同源事项合并研究，同ID不可消失；每次「继续」仍执行B076未完成的对应质量项，不新增子轮次，也不跳B077。75/96完成、B076 BLOCKED、B077—B096未开、verified0/Skill0，参考108/待核79；用户A已批准作为计划而非V3验证。详见`gates/V13_96_BATCH_MASTER_30.tsv`和本表五个逐ID工作文件。
+
+---
+
 # B076新增三项V2原创新题输出（2026-10-10）
 冻结SHA：`84f5988e14a5c5b950e27c5d81c6422b280c62c0`，冻结原件blob：`0356af5c12a7987930a62c9562c24d3a3e9892e8`；先冻结并远程验证无输出且76/76CI成功，再创作三份独立原创民事场景及状态账、负例。WM-f15、WM-p09、WM-p17的新题 **3/3 V2_WALKTHROUGH_PASS_LIMITED（同一Agent非独立）**，其3份场景和逐行验收见`tests/b076_v2_3_outputs/`及`gates/B076_V2_3_WALKTHROUGH_REPORT.md`。这不是69项V3独立验证，也不是Stage4或真实盲评；目前 verified=0/reference=108/needs_review=79/rejected=0。B076 BLOCKED 75/96，B077 NOT_STARTED。旧14隔离、192项文学B、原20 Stage0 C均保留。新增CI只审结构且必须保留原总门槛。
 

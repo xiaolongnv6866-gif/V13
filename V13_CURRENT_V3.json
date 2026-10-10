@@ -144,7 +144,7 @@
   "b075_independent_judge": "NOT_ESTABLISHED",
   "b075_ci": "75_OF_75_SUCCESS_EVIDENCE_COMMIT",
   "b075_sha": "8_OF_8_EVIDENCE_FILES_REMOTE_MATCH",
-  "b076_confirmation": "MANDATORY_USER_CONFIRM_NOT_REQUESTED_NOT_GRANTED",
+  "b076_confirmation": "USER_APPROVED_A_FOR_PLANNING_AND_BOUNDED_REPAIR_NO_METHOD_PROMOTION",
   "b075_b077_contract_result": "R077_COMPLETE_AUDIT_DELIVERY_WITH_METHOD_UTILITY_NEEDS_REVIEW",
   "b076_evidence_commit": "16c1410e9cddb41de99c635ce48bd9c6114ee490",
   "b076_decisions": {
@@ -172,7 +172,7 @@
   "b076_promotion_authorized": false,
   "b076_heldout_status": "SEALED_NOT_RUN",
   "b076_new_v1_pass": 3,
-  "b076_v1_source_recheck_status": "28_OF_28_ANCHOR_RECHECKED_V1_CAUSAL_SCOPE_STILL_OPEN",
+  "b076_v1_source_recheck_status": "28_SOURCE_RECHECKED_18_REFERENCE_3_NARROW_V1_7_REVIEW",
   "b076_private_epub_exact_sha_confirmed": "WANMING_AND_TIEXUE_BOTH_MATCH_R002",
   "b076_28_source_locus_visits": 89,
   "b076_28_source_locus_unique": 76,
@@ -221,5 +221,18 @@
     "WM-p09",
     "WM-p17"
   ],
-  "b076_stage4_actual_result": "NOT_RUN"
+  "b076_stage4_actual_result": "NOT_RUN",
+  "b076_current_unified_work_plan": "V13_96_UNIFIED_EXECUTION_TABLE.md",
+  "b076_all_frozen_issues": "gates/V13_96_ISSUE_426_ROUTING.tsv",
+  "b076_candidates_187_work_map": "gates/V13_96_CANDIDATES_187_ROUTING.tsv",
+  "b076_independent_69_work_map": "gates/V13_96_V3_69_ROUTING.tsv",
+  "b076_stage0_original20_map": "gates/V13_96_ORIGINAL_STAGE0_20_ROUTING.tsv",
+  "b076_existing_30_batch_map": "gates/V13_96_BATCH_MASTER_30.tsv",
+  "b076_unified_quality_debt_192_open": true,
+  "b076_unified_old14_open": true,
+  "b076_unified_v1_7_open": true,
+  "b076_unified_independent_v3_69_open": true,
+  "b076_unified_original20_C_open": true,
+  "b076_unified_scheduling_only_no_new_round": true,
+  "b076_user_approval_already_recorded": true
 }

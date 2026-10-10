@@ -15,3 +15,5 @@ jobs:
         run: python scripts/validate_v13_2_b076.py
       - name: Validate B076 frozen-before-output V2 walkthrough structural integrity
         run: python scripts/validate_b076_v2_3_walkthrough.py
+      - name: Audit unified 96 rounds with all frozen debts
+        run: python scripts/validate_v13_2_unified_96.py
