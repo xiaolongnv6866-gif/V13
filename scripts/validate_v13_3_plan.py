@@ -81,7 +81,7 @@ for claim in (row for row in a if row["issue_type"]=="STAGE0_B_CLAIM"):
  assert r["verification_scope"]=="LOCATOR_VERIFIED_ONLY_B_PROVISIONAL"
  if expected not in receipt_cache:
   blob=(P/expected).read_bytes()
-  object_sha=hashlib.sha1(("blob "+str(len(blob))+"\\0").encode().replace(b"\\0",b"\\x00")+blob).hexdigest()
+  object_sha=hashlib.sha1(("blob "+str(len(blob))).encode("ascii")+bytes([0])+blob).hexdigest()
   lines=[json.loads(line) for line in blob.decode("utf-8").splitlines() if line.strip()]
   receipt_cache[expected]=(object_sha,{int(p["narrative_ordinal"]):p for p in lines})
  sha,chapters=receipt_cache[expected]
