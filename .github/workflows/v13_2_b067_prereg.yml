@@ -1,0 +1,15 @@
+name: V13.2 B067 prereg structural gate
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  verify-b067-prereg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify 47 single-method matched contracts and extra 22
+        run: python scripts/validate_v13_2_b067.py
