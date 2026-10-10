@@ -1,0 +1,19 @@
+name: V13.3 N07 original R021 literature and R042
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v13_3/n07/**'
+      - 'runs/N07_V4.md'
+      - 'V13_CURRENT_V4.json'
+      - 'V13_LEDGER_V4.tsv'
+      - 'scripts/validate_v13_n07.py'
+      - '.github/workflows/v13_3_n07.yml'
+  workflow_dispatch:
+jobs:
+  n07-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Original N07 ID, evidence and old isolation checks (structural)
+        run: python3 scripts/validate_v13_n07.py
