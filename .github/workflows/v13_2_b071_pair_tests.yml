@@ -1,0 +1,15 @@
+name: V13.2 B071 actual paired output audit
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  verify-b071:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify R072 full and R073 first 4 raw paired texts
+        run: python scripts/validate_v13_2_b071.py
