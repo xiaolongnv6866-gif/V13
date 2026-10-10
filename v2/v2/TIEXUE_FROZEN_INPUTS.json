@@ -1,0 +1,155 @@
+{
+  "round": "R066",
+  "project": "V13",
+  "version": "frozen-before-writing-v1",
+  "cangjie_sha": "a28de55ba881b9928956a55048f743f7a9e3b23e",
+  "nuwa_sha": "fe0374687037c4cc51a65c1e0c145afe2981dc69",
+  "source_epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+  "outcome_policy": "For each fresh 200-390 Chinese-character civilian scene and >=3 state entries, check four frozen yes/no criteria. Four supported criteria => PASS_LIMITED_PAPER_WALKTHROUGH; otherwise FAIL_OR_NEEDS_REVIEW. Same agent nonblind self-evaluation. No V3 or independent task gain.",
+  "cases": [
+    {
+      "case_id": "TX-V2-01",
+      "candidate_id": "TX-f03",
+      "source_group": "OLD",
+      "input": "渡口候船厅新增收费引争议：居民质疑旧票价，经营者回应维护开销，议事处能受理却无权直接变更收费，最终审批未下。",
+      "checks": [
+        "居民本人提出具体申诉",
+        "经营者和议事处的权限不同",
+        "受理不等于批准或收费生效",
+        "留下待交材料及明确答复责任"
+      ]
+    },
+    {
+      "case_id": "TX-V2-02",
+      "candidate_id": "TX-f04",
+      "source_group": "OLD",
+      "input": "修桥申请得到会馆荣誉主席赞许，但占道需道路委员会批准，河岸摊位另归商户会。摊贩担忧经营受阻，各方未签字。",
+      "checks": [
+        "荣誉头衔不等于审批权",
+        "各审批机关互不代签",
+        "摊贩自主提出受影响情况",
+        "未批事项和后续核查可辨"
+      ]
+    },
+    {
+      "case_id": "TX-V2-03",
+      "candidate_id": "TX-f15",
+      "source_group": "OLD",
+      "input": "公共厨房拟统一上午排班，负责人支持，帮工要照顾家属，另一人沉默，一周试行仍待回应。",
+      "checks": [
+        "反对者有自身生活理由",
+        "沉默不代表同意",
+        "试行时限及调整选择明确",
+        "没有夸称长期制度效果"
+      ]
+    },
+    {
+      "case_id": "TX-V2-04",
+      "candidate_id": "TX-p02",
+      "source_group": "OLD",
+      "input": "档案登记员熟背借书条例，老人前来申请借地方志却缺本人编号和馆员签领，主管外出。",
+      "checks": [
+        "背诵规则和真实行动分开",
+        "明确缺失编号与签领",
+        "不能伪造手续或越权办理",
+        "提出补件及后续核对动作"
+      ]
+    },
+    {
+      "case_id": "TX-V2-05",
+      "candidate_id": "TX-p15",
+      "source_group": "OLD",
+      "input": "连雨后两位镇民代表为临时避雨棚选址争辩，一人依登记名册，一人强调流动摊主漏录，天气未定。",
+      "checks": [
+        "两人不同利益和理由具体",
+        "叙述者不替任何人宣布绝对正确",
+        "名册与天气消息都存在认知缺口",
+        "有限决议与待观察结果分开"
+      ]
+    },
+    {
+      "case_id": "TX-V2-06",
+      "candidate_id": "TX-p18",
+      "source_group": "OLD",
+      "input": "公共花圃按四周旧班表浇水，连雨导致积水，兼职工需照顾家人而缺勤，花苗结果未知。",
+      "checks": [
+        "预案与天气现场冲突可见",
+        "工人本人表达不同选择",
+        "安排有限改班与记录",
+        "保留积水后果及尚未检查事项"
+      ]
+    },
+    {
+      "case_id": "TX-V2-07",
+      "candidate_id": "TX-f07",
+      "source_group": "NEW",
+      "input": "社区书展已定南棚，今日新的通知改北棚，北棚电灯未验收。组织者对搬桌、缩场、延期分歧。",
+      "checks": [
+        "说明旧方案与新通知矛盾",
+        "讨论原有假设何处失效",
+        "至少两个角色主动提出不同方案",
+        "不伪造检查完成或成功执行"
+      ]
+    },
+    {
+      "case_id": "TX-V2-08",
+      "candidate_id": "TX-f14",
+      "source_group": "NEW",
+      "input": "海边民俗馆计划旱季修展台，现场湿木和潮季改变工序，熟手工匠下周才能到岗。",
+      "checks": [
+        "具体场地条件影响顺序",
+        "一线人员有独立判断",
+        "分期调整后引出新约束",
+        "工程完成和效果仍未证"
+      ]
+    },
+    {
+      "case_id": "TX-V2-09",
+      "candidate_id": "TX-f17",
+      "source_group": "NEW",
+      "input": "戏台场务申请夜间指路牌，联络员申请借旧门牌；管理者仅有台内权限，街面标识需另批。",
+      "checks": [
+        "两个请求由本人分别提出",
+        "对两请求分别答复并说明理由",
+        "街面与台内权限不合并",
+        "口头答复不等于安装或归还"
+      ]
+    },
+    {
+      "case_id": "TX-V2-10",
+      "candidate_id": "TX-p10",
+      "source_group": "NEW",
+      "input": "小刊物讨论刊登市场争议访谈，出纳忧印费，校对质疑标题，主编作有限编辑决定，未排版发行。",
+      "checks": [
+        "运营费用和编辑判断分别呈现",
+        "各方意见和负责人决定可观察",
+        "不把编辑决定当事实核实",
+        "未发表与未有读者反馈分开"
+      ]
+    },
+    {
+      "case_id": "TX-V2-11",
+      "candidate_id": "TX-p16",
+      "source_group": "NEW",
+      "input": "学校捐书会获校方口头许可操场，但停车区须另一委员会批；有人传闻当天降雨，尚无正式预报。",
+      "checks": [
+        "两个场地授权主体分开",
+        "天气传闻不是已核预报",
+        "参与者依据不同信息自主选择",
+        "待核项目和未决定事项保留"
+      ]
+    },
+    {
+      "case_id": "TX-V2-12",
+      "candidate_id": "TX-p22",
+      "source_group": "NEW",
+      "input": "义卖摊主担忧孩子买不起纸张，运书人转述旅客说沿海各村无纸可买，传言未核，摊主仍要决定今天标价。",
+      "checks": [
+        "个体直接生计顾虑清楚",
+        "宏观消息来源是不确定传闻",
+        "不由传闻外推整个地区事实",
+        "有当下决定与后续未知"
+      ]
+    }
+  ]
+}
