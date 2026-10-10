@@ -1,3 +1,13 @@
+## V13.3 最新恢复游标｜N06 PASSED（2026-10-11）
+
+**唯一权威执行游标 `V13_CURRENT_V4.json` 和 `V13_LEDGER_V4.tsv`：N01—N06全部PASSED，完成6/48轮，N07 `NOT_STARTED`。用户下次明确发送“继续”才执行N07；下方旧轮次说明均为历史记录，不能覆盖此游标。**
+
+N06文学研究：真正读取用户原始《晚明》EPUB的R019对应20章，20/20 Stage0 B逐ID审查，18项限定可信、2项旧强断言否决（n241原“多次交替”场面频率错误；n280章末未实际回收完整战后损失）。另有原R042 `LEGACY:v13-r019-wanming-265-candidate`独立核对1/1，但**历史隔离未解除**。原EPUB完整SHA `a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082`匹配、20个原XHTML成员SHA对账和40条私人段落SHA复算。读书证据版GitHub提交 `9324754195cf03e696d592f9afbccc7e3746e292` 经77/77 GitHub Actions SUCCESS。文件 `v13_3/n06/N06_SOURCE_REVIEW.md`，20项表 `N06_LITERARY_B_20.tsv`，40段SHA `N06_ORIGINAL_PARAGRAPH_SHA_40.tsv`，隔离 `N06_LEGACY_R042.tsv`，正式收据 `runs/N06_V4.md`。CI确认记录位置和格式，不能取代独立文学验证或V3实验。
+
+累计B文学处置110/296，剩余186；历史192项未逐审本计划首次审查75，剩余117；历史14隔离有5项得到来源复审，全部14项仍不可直接晋级。候选verified0/reference108/needs_review79/rejected0，真正独立V3通过0，原Stage0独立C0/20，认证SKILL0。下轮N07合同：晚明历史R021的20条文学B逐项真原文研究、反例与叙事替代损失，并在相同来源轮处理1条旧R042隔离；不新增轮次、不先行开启。
+
+---
+
 ## V13.3 ACTIVE RECOVERY AND CURRENT POSITION｜N05 PASSED（2026-10-11）
 
 **Latest single authority: `V13_CURRENT_V4.json` and `V13_LEDGER_V4.tsv`. N01–N05 all PASSED; 5 of 48 new rounds completed; cursor N06 NOT_STARTED. Do NOT research N06 before user's next separate “继续”. Earlier lines below are historical progress snapshots and must not override this header.**
