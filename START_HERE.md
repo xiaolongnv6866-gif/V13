@@ -1,3 +1,13 @@
+## V13.3｜N14正式封账恢复入口（2026-10-11）
+
+**唯一权威为`V13_CURRENT_V4.json`与`V13_LEDGER_V4.tsv`：N01—N14正式PASSED，累计14/48；下一轮`N15 NOT_STARTED`。必须等用户下一次新的“继续”才能启动N15。以下N13及更早游标均仅供历史追溯。**
+
+N14《铁血残明》R022原Stage0文学B20/20逐ID真原文复核：16项限定可信，4项旧强主张驳回（n281虚构家庭揭穿、n289误称当章纠正、n301误称主官漠视失踪、n303误把未来付息义务写成已欠逾期）。真实私有EPUB整本SHA256匹配，20个原XHTML成员SHA与40个正文段落SHA逐一复核。独立旧R042 `LEGACY:v13-r022-tiexue-286-candidate` 来源已审：旧p27仅是政商动机猜测，不证明储户实际偿付或受家属关系限制的职员自由同意；**仍OPEN_QUARANTINED**。研究`v13_3/n14/N14_SOURCE_REVIEW.md`、20项`N14_LITERARY_B_20.tsv`、40条`N14_ORIGINAL_PARAGRAPH_SHA_40.tsv`、隔离`N14_LEGACY_R042.tsv`、两份私有场景记录、`scripts/validate_v13_n14.py`、`.github/workflows/v13_3_n14.yml`、`runs/N14_V4.md`。证据提交`2644a747990c4ac037df1e75f0afa79e25d45686`适用CI**92/92 SUCCESS**；本次封账HEAD的全部适用Actions仍须单独核验。
+
+累计Stage0文学B **276/296，剩20**；原192暂定项**192/192首次来源复核完毕，剩0**；R042来源**14/14均已复核，但14/14继续隔离**，不是宣布历史质量债清除。187方法候选仍verified0/reference108/needs_review79/rejected0；独立V3合格0、原Stage0独立C0/20、认证SKILL0。Stage0来源复核不是V1/V2/真实独立V3，也不等于文学盲审。N15固定合同是《铁血残明》历史R024的20项文学B，**本轮旧R042=0**，没有提前启动。
+
+---
+
 ## V13.3｜N13正式封账及唯一恢复入口（2026-10-11）
 
 **唯一权威状态以`V13_CURRENT_V4.json`和`V13_LEDGER_V4.tsv`为准：N01—N13均PASSED，累计13/48轮；下一轮`N14 NOT_STARTED`。需要用户下次重新输入“继续”才启动N14。以下N12及更早入口全部作为历史记录，不可覆盖本段。**
