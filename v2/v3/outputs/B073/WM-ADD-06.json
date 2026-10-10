@@ -1,0 +1,61 @@
+{
+  "schema": "V13_B073_RAW_V3_PAIR_v1",
+  "test_id": "WM-ADD-06",
+  "candidate_id": "WM-f05",
+  "frozen_blob": "a62d1ade7017fca01e405edbcb93368489c9122f",
+  "authoring": "SAME_AGENT_NONBLIND_SHARED_NEUTRAL_SETUP",
+  "baseline": {
+    "arm": "WM-ADD-06-A",
+    "method_card": "NONE",
+    "scene_1": "印坊为节庆赶制的地图遇雨误了约定日期，纸卷里好几张还贴着不同的交接签。掌柜余澈在晴天把所有工人叫到桌边，先让他们自己说当日发生了什么。老版工罗叔主张给常用活字备第二套，说雨天搬库时才不会到处找字。年轻的苏禾却说关键不在字少，而在移库后谁签收，前后两班的单据根本对不上。掌柜手边有一张欠货清单，但其中几笔还未与顾客对清，不知道总损失多少。",
+    "scene_2": "罗叔示范自己那晚找字的位置，苏禾把两张交接单并排放在桌上，指出时间写了却没人签字。余澈承认两件事都可能拖慢出货，但今日备一套新字要钱，改签字办法又涉及不同班次的工人。他不愿简单把其中一人说成爱出风头，问两人各愿负担什么后续工作。门外有取图的顾客来问补交时日，账房只敢说正在清点，没有拿复盘会当交付保证。\n掌柜暂收下两个建议，让人先把失误记在旧簿中。他口头允诺看看有无空余字料，也答应让班头讨论交接，具体何时改却没定。罗叔担心建议被搁下，苏禾则说至少今天有人看过单据。会议散去，误交的顾客仍在等答复。\n会后罗叔没有与苏禾握手言和，他仍觉得交接签改得再好，没字可印一样会误工。苏禾拿起那两张雨湿的单据，指出看清责任并不妨碍以后再议采购。余澈把纸卷放进干柜时只数出可见的现存图，余下部分标作待查。他们讨论的不是谁更忠诚，而是下一次可以凭什么确定问题有没有变化。",
+    "han_characters": 502
+  },
+  "method": {
+    "arm": "WM-ADD-06-M",
+    "method_card": "ONLY_FROZEN_NARROW_CARD",
+    "scene_1": "印坊为节庆赶制的地图遇雨误了约定日期，纸卷里好几张还贴着不同的交接签。掌柜余澈在晴天把所有工人叫到桌边，先让他们自己说当日发生了什么。老版工罗叔主张给常用活字备第二套，说雨天搬库时才不会到处找字。年轻的苏禾却说关键不在字少，而在移库后谁签收，前后两班的单据根本对不上。掌柜手边有一张欠货清单，但其中几笔还未与顾客对清，不知道总损失多少。",
+    "scene_2": "罗叔示范自己那晚找字的位置，苏禾把两张交接单并排放在桌上，指出时间写了却没人签字。余澈承认两件事都可能拖慢出货，但今日备一套新字要钱，改签字办法又涉及不同班次的工人。他不愿简单把其中一人说成爱出风头，问两人各愿负担什么后续工作。门外有取图的顾客来问补交时日，账房只敢说正在清点，没有拿复盘会当交付保证。\n余澈明确分开两个提案：罗叔的备字请求需查成本，今天不能批准采购；苏禾的交接问题可先由两班各核一册旧单，明日上午向账房回报。他请二人当场确认记录没被改成统一赞成。随后对顾客说明缺图数尚未确认，只承诺清点结果。复盘因而留下不同决定与不同责任，没有凭一次点头便说新制度已落地。\n会后罗叔没有与苏禾握手言和，他仍觉得交接签改得再好，没字可印一样会误工。苏禾拿起那两张雨湿的单据，指出看清责任并不妨碍以后再议采购。余澈把纸卷放进干柜时只数出可见的现存图，余下部分标作待查。他们讨论的不是谁更忠诚，而是下一次可以凭什么确定问题有没有变化。",
+    "han_characters": 539
+  },
+  "state_ledger": [
+    "事故已发生损失未核清",
+    "两位员工分别提出不同建议",
+    "备字采购未批",
+    "交接旧单核验待执行",
+    "顾客交付未完成"
+  ],
+  "negative_control_failure": "口头准试当成成本已核与改革完成",
+  "ratings": {
+    "evaluator": "SAME_AGENT_NONBLIND_UNCONTROLLED_NOT_CAUSAL",
+    "rubric_dimensions": [
+      "S1 agency",
+      "S2 status correctness",
+      "S3 causal accountability",
+      "S4 lived scene and continuity",
+      "S5 unknowns and failure"
+    ],
+    "baseline": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "method": [
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "baseline_total": 8,
+    "method_total": 9,
+    "delta": 1,
+    "reason": "Candidate makes divergent answers and ownership clearer; baseline already records the same factual limitations.",
+    "utility": "DIAGNOSTIC_ONLY_NONBLIND_NO_VERIFIED",
+    "independent_repeat": "NOT_DONE",
+    "independent_review": "NOT_ESTABLISHED"
+  },
+  "unknowns": "No unstated later success, failure or independent actor was assumed"
+}

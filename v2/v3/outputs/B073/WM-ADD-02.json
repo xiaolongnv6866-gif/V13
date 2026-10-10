@@ -1,0 +1,81 @@
+{
+  "schema": "V13_B073_RAW_V3_PAIR_v1",
+  "candidate_id": "WM-f16",
+  "test_id": "WM-ADD-02",
+  "frozen_blob": "a62d1ade7017fca01e405edbcb93368489c9122f",
+  "identical_task_and_rubric": true,
+  "baseline": {
+    "arm": "WM-ADD-02-A",
+    "method_card": "NONE",
+    "scene_1": "潮湿的盐仓里，挑夫阿荣和同伴在楼梯的拐角撞了一下，盐袋擦破了麻边。学徒曾远趁仓长来巡看，拿出画了滑轮的纸，说用绳索把袋子吊到上层，就不用两人错身。阿荣抹掉眼边的盐粉，问楼上的接袋者站哪儿。翁书吏也看纸，说图上写每趟三袋，可他们并没称过这种满袋，更没有试过绳轮。曾远说至少可先讨论，不必让今日一回磕碰决定所有人的做法。仓长让三人傍晚到空屋，先照旧梯卸完这批货。",
+    "scene_2": "空屋窗纸透着潮气，曾远把绳轮画在沙地上。阿荣举起一只空袋，示范接货时背后是窄窗沿；翁书吏说绳轮也许有用，可若没有旧法排队时长和载重记录，没人知道节省多少。门外账房催结当天搬盐工钱，仓长既不愿把建议当胡闹，也不愿为了显示大胆立刻改工序。曾远紧握着笔，阿荣望着那扇窗，各自担心的都不是抽象的进步，而是第二天还得由谁站在那儿。\n仓长收下图纸，说暂不改用，等有空再议。曾远觉得对方是在拖延，当晚又向翁书吏追问为何不能试。阿荣答，自己愿意看一件空载模型，但没答应给满盐袋作试验。仓长留下旧梯的值班表，今天的生产没有宣称任何提高。\n傍晚工人经过空屋时，曾远下意识把图卷起来，怕自己的字被同伴笑话。阿荣反而按住纸角，让他把楼梯尺寸补上。两人并未因为开过会就和解，但已经能够指出彼此需要的证据。仓长看了眼仓外尚未搬走的盐袋，说明任何明天的做法都不能替今日的亏损自动销账。",
+    "han_characters": 504
+  },
+  "method": {
+    "arm": "WM-ADD-02-M",
+    "method_card": "ONLY_FROZEN_NARROW_CARD",
+    "scene_1": "潮湿的盐仓里，挑夫阿荣和同伴在楼梯的拐角撞了一下，盐袋擦破了麻边。学徒曾远趁仓长来巡看，拿出画了滑轮的纸，说用绳索把袋子吊到上层，就不用两人错身。阿荣抹掉眼边的盐粉，问楼上的接袋者站哪儿。翁书吏也看纸，说图上写每趟三袋，可他们并没称过这种满袋，更没有试过绳轮。曾远说至少可先讨论，不必让今日一回磕碰决定所有人的做法。仓长让三人傍晚到空屋，先照旧梯卸完这批货。",
+    "scene_2": "空屋窗纸透着潮气，曾远把绳轮画在沙地上。阿荣举起一只空袋，示范接货时背后是窄窗沿；翁书吏说绳轮也许有用，可若没有旧法排队时长和载重记录，没人知道节省多少。门外账房催结当天搬盐工钱，仓长既不愿把建议当胡闹，也不愿为了显示大胆立刻改工序。曾远紧握着笔，阿荣望着那扇窗，各自担心的都不是抽象的进步，而是第二天还得由谁站在那儿。\n仓长分三项追问：提案想解决何种拥堵、仍有哪些未测风险、眼前能批准的又是什么。曾远承认没有过秤，阿荣说出了接货位危险，翁书吏负责记现有等候时长。仓长否决直接装货试用，只允曾远做不承重的演示模型。曾远仍有工作，阿荣保留拒绝带盐起吊的权利；新设备的收益没有被写进账簿。\n傍晚工人经过空屋时，曾远下意识把图卷起来，怕自己的字被同伴笑话。阿荣反而按住纸角，让他把楼梯尺寸补上。两人并未因为开过会就和解，但已经能够指出彼此需要的证据。仓长看了眼仓外尚未搬走的盐袋，说明任何明天的做法都不能替今日的亏损自动销账。",
+    "han_characters": 535
+  },
+  "state_ledger": [
+    "旧楼梯出现碰撞",
+    "吊运方案未称重未试载",
+    "阿荣有独立岗位风险",
+    "仅空载模型获准",
+    "效率、安全和收入增益均未知"
+  ],
+  "negative_control_failure": "把想法获准讨论写为已安全投产",
+  "required_unknowns": "Unproven claims, permits, outcomes or later performance remain unconfirmed",
+  "rating": {
+    "evaluator": "SAME_AGENT_NONBLIND",
+    "baseline": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "method": [
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "delta": 1,
+    "utility": "DIAGNOSTIC_ONLY_NOT_VERIFIED"
+  },
+  "independence": "NOT_ESTABLISHED: both texts share neutral scene and are authored by the same agent, not blind separated",
+  "ratings": {
+    "evaluator": "SAME_AGENT_NONBLIND_UNCONTROLLED_NOT_CAUSAL",
+    "rubric_dimensions": [
+      "S1 agency",
+      "S2 status correctness",
+      "S3 causal accountability",
+      "S4 lived scene and continuity",
+      "S5 unknowns and failure"
+    ],
+    "baseline": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "method": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "baseline_total": 8,
+    "method_total": 8,
+    "delta": 0,
+    "reason": "Both arms preserve safety unknown and allow no untested deployment; no additional utility shown.",
+    "utility": "DIAGNOSTIC_ONLY_NONBLIND_NO_VERIFIED",
+    "independent_repeat": "NOT_DONE",
+    "independent_review": "NOT_ESTABLISHED"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "V13_B073_RAW_V3_PAIR_v1",
+  "test_id": "WM-ADD-01",
+  "candidate_id": "WM-f11",
+  "frozen_blob": "a62d1ade7017fca01e405edbcb93368489c9122f",
+  "authoring": "SAME_AGENT_NONBLIND_SHARED_NEUTRAL_SETUP",
+  "baseline": {
+    "arm": "WM-ADD-01-A",
+    "method_card": "NONE",
+    "scene_1": "公仓门上贴着新红榜，写着过冬柴人人可领。纪生掌管名簿，却没收到任何能分配柴的签令。梅娘把自己曾为库房运柴三天的存根递上，说家里老人等柴烧水。里正忙着招呼捐资的梁掌柜，请画匠把众人排在“惠民”的榜下。梅娘不肯挪脚，问自己站进去是否就算已经领过。纪生发现存根背面没有签章，仓门上又挂着两把锁，知道自己无权凭一句好听的告示打开库房。",
+    "scene_2": "日头偏西，人还挤在桌前。梁掌柜坚持要让画像看起来热闹，旁边有人把姓名写在纸上，误以为那就是领柴凭据。梅娘再问一次，明天若再来谁能给她答复。纪生请里正核对发放手续，里正只答应找账房开会；领用标准、实际库存能够分给几户，仍没有确切名册。梅娘把自己的旧存根按平，提醒他们不要将明日商议写成今日发柴。\n纪生另立问询页，写梅娘提出请求而不是“已领取”。梁掌柜不满，催里正先照相。里正仍说日后会办，梅娘决定不入画，带着旧存根回家。纸上多了一项未决，库里的柴却一根也没因此出门。\n院里两扇门各有一道门闩；里正开了站人的院门，却没有开装柴的库门。前队孩子闻见隔壁人家点火做饭的烟味，梅娘却只能把空手藏在袖里。对她而言，排队、留名和真正领到东西是三件不同的事。她看了一眼纪生写下的字，说自己明日会带着老人来问。\n临走前纪生把问询簿和领柴簿分放在桌子的两边，还用两块不同的镇纸压住。梅娘回头看了一眼，看出两本簿册的用处不同，便要求自己的话只留在左边。梁掌柜想把两本摆在一起方便照相，纪生不肯，说明混起来日后便无人知道谁真正拿到柴。晚钟响过，画匠只能收起空白画纸。",
+    "han_characters": 571
+  },
+  "method": {
+    "arm": "WM-ADD-01-M",
+    "method_card": "ONLY_FROZEN_NARROW_CARD",
+    "scene_1": "公仓门上贴着新红榜，写着过冬柴人人可领。纪生掌管名簿，却没收到任何能分配柴的签令。梅娘把自己曾为库房运柴三天的存根递上，说家里老人等柴烧水。里正忙着招呼捐资的梁掌柜，请画匠把众人排在“惠民”的榜下。梅娘不肯挪脚，问自己站进去是否就算已经领过。纪生发现存根背面没有签章，仓门上又挂着两把锁，知道自己无权凭一句好听的告示打开库房。",
+    "scene_2": "日头偏西，人还挤在桌前。梁掌柜坚持要让画像看起来热闹，旁边有人把姓名写在纸上，误以为那就是领柴凭据。梅娘再问一次，明天若再来谁能给她答复。纪生请里正核对发放手续，里正只答应找账房开会；领用标准、实际库存能够分给几户，仍没有确切名册。梅娘把自己的旧存根按平，提醒他们不要将明日商议写成今日发柴。\n纪生把告示、个人权利请求、合法发券三个环节当众分开，请里正出示第三环节的凭据。没有人拿得出。他请梅娘确认她的原话，另写“待受理”，并让她自行决定是否入画。梅娘拒绝合影，要求第二天也能提问。里正只承诺让账房到场，未说发券已经完成。\n院里两扇门各有一道门闩；里正开了站人的院门，却没有开装柴的库门。前队孩子闻见隔壁人家点火做饭的烟味，梅娘却只能把空手藏在袖里。对她而言，排队、留名和真正领到东西是三件不同的事。她看了一眼纪生写下的字，说自己明日会带着老人来问。\n临走前纪生把问询簿和领柴簿分放在桌子的两边，还用两块不同的镇纸压住。梅娘回头看了一眼，看出两本簿册的用处不同，便要求自己的话只留在左边。梁掌柜想把两本摆在一起方便照相，纪生不肯，说明混起来日后便无人知道谁真正拿到柴。晚钟响过，画匠只能收起空白画纸。",
+    "han_characters": 597
+  },
+  "state_ledger": [
+    "公告不等于发券",
+    "梅娘本人提出权益和拒绝",
+    "旧存根无有效签章",
+    "仅答应翌日召集账房",
+    "实际领取数未知"
+  ],
+  "negative_control_failure": "合影即发放",
+  "ratings": {
+    "evaluator": "SAME_AGENT_NONBLIND_UNCONTROLLED_NOT_CAUSAL",
+    "rubric_dimensions": [
+      "S1 agency",
+      "S2 status correctness",
+      "S3 causal accountability",
+      "S4 lived scene and continuity",
+      "S5 unknowns and failure"
+    ],
+    "baseline": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "method": [
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "baseline_total": 8,
+    "method_total": 9,
+    "delta": 1,
+    "reason": "Method explicitly forces claim/request/procedure into separate accountable statuses, but baseline also protects recipient agency.",
+    "utility": "DIAGNOSTIC_ONLY_NONBLIND_NO_VERIFIED",
+    "independent_repeat": "NOT_DONE",
+    "independent_review": "NOT_ESTABLISHED"
+  },
+  "unknowns": "Future permission, rights fulfillment and consequences not inferred"
+}
