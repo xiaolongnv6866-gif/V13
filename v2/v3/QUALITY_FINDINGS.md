@@ -1,6 +1,6 @@
 # V13.2 B075 / R077｜69项V3证据真实性、隔离公平性与Stage0任务覆盖质量审计
 
-status: EVIDENCE_READY_PENDING_ACTIONS
+status: EVIDENCE_AUDITED_METHODS_NOT_VERIFIED
 authority_before: main 183e885cc809607d1344bf3d5fbe024e5323993a
 original_contract: V13_REVISED_110_ROUNDS.md R077
 original_47_freeze_blob: 4e24d782632210c1e1637eba4954bde3d8f3846f
