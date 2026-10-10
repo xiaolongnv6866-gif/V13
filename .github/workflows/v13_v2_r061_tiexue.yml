@@ -1,0 +1,12 @@
+name: V13 v13.1 R061 Tiexue Quarantined Claims
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  audit-r061:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Source ledger and disposition integrity only
+        run: python3 scripts/validate_v13_r061_tiexue.py
