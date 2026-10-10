@@ -1,3 +1,8 @@
+# B076新增三项V2原创新题输出（2026-10-10）
+冻结SHA：`84f5988e14a5c5b950e27c5d81c6422b280c62c0`，冻结原件blob：`0356af5c12a7987930a62c9562c24d3a3e9892e8`；先冻结并远程验证无输出且76/76CI成功，再创作三份独立原创民事场景及状态账、负例。WM-f15、WM-p09、WM-p17的新题 **3/3 V2_WALKTHROUGH_PASS_LIMITED（同一Agent非独立）**，其3份场景和逐行验收见`tests/b076_v2_3_outputs/`及`gates/B076_V2_3_WALKTHROUGH_REPORT.md`。这不是69项V3独立验证，也不是Stage4或真实盲评；目前 verified=0/reference=108/needs_review=79/rejected=0。B076 BLOCKED 75/96，B077 NOT_STARTED。旧14隔离、192项文学B、原20 Stage0 C均保留。新增CI只审结构且必须保留原总门槛。
+
+---
+
 # 最新B076内部复核（2026-10-10）
 通过用户EPUB原文支持的新审核，将旧28项V1来源缺口中的18项案例/反例真实转入两书references.md（WM9/TX9），另外3项只取得限定范围V1 PASS_NARROW（WM-f15/p09/p17），剩7项保持REVIEW。正式分流 **verified0 / reference108 / needs_review79 / rejected0，总187**；早先用户方案A确认的0/90/97/0为修复前基线并保留收据。三项新V1均没有V2实际新题结果和独立V3；全部69个独立V3复制未做。Stage0独立C0、旧隔离14及文学B未审192不清零，SKILL0。B076仍BLOCKED，75/96，B077 NOT_STARTED，零verified不得编译。详情：`gates/B076_V1_REFERENCE_ROUTE_REPORT.md`、`gates/B076_18_SOURCE_ONLY_REFERENCE_ROUTE.tsv`、`gates/B076_V1_NARROW_METHOD_RECORDS.md`。
 

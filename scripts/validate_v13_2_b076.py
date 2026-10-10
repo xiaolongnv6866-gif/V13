@@ -90,12 +90,12 @@ for x in q28:
  assert x["book"]==y["book"] and x["source_loci"]==y["source_loci"]
  assert x["evidence_digest_sha256"]==y["paragraph_digest_sha256"]
  assert x["actual_source_recheck_file"]=="gates/B076_V1_28_ACTUAL_SOURCE_RECHECK.tsv"
- assert x["status"] in ("B076_REFERENCE_ROUTED","B076_V1_NARROW_PASS","B076_V1_SOURCE_GAP_REMAINS")
+ assert x["status"] in ("B076_REFERENCE_ROUTED","B076_V1_NARROW_PASS","B076_V1_SOURCE_GAP_REMAINS","B076_V1_PASS_NARROW_V2_WALKTHROUGH_ONLY_V3_NOT_RUN")
  assert x["B076_V1"] in ("REVIEW","PASS_NARROW","REFERENCE_SOURCE_ONLY")
  assert x["reviewer"]=="SAME_AGENT_EPUB_CONTEXT_REVIEW_NOT_INDEPENDENT"
 assert "89" in (P/"gates/B076_V1_28_SOURCE_RECHECK_REPORT.md").read_text()
 assert "source_paths" in (P/"scripts/verify_b076_v1_private_epub_receipts.py").read_text()
-print("B076 A SOURCE_RECHECK: 28/28 private EPUB anchors reviewed; 89 visits, 76 unique, 0 new V1 PASS, V3 NOT_RUN; B076 BLOCKED")
+print("B076 evidence: original 28 source receipts retained; 3 narrowed V1 passes, 3 limited V2 walkthroughs; V3 NOT_RUN; B076 BLOCKED")
 
 
 # Incremental B076 literary-claim scope and Stage0 contract preservation (not a V1/V3 certification).
@@ -121,7 +121,9 @@ new18=rows("gates/B076_18_SOURCE_ONLY_REFERENCE_ROUTE.tsv")
 new4=rows("gates/B076_V1_4_NARROW_FINAL_ADJUDICATION.tsv")
 assert len(new18)==18 and len({x["candidate_id"] for x in new18})==18
 assert len(new4)==4 and {x["candidate_id"] for x in new4 if x["V1"]=="PASS_NARROW"}=={"WM-f15","WM-p09","WM-p17"}
-assert all(x["V2"]=="NOT_RUN" and x["V3"]=="NOT_RUN" for x in new4)
+assert all(x["V3"]=="NOT_RUN" for x in new4)
+assert sum(x["V2"]=="WALKTHROUGH_PASS_LIMITED" for x in new4)==3
+assert next(x for x in new4 if x["candidate_id"]=="WM-p02")["V2"]=="NOT_RUN"
 assert sum(x["book"]=="wanming" for x in new18)==sum(x["book"]=="tiexuecanming" for x in new18)==9
 for x in new18:
  r=next(y for y in all_new if y["candidate_id"]==x["candidate_id"])
@@ -133,4 +135,4 @@ for x in new18:
  assert ("### "+x["candidate_id"]) in (P/path).read_text()
 assert state["b076_decisions"]["reference"]==108 and state["b076_decisions"]["needs_review"]==79
 assert state["b076_reference_routing_new"]==18 and state["overall_management_units_completed"]==75
-print("B076 refreshed: 18 references, 3 narrow V1 only, 0 real V2/V3, block unchanged")
+print("B076 refreshed: 18 references, 3 V1 narrow and 3 V2 walkthrough only, 0 independent V3, block unchanged")

@@ -207,5 +207,19 @@
   "b076_original28_current": "18_REFERENCE_3_V1_NARROW_PASS_7_REVIEW",
   "b076_reference_manifest": "gates/B076_18_SOURCE_ONLY_REFERENCE_ROUTE.tsv",
   "b076_v1_narrow_sheet": "gates/B076_V1_4_NARROW_FINAL_ADJUDICATION.tsv",
-  "b076_latest_route_report": "gates/B076_V1_REFERENCE_ROUTE_REPORT.md"
+  "b076_latest_route_report": "gates/B076_V1_REFERENCE_ROUTE_REPORT.md",
+  "b076_v2_prereg_commit": "84f5988e14a5c5b950e27c5d81c6422b280c62c0",
+  "b076_v2_prereg_blob": "0356af5c12a7987930a62c9562c24d3a3e9892e8",
+  "b076_v2_actual_outputs": 3,
+  "b076_v2_walkthrough_limited_count": 3,
+  "b076_new_real_v2_pass": 0,
+  "b076_v2_independent_review": "NONE_SAME_AGENT",
+  "b076_v2_result_file": "gates/B076_V2_3_ACTUAL_WALKTHROUGH_RESULTS.tsv",
+  "b076_v2_outputs_root": "tests/b076_v2_3_outputs",
+  "b076_v2_method_scope": [
+    "WM-f15",
+    "WM-p09",
+    "WM-p17"
+  ],
+  "b076_stage4_actual_result": "NOT_RUN"
 }

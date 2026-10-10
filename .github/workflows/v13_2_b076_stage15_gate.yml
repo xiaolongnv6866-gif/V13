@@ -13,3 +13,5 @@ jobs:
           python-version: '3.11'
       - name: Audit 187 unique candidate decisions, 14 legacy quarantine and 20 to 19 crosswalk
         run: python scripts/validate_v13_2_b076.py
+      - name: Validate B076 frozen-before-output V2 walkthrough structural integrity
+        run: python scripts/validate_b076_v2_3_walkthrough.py
