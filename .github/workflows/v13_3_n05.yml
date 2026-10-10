@@ -1,0 +1,19 @@
+name: V13.3 N05 R017 source evidence and R042
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v13_3/n05/**'
+      - 'runs/N05_V4.md'
+      - 'V13_CURRENT_V4.json'
+      - 'V13_LEDGER_V4.tsv'
+      - 'scripts/validate_v13_n05.py'
+      - '.github/workflows/v13_3_n05.yml'
+  workflow_dispatch:
+jobs:
+  n05-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: N05 original ID and locator structural gate
+        run: python3 scripts/validate_v13_n05.py
