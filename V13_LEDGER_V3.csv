@@ -1,7 +1,7 @@
 "batch_id","legacy_rounds","title","status","started_at","completed_at","receipt","evidence_commit","completion_commit","gate","v3_47_methods","legacy_contracts_fulfilled","quality_status"
 "B067","R067","V3同题双臂预注册合同，原47候选+新增候选单列","PASSED","2026-10-10","2026-10-10","runs/B067_V3.md","22b6d3d8884bebddbf1a3bf71de8f750a6c4c377","SEE_MAIN_SEAL_COMMIT","AUTO_WITH_ORIGINAL_UPSTREAM_GATES","0","1","PREREGISTERED_ONLY_NO_V3_OUTPUTS"
 "B068","R068;R069","《晚明》原47中前11条双臂真实测试（7+4）","PASSED","2026-10-10","2026-10-10","runs/B068_V3.md","870c251e40b8db555a9783bc096f72a0d97b25bd","SEE_MAIN_SEAL_COMMIT","AUTO_WITH_ORIGINAL_UPSTREAM_GATES","11","1","11_TESTED_NONBLIND_8_TIES_3_PLUS1_0_VERIFIED_R069_PARTIAL4_OF7"
-"B069","R069;R070","《晚明》原47中后10条双臂真实测试（3+7）","NOT_STARTED","","","runs/B069_V3.md","","","AUTO_WITH_ORIGINAL_UPSTREAM_GATES","10","0","NOT_ASSESSED"
+"B069","R069;R070","《晚明》原47中后10条双臂真实测试（3+7）","PASSED","2026-10-10","2026-10-10","runs/B069_V3.md","d70e2b54d5233cfa33bc2401a44f99d4dd5f6ed1","SEE_MAIN_SEAL_COMMIT","AUTO_WITH_ORIGINAL_UPSTREAM_GATES","10","2","R069_7_OF_7_AND_R070_7_OF_7_DELIVERED_8_TIES_2_PLUS1_ZERO_VERIFIED_NONBLIND"
 "B070","R071;R072","《铁血残明》原47前9条双臂测试（7+2）","NOT_STARTED","","","runs/B070_V3.md","","","AUTO_WITH_ORIGINAL_UPSTREAM_GATES","9","0","NOT_ASSESSED"
 "B071","R072;R073","《铁血残明》原47中9条双臂测试（5+4）","NOT_STARTED","","","runs/B071_V3.md","","","AUTO_WITH_ORIGINAL_UPSTREAM_GATES","9","0","NOT_ASSESSED"
 "B072","R073;R074","《铁血残明》原47后8条双臂测试（2+6）","NOT_STARTED","","","runs/B072_V3.md","","","AUTO_WITH_ORIGINAL_UPSTREAM_GATES","8","0","NOT_ASSESSED"
