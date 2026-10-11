@@ -26,6 +26,10 @@ def render(state, skill_text, last_chapter):
         "## A. 当前实际SKILL（ALPHA，不是最终融合认证）\n\n"
         + skill_text + "\n\n## B. 已核账的续写状态\n\n"
         + json.dumps(active, ensure_ascii=False, indent=2)
+        + "\n\n## B2. 完整事件账（必须原样保留以继续校验，包含授权和证据）\n\n"
+        + "```json\n"
+        + json.dumps(state, ensure_ascii=False, indent=2)
+        + "\n```"
         + "\n\n## C. 事实可靠等级\n\n"
         + json.dumps(facts, ensure_ascii=False, indent=2)
         + "\n\n## D. 人物各自所知与目标\n\n"
@@ -43,11 +47,11 @@ def render(state, skill_text, last_chapter):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--state", default=str(ROOT / "fixtures" / "chaoxun_ch03.json"))
+    p.add_argument("--state", default=str(ROOT / "fixtures" / "chaoxun_ch04.json"))
     p.add_argument("--skill", default=str(ROOT / "SKILL.md"))
     p.add_argument("--last-chapter",
                    default=str(ROOT.parent.parent / "experiments" /
-                               "novel_field_test_20261012" / "CH03.md"))
+                               "novel_field_test_20261012" / "CH04.md"))
     p.add_argument("--out", required=True, help="Explicit handoff markdown destination")
     a = p.parse_args()
     state = json.loads(Path(a.state).read_text(encoding="utf-8"))

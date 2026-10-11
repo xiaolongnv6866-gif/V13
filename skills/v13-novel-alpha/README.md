@@ -30,3 +30,7 @@ python3 skills/v13-novel-alpha/scripts/build_handoff.py --out /tmp/V13_EXPLICIT_
 ## CH04增量功能回归（仍未独立验收）
 
 新增第四章[原文](../../experiments/novel_field_test_20261012/CH04.md)、[事件账](fixtures/chaoxun_ch04.json)和[专门反例测试](tests/test_ch04_integrity.py)：同号异日两张单据、各方保留原件、留字面回执但不把索款变成已付款；修复收据转存数量守恒、授权记录类型与未知许可引用。前三章冻结资产值没有改写。
+
+## 新聊天交接的补强
+
+显式载荷现在默认选择CH04及其6事件状态账，并在B2区包含可被重新JSON解析和机器复核的**完整事件源状态**（授权生效范围、逐项变动、人物、事实、待偿义务），而非只交余额摘要。可运行 `python3 skills/v13-novel-alpha/scripts/build_handoff.py --out /tmp/V13_EXPLICIT_HANDOFF.md` 检查。这个交接能力是**可移植上下文文本生成**，并未证明另一个干净宿主会自动安装SKILL或在真实新会话成功。
