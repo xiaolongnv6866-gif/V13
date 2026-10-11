@@ -1,3 +1,9 @@
+## N15 V13.3 2026-10-11
+
+N01-N15 PASSED (15/48). Current round N16 NOT_STARTED. R024 source B20: 19 scoped, one rejected STAGE0:R024:R024-337-C1; original EPUB 20 chapter hashes and 40 distinct paragraph hashes checked. Source v13_3/n15/N15_SOURCE_REVIEW.md. R042 current zero new; older 14 remain quarantined. Stage0 B 296/296 source-reviewed, not method-verified. True independent V3 0; certified Skill 0. Evidence CI corrected at f68b23ce0769a10c863380f7b3c0800c166e691a (77/77 SUCCESS). N16 only on user's next 继续.
+
+---
+
 ## V13.3｜N14正式封账恢复入口（2026-10-11）
 
 **唯一权威为`V13_CURRENT_V4.json`与`V13_LEDGER_V4.tsv`：N01—N14正式PASSED，累计14/48；下一轮`N15 NOT_STARTED`。必须等用户下一次新的“继续”才能启动N15。以下N13及更早游标均仅供历史追溯。**
