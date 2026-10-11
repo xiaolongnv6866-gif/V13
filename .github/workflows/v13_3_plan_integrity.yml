@@ -4,6 +4,10 @@ on:
     branches: [main]
     paths:
       - 'V13_3_*'
+      - 'V13_GLOBAL_TRACEABILITY_1058.tsv'
+      - 'V13_GLOBAL_REMAINING_WORK_V1.md'
+      - 'PROJECT_FILE_REGISTER_1101.tsv'
+      - 'scripts/validate_v13_global_traceability.py'
       - 'V13_CURRENT_V4.json'
       - 'V13_LEDGER_V4.tsv'
       - 'START_HERE.md'
@@ -18,3 +22,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify all plan and original issue coverage
         run: python3 scripts/validate_v13_3_plan.py
+      - name: Verify all historical versions by task identity and every original duty ID
+        run: python3 scripts/validate_v13_global_traceability.py
