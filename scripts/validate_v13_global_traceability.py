@@ -34,7 +34,7 @@ for oid,x in r89.items():
     # historical titles shifted; one old R057 wording differs from revised R078
     assert title==newer["trace_note"] or oid=="R057@v13.0",(oid,new_id)
     if oid.split("@")[0]!=new_id:renumbered+=1
-assert renumbered==32,renumbered
+assert renumbered==33,renumbered  # 32 exact-title renumberings + 1 differently worded R057 gate
 assert sum(x["observed_status"]=="PASSED" for x in r89.values())==56
 assert r89["R057@v13.0"]["observed_status"]=="BLOCKED"
 assert sum(x["observed_status"]=="PASSED" for x in b.values())==9
