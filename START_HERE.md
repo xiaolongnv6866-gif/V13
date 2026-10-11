@@ -1,4 +1,6 @@
 # V13.3｜唯一轻量恢复入口
+**全项目审计：** [全部R/B/N历史、来源与能力缺口及清理结果](PROJECT_MASTER_AUDIT_20261012.md)；[清理前全部1101个文件逐路径留存/退役登记](PROJECT_FILE_REGISTER_1101.tsv)。历史完整备份分支：`archive/full-project-pre-consolidation-20261012`。旧控制器/CI不得作当前进度依据。
+
 
 状态快照（2026-10-12）：**N01—N20 PASSED；N21 NOT_STARTED（20/48）**。此行供人核对；每次执行必须先从远程 **V13_CURRENT_V4.json** 与 **V13_LEDGER_V4.tsv** 实时确认，不允许以静态快照覆盖。
 
