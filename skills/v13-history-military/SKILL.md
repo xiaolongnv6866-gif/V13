@@ -74,6 +74,11 @@ version: 1.0.0
 - `references/07-EDITOR_AND_FAILURES.md`
 - `references/08-ABILITIES_AND_THEORY.md`
 - `references/09-ROUTER_AND_HANDOFF.md`
+- `templates/PROJECT_BIBLE.md`
+- `templates/CHAPTER_BRIEF.md`
+- `templates/STATE_TEMPLATE.json`
+- `scripts/validate_state.py`
+- `scripts/build_handoff.py`
 - `scripts/build_release.py` 支持确定性整体打包。
 
 从目录直接阅读SKILL.md+任务相关references即可使用。仓库链接不等于普通聊天已原生安装。
