@@ -1,8 +1,9 @@
 {
-  "schema": "V13-E02-ORIGINAL-20-PROSE-QA-v1",
+  "schema": "V13-E02-ORIGINAL-20-PROSE-QA-v2",
   "batch": "WM",
-  "review_type": "mechanical_prose_delivery_not_independent_literary_rating",
-  "user_waived_independent_evaluation": true,
+  "review_type": "MECHANICAL_PROSE_EXISTENCE_AND_CONTINUITY_ONLY_NOT_LITERARY_JUDGING",
+  "external_blind": "NOT_RUN_USER_WAIVED",
+  "min_char_contract": 1000,
   "entries": [
     {
       "id": "WM-T01",
@@ -52,29 +53,29 @@
     {
       "id": "WM-T06",
       "path": "skills/v13-history-military/examples/stage0/WM-T06.md",
-      "chars": 990,
-      "scene_sections": 3,
+      "chars": 1314,
+      "scene_sections": 4,
       "state_evidence": true,
       "has_dialogue": true,
-      "sha": "a4407ef13e2ef85c960e53a62715abd256ded232"
+      "sha": "ffdd995c409c181b89590806138150e9ed7368b1"
     },
     {
       "id": "WM-T07",
       "path": "skills/v13-history-military/examples/stage0/WM-T07.md",
-      "chars": 997,
-      "scene_sections": 3,
+      "chars": 1310,
+      "scene_sections": 4,
       "state_evidence": true,
       "has_dialogue": true,
-      "sha": "0220bff78059cad714eb2bc765d28fae1fe7c1f4"
+      "sha": "38c0623d0fdf391658c8d2691b041a16c716e494"
     },
     {
       "id": "WM-T08",
       "path": "skills/v13-history-military/examples/stage0/WM-T08.md",
-      "chars": 851,
-      "scene_sections": 2,
+      "chars": 1194,
+      "scene_sections": 3,
       "state_evidence": true,
       "has_dialogue": true,
-      "sha": "0cdf3d523663e0403cbcb3f7d17239cfcd7fb21d"
+      "sha": "a55103ee9827d375c7bee49c78d55d56d6d5f214"
     },
     {
       "id": "WM-T09",
