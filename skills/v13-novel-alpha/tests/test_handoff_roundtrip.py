@@ -19,7 +19,7 @@ class HandoffRoundtrip(unittest.TestCase):
         skill=(ROOT/"SKILL.md").read_text(encoding="utf-8")
         last=(ROOT.parent.parent/"experiments/novel_field_test_20261012/CH04.md").read_text(encoding="utf-8")
         output=render(STATE,skill,last)
-        raw=output.split("```json\\n",1)[1].split("\\n```",1)[0]
+        raw=output.split("```json",1)[1].split("```",1)[0].strip()
         reconstructed=json.loads(raw)
         self.assertEqual(reconstructed,STATE)
         self.assertEqual(validate(reconstructed),validate(STATE))
