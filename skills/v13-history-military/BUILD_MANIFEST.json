@@ -1,10 +1,10 @@
 {
-  "schema": "V13-UNIFIED-WRITING-SKILL-DELIVERY-v1",
+  "schema": "V13-UNIFIED-WRITING-SKILL-DELIVERY-v2",
   "name": "v13-history-military",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "date": "2026-10-12",
   "entry": "SKILL.md",
-  "status": "BUILT_DELIVERED_USER_WAIVED_EXTERNAL_VERIFICATION",
+  "status": "E01_E08_CONSTRUCTION_DELIVERED_USER_WAIVED_INDEPENDENT_VALIDATION",
   "source_epubs_sha256": {
     "wanming": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
     "tiexuecanming": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf"
@@ -15,8 +15,8 @@
   "v1_supported_v2_not_done": 3,
   "reference_only": 113,
   "source_needs_review": 10,
-  "nuwa_independent_primary_theories": 3,
-  "nuwa_models": 3,
+  "nuwa_independent_primary_theories": 4,
+  "nuwa_models": 4,
   "nuwa_heuristics": 8,
   "original_complete_chapter_examples": 5,
   "tools": [
@@ -32,5 +32,56 @@
   "four_arm_independent": "NOT_RUN_USER_WAIVED",
   "clean_host_install": "NOT_RUN_USER_WAIVED",
   "external_paid_permission": false,
-  "copyright": "Private source texts stay local; only source anchors/hash/abstract mechanisms are published."
+  "copyright": "Private source texts stay local; only source anchors/hash/abstract mechanisms are published.",
+  "discoverable_skill_count": 1,
+  "secondary_skill_entry_removed": true,
+  "method_candidates_disposition": {
+    "total": 187,
+    "needs_review": 74,
+    "reference": 113,
+    "verified": 0,
+    "rejected": 0,
+    "usable_source_bound_cards": 64,
+    "V2_scoped": 61,
+    "V1_only": 3
+  },
+  "stage0_original_tasks_written": 20,
+  "stage0_prose_source_paths": [
+    "examples/stage0/WM-T01.md .. WM-T10.md",
+    "examples/stage0/TX-T01.md .. TX-T10.md"
+  ],
+  "nuwa_phase1_six_dimensions": "nuwa-theme/references/research/07-E06_PRIMARY_SIX_DIMENSION_DEEP_RESEARCH.md",
+  "nuwa_phase2_threefold": "nuwa-theme/references/research/09-E07_MODELS_TRIPLE_GATE_AND_HEURISTICS.md",
+  "nuwa_phase3_subordinate": "nuwa-theme/TOPIC_OPERATIONS.md",
+  "original_cangjie": {
+    "pinned": "kangarooking/cangjie-skill@a28de55ba881b9928956a55048f743f7a9e3b23e",
+    "original_single_compile": "CI_EXECUTED_SUCCESS",
+    "original_pack_compile": "CI_EXECUTED_SUCCESS",
+    "original_validator": "CI_EXECUTED_SUCCESS",
+    "build_bundle_adapter": "scripts/build_cangjie_adapter.py",
+    "builder_input_named_verified_yaml_not_evidence": true,
+    "original_main_SKILL_replacement": false,
+    "ci_run": "https://github.com/xiaolongnv6866-gif/V13/actions/runs/38177951201"
+  },
+  "stage5_readers_digest": [
+    "capabilities/DIGEST_WANMING.md",
+    "capabilities/DIGEST_TIEXUECANMING.md"
+  ],
+  "release_scripts": [
+    "scripts/build_release.py",
+    "scripts/build_handoff.py",
+    "scripts/validate_state.py"
+  ],
+  "regression_tests_last_confirmed": 33,
+  "regression_run": "https://github.com/xiaolongnv6866-gif/V13/actions/runs/38177951201",
+  "external_literary_blind_review": "NOT_RUN_USER_WAIVED",
+  "source_integrity": {
+    "private_paragraph_anchor_count": 322,
+    "repeat_uses_across_187": 545,
+    "hash_conflicts": 0,
+    "proof": "v13_e/E01_PRIVATE_EPUB_HASH_RESULT.json"
+  },
+  "rounds_status_file": "v13_e/E01_E08_CONSTRUCTION_LEDGER.tsv",
+  "output_zip": "GitHub Actions artifact: v13-history-military-writing-skill",
+  "host_natively_installed": "NOT_RUN_USER_WAIVED"
 }
