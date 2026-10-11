@@ -43,3 +43,9 @@ W01实际增量：56项不同原创公开校准题已固定，对应56个可测V
 最后8项先冻结输入（`c890836`）再写作品：[WM-T07](v13_w/w02/prework_20261012/WM_T07_POST_SUCCESS.md)、[WM-T08](v13_w/w02/prework_20261012/WM_T08_DELIBERATION.md)、[WM-T09](v13_w/w02/prework_20261012/WM_T09_POV_TIME.md)、[WM-T10](v13_w/w02/prework_20261012/WM_T10_MEMORY_HISTORY.md)、[TX-T07](v13_w/w02/prework_20261012/TX_T07_OFFSTAGE_EFFECT.md)、[TX-T08](v13_w/w02/prework_20261012/TX_T08_REQUEST_EXECUTION.md)、[TX-T09](v13_w/w02/prework_20261012/TX_T09_PUBLIC_VERSION.md)、[TX-T10](v13_w/w02/prework_20261012/TX_T10_PROMISE_HOOK.md)。配套20项总状态及[全覆盖机械回归](scripts/validate_w02_prework.py)。
 
 **20/20是本Agent公开前置正文覆盖率，而非质量验收**；所有20项创作都出自本Agent，不符合独立C。官方W01 BLOCKED、W02 NOT_STARTED、0/11工作包、独立C=0/20、独立V3=0、SKILL认证=0保持不变。
+
+## 2026-10-12｜W01五个原PARTIAL的V2补测：冻结合同+原创全路径实作
+
+外部独立审查交付件已准备：[首次跨聊天证据审查任务](v13_w/w01/CROSS_CHAT_REVIEW_01_ELIGIBILITY.md)；用户将以独立聊天提供审查意见，当前未收到报告、不预填裁决。主执行Agent在`859afc7`先冻结[五个合法新输入](v13_w/w01/repair_20261012/FROZEN_5_PARTIAL_V2_RETEST.md)，随后编写WM-f05、WM-f10、TX-f02、TX-f07、TX-f15完整多场V2纸面演练及消融实际答复，详见[逐项报告与来源定位](v13_w/w01/repair_20261012/README.md)。直接重查用户私有EPUB两书完整哈希与五个原V1锚的段落哈希符合旧记录；`n089`并非EPUB的`Chapter_0089`，实际定位见报告。原五个PARTIAL和其他8个INELIGIBLE原记录均**不覆盖**；这些新V2材料是待独立来源和流程复核的候选，不是新V3合格结果。机械测试见`scripts/validate_w01_v2_retest.py`。
+
+真实W包仍`W01 BLOCKED`、`0/11`、真正独立V3=0、独立C=0、认证Skill=0。下一门是接收跨聊天审查证据、逐ID决定是否解除五个V2缺口并确认真实独立评测安排。

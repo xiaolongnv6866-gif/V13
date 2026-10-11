@@ -1,0 +1,20 @@
+name: V13 W01 V2 partial evidence integrity (not independent)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v13_w/w01/repair_20261012/**'
+      - 'scripts/validate_w01_v2_retest.py'
+      - 'v13_w/w01/W01_13_EXCEPTIONS.tsv'
+      - 'V13_W_CURRENT_V5.json'
+      - '.github/workflows/v13_w01_v2_retest.yml'
+  workflow_dispatch:
+jobs:
+  authored-v2-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify prereg and author declared V2 evidence and unchanged blocker
+        run: python3 scripts/validate_w01_v2_retest.py
+      - name: Check syntax
+        run: python3 -m py_compile scripts/validate_w01_v2_retest.py
