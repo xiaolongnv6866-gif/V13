@@ -41,5 +41,19 @@
   "w01_next_gate": "true isolated author and two blind independent reviewers unavailable in this session; mandatory user decision on verifiable independent access",
   "w01_public_calibration_case_count": 56,
   "w01_v3_disqualified_current": 13,
-  "w01_resource_gate": "BLOCKED_NO_INDEPENDENT_SUBJECTS"
+  "w01_resource_gate": "BLOCKED_NO_INDEPENDENT_SUBJECTS",
+  "user_directed_build_delivery": {
+    "latest_user_decision": "2026-10-12 finish practical W01-W11 development and deliver unified SKILL without new independent validation",
+    "scope_override": "V13_USER_DIRECTED_DELIVERY_OVERRIDE_20261012.md",
+    "all_11_workpackages_build_or_waiver_addressed": true,
+    "product_build_status": "BUILT_DELIVERED_USER_WAIVED_EXTERNAL_VERIFICATION",
+    "product_entry": "skills/v13-history-military/SKILL.md",
+    "product_readme": "skills/v13-history-military/README.md",
+    "product_manifest": "skills/v13-history-military/BUILD_MANIFEST.json",
+    "build_ledger": "V13_W_BUILD_LEDGER_20261012.tsv",
+    "build_receipt": "V13_W_BUILD_DELIVERY_20261012.md",
+    "old_current_package_field": "Legacy strict acceptance cursor W01 BLOCKED - not the product delivery order",
+    "independent_validation_and_host_install": "NOT_RUN_USER_WAIVED",
+    "user_asks_to_reopen_independent_validation": false
+  }
 }
