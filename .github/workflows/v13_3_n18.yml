@@ -1,0 +1,23 @@
+name: V13.3 N18 Tiexue 96 V1 source qualification and full Task coverage
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v13_3/n18/**'
+      - 'scripts/validate_v13_n18.py'
+      - 'scripts/verify_v13_n18_epub.py'
+      - 'books/tiexuecanming/candidates/**'
+      - 'V13_CURRENT_V4.json'
+      - 'V13_LEDGER_V4.tsv'
+      - 'runs/N18_V4.md'
+      - '.github/workflows/v13_3_n18.yml'
+  workflow_dispatch:
+jobs:
+  n18-v1-source-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate all 96 V1 rows, original source coordinates, original 10 tasks and quarantine
+        run: python3 scripts/validate_v13_n18.py
+      - name: Syntax-check the private EPUB verifier without publishing source text
+        run: python3 -m py_compile scripts/verify_v13_n18_epub.py

@@ -1,0 +1,11 @@
+task_id	candidate_ids	V1_source_supported	V1_needs_review	V1_reference	current_original_Stage0_C_execution
+TX-01	f01;f03;f11;p01;p11;c01;c09;ce11;g01;g05;g19	4	1	6	NOT_RUN
+TX-02	f02;f03;f04;f13;p02;p03;p12;c03;c05;ce01;ce02;ce12;ce16;g02;g03;g04;g07;g14	6	1	11	NOT_RUN
+TX-03	f02;f05;f08;f14;f17;p04;p09;p18;c02;c04;c08;ce03;ce04;ce09;ce12;ce18;g05;g06;g07;g11;g12;g16	7	1	14	NOT_RUN
+TX-04	f06;f10;f14;f16;p04;p05;p21;c06;c07;c16;ce03;ce06;ce09;ce10;ce14;ce17;ce21;g09;g10;g13;g17;g18	5	2	15	NOT_RUN
+TX-05	f05;f07;f08;f15;f17;p07;p08;p12;p15;p20;c04;c05;c11;ce07;ce08;ce12;ce15;g08;g11;g12	9	0	11	NOT_RUN
+TX-06	f04;f07;f09;f12;p06;p13;p15;p16;p17;p22;c02;c12;c13;ce04;ce05;ce13;ce16;ce17;g03;g07;g13;g14;g20	7	1	15	NOT_RUN
+TX-07	f09;f10;f12;p14;p18;p22;c10;c15;ce14;ce18;g06;g09;g10	5	0	8	NOT_RUN
+TX-08	f01;f10;f11;f15;f17;p07;p11;p20;c07;c09;c15;ce07;ce08;ce10;ce11;ce20;g01;g02;g08;g09	8	0	12	NOT_RUN
+TX-09	f13;f16;p03;p10;p17;p19;c03;c14;ce02;ce05;ce19;g03;g04;g15;g16;g19;g20	5	0	12	NOT_RUN
+TX-10	f06;f16;p21;c16;ce20;ce21;g17;g18	2	1	5	NOT_RUN
