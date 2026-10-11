@@ -9,6 +9,15 @@ on:
       - 'PROGRESS.md'
       - 'runs/N*_V4.md'
       - 'scripts/validate_v13_v4_sync.py'
+      - 'scripts/validate_v13_governance.py'
+      - 'scripts/v13_resume.py'
+      - 'V13_3_GOVERNANCE_LOCK.json'
+      - 'V13_3_RECOVERY_GUARD.md'
+      - 'V13_3_CHANGE_CONTROL.md'
+      - 'ROUND_EXECUTION_RULES.md'
+      - 'SKILL_SOURCES.md'
+      - 'V13_3_FIXED_48_ROUNDS.md'
+      - 'NEXT_ACTION.md'
       - '.github/workflows/v13_3_v4_sync.yml'
   workflow_dispatch:
 jobs:
@@ -18,3 +27,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify authoritative V4 ledger cursor receipts recovery entry and aggregate counts
         run: python3 scripts/validate_v13_v4_sync.py
+      - name: Verify pinned original standards, frozen plan and non-skipping resume contract
+        run: python3 scripts/validate_v13_governance.py

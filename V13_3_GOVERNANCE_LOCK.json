@@ -1,0 +1,52 @@
+{
+  "schema": "V13.3_GOVERNANCE_LOCK_1",
+  "purpose": "Prevent cross-chat drift and silent quality-gate changes; maintenance without altering the approved 48-round plan.",
+  "approved_maintenance_scope": "User authorized recovery reliability and repetitive-work optimization on 2026-10-11; no authority to change original SKILL requirements, scope, or round plan.",
+  "authoritative_cursor": "V13_CURRENT_V4.json",
+  "authoritative_ledger": "V13_LEDGER_V4.tsv",
+  "original_approved_plan": "V13_3_FIXED_48_ROUNDS.md",
+  "frozen_plan_git_blob_sha": "0b32152077fef9e2048d767f48b4aba3960a8f03",
+  "original_skills": {
+    "cangjie": "kangarooking/cangjie-skill@a28de55ba881b9928956a55048f743f7a9e3b23e",
+    "nuwa": "alchaincyf/nuwa-skill@fe0374687037c4cc51a65c1e0c145afe2981dc69"
+  },
+  "original_private_epub_sha256": {
+    "wanming": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+    "tiexuecanming": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf"
+  },
+  "frozen_counts": {
+    "rounds": 48,
+    "original_contracts": 44,
+    "original_issues": 426,
+    "literary_B": 296,
+    "R042_quarantined": 14,
+    "method_candidates": 187,
+    "original_V3_candidates": 69,
+    "original_stage0_tasks": 20,
+    "topic_mappings": 19
+  },
+  "invariants": [
+    "Never infer active progress from old V13.2/89/110/96 plans or chat memory.",
+    "One new user continuation permits only one current N round; governance maintenance is not a round.",
+    "No alteration of original SKILL applicability, pinned versions, or approved 48-round contracts without explicit user approval.",
+    "Preserve all 44 historical R067-R110 contracts and all frozen item IDs.",
+    "Do not treat Stage0 A source, Stage0 B literary review, V1/V2, genuine independent V3, Stage0 C, CI, or certified skill as interchangeable.",
+    "Never promote any of 14 quarantined R042 claims without independent per-ID evidence and authorized method gate.",
+    "Keep 20 original Stage0 C tasks distinct; mapping to 19 topics cannot cancel a task.",
+    "Do not present the same agent's non-blind self-evaluation as independent V3 or two Nuwa Phase5 subjects.",
+    "Pre-register independent evaluations before outputs; preserve holdouts, negative findings, and failed cases.",
+    "Never mark PASSED without full original requirements, relevant GitHub Actions, immutable commit, and remote readback.",
+    "If evidence, permission, test independence, budget, or quality fails, report BLOCKED and seek user selection; do not silently downgrade.",
+    "Original copyrighted EPUB files stay outside the public repository."
+  ],
+  "user_approval_gates": [
+    "N28",
+    "N37",
+    "N41",
+    "N42",
+    "N44",
+    "N45",
+    "N48"
+  ],
+  "conditional_resource_gate": "N21"
+}

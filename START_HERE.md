@@ -17,3 +17,6 @@
 
 ## 历史文档
 清理之前的长版START_HERE与PROGRESS及旧入口[保留原始Git blob归档](archive/2026-10-11-pre-cleanup/CLEANUP_MANIFEST.md)，按需查证，平时不全文读取。
+
+## 必须执行的零信任恢复补充（2026-10-11维护，不移动轮次）
+先遵循 [V13_3_RECOVERY_GUARD.md](V13_3_RECOVERY_GUARD.md)，核对 [V13_3_GOVERNANCE_LOCK.json](V13_3_GOVERNANCE_LOCK.json) 的原版SKILL SHA与正式48轮Git blob锁。代码检验：`python3 scripts/v13_resume.py --check`；变更用户审批要求见 [V13_3_CHANGE_CONTROL.md](V13_3_CHANGE_CONTROL.md)。**保留完整原始验收；该校验仅防行政漂移，不能代替文学/盲测质量。**
