@@ -1,4 +1,4 @@
-# V13｜原创长篇历史军事小说SKILL（交付建设版）
+# V13｜原创长篇历史军事小说SKILL（创作门禁v1.1.1）
 
 **直接用 [SKILL.md](SKILL.md)。** 统一入口，不需要手工记住几十张方法卡，也不需要重新上传两部原著正文。用户要求先完成实质建设并交付，放弃本次独立V3/Phase4/5、四臂盲评及宿主认证等验证：真实状态 `NOT_RUN_USER_WAIVED`，**并非原版验收已通过**。
 
@@ -8,6 +8,13 @@
 - Nuwa主题操作作为主SKILL的**内置从属模块**，并非第二个可发现Skill：4个综合判断模型、8条启发式；六维一手研究、每模型三重分析、张力和反例保存在nuwa-theme/TOPIC_OPERATIONS.md。
 - 20项Stage0任务均已生成原创多场景正文与状态记录，路径examples/stage0/WM-T01..10、TX-T01..10；另有五章《潮汛账》连续写作样本、卷纲、状态账和编辑记录。**均非原著复制。**
 - 完整事件源状态模板、实际可运行的Python校验、负例回归与跨聊天无损交接生成器；打包脚本可生成ZIP。
+
+## 2026-10-12创作门禁修复（v1.1.1）
+此前写完《陈启明》第一章试稿才发现跳过全流程；这暴露的是入口只要求「应当做」，**没有在正文发出前强制执行**。现已在主SKILL靠前位置设置必执行链：实际读取项目设定/适用能力卡→填好章节合同→两名有独立选择的人物→初稿→至少两项原句级敌对审稿→真正修订→事件状态/下章压力→执行脚本→再做文学人工否决。
+- `scripts/chapter_gate.py` 是结构性发布闸门：拒绝缺少合同、未使用适用卡/女娲模型、初稿与终稿无实质差、缺审稿证据或缺可续写状态的章节；不会给出「文学合格」的虚假结论。
+- 一个项目内保存 `PROJECT_BIBLE.md`、`CHAPTER_001_BRIEF.md`、`CHAPTER_001_DRAFT.md`、`CHAPTER_001_REVIEW.json`、`CHAPTER_001.md`、`STATE.json`、`NEXT_SCENE.md`。审稿模板为 `templates/CHAPTER_REVIEW_RECEIPT.json`，输入内容全空时应失败，不可把模板当成验收。
+- 在加载过此SKILL且有文件/脚本能力的宿主，**写正文者自己在交付前运行** `python3 scripts/chapter_gate.py --project /path/to/novel --chapter 1`，用户不必每次重发指令。
+- **真实边界：**GitHub文件不会自行注入所有新聊天的运行环境；若宿主未安装/未读取主SKILL、无法运行脚本，不能假装自动校验已做，也不能保证跨宿主强制执行。校验输出 `PASS_STRUCTURAL_GATE_ONLY` 仅是结构证据，文学质量仍需实质审读。
 
 ## 如何直接使用
 
@@ -23,6 +30,8 @@
 python3 scripts/build_release.py --check
 python3 -m unittest discover -s tests -p 'test_*.py' -v
 python3 scripts/validate_state.py fixtures/chaoxun_ch05.json
+# 章节成品门禁，需有完整小说项目产物后运行：
+python3 scripts/chapter_gate.py --project /path/to/novel --chapter 1
 python3 scripts/build_handoff.py --out V13_HANDOFF.md
 python3 scripts/build_release.py --out V13_HISTORY_MILITARY_SKILL.zip
 ```
