@@ -1,0 +1,22 @@
+{
+  "status": "PRIVATE_SOURCE_SHA256_AND_PARAGRAPH_POSITION_VERIFIED",
+  "books": {
+    "wanming": {
+      "epub_sha256": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+      "unique_loci": 145,
+      "matched": 145
+    },
+    "tiexuecanming": {
+      "epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+      "unique_loci": 177,
+      "matched": 177
+    }
+  },
+  "total_unique_loci": 322,
+  "candidate_locus_uses": 545,
+  "missing": 0,
+  "wrong_paragraph_number": 0,
+  "private_receipt_sha256": "397323b639969ff08577b9d76554399cc678b5db63ea1a3a89047f192fe4a3c7",
+  "independent_semantic_review": "NOT_SUBSTITUTED_BY_HASH_MATCH",
+  "epub_uploaded_to_public_repo": false
+}
