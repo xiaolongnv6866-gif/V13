@@ -49,3 +49,7 @@ W01实际增量：56项不同原创公开校准题已固定，对应56个可测V
 外部独立审查交付件已准备：[首次跨聊天证据审查任务](v13_w/w01/CROSS_CHAT_REVIEW_01_ELIGIBILITY.md)；用户将以独立聊天提供审查意见，当前未收到报告、不预填裁决。主执行Agent在`859afc7`先冻结[五个合法新输入](v13_w/w01/repair_20261012/FROZEN_5_PARTIAL_V2_RETEST.md)，随后编写WM-f05、WM-f10、TX-f02、TX-f07、TX-f15完整多场V2纸面演练及消融实际答复，详见[逐项报告与来源定位](v13_w/w01/repair_20261012/README.md)。直接重查用户私有EPUB两书完整哈希与五个原V1锚的段落哈希符合旧记录；`n089`并非EPUB的`Chapter_0089`，实际定位见报告。原五个PARTIAL和其他8个INELIGIBLE原记录均**不覆盖**；这些新V2材料是待独立来源和流程复核的候选，不是新V3合格结果。机械测试见`scripts/validate_w01_v2_retest.py`。
 
 真实W包仍`W01 BLOCKED`、`0/11`、真正独立V3=0、独立C=0、认证Skill=0。下一门是接收跨聊天审查证据、逐ID决定是否解除五个V2缺口并确认真实独立评测安排。
+
+## 2026-10-12 增量：跨聊天来源准入报告完成裁决（不计真实V3）
+
+第一份用户上传的外部资格审查报告全文归档于[W01 review](v13_w/w01/reviews/V13_W01_INDEPENDENT_REVIEW_20261012.md)；主Agent[逐项处理](v13_w/w01/reviews/REVIEW_01_MAIN_AGENT_ADJUDICATION.md)13个例外及报告质量缺陷，补齐[56份V1/V2精确来源证据与哈希](v13_w/w01/V3_56_PUBLIC_CALIBRATION_SOURCE_BRIDGE.tsv)，纠正盲审信息泄漏协议，保留N19四项自评/最终报告冲突。WM-f10旧消融无效已先冻结另一真实删除条件再实际演练。新的[69项可用证据表](v13_w/w01/V3_69_EFFECTIVE_V2_GATE_20261012.tsv)显示**61个受限V2纸面资格、8项V1来源资格不足**，历史56/5/8快照不改，TX-f02冻结口径瑕疵未粉饰；此资格并非真实V3，**独立V3=0、独立C=0、正式包0/11、W01 BLOCKED**。
