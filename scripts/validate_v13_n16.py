@@ -36,20 +36,24 @@ cursor = json.loads((ROOT / "V13_CURRENT_V4.json").read_text(encoding="utf-8"))
 ledger = tsv("V13_LEDGER_V4.tsv")
 assert len(ledger) == 48
 assert all(row["status"] == "PASSED" for row in ledger[:15])
-assert cursor["completed_new_rounds"] in (15, 16), cursor["completed_new_rounds"]
+assert 15 <= cursor["completed_new_rounds"] <= 48, cursor["completed_new_rounds"]
 if cursor["completed_new_rounds"] == 15:
     assert cursor["current_round"] == "N16"
     assert cursor["current_round_status"] in {"NOT_STARTED", "IN_PROGRESS", "BLOCKED", "FAILED"}
     assert ledger[15]["status"] == cursor["current_round_status"]
 else:
     assert ledger[15]["status"] == "PASSED"
-    assert cursor["current_round"] == "N17" and cursor["current_round_status"] == "NOT_STARTED"
+    if cursor["completed_new_rounds"] < 48:
+        assert cursor["current_round"] == f'N{cursor["completed_new_rounds"]+1:02d}'
+        assert cursor["current_round_status"] in {"NOT_STARTED", "IN_PROGRESS", "BLOCKED", "FAILED"}
 assert cursor["v13_3_stage0_B_disposed_this_plan"] == 296
 assert cursor["v13_3_from_old_192_unreviewed_done"] == 192
 assert cursor["v13_3_R042_quarantines_source_reviewed"] == 14
-assert cursor["v13_3_R042_quarantines_still_not_promoted"] == 14
-assert (cursor["verified"], cursor["reference"], cursor["needs_review"], cursor["rejected"]) == (0, 108, 79, 0)
-assert cursor["certified_skills"] == 0
+if cursor["completed_new_rounds"] < 28:
+    assert cursor["v13_3_R042_quarantines_still_not_promoted"] == 14
+    assert (cursor["verified"], cursor["reference"], cursor["needs_review"], cursor["rejected"]) == (0, 108, 79, 0)
+if cursor["completed_new_rounds"] < 37:
+    assert cursor["certified_skills"] == 0
 
 res = tsv("V13_3_SOURCE_RESOLUTION_296.tsv")
 issue = tsv("V13_3_ISSUES_426_TO_ROUNDS.tsv")

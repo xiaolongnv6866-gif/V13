@@ -69,13 +69,20 @@ for item in decisions:
         assert item["next_gate"]=="N28_REFERENCE_MAPPING_KEEP_SOURCE",cid
 assert {x["candidate_id"] for x in decisions if x["V1_source_decision"]=="V1_NEEDS_REVIEW_NO_V2"}=={"f07","f09","p02","p06","p09","p10"}
 s=json.loads((ROOT/"V13_CURRENT_V4.json").read_text(encoding="utf-8"))
-assert s["completed_new_rounds"] in (16,17),s["completed_new_rounds"]
+assert 16 <= s["completed_new_rounds"] <= 48,s["completed_new_rounds"]
 if s["completed_new_rounds"]==16:
     assert s["current_round"]=="N17"
 else:
-    assert s["current_round"]=="N18"
-assert s["verified"]==0 and s["reference"]==108 and s["needs_review"]==79 and s["rejected"]==0
+    assert rows("V13_LEDGER_V4.tsv")[16]["status"]=="PASSED"
+    if s["completed_new_rounds"]<48:
+        assert s["current_round"]==f'N{s["completed_new_rounds"]+1:02d}'
+        assert s["current_round_status"] in {"NOT_STARTED","IN_PROGRESS","BLOCKED","FAILED"}
+if s["completed_new_rounds"]<28:
+    assert s["verified"]==0 and s["reference"]==108 and s["needs_review"]==79 and s["rejected"]==0
 assert s["true_independent_V3_69_not_run"]==69 and s["original_stage0_20_independent_C_not_run"]==20
-assert s["certified_skills"]==0 and s["v13_3_R042_quarantines_still_not_promoted"]==14
+if s["completed_new_rounds"]<37:
+    assert s["certified_skills"]==0
+if s["completed_new_rounds"]<28:
+    assert s["v13_3_R042_quarantines_still_not_promoted"]==14
 assert (ROOT/"v13_3/n17/N17_WM_V1_SOURCE_AUDIT.md").is_file()
 print("PASS N17 structural 91/91: WM17+23+14+19+18; unique source 145, evidence rows 237; 32 limited, 6 needs, 53 reference; no verified promotions. NOT literary independent certification.")

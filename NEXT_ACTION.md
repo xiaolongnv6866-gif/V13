@@ -1,14 +1,12 @@
-# V13.3｜下一步（以远程V4游标为准）
+# V13.3｜下一轮 N18（先读远程唯一游标）
 
-**N16 PASSED；N17 NOT_STARTED（16/48）**。若远程`V13_CURRENT_V4.json`和`V13_LEDGER_V4.tsv`不同，以实时权威游标为准。本文件只做导航，不替代原版SKILL。
+正式进度：**17/48，N17 PASSED，N18 NOT_STARTED**。本文件只是导航；以远程`V13_CURRENT_V4.json` + `V13_LEDGER_V4.tsv` + `V13_3_FIXED_48_ROUNDS.md`为准。
 
-## 下一轮 N17｜《晚明》91候选 Stage1.5 V1 来源充分性
-- 实际读取锁定Cangjie原版 `SKILL.md` + `methodology/03-stage1.5-triple-verify.md`及当前阶段全部适用模板/脚本/候选，按V1的原文依据、适用条件、原文语境、反例/失效边界逐ID核验 **91/91**；不从既有哈希或总结想象原文。
-- 原版五提取器按真实候选能力用途检查：公开`source_quote`历史空位与版权合规、`fictional_narrative_case`不在上游三种case类型中的矛盾必须逐项真实裁决；无法满足原版字段的候选保留待核，不擅改标准。
-- R042历史14项继续`OPEN_QUARANTINED`；晚明涉及的旧否决53项中的对应记录不能重新当正证据。禁止用N16结构CI替代文学V1，禁止提前认定V2/V3完成。
-- 从用户提供的私有《晚明》EPUB（SHA256 `a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082`）回查原文，公开库不上传长篇版权内容；原版最小必要短引用仅在合法允许的范围内存放。
-- 处理完整91项并有实质结果、来源坐标、问题/拒绝表及相关CI回读后才可封N17；如发生重大原版冲突需向用户发警告与选项，不得擅自降低标准。
+## N18：《铁血残明》96候选原版仓颉Stage1.5 V1真实来源终审
+- 依锁定Cangjie `SKILL.md` 和`methodology/03-stage1.5-triple-verify.md`及当轮全部适用提取器/证据标准，逐个检查 **TX96/96**候选的真实原文和多处上下文、文学构造机制、作者/角色主张区分、反例/失败界限、V1资格与V2许可，不拿旧来源哈希冒充新V1审查。
+- 优先从用户私有《铁血残明》EPUB锁定SHA256 `9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf`直接复核原段与证据表，避免公开上传长篇版权文本；可复用N17的最小引用与私有来源回放技术但不得复制N17结论。
+- 小说虚构场景不能冒充真实历史亲历或原版`firsthand/reported_case/worked_example`；独立原文不足可按原版`needs_review`或`reference`真实裁决，明确责任和不可冒进边界。
+- 原187总方法四类状态不在N18提前晋级；N19/N20为V2陌生输入演练，N21+必须具备真正独立测试主体。R042历史14项不解除隔离。
+- 完成96/96逐ID真实裁决、N18原版符合性验收、GitHub证据/工作流及远程正式封账后再进入N19；发生重大原版/质量冲突须先警告并交用户选择。
 
-最终始终以[完整原版执行矩阵](V13_3_FULL_SKILL_REQUIREMENTS.tsv)、[既定48轮收尾计划](V13_3_FINISH_TO_SKILL_PLAN.md)、[原创小说出厂验收](V13_3_SKILL_DELIVERY_ACCEPTANCE.md)为约束。
-
-**独立性资源前置风险**：N21真实独立创作+盲审、N44独立答评、N45双独立优化主体、N47四臂以及N48普通聊天真实宿主能力尚无实际批准/验收证明，不得日后假称完成或静默采购。
+执行约束：[完整原版SKILL矩阵](V13_3_FULL_SKILL_REQUIREMENTS.tsv)；[唯一48轮完工路径](V13_3_FINISH_TO_SKILL_PLAN.md)；[原创小说实际质量终验](V13_3_SKILL_DELIVERY_ACCEPTANCE.md)。
