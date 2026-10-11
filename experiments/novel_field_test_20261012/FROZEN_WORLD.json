@@ -1,0 +1,44 @@
+{
+  "schema": "V13_EXPERIMENT_ONLY",
+  "frozen": true,
+  "date": "2026-10-12",
+  "status": "TASK_PREREGISTERED_OUTPUT_NOT_YET_WRITTEN",
+  "timeline": [
+    "day1 afternoon",
+    "day1 night",
+    "day2 morning"
+  ],
+  "actors": [
+    "陆时安",
+    "方启闻",
+    "苏鹭",
+    "吕石头",
+    "吴嫂",
+    "丁掌柜"
+  ],
+  "fictional_history": true,
+  "starting_state": {
+    "warehouse_paper": 36,
+    "warehouse_physical": 24,
+    "wet_frozen": 6,
+    "dry_available": 18,
+    "undelivered_promises": 12,
+    "permitted_opening_max": 4,
+    "opened": 0,
+    "public_silver": 6,
+    "workers_owed": 3,
+    "boat_advance_required": 8,
+    "merchant_promised_not_received": 5,
+    "east_reported_households": 17,
+    "east_verified_households": null,
+    "east_receipt_confirmed": false
+  },
+  "expected_final": {
+    "opened_bags": 4,
+    "remaining_dry_unopened": 14,
+    "wet_frozen": 6,
+    "ship_advance_paid": false,
+    "east_receipt_confirmed": false
+  },
+  "scope": "exploratory novel-writing sample, not verified method, not independent V3"
+}
