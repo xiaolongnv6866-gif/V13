@@ -1,7 +1,7 @@
 {
   "schema": "V13-UNIFIED-WRITING-SKILL-DELIVERY-v2",
   "name": "v13-history-military",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "date": "2026-10-12",
   "entry": "SKILL.md",
   "status": "E01_E08_CONSTRUCTION_DELIVERED_USER_WAIVED_INDEPENDENT_VALIDATION",
@@ -22,7 +22,8 @@
   "tools": [
     "scripts/validate_state.py",
     "scripts/build_handoff.py",
-    "scripts/build_release.py"
+    "scripts/build_release.py",
+    "scripts/chapter_gate.py"
   ],
   "primary_git_repo": "https://github.com/xiaolongnv6866-gif/V13",
   "independent_V3": "NOT_RUN_USER_WAIVED",
@@ -70,7 +71,8 @@
   "release_scripts": [
     "scripts/build_release.py",
     "scripts/build_handoff.py",
-    "scripts/validate_state.py"
+    "scripts/validate_state.py",
+    "scripts/chapter_gate.py"
   ],
   "regression_tests_last_confirmed": 33,
   "regression_run": "https://github.com/xiaolongnv6866-gif/V13/actions/runs/38177951201",
@@ -83,5 +85,12 @@
   },
   "rounds_status_file": "v13_e/E01_E08_CONSTRUCTION_LEDGER.tsv",
   "output_zip": "GitHub Actions artifact: v13-history-military-writing-skill",
-  "host_natively_installed": "NOT_RUN_USER_WAIVED"
+  "host_natively_installed": "NOT_RUN_USER_WAIVED",
+  "chapter_delivery_gate": {
+    "gate_script": "scripts/chapter_gate.py",
+    "review_template": "templates/CHAPTER_REVIEW_RECEIPT.json",
+    "structural_negative_tests": "tests/test_chapter_gate.py",
+    "claim": "STRUCTURAL_ONLY_NOT_LITERARY_CERTIFICATION",
+    "host_auto_installation": "NOT_GUARANTEED"
+  }
 }
