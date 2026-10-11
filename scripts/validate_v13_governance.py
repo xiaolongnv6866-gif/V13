@@ -78,6 +78,7 @@ assert len(table("V13_3_V3_69_TO_ROUNDS.tsv")) == 69
 assert len(table("V13_3_CANDIDATES_187_TO_ROUNDS.tsv")) == 187
 for name in ("START_HERE.md", "ROUND_EXECUTION_RULES.md"):
     assert "V13_3_RECOVERY_GUARD.md" in read(name), name
-if k == 15:\n    assert "N16" in read("NEXT_ACTION.md")
+if k == 15:
+    assert "N16" in read("NEXT_ACTION.md")
 print(f"PASS V13.3 governance (administrative only): fixed plan and original SHA pins; {k}/48; "
       f"cursor={state['current_round']} {state['current_round_status']}; 20 Stage0 tasks; 187 candidates")
