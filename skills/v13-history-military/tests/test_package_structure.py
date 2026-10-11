@@ -36,6 +36,7 @@ class ShippedSkillBuild(unittest.TestCase):
         sys.path.insert(0,str(ROOT/"scripts"))
         from validate_state import validate
         self.assertEqual(validate(state)["events"],0)
+        self.assertEqual(state["independent_review"],"NOT_RUN")
 
 if __name__=="__main__":
     unittest.main()
