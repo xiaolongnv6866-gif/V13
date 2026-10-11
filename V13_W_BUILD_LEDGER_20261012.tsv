@@ -1,0 +1,12 @@
+work_package	build_disposition	actual_delivered_evidence	outside_evaluation_not_performed
+W01	METHOD_SOURCE_AND_V2_READY	v13_w/w01/V3_69_EFFECTIVE_V2_GATE_20261012.tsv	External V3 authors/judges waived by user
+W02	SOURCE_ROUTING_AND_STAGE0_BRIEFS_COMPLETE	skills/v13-history-military/routing/V1_187_FOURWAY_DELIVERY.tsv ; skills/v13-history-military/routing/STAGE0_20_TASKS_TO_DELIVERY.tsv	20 independent C scored creative evaluations waived; 20 ready-to-use production briefs created
+W03	RIA_CARDS_AND_TWO_BUNDLES_BUILT	skills/v13-history-military/capabilities/INDEX.md ; skills/v13-history-military/capabilities/bundles/	64 card build only; original verified.yaml cannot be certified without V3
+W04	CAPABILITY_ROUTER_GLOSSARY_HANDOFF_BUILT	skills/v13-history-military/capabilities/GLOSSARY.md ; skills/v13-history-military/references/09-ROUTER_AND_HANDOFF.md	Real independent host-trigger review waived
+W05	PROSE_AND_REVISION_WORKFLOW_BUILT	skills/v13-history-military/examples/chaoxun/ ; skills/v13-history-military/references/07-EDITOR_AND_FAILURES.md	Five continuous original chapters+edit records; independent reader assessment waived
+W06	SINGLE_SKILL_RELEASE_PACK_BUILD_BUILT	skills/v13-history-military/SKILL.md ; skills/v13-history-military/scripts/build_release.py ; skills/v13-history-military/capabilities/DIGEST.md	Original Cangjie compiler/deployment certification not run; packaging self-contained
+W07	NUWA_TOPIC_RESEARCH_SOURCED	skills/v13-history-military/nuwa-theme/references/research/01-SOURCE_INVENTORY.md ; skills/v13-history-military/nuwa-theme/references/research/02-SIX_DIMENSIONS.md	Three original public schools/works; separate user Phase1.5 review waived
+W08	NUWA_3_MODELS_8_HEURISTICS_BUILT	skills/v13-history-military/nuwa-theme/references/research/04-MODELS_AND_HEURISTICS.md	Separate Phase2.5 user checkpoint waived
+W09	NUWA_TRIGGER_AGENTIC_TOPIC_SKILL_BUILT	skills/v13-history-military/nuwa-theme/SKILL.md	Independent Nuwa Phase4 testers & scored quality gate waived
+W10	USER_WAIVED_TWO_AGENT_AB_PHASE5	V13_USER_DIRECTED_DELIVERY_OVERRIDE_20261012.md	By user instruction do not run different-agent external validation; never claim performed
+W11	UNIFIED_SKILL_AND_CONTINUITY_DELIVERED	skills/v13-history-military/SKILL.md ; skills/v13-history-military/examples/chaoxun/ ; skills/v13-history-military/scripts/build_handoff.py ; skills/v13-history-military/BUILD_MANIFEST.json	External four-arm blinded trial and clean-host certification user-waived
