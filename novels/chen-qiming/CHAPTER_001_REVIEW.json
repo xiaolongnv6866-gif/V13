@@ -1,0 +1,162 @@
+{
+  "schema": "v13-chapter-review-receipt-1",
+  "chapter": 1,
+  "status": "REVISED_AND_RECHECKED",
+  "opening_goal": "主角求活和保留不被写成刺客的证据；皇帝先控制现场并查清保密责任，而非立即信任来历。",
+  "exit_change": "两份在场见证分别封存，陈启明已说出1644北京危险且被安排辰时复问，现代物品暂被收缴。",
+  "unpaid_obligation": "明日辰时复核宫中记档、现代来源、未来预言，回应孙传庭线索能否合理使用。",
+  "independent_characters": [
+    {
+      "name": "陈启明",
+      "wants": "活下来、避免刺客口供、谨慎保留后手",
+      "can_refuse": "拒绝认从门闯入，不肯立即写尽未来之事",
+      "choice": "为避免被押走主动说出京师五年后的危机",
+      "consequence": "获得继续核验机会却背负无法立即兑现的证词"
+    },
+    {
+      "name": "崇祯",
+      "wants": "查明来人的威胁、保证御前安全且控制信息传播",
+      "can_refuse": "不把陌生人奇物与预言等同可信忠臣",
+      "choice": "命分录封存、暂禁、辰时复问并继续当下政务",
+      "consequence": "宫中多人承担封口和复核义务"
+    },
+    {
+      "name": "梁进",
+      "wants": "御前责任不落在本人，服从皇帝的真实可查命令",
+      "can_refuse": "拒绝用私人承诺交换物资或修改既成见证",
+      "choice": "从闯入指控退到亲见记载并收存划掉的废纸",
+      "consequence": "自己的首稿改口可被皇帝追问"
+    },
+    {
+      "name": "韩从礼",
+      "wants": "守住门禁责任边界避免承担子虚乌有的疏漏",
+      "can_refuse": "不虚构门被开启的事实",
+      "choice": "按命独立记录亲眼范围",
+      "consequence": "未解除失职调查须继续当值"
+    }
+  ],
+  "scenes": [
+    {
+      "entry": "现代咖啡与御案纸张冲撞",
+      "conflict": "警卫必须护驾，皇帝须控制禁中消息",
+      "choice": "皇帝先关门不让事态扩散",
+      "visible_delta": "四名见证者被限制传话，主角失去自由",
+      "cost": "守卫与内侍担失察风险"
+    },
+    {
+      "entry": "梁进准备写闯入",
+      "conflict": "主角不愿被写成刺客，内侍需要先有可执行罪名",
+      "choice": "陈启明冒险纠正实际所见、崇祯命分录",
+      "visible_delta": "两份供录分开书写封存",
+      "cost": "主角暴露善于钻文书空子的习惯"
+    },
+    {
+      "entry": "身份证与现代纪年",
+      "conflict": "不明年代资料无法被当代官府承认",
+      "choice": "主角承认来历却保留细节",
+      "visible_delta": "崇祯得知未来声称但仍不相信忠诚",
+      "cost": "身份证手机被收，风险上升"
+    },
+    {
+      "entry": "皇帝准备押走来人",
+      "conflict": "下一次御前机会难以争取",
+      "choice": "陈启明押上1644北京失守的预言",
+      "visible_delta": "改为辰时复问、文件封存",
+      "cost": "一句五年后预言成为不可收回的危险证据"
+    },
+    {
+      "entry": "小内侍收集废纸和薄荷糖",
+      "conflict": "主角以糖换饭暴露遗漏搜身物",
+      "choice": "自保交出，内侍收缴而非私换",
+      "visible_delta": "全部废纸连同糖盒进入皇帝视线",
+      "cost": "陈启明再少一个可交换小物"
+    },
+    {
+      "entry": "夜深独处待明日",
+      "conflict": "主角有未来概略但缺年代和位置细节",
+      "choice": "写下孙传庭而决定暂不交出",
+      "visible_delta": "形成未公开私人线索",
+      "cost": "明日复问需承担回答失败的代价"
+    }
+  ],
+  "applied_cards": [
+    {
+      "id": "WM-f01",
+      "why": "突然出现不等于获准和被真实相信",
+      "how": "崇祯强制隔离与独立见证，陈没有新身份和许可",
+      "boundary": "皇帝是否将来相信来自后世仍需长期验证"
+    },
+    {
+      "id": "TX-f12",
+      "why": "一件突现事件的观察与解释不能合一",
+      "how": "把御前见闻、陈的推测、两份书面记载分开",
+      "boundary": "现代事件的内在原理未由宫中人证实"
+    },
+    {
+      "id": "TX-p07",
+      "why": "两名宫人服从皇命不代表他们私人信服",
+      "how": "梁进、韩从礼分别寻求推责和自证",
+      "boundary": "他们的行动并非自动变成主角的人脉"
+    }
+  ],
+  "nuwa_models": [
+    {
+      "id": "M1",
+      "why": "来历、资格、承认、授权分离",
+      "observed_effect": "一夜被看见和查问，仍是被限制自由的无身份人"
+    },
+    {
+      "id": "M4",
+      "why": "现场与门禁记录、口供与预言有不同证据等级",
+      "observed_effect": "两份分别封存的记录不会互相自然抵消"
+    }
+  ],
+  "history_boundaries": [
+    {
+      "claim": "崇祯十二年对应1639年",
+      "classification": "VERIFIED_HISTORICAL",
+      "evidence_or_assumption": "《明史·庄烈帝本纪》 https://zh.wikisource.org/zh-hans/明史/卷24"
+    },
+    {
+      "claim": "1639年前后孙传庭被拘而1642复起",
+      "classification": "VERIFIED_HISTORICAL",
+      "evidence_or_assumption": "何创时云端博物馆孙传庭人物资料 https://www.hcsartmuseum.com/authors/16453/"
+    },
+    {
+      "claim": "韩从礼、梁进及此夜的御前事件",
+      "classification": "IN_WORLD_FICTION",
+      "evidence_or_assumption": "陈启明小说原创角色与事件，不宣称真实内廷录制制度"
+    },
+    {
+      "claim": "陈启明记忆中的崇祯十七年北京失守",
+      "classification": "CHARACTER_BELIEF",
+      "evidence_or_assumption": "现代人只知原历史大势，改变历史后的结局未必相同"
+    }
+  ],
+  "adversarial_fixes": [
+    {
+      "draft_excerpt": "他一面听他们说话，一面在脑子里找理由。",
+      "fault": "开局全靠主人公抽象思索和一句自我劝诫，缺空间感和防御行为",
+      "final_excerpt": "陈启明没再找摄影机。",
+      "state_delta": "他以手掌亮空自证无物，在场卫士仍保留怀疑，没有因此获得自由"
+    },
+    {
+      "draft_excerpt": "梁进对他写的事情感到非常惊讶，也意识到事情可能没有那么简单。",
+      "fault": "作者替梁进宣布情绪和理解，没有现场见证可回查",
+      "final_excerpt": "梁进盯着纸，看了许久。",
+      "state_delta": "宫人的重复查看印迹、记录继续保存，而非已理解未来真假"
+    },
+    {
+      "draft_excerpt": "那是公司发的薄荷糖，他慌乱中竟没被搜出来。",
+      "fault": "之前已严肃搜身，此处突然有物品出现而无藏匿依据",
+      "final_excerpt": "那是公司发的薄荷糖，卡在牛仔裤贴腰的小暗袋里，搜身时没人摸到。",
+      "state_delta": "新物品漏检形成韩从礼等人后续安全责任，不再神奇凭空出现"
+    },
+    {
+      "draft_excerpt": "明天辰时。",
+      "fault": "此前收尾只有抽象恐惧和御前复问，没有一个主动的下一步抉择",
+      "final_excerpt": "在那张干净纸的最下面，他写了一个人的名字。",
+      "state_delta": "主角写下却尚未交出的孙传庭，创造下一章可能带来的历史回响与认知风险"
+    }
+  ]
+}
