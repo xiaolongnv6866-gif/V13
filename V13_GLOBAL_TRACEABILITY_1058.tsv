@@ -144,16 +144,16 @@ family	version_scoped_id	canonical_source	observed_status	trace_note	remaining_p
 110_PLAN	R054@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	Stage1.5 V1来源充分性	HISTORY	Historic PASSED does not certify original SKILL
 110_PLAN	R055@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	Stage1.5 V2合法新输入可执行	HISTORY	Historic PASSED does not certify original SKILL
 110_PLAN	R056@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	Stage1.5 V3任务增益	HISTORY	Historic PASSED does not certify original SKILL
-110_PLAN	R057@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	遗留冻结问题全量锁定与风险分层	HISTORY	Historic PASSED does not certify original SKILL
-110_PLAN	R058@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	R008—R015及R017高风险文学证据定向补审	HISTORY	Historic PASSED does not certify original SKILL
-110_PLAN	R059@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	R007、R016、R018—R024纠正与中风险文学证据补审	HISTORY	Historic PASSED does not certify original SKILL
-110_PLAN	R060@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》R042历史隔离旧主张7条逐项处置	HISTORY	Historic PASSED does not certify original SKILL
-110_PLAN	R061@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》R042历史隔离旧主张7条逐项处置	HISTORY	Historic PASSED does not certify original SKILL
-110_PLAN	R062@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	两书BOOK_OVERVIEW与任务清单的质量债闭合映射	HISTORY	Historic PASSED does not certify original SKILL
-110_PLAN	R063@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》23条V1 REVIEW逐项复核	HISTORY	Historic PASSED does not certify original SKILL
-110_PLAN	R064@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》16条V1 REVIEW逐项复核	HISTORY	Historic PASSED does not certify original SKILL
-110_PLAN	R065@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》5条原V2未测及新V1通过方法演练	HISTORY	Historic PASSED does not certify original SKILL
-110_PLAN	R066@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》6条原V2未测及新V1通过方法演练	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R057@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	遗留冻结问题全量锁定与风险分层;subsequent_evidence=N01-N16;v13_3/n16/N16_CROSS_OBJECT_AUDIT.md;historic_status_preserved=NOT_STARTED	HISTORY+W02	Historic PASSED does not certify original SKILL
+110_PLAN	R058@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	R008—R015及R017高风险文学证据定向补审;subsequent_evidence=N01-N15;v13_3/n16/N16_LITERARY_B_296_MASTER.tsv;historic_status_preserved=NOT_STARTED	HISTORY+W02	Historic PASSED does not certify original SKILL
+110_PLAN	R059@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	R007、R016、R018—R024纠正与中风险文学证据补审;subsequent_evidence=N01-N15;v13_3/n16/N16_LITERARY_B_296_MASTER.tsv;historic_status_preserved=NOT_STARTED	HISTORY+W02	Historic PASSED does not certify original SKILL
+110_PLAN	R060@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》R042历史隔离旧主张7条逐项处置;subsequent_evidence=N01-N08,N16;v13_3/n16/N16_R042_14_QUARANTINE_MASTER.tsv;historic_status_preserved=NOT_STARTED	HISTORY+W02	Historic PASSED does not certify original SKILL
+110_PLAN	R061@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》R042历史隔离旧主张7条逐项处置;subsequent_evidence=N09-N16;v13_3/n16/N16_R042_14_QUARANTINE_MASTER.tsv;historic_status_preserved=NOT_STARTED	HISTORY+W02	Historic PASSED does not certify original SKILL
+110_PLAN	R062@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	两书BOOK_OVERVIEW与任务清单的质量债闭合映射;subsequent_evidence=N16;v13_3/n16/N16_BOOK_OVERVIEW_AUDIT.md;historic_status_preserved=NOT_STARTED	HISTORY+W02	Historic PASSED does not certify original SKILL
+110_PLAN	R063@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》23条V1 REVIEW逐项复核;subsequent_evidence=N17;v13_3/n17/N17_WM_V1_91.tsv;historic_status_preserved=NOT_STARTED	HISTORY+W01	Historic PASSED does not certify original SKILL
+110_PLAN	R064@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》16条V1 REVIEW逐项复核;subsequent_evidence=N18;v13_3/n18/N18_TX_V1_96.tsv;historic_status_preserved=NOT_STARTED	HISTORY+W01	Historic PASSED does not certify original SKILL
+110_PLAN	R065@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》5条原V2未测及新V1通过方法演练;subsequent_evidence=N19;v13_3/n19/N19_WM_V2_RESULTS_32.tsv;historic_status_preserved=NOT_STARTED	HISTORY+W01	Historic PASSED does not certify original SKILL
+110_PLAN	R066@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》6条原V2未测及新V1通过方法演练;subsequent_evidence=N20;v13_3/n20/N20_TX_V2_RESULTS_32.tsv;historic_status_preserved=NOT_STARTED	HISTORY+W01	Historic PASSED does not certify original SKILL
 110_PLAN	R067@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	V3逐方法对照冻结与47条全量任务分配	W01	Historic PASSED does not certify original SKILL
 110_PLAN	R068@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》V3逐方法对照 第1/3批（7条）	W01	Historic PASSED does not certify original SKILL
 110_PLAN	R069@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》V3逐方法对照 第2/3批（7条）	W01	Historic PASSED does not certify original SKILL
