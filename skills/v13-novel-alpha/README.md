@@ -34,3 +34,6 @@ python3 skills/v13-novel-alpha/scripts/build_handoff.py --out /tmp/V13_EXPLICIT_
 ## 新聊天交接的补强
 
 显式载荷现在默认选择CH04及其6事件状态账，并在B2区包含可被重新JSON解析和机器复核的**完整事件源状态**（授权生效范围、逐项变动、人物、事实、待偿义务），而非只交余额摘要。可运行 `python3 skills/v13-novel-alpha/scripts/build_handoff.py --out /tmp/V13_EXPLICIT_HANDOFF.md` 检查。这个交接能力是**可移植上下文文本生成**，并未证明另一个干净宿主会自动安装SKILL或在真实新会话成功。
+
+## 新增第五章与来源控制测试
+[第五章正文](../../experiments/novel_field_test_20261012/CH05.md)｜[CH05事件账](fixtures/chaoxun_ch05.json)｜[入账反例测试](tests/test_ch05_provenance.py)。新增公银/实物粮须有明确收到的事件类别和凭据，不能用商人许诺直接抬高余额；跨聊天交接工具默认第5章完整事件账，**不代表正式Skill宿主实际安装**。

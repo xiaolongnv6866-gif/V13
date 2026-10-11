@@ -19,3 +19,7 @@ W01实际增量：56项不同原创公开校准题已固定，对应56个可测V
 ## 2026-10-12 增量：第四章现场续写与ALPHA账务完整性修复
 
 在原三章冻结试验上新增[CH04真实原创正文](experiments/novel_field_test_20261012/CH04.md)、[现场修订审查](experiments/novel_field_test_20261012/CH04_EDIT_AUDIT.md)、[独立CH04事件状态账](skills/v13-novel-alpha/fixtures/chaoxun_ch04.json)和[反例回归测试](skills/v13-novel-alpha/tests/test_ch04_integrity.py)。未到物资转实物必须数额守恒，伪授权和未知许可不能通过。**这只是创作/确定性工程功能增量；正式W01 BLOCKED、0/11，独立V3=0、独立C=0、认证=0均不变。**
+
+## 2026-10-12 增量：第五章写作及资源入账负例
+
+新提交包含[《潮汛账》完整第5章](experiments/novel_field_test_20261012/CH05.md)、[真实原文3处定向抽读](experiments/novel_field_test_20261012/SOURCE_TO_SCENE_20261012.md)、[CH05完整事件账](skills/v13-novel-alpha/fixtures/chaoxun_ch05.json)和[现金/库存凭证拦截测试](skills/v13-novel-alpha/tests/test_ch05_provenance.py)，继续做实际小说而非管理文档。**正式W01仍BLOCKED、0/11；真实独立V3=0、独立C=0、认证=0**。

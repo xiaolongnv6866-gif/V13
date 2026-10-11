@@ -108,6 +108,14 @@ def validate(data):
                 need(event.get("kind") == "RECEIPT" and
                      bool(event.get("receipt_evidence_ref")),
                      "cannot turn promised goods into physical stock without witnessed receipt: " + str(eid))
+            if delta > 0 and account in {"stock.dry", "stock.wet"}:
+                need(event.get("kind") in {"RECEIPT", "DONATION_RECEIPT"} and
+                     bool(event.get("receipt_evidence_ref")),
+                     "physical stock credit requires a witnessed receipt: " + str(eid))
+            if delta > 0 and account == "cash.public":
+                need(event.get("kind") in {"CASH_RECEIPT", "CASH_RETURN"} and
+                     bool(event.get("receipt_evidence_ref")),
+                     "public cash credit requires a documented receipt: " + str(eid))
             balance[account] += delta
             need(balance[account] >= 0, "negative balance " + account + " at " + str(eid))
 

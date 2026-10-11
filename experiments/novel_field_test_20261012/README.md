@@ -14,3 +14,6 @@
 ## 新增：第四章连续创作试验（不覆盖原三章冻结测试）
 
 [第四章《两张纸的主人》](CH04.md)｜[第四章自审与界限](CH04_EDIT_AUDIT.md)｜[ALPHA第四章事件账](../../skills/v13-novel-alpha/fixtures/chaoxun_ch04.json)。原三章初始合同、原STATE与冻结测试全部保持不变；CH04的两个文书事件不改变粮/银，只改变部分人物可知事实与调查代价。
+
+## 第五章跨场景原创测试
+[第5章《渡口的四十七号》](CH05.md)｜[第五章自审](CH05_EDIT_AUDIT.md)｜[两书定向原文回读与机制转换](SOURCE_TO_SCENE_20261012.md)｜[第5章状态账](../../skills/v13-novel-alpha/fixtures/chaoxun_ch05.json)。前三章冻结输入与原状保持不变，W01独立V3仍未发生。

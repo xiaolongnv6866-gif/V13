@@ -47,11 +47,11 @@ def render(state, skill_text, last_chapter):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--state", default=str(ROOT / "fixtures" / "chaoxun_ch04.json"))
+    p.add_argument("--state", default=str(ROOT / "fixtures" / "chaoxun_ch05.json"))
     p.add_argument("--skill", default=str(ROOT / "SKILL.md"))
     p.add_argument("--last-chapter",
                    default=str(ROOT.parent.parent / "experiments" /
-                               "novel_field_test_20261012" / "CH04.md"))
+                               "novel_field_test_20261012" / "CH05.md"))
     p.add_argument("--out", required=True, help="Explicit handoff markdown destination")
     a = p.parse_args()
     state = json.loads(Path(a.state).read_text(encoding="utf-8"))
