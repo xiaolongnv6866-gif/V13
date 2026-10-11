@@ -20,6 +20,12 @@ def verify(root=ROOT):
     assert [p.relative_to(root).as_posix() for p in root.rglob("SKILL.md")] == ["SKILL.md"], "Only one discoverable SKILL.md allowed"
     assert (root/"scripts/validate_state.py").exists()
     assert (root/"scripts/build_handoff.py").exists()
+    assert (root/"scripts/chapter_gate.py").exists(), "chapter delivery gate must ship"
+    assert (root/"templates/CHAPTER_REVIEW_RECEIPT.json").exists(), "review receipt must ship"
+    assert (root/"tests/test_chapter_gate.py").exists(), "chapter gate negative tests must ship"
+    entry=(root/"SKILL.md").read_text(encoding="utf-8")
+    assert "章节交付门禁" in entry and "scripts/chapter_gate.py" in entry, "main entry must enforce chapter gate"
+
     cards=list((root/"capabilities/cards").glob("*.md"))
     assert len(cards)==64, f"Expected 64 source-bound RIA++ cards, got {len(cards)}"
     routes=(root/"routing/V1_187_FOURWAY_DELIVERY.tsv").read_text(encoding="utf-8").splitlines()
