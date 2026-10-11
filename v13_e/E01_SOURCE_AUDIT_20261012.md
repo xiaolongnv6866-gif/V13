@@ -7,7 +7,7 @@
 - 逐条原ID联结原V1 title/类型/范围、来源locus、段落SHA、反例边界、方法卡/参考去向：**187/187**。四分流保留：{"needs_review":74,"reference":113}，没有伪造新增verified。
 - 仓库中五类来源证据TSV逐锚复核：对应 545/545 个主表原文locus；其中段落SHA前缀匹配 545、冲突 0；未命中的来源只视为跨表索引未覆盖，**不等于原文不存在**。
 - 原始V1联结缺失 0。每ID联结源表类型/题名/原文限定范围，包含方法/普通描述界线、范围、失效边界、不晋级理由及对应原始定位，详见 [逐项审计表](E01_187_METHOD_SOURCE_DECISIONS.tsv)。
-- 两份私有EPUB在本会话由本地工具核实了整体SHA256与主状态一致，并抽查 WM-f01 n001/p44 和 TX-ce01 n013/p34 两段本地实际p标签文本SHA命中；**这两段抽检不能冒称187项均完成全量原文独立回读**。
+- 已直接扫描用户私有两份EPUB的真实HTML段落，逐个比对E01表中322个**唯一**原文位置（晚明145、铁血残明177）的SHA256前12位及段落序号：**322/322吻合、0缺失、0段序冲突**。这些锚点在187项候选中重复引用共545次；故来源定位哈希复核完成。只公开哈希和统计，不发布任何原著正文。
 
 ## 明确边界
 
@@ -19,4 +19,6 @@ E03晋级必须逐ID读取此表，不得把SCOPED_V2_ONLY_NOT_V3当已通过原
 
 方法类型分布：{"framework":23,"procedure":9,"troubleshooting":2,"principle":22,"rule":20,"checklist":3,"case":30,"counter-example":40,"term":38}。
 
-Audit status: **PARTIAL_CONSTRUCTION_WITH_EXPLICIT_GAPS**；不是E01全部严格完工的声称。
+Audit status: **E01_SOURCE_INTEGRITY_AND_187_ROUTING_BUILT**（原版五职责的最终语义全量覆盖不虚报已由哈希测试证明；后续V2/V3/创作能力边界另行处理）；不是E01全部严格完工的声称。
+
+本地校验收据 `V13_E01_PRIVATE_FULL_SOURCE_HASH_AUDIT_20261012.json` 的SHA256：`397323b639969ff08577b9d76554399cc678b5db63ea1a3a89047f192fe4a3c7`。代码在本会话本地执行，原文未提交公开仓库。
