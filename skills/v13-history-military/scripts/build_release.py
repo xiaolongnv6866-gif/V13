@@ -16,7 +16,8 @@ def inventory(root=ROOT):
 
 def verify(root=ROOT):
     assert (root/"SKILL.md").exists()
-    assert (root/"nuwa-theme/SKILL.md").exists()
+    assert (root/"nuwa-theme/TOPIC_OPERATIONS.md").exists()
+    assert [p.relative_to(root).as_posix() for p in root.rglob("SKILL.md")] == ["SKILL.md"], "Only one discoverable SKILL.md allowed"
     assert (root/"scripts/validate_state.py").exists()
     assert (root/"scripts/build_handoff.py").exists()
     cards=list((root/"capabilities/cards").glob("*.md"))
@@ -27,11 +28,30 @@ def verify(root=ROOT):
         fields=row.split("\t")
         if fields[-1].startswith("capabilities/cards/"):
             assert (root/fields[-1]).is_file(), fields[-1]
+    stage0 = list((root/"examples/stage0").glob("??-T??.md"))
+    assert len(stage0)==20, f"Expected 20 prose task deliveries, got {len(stage0)}"
+    for prefix in ("WM","TX"):
+        for i in range(1,11):
+            p=root/"examples/stage0"/f"{prefix}-T{i:02}.md"
+            assert p.is_file() and len(p.read_text(encoding="utf-8")) >= 750, p
+    model=json.loads((root/"nuwa-theme/references/MODEL_ROUTER.json").read_text(encoding="utf-8"))
+    assert len(model["models"])==4 and len(model["heuristics"])==8
+    edges=json.loads((root/"capabilities/RELATIONSHIPS.json").read_text(encoding="utf-8"))["edges"]
+    assert len(edges)>=18
+    for book in ("wanming","tiexuecanming"):
+        b=json.loads((root/"capabilities/bundles"/f"{book}.json").read_text(encoding="utf-8"))
+        assert len(b["capabilities"])==32
+        for c in b["capabilities"]:
+            assert (root/c["card"]).is_file(),c["card"]
+            for rel in c["also_read"]: assert (root/rel).is_file(),rel
+            txt=(root/c["card"]).read_text(encoding="utf-8")
+            assert all(f"## {section}｜" in txt for section in ("R","I","A1","A2","E","B")), c["capability_id"]
     for i in range(1,6):
         assert (root/f"examples/chaoxun/CH{i:02}.md").is_file()
     assert (root/"nuwa-theme/references/research/01-SOURCE_INVENTORY.md").is_file()
     return {"method_cards":len(cards),"historical_routes":len(routes)-1,
-            "original_example_chapters":5,
+            "original_example_chapters":5,"stage0_original_prose":len(stage0),
+            "nuwa_models":4,"nuwa_heuristics":8,"single_discoverable_entry":True,
             "files":len(inventory(root)),
             "independent_V3":"NOT_RUN_USER_WAIVED",
             "literary_blind_review":"NOT_RUN_USER_WAIVED"}
