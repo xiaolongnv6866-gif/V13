@@ -1,0 +1,1059 @@
+family	version_scoped_id	canonical_source	observed_status	trace_note	remaining_package	mandatory_disposition
+89_PLAN	R001@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R001;建立V13清洁仓库与权威状态	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R002@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R002;V13原著SHA/EPUB叙事章映射	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R003@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R003;仓颉原版输入和环境自检	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R004@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R004;女娲Phase0正式范围与档位	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R005@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R005;女娲Phase0.5独立目录	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R006@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R006;冻结Stage0阅读证据合同和保留盲测	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R007@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R007;《晚明》全文第001—040章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R008@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R008;《铁血残明》全文第001—040章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R009@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R009;《晚明》全文第041—080章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R010@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R010;《铁血残明》全文第041—080章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R011@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R011;《晚明》全文第081—120章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R012@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R012;《铁血残明》全文第081—120章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R013@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R013;《晚明》全文第121—160章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R014@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R014;《铁血残明》全文第121—160章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R015@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R015;《晚明》全文第161—200章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R016@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R016;《铁血残明》全文第161—200章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R017@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R017;《晚明》全文第201—240章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R018@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R018;《铁血残明》全文第201—240章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R019@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R019;《晚明》全文第241—280章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R020@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R020;《铁血残明》全文第241—280章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R021@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R021;《晚明》全文第281—320章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R022@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R022;《铁血残明》全文第281—320章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R023@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R023;《晚明》全文第321—360章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R024@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R024;《铁血残明》全文第321—360章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R025@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R025;《晚明》全文第361—400章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R026@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R026;《铁血残明》全文第361—400章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R027@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R027;《晚明》全文第401—440章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R028@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R028;《铁血残明》全文第401—440章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R029@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R029;《晚明》全文第441—480章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R030@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R030;《铁血残明》全文第441—480章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R031@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R031;《晚明》全文第481—520章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R032@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R032;《铁血残明》全文第481—520章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R033@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R033;《晚明》全文第521—560章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R034@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R034;《铁血残明》全文第521—532章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R035@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R035;《晚明》全文第561—571章	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R036@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R036;《晚明》Stage0结构分析	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R037@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R037;《晚明》Stage0解释分析	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R038@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R038;《晚明》Stage0批判与应用	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R039@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R039;《铁血残明》Stage0结构分析	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R040@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R040;《铁血残明》Stage0解释分析	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R041@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R041;《铁血残明》Stage0批判与应用	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R042@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R042;两书BOOK_OVERVIEW与Stage0用户关口	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R043@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R043;《晚明》框架提取器独立执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R044@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R044;《晚明》原则提取器独立执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R045@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R045;《晚明》案例提取器独立执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R046@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R046;《晚明》反例提取器独立执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R047@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R047;《晚明》术语提取器独立执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R048@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R048;《铁血残明》框架提取器独立执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R049@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R049;《铁血残明》原则提取器独立执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R050@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R050;《铁血残明》案例提取器独立执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R051@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R051;《铁血残明》反例提取器独立执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R052@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R052;《铁血残明》术语提取器独立执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R053@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R053;两书候选合并、去重与任务覆盖	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R054@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R054;Stage1.5 V1来源充分性	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R055@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R055;Stage1.5 V2合法新输入可执行	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R056@v13.0	V13_FIXED_89_ROUNDS.md	PASSED	semantic_to_v13.1=R056;Stage1.5 V3任务增益	HISTORY	Never merge bare numbers across 89 and 110
+89_PLAN	R057@v13.0	V13_FIXED_89_ROUNDS.md	BLOCKED	semantic_to_v13.1=R078;四类分流、coverage-audit与用户轻确认	W02	Never merge bare numbers across 89 and 110
+89_PLAN	R058@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R079;Stage1.6独立Skill晋级门	W03	Never merge bare numbers across 89 and 110
+89_PLAN	R059@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R080;《晚明》RIA++与Bundle	W03	Never merge bare numbers across 89 and 110
+89_PLAN	R060@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R081;《铁血残明》RIA++与Bundle	W03	Never merge bare numbers across 89 and 110
+89_PLAN	R061@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R082;《晚明》Zettelkasten依赖与术语	W04	Never merge bare numbers across 89 and 110
+89_PLAN	R062@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R083;《铁血残明》Zettelkasten依赖与术语	W04	Never merge bare numbers across 89 and 110
+89_PLAN	R063@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R084;《晚明》Stage4触发/路由压测	W04	Never merge bare numbers across 89 and 110
+89_PLAN	R064@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R085;《铁血残明》Stage4触发/路由压测	W04	Never merge bare numbers across 89 and 110
+89_PLAN	R065@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R086;《晚明》Stage4真实任务输出压测	W05	Never merge bare numbers across 89 and 110
+89_PLAN	R066@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R087;《铁血残明》Stage4真实任务输出压测	W05	Never merge bare numbers across 89 and 110
+89_PLAN	R067@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R088;Stage4失败回炉与回归	W05	Never merge bare numbers across 89 and 110
+89_PLAN	R068@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R089;《晚明》Stage5编译与DIGEST	W06	Never merge bare numbers across 89 and 110
+89_PLAN	R069@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R090;《铁血残明》Stage5编译与DIGEST	W06	Never merge bare numbers across 89 and 110
+89_PLAN	R070@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R091;主题3—5独立学派/代表选择与来源边界	W07	Never merge bare numbers across 89 and 110
+89_PLAN	R071@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R092;主题路径第1个独立观点来源研究	W07	Never merge bare numbers across 89 and 110
+89_PLAN	R072@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R093;主题路径第2个独立观点来源研究	W07	Never merge bare numbers across 89 and 110
+89_PLAN	R073@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R094;主题路径第3个独立观点来源研究	W07	Never merge bare numbers across 89 and 110
+89_PLAN	R074@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R095;主题路径第4个独立观点来源研究	W07	Never merge bare numbers across 89 and 110
+89_PLAN	R075@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R096;主题路径第5个独立观点来源研究	W07	Never merge bare numbers across 89 and 110
+89_PLAN	R076@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R097;Nuwa Phase1维度汇总与冲突账	W07	Never merge bare numbers across 89 and 110
+89_PLAN	R077@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R098;Phase1.5调研质量审查与用户关口	W07	Never merge bare numbers across 89 and 110
+89_PLAN	R078@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R099;Phase2心智模型独立提炼	W08	Never merge bare numbers across 89 and 110
+89_PLAN	R079@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R100;Phase2启发式、表达DNA与诚实边界	W08	Never merge bare numbers across 89 and 110
+89_PLAN	R080@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R101;Phase2.5模型与DNA用户确认	W08	Never merge bare numbers across 89 and 110
+89_PLAN	R081@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R102;Phase3主题SKILL与Agentic Protocol	W09	Never merge bare numbers across 89 and 110
+89_PLAN	R082@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R103;Phase4独立已知/边缘/表达实测	W09	Never merge bare numbers across 89 and 110
+89_PLAN	R083@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R104;Phase4质量脚本、迭代上限和用户关口	W09	Never merge bare numbers across 89 and 110
+89_PLAN	R084@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R105;Phase5独立优化主体A	W10	Never merge bare numbers across 89 and 110
+89_PLAN	R085@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R106;Phase5独立优化主体B	W10	Never merge bare numbers across 89 and 110
+89_PLAN	R086@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R107;Phase5合并改动、回归与用户确认	W10	Never merge bare numbers across 89 and 110
+89_PLAN	R087@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R108;统一创作技能路由/契约	W11	Never merge bare numbers across 89 and 110
+89_PLAN	R088@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R109;四臂盲测与长篇连续性压力	W11	Never merge bare numbers across 89 and 110
+89_PLAN	R089@v13.0	V13_FIXED_89_ROUNDS.md	NOT_STARTED	semantic_to_v13.1=R110;GitHub出厂、干净会话恢复与用户验收	W11	Never merge bare numbers across 89 and 110
+110_PLAN	R001@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	建立V13清洁仓库与权威状态	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R002@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	V13原著SHA/EPUB叙事章映射	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R003@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	仓颉原版输入和环境自检	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R004@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	女娲Phase0正式范围与档位	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R005@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	女娲Phase0.5独立目录	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R006@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	冻结Stage0阅读证据合同和保留盲测	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R007@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第001—040章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R008@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第001—040章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R009@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第041—080章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R010@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第041—080章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R011@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第081—120章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R012@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第081—120章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R013@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第121—160章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R014@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第121—160章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R015@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第161—200章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R016@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第161—200章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R017@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第201—240章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R018@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第201—240章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R019@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第241—280章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R020@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第241—280章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R021@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第281—320章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R022@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第281—320章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R023@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第321—360章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R024@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第321—360章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R025@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第361—400章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R026@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第361—400章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R027@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第401—440章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R028@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第401—440章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R029@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第441—480章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R030@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第441—480章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R031@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第481—520章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R032@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第481—520章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R033@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第521—560章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R034@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》全文第521—532章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R035@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》全文第561—571章	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R036@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》Stage0结构分析	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R037@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》Stage0解释分析	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R038@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》Stage0批判与应用	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R039@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》Stage0结构分析	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R040@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》Stage0解释分析	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R041@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》Stage0批判与应用	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R042@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	两书BOOK_OVERVIEW与Stage0用户关口	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R043@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》框架提取器独立执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R044@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》原则提取器独立执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R045@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》案例提取器独立执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R046@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》反例提取器独立执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R047@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《晚明》术语提取器独立执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R048@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》框架提取器独立执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R049@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》原则提取器独立执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R050@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》案例提取器独立执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R051@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》反例提取器独立执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R052@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	《铁血残明》术语提取器独立执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R053@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	两书候选合并、去重与任务覆盖	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R054@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	Stage1.5 V1来源充分性	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R055@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	Stage1.5 V2合法新输入可执行	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R056@v13.1	V13_REVISED_110_ROUNDS.md	PASSED	Stage1.5 V3任务增益	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R057@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	遗留冻结问题全量锁定与风险分层	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R058@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	R008—R015及R017高风险文学证据定向补审	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R059@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	R007、R016、R018—R024纠正与中风险文学证据补审	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R060@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》R042历史隔离旧主张7条逐项处置	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R061@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》R042历史隔离旧主张7条逐项处置	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R062@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	两书BOOK_OVERVIEW与任务清单的质量债闭合映射	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R063@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》23条V1 REVIEW逐项复核	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R064@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》16条V1 REVIEW逐项复核	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R065@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》5条原V2未测及新V1通过方法演练	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R066@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》6条原V2未测及新V1通过方法演练	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R067@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	V3逐方法对照冻结与47条全量任务分配	W01	Historic PASSED does not certify original SKILL
+110_PLAN	R068@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》V3逐方法对照 第1/3批（7条）	W01	Historic PASSED does not certify original SKILL
+110_PLAN	R069@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》V3逐方法对照 第2/3批（7条）	W01	Historic PASSED does not certify original SKILL
+110_PLAN	R070@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》V3逐方法对照 第3/3批（7条）	W01	Historic PASSED does not certify original SKILL
+110_PLAN	R071@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》V3逐方法对照 第1/4批（7条）	W01	Historic PASSED does not certify original SKILL
+110_PLAN	R072@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》V3逐方法对照 第2/4批（7条）	W01	Historic PASSED does not certify original SKILL
+110_PLAN	R073@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》V3逐方法对照 第3/4批（6条）	W01	Historic PASSED does not certify original SKILL
+110_PLAN	R074@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》V3逐方法对照 第4/4批（6条）	W01	Historic PASSED does not certify original SKILL
+110_PLAN	R075@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》新获V2合格方法的V3闭环与边界补证	W01	Historic PASSED does not certify original SKILL
+110_PLAN	R076@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》新获V2合格方法的V3闭环与边界补证	W01	Historic PASSED does not certify original SKILL
+110_PLAN	R077@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	两书全部47条V3证据及新增方法独立性、反例、任务覆盖总审计	HISTORY	Historic PASSED does not certify original SKILL
+110_PLAN	R078@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	更新四类分流、coverage-audit与新版用户确认	W02	Historic PASSED does not certify original SKILL
+110_PLAN	R079@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Stage1.6独立Skill晋级门	W03	Historic PASSED does not certify original SKILL
+110_PLAN	R080@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》RIA++与Bundle	W03	Historic PASSED does not certify original SKILL
+110_PLAN	R081@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》RIA++与Bundle	W03	Historic PASSED does not certify original SKILL
+110_PLAN	R082@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》Zettelkasten依赖与术语	W04	Historic PASSED does not certify original SKILL
+110_PLAN	R083@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》Zettelkasten依赖与术语	W04	Historic PASSED does not certify original SKILL
+110_PLAN	R084@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》Stage4触发/路由压测	W04	Historic PASSED does not certify original SKILL
+110_PLAN	R085@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》Stage4触发/路由压测	W04	Historic PASSED does not certify original SKILL
+110_PLAN	R086@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》Stage4真实任务输出压测	W05	Historic PASSED does not certify original SKILL
+110_PLAN	R087@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》Stage4真实任务输出压测	W05	Historic PASSED does not certify original SKILL
+110_PLAN	R088@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Stage4失败回炉与回归	W05	Historic PASSED does not certify original SKILL
+110_PLAN	R089@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《晚明》Stage5编译与DIGEST	W06	Historic PASSED does not certify original SKILL
+110_PLAN	R090@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	《铁血残明》Stage5编译与DIGEST	W06	Historic PASSED does not certify original SKILL
+110_PLAN	R091@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	主题3—5独立学派/代表选择与来源边界	W07	Historic PASSED does not certify original SKILL
+110_PLAN	R092@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	主题路径第1个独立观点来源研究	W07	Historic PASSED does not certify original SKILL
+110_PLAN	R093@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	主题路径第2个独立观点来源研究	W07	Historic PASSED does not certify original SKILL
+110_PLAN	R094@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	主题路径第3个独立观点来源研究	W07	Historic PASSED does not certify original SKILL
+110_PLAN	R095@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	主题路径第4个独立观点来源研究	W07	Historic PASSED does not certify original SKILL
+110_PLAN	R096@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	主题路径第5个独立观点来源研究	W07	Historic PASSED does not certify original SKILL
+110_PLAN	R097@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Nuwa Phase1维度汇总与冲突账	W07	Historic PASSED does not certify original SKILL
+110_PLAN	R098@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Phase1.5调研质量审查与用户关口	W07	Historic PASSED does not certify original SKILL
+110_PLAN	R099@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Phase2心智模型独立提炼	W08	Historic PASSED does not certify original SKILL
+110_PLAN	R100@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Phase2启发式、表达DNA与诚实边界	W08	Historic PASSED does not certify original SKILL
+110_PLAN	R101@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Phase2.5模型与DNA用户确认	W08	Historic PASSED does not certify original SKILL
+110_PLAN	R102@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Phase3主题SKILL与Agentic Protocol	W09	Historic PASSED does not certify original SKILL
+110_PLAN	R103@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Phase4独立已知/边缘/表达实测	W09	Historic PASSED does not certify original SKILL
+110_PLAN	R104@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Phase4质量脚本、迭代上限和用户关口	W09	Historic PASSED does not certify original SKILL
+110_PLAN	R105@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Phase5独立优化主体A	W10	Historic PASSED does not certify original SKILL
+110_PLAN	R106@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Phase5独立优化主体B	W10	Historic PASSED does not certify original SKILL
+110_PLAN	R107@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	Phase5合并改动、回归与用户确认	W10	Historic PASSED does not certify original SKILL
+110_PLAN	R108@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	统一创作技能路由/契约	W11	Historic PASSED does not certify original SKILL
+110_PLAN	R109@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	四臂盲测与长篇连续性压力	W11	Historic PASSED does not certify original SKILL
+110_PLAN	R110@v13.1	V13_REVISED_110_ROUNDS.md	NOT_STARTED	GitHub出厂、干净会话恢复与用户验收	W11	Historic PASSED does not certify original SKILL
+96_BATCH	B067@v13.2	V13_LEDGER_V3.csv	PASSED	R067;PREREGISTERED_ONLY_NO_V3_OUTPUTS	W01	Preserve actual quality status, not only batch pass
+96_BATCH	B068@v13.2	V13_LEDGER_V3.csv	PASSED	R068;R069;11_TESTED_NONBLIND_8_TIES_3_PLUS1_0_VERIFIED_R069_PARTIAL4_OF7	W01	Preserve actual quality status, not only batch pass
+96_BATCH	B069@v13.2	V13_LEDGER_V3.csv	PASSED	R069;R070;R069_7_OF_7_AND_R070_7_OF_7_DELIVERED_8_TIES_2_PLUS1_ZERO_VERIFIED_NONBLIND	W01	Preserve actual quality status, not only batch pass
+96_BATCH	B070@v13.2	V13_LEDGER_V3.csv	PASSED	R071;R072;R071_COMPLETE_7_OF_7_R072_PARTIAL_2_OF_7_NONBLIND_6_TIE_3_PLUS1_ZERO_VERIFIED	W01	Preserve actual quality status, not only batch pass
+96_BATCH	B071@v13.2	V13_LEDGER_V3.csv	PASSED	R072;R073;R072_7_OF_7_COMPLETE_R073_4_OF_6_PARTIAL_9_NONBLIND_7_TIE_2_PLUS1_0_VERIFIED	W01	Preserve actual quality status, not only batch pass
+96_BATCH	B072@v13.2	V13_LEDGER_V3.csv	PASSED	R073;R074;R073_FULL_6_OF_6_R074_FULL_6_OF_6_ALL_47_V3_NONBLIND_DIAGNOSTICS_0_VERIFIED	W01	Preserve actual quality status, not only batch pass
+96_BATCH	B073@v13.2	V13_LEDGER_V3.csv	PASSED	R075;R075_FULL_10_ADDITIONAL_WM_LIMITED_V3_6_TIE_4_PLUS1_0_VERIFIED_WM04_WM09_ROLLBACK_RETAINED	W01	Preserve actual quality status, not only batch pass
+96_BATCH	B074@v13.2	V13_LEDGER_V3.csv	PASSED	R076;R076_FULL_12_TX_SCOPED_DIAGNOSTICS_9_TIE_3_PLUS1_ZERO_VERIFIED_SEVEN_OLD_R042_INELIGIBLE	W01	Preserve actual quality status, not only batch pass
+96_BATCH	B075@v13.2	V13_LEDGER_V3.csv	PASSED	R077;AUDIT_ONLY_47_PLUS_22_RAW_CHECKS_138_ARMS_50_TIE_19_PLUS1_0_VERIFIED_19_TASK_LINKS_ONLY_EA	HISTORY	Preserve actual quality status, not only batch pass
+96_BATCH	B076@v13.2	V13_LEDGER_V3.csv	BLOCKED	R078;BLOCKED_0VERIFIED_108REFERENCE_79NEEDS_426_FROZEN_192_B_UNREVIEWED_OLD14_OPEN_7_V1_UNRESOL	W01+W02	Preserve actual quality status, not only batch pass
+96_BATCH	B077@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R079;R080;R081;NOT_ASSESSED	W03	Preserve actual quality status, not only batch pass
+96_BATCH	B078@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R082;R083;NOT_ASSESSED	W04	Preserve actual quality status, not only batch pass
+96_BATCH	B079@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R084;R086;NOT_ASSESSED	W04	Preserve actual quality status, not only batch pass
+96_BATCH	B080@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R085;R087;NOT_ASSESSED	W04	Preserve actual quality status, not only batch pass
+96_BATCH	B081@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R088;NOT_ASSESSED	W05	Preserve actual quality status, not only batch pass
+96_BATCH	B082@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R089;NOT_ASSESSED	W06	Preserve actual quality status, not only batch pass
+96_BATCH	B083@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R090;NOT_ASSESSED	W06	Preserve actual quality status, not only batch pass
+96_BATCH	B084@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R091;NOT_ASSESSED	W07	Preserve actual quality status, not only batch pass
+96_BATCH	B085@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R092;R093;R094;NOT_ASSESSED	W07	Preserve actual quality status, not only batch pass
+96_BATCH	B086@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R095;R096;NOT_ASSESSED	W07	Preserve actual quality status, not only batch pass
+96_BATCH	B087@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R097;R098;NOT_ASSESSED	W07	Preserve actual quality status, not only batch pass
+96_BATCH	B088@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R099;R100;R101;NOT_ASSESSED	W08	Preserve actual quality status, not only batch pass
+96_BATCH	B089@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R102;NOT_ASSESSED	W09	Preserve actual quality status, not only batch pass
+96_BATCH	B090@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R103;R104;NOT_ASSESSED	W09	Preserve actual quality status, not only batch pass
+96_BATCH	B091@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R105;NOT_ASSESSED	W10	Preserve actual quality status, not only batch pass
+96_BATCH	B092@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R106;NOT_ASSESSED	W10	Preserve actual quality status, not only batch pass
+96_BATCH	B093@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R107;NOT_ASSESSED	W10	Preserve actual quality status, not only batch pass
+96_BATCH	B094@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R108;NOT_ASSESSED	W11	Preserve actual quality status, not only batch pass
+96_BATCH	B095@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R109;NOT_ASSESSED	W11	Preserve actual quality status, not only batch pass
+96_BATCH	B096@v13.2	V13_LEDGER_V3.csv	NOT_STARTED	R110;NOT_ASSESSED	W11	Preserve actual quality status, not only batch pass
+48_PLAN	N01@v13.3	V13_LEDGER_V4.tsv	PASSED	R007;R009	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N02@v13.3	V13_LEDGER_V4.tsv	PASSED	R011	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N03@v13.3	V13_LEDGER_V4.tsv	PASSED	R013	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N04@v13.3	V13_LEDGER_V4.tsv	PASSED	R015	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N05@v13.3	V13_LEDGER_V4.tsv	PASSED	R017	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N06@v13.3	V13_LEDGER_V4.tsv	PASSED	R019	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N07@v13.3	V13_LEDGER_V4.tsv	PASSED	R021	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N08@v13.3	V13_LEDGER_V4.tsv	PASSED	R023	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N09@v13.3	V13_LEDGER_V4.tsv	PASSED	R008;R010	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N10@v13.3	V13_LEDGER_V4.tsv	PASSED	R012;R014	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N11@v13.3	V13_LEDGER_V4.tsv	PASSED	R016	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N12@v13.3	V13_LEDGER_V4.tsv	PASSED	R018	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N13@v13.3	V13_LEDGER_V4.tsv	PASSED	R020	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N14@v13.3	V13_LEDGER_V4.tsv	PASSED	R022	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N15@v13.3	V13_LEDGER_V4.tsv	PASSED	R024	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N16@v13.3	V13_LEDGER_V4.tsv	PASSED	R077	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N17@v13.3	V13_LEDGER_V4.tsv	PASSED	HISTORIC_STAGE0_SOURCE	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N18@v13.3	V13_LEDGER_V4.tsv	PASSED	HISTORIC_STAGE0_SOURCE	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N19@v13.3	V13_LEDGER_V4.tsv	PASSED	HISTORIC_STAGE0_SOURCE	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N20@v13.3	V13_LEDGER_V4.tsv	PASSED	HISTORIC_STAGE0_SOURCE	HISTORY	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N21@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R067	W01	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N22@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R068;R069;R070	W01	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N23@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R071;R072;R073;R074	W01	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N24@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R075	W01	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N25@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R076	W01	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N26@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R077	W02	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N27@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R077	W02	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N28@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R077;R078	W02	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N29@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R079	W03	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N30@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R080	W03	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N31@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R081	W03	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N32@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R082;R083	W04	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N33@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R084;R085	W04	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N34@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R086	W05	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N35@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R087	W05	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N36@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R088	W05	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N37@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R089;R090	W06	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N38@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R091	W07	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N39@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R092;R093;R094	W07	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N40@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R095;R096	W07	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N41@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R097;R098	W07	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N42@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R099;R100;R101	W08	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N43@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R102	W09	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N44@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R103;R104	W09	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N45@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R105;R106;R107	W10	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N46@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R108	W11	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N47@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R109	W11	Historical receipt cannot stand in for final original fiction test
+48_PLAN	N48@v13.3	V13_LEDGER_V4.tsv	NOT_STARTED	R110	W11	Historical receipt cannot stand in for final original fiction test
+ISSUE_426	STAGE0:R007:wm-1-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R007=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R007:wm-20-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R007=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R007:wm-34-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R007=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R007:wm-35-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R007=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R007:wm-39-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R007=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R007:wm-40-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R007=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-41-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-51-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-60-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-61-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-65-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-68-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-70-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-71-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-74-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-75-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R009:wm-r009-80-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R009=>N01	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-81-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-88-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-95-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-99-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-100-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-102-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-105-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-106-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-107-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-110-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-112-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-113-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-115-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-116-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-118-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-119-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R011:wm-r011-120-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R011=>N02	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-121-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-125-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-128-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-130-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-133-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-135-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-137-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-139-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-140-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-143-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-147-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-149-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-150-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-154-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-156-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-157-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-159-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R013:wanming-R013-160-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R013=>N03	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-161-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-164-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-169-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-173-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-176-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-179-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-180-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-182-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-185-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-187-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-189-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-190-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-191-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-194-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-196-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-197-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-199-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R015:wanming-R015-200-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R015=>N04	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-201-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-202-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-203-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-207-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-212-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-213-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-214-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-216-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-217-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-219-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-220-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-222-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-223-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-225-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-229-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-231-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-233-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-237-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-239-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R017:wanming-R017-240-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R017=>N05	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-241-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-242-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-243-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-246-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-248-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-250-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-252-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-255-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-256-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-259-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-262-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-263-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-265-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-268-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-270-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-272-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-273-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-274-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-277-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R019:v13-r019-wanming-280-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R019=>N06	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-281-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-282-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-283-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-285-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-288-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-291-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-293-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-295-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-297-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-299-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-301-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-303-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-305-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-307-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-309-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-311-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-313-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-316-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-318-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R021:V13-R021-wanming-320-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R021=>N07	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-321-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-322-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-323-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-325-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-329-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-331-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-333-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-334-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-337-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-338-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-339-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-340-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-341-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-343-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-344-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-346-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-349-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-351-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-356-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R023:v13-r023-wanming-360-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R023=>N08	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R008:tx-r008-001	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R008=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R008:tx-r008-020	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R008=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R008:tx-r008-029	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R008=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R008:tx-r008-031	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R008=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R008:tx-r008-032	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R008=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R008:tx-r008-033	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R008=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R008:tx-r008-035	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R008=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R008:tx-r008-037	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R008=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R008:tx-r008-039	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R008=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R008:tx-r008-040	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R008=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R010:R010-41-narrative-claim	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R010=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R010:R010-55-narrative-claim	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R010=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R010:R010-57-narrative-claim	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R010=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R010:R010-60-narrative-claim	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R010=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R010:R010-62-narrative-claim	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R010=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R010:R010-65-narrative-claim	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R010=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R010:R010-67-narrative-claim	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R010=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R010:R010-73-narrative-claim	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R010=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R010:R010-79-narrative-claim	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R010=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R010:R010-80-narrative-claim	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R010=>N09	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-81	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-83	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-88	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-91	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-94	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-100	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-103	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-105	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-109	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-110	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-116	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R012:tx-r012-120	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R012=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-121-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-122-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-127-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-129-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-130-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-135-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-140-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-142-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-148-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-152-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-153-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-155-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-157-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R014:tx-r014-160-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R014=>N10	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-161-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-163-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-165-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-168-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-170-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-173-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-176-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-178-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-180-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-182-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-184-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-186-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-188-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-190-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-191-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-193-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-195-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-197-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-199-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R016:tiexue-R016-200-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R016=>N11	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-201-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-202-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-205-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-206-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-207-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-210-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-214-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-218-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-220-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-223-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-226-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-227-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-228-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-230-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-231-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-232-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-234-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-237-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-239-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R018:v13-R018-tiexue-240-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R018=>N12	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-241-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-242-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-243-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-246-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-248-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-250-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-251-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-253-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-254-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-255-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-256-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-258-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-261-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-262-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-263-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-266-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-267-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-268-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-272-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R020:tiexue-R020-280-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R020=>N13	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-281-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-282-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-283-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-285-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-286-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-289-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-290-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-291-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-293-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-295-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-298-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-300-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-301-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-302-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-303-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-306-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-307-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-311-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-315-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R022:v13-r022-tiexue-320-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R022=>N14	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-321-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-324-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-328-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-329-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-331-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-333-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-336-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-337-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	REJECT_OLD_STRONG_CLAIM	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-340-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-341-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-343-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-344-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-345-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-346-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-347-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-350-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-352-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-355-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-357-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	STAGE0:R024:R024-360-C1	V13_3_ISSUES_426_TO_ROUNDS.tsv	SCOPED_LITERARY_B_ONLY	R024=>N15	HISTORY	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:tx-r008-033	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R061=>N09	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:wanming-R013-143-narrative-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R060=>N03	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:wanming-R017-220-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R060=>N05	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:v13-R018-tiexue-226-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R061=>N12	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:v13-r023-wanming-339-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R060=>N08	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:wm-r009-65-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R060=>N01	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:wm-r011-99-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R060=>N02	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:tx-r012-109	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R061=>N10	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:tx-r014-153-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R061=>N10	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:tiexue-R016-180-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R061=>N11	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:v13-r019-wanming-265-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R060=>N06	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:tiexue-R020-254-provisional	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R061=>N13	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:V13-R021-wanming-305-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R060=>N07	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	LEGACY:v13-r022-tiexue-286-candidate	V13_3_ISSUES_426_TO_ROUNDS.tsv	OPEN_QUARANTINE	R061=>N14	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-f03	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-f05	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-f07	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-f09	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-f15	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-f17	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-p02	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-p09	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-p10	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-p11	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-p15	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-p16	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-p17	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-p22	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-c05	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-c11	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-ce06	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-ce08	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-ce12	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-ce13	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-ce15	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-ce17	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:WM-ce18	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R063=>N17	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-f06	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-f07	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-f14	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-f17	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-p10	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-p16	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-p22	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-c05	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-ce01	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-ce08	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-ce09	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-ce10	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-ce12	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-ce14	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-ce15	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V1:TX-ce18	V13_3_ISSUES_426_TO_ROUNDS.tsv	V1_SOURCE_REVIEW	R064=>N18	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:WM-f11	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R065=>N19	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:WM-f16	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R065=>N19	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:WM-p06	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R065=>N19	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:WM-p13	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R065=>N19	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:WM-p18	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R065=>N19	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:TX-f03	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R066=>N20	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:TX-f04	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R066=>N20	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:TX-f15	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R066=>N20	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:TX-p02	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R066=>N20	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:TX-p15	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R066=>N20	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V2:TX-p18	V13_3_ISSUES_426_TO_ROUNDS.tsv	V2_EXECUTABILITY_NOT_TESTED	R066=>N20	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-f01	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R068=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-f02	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R068=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-f04	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R068=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-f06	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R068=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-f08	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R068=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-f10	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R068=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-f12	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R068=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-f13	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R069=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-f14	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R069=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p01	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R069=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p03	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R069=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p04	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R069=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p05	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R069=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p07	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R069=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p08	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R070=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p12	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R070=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p14	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R070=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p19	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R070=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p20	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R070=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p21	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R070=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:WM-p23	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R070=>N22	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-f01	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R071=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-f02	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R071=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-f05	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R071=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-f08	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R071=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-f09	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R071=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-f10	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R071=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-f11	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R071=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-f12	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R072=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-f13	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R072=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-f16	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R072=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p01	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R072=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p03	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R072=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p04	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R072=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p05	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R072=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p06	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R073=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p07	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R073=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p08	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R073=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p09	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R073=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p11	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R073=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p12	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R073=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p13	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R074=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p14	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R074=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p17	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R074=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p19	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R074=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p20	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R074=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	V3:TX-p21	V13_3_ISSUES_426_TO_ROUNDS.tsv	V3_NO_GAIN_PROVEN	R074=>N23	W01	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:WM-01	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N26	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:WM-02	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N26	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:WM-03	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N26	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:WM-04	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N26	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:WM-05	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N26	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:WM-06	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N26	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:WM-07	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N26	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:WM-08	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N26	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:WM-09	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N26	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:TX-01	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N27	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:TX-02	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N27	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:TX-03	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N27	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:TX-04	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N27	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:TX-05	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N27	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:TX-06	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N27	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:TX-07	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N27	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:TX-08	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N27	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:TX-09	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N27	W02	All original issues kept; do not erase negative conclusions
+ISSUE_426	TASK:TX-10	V13_3_ISSUES_426_TO_ROUNDS.tsv	STAGE0_TASK_COVERAGE	R062;R077;R078=>N27	W02	All original issues kept; do not erase negative conclusions
+CANDIDATE_187	WM-f01	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f02	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f03	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_PARTIAL_NEEDS_FOLLOWUP	needs_review;V2_PARTIAL	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-f04	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f05	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_PARTIAL_NEEDS_FOLLOWUP	needs_review;V2_PARTIAL	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-f06	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f07	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_NEEDS_REVIEW_NO_V2|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-f08	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f09	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_NEEDS_REVIEW_NO_V2|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-f10	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_PARTIAL_NEEDS_FOLLOWUP	needs_review;V2_PARTIAL	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-f11	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f12	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f13	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f14	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f15	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f16	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-f17	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_PARTIAL_NEEDS_FOLLOWUP	needs_review;V2_PARTIAL	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-p01	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p02	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_NEEDS_REVIEW_NO_V2|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-p03	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p04	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p05	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p06	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_NEEDS_REVIEW_NO_V2|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-p07	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p08	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p09	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_NEEDS_REVIEW_NO_V2|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-p10	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_NEEDS_REVIEW_NO_V2|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-p11	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-p12	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p13	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p14	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p15	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p16	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p17	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-p18	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p19	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p20	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p21	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p22	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-p23	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	WM-c01	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c02	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c03	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c04	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c05	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c06	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c07	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c08	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c09	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c10	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c11	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c12	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c13	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-c14	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce01	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce02	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce03	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce04	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce05	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce06	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce07	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce08	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce09	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce10	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce11	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce12	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce13	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce14	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce15	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce16	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce17	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce18	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-ce19	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g01	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g02	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g03	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g04	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g05	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g06	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g07	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g08	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g09	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g10	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g11	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g12	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g13	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g14	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g15	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g16	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g17	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	WM-g18	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-f01	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-f02	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_PARTIAL_NEEDS_FOLLOWUP	needs_review;V2_PARTIAL	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-f03	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_NEEDS_REVIEW_NO_V2|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-f04	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-f05	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-f06	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_NEEDS_REVIEW_NO_V2|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-f07	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_PARTIAL_NEEDS_FOLLOWUP	needs_review;V2_PARTIAL	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-f08	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-f09	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-f10	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-f11	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-f12	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-f13	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-f14	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_NEEDS_REVIEW_NO_V2|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-f15	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_PARTIAL_NEEDS_FOLLOWUP	needs_review;V2_PARTIAL	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-f16	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-f17	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p01	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p02	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p03	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p04	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p05	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p06	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p07	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p08	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p09	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p10	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-p11	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p12	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p13	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p14	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p15	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-p16	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_NEEDS_REVIEW_NO_V2|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-p17	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p18	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p19	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p20	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p21	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING|V2_WALKTHROUGH_PASS_SCOPED	needs_review;READY_V3	W01	All187 need final four-way and provenance
+CANDIDATE_187	TX-p22	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	needs_review;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c01	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c02	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c03	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c04	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c05	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c06	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c07	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c08	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c09	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c10	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c11	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c12	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c13	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c14	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c15	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-c16	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce01	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce02	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce03	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce04	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce05	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce06	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce07	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce08	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce09	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce10	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce11	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce12	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce13	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce14	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce15	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce16	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce17	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce18	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce19	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce20	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-ce21	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g01	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g02	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g03	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g04	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g05	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g06	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g07	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g08	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g09	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g10	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g11	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g12	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g13	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g14	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g15	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g16	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g17	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g18	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g19	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+CANDIDATE_187	TX-g20	V13_3_CANDIDATES_187_TO_ROUNDS.tsv	V1_REFERENCE_NOT_EXECUTABLE_METHOD|NO_V2	reference;NOT_V1_METHOD	W02	All187 need final four-way and provenance
+V3_69	B076R-001	V13_3_V3_69_TO_ROUNDS.tsv#WM-f01	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-002	V13_3_V3_69_TO_ROUNDS.tsv#WM-f02	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-003	V13_3_V3_69_TO_ROUNDS.tsv#WM-f04	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-004	V13_3_V3_69_TO_ROUNDS.tsv#WM-f06	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-005	V13_3_V3_69_TO_ROUNDS.tsv#WM-f08	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-006	V13_3_V3_69_TO_ROUNDS.tsv#WM-f10	NOT_RUN	ORIGINAL47;V2_PARTIAL	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-007	V13_3_V3_69_TO_ROUNDS.tsv#WM-f12	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-008	V13_3_V3_69_TO_ROUNDS.tsv#WM-f13	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-009	V13_3_V3_69_TO_ROUNDS.tsv#WM-f14	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-010	V13_3_V3_69_TO_ROUNDS.tsv#WM-p01	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-011	V13_3_V3_69_TO_ROUNDS.tsv#WM-p03	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-012	V13_3_V3_69_TO_ROUNDS.tsv#WM-p04	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-013	V13_3_V3_69_TO_ROUNDS.tsv#WM-p05	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-014	V13_3_V3_69_TO_ROUNDS.tsv#WM-p07	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-015	V13_3_V3_69_TO_ROUNDS.tsv#WM-p08	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-016	V13_3_V3_69_TO_ROUNDS.tsv#WM-p12	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-017	V13_3_V3_69_TO_ROUNDS.tsv#WM-p14	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-018	V13_3_V3_69_TO_ROUNDS.tsv#WM-p19	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-019	V13_3_V3_69_TO_ROUNDS.tsv#WM-p20	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-020	V13_3_V3_69_TO_ROUNDS.tsv#WM-p21	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-021	V13_3_V3_69_TO_ROUNDS.tsv#WM-p23	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-022	V13_3_V3_69_TO_ROUNDS.tsv#TX-f01	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-023	V13_3_V3_69_TO_ROUNDS.tsv#TX-f02	NOT_RUN	ORIGINAL47;V2_PARTIAL	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-024	V13_3_V3_69_TO_ROUNDS.tsv#TX-f05	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-025	V13_3_V3_69_TO_ROUNDS.tsv#TX-f08	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-026	V13_3_V3_69_TO_ROUNDS.tsv#TX-f09	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-027	V13_3_V3_69_TO_ROUNDS.tsv#TX-f10	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-028	V13_3_V3_69_TO_ROUNDS.tsv#TX-f11	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-029	V13_3_V3_69_TO_ROUNDS.tsv#TX-f12	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-030	V13_3_V3_69_TO_ROUNDS.tsv#TX-f13	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-031	V13_3_V3_69_TO_ROUNDS.tsv#TX-f16	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-032	V13_3_V3_69_TO_ROUNDS.tsv#TX-p01	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-033	V13_3_V3_69_TO_ROUNDS.tsv#TX-p03	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-034	V13_3_V3_69_TO_ROUNDS.tsv#TX-p04	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-035	V13_3_V3_69_TO_ROUNDS.tsv#TX-p05	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-036	V13_3_V3_69_TO_ROUNDS.tsv#TX-p06	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-037	V13_3_V3_69_TO_ROUNDS.tsv#TX-p07	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-038	V13_3_V3_69_TO_ROUNDS.tsv#TX-p08	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-039	V13_3_V3_69_TO_ROUNDS.tsv#TX-p09	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-040	V13_3_V3_69_TO_ROUNDS.tsv#TX-p11	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-041	V13_3_V3_69_TO_ROUNDS.tsv#TX-p12	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-042	V13_3_V3_69_TO_ROUNDS.tsv#TX-p13	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-043	V13_3_V3_69_TO_ROUNDS.tsv#TX-p14	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-044	V13_3_V3_69_TO_ROUNDS.tsv#TX-p17	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-045	V13_3_V3_69_TO_ROUNDS.tsv#TX-p19	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-046	V13_3_V3_69_TO_ROUNDS.tsv#TX-p20	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-047	V13_3_V3_69_TO_ROUNDS.tsv#TX-p21	NOT_RUN	ORIGINAL47;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-048	V13_3_V3_69_TO_ROUNDS.tsv#WM-f11	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-049	V13_3_V3_69_TO_ROUNDS.tsv#WM-f16	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-050	V13_3_V3_69_TO_ROUNDS.tsv#WM-p06	NOT_RUN	EXTRA22;V1_INELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-051	V13_3_V3_69_TO_ROUNDS.tsv#WM-p13	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-052	V13_3_V3_69_TO_ROUNDS.tsv#WM-p18	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-053	V13_3_V3_69_TO_ROUNDS.tsv#WM-f05	NOT_RUN	EXTRA22;V2_PARTIAL	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-054	V13_3_V3_69_TO_ROUNDS.tsv#WM-p10	NOT_RUN	EXTRA22;V1_INELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-055	V13_3_V3_69_TO_ROUNDS.tsv#WM-p15	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-056	V13_3_V3_69_TO_ROUNDS.tsv#WM-p16	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-057	V13_3_V3_69_TO_ROUNDS.tsv#WM-p22	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-058	V13_3_V3_69_TO_ROUNDS.tsv#TX-f03	NOT_RUN	EXTRA22;V1_INELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-059	V13_3_V3_69_TO_ROUNDS.tsv#TX-f04	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-060	V13_3_V3_69_TO_ROUNDS.tsv#TX-f15	NOT_RUN	EXTRA22;V2_PARTIAL	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-061	V13_3_V3_69_TO_ROUNDS.tsv#TX-p02	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-062	V13_3_V3_69_TO_ROUNDS.tsv#TX-p15	NOT_RUN	EXTRA22;V1_INELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-063	V13_3_V3_69_TO_ROUNDS.tsv#TX-p18	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-064	V13_3_V3_69_TO_ROUNDS.tsv#TX-f07	NOT_RUN	EXTRA22;V2_PARTIAL	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-065	V13_3_V3_69_TO_ROUNDS.tsv#TX-f14	NOT_RUN	EXTRA22;V1_INELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-066	V13_3_V3_69_TO_ROUNDS.tsv#TX-f17	NOT_RUN	EXTRA22;PRE_V3_ELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-067	V13_3_V3_69_TO_ROUNDS.tsv#TX-p10	NOT_RUN	EXTRA22;V1_INELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-068	V13_3_V3_69_TO_ROUNDS.tsv#TX-p16	NOT_RUN	EXTRA22;V1_INELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+V3_69	B076R-069	V13_3_V3_69_TO_ROUNDS.tsv#TX-p22	NOT_RUN	EXTRA22;V1_INELIGIBLE	W01	Test qualified or explicitly exclude; no self-score fiction
+STAGE0_C20	WM-T01	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	WM-01	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	WM-T02	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	WM-02	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	WM-T03	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	WM-03	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	WM-T04	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	WM-04	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	WM-T05	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	WM-05	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	WM-T06	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	WM-05	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	WM-T07	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	WM-06	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	WM-T08	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	WM-07	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	WM-T09	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	WM-08	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	WM-T10	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	WM-09	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	TX-T01	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	TX-01	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	TX-T02	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	TX-02	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	TX-T03	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	TX-03	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	TX-T04	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	TX-04	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	TX-T05	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	TX-05	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	TX-T06	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	TX-06	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	TX-T07	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	TX-07	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	TX-T08	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	TX-08	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	TX-T09	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	TX-09	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+STAGE0_C20	TX-T10	V13_3_STAGE0_20_TO_ROUNDS.tsv	NOT_RUN	TX-10	W02	Deliver original fresh multi-scene task + state ledger + evaluation
+CONTRACT_44	R067@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N21	W01	Original content, files, acceptance and gate remain
+CONTRACT_44	R068@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N22	W01	Original content, files, acceptance and gate remain
+CONTRACT_44	R069@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N22	W01	Original content, files, acceptance and gate remain
+CONTRACT_44	R070@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N22	W01	Original content, files, acceptance and gate remain
+CONTRACT_44	R071@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N23	W01	Original content, files, acceptance and gate remain
+CONTRACT_44	R072@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N23	W01	Original content, files, acceptance and gate remain
+CONTRACT_44	R073@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N23	W01	Original content, files, acceptance and gate remain
+CONTRACT_44	R074@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N23	W01	Original content, files, acceptance and gate remain
+CONTRACT_44	R075@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N24	W01	Original content, files, acceptance and gate remain
+CONTRACT_44	R076@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N25	W01	Original content, files, acceptance and gate remain
+CONTRACT_44	R077@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N16;N26;N27;N28	HISTORY+W02	Original content, files, acceptance and gate remain
+CONTRACT_44	R078@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N28	W02	Original content, files, acceptance and gate remain
+CONTRACT_44	R079@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N29	W03	Original content, files, acceptance and gate remain
+CONTRACT_44	R080@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N30	W03	Original content, files, acceptance and gate remain
+CONTRACT_44	R081@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N31	W03	Original content, files, acceptance and gate remain
+CONTRACT_44	R082@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N32	W04	Original content, files, acceptance and gate remain
+CONTRACT_44	R083@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N32	W04	Original content, files, acceptance and gate remain
+CONTRACT_44	R084@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N33	W04	Original content, files, acceptance and gate remain
+CONTRACT_44	R085@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N33	W04	Original content, files, acceptance and gate remain
+CONTRACT_44	R086@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N34	W05	Original content, files, acceptance and gate remain
+CONTRACT_44	R087@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N35	W05	Original content, files, acceptance and gate remain
+CONTRACT_44	R088@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N36	W05	Original content, files, acceptance and gate remain
+CONTRACT_44	R089@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N37	W06	Original content, files, acceptance and gate remain
+CONTRACT_44	R090@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N37	W06	Original content, files, acceptance and gate remain
+CONTRACT_44	R091@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N38	W07	Original content, files, acceptance and gate remain
+CONTRACT_44	R092@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N39	W07	Original content, files, acceptance and gate remain
+CONTRACT_44	R093@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N39	W07	Original content, files, acceptance and gate remain
+CONTRACT_44	R094@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N39	W07	Original content, files, acceptance and gate remain
+CONTRACT_44	R095@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N40	W07	Original content, files, acceptance and gate remain
+CONTRACT_44	R096@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N40	W07	Original content, files, acceptance and gate remain
+CONTRACT_44	R097@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N41	W07	Original content, files, acceptance and gate remain
+CONTRACT_44	R098@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N41	W07	Original content, files, acceptance and gate remain
+CONTRACT_44	R099@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N42	W08	Original content, files, acceptance and gate remain
+CONTRACT_44	R100@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N42	W08	Original content, files, acceptance and gate remain
+CONTRACT_44	R101@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N42	W08	Original content, files, acceptance and gate remain
+CONTRACT_44	R102@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N43	W09	Original content, files, acceptance and gate remain
+CONTRACT_44	R103@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N44	W09	Original content, files, acceptance and gate remain
+CONTRACT_44	R104@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N44	W09	Original content, files, acceptance and gate remain
+CONTRACT_44	R105@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N45	W10	Original content, files, acceptance and gate remain
+CONTRACT_44	R106@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N45	W10	Original content, files, acceptance and gate remain
+CONTRACT_44	R107@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N45	W10	Original content, files, acceptance and gate remain
+CONTRACT_44	R108@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N46	W11	Original content, files, acceptance and gate remain
+CONTRACT_44	R109@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N47	W11	Original content, files, acceptance and gate remain
+CONTRACT_44	R110@v13.1	V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv	TRUE	N48	W11	Original content, files, acceptance and gate remain
+SKILL_DUTY_35	CJ00	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N16	W02	逐两书执行结构/解释/批判/应用+BOOK_OVERVIEW+原20关键任务+用户确认
+SKILL_DUTY_35	CJ01F	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N16-N18	W01	用锁定extractor原prompt按原书全量/分块扫描；要输入/输出/步骤、职责独立
+SKILL_DUTY_35	CJ01P	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N16-N18	W01	用锁定extractor全量扫描规则/公式/表格/脚注，单处完整也保留
+SKILL_DUTY_35	CJ01C	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N16-N18	W01	原版案例类型与方法绑定，检索索引+邻块核实或全扫；小说事件勿冒作者真实经历
+SKILL_DUTY_35	CJ01E	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N16-N18	W01	检索原文反例、失败机制、信号与适用边界
+SKILL_DUTY_35	CJ01G	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N16-N18	W01	检索+术语预筛+回读真实用法
+SKILL_DUTY_35	CJ01I	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N16-N18	W01	五个独立职责与原版适用clean-view串行降级；chunk/index、关键任务覆盖审计
+SKILL_DUTY_35	CJ15V1	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N17-N18	W01	187候选逐ID核原著真实依据、章节/版本/引用范围
+SKILL_DUTY_35	CJ15V2	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N19-N20	W01	合格方法用陌生合法任务演练，固定输入/输出/分支/判停
+SKILL_DUTY_35	CJ15V3	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N21-N25	W01	真实任务增益，证据来自真实测试而非同代理非盲断言；69历史对象逐ID
+SKILL_DUTY_35	CJ15FLOW	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N28	W02	187四分流、覆盖审计、参考映射、错误保留和用户轻确认
+SKILL_DUTY_35	CJ16	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N29	W03	五项晋级判据、promoted/router、软预算8、destinations一一对应
+SKILL_DUTY_35	CJ02	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N30-N31	W03	R/I/A1/A2/E/B六段能力卡、稳定ID、Bundle schema、可执行输入输出与Boundary
+SKILL_DUTY_35	CJ03	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N32	W04	Zettelkasten相邻关系、also_read、A2回填、GLOSSARY、references真实路径
+SKILL_DUTY_35	CJ04T	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N33	W04	触发/拒绝/边缘/近邻互斥、保留题、router可达，真实宿主调用
+SKILL_DUTY_35	CJ04O	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N34-N35	W05	每个active方法真实输出正常及边界任务；without/old/new控制；独立语义+机械检查
+SKILL_DUTY_35	CJ04R	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N36	W05	未过回到Stage2修A2/E/B并真回归；保存旧WM-04/09等负例
+SKILL_DUTY_35	CJ05B	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N37	W06	完整DIGEST、同源Capability Bundle编译single/pack、用户选型、validate_pack
+SKILL_DUTY_35	CJ05D	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N37,N48	W06	用户选安装宿主或仅库，完整资源复制，真触发与路由演示
+SKILL_DUTY_35	CJ20	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N26-N27	W02	保留旧WM-T01—10和TX-T01—10全部20项原创C，不让新19主题吞任务
+SKILL_DUTY_35	NW00	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N38	W07	主题路径/用途/语料范围/标准档/费用已有用户批准，0B只在模糊需求触发
+SKILL_DUTY_35	NW05	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N38	W07	创建自包含主题Skill目录，sources、references/research六维、scripts
+SKILL_DUTY_35	NW01	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N38-N40	W07	主题变体研究3-5真正独立学派；本地一手先，六维研究各适用维度，独立主体或原版串行降级
+SKILL_DUTY_35	NW15	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N41	W07	汇总调研质量和来源不足并取得用户明确确认
+SKILL_DUTY_35	NW02	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N42	W08	按原版模型三重验证，3-7模型、5-10启发式、专业中性表达DNA、价值张力/谱系/诚实边界
+SKILL_DUTY_35	NW25	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N42	W08	提炼摘要、冲突、不足展示，用户明确确认
+SKILL_DUTY_35	NW03	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N43	W09	用原版模板主题化，自包含Skill+Agentic Protocol，正负触发与来源路由
+SKILL_DUTY_35	NW04	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N44	W09	独立已知3项、边缘1项、表达1项、六质量门+quality_check、有限回炉
+SKILL_DUTY_35	NW04G	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N44	W09	展示全部测试含独立评测和局限，请用户确认后再进Phase5
+SKILL_DUTY_35	NW05R	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N45	W10	真实不同优化主体A八维结构+三题干跑、B触发/Agentic Protocol，合并diff/回归，用户确认
+SKILL_DUTY_35	FUSION	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N46	W11	融合成唯一可执行历史军事小说Skill，支持策划/分卷/章节/正文/修稿/状态
+SKILL_DUTY_35	FINALE	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N47	W11	无Skill/仅Cangjie/仅Nuwa/融合四臂：真实小说大纲、章节连续写、审稿与世界状态；盲审
+SKILL_DUTY_35	DELIVERY	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N48	W11	干净新聊天真实加载与调用，原著不再供应，恢复连续创作；manifest和用户确认
+SKILL_DUTY_35	WORLD	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N26-N48	W11	五维出厂能力：文学理解、世界构建、实际写作、自我修稿、独立运行
+SKILL_DUTY_35	SRC	V13_3_FULL_SKILL_REQUIREMENTS.tsv	NOT_FULLY_CERTIFIED	N16-N48	W01	原著实际复核、私有EPUB SHA、必要引用版权合规、历史史实二次证据
