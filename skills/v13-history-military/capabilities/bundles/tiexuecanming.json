@@ -1,0 +1,524 @@
+{
+  "schema": "V13-CANGJIE-SOURCE-BOUND-CAPABILITY-BUNDLE-v1",
+  "book": "tiexuecanming",
+  "build_only": true,
+  "source_pool_count": 96,
+  "capability_count": 32,
+  "cangjie_verified": false,
+  "external_verification": "NOT_RUN_USER_WAIVED",
+  "note": "Do not treat this draft bundle as original cangjie verified.yaml.",
+  "capabilities": [
+    {
+      "capability_id": "TX-f01",
+      "title": "旧名声、当场能力、外部评价的三层身份连续性",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 2,
+      "loci": "n001/p20;n002/p36;n201/p54;n201/p56",
+      "card": "capabilities/cards/TX-f01.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f02",
+      "title": "办事从会背文书到得到第三方认可的多级路径",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 3,
+      "loci": "n030/p33;n055/p30;n055/p31;n055/p32",
+      "card": "capabilities/cards/TX-f02.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f04",
+      "title": "名义官职与跨部门实际约束的不等式",
+      "domain": "institutions",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 5,
+      "loci": "n145/p29;n315/p40;n420/p2;n485/p23",
+      "card": "capabilities/cards/TX-f04.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f05",
+      "title": "首领的知识缺口如何交给专业属员修正",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 6,
+      "loci": "n081/p59;n165/p1;n174/p23;n174/p24",
+      "card": "capabilities/cards/TX-f05.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f07",
+      "title": "外来上级命令与本地原方案相撞的局部重规划",
+      "domain": "war-organization",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 8,
+      "loci": "n315/p40;n320/p36;n420/p2;n485/p23",
+      "card": "capabilities/cards/TX-f07.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f08",
+      "title": "岗位待遇、实际权限与专业承认之间的区分",
+      "domain": "institutions",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 9,
+      "loci": "n361/p34;n361/p35;n361/p36;n380/p31",
+      "card": "capabilities/cards/TX-f08.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f09",
+      "title": "对立阵营与弱势人物的独立利益空间",
+      "domain": "war-organization",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 10,
+      "loci": "n250/p31;n305/p50;n350/p69",
+      "card": "capabilities/cards/TX-f09.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f10",
+      "title": "公共事件的成果与普通人战后生活双后果账",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 11,
+      "loci": "n350/p69;n490/p28;n505/p8",
+      "card": "capabilities/cards/TX-f10.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f11",
+      "title": "家户与属员是否同意须脱离命令单独审视",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 12,
+      "loci": "n015/p49;n161/p65;n370/p19;n527/p30;n527/p31",
+      "card": "capabilities/cards/TX-f11.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f12",
+      "title": "把猜测、对方未知和事后判断分成有限视角",
+      "domain": "information",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 13,
+      "loci": "n430/p58;n430/p59;n500/p24;n500/p25",
+      "card": "capabilities/cards/TX-f12.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f13",
+      "title": "现场事件、报功文本与编辑再传播的层级差",
+      "domain": "ensemble",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 14,
+      "loci": "n175/p23;n175/p24;n244/p30;n526/p82;n526/p87;n531/p25;n531/p26",
+      "card": "capabilities/cards/TX-f13.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f15",
+      "title": "制度扩大后反对者的真实生存空间",
+      "domain": "ensemble",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 16,
+      "loci": "n161/p65;n380/p31;n527/p29;n527/p30",
+      "card": "capabilities/cards/TX-f15.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f16",
+      "title": "信誉想象到新承诺形成，不能直接跳至兑现",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 17,
+      "loci": "n530/p41;n531/p8;n532/p47;n532/p49",
+      "card": "capabilities/cards/TX-f16.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-f17",
+      "title": "属员提案—首领裁量—未来责任归属的会商机制",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 18,
+      "loci": "n174/p23;n174/p24;n361/p35;n361/p36;n527/p30;n527/p31",
+      "card": "capabilities/cards/TX-f17.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p01",
+      "title": "旧声誉与新帮助可以同时存在",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 19,
+      "loci": "n001/p20;n012/p28",
+      "card": "capabilities/cards/TX-p01.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p02",
+      "title": "背会制度文件不能等同实际运用",
+      "domain": "institutions",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 20,
+      "loci": "n030/p33;n055/p32",
+      "card": "capabilities/cards/TX-p02.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p03",
+      "title": "报文先发未必赢得正式确认",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 21,
+      "loci": "n055/p30;n055/p31;n055/p32",
+      "card": "capabilities/cards/TX-p03.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p04",
+      "title": "公开训话不能替代领导实际知识",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 22,
+      "loci": "n081/p29;n081/p59",
+      "card": "capabilities/cards/TX-p04.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p05",
+      "title": "仓库账面计划与实际物资分开",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 23,
+      "loci": "n114/p27;n114/p29",
+      "card": "capabilities/cards/TX-p05.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p06",
+      "title": "调查所得和亲见证人区别",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 24,
+      "loci": "n127/p11;n127/p44",
+      "card": "capabilities/cards/TX-p06.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p07",
+      "title": "屈从压力与自愿选择不同",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 25,
+      "loci": "n161/p65;n380/p31",
+      "card": "capabilities/cards/TX-p07.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p08",
+      "title": "制度条文允许被专业下属质疑",
+      "domain": "ensemble",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 26,
+      "loci": "n165/p1;n361/p35;n361/p36",
+      "card": "capabilities/cards/TX-p08.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p09",
+      "title": "属员方案不能写成上司复读机",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 27,
+      "loci": "n174/p23;n174/p24",
+      "card": "capabilities/cards/TX-p09.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p11",
+      "title": "公共表扬与私人控诉互不注销",
+      "domain": "information",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 29,
+      "loci": "n201/p54;n201/p56",
+      "card": "capabilities/cards/TX-p11.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p12",
+      "title": "正式签任命册不等于顺利履职",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 30,
+      "loci": "n213/p2;n213/p5;n213/p17",
+      "card": "capabilities/cards/TX-p12.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p13",
+      "title": "不同权力方有各自同意边界",
+      "domain": "war-organization",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 31,
+      "loci": "n250/p31;n315/p40;n485/p23",
+      "card": "capabilities/cards/TX-p13.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p14",
+      "title": "普通人的遭遇不能被大事件抹掉",
+      "domain": "war-organization",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 32,
+      "loci": "n305/p50;n350/p69;n505/p8",
+      "card": "capabilities/cards/TX-p14.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p17",
+      "title": "传闻中的身份与正式公告区分",
+      "domain": "information",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 35,
+      "loci": "n475/p8;n475/p10",
+      "card": "capabilities/cards/TX-p17.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p18",
+      "title": "预制方案不能取消现场劳动摩擦",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 36,
+      "loci": "n490/p28;n505/p8",
+      "card": "capabilities/cards/TX-p18.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p19",
+      "title": "实绩核对不可被文书虚增建议代替",
+      "domain": "war-organization",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 37,
+      "loci": "n526/p82;n526/p87",
+      "card": "capabilities/cards/TX-p19.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p20",
+      "title": "请求清单各项都需要独立答复",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 38,
+      "loci": "n527/p30;n527/p31",
+      "card": "capabilities/cards/TX-p20.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "TX-p21",
+      "title": "信用估价与兑现结果不得混同",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n18/N18_TX_V1_96.tsv",
+      "source_v1_line": 39,
+      "loci": "n530/p41;n531/p8;n532/p49",
+      "card": "capabilities/cards/TX-p21.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    }
+  ]
+}

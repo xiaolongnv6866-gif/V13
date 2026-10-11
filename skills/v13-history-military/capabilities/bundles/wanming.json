@@ -1,0 +1,524 @@
+{
+  "schema": "V13-CANGJIE-SOURCE-BOUND-CAPABILITY-BUNDLE-v1",
+  "book": "wanming",
+  "build_only": true,
+  "source_pool_count": 91,
+  "capability_count": 32,
+  "cangjie_verified": false,
+  "external_verification": "NOT_RUN_USER_WAIVED",
+  "note": "Do not treat this draft bundle as original cangjie verified.yaml.",
+  "capabilities": [
+    {
+      "capability_id": "WM-f01",
+      "title": "社会入口—资格—实际被承认的分层框架",
+      "domain": "institutions",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 2,
+      "loci": "n001/p44;n022/p1;n052/p28",
+      "card": "capabilities/cards/WM-f01.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f02",
+      "title": "长期合作者分歧与关系债务的两本账",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 3,
+      "loci": "n034/p18;n305/p29;n305/p36;n468/p44",
+      "card": "capabilities/cards/WM-f02.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f03",
+      "title": "纸面职位向长期组织能力转换的阶段框架",
+      "domain": "institutions",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 4,
+      "loci": "n052/p28;n070/p36;n494/p17;n514/p34",
+      "card": "capabilities/cards/WM-f03.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "V1_SUPPORTED_V2_NOT_DONE",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f04",
+      "title": "承诺—可支配资金—实物到位的时间差",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 5,
+      "loci": "n099/p18;n305/p29;n305/p32;n529/p38;n530/p1",
+      "card": "capabilities/cards/WM-f04.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f05",
+      "title": "组织训后复盘—异议—编制调整的反馈环",
+      "domain": "war-organization",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 6,
+      "loci": "n089/p1;n089/p18;n089/p26;n111/p1;n488/p2",
+      "card": "capabilities/cards/WM-f05.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f06",
+      "title": "上级公开定案与当事人目标落差",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 7,
+      "loci": "n143/p49;n143/p52;n143/p53;n143/p55",
+      "card": "capabilities/cards/WM-f06.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f08",
+      "title": "对立阵营的独立目标与认知约束",
+      "domain": "war-organization",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 9,
+      "loci": "n106/p1;n482/p9;n482/p15;n556/p3",
+      "card": "capabilities/cards/WM-f08.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f10",
+      "title": "胜利表彰与战后家庭成本的双后果网",
+      "domain": "war-organization",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 11,
+      "loci": "n085/p25;n155/p52;n338/p40;n339/p31;n339/p36",
+      "card": "capabilities/cards/WM-f10.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f11",
+      "title": "制度宣称、他人权利与实际手续的分层",
+      "domain": "institutions",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 12,
+      "loci": "n265/p21;n265/p29;n425/p27",
+      "card": "capabilities/cards/WM-f11.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f12",
+      "title": "治理试点由争议到有限授权的状态框架",
+      "domain": "institutions",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 13,
+      "loci": "n425/p27;n519/p69;n519/p70;n520/p17",
+      "card": "capabilities/cards/WM-f12.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f13",
+      "title": "已演事件与后世讲述版本的分层框架",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 14,
+      "loci": "n166/p30;n571/p5;n571/p25",
+      "card": "capabilities/cards/WM-f13.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f14",
+      "title": "重大历史线与家庭个体选择的双进度账",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 15,
+      "loci": "n339/p9;n339/p10;n339/p31;n540/p33;n569/p21",
+      "card": "capabilities/cards/WM-f14.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f15",
+      "title": "内部方案与外部见证的两种真实性检验",
+      "domain": "war-organization",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 16,
+      "loci": "n390/p25;n494/p17;n514/p34;n561/p45",
+      "card": "capabilities/cards/WM-f15.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "V1_SUPPORTED_V2_NOT_DONE",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f16",
+      "title": "想法—评估—否决—组织后果的创新检验",
+      "domain": "institutions",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 17,
+      "loci": "n345/p29;n437/p6;n437/p29",
+      "card": "capabilities/cards/WM-f16.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-f17",
+      "title": "新义务产生后跨章节偿还的追踪框架",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 18,
+      "loci": "n089/p26;n305/p35;n529/p38;n529/p40;n530/p1",
+      "card": "capabilities/cards/WM-f17.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "V1_SUPPORTED_V2_NOT_DONE",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p01",
+      "title": "拒绝收益不等于同意交易",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 19,
+      "loci": "n034/p18;n034/p43",
+      "card": "capabilities/cards/WM-p01.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p03",
+      "title": "承担新工作前应让角色知道实际代价",
+      "domain": "ensemble",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 21,
+      "loci": "n052/p24;n022/p20",
+      "card": "capabilities/cards/WM-p03.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p04",
+      "title": "不同贡献口径不能被称为自然共识",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 22,
+      "loci": "n085/p25;n085/p29",
+      "card": "capabilities/cards/WM-p04.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p05",
+      "title": "预计收入不能提前当作现款",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 23,
+      "loci": "n099/p18;n109/p13;n109/p18",
+      "card": "capabilities/cards/WM-p05.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p07",
+      "title": "未知数量保留估计身份",
+      "domain": "war-organization",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 25,
+      "loci": "n140/p36;n506/p46",
+      "card": "capabilities/cards/WM-p07.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p08",
+      "title": "被上级否决的提议不能伪作已获授权",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 26,
+      "loci": "n143/p49;n143/p52;n143/p55",
+      "card": "capabilities/cards/WM-p08.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p12",
+      "title": "多个部门不能同时花掉同一笔预算",
+      "domain": "resources",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 30,
+      "loci": "n305/p29;n305/p32",
+      "card": "capabilities/cards/WM-p12.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p13",
+      "title": "暂时同意不等于永久执行",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 31,
+      "loci": "n305/p35;n305/p36;n520/p17",
+      "card": "capabilities/cards/WM-p13.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p14",
+      "title": "家属主张不能代替本人意愿",
+      "domain": "ensemble",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 32,
+      "loci": "n339/p9;n339/p10;n339/p31",
+      "card": "capabilities/cards/WM-p14.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p15",
+      "title": "批准过方案不保证领会每项细节",
+      "domain": "institutions",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 33,
+      "loci": "n390/p25;n494/p17",
+      "card": "capabilities/cards/WM-p15.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p16",
+      "title": "基层管理者权力边界要有人明确反对",
+      "domain": "institutions",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 34,
+      "loci": "n425/p27;n425/p40",
+      "card": "capabilities/cards/WM-p16.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p18",
+      "title": "新设想经比较后可以被拒绝",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 36,
+      "loci": "n437/p6;n345/p29",
+      "card": "capabilities/cards/WM-p18.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p19",
+      "title": "证词的数字不应越过所见范围",
+      "domain": "information",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 37,
+      "loci": "n506/p46;n140/p36",
+      "card": "capabilities/cards/WM-p19.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p20",
+      "title": "提出理由的要求与实际给出的理由不同",
+      "domain": "ensemble",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 38,
+      "loci": "n519/p69;n519/p70",
+      "card": "capabilities/cards/WM-p20.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p21",
+      "title": "试点范围是许可的一部分",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 39,
+      "loci": "n520/p17;n425/p27",
+      "card": "capabilities/cards/WM-p21.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p22",
+      "title": "风险预期必须落实为未来时间状态",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 40,
+      "loci": "n530/p1;n099/p18",
+      "card": "capabilities/cards/WM-p22.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    },
+    {
+      "capability_id": "WM-p23",
+      "title": "被讲述的版本不等于现场真实",
+      "domain": "narrative",
+      "source_v1_file": "v13_3/n17/N17_WM_V1_91.tsv",
+      "source_v1_line": 41,
+      "loci": "n166/p30;n571/p5",
+      "card": "capabilities/cards/WM-p23.md",
+      "construction_status": "BUILT_SOURCE_BOUND",
+      "evidence_status": "SCOPED_V2_ONLY_NOT_V3",
+      "independent_v3": "NOT_RUN_USER_WAIVED",
+      "also_read": [
+        "references/05-STATE_AND_CONTINUITY.md",
+        "references/07-EDITOR_AND_FAILURES.md"
+      ]
+    }
+  ]
+}
