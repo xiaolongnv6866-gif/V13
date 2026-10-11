@@ -53,3 +53,11 @@ W01实际增量：56项不同原创公开校准题已固定，对应56个可测V
 ## 2026-10-12 增量：跨聊天来源准入报告完成裁决（不计真实V3）
 
 第一份用户上传的外部资格审查报告全文归档于[W01 review](v13_w/w01/reviews/V13_W01_INDEPENDENT_REVIEW_20261012.md)；主Agent[逐项处理](v13_w/w01/reviews/REVIEW_01_MAIN_AGENT_ADJUDICATION.md)13个例外及报告质量缺陷，补齐[56份V1/V2精确来源证据与哈希](v13_w/w01/V3_56_PUBLIC_CALIBRATION_SOURCE_BRIDGE.tsv)，纠正盲审信息泄漏协议，保留N19四项自评/最终报告冲突。WM-f10旧消融无效已先冻结另一真实删除条件再实际演练。新的[69项可用证据表](v13_w/w01/V3_69_EFFECTIVE_V2_GATE_20261012.tsv)显示**61个受限V2纸面资格、8项V1来源资格不足**，历史56/5/8快照不改，TX-f02冻结口径瑕疵未粉饰；此资格并非真实V3，**独立V3=0、独立C=0、正式包0/11、W01 BLOCKED**。
+
+## 2026-10-12｜用户定稿：结束反复验证，交付融合主题SKILL
+
+- [已交付原创长篇历史军事主SKILL](skills/v13-history-military/SKILL.md)
+- [安装、使用、完整打包命令](skills/v13-history-military/README.md)
+- [W01-W11逐包建设/验收豁免去向](V13_W_BUILD_LEDGER_20261012.tsv)
+- [来源187项分流](skills/v13-history-military/routing/V1_187_FOURWAY_DELIVERY.tsv)、[64张RIA++能力卡](skills/v13-history-military/capabilities/INDEX.md)、[20项原创新题](skills/v13-history-military/routing/STAGE0_20_TASKS_TO_DELIVERY.tsv)、[女娲主题Skill](skills/v13-history-military/nuwa-theme/SKILL.md)、[连续五章原创样例](skills/v13-history-military/examples/chaoxun/README.md)
+- 用户取消新独立验证作为交付条件，原始验证仍按NOT_RUN_USER_WAIVED记账。旧W01 BLOCKED是严格认证记录，不能继续作为新产品使用的障碍。
