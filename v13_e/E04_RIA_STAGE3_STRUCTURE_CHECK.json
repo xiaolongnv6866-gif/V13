@@ -1,0 +1,38 @@
+{
+  "round": "E04",
+  "date": "2026-10-12",
+  "card_count": 64,
+  "file_count": 64,
+  "bundle_count": 2,
+  "also_read_link_count": 168,
+  "invalid_paths": [],
+  "first_and_last_semantic_check": [
+    {
+      "file": "WM-f01.md",
+      "headings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "chars": 2471
+    },
+    {
+      "file": "TX-p21.md",
+      "headings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "chars": 2299
+    }
+  ],
+  "relations_file_exists": true,
+  "synthesis_status": "ALL_64_RIA6_REWRITTEN_NOT_ORIGINAL_CERTIFIED",
+  "external_V3": "NOT_RUN_USER_WAIVED"
+}
