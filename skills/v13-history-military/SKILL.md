@@ -1,7 +1,7 @@
 ---
 name: v13-history-military
 description: Build, write, revise, audit, and resume original Chinese long-form historical-military fiction. Trigger for an original historical military novel's premise, world, series outline, character ensemble, political/fiscal/logistics plot, chapter prose, continuation, or substantive rewrite. Never imitate a named living author's distinctive style or reproduce source novels.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # V13｜原创长篇历史军事小说 · 正式创作主SKILL
@@ -10,7 +10,7 @@ version: 1.0.0
 
 以《晚明》《铁血残明》的**叙事机制研究**为文本证据库，不复刻柯山梦的语句、角色、情节、关系配置或独有场面；融合已经结构化的Cangjie方法和Nuwa主题视角，完成真正新的小说创作、连续修稿和持久故事状态管理。
 
-**本版本是用户要求立即交付的建设完成版。** 用户已免除本次交付的外部独立验证，不代表原版Cangjie V3/Stage4或Nuwa Phase4/5真的通过。实用性由可执行流程、原创建章样本与机械校验支持；独立文学效果仍标 NOT_RUN_USER_WAIVED。不要在日常写作中向用户反复讲验证流程。
+**本版本是面向用户交付的单入口建设版。** 用户已免除本次交付的外部独立验证，不代表原版Cangjie V3/Stage4或Nuwa Phase4/5真的通过。实用性由可执行流程、原创建章样本与机械校验支持；独立文学效果仍标 NOT_RUN_USER_WAIVED。不要在日常写作中向用户反复讲验证流程。
 
 ## 自动任务识别与调度（默认对用户隐藏内部术语）
 
@@ -57,7 +57,7 @@ version: 1.0.0
 
 - 故事引擎：references/01–09；
 - 原著来源限定与方法：capabilities/INDEX.md、capabilities/cards/*、references/08；
-- 女娲主题层：nuwa-theme/SKILL.md及研究材料；
+- 女娲主题层（非独立Skill）：nuwa-theme/TOPIC_OPERATIONS.md、nuwa-theme/references/MODEL_ROUTER.json；
 - 生产模板：templates/PROJECT_BIBLE.md、CHAPTER_BRIEF.md、STATE_TEMPLATE.json；
 - 工具：scripts/validate_state.py、scripts/build_handoff.py；
 - 连续原创演示：examples/chaoxun/（原创，非原著搬运）；
@@ -82,3 +82,42 @@ version: 1.0.0
 - `scripts/build_release.py` 支持确定性整体打包。
 
 从目录直接阅读SKILL.md+任务相关references即可使用。仓库链接不等于普通聊天已原生安装。
+## E08正式融合｜女娲4模型与仓颉64卡共同执行
+
+本主入口**默认加载中性主题判断，不模拟柯山梦风格**。`nuwa-theme/TOPIC_OPERATIONS.md`是唯一主题操作源；`nuwa-theme/references/research/09-E07_MODELS_TRIPLE_GATE_AND_HEURISTICS.md`保留完整四模型的原始来源、三重方法分析、冲突与反例；`nuwa-theme/references/MODEL_ROUTER.json`给出触发和输出合同。优先用以下实际问题路由，不将模型名称插入正文：
+
+|症状|首选模型|必要能力卡/参考|交付|
+|---|---|---|---|
+|主角展示才能后为何得不到承认或实权|M1资格五态|WM-f01、WM-f03、TX-f01、TX-f02|认可者/授权边界、行动前后表、连续场景|
+|胜利后配角退场、合作者不再有本人选择|M2双结果关系债|WM-f02、WM-f10、TX-f10、TX-p14|公共后果、私人抉择、未清义务|
+|“批了”被写成“到账”“能用了”|M3纸实时滞|WM-f04、WM-p05、TX-p05、TX-f16|时间/状态/数量三账、后果场面|
+|人物知道不该知道的消息、后文公告颠覆前文事实|M4版本链|WM-f13、TX-f12、TX-f13、TX-p17|版本树、POV认知账、纠错情节|
+
+按仓颉原版Stage1.6规则，**64卡是建设版来源路由内卡，不是64个晋级Skill**。187候选最后去向与原始方法/普通描述界线见仓库`v13_e/E01_187_METHOD_SOURCE_DECISIONS.tsv`、`v13_e/E03_187_PROMOTION_ROUTING.tsv`。`capabilities/bundles/{wanming,tiexuecanming}.json`用于主Skill路由；`capabilities/RELATIONSHIPS.json`记录依赖/对比/组合关系，`also_read`只读存在的路径。缺独立V3不得擅称验证通过。
+
+## 全书与千章长篇生产合同（重在真正可执行）
+
+**终局先行**：明确主角/关键群像终局的能力变化、政治与社会代价，哪些历史节点不可随意绕过；将终局按可回溯因果拆成卷目标→大弧→中弧→事件链→章节合同。每个事件节点登记前提、当事人、障碍、可选行动、结果、新债、对应角色弧与读者新信息；检查删掉某节点是否使后继冲突失去来源。允许卷长悬殊，不把约千章平均填充为无变化日常。
+
+**开卷优先**：第一章先给真实行动与可见目标，再以社会身份、制度、金钱、人情及知识障碍制造可持续的故事发动机，不让穿越/历史知识自动兑换官职、兵、钱、信任。非主角目标与实际拒绝须早于主角万能控制展开。
+
+**章节准备**：读取`templates/CHAPTER_BRIEF.md`、上一章全文、已确认人物及世界账；交代本章唯一主要状态变化和一条可由下一章兑现的压力。写作时按`references/03-SCENE_AND_PROSE.md`落完整正文，场景从动作/人物反应入，不以“局势已变化”代替戏剧过程。敌方、上级、家属有自己的知情与约束。对真实历史日期、制度、装备、物流只作可靠史料核实或明确虚构限定。
+
+**整章审稿-重写回归**：实际阅读全文并指出至少最显著的一处人物决策与资源/知情缺陷，直接修改正文；用`references/07-EDITOR_AND_FAILURES.md`核文学问题，`scripts/validate_state.py`核结构问题。机械脚本不替代文学质量判断；修稿后必须再次核查变更波及后文的人物认知、预算和伏笔。
+
+**跨聊天续写**：读取`templates/PROJECT_BIBLE.md`、`templates/STATE_TEMPLATE.json`及交接档；建立事实等级`seen/heard/confirmed/unknown`、事件发生日和知晓日、现金/在途/已交资源及关系债、章节版本锁。必要时执行`python scripts/build_handoff.py --out V13_HANDOFF.md`，新聊天只从最新账与最后实际正文恢复，而不重写已定设定。
+
+## 可检查的原创场景案例入口
+
+仓颉Stage0原题对应的20项完成写作练习保存在`examples/stage0/WM-T01.md`至`WM-T10.md`、`TX-T01.md`至`TX-T10.md`；每篇应具备原题要求的场面、行动者及可追踪状态。两部原著的真实人物、情节、独特表达均不得被迁入正文。另有`examples/chaoxun/CH01.md`至`CH05.md`的连续章节状态实践。*写作练习并非独立V3质量评估，不可把原型结果冒充通过盲审。*
+
+## 来源与理论的实用张力
+
+女娲M1的公认资格与M2的本人同意分别记录；M3的库存可做数学守恒，M2的人物情绪不可数值相抵；M4公文是否具有行政效力和其事实是否真实分别判断。Aristotle有利于检查重大行动因果，Forster强调小说人物私生活不可一概服从戏剧情节，Henry James反对给好小说预先强加固定格式。因此规则不是每章必须造成损失、每次审批都失败、每个静场都强迫埋伏笔。Clausewitz的摩擦仅抽象用于叙事可信度，不将军事组织论述转成危险现实操作指南。
+
+## 产品与验收边界
+
+- 单入口：`skills/v13-history-military/SKILL.md`，当前目录下不得出现另一个独立可发现的SKILL.md。
+- E05仓颉原版single编译产物仅是符合仓颉原版结构的子参考构建，**不取代本融合主SKILL**。`scripts/build_cangjie_adapter.py`为编译器输入约定转换，`verified.yaml`仅为编译器必须文件名；它不代表已通过V3。
+- 成品包用`python scripts/build_release.py --check`后运行`python scripts/build_release.py --out V13_HISTORY_MILITARY_SKILL.zip`；所有参考路径必须存在，交接/世界状态测试必须通过。
+- 用户明确免除：独立盲评、独立V3、Nuwa Phase4/5不同主体测试、四臂对照、新聊天原生安装认证。均写`NOT_RUN_USER_WAIVED`。**不再以这些测试阻断建设交付，也不冒称已跑过**。
