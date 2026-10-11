@@ -18,6 +18,10 @@ on:
       - 'SKILL_SOURCES.md'
       - 'V13_3_FIXED_48_ROUNDS.md'
       - 'NEXT_ACTION.md'
+      - 'V13_3_FULL_SKILL_REQUIREMENTS.tsv'
+      - 'V13_3_FINISH_TO_SKILL_PLAN.md'
+      - 'V13_3_SKILL_DELIVERY_ACCEPTANCE.md'
+      - 'scripts/validate_v13_full_skill_contract.py'
       - '.github/workflows/v13_3_v4_sync.yml'
   workflow_dispatch:
 jobs:
@@ -29,3 +33,5 @@ jobs:
         run: python3 scripts/validate_v13_v4_sync.py
       - name: Verify pinned original standards, frozen plan and non-skipping resume contract
         run: python3 scripts/validate_v13_governance.py
+      - name: Verify pinned Cangjie Nuwa full-workflow obligation matrix (administrative only)
+        run: python3 scripts/validate_v13_full_skill_contract.py

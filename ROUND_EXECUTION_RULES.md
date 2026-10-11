@@ -15,3 +15,6 @@
 
 9. **跨会话强制恢复与防漂移**：每个新会话按 [V13_3_RECOVERY_GUARD.md](V13_3_RECOVERY_GUARD.md) 从同一远程HEAD读取权威状态/原版SKILL钉住版本/当轮完整合同并验证状态；工程锁为 [V13_3_GOVERNANCE_LOCK.json](V13_3_GOVERNANCE_LOCK.json)。恢复不全、证据不充分或终态HEAD未经检查，均不得宣布PASS或进入下一轮。
 10. **优化边界**：只压缩重复读写、汇报和可证明等价的CI调度，不压缩原始ID、原版SKILL步骤、独立测试、盲审或用户审批；变更规定见 [V13_3_CHANGE_CONTROL.md](V13_3_CHANGE_CONTROL.md)。治理维护不更改V4游标。
+
+11. **用户2026-10-11重申原版SKILL全部适用工序不得减少**：所有执行严格读取锁定上游 `SKILL.md` 和对应完整依赖；逐项证据以 `V13_3_FULL_SKILL_REQUIREMENTS.tsv` 为共同清单、以 `V13_3_FINISH_TO_SKILL_PLAN.md` 为既有N轮责任索引；本仓库任何简述不得代替上游原版。
+12. **终局必须实际创作**：按照 `V13_3_SKILL_DELIVERY_ACCEPTANCE.md` 分别独立检验文学理解、历史世界、长篇规划与连续正文、审稿修复、普通聊天独立调用。N01—N15行政完成不是能力认证。原版需要的独立主体、保留题、所有用户确认不能擅自简化；失败按原版回炉，不另外制造项目管理轮次。

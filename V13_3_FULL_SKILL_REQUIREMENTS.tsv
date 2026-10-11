@@ -1,0 +1,36 @@
+id	upstream	stage	exact_applicable_duty	required_evidence	responsible_rounds	do_not_forge
+CJ00	Cangjie	Stage0 Adler	逐两书执行结构/解释/批判/应用+BOOK_OVERVIEW+原20关键任务+用户确认	原文位置和Stage0用户确认、缺口	N16	源/文学理解不能冒能力测试
+CJ01F	Cangjie	Stage1 framework	用锁定extractor原prompt按原书全量/分块扫描；要输入/输出/步骤、职责独立	候选、全量覆盖、原文校准	N16-N18	不能仅凭5个文件说已真独立提取
+CJ01P	Cangjie	Stage1 principle	用锁定extractor全量扫描规则/公式/表格/脚注，单处完整也保留	候选、条件/单位/来源	N16-N18	缺条件不可自补
+CJ01C	Cangjie	Stage1 case	原版案例类型与方法绑定，检索索引+邻块核实或全扫；小说事件勿冒作者真实经历	候选、类型、bound_to、outcome	N16-N18	自定义案例枚举待按原版裁决
+CJ01E	Cangjie	Stage1 counter-example	检索原文反例、失败机制、信号与适用边界	原文锚、failure_mode、mechanism、bound_to	N16-N18	角色发言不等同作者结论
+CJ01G	Cangjie	Stage1 glossary	检索+术语预筛+回读真实用法	term、作者定义若有、key_distinction	N16-N18	不得伪造原文定义
+CJ01I	Cangjie	Stage1 independence	五个独立职责与原版适用clean-view串行降级；chunk/index、关键任务覆盖审计	独立职责记录、原20任务与任务地图	N16-N18	没有并行主体不得谎称并行
+CJ15V1	Cangjie	Stage1.5 V1	187候选逐ID核原著真实依据、章节/版本/引用范围	来源充足/冲突/反例及资格	N17-N18	来源记录SHA≠重新读原文
+CJ15V2	Cangjie	Stage1.5 V2	合格方法用陌生合法任务演练，固定输入/输出/分支/判停	输入与结果、逐ID失败与缺输入记录	N19-N20	walkthrough≠真实宿主测试
+CJ15V3	Cangjie	Stage1.5 V3	真实任务增益，证据来自真实测试而非同代理非盲断言；69历史对象逐ID	预注册、隔离创作、独立盲审或资格不适用	N21-N25	不得伪造主体或结果
+CJ15FLOW	Cangjie	Stage1.5 routing	187四分流、覆盖审计、参考映射、错误保留和用户轻确认	verified/reference/needs_review/rejected逐ID+用户确认	N28	0 verified不得假编译
+CJ16	Cangjie	Stage1.6	五项晋级判据、promoted/router、软预算8、destinations一一对应	各能力五项理由和可达性	N29	未晋级不等于淘汰
+CJ02	Cangjie	Stage2 RIA++	R/I/A1/A2/E/B六段能力卡、稳定ID、Bundle schema、可执行输入输出与Boundary	两书verified.yaml、cards、resources	N30-N31	不许用抽象文档代替操作契约
+CJ03	Cangjie	Stage3	Zettelkasten相邻关系、also_read、A2回填、GLOSSARY、references真实路径	Bundle引用可达、词典及路由索引	N32	不造虚假关系
+CJ04T	Cangjie	Stage4 trigger	触发/拒绝/边缘/近邻互斥、保留题、router可达，真实宿主调用	独立触发与失败记录、负诱饵零容错	N33	只测试触发不等于写作通过
+CJ04O	Cangjie	Stage4 output	每个active方法真实输出正常及边界任务；without/old/new控制；独立语义+机械检查	全部样本含缺失，实际文件和失败、费用/时间	N34-N35	不能只运行静态assertion
+CJ04R	Cangjie	Stage4 repair	未过回到Stage2修A2/E/B并真回归；保存旧WM-04/09等负例	失败原始输出/补丁/保留集重测	N36	不得改答案求通过
+CJ05B	Cangjie	Stage5 build	完整DIGEST、同源Capability Bundle编译single/pack、用户选型、validate_pack	build artifacts、编译/验证日志、用户确认	N37	没有实测不可发布认证产物
+CJ05D	Cangjie	Stage5 deploy	用户选安装宿主或仅库，完整资源复制，真触发与路由演示	宿主运行与加载证明	N37,N48	GitHub存文件不等于聊天自动使用
+CJ20	Cangjie	Stage0 original C	保留旧WM-T01—10和TX-T01—10全部20项原创C，不让新19主题吞任务	20篇独立原创任务/状态账/失败	N26-N27	每个旧原ID独立结算
+NW00	Nuwa	Phase0/0A	主题路径/用途/语料范围/标准档/费用已有用户批准，0B只在模糊需求触发	保留R004真实授权文件	N38	已明确主题不扮演原作者
+NW05	Nuwa	Phase0.5	创建自包含主题Skill目录，sources、references/research六维、scripts	目录及可复制入口	N38	资料不只留在其他目录
+NW01	Nuwa	Phase1	主题变体研究3-5真正独立学派；本地一手先，六维研究各适用维度，独立主体或原版串行降级	源证、外部观点/反例与冲突记录	N38-N40	两本同作者小说不算两个学派
+NW15	Nuwa	Phase1.5	汇总调研质量和来源不足并取得用户明确确认	来源汇总、矛盾、用户确认记录	N41	禁止代理代确认
+NW02	Nuwa	Phase2	按原版模型三重验证，3-7模型、5-10启发式、专业中性表达DNA、价值张力/谱系/诚实边界	逐学派证据和失败情况	N42	不用通用常识冒作者理论
+NW25	Nuwa	Phase2.5	提炼摘要、冲突、不足展示，用户明确确认	用户确认与修订痕迹	N42	不可自行跨关
+NW03	Nuwa	Phase3	用原版模板主题化，自包含Skill+Agentic Protocol，正负触发与来源路由	完整SKILL.md和内部references/sources	N43	不写成空泛报告
+NW04	Nuwa	Phase4	独立已知3项、边缘1项、表达1项、六质量门+quality_check、有限回炉	真正独立答案/评分，主题经典例核验，失败保留	N44	同代理答评不算独立
+NW04G	Nuwa	Phase4 checkpoint	展示全部测试含独立评测和局限，请用户确认后再进Phase5	用户确认记录	N44	质量薄弱要照实标注
+NW05R	Nuwa	Phase5	真实不同优化主体A八维结构+三题干跑、B触发/Agentic Protocol，合并diff/回归，用户确认	两个不同主体实测报告和用户签收	N45	不许文字扮演多代理
+FUSION	V13	Integration	融合成唯一可执行历史军事小说Skill，支持策划/分卷/章节/正文/修稿/状态	单入口SKILL、模块路由、故事状态协议	N46	不得复制原著具体表达或情节
+FINALE	V13	Four-arm independent test	无Skill/仅Cangjie/仅Nuwa/融合四臂：真实小说大纲、章节连续写、审稿与世界状态；盲审	隔离主体实际写作及独立评级	N47	不能凭自评声称有增益
+DELIVERY	V13	Clean chat deployment	干净新聊天真实加载与调用，原著不再供应，恢复连续创作；manifest和用户确认	真实加载/续写/原始文件及测试记录	N48	GitHub发布不等于可调用
+WORLD	V13	Original fiction quality	五维出厂能力：文学理解、世界构建、实际写作、自我修稿、独立运行	客观事实账和独立文学盲审、原创性检查	N26-N48	不能以文档数量或CI绿色替代
+SRC	V13	Evidence and copyright	原著实际复核、私有EPUB SHA、必要引用版权合规、历史史实二次证据	可追溯章节定位/原文短证据及合法发布边界	N16-N48	原著私有文本不上传公开库

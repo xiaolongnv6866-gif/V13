@@ -25,6 +25,9 @@ lock = json.loads(read("V13_3_GOVERNANCE_LOCK.json"))
 state = json.loads(read("V13_CURRENT_V4.json"))
 led = table("V13_LEDGER_V4.tsv")
 assert lock["schema"] == "V13.3_GOVERNANCE_LOCK_1"
+assert lock["mandatory_original_skill_matrix"] == "V13_3_FULL_SKILL_REQUIREMENTS.tsv"
+assert lock["finish_first_execution_plan"] == "V13_3_FINISH_TO_SKILL_PLAN.md"
+assert lock["final_delivery_contract"] == "V13_3_SKILL_DELIVERY_ACCEPTANCE.md"
 assert lock["authoritative_cursor"] == "V13_CURRENT_V4.json"
 assert lock["authoritative_ledger"] == "V13_LEDGER_V4.tsv"
 assert lock["original_approved_plan"] == "V13_3_FIXED_48_ROUNDS.md"

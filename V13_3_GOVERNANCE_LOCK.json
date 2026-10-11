@@ -5,7 +5,7 @@
   "authoritative_cursor": "V13_CURRENT_V4.json",
   "authoritative_ledger": "V13_LEDGER_V4.tsv",
   "original_approved_plan": "V13_3_FIXED_48_ROUNDS.md",
-  "frozen_plan_git_blob_sha": "0b32152077fef9e2048d767f48b4aba3960a8f03",
+  "frozen_plan_git_blob_sha": "c697cf30aa19c2912b331e93093406e3937d71dc",
   "original_skills": {
     "cangjie": "kangarooking/cangjie-skill@a28de55ba881b9928956a55048f743f7a9e3b23e",
     "nuwa": "alchaincyf/nuwa-skill@fe0374687037c4cc51a65c1e0c145afe2981dc69"
@@ -48,5 +48,9 @@
     "N45",
     "N48"
   ],
-  "conditional_resource_gate": "N21"
+  "conditional_resource_gate": "N21",
+  "mandatory_original_skill_matrix": "V13_3_FULL_SKILL_REQUIREMENTS.tsv",
+  "finish_first_execution_plan": "V13_3_FINISH_TO_SKILL_PLAN.md",
+  "final_delivery_contract": "V13_3_SKILL_DELIVERY_ACCEPTANCE.md",
+  "scope_approval": "2026-10-11 user: original Cangjie Nuwa full applicable flow without any skipped capability; replan for actual usable original long-novel SKILL; keep existing 48 rounds and all original contracts"
 }

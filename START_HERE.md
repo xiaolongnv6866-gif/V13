@@ -20,3 +20,7 @@
 
 ## 必须执行的零信任恢复补充（2026-10-11维护，不移动轮次）
 先遵循 [V13_3_RECOVERY_GUARD.md](V13_3_RECOVERY_GUARD.md)，核对 [V13_3_GOVERNANCE_LOCK.json](V13_3_GOVERNANCE_LOCK.json) 的原版SKILL SHA与正式48轮Git blob锁。代码检验：`python3 scripts/v13_resume.py --check`；变更用户审批要求见 [V13_3_CHANGE_CONTROL.md](V13_3_CHANGE_CONTROL.md)。**保留完整原始验收；该校验仅防行政漂移，不能代替文学/盲测质量。**
+
+## 全原版执行 + 真正写小说的唯一新增强制入口
+- [35项原版SKILL工序与证据映射](V13_3_FULL_SKILL_REQUIREMENTS.tsv)；[原48轮内一次完工路径](V13_3_FINISH_TO_SKILL_PLAN.md)；[五项原创长篇能力最终验收](V13_3_SKILL_DELIVERY_ACCEPTANCE.md)。
+- 恢复时只能把此清单当“检查是否遗漏”的工具，**不得代替仓颉/女娲锁定上游原版逐阶段全文及所有适用文件**。已经存在的旧文学研究并不代表真正写作Skill可调用。
