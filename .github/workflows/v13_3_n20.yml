@@ -1,0 +1,19 @@
+name: V13.3 N20 Tiexue 32 Pre-registered V2 Fiction Walkthrough Integrity
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v13_3/n20/**'
+      - 'scripts/validate_v13_n20.py'
+      - 'V13_CURRENT_V4.json'
+      - 'V13_LEDGER_V4.tsv'
+      - 'runs/N20_V4.md'
+      - '.github/workflows/v13_3_n20.yml'
+  workflow_dispatch:
+jobs:
+  n20-v2-walkthrough-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify N18 source IDs, frozen input SHA, 32 actual creative scenes, ablations, partials and no fake V3
+        run: python3 scripts/validate_v13_n20.py
