@@ -21,8 +21,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f01.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f02",
@@ -37,8 +40,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f03.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f04",
@@ -53,8 +59,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f01.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f05",
@@ -69,8 +78,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-p09.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f07",
@@ -86,7 +98,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f08",
@@ -101,8 +115,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-p02.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f09",
@@ -117,8 +134,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f08.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f10",
@@ -133,8 +153,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f10.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f11",
@@ -149,8 +172,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-p07.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f12",
@@ -165,8 +191,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-p17.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f13",
@@ -181,8 +210,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f13.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f15",
@@ -198,7 +230,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f16",
@@ -213,8 +247,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f17.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-f17",
@@ -229,8 +266,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-p08.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p01",
@@ -246,7 +286,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p02",
@@ -261,8 +303,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f08.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p03",
@@ -278,7 +323,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p04",
@@ -294,7 +341,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p05",
@@ -309,8 +358,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-p12.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p06",
@@ -326,7 +378,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p07",
@@ -341,8 +395,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f11.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p08",
@@ -357,8 +414,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f17.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p09",
@@ -373,8 +433,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f05.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p11",
@@ -390,7 +453,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p12",
@@ -406,7 +471,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p13",
@@ -422,7 +489,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p14",
@@ -438,7 +507,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p17",
@@ -453,8 +524,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f12.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p18",
@@ -470,7 +544,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p19",
@@ -485,8 +561,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f15.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p20",
@@ -502,7 +581,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "TX-p21",
@@ -518,7 +599,10 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     }
-  ]
+  ],
+  "stage3_relation_registry": "capabilities/RELATIONSHIPS.json"
 }
