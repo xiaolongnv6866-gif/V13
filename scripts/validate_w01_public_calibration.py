@@ -40,5 +40,33 @@ for x in ex:
     assert x["disposition"]==("V2_PARTIAL_NO_V3" if z["preliminary_gate"]=="PARTIAL" else "NO_V1_METHOD_ELIGIBILITY")
 assert {x["repeat_id"] for x in cases}.isdisjoint(x["repeat_id"] for x in ex)
 assert len(tab("V13_3_V3_69_TO_ROUNDS.tsv"))==69
+# Verify the frozen tasks have an EXTERNAL source bridge. The frozen
+# 'original_V1_loci' column is a truncated explanation in 55/56 rows, NOT
+# a reliable n###/p### locator. Do not mutate frozen prompts to disguise it.
+bridge=tab("v13_w/w01/V3_56_PUBLIC_CALIBRATION_SOURCE_BRIDGE.tsv")
+assert len(bridge)==56
+assert {x["repeat_id"] for x in bridge}==set(ready)
+wm_v1={f"WM-{x['candidate_id']}":x for x in tab("v13_3/n17/N17_WM_V1_91.tsv")}
+tx_v1={f"TX-{x['candidate_id']}":x for x in tab("v13_3/n18/N18_TX_V1_96.tsv")}
+wm_v2={f"WM-{x['candidate_id']}":x for x in tab("v13_3/n19/N19_WM_V2_RESULTS_32.tsv")}
+tx_v2={f"TX-{x['candidate_id']}":x for x in tab("v13_3/n20/N20_TX_V2_RESULTS_32.tsv")}
+v1={**wm_v1,**tx_v1}; v2={**wm_v2,**tx_v2}
+for x in bridge:
+    z=ready[x["repeat_id"]]
+    assert z["candidate_id"]==x["candidate_id"] and z["book"]==x["book"]
+    cid=x["candidate_id"]; a=v1[cid]; b=v2[cid]
+    wm=cid.startswith("WM-")
+    assert x["v1_verified_first_locus"]==(a["first_original_locus"] if wm else a["source_first_locus"])
+    assert x["v1_loci_all"]==(a["all_original_loci"] if wm else a["all_source_loci"])
+    assert re.fullmatch(r"n\\d+/p\\d+",x["v1_verified_first_locus"])
+    assert x["v1_evidence_file"]==(a["source_evidence_file"] if wm else a["original_evidence_path"])
+    assert (P/x["v1_evidence_file"]).exists()
+    assert x["v1_source_decision"]==(a["V1_source_decision"] if wm else a["V1_decision"])=="V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING"
+    assert x["v2_actual_output_file"]==(b["output_file"] if wm else b["actual_output_file"])
+    assert x["v2_output_section"]==(b["scene_section"] if wm else b["actual_output_section"])
+    assert x["v2_walkthrough_outcome"]==(b["V2_outcome"] if wm else b["v2_outcome"])=="V2_WALKTHROUGH_PASS_SCOPED"
+    assert x["v3_independent_status"]==(b["independent_V3_evidence"] if wm else b["genuine_independent_v3"])=="NOT_RUN"
+    assert x["v2_output_section"] in read(x["v2_actual_output_file"])
+    assert x["source_bridge_status"]=="MECHANICAL_LINK_VERIFIED_ONLY"
 assert "GitHub Models" in read("v13_w/w01/W01_EVAL_PROTOCOL.md")
-print("PASS W01 input-only freeze: 56 distinct public calibration prompts; 5 partial + 8 V1-ineligible excluded; 0 independent V3 claims")
+print("PASS W01 input-only freeze: 56 prompts and V1/V2 source bridges; 5 partial + 8 V1-ineligible; 0 independent V3 claims")
