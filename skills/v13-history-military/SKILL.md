@@ -63,4 +63,17 @@ version: 1.0.0
 - 连续原创演示：examples/chaoxun/（原创，非原著搬运）；
 - 交付边界：BUILD_MANIFEST.json、README.md。
 
+
+完整模块路径（宿主按本文件路径读取，不从缩写猜路径）：
+- `references/01-PLOT_AND_SERIES.md`
+- `references/02-WORLD_SYSTEMS.md`
+- `references/03-SCENE_AND_PROSE.md`
+- `references/04-CHARACTERS_AND_KNOWLEDGE.md`
+- `references/05-STATE_AND_CONTINUITY.md`
+- `references/06-HISTORY_AND_WAR.md`
+- `references/07-EDITOR_AND_FAILURES.md`
+- `references/08-ABILITIES_AND_THEORY.md`
+- `references/09-ROUTER_AND_HANDOFF.md`
+- `scripts/build_release.py` 支持确定性整体打包。
+
 从目录直接阅读SKILL.md+任务相关references即可使用。仓库链接不等于普通聊天已原生安装。
