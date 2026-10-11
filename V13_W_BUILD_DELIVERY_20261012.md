@@ -20,3 +20,10 @@ status: BUILD_DELIVERED_USER_WAIVED_EXTERNAL_VERIFICATION
 Independent V3/独立20题文学评测/真正宿主Stage4/原Cangjie verified Bundle官方compile/女娲Phase4和5独立主体/A-B两主体优化/四臂盲评/全新聊天原生自动加载：**均按用户最终指示跳过，不补验；对应证据为NOT_RUN_USER_WAIVED，不是PASSED**。
 
 产品在可加载SKILL目录的宿主需显式载入；普通ChatGPT需上传SKILL.md和任务相关引用及状态文件才可稳定按其创作。无需用户再回到W01做无休止蒸馏。本项目交付主阶段结束，后续只有实际使用时发现缺陷才针对性维护。
+
+## 工具与打包实测收据（不等于独立文学质量认证）
+
+- 2026-10-12 实际GitHub Actions工作流： https://github.com/xiaolongnv6866-gif/V13/actions/runs/38172621356 ，`conclusion=success`，基准包版本commit `57c2d9325c3921a882337ad4d9fe1a74696f0da0`。
+- 已运行既有27项状态账/负例/目录回归，并成功执行最新状态脚本、无损跨聊天交接生成、定长可重复打包；CI只证明**程序可以执行，不能证明作品获得文学盲评**。
+- 该工作流真实生成并保留 `v13-history-military-writing-skill` ZIP Artifact ID `11714258328`，内部独立最终SKILL ZIP 含138个路径（包括逐文件 SHA 清单），内部ZIP SHA256 `07b6953cd604cf0a656772e234d436500906a0aabdb49b4bbacc7caa15c29db8`。
+- 不包含私有EPUB原文；永久源目录仍为 `skills/v13-history-military/`，ZIP仅是便于安装复制的全包快照。
