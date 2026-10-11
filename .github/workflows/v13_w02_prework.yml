@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify frozen WM-T01 and TX-T01, three scenes each and honest independent status
+      - name: Verify 12 frozen original C drafts and honest independent status
         run: python3 scripts/validate_w02_prework.py
       - name: Verify Python syntax
         run: python3 -m py_compile scripts/validate_w02_prework.py

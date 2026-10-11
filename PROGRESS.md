@@ -31,3 +31,9 @@ W01实际增量：56项不同原创公开校准题已固定，对应56个可测V
 ## 2026-10-12｜W02四项新增独立任务前置写作（主Agent诊断级）
 
 在先行提交冻结合同`1e040f9`后，完成[WM-T02](v13_w/w02/prework_20261012/WM_T02_3_SCENES.md)、[WM-T03](v13_w/w02/prework_20261012/WM_T03_FIVE_LEDGERS.md)、[TX-T02](v13_w/w02/prework_20261012/TX_T02_APPLICATION_STATES.md)、[TX-T03](v13_w/w02/prework_20261012/TX_T03_AUTONOMOUS_STAFF.md)四个真正原创现场/连续场景及所需账；先前2个前置样本保留。新增统一[冻结与机械验收](scripts/validate_w02_prework.py)和[6项状态清单](v13_w/w02/prework_20261012/W02_PREWORK_STATUS.tsv)。本类公开非独立诊断作品为 **6/20已写、0/20独立C通过**；W01依旧BLOCKED、W02官方NOT_STARTED、0/11包PASSED，不能把机器检查说成文学盲审。
+
+## 2026-10-12｜W02第三批六项真实创作：公开诊断样本累计12/20
+
+冻结合同先单独提交[WM-T04/05/06与TX-T04/05/06](v13_w/w02/prework_20261012/FROZEN_WM04_06_TX04_06.md)（`b959f9f`）。在其后实际编写六份原创故事及资源和主体认知账：[现金流与工期](v13_w/w02/prework_20261012/WM_T04_CASHFLOW.md)、[三级命令视角差](v13_w/w02/prework_20261012/WM_T05_THREE_POV.md)、[对手自主与延迟消息](v13_w/w02/prework_20261012/WM_T06_THREE_SIDES.md)、[替代粮的二次成本](v13_w/w02/prework_20261012/TX_T04_REPLACEMENT_COST.md)、[制度晋升质疑和试行缺口](v13_w/w02/prework_20261012/TX_T05_POLICY_REVISION.md)、[三方知情与有限协作](v13_w/w02/prework_20261012/TX_T06_THREE_PARTY_AGREEMENT.md)。配套[可检查的作者声明资源账](v13_w/w02/prework_20261012/W02_6_CASE_RESOURCE_FIXTURES.json)，统一脚本校验12个样本的冻结原件、场次和账内算式。
+
+**质量门不变**：这12项为主Agent编写的公开前置作品，不是独立创作者的独立C；另8项尚未撰写，真正独立C=0/20，独立V3=0，W01 BLOCKED、W02官方NOT_STARTED、正式工作包0/11。

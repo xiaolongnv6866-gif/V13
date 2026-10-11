@@ -1,0 +1,61 @@
+{
+  "schema": "V13_W02_DIAGNOSTIC_RESOURCE_FIXTURES_20261012",
+  "classification": "STRUCTURE_AND_AUTHOR_DECLARED_DATA_ONLY",
+  "literary_review": "NOT_RUN",
+  "WM-T04": {
+    "cash_initial": 4,
+    "cash_paid_day1": 4,
+    "cash_received_day8": 7,
+    "credit_repaid_day8": 2,
+    "cash_end": 5,
+    "debt_issued_day1": 2,
+    "debt_final": 0,
+    "ordered": 20,
+    "delivered": 12,
+    "pending": 8,
+    "remaining_conditional_receivable": 5
+  },
+  "WM-T05": {
+    "grain_in_store": 9,
+    "grain_out": 0,
+    "cart_received": 0,
+    "authoritative_order": "COUNT_AND_WAIT",
+    "false_version": "TRANSFER_TODAY",
+    "bridge_closure": "HEARSAY"
+  },
+  "WM-T06": {
+    "salt_initial": 9,
+    "salt_into_loading_bay": 4,
+    "salt_still_in_yard": 5,
+    "actual_ferry_delivery_verified": false,
+    "rumors_verified": false
+  },
+  "TX-T04": {
+    "initial": 2,
+    "spent_day1": 2,
+    "received_day2": 4,
+    "spent_day2_to_day5": 3,
+    "remaining_day5": 1,
+    "debt_bags_due": 5,
+    "debt_bags_paid": 0,
+    "extension_days": 3
+  },
+  "TX-T05": {
+    "received_packages": 10,
+    "clear_for_potential_delivery": 8,
+    "quality_pending": 2,
+    "examination_promotion_granted": false,
+    "three_rounds_completed": false
+  },
+  "TX-T06": {
+    "shop_grain_initial": 3,
+    "grain_loaned": 2,
+    "grain_remaining": 1,
+    "private_rooms_initial": 2,
+    "rooms_loaned": 1,
+    "rooms_remaining": 1,
+    "verified_households": 6,
+    "reported_households_unverified": true,
+    "agreement_valid": "ONE_NIGHT"
+  }
+}
