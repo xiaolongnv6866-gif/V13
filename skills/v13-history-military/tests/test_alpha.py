@@ -111,9 +111,10 @@ class AlphaLedgerTests(unittest.TestCase):
 
     def test_relative_skill_references(self):
         skill=(HERE/"SKILL.md").read_text(encoding="utf-8")
-        for ref in ("references/NARRATIVE_ENGINE.md",
-                    "references/STATE_PROTOCOL.md",
-                    "references/EDITOR_PROTOCOL.md",
+        for ref in ("references/01-PLOT_AND_SERIES.md",
+                    "references/03-SCENE_AND_PROSE.md",
+                    "references/05-STATE_AND_CONTINUITY.md",
+                    "references/07-EDITOR_AND_FAILURES.md",
                     "templates/CHAPTER_BRIEF.md",
                     "templates/STATE_TEMPLATE.json",
                     "scripts/validate_state.py",
