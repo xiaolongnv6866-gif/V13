@@ -58,7 +58,7 @@ for x in bridge:
     wm=cid.startswith("WM-")
     assert x["v1_verified_first_locus"]==(a["first_original_locus"] if wm else a["source_first_locus"])
     assert x["v1_loci_all"]==(a["all_original_loci"] if wm else a["all_source_loci"])
-    assert re.fullmatch(r"n\\d+/p\\d+",x["v1_verified_first_locus"])
+    assert re.fullmatch(r"n\d+/p\d+",x["v1_verified_first_locus"])
     assert x["v1_evidence_file"]==(a["source_evidence_file"] if wm else a["original_evidence_path"])
     assert (P/x["v1_evidence_file"]).exists()
     assert x["v1_source_decision"]==(a["V1_source_decision"] if wm else a["V1_decision"])=="V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING"
