@@ -17,6 +17,6 @@
 
 E03晋级必须逐ID读取此表，不得把SCOPED_V2_ONLY_NOT_V3当已通过原版V3。E02 20原题正文独立结算，不能以本表替代。用户取消独立测试，不代表删掉方法来源约束。
 
-方法类型分布：{"framework":12,"procedure":4,"troubleshooting":1,"principle":12,"rule":9,"checklist":2,"case":14,"counter-example":19,"term":18,"UNKNOWN":96}。
+方法类型分布：{"framework":23,"procedure":9,"troubleshooting":2,"principle":22,"rule":20,"checklist":3,"case":30,"counter-example":40,"term":38}。
 
 Audit status: **PARTIAL_CONSTRUCTION_WITH_EXPLICIT_GAPS**；不是E01全部严格完工的声称。
