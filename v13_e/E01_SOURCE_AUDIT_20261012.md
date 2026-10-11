@@ -6,7 +6,7 @@
 
 - 逐条原ID联结原V1 title/类型/范围、来源locus、段落SHA、反例边界、方法卡/参考去向：**187/187**。四分流保留：{"needs_review":74,"reference":113}，没有伪造新增verified。
 - 仓库中五类来源证据TSV逐锚复核：对应 545/545 个主表原文locus；其中段落SHA前缀匹配 545、冲突 0；未命中的来源只视为跨表索引未覆盖，**不等于原文不存在**。
-- 原始V1联结缺失 187。每ID包含方法/普通描述界线、范围、失效边界、不晋级理由及对应原始定位，详见 [逐项审计表](E01_187_METHOD_SOURCE_DECISIONS.tsv)。
+- 原始V1联结缺失 0。每ID联结源表类型/题名/原文限定范围，包含方法/普通描述界线、范围、失效边界、不晋级理由及对应原始定位，详见 [逐项审计表](E01_187_METHOD_SOURCE_DECISIONS.tsv)。
 - 两份私有EPUB在本会话由本地工具核实了整体SHA256与主状态一致，并抽查 WM-f01 n001/p44 和 TX-ce01 n013/p34 两段本地实际p标签文本SHA命中；**这两段抽检不能冒称187项均完成全量原文独立回读**。
 
 ## 明确边界
@@ -16,5 +16,7 @@
 ## 交付与后续依赖
 
 E03晋级必须逐ID读取此表，不得把SCOPED_V2_ONLY_NOT_V3当已通过原版V3。E02 20原题正文独立结算，不能以本表替代。用户取消独立测试，不代表删掉方法来源约束。
+
+方法类型分布：{"framework":12,"procedure":4,"troubleshooting":1,"principle":12,"rule":9,"checklist":2,"case":14,"counter-example":19,"term":18,"UNKNOWN":96}。
 
 Audit status: **PARTIAL_CONSTRUCTION_WITH_EXPLICIT_GAPS**；不是E01全部严格完工的声称。
