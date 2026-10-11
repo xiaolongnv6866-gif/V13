@@ -82,4 +82,41 @@ require_same("SKILL_DUTY_35",None,[x["id"] for x in duties])
 manifest=tsv("PROJECT_FILE_REGISTER_1101.tsv")
 assert len(manifest)==1101 and Counter(x["action"] for x in manifest)=={"RETAIN_MAIN":931,"PRESERVE_BACKUP_ONLY":170}
 assert (P/"V13_GLOBAL_REMAINING_WORK_V1.md").is_file()
+
+# Regression guard: historically NOT_STARTED v13.1 R057–R066 are NOT
+# allowed to vanish into HISTORY without a named successor N-round and
+# a surviving source artifact.  Historical status remains untouched.
+successor_evidence = {
+    "R057": ("W02", "v13_3/n16/N16_CROSS_OBJECT_AUDIT.md"),
+    "R058": ("W02", "v13_3/n16/N16_LITERARY_B_296_MASTER.tsv"),
+    "R059": ("W02", "v13_3/n16/N16_LITERARY_B_296_MASTER.tsv"),
+    "R060": ("W02", "v13_3/n16/N16_R042_14_QUARANTINE_MASTER.tsv"),
+    "R061": ("W02", "v13_3/n16/N16_R042_14_QUARANTINE_MASTER.tsv"),
+    "R062": ("W02", "v13_3/n16/N16_BOOK_OVERVIEW_AUDIT.md"),
+    "R063": ("W01", "v13_3/n17/N17_WM_V1_91.tsv"),
+    "R064": ("W01", "v13_3/n18/N18_TX_V1_96.tsv"),
+    "R065": ("W01", "v13_3/n19/N19_WM_V2_RESULTS_32.tsv"),
+    "R066": ("W01", "v13_3/n20/N20_TX_V2_RESULTS_32.tsv"),
+}
+for old_id, (package, evidence) in successor_evidence.items():
+    x = r110[old_id + "@v13.1"]
+    assert x["observed_status"] == "NOT_STARTED", old_id
+    assert x["remaining_package"] == "HISTORY+" + package, old_id
+    assert "subsequent_evidence=" in x["trace_note"] and evidence in x["trace_note"], old_id
+    assert (P / evidence).is_file(), (old_id, evidence)
+# Every original frozen contract and every upstream SKILL duty remains
+# scheduled for action: HISTORY alone cannot silently discharge it.
+for family in ("CONTRACT_44", "SKILL_DUTY_35"):
+    for x in by(family).values():
+        assert any(p.startswith("W") for p in x["remaining_package"].split("+")), x["version_scoped_id"]
+# Retirement manifest is checked against live files; archived-only files
+# must not be mistaken for part of the active main checkout.
+for row in manifest:
+    path = P / row["file_path"]
+    assert row["action"] in ("RETAIN_MAIN", "PRESERVE_BACKUP_ONLY")
+    if row["action"] == "RETAIN_MAIN":
+        assert path.is_file(), ("missing retained", row["file_path"])
+    else:
+        assert not path.exists(), ("archived file still active", row["file_path"])
+
 print("PASS global traceability STRUCTURE ONLY: 1058 task records; 89->110 collision 32, manual R057; 426/187/69/20/44/35; 1101 source files; zero independent V3 or certified SKILL claimed.")
