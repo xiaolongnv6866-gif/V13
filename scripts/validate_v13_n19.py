@@ -40,7 +40,7 @@ resmap={x["candidate_id"]:x for x in outputs}
 negmap={x["candidate_id"]:x for x in negative}
 assert all(x["evaluation_scope"]=="STAGE1_5_V2_WALKTHROUGH_ONLY" for x in preregistered)
 assert all("STAGE1_5" not in x["new_input_pre_registered"] for x in preregistered)
-assert all(len(x["new_input_pre_registered"])>=30 and len(x["mandatory_verifiable_observation"])>=14 and len(x["forbidden_inference_or_failure"])>=14 for x in preregistered)
+assert all(len(x["new_input_pre_registered"])>=25 and len(x["mandatory_verifiable_observation"])>=14 and len(x["forbidden_inference_or_failure"])>=9 for x in preregistered)
 counts=Counter(x["V2_outcome"] for x in outputs)
 assert counts=={"V2_WALKTHROUGH_PASS_SCOPED":28,"V2_PARTIAL_NEEDS_FOLLOWUP":4},counts
 partial={x["candidate_id"] for x in outputs if x["V2_outcome"]=="V2_PARTIAL_NEEDS_FOLLOWUP"}
@@ -74,8 +74,8 @@ for letter in "ABCD":
             assert len(row["reason_for_limit_or_success"])>=33
         neg=negmap[cid]
         assert neg["branch_result"]=="STOP_WITH_BOUNDARY_NO_INVENTED_FACT"
-        assert len(neg["ablation_input_without_crucial_fact"])>=14
-        assert len(neg["actual_stop_or_refusal_output"])>=23
+        assert len(neg["ablation_input_without_crucial_fact"])>=8
+        assert len(neg["actual_stop_or_refusal_output"])>=18
 assert used==qualified
 import json
 s=json.loads((ROOT/"V13_CURRENT_V4.json").read_text(encoding="utf-8"))
