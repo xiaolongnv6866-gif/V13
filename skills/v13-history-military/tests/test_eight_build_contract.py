@@ -37,7 +37,7 @@ class EightBuildContract(unittest.TestCase):
                 self.assertGreaterEqual(len(text),1000,id)
                 scenes=re.findall(r"^### [一二三四五六七八九十]+｜",text,re.MULTILINE)
                 self.assertGreaterEqual(len(scenes),2,id)
-                self.assertRegex(text,r"状态|事实账|关系事实|因果树|时延|节点|权责|后果|承诺账|职责|五账")
+                self.assertRegex(text,r"状态|事实账|关系事实|因果树|时延|节点|权责|后果|承诺账|职责|五账|事实／记忆|事实/记忆")
     def test_64_RIA_and_router_graph(self):
         caps=[]
         for book in ("wanming","tiexuecanming"):
