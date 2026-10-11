@@ -26,3 +26,7 @@ python3 skills/v13-novel-alpha/scripts/build_handoff.py --out /tmp/V13_EXPLICIT_
 ## 限制（必须保留）
 
 本包只验证功能契约和可重放状态，不能认证文学趣味与历史制度史实。不是仓颉Stage2已晋级能力卡，不是女娲Phase3正式主题SKILL，缺少真正独立V3/Phase4/Phase5和四臂盲审、以及干净宿主加载实测；V13正式游标仍是W01 BLOCKED。不得以此ALPHA包替换源SKILL原版阶段或原20个独立Stage0 C任务。
+
+## CH04增量功能回归（仍未独立验收）
+
+新增第四章[原文](../../experiments/novel_field_test_20261012/CH04.md)、[事件账](fixtures/chaoxun_ch04.json)和[专门反例测试](tests/test_ch04_integrity.py)：同号异日两张单据、各方保留原件、留字面回执但不把索款变成已付款；修复收据转存数量守恒、授权记录类型与未知许可引用。前三章冻结资产值没有改写。

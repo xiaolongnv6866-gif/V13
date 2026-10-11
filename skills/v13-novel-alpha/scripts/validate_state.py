@@ -81,6 +81,13 @@ def validate(data):
         need(bool(event.get("evidence_ref")), "event has no observable source: " + str(eid))
         seen[eid] = event
 
+        # A permission ID never silently disappears from an otherwise unprotected event.
+        ids = event.get("permission_ids", [])
+        need(isinstance(ids, list) and len(ids) == len(set(ids)),
+             "invalid or duplicate permission IDs: " + str(eid))
+        need(all(pid in permissions for pid in ids),
+             "unknown permission ID: " + str(eid))
+
         for item in event.get("changes", []):
             account = item.get("account")
             need(account in balance, "untracked account: " + str(account))
@@ -103,6 +110,18 @@ def validate(data):
                      "cannot turn promised goods into physical stock without witnessed receipt: " + str(eid))
             balance[account] += delta
             need(balance[account] >= 0, "negative balance " + account + " at " + str(eid))
+
+        # Receiving an old promise requires an equal physical-stock credit.
+        # A paper receipt alone cannot evaporate a promise or double the inventory.
+        promise_debit = -sum(c["delta"] for c in event.get("changes", [])
+                             if c.get("account") == "stock.promised_not_arrived"
+                             and c.get("delta", 0) < 0)
+        if promise_debit:
+            physical_credit = sum(c["delta"] for c in event.get("changes", [])
+                                  if c.get("account") in {"stock.dry", "stock.wet"}
+                                  and c.get("delta", 0) > 0)
+            need(physical_credit == promise_debit,
+                 "receipt transfer must conserve physical stock: " + str(eid))
 
         if any(x.get("account") == "debt.wages" and x.get("delta", 0) < 0
                for x in event.get("changes", [])):
@@ -127,6 +146,8 @@ def validate(data):
 
     for pid, p in permissions.items():
         need(p["grant_event_id"] in seen, "dangling permission grant event: " + pid)
+        need(seen[p["grant_event_id"]].get("kind") == "PERMISSION_GRANTED",
+             "permission grant event is not an authorization: " + pid)
         need(seen[p["grant_event_id"]]["chapter"] == p["grant_chapter"],
              "permission chapter does not match grant event: " + pid)
 

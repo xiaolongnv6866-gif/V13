@@ -15,3 +15,7 @@ W01实际增量：56项不同原创公开校准题已固定，对应56个可测V
 
 ## 可显式加载的作品写作原型（独立验收尚未通过）
 [ALPHA SKILL包](skills/v13-novel-alpha/README.md)已汇集真正可读取的SKILL.md、叙事/审稿协议、事件化状态JSON、显式跨聊天载荷生成器与正反单元测试。该可运行试验解决部分连续性与恢复功能，不代表两套原版SKILL已编译认证；W01依旧BLOCKED，真实独立V3/20 C均0，正式工作包0/11。
+
+## 2026-10-12 增量：第四章现场续写与ALPHA账务完整性修复
+
+在原三章冻结试验上新增[CH04真实原创正文](experiments/novel_field_test_20261012/CH04.md)、[现场修订审查](experiments/novel_field_test_20261012/CH04_EDIT_AUDIT.md)、[独立CH04事件状态账](skills/v13-novel-alpha/fixtures/chaoxun_ch04.json)和[反例回归测试](skills/v13-novel-alpha/tests/test_ch04_integrity.py)。未到物资转实物必须数额守恒，伪授权和未知许可不能通过。**这只是创作/确定性工程功能增量；正式W01 BLOCKED、0/11，独立V3=0、独立C=0、认证=0均不变。**

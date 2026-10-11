@@ -1,0 +1,294 @@
+{
+  "schema": "v13-novel-alpha-ledger-1",
+  "project": "chaoxun-jianghuai-fictitious",
+  "genre": "原创架空晚明社会历史故事",
+  "historical_disclaimer": "芦汀镇与本仓机构权限和价银为虚构创作设定",
+  "test_classification": "EXPERIMENT_NONINDEPENDENT",
+  "initial_accounts": {
+    "stock.dry": 18,
+    "stock.wet": 6,
+    "stock.promised_not_arrived": 12,
+    "cash.public": 6,
+    "debt.wages": 3
+  },
+  "permissions": [
+    {
+      "id": "P1",
+      "issuer": "方启闻",
+      "resource_account": "stock.dry",
+      "max_debit": 4,
+      "grant_event_id": "E02",
+      "grant_chapter": 2,
+      "first_valid_chapter": 3,
+      "last_valid_chapter": 3,
+      "scope": "本地现场发粮四袋，两名无经手者见证；未允河东运输"
+    },
+    {
+      "id": "P2",
+      "issuer": "方启闻",
+      "resource_account": "cash.public",
+      "max_debit": 3,
+      "grant_event_id": "E02",
+      "grant_chapter": 2,
+      "first_valid_chapter": 3,
+      "last_valid_chapter": 3,
+      "scope": "验清仓工旧欠三两后支付"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "east_17_households",
+      "value": 17,
+      "status": "HEARSAY",
+      "source": "CH01:跑腿称据船上听闻，未逐户核实名单"
+    },
+    {
+      "fact_id": "12_bag_receipt",
+      "value": "收讫字样",
+      "status": "REPORTED",
+      "source": "CH02:陆时安找到有字迹损毁的旧凭，真假未定"
+    },
+    {
+      "fact_id": "opposite_bank_delivery",
+      "value": 0,
+      "status": "CONFIRMED",
+      "source": "CH03:苏鹭在见证栏注明未见河东交接；本地出仓的粮未交船"
+    },
+    {
+      "fact_id": "merchant_5_received",
+      "value": false,
+      "status": "CONFIRMED",
+      "source": "CH03:丁掌柜空手承认未收回欠款"
+    },
+    {
+      "fact_id": "joint_copy_record",
+      "value": "两份单据字面同号异日，形成见证抄件；均不构成交粮凭证",
+      "status": "CONFIRMED",
+      "source": "CH04:现场双方各持原件、写抄件；苏鹭签字只见字面"
+    },
+    {
+      "fact_id": "east_original_wrapper",
+      "value": "祁四娘称封套写有芦汀已收",
+      "status": "REPORTED",
+      "source": "CH04:沈茂生转述；陆时安未见封套"
+    }
+  ],
+  "characters": [
+    {
+      "name": "陆时安",
+      "goal": "把纸面粮和现货、不同收据核实，保护可追溯性",
+      "knows": [
+        "仓内干粮余14袋",
+        "两份收据未核",
+        "可支银只剩3两",
+        "两张纸同号异日已抄录但经手人未查清",
+        "自己没有擅行河东的批准"
+      ],
+      "heard": [
+        "河东据说有17户等待"
+      ],
+      "believes": [
+        "收讫旧凭可能被提前盖章"
+      ]
+    },
+    {
+      "name": "苏鹭",
+      "goal": "让船行避免无预付款承接风险",
+      "knows": [
+        "本行先收8两才接运粮",
+        "河东尚未交粮",
+        "她只签过字面比对见证，未签运河东"
+      ],
+      "heard": [
+        "官署或有进一步筹银意向"
+      ],
+      "believes": [
+        "无付款前不应记接单"
+      ]
+    },
+    {
+      "name": "吴嫂",
+      "goal": "拿到本户粮并防止假领、催问对岸群众",
+      "knows": [
+        "四袋确在镇内开过",
+        "自己见证领数",
+        "两方均未交原单给仓署，双方各收一份抄件"
+      ],
+      "heard": [
+        "对岸尚缺粮"
+      ],
+      "believes": [
+        "报账若无旁证容易被改"
+      ]
+    },
+    {
+      "name": "吕石头",
+      "goal": "保住仓工工资及下次雇用条件",
+      "knows": [
+        "旧欠3两收到",
+        "下次工价未谈"
+      ],
+      "heard": [],
+      "believes": [
+        "官署可能继续推迟新工价"
+      ]
+    },
+    {
+      "name": "方启闻",
+      "goal": "在有限授权内处理救济而控制政治风险",
+      "knows": [
+        "已准本地4袋",
+        "河东未运",
+        "核对底稿暂由自己保管，河东行程尚未批准"
+      ],
+      "heard": [
+        "纸面十二袋旧凭存在"
+      ],
+      "believes": [
+        "第二份凭据可能影响他的责任"
+      ]
+    },
+    {
+      "name": "丁掌柜",
+      "goal": "保住信誉并想办法兑现承诺的5两",
+      "knows": [
+        "自己许诺5两而未付款"
+      ],
+      "heard": [
+        "粮已发四袋"
+      ],
+      "believes": [
+        "旧收据争议可能牵涉贸易"
+      ]
+    },
+    {
+      "name": "沈茂生",
+      "goal": "拿回书面答复并保住河东雇主信任和跑腿脚钱",
+      "knows": [
+        "自己持原单未交出",
+        "带回一份双方签注的字面抄件"
+      ],
+      "heard": [
+        "祁四娘说有写着芦汀已收的封套"
+      ],
+      "believes": [
+        "未经雇主许可不能带陆时安过河"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "E01",
+      "chapter": 1,
+      "kind": "OBSERVATION",
+      "evidence_ref": "experiments/novel_field_test_20261012/CH01.md",
+      "changes": [],
+      "permission_ids": [],
+      "facts_updates": []
+    },
+    {
+      "id": "E02",
+      "chapter": 2,
+      "kind": "PERMISSION_GRANTED",
+      "evidence_ref": "experiments/novel_field_test_20261012/CH02.md",
+      "changes": [],
+      "permission_ids": [],
+      "facts_updates": []
+    },
+    {
+      "id": "E03",
+      "chapter": 3,
+      "kind": "LOCAL_GRAIN_DISTRIBUTION",
+      "evidence_ref": "experiments/novel_field_test_20261012/CH03.md",
+      "changes": [
+        {
+          "account": "stock.dry",
+          "delta": -4
+        }
+      ],
+      "permission_ids": [
+        "P1"
+      ],
+      "facts_updates": []
+    },
+    {
+      "id": "E04",
+      "chapter": 3,
+      "kind": "WAGE_SETTLEMENT",
+      "evidence_ref": "experiments/novel_field_test_20261012/CH03.md",
+      "changes": [
+        {
+          "account": "cash.public",
+          "delta": -3
+        },
+        {
+          "account": "debt.wages",
+          "delta": -3
+        }
+      ],
+      "permission_ids": [
+        "P2"
+      ],
+      "facts_updates": []
+    },
+    {
+      "id": "E05",
+      "chapter": 4,
+      "kind": "DOCUMENT_OBSERVATION",
+      "evidence_ref": "experiments/novel_field_test_20261012/CH04.md",
+      "changes": [],
+      "permission_ids": [],
+      "facts_updates": []
+    },
+    {
+      "id": "E06",
+      "chapter": 4,
+      "kind": "PUBLIC_COPY_RECORD",
+      "evidence_ref": "experiments/novel_field_test_20261012/CH04.md",
+      "changes": [],
+      "permission_ids": [],
+      "facts_updates": []
+    }
+  ],
+  "open_loops": [
+    {
+      "id": "L01",
+      "issue": "纸面未到12袋为什么出现“收讫”旧凭，第二张单据尚未核验",
+      "owner": "陆时安",
+      "resolution": "UNKNOWN"
+    },
+    {
+      "id": "L02",
+      "issue": "河东等待户数仅有传闻且未收粮，船运须预付8两而现银只余3两",
+      "owner": "方启闻/苏鹭",
+      "resolution": "UNRESOLVED"
+    },
+    {
+      "id": "L03",
+      "issue": "丁掌柜许诺5两未到手，下一步兑现与信用损失未定",
+      "owner": "丁掌柜",
+      "resolution": "UNRESOLVED"
+    },
+    {
+      "id": "L04",
+      "issue": "仓工旧欠已清，下一次雇工协议及工价未定",
+      "owner": "吕石头",
+      "resolution": "UNRESOLVED"
+    },
+    {
+      "id": "L05",
+      "issue": "两张单据同号四十七但日期不同；缺失经手人与祁四娘原封套见证",
+      "owner": "陆时安/沈茂生",
+      "resolution": "UNRESOLVED"
+    }
+  ],
+  "next_chapter_brief": "第5章必须改变舞台（渡口或商路），找到第一位具名经手人或实物证据，推进单据链而不强行破案；过河必须另得许可与有价船约，库存仍干14/湿6/未到12，公银3，河东已交0，17户未核。",
+  "expected_balances": {
+    "stock.dry": 14,
+    "stock.wet": 6,
+    "stock.promised_not_arrived": 12,
+    "cash.public": 3,
+    "debt.wages": 0
+  },
+  "independent_review": "NOT_RUN"
+}
