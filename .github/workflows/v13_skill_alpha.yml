@@ -1,0 +1,25 @@
+name: V13 Experimental ALPHA Skill Usability
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'skills/v13-novel-alpha/**'
+      - '.github/workflows/v13_skill_alpha.yml'
+  workflow_dispatch:
+jobs:
+  alpha:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify 12 positive and negative state and handoff tests
+        run: python3 -m unittest discover -s skills/v13-novel-alpha/tests -p 'test_*.py' -v
+      - name: Verify sample ledger executable CLI and report actual balances
+        run: python3 skills/v13-novel-alpha/scripts/validate_state.py skills/v13-novel-alpha/fixtures/chaoxun_ch03.json
+      - name: Generate portable chat resume message and check expected facts
+        run: |
+          python3 skills/v13-novel-alpha/scripts/build_handoff.py --out /tmp/V13_EXPLICIT_HANDOFF.md
+          test -s /tmp/V13_EXPLICIT_HANDOFF.md
+          grep -q 'HEARSAY' /tmp/V13_EXPLICIT_HANDOFF.md
+          grep -q '不是已获认证' /tmp/V13_EXPLICIT_HANDOFF.md
+      - name: Check Python syntax
+        run: python3 -m py_compile skills/v13-novel-alpha/scripts/*.py
