@@ -1,0 +1,213 @@
+{
+  "schema": "v13-novel-alpha-ledger-1",
+  "project": "陈启明｜1639明末穿越历史军事长篇",
+  "genre": "原创明末历史军事穿越长篇",
+  "historical_disclaimer": "真实历史时间线与虚构御前剧情分层；崇祯十二年约1639，故事中虚构人物和事件不视为真实史料。",
+  "test_classification": "USER_CREATIVE_WORK_AUTHOR_REVIEW_PENDING",
+  "initial_accounts": {
+    "stock.dry": 0,
+    "stock.wet": 0,
+    "cash.public": 0,
+    "debt.wages": 0,
+    "stock.promised_not_arrived": 0
+  },
+  "expected_balances": {
+    "stock.dry": 0,
+    "stock.wet": 0,
+    "cash.public": 0,
+    "debt.wages": 0,
+    "stock.promised_not_arrived": 0
+  },
+  "permissions": [],
+  "facts": [
+    {
+      "fact_id": "time_year_1639",
+      "value": "崇祯十二年（1639），一夜未精确确定月日",
+      "status": "CONFIRMED",
+      "source": "CHAPTER_001.md:崇祯十二年（小说中宣示年份）"
+    },
+    {
+      "fact_id": "traversal_source",
+      "value": "陈启明现代肉身直接现身御前",
+      "status": "CONFIRMED",
+      "source": "CHAPTER_001.md:第一场；用户正式Canon"
+    },
+    {
+      "fact_id": "future_1644",
+      "value": "陈启明主张崇祯十七年京师危急、李自成攻入；小说时空是否改写未定",
+      "status": "REPORTED",
+      "source": "CHAPTER_001.md:第4场陈启明声称"
+    },
+    {
+      "fact_id": "verified_provenance_to_emperor",
+      "value": "崇祯已亲见突然出现，尚未认定陈的来历、忠诚、判断可用",
+      "status": "UNKNOWN",
+      "source": null
+    },
+    {
+      "fact_id": "sun_1639_know",
+      "value": "主角单独写下孙传庭，未交出；主角不知道1639具体处境",
+      "status": "CONFIRMED",
+      "source": "CHAPTER_001.md:最后一场"
+    },
+    {
+      "fact_id": "guardian_document_status",
+      "value": "韩从礼、梁进分别记录，已封存、待复核",
+      "status": "CONFIRMED",
+      "source": "CHAPTER_001.md:分别封存"
+    },
+    {
+      "fact_id": "modern_items_custody",
+      "value": "手机、钱包、证件、钥匙、咖啡杯和薄荷糖盒被宫人收存（分别于皇帝或梁进控制），不得当作主角随意使用",
+      "status": "CONFIRMED",
+      "source": "CHAPTER_001.md:搜身和糖盒收存"
+    }
+  ],
+  "characters": [
+    {
+      "name": "陈启明",
+      "location": "京城宫中隔壁受看管的小室",
+      "knows": [
+        "自己来自现代并到达崇祯十二年",
+        "真实史线上1644北京失守、李自成进城",
+        "孙传庭是后世重要抵抗李自成人物且结局不好；其当年位置不清",
+        "被安排次日辰时御前复问",
+        "被收缴大部分现代物品，薄荷糖盒亦被夺"
+      ],
+      "heard": [
+        "当值者对入门与否分别记录",
+        "宫人宣示御前所写一字不许毁弃"
+      ],
+      "wants": "求生、减少风险、保留真实证词"
+    },
+    {
+      "name": "崇祯",
+      "location": "京城宫内书案前",
+      "knows": [
+        "亲眼见陈启明不可解释地出现",
+        "陈主动承认来自一个当时尚不存在的官府",
+        "陈声称崇祯十七年京师不守、李自成将进京",
+        "两份宫中见证及划过的废纸已封存"
+      ],
+      "heard": [
+        "陈自述浙江籍贯和后世身份"
+      ],
+      "wants": "控制御前风险，维持自身政治判断"
+    },
+    {
+      "name": "梁进",
+      "location": "宫中值房",
+      "knows": [
+        "陈的现代物品形态异常",
+        "陈主动阻止记做闯入",
+        "自己原拟闯入，皇帝命改记亲见",
+        "废纸上的崇祯十七年字迹和薄荷糖盒已收缴"
+      ],
+      "heard": [
+        "陈说来自后世、北京五年后危险"
+      ],
+      "wants": "对皇帝交代、避免失实责任"
+    },
+    {
+      "name": "韩从礼",
+      "location": "御前守值",
+      "knows": [
+        "眼见陈忽然出现且没见经过门窗",
+        "皇帝命本人另写见证且不许离宫"
+      ],
+      "heard": [
+        "陈声称来自后世及五年后京城危险"
+      ],
+      "wants": "守卫职责真实记录，避免虚假失职"
+    },
+    {
+      "name": "无名小内侍",
+      "location": "隔壁小室外",
+      "knows": [
+        "陈的薄荷糖盒漏检",
+        "收过废纸、奉命送粥",
+        "陈要求见皇帝前洗脸"
+      ],
+      "heard": [
+        "陈谈崇祯十七年、自己记不准"
+      ],
+      "wants": "保住差事和信息安全"
+    }
+  ],
+  "events": [
+    {
+      "id": "CQ001-E01",
+      "chapter": 1,
+      "kind": "OBSERVED",
+      "evidence_ref": "CHAPTER_001.md:开头御前突现、咖啡与纸张",
+      "changes": [],
+      "facts_updates": []
+    },
+    {
+      "id": "CQ001-E02",
+      "chapter": 1,
+      "kind": "OBSERVED",
+      "evidence_ref": "CHAPTER_001.md:关门、核守卫位置",
+      "changes": [],
+      "facts_updates": []
+    },
+    {
+      "id": "CQ001-E03",
+      "chapter": 1,
+      "kind": "OBSERVED",
+      "evidence_ref": "CHAPTER_001.md:梁进欲记闯入、陈阻止、皇帝命分别实录",
+      "changes": [],
+      "facts_updates": []
+    },
+    {
+      "id": "CQ001-E04",
+      "chapter": 1,
+      "kind": "OBSERVED",
+      "evidence_ref": "CHAPTER_001.md:搜身和身份证、皇帝确认崇祯十二年",
+      "changes": [],
+      "facts_updates": []
+    },
+    {
+      "id": "CQ001-E05",
+      "chapter": 1,
+      "kind": "OBSERVED",
+      "evidence_ref": "CHAPTER_001.md:陈声称崇祯十七年京师危难及李自成",
+      "changes": [],
+      "facts_updates": []
+    },
+    {
+      "id": "CQ001-E06",
+      "chapter": 1,
+      "kind": "OBSERVED",
+      "evidence_ref": "CHAPTER_001.md:两份见证封存、辰时核验命令",
+      "changes": [],
+      "facts_updates": []
+    },
+    {
+      "id": "CQ001-E07",
+      "chapter": 1,
+      "kind": "OBSERVED",
+      "evidence_ref": "CHAPTER_001.md:梁进收走刮过的废纸和糖盒，皇帝见废纸",
+      "changes": [],
+      "facts_updates": []
+    },
+    {
+      "id": "CQ001-E08",
+      "chapter": 1,
+      "kind": "OBSERVED",
+      "evidence_ref": "CHAPTER_001.md:陈在另一张纸上独自写孙传庭名字尚未交出",
+      "changes": [],
+      "facts_updates": []
+    }
+  ],
+  "open_loops": [
+    "次日辰时御前复问；有两份分别封存的目击记录与划掉的预测草纸待确认",
+    "崇祯看见奇物与人直接出现，但未认可忠诚、政治预言与可实际支配权限",
+    "韩从礼与梁进各自存在御前失察/记档责任；不得被一次陈启明开脱自动清零",
+    "现代物品已由宫人收存，手机无网络；若涉及电量须遵守电源耗尽状态",
+    "孙传庭三个字目前在未交出的纸上，只有陈启明知道；他未确定此时孙的身在何处",
+    "南阳低公开身份与秘密关系未建立，更无官职、现银、军队与商业收入"
+  ],
+  "next_chapter_brief": "第二章辰时复问：从书面见证矛盾和可核的真实细节入手，而非把来自后世当成已经被信任；陈要在有限历史记忆下避免许下无法兑现的预言，孙传庭知晓范围不得穿帮。",
+  "independent_review": "NOT_RUN"
+}
