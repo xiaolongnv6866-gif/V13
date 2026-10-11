@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+"""A handoff must carry a lossless event ledger; display balances alone are insufficient."""
+import json
+import subprocess
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parent.parent
+sys.path.insert(0,str(ROOT/"scripts"))
+from build_handoff import render
+from validate_state import validate
+
+STATE=json.loads((ROOT/"fixtures/chaoxun_ch05.json").read_text(encoding="utf-8"))
+
+class HandoffRoundtrip(unittest.TestCase):
+    def test_lossless_latest_ledger_survives_handoff(self):
+        skill=(ROOT/"SKILL.md").read_text(encoding="utf-8")
+        last=(ROOT/"examples"/"chaoxun"/"CH05.md").read_text(encoding="utf-8")
+        output=render(STATE,skill,last)
+        raw=output.split("```json",1)[1].split("```",1)[0].strip()
+        reconstructed=json.loads(raw)
+        self.assertEqual(reconstructed,STATE)
+        self.assertEqual(validate(reconstructed),validate(STATE))
+        self.assertIn("第五章　渡口的四十七号",output)
+        self.assertIn("独立",output)
+        self.assertEqual(reconstructed["independent_review"],"NOT_RUN")
+
+    def test_cli_defaults_to_newest_written_chapter(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path=Path(tmp)/"handoff.md"
+            subprocess.run([sys.executable,str(ROOT/"scripts"/"build_handoff.py"),
+                            "--out",str(path)],check=True,capture_output=True,text=True)
+            output=path.read_text(encoding="utf-8")
+            self.assertIn("第五章　渡口的四十七号",output)
+            self.assertIn('"id": "E09"',output)
+            self.assertIn("## B2. 完整事件账",output)
+
+if __name__=="__main__":
+    unittest.main()
