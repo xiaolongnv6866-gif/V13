@@ -8,7 +8,7 @@
   "ledger": "V13_W_LEDGER_V5.tsv",
   "mapping": "V13_W_MIGRATION_MAP_V5.tsv",
   "current_package": "W01",
-  "current_package_status": "NOT_STARTED",
+  "current_package_status": "IN_PROGRESS",
   "completed_packages": 0,
   "total_packages": 11,
   "legacy_v4_read_only": true,
@@ -35,5 +35,8 @@
     "W10 distinct A/B agents not confirmed",
     "W11 four-arm independent evaluation not confirmed",
     "W11 clean normal chat actual skill load not yet validated"
-  ]
+  ],
+  "w01_evidence": "v13_w/w01/W01_EARLY_PREFLIGHT.md",
+  "w01_independent_review": "NOT_RUN_UNASSIGNED",
+  "w01_next_gate": "true isolated creator and two independent blind judges require evidence before method V3"
 }

@@ -2,7 +2,7 @@
 
 正式游标：`V13_W_CURRENT_V5.json`，台账：`V13_W_LEDGER_V5.tsv`。
 
-**V5 W01 NOT_STARTED（0/11）。历史N20 PASSED、N21 NOT_STARTED（20/48）不再当游标。** 用户已批准11包正式执行。
+**V5 W01 IN_PROGRESS（0/11）。历史N20 PASSED、N21 NOT_STARTED（20/48）不再当游标。** 用户已批准11包正式执行。
 
 W01负责原N21—N25：真实独立V3资源和69项逐ID上游资格、双臂先冻结后作答、原始场景与评价、错误和失败。已有[69项资格初审](v13_w/w01/V3_69_ELIGIBILITY_PREFLIGHT.tsv)：56 READY / 5 PARTIAL / 8 INELIGIBLE，未产生独立V3。两部私有EPUB当次SHA/容器核对成功；[前置来源/资源清查](v13_w/w01/W01_EARLY_PREFLIGHT.md)。
 

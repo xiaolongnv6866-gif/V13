@@ -1,6 +1,6 @@
 # V13｜正式恢复入口：批准11工作包
 
-**现行V5：W01 NOT_STARTED，0/11。旧V4历史：N20 PASSED、N21 NOT_STARTED，20/48。** 旧N轮不再推进或作为游标；原N01—N20全部收据保持只读。
+**现行V5：W01 IN_PROGRESS，0/11。旧V4历史：N20 PASSED、N21 NOT_STARTED，20/48。** 旧N轮不再推进或作为游标；原N01—N20全部收据保持只读。
 用户2026-10-12明确批准28个未开始N轮合并为11工作包。完整责任保留，详情见`V13_W_MIGRATION_APPROVAL_20261012.md`。
 
 ## 同一main HEAD最小零信任恢复
