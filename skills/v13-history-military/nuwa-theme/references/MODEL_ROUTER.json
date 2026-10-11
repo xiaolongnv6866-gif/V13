@@ -1,0 +1,227 @@
+{
+  "schema": "V13-NUWA-E07-THEME-MODELS-v1",
+  "source_report": "nuwa-theme/references/research/09-E07_MODELS_TRIPLE_GATE_AND_HEURISTICS.md",
+  "type": "neutral_original_literary_theme",
+  "models": [
+    {
+      "id": "M1",
+      "name": "资格五态与实际权力的转移阈值",
+      "triggers": [
+        "入籍",
+        "合法身份",
+        "授权",
+        "名分",
+        "权限",
+        "任命",
+        "认同",
+        "保结"
+      ],
+      "inputs": [
+        "角色能力证据",
+        "五态当前状态",
+        "签认人",
+        "撤销条件"
+      ],
+      "outputs": [
+        "transition_table",
+        "two_original_scenes",
+        "after_state",
+        "outstanding_duty"
+      ],
+      "sources": [
+        "WM-f01",
+        "WM-f03",
+        "TX-f01",
+        "TX-f02"
+      ],
+      "triad": {
+        "cross_domain": "THEMATIC_SUPPORT_PERSONAL_AND_INSTITUTIONAL",
+        "generativity": "NEW_SCENE_PLAN_WM-T01",
+        "distinctiveness": "FIVE_STATE_GATE_WITH_WHO_CAN_REVOKE"
+      },
+      "conflicts": [
+        "M2"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "双结果、关系债和人物不可代签",
+      "triggers": [
+        "群像",
+        "亲情",
+        "合作",
+        "战后",
+        "胜利",
+        "分配",
+        "牺牲",
+        "关系债"
+      ],
+      "inputs": [
+        "公共可核成果",
+        "个人诉求与拒绝条件",
+        "前后关系状态"
+      ],
+      "outputs": [
+        "public_outcome",
+        "private_outcomes",
+        "obligation_ledger",
+        "independent_pov_scenes"
+      ],
+      "sources": [
+        "WM-f02",
+        "WM-f10",
+        "WM-p14",
+        "TX-f10",
+        "TX-p14"
+      ],
+      "triad": {
+        "cross_domain": "THEMATIC_SUPPORT_FAMILY_AND_PUBLIC_OUTCOMES",
+        "generativity": "NEW_SCENE_PLAN_WM-T07",
+        "distinctiveness": "PARALLEL_PUBLIC_PRIVATE_UNSETTLED_COSTS"
+      },
+      "conflicts": [
+        "M1",
+        "M3"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "纸实时滞与组织摩擦状态机",
+      "triggers": [
+        "财政",
+        "履约",
+        "账期",
+        "后勤",
+        "调令",
+        "粮食",
+        "工钱",
+        "船",
+        "运输"
+      ],
+      "inputs": [
+        "原始库存和单位",
+        "实际签认权限",
+        "到货/付款/知情时间",
+        "执行人"
+      ],
+      "outputs": [
+        "timestamped_status_flow",
+        "conservation_ledger",
+        "two_scenes",
+        "unpaid_commitments"
+      ],
+      "sources": [
+        "WM-f04",
+        "WM-p05",
+        "WM-p12",
+        "TX-f16",
+        "TX-p05"
+      ],
+      "triad": {
+        "cross_domain": "THEMATIC_SUPPORT_MONEY_AND_MATERIAL_LOGISTICS",
+        "generativity": "NEW_SCENE_PLAN_TX-T04",
+        "distinctiveness": "SEVEN_STATE_WITH_CONSERVATION_AND_REVOCATION"
+      },
+      "conflicts": [
+        "M2"
+      ]
+    },
+    {
+      "id": "M4",
+      "name": "知识版本差与可逆可信度链",
+      "triggers": [
+        "情报",
+        "传闻",
+        "有限视角",
+        "信息差",
+        "公告",
+        "口供",
+        "失踪",
+        "不可靠叙述"
+      ],
+      "inputs": [
+        "事实基线",
+        "多个版本",
+        "接收者与时间",
+        "客观物证"
+      ],
+      "outputs": [
+        "version_tree",
+        "four_level_knowledge_state",
+        "scene_of_action_due_to_error",
+        "correction_ledger"
+      ],
+      "sources": [
+        "WM-f13",
+        "WM-p19",
+        "TX-f12",
+        "TX-f13",
+        "TX-p17"
+      ],
+      "triad": {
+        "cross_domain": "THEMATIC_SUPPORT_PERSONAL_RUMOUR_AND_OFFICIAL_REPORTS",
+        "generativity": "NEW_SCENE_PLAN_TX-T09",
+        "distinctiveness": "VERSION_LINEAGE_CAUSES_ACTION_WITH_CORRECTION"
+      },
+      "conflicts": [
+        "M1"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "id": "H01",
+      "trigger": "FIRST_RECOGNITION",
+      "synthetic_task": "WM-T01",
+      "status": "BUILD_ONLY_NOT_V3"
+    },
+    {
+      "id": "H02",
+      "trigger": "INDEPENDENT_REFUSAL",
+      "synthetic_task": "WM-T02",
+      "status": "BUILD_ONLY_NOT_V3"
+    },
+    {
+      "id": "H03",
+      "trigger": "PROMISE_VERSUS_CASH",
+      "synthetic_task": "TX-T04",
+      "status": "BUILD_ONLY_NOT_V3"
+    },
+    {
+      "id": "H04",
+      "trigger": "REVERSAL_REQUIRES_CAUSE",
+      "synthetic_task": "WM-T06",
+      "status": "BUILD_ONLY_NOT_V3"
+    },
+    {
+      "id": "H05",
+      "trigger": "POV_VERSION_TIMESTAMP",
+      "synthetic_task": "TX-T09",
+      "status": "BUILD_ONLY_NOT_V3"
+    },
+    {
+      "id": "H06",
+      "trigger": "PUBLIC_VICTORY_PRIVATE_COST",
+      "synthetic_task": "TX-T07",
+      "status": "BUILD_ONLY_NOT_V3"
+    },
+    {
+      "id": "H07",
+      "trigger": "REPEAT_ONLY_DIFFERENCE",
+      "synthetic_task": "TX-T05",
+      "status": "BUILD_ONLY_NOT_V3"
+    },
+    {
+      "id": "H08",
+      "trigger": "HISTORY_FACT_VERSUS_FICTION",
+      "synthetic_task": "TX-T02",
+      "status": "BUILD_ONLY_NOT_V3"
+    }
+  ],
+  "models_count": 4,
+  "heuristic_count": 8,
+  "nuwa_triple_reasoning": "ANALYTICAL_PASSED_WITH_BOUNDED_DISTINCTIVENESS",
+  "independent_phase4": "NOT_RUN_USER_WAIVED",
+  "distinct_agents_phase5": "NOT_RUN_USER_WAIVED",
+  "copyright": "NO_ORIGINAL_NOVEL_TEXT"
+}
