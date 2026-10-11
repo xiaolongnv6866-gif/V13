@@ -1,0 +1,131 @@
+{
+  "schema": "V13-E04-STAGE3-SEMANTIC-LINKS-v1",
+  "relationship_types": [
+    "depends-on",
+    "contrasts-with",
+    "composes-with"
+  ],
+  "edges": [
+    {
+      "from": "WM-f01",
+      "to": "TX-f01",
+      "type": "contrasts-with",
+      "rationale": "社会入口新建资格与旧名声修复的边界不同"
+    },
+    {
+      "from": "WM-f01",
+      "to": "TX-f04",
+      "type": "composes-with",
+      "rationale": "社会承认不自动赋予跨部门权限"
+    },
+    {
+      "from": "WM-f03",
+      "to": "TX-f02",
+      "type": "composes-with",
+      "rationale": "职位称号须经过第三方实际履职验证"
+    },
+    {
+      "from": "WM-f04",
+      "to": "WM-p05",
+      "type": "depends-on",
+      "rationale": "资金兑现分析以现款与预计收入分账为前置"
+    },
+    {
+      "from": "WM-f17",
+      "to": "TX-f16",
+      "type": "composes-with",
+      "rationale": "跨章新债与未兑信用承诺共用时间状态"
+    },
+    {
+      "from": "WM-f08",
+      "to": "TX-f09",
+      "type": "composes-with",
+      "rationale": "对立人物须保持独立利益及所知边界"
+    },
+    {
+      "from": "WM-f10",
+      "to": "TX-f10",
+      "type": "composes-with",
+      "rationale": "公共成果与私人生活损失均保留"
+    },
+    {
+      "from": "WM-f11",
+      "to": "WM-p16",
+      "type": "composes-with",
+      "rationale": "纸面公共权力须接受基层当事人真实质疑"
+    },
+    {
+      "from": "WM-f12",
+      "to": "WM-p21",
+      "type": "depends-on",
+      "rationale": "制度试点以许可边界限定执行范围"
+    },
+    {
+      "from": "WM-f13",
+      "to": "TX-f13",
+      "type": "composes-with",
+      "rationale": "现场与后续传播记忆分层"
+    },
+    {
+      "from": "WM-f14",
+      "to": "WM-p14",
+      "type": "depends-on",
+      "rationale": "家庭线必须保留本人意愿而非亲属代签"
+    },
+    {
+      "from": "WM-f15",
+      "to": "TX-p19",
+      "type": "contrasts-with",
+      "rationale": "外部观感不能代替核验实际实绩"
+    },
+    {
+      "from": "WM-f16",
+      "to": "WM-p18",
+      "type": "depends-on",
+      "rationale": "创新问题允许评估后否决，不能默认奏效"
+    },
+    {
+      "from": "WM-f02",
+      "to": "WM-p01",
+      "type": "composes-with",
+      "rationale": "关系合作不消除独立拒绝收益的选择"
+    },
+    {
+      "from": "TX-f05",
+      "to": "TX-p09",
+      "type": "composes-with",
+      "rationale": "知识缺口由能自主提出反方案的属员回应"
+    },
+    {
+      "from": "TX-f08",
+      "to": "TX-p02",
+      "type": "composes-with",
+      "rationale": "待遇与权限要通过现实办事检验"
+    },
+    {
+      "from": "TX-f11",
+      "to": "TX-p07",
+      "type": "depends-on",
+      "rationale": "同意必须区分压力下服从与自由认可"
+    },
+    {
+      "from": "TX-f12",
+      "to": "TX-p17",
+      "type": "contrasts-with",
+      "rationale": "传闻身份不是当事人已经核实的身份"
+    },
+    {
+      "from": "TX-f17",
+      "to": "TX-p08",
+      "type": "depends-on",
+      "rationale": "会商必须容许专业下属独立质疑"
+    },
+    {
+      "from": "TX-p05",
+      "to": "WM-p12",
+      "type": "composes-with",
+      "rationale": "仓储实物账与多部门预算不得重复分配"
+    }
+  ],
+  "notes": "Explicit meaning-based sparse links only; no invented cross-book independent verification."
+}
