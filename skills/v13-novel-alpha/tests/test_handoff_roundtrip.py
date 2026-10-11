@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """A handoff must carry a lossless event ledger; display balances alone are insufficient."""
 import json
-import re
 import subprocess
 import sys
 import tempfile
@@ -20,9 +19,8 @@ class HandoffRoundtrip(unittest.TestCase):
         skill=(ROOT/"SKILL.md").read_text(encoding="utf-8")
         last=(ROOT.parent.parent/"experiments/novel_field_test_20261012/CH04.md").read_text(encoding="utf-8")
         output=render(STATE,skill,last)
-        raw=re.search(r"## B2\\. 完整事件账[^\\n]*\\n\\n```json\\n(.*?)\\n```",output,re.S)
-        self.assertIsNotNone(raw,"event-sourced ledger missing from handoff")
-        reconstructed=json.loads(raw.group(1))
+        raw=output.split("```json\\n",1)[1].split("\\n```",1)[0]
+        reconstructed=json.loads(raw)
         self.assertEqual(reconstructed,STATE)
         self.assertEqual(validate(reconstructed),validate(STATE))
         self.assertIn("第四章　两张纸的主人",output)
