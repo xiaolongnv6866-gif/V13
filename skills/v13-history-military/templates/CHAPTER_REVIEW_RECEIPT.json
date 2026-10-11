@@ -1,0 +1,76 @@
+{
+  "schema": "v13-chapter-review-receipt-1",
+  "chapter": 1,
+  "status": "DRAFT_NOT_REVIEWED",
+  "opening_goal": "",
+  "exit_change": "",
+  "unpaid_obligation": "",
+  "independent_characters": [
+    {
+      "name": "",
+      "wants": "",
+      "can_refuse": "",
+      "choice": "",
+      "consequence": ""
+    },
+    {
+      "name": "",
+      "wants": "",
+      "can_refuse": "",
+      "choice": "",
+      "consequence": ""
+    }
+  ],
+  "scenes": [
+    {
+      "entry": "",
+      "conflict": "",
+      "choice": "",
+      "visible_delta": "",
+      "cost": ""
+    },
+    {
+      "entry": "",
+      "conflict": "",
+      "choice": "",
+      "visible_delta": "",
+      "cost": ""
+    }
+  ],
+  "applied_cards": [
+    {
+      "id": "",
+      "why": "",
+      "how": "",
+      "boundary": ""
+    }
+  ],
+  "nuwa_models": [
+    {
+      "id": "",
+      "why": "",
+      "observed_effect": ""
+    }
+  ],
+  "history_boundaries": [
+    {
+      "claim": "",
+      "classification": "IN_WORLD_FICTION",
+      "evidence_or_assumption": ""
+    }
+  ],
+  "adversarial_fixes": [
+    {
+      "draft_excerpt": "",
+      "fault": "",
+      "final_excerpt": "",
+      "state_delta": ""
+    },
+    {
+      "draft_excerpt": "",
+      "fault": "",
+      "final_excerpt": "",
+      "state_delta": ""
+    }
+  ]
+}
