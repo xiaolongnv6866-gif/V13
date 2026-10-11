@@ -64,7 +64,7 @@ for item in decisions:
     if d=="V1_SOURCE_SUPPORTED_SCOPED_V2_PENDING":
         assert name in ("frameworks","principles") and item["next_gate"]=="N19_V2_ACTUAL_NEW_INPUT",cid
     elif d=="V1_NEEDS_REVIEW_NO_V2":
-        assert name in ("frameworks","principles") and item["next_gate"]=="N17_V1_SOURCE_OR_METHOD_REBUILD_REQUIRED",cid
+        assert name in ("frameworks","principles") and item["next_gate"]=="N28_NEEDS_REVIEW_NONACTIVE_UNTIL_REBUILT",cid
     else:
         assert item["next_gate"]=="N28_REFERENCE_MAPPING_KEEP_SOURCE",cid
 assert {x["candidate_id"] for x in decisions if x["V1_source_decision"]=="V1_NEEDS_REVIEW_NO_V2"}=={"f07","f09","p02","p06","p09","p10"}
