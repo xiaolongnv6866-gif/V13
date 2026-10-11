@@ -1,4 +1,7 @@
 # V13.3｜唯一轻量恢复入口
+
+**全历史强制恢复先决：** [1058项跨版本追溯](V13_GLOBAL_TRACEABILITY_1058.tsv) + [全项目剩余工作设计（待批准）](V13_GLOBAL_REMAINING_WORK_V1.md)。原89轮同R编号与新110轮有不同任务，不允许只根据现行游标反推出全部项目已完成事项。
+
 **全项目审计：** [全部R/B/N历史、来源与能力缺口及清理结果](PROJECT_MASTER_AUDIT_20261012.md)；[清理前全部1101个文件逐路径留存/退役登记](PROJECT_FILE_REGISTER_1101.tsv)。历史完整备份分支：`archive/full-project-pre-consolidation-20261012`。旧控制器/CI不得作当前进度依据。
 
 
