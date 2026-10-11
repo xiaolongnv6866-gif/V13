@@ -1,0 +1,19 @@
+name: V13.3 N19 Wanming 32 Pre-registered V2 Real Walkthrough Integrity
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v13_3/n19/**'
+      - 'scripts/validate_v13_n19.py'
+      - 'V13_CURRENT_V4.json'
+      - 'V13_LEDGER_V4.tsv'
+      - 'runs/N19_V4.md'
+      - '.github/workflows/v13_3_n19.yml'
+  workflow_dispatch:
+jobs:
+  n19-v2-walkthrough-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Confirm 32 frozen tasks precede real creative outputs, negative branches and honest limited decisions
+        run: python3 scripts/validate_v13_n19.py
