@@ -5,8 +5,8 @@
 ## 现在交付了什么
 - 1个可供支持Markdown Skill目录的宿主读取的主入口（明确任务触发、12步执行、正文与审稿要求）；9份深入参考，含原创世界/财政/军政/人物/叙事/历史边界。
 - 2书187项V1记录逐ID四分流与可追溯来源；64张RIA++结构能力卡（61有限纸面V2支持+3只有V1），附2个Bundle JSON/YAML、Glossary与Digest；没有被证实为V3独立增益的卡。
-- 1套Nuwa主题子SKILL：3个基于一手公开文献的独立理论模型、8个有失效条件的启发式、6维研究以及冲突/边界档。
-- 5章已有全新原创《潮汛账》连续正文、卷纲、状态账和编辑记录（**是小说创作样本，不是原著转载**）。
+- Nuwa主题操作作为主SKILL的**内置从属模块**，并非第二个可发现Skill：4个综合判断模型、8条启发式；六维一手研究、每模型三重分析、张力和反例保存在nuwa-theme/TOPIC_OPERATIONS.md。
+- 20项Stage0任务均已生成原创多场景正文与状态记录，路径examples/stage0/WM-T01..10、TX-T01..10；另有五章《潮汛账》连续写作样本、卷纲、状态账和编辑记录。**均非原著复制。**
 - 完整事件源状态模板、实际可运行的Python校验、负例回归与跨聊天无损交接生成器；打包脚本可生成ZIP。
 
 ## 如何直接使用
@@ -27,7 +27,11 @@ python3 scripts/build_handoff.py --out V13_HANDOFF.md
 python3 scripts/build_release.py --out V13_HISTORY_MILITARY_SKILL.zip
 ```
 
-`build_release.py`生成包含全包的确定性ZIP和逐文件SHA，不宣称Cangjie原版compile脚本已运行。任意独立测试未做的事实可在BUILD_MANIFEST.json查看。
+`build_release.py`生成包含全包的确定性ZIP和逐文件SHA；已通过GitHub Actions执行固定版Cangjie原版 `cangjie.py compile --output single` 作为独立的编译结构核查。该原版编译产物**不是**最终融合主SKILL，且编译器所需 `verified.yaml` **不代表通过V3**。Nuwa模型、场景正文及全部源参考均随融合SKILL安装包分发。状态见BUILD_MANIFEST.json。
 
 ## 不包括
 原著EPUB、作者独特语言模板、实际作战危险流程、未经验证史实保证、第三方文学评分、普通新聊天原生安装证明。原工程历史失败和检查点仍保留在根仓库供追溯，不妨碍用户直接创作。
+
+## 唯一入口与验证证据
+
+正式安装时必须**只使用这一目录**；`nuwa-theme/TOPIC_OPERATIONS.md`为主题参考，不单独安装，不得与原版Cangjie编译结果并列触发。GitHub Actions构建`v13-writing-skill-build.yml`提供完整ZIP及仓颉原版编译日志，日志中可区分编译成功与文学验证未执行。见仓库`v13_e/` 的E01—E08逐轮证明和`BUILD_MANIFEST.json`的明确豁免项。
