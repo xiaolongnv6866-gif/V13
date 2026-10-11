@@ -101,7 +101,7 @@ class AlphaLedgerTests(unittest.TestCase):
 
     def test_handoff_is_useful_without_original_books(self):
         skill=(HERE/"SKILL.md").read_text(encoding="utf-8")
-        chapter=(HERE.parent.parent/"experiments/novel_field_test_20261012/CH03.md").read_text(encoding="utf-8")
+        chapter=(HERE/"examples"/"chaoxun"/"CH03.md").read_text(encoding="utf-8")
         output=render(DATA,skill,chapter)
         for item in ("## B. 已核账的续写状态", "## C. 事实可靠等级",
                      "## D. 人物各自所知与目标","## E. 待偿的真实因果",
