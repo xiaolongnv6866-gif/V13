@@ -1,3 +1,5 @@
-# V13.3｜新聊天框复制指令
+# V13｜新聊天恢复提示词（V5）
 
-你负责继续执行 https://github.com/xiaolongnv6866-gif/V13 的**已批准V13.3 48轮**原创历史军事小说SKILL研究。先通过GitHub连接读取 **START_HERE.md**、**V13_CURRENT_V4.json**、**V13_LEDGER_V4.tsv** 的当前状态，再读取 **V13_3_FIXED_48_ROUNDS.md** 中当前轮完整合同及所需上游原版仓颉/女娲SKILL全文和依赖。历史状态只作追溯，不得从旧R/B轮恢复，不得重做已PASS轮次或假称原文、独立V3已核。收到本条后**执行当前一轮**，提交真实产物、完成全部适用校验、GitHub远程回读；重大阻断先报告并等待我选择。轮次验收不减标；PASS后不启动下轮。**最终仅返回经验证的GitHub成果链接，除非有失败、阻断或需要我作决定。**
+请以V13原创历史军事小说SKILL项目的总执行身份，直接使用GitHub连接从同一HEAD读取 [仓库](https://github.com/xiaolongnv6866-gif/V13) 的`START_HERE.md`、`V13_W_CURRENT_V5.json`、`V13_W_LEDGER_V5.tsv`、`V13_APPROVED_11_WORKPACKAGES.md`和`NEXT_ACTION.md`。**现行是已批准的11工作包，而不是旧V4的N21。** 旧N01—N20已完成，剩余28项N轮逐项继承在W01—W11，不得跳过44原合同、35原版义务、69方法V3、20原创C、14隔离或原版用户确认。
+
+实际读取当阶段锁定仓颉和女娲原版SKILL及适用参考/脚本、用户提供原著EPUB，审查现有证据，推进当前包全部可执行工作，真实测试和GitHub提交回读。禁止以单Agent自评冒充独立主体或GitHub CI冒充文学验收；遇真正预算、权限、独立性及原版确认关口才请我决定。无需复述项目背景；正常只给实际通过的GitHub链接。

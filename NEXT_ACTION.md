@@ -1,11 +1,9 @@
-# V13.3｜唯一下一轮 N21（本次尚未执行）
-最新正式进度：**N01—N20 PASSED，20/48；N21 NOT_STARTED**。必须仍从远程V13_CURRENT_V4.json与V13_LEDGER_V4.tsv确认实时状态。
+# V13｜当前唯一下一步：W01
 
-## N21：真正独立V3资源准入门，不可由N20自评冒充
-- 从冻结的历史69个V3候选，按原版Cangjie Stage1.5实际核定上游V1/V2合格与否、双臂测试和负诱饵条件；N19 WM32=28局部V2通过+4部分，N20 TX32=29局部通过+3部分。两书局部V2并非69原始V3的资格同义词，必须原ID映射逐项核实。
-- **先查资源**：是否能取得真实隔离创作者与至少两位彼此独立的盲审评委，以及是否产生新付费/权限。资源不可用→本轮BLOCKED并让用户选择；严禁同一Agent自创匿名评委或冒称独立V3。
-- 若资源具备，先冻结独立创造者/匿名评审/基线、保留题和评分规则，并在提交后再实施试验；不提前动封存题。
-- N21只做原48轮合同范围，不偷跑N22、N26、Stage4或女娲独立测试，也不更改原有187四类分流/14条R042隔离。
-- 本轮成果入口：[N20正式收据](runs/N20_V4.md)、[32项结果](v13_3/n20/N20_TX_V2_RESULTS_32.tsv)、[审查和质量欠账](v13_3/n20/N20_V2_SOURCE_AND_QUALITY_AUDIT.md)。
+**V5 W01 NOT_STARTED（0/11）。历史N20 PASSED、N21 NOT_STARTED（20/48）不再当游标。** 用户已批准11包正式执行。
 
-读取锁定仓颉原版SKILL.md及methodology/03-stage1.5-triple-verify.md；用户新命令才允许执行N21。
+W01负责原N21—N25：真实独立V3资源和69项逐ID上游资格、双臂先冻结后作答、原始场景与评价、错误和失败。已有[69项资格初审](v13_w/w01/V3_69_ELIGIBILITY_PREFLIGHT.tsv)：56 READY / 5 PARTIAL / 8 INELIGIBLE，未产生独立V3。两部私有EPUB当次SHA/容器核对成功；[前置来源/资源清查](v13_w/w01/W01_EARLY_PREFLIGHT.md)。
+
+**资源缺口**：尚无可证独立创作者及两位盲审；现有69行仍UNASSIGNED/NOT_RUN；不得冒称GitHub CI是盲审或增加付费。先推进不依赖独立评委的合同审计与原创新任务准备；需要真实人员/模型时如实阻断对应关口。
+
+依据：[正式工作包计划](V13_APPROVED_11_WORKPACKAGES.md)、[原版SKILL索引](SKILL_SOURCES.md)、[原44合同](V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv)。所有原确认门和14隔离保持不变。

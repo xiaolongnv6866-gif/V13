@@ -1,0 +1,41 @@
+{
+  "schema": "V13_APPROVED_W_V5_LOCK",
+  "user_approval": "2026-10-12 explicit 批准 for replacing 28 pending N rounds by 11 packages only",
+  "new_authority": [
+    "V13_APPROVED_11_WORKPACKAGES.md",
+    "V13_W_LEDGER_V5.tsv",
+    "V13_W_CURRENT_V5.json"
+  ],
+  "new_plan_blob_sha": "b6d29f5ae3213852c84cbc36c75229f9f26955d6",
+  "legacy_plan_blob_sha": "c697cf30aa19c2912b331e93093406e3937d71dc",
+  "original_skill_pins": {
+    "cangjie": "kangarooking/cangjie-skill@a28de55ba881b9928956a55048f743f7a9e3b23e",
+    "nuwa": "alchaincyf/nuwa-skill@fe0374687037c4cc51a65c1e0c145afe2981dc69"
+  },
+  "original_epub_sha256": {
+    "wanming": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+    "tiexuecanming": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf"
+  },
+  "counts": {
+    "rounds": 48,
+    "original_contracts": 44,
+    "original_issues": 426,
+    "literary_B": 296,
+    "R042_quarantined": 14,
+    "method_candidates": 187,
+    "original_V3_candidates": 69,
+    "original_stage0_tasks": 20,
+    "topic_mappings": 19
+  },
+  "original_user_gates": {
+    "W02": "N28 Stage1.5",
+    "W06": "N37 Stage5",
+    "W07": "N41 Phase1.5",
+    "W08": "N42 Phase2.5",
+    "W09": "N44 Phase4",
+    "W10": "N45 Phase5",
+    "W11": "N48 Final"
+  },
+  "independent_review_must_be_real": true,
+  "no_extra_paid_permission": true
+}

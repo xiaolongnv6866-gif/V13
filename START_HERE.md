@@ -1,31 +1,15 @@
-# V13.3｜唯一轻量恢复入口
+# V13｜正式恢复入口：批准11工作包
 
-**全历史强制恢复先决：** [1058项跨版本追溯](V13_GLOBAL_TRACEABILITY_1058.tsv) + [全项目剩余工作设计（待批准）](V13_GLOBAL_REMAINING_WORK_V1.md)。原89轮同R编号与新110轮有不同任务，不允许只根据现行游标反推出全部项目已完成事项。
+**现行V5：W01 NOT_STARTED，0/11。旧V4历史：N20 PASSED、N21 NOT_STARTED，20/48。** 旧N轮不再推进或作为游标；原N01—N20全部收据保持只读。
+用户2026-10-12明确批准28个未开始N轮合并为11工作包。完整责任保留，详情见`V13_W_MIGRATION_APPROVAL_20261012.md`。
 
-**全项目审计：** [全部R/B/N历史、来源与能力缺口及清理结果](PROJECT_MASTER_AUDIT_20261012.md)；[清理前全部1101个文件逐路径留存/退役登记](PROJECT_FILE_REGISTER_1101.tsv)。历史完整备份分支：`archive/full-project-pre-consolidation-20261012`。旧控制器/CI不得作当前进度依据。
+## 同一main HEAD最小零信任恢复
+1. 读`V13_W_CURRENT_V5.json`、`V13_W_LEDGER_V5.tsv`、`V13_APPROVED_11_WORKPACKAGES.md`、`V13_W_GOVERNANCE_LOCK.json`和`NEXT_ACTION.md`；比对当前包及状态。
+2. 对应`V13_W_MIGRATION_MAP_V5.tsv`定位原N21—N48合同，在`V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv`定位原R067—R110必做项；参见全历史`V13_GLOBAL_TRACEABILITY_1058.tsv`及`PROJECT_MASTER_AUDIT_20261012.md`。
+3. 根据正在执行的阶段实际读取钉住的Cangjie/Nuwa`SKILL.md`和全部适用methodology、templates、extractors、scripts；`SKILL_SOURCES.md`只是索引，不可代替原版。
+4. 执行`python3 scripts/v13_resume.py --check`；检查来源/文学/真正独立评测等级、保留题、失败及原版用户确认。提交并远程回读后才能将包标PASSED。用户继续即推进当前许可的工作，而不是重复讲计划。
+5. 禁止自动后台工作或未经批准花费；独立主体确实不可用应停相关关口并展示选择；未阻断的工作继续。
 
+**历史治理说明**：`V13_3_RECOVERY_GUARD.md`与`V13_3_GOVERNANCE_LOCK.json`为老V4冻结证据，不再是唯一执行权威。旧`V13_CURRENT_V4.json`、`V13_LEDGER_V4.tsv`、`V13_3_FIXED_48_ROUNDS.md`不修改。
 
-状态快照（2026-10-12）：**N01—N20 PASSED；N21 NOT_STARTED（20/48）**。此行供人核对；每次执行必须先从远程 **V13_CURRENT_V4.json** 与 **V13_LEDGER_V4.tsv** 实时确认，不允许以静态快照覆盖。
-
-## 每次最小读取集合
-1. **V13_CURRENT_V4.json**：唯一当前轮与完成数量；**V13_LEDGER_V4.tsv**：只解释当前轮及其依赖的行。
-2. **V13_3_FIXED_48_ROUNDS.md**：当前轮的完整合同、用户关口及必要前置条件；按当前轮需要读取对应的 V13_3_* 映射表与历史原始合同，不可漏项。
-3. **ROUND_EXECUTION_RULES.md**：现行全局不变量；**SKILL_SOURCES.md**：仓颉、女娲钉住的原始版本。进入适用阶段时必须实际读取原版SKILL正文和全部适用依赖，不能以本入口代替原始流程。
-4. **NEXT_ACTION.md**：只作简短导航；执行证据在当前轮的 v13_3/nNN、runs/NNN_V4.md 和关联来源/脚本中。只读取确有依赖的历史文件、检验结果和原著原文。
-
-## 执行边界
-- 用户每条新的“继续”最多执行当前N轮，PASS后等下一条用户消息；遇重大阻断或新增成本按已批准48轮合同报告，不能擅自减标、跳轮或改计划。
-- 分别检验**原文来源真实性、文学理解充分性、独立原创效用**。SHA或CI结构通过≠文学审查≠真正独立V3≠已认证Skill。
-- 用户提供的两部原著EPUB正文不在公开仓库；如果当前运行环境无原文，只能复核仓库存量证据，不许冒充重新阅读。
-- 轮次完成时保留完整研究成果、失败记录、关联提交和远程回读。精简的是恢复入口，不是成果或验证流程。
-- 不把旧的 CURRENT_ROUND.json、ROUND_LEDGER.csv、V13_CURRENT_V2/V3、旧89/110/96轮计划当作当前启动游标。
-
-## 历史文档
-清理之前的长版START_HERE与PROGRESS及旧入口[保留原始Git blob归档](archive/2026-10-11-pre-cleanup/CLEANUP_MANIFEST.md)，按需查证，平时不全文读取。
-
-## 必须执行的零信任恢复补充（2026-10-11维护，不移动轮次）
-先遵循 [V13_3_RECOVERY_GUARD.md](V13_3_RECOVERY_GUARD.md)，核对 [V13_3_GOVERNANCE_LOCK.json](V13_3_GOVERNANCE_LOCK.json) 的原版SKILL SHA与正式48轮Git blob锁。代码检验：`python3 scripts/v13_resume.py --check`；变更用户审批要求见 [V13_3_CHANGE_CONTROL.md](V13_3_CHANGE_CONTROL.md)。**保留完整原始验收；该校验仅防行政漂移，不能代替文学/盲测质量。**
-
-## 全原版执行 + 真正写小说的唯一新增强制入口
-- [35项原版SKILL工序与证据映射](V13_3_FULL_SKILL_REQUIREMENTS.tsv)；[原48轮内一次完工路径](V13_3_FINISH_TO_SKILL_PLAN.md)；[五项原创长篇能力最终验收](V13_3_SKILL_DELIVERY_ACCEPTANCE.md)。
-- 恢复时只能把此清单当“检查是否遗漏”的工具，**不得代替仓颉/女娲锁定上游原版逐阶段全文及所有适用文件**。已经存在的旧文学研究并不代表真正写作Skill可调用。
+两部用户私有原著EPUB不进入公开GitHub。296文学审查/14隔离、187候选、69原V3、20原创C、44合同、35义务和全部失败完整承接。终验仍是实际高质量原创连续正文、修稿和新聊天真实加载。

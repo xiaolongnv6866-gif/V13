@@ -1,3 +1,5 @@
+# 正式批准通知：本文件原为11包候选V1；2026-10-12用户已明确批准以V13_APPROVED_11_WORKPACKAGES.md为正式执行合同。V1文本仅保留设计与核查轨迹，不能再当未批准状态或唯一游标。
+
 # V13｜全历史闭环后的唯一剩余工作设计 V1（候选，尚未替换现行V4游标）
 date: 2026-10-12
 scope: entire V13 project since first R001, not merely N01–N20

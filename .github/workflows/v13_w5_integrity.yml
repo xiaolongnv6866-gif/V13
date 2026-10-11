@@ -1,0 +1,34 @@
+name: V13 W5 approved 11-workpackage integrity
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'V13_W_*'
+      - 'V13_APPROVED_11_WORKPACKAGES.md'
+      - 'V13_GLOBAL_TRACEABILITY_1058.tsv'
+      - 'V13_3_FULL_SKILL_REQUIREMENTS.tsv'
+      - 'V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv'
+      - 'v13_w/**'
+      - 'runs/W*_V5.md'
+      - 'README.md'
+      - 'START_HERE.md'
+      - 'NEXT_ACTION.md'
+      - 'PROGRESS.md'
+      - 'ROUND_EXECUTION_RULES.md'
+      - 'NEW_CHAT_START.md'
+      - 'scripts/validate_v13_w5.py'
+      - 'scripts/v13_resume.py'
+      - '.github/workflows/v13_w5_integrity.yml'
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify W5 approved authority, 28-to-11 coverage and immutable V4 baseline
+        run: python3 scripts/validate_v13_w5.py
+      - name: Verify frozen historical originals and 35 SKILL duties
+        run: |
+          python3 scripts/validate_v13_3_plan.py
+          python3 scripts/validate_v13_global_traceability.py
+          python3 scripts/validate_v13_full_skill_contract.py
