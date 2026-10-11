@@ -23,3 +23,7 @@ W01实际增量：56项不同原创公开校准题已固定，对应56个可测V
 ## 2026-10-12 增量：第五章写作及资源入账负例
 
 新提交包含[《潮汛账》完整第5章](experiments/novel_field_test_20261012/CH05.md)、[真实原文3处定向抽读](experiments/novel_field_test_20261012/SOURCE_TO_SCENE_20261012.md)、[CH05完整事件账](skills/v13-novel-alpha/fixtures/chaoxun_ch05.json)和[现金/库存凭证拦截测试](skills/v13-novel-alpha/tests/test_ch05_provenance.py)，继续做实际小说而非管理文档。**正式W01仍BLOCKED、0/11；真实独立V3=0、独立C=0、认证=0**。
+
+## 2026-10-12 W02原20项原创C前置实写：2个开放样本
+
+严格按原`V13_3_STAGE0_20_TO_ROUNDS.tsv`的`WM-T01`与`TX-T01`合同先冻结新题面（[60d503f](https://github.com/xiaolongnv6866-gif/V13/commit/60d503feb8697433557c1287c97e42d0d4509324)），之后真实写出两篇各三场的不同原创作品：[WM-T01](v13_w/w02/prework_20261012/WM_T01_3_SCENES.md)与[TX-T01](v13_w/w02/prework_20261012/TX_T01_3_SCENES.md)，附职业/人情信用或身份评价及旧债状态。参见[状态账](v13_w/w02/prework_20261012/W02_PREWORK_STATUS.tsv)和[机械回归](scripts/validate_w02_prework.py)。**2/20仅为已完成写作的诊断前置样本；0/20真实独立C通过、W02 NOT_STARTED、W01 BLOCKED，正式0/11仍不变。**
