@@ -1,5 +1,5 @@
 work_package	name	original_n_rounds	original_r_contracts	scope	acceptance	user_gate	user_confirmation	status
-W01	仓颉V3资源及真实效用	N21;N22;N23;N24;N25	R067;R068;R069;R070;R071;R072;R073;R074;R075;R076	69方法源/V2资格、独立双臂预注册、原创生成和双盲评、失败逐ID保留	独立创作者与至少两名真正不同盲审；56/5/8初判只是准入；69对象全部实际试验或有据不适用	RESOURCE_GATE	NOT_APPLICABLE	IN_PROGRESS
+W01	仓颉V3资源及真实效用	N21;N22;N23;N24;N25	R067;R068;R069;R070;R071;R072;R073;R074;R075;R076	69方法源/V2资格、独立双臂预注册、原创生成和双盲评、失败逐ID保留	独立创作者与至少两名真正不同盲审；56/5/8初判只是准入；69对象全部实际试验或有据不适用	RESOURCE_GATE	NOT_APPLICABLE	BLOCKED
 W02	20项原创任务与187四分类	N26;N27;N28	R077;R078	两书WM-T01..10/TX-T01..10真实原创、状态账、独立评审；187逐ID终判与Stage1.5用户门	20项完整创作、187项四分流、原14隔离不可直接晋级，0 verified不能继续编译	MANDATORY_USER_CONFIRM	PENDING	NOT_STARTED
 W03	仓颉能力卡与Bundle	N29;N30;N31	R079;R080;R081	Stage1.6五判据、Stage2两书RIA++六段能力卡/verified.yaml及路由	全部可用能力稳定ID、输入输出/步骤/边界真实完整	NONE	NOT_APPLICABLE	NOT_STARTED
 W04	仓颉链接与真实调用	N32;N33	R082;R083;R084;R085	Stage3 Zettelkasten/Glossary/also_read；Stage4近邻/诱饵/触发/拒绝测试	真实宿主调用和可达日志、误触发/失败留存	NONE	NOT_APPLICABLE	NOT_STARTED

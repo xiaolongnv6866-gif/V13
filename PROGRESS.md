@@ -1,9 +1,11 @@
 # V13｜真实进度（V5）
 
-**现行：W01 IN_PROGRESS、0/11；旧历史N20 PASSED，N21 NOT_STARTED（20/48）。** 唯一执行源`V13_W_CURRENT_V5.json`；原V4永不当新游标。
+**现行：W01 BLOCKED、0/11；旧历史N20 PASSED，N21 NOT_STARTED（20/48）。** 唯一执行源`V13_W_CURRENT_V5.json`；原V4永不当新游标。
 
 已具备：两部EPUB完整SHA256与锁一致；N17《晚明》91候选V1，其中32受限可走V2；N18《铁血残明》96候选V1，其中32受限可走V2；N19晚明32个V2场景28有限通过4部分；N20铁血32个V2场景29有限通过3部分；69原V3逐ID与最近V2匹配=56有资格/5部分/8没有合格新V2。两书296文学声明已做限定裁决，14条R042仍隔离。
 
 **未证实：独立方法V3=0、原20项独立C=0、可认证SKILL=0**。独立创作者及盲审、女娲两个不同主体、四臂独立测试、普通新聊天真实原生加载均待核，不能用同Agent自评替代。
 
 审批事实/迁移映射：[V13_W_MIGRATION_APPROVAL_20261012.md](V13_W_MIGRATION_APPROVAL_20261012.md)｜[V13_W_MIGRATION_MAP_V5.tsv](V13_W_MIGRATION_MAP_V5.tsv)。原版用户确认门保留于W02、W06、W07、W08、W09、W10、W11。下步见[NEXT_ACTION.md](NEXT_ACTION.md)。
+
+W01实际增量：56项不同原创公开校准题已固定，对应56个可测V1/V2候选；5项V2部分完成和8项V1不具备资格单列不参加。**独立主体仍UNASSIGNED、真实V3仍0，W01保持BLOCKED**；不把公开校准冒充未泄漏保留题。

@@ -8,7 +8,7 @@
   "ledger": "V13_W_LEDGER_V5.tsv",
   "mapping": "V13_W_MIGRATION_MAP_V5.tsv",
   "current_package": "W01",
-  "current_package_status": "IN_PROGRESS",
+  "current_package_status": "BLOCKED",
   "completed_packages": 0,
   "total_packages": 11,
   "legacy_v4_read_only": true,
@@ -36,7 +36,10 @@
     "W11 four-arm independent evaluation not confirmed",
     "W11 clean normal chat actual skill load not yet validated"
   ],
-  "w01_evidence": "v13_w/w01/W01_EARLY_PREFLIGHT.md",
+  "w01_evidence": "v13_w/w01/W01_PUBLIC_CALIBRATION_CONTRACT.json",
   "w01_independent_review": "NOT_RUN_UNASSIGNED",
-  "w01_next_gate": "true isolated creator and two independent blind judges require evidence before method V3"
+  "w01_next_gate": "true isolated author and two blind independent reviewers unavailable in this session; mandatory user decision on verifiable independent access",
+  "w01_public_calibration_case_count": 56,
+  "w01_v3_disqualified_current": 13,
+  "w01_resource_gate": "BLOCKED_NO_INDEPENDENT_SUBJECTS"
 }

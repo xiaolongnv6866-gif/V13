@@ -1,6 +1,6 @@
 # V13｜原创历史军事长篇小说SKILL工程
 
-**正式执行状态：V5批准的11工作包；W01 IN_PROGRESS（0/11）。** 历史V13.3 N20 PASSED、N21 NOT_STARTED（20/48）只作为迁移时旧快照，不再作为执行游标。
+**正式执行状态：V5批准的11工作包；W01 BLOCKED（0/11）。** 历史V13.3 N20 PASSED、N21 NOT_STARTED（20/48）只作为迁移时旧快照，不再作为执行游标。
 
 - 唯一新入口：[START_HERE.md](START_HERE.md) → [V13_W_CURRENT_V5.json](V13_W_CURRENT_V5.json) → [11包执行合同](V13_APPROVED_11_WORKPACKAGES.md) → [V13_W_LEDGER_V5.tsv](V13_W_LEDGER_V5.tsv) → [NEXT_ACTION.md](NEXT_ACTION.md)。
 - 用户2026-10-12已明确批准剩余N21—N48合并为W01—W11；[批准与迁移证据](V13_W_MIGRATION_APPROVAL_20261012.md)、[28轮逐项映射](V13_W_MIGRATION_MAP_V5.tsv)、[新执行锁](V13_W_GOVERNANCE_LOCK.json)。
