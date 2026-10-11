@@ -1,4 +1,4 @@
-# V13｜当前唯一下一步：W01
+> **2026-10-12 用户最新交付决定（优先级高于下方历史认证进度）：** W01—W11的主题SKILL建设成果已合并成[唯一实用主入口](skills/v13-history-military/SKILL.md)、[安装及工具说明](skills/v13-history-military/README.md)、[11工作包建设账](V13_W_BUILD_LEDGER_20261012.tsv)。用户明确不补独立验证，故原“W01 BLOCKED/0PASSED”只表示旧严格独立认证未取得，**不是阻止使用已交付SKILL的生产游标**。实际生产交付报告见[V13_W_BUILD_DELIVERY_20261012.md](V13_W_BUILD_DELIVERY_20261012.md)，无虚构盲评。\n\n# V13｜当前唯一下一步：W01
 
 正式游标：`V13_W_CURRENT_V5.json`，台账：`V13_W_LEDGER_V5.tsv`。
 
