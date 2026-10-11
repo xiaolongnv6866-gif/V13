@@ -79,4 +79,38 @@ for x in bridge:
     assert x["v1_counterexample_boundary"]==(a["V1_counterexample_and_boundary"] if wm else a["competing_evidence_and_boundary"])
     assert x["bridge_role"]=="ADDITIVE_SOURCE_METADATA_NO_BLIND_JUDGE_EXPOSURE"
 assert "GitHub Models" in read("v13_w/w01/W01_EVAL_PROTOCOL.md")
+# Live paper-V2 disposition is a supplement; NEVER mutate the 56/5/8 freeze.
+live=tab("v13_w/w01/V3_69_EFFECTIVE_V2_GATE_20261012.tsv")
+assert len(live)==69
+assert {x["repeat_id"] for x in live}=={x["repeat_id"] for x in e}
+by_id={x["repeat_id"]:x for x in live}
+assert Counter(x["current_scoped_V2_gate"] for x in live)=={
+    "HISTORICAL_SCOPED_V2_READY":56,
+    "SCOPED_V2_WALKTHROUGH_COMPLETED_WITH_LIMITS":5,
+    "V1_INELIGIBLE_NO_V2":8}
+assert all(x["independent_V3_result"]=="NOT_RUN" for x in live)
+for x in e:
+    y=by_id[x["repeat_id"]]
+    assert (x["candidate_id"],x["book"],x["preliminary_gate"])==(
+        y["candidate_id"],y["book"],y["historical_preliminary_gate"])
+    if x["preliminary_gate"]=="READY":
+        assert y["current_scoped_V2_gate"]=="HISTORICAL_SCOPED_V2_READY"
+    elif x["preliminary_gate"]=="INELIGIBLE":
+        assert y["current_scoped_V2_gate"]=="V1_INELIGIBLE_NO_V2"
+    else:
+        assert y["current_scoped_V2_gate"]=="SCOPED_V2_WALKTHROUGH_COMPLETED_WITH_LIMITS"
+        assert y["new_evidence_path"]!="NONE" and (P/y["new_evidence_path"]).exists()
+assert len({x["candidate_id"] for x in live})==69
+assert "OLD_V2" not in {x["independent_V3_result"] for x in live}
+assert (P/"v13_w/w01/reviews/V13_W01_INDEPENDENT_REVIEW_20261012.md").exists()
+assert (P/"v13_w/w01/reviews/REVIEW_01_MAIN_AGENT_ADJUDICATION.md").exists()
+ablation_freeze=read("v13_w/w01/repair_20261012/WM_f10_ABLATION_02_FROZEN.md")
+ablation_result=read("v13_w/w01/repair_20261012/WM_f10_ABLATION_02_RESULT.md")
+assert "status: INPUT_FROZEN_OUTPUT_NOT_YET_WRITTEN" in ablation_freeze
+assert "freeze_commit: 9b47b61a3f220b32344bdcb07fd6b335781e0a7d" in ablation_result
+assert "VERIFIED_WORKDAYS: 3 -> UNKNOWN" in ablation_result
+assert "SELF_DIAGNOSTIC_ONLY" in ablation_result
+assert "supersedes:" in read("v13_w/w01/W01_EVAL_PROTOCOL.md")
+print("PASS W01 additional review gates (STRUCTURE ONLY): 69 historic cases unchanged, 61 scoped V2 sources, 8 V1 ineligible, 0 V3, blind criterion separated")
+
 print("PASS W01 input-only freeze: 56 prompts and V1/V2 source bridges; 5 partial + 8 V1-ineligible; 0 independent V3 claims")
