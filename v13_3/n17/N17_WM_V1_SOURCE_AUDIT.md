@@ -1,0 +1,17 @@
+# V13.3 N17｜晚明91项V1来源充分性实证与资格裁决
+status: EVIDENCE_ONLY_NOT_FORMAL_CLOSEOUT
+source_git_commit: d95a4ba3f51fbfe27dd8c822dc4d89d6af1e60a8
+source_epub_sha256: a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082
+
+## 原版规则与实际执行
+- 锁定的 Cangjie@a28de55ba881b9928956a55048f743f7a9e3b23e `SKILL.md`、`methodology/03-stage1.5-triple-verify.md`、`02-stage1-parallel-extract.md`、五个独立extractor原提示按职责对照；V1核实际出处/规则语境/应用边界，**不是V2演练、V3效用或最终四分流**。
+- 2026-10-11实际打开用户提供的《晚明》原始EPUB，**整书SHA256逐字节匹配冻结值**。从五份候选数据源和证据TSV汇总：WM framework17、principle23、case14、counter-example19、glossary18共**91项**，237行提取证据去重后**145个原文段落位置**，涉及64个章节XHTML。对每个n/p用原始ZIP中对应XHTML及p节点文本计算SHA256，与历史表逐个核对，**145/145 MATCH**。其中3处XHTML内含span子节点，纯文本拼接须使用`BeautifulSoup(p).get_text('', strip=True)`而非插入额外空格，已纠正并重复计算至145/145。
+- V1不是只看哈希：逐项查段落及相关场面，审查“人物话语 vs 现场动作”“已发生 vs 预计”“短场景 vs 长因果”“小说情节 vs 现实史实”，逐ID限制结论。原文简短引用记录在`N17_WM_V1_91.tsv`的`short_source_quote`；仅取每项首源极短片段（不上传原著全文或长篇原句）。
+- **V1来源支持、可进入V2预审**：32；**V1仍需补证/重建**：6；**来源真实但只是案例/反例/术语/非操作参考**：53。三种都没有通过V2与独立V3，`verified=0`不变。
+- 上游原版case允许`firsthand/reported_case/worked_example`。现有14项小说场面标`fictional_narrative_case`不属于三种；本轮拒绝假冒作者真实经历，全部以**叙事参考而非可独立执行方法**留存。19个counter与18个glossary按原版主要作为Boundary和概念支撑，不假凑37个方法。
+- 例外：`f07`缺连续信息链核验；`f09`跨不相干经济事件硬拼总机制；`p02`担忧未兑现财务监督；`p06`人物玩笑不是完成矩阵；`p09`主张带未经外证的历史财政因果；`p10`人物宽慰不是普遍免责规程。其余两项`p11`、`p17`的`checklist`只有场景数字或话语分类，来源不足以重建真正可执行的检查表，归参考。
+- R042旧14隔离仍14/14；53旧文学强判断否决不会因相同段落出现在候选证据中自动解封。两书与历史制度相关的原著叙述不当成明史外证。N17仅审WM91，TX96保留N18独立审查。
+- 原文最小引用与V1表是研究/审查记录，不是可交付SKILL；Stage1.5后续V2须按N19预注册全新输入、实际步骤/分支/判停。最初现有方法四分流依然是`verified0/reference108/needs_review79/rejected0`，最终重算由N28办理。N17不得偷偷提升verified或启动N18。
+
+## 不能冒充通过的证据分界
+`scripts/validate_v13_n17.py`和GitHub Actions只能检查91/91行、字段/独立ID、来源坐标/简短引用及资格路由；**不能访问私有EPUB，故不会在CI重新核对145段原文，也不能判断文学理解深度**。私有原文SHA对照在执行环境中真实运行过，关联证据在当前N17审核说明及原始EPUB；后续在新环境按原版重核时仍须提供该EPUB。没有真正独立子代理/盲评，不会宣称V3通过。
