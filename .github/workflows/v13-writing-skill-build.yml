@@ -25,7 +25,6 @@ jobs:
           python -m pip install --quiet pyyaml jsonschema
           python skills/v13-history-military/scripts/build_cangjie_adapter.py --out /tmp/v13-cangjie-bundle
       - name: Run ORIGINAL Cangjie single compiler and record actual exit code
-        continue-on-error: true
         run: |
           set +e
           python /tmp/v13-pinned-cangjie/scripts/cangjie.py compile --bundle /tmp/v13-cangjie-bundle --out /tmp/v13-cangjie-dist --output single > /tmp/v13-original-compile.log 2>&1
@@ -33,6 +32,13 @@ jobs:
           printf 'cangjie_original_compiler_exit=%s\\nindependent_v3=NOT_RUN_USER_WAIVED\\n' "$rc" > /tmp/v13-original-compile-status.txt
           cat /tmp/v13-original-compile.log
           exit "$rc"
+      - name: Run ORIGINAL Cangjie pack compiler and independent original pack validator
+        run: |
+          python /tmp/v13-pinned-cangjie/scripts/cangjie.py compile --bundle /tmp/v13-cangjie-bundle --out /tmp/v13-cangjie-pack-dist --output pack > /tmp/v13-original-pack-compile.log 2>&1
+          cat /tmp/v13-original-pack-compile.log
+          python /tmp/v13-pinned-cangjie/scripts/validate_skill_pack.py /tmp/v13-cangjie-dist /tmp/v13-cangjie-pack-dist > /tmp/v13-original-validator.log 2>&1
+          cat /tmp/v13-original-validator.log
+          printf 'single_and_pack_compilers_exit=0\\noriginal_validator_exit=0\\nuser_waived_independent_V3=NOT_RUN_USER_WAIVED\\n' > /tmp/v13-original-both-compile-status.txt
       - name: Upload original compiler evidence and draft single output
         if: always()
         uses: actions/upload-artifact@v4
@@ -43,6 +49,10 @@ jobs:
             /tmp/v13-original-compile.log
             /tmp/v13-original-compile-status.txt
             /tmp/v13-cangjie-dist/**
+            /tmp/v13-cangjie-pack-dist/**
+            /tmp/v13-original-pack-compile.log
+            /tmp/v13-original-validator.log
+            /tmp/v13-original-both-compile-status.txt
           if-no-files-found: warn
           retention-days: 7
       - name: Run complete fictional-state regression suite
