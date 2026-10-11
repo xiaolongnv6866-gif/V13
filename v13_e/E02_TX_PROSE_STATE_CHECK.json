@@ -1,8 +1,9 @@
 {
-  "schema": "V13-E02-ORIGINAL-20-PROSE-QA-v1",
+  "schema": "V13-E02-ORIGINAL-20-PROSE-QA-v2",
   "batch": "TX",
-  "review_type": "mechanical_prose_delivery_not_independent_literary_rating",
-  "user_waived_independent_evaluation": true,
+  "review_type": "MECHANICAL_PROSE_EXISTENCE_AND_CONTINUITY_ONLY_NOT_LITERARY_JUDGING",
+  "external_blind": "NOT_RUN_USER_WAIVED",
+  "min_char_contract": 1000,
   "entries": [
     {
       "id": "TX-T01",
@@ -16,20 +17,20 @@
     {
       "id": "TX-T02",
       "path": "skills/v13-history-military/examples/stage0/TX-T02.md",
-      "chars": 998,
-      "scene_sections": 3,
+      "chars": 1326,
+      "scene_sections": 4,
       "state_evidence": true,
       "has_dialogue": true,
-      "sha": "f4ad21f79dcb7abc5e32988ccca9744ee6bd8fb3"
+      "sha": "bfa309760c1f4f3ad42b7fed5f692cd8ba6fd6c7"
     },
     {
       "id": "TX-T03",
       "path": "skills/v13-history-military/examples/stage0/TX-T03.md",
-      "chars": 972,
-      "scene_sections": 3,
+      "chars": 1283,
+      "scene_sections": 4,
       "state_evidence": true,
       "has_dialogue": true,
-      "sha": "4cf156cb1277cbd96e0107d9802fe66235c9035c"
+      "sha": "bde0d7b3f0ca4559f464919d428b5b648267aefe"
     },
     {
       "id": "TX-T04",
@@ -43,38 +44,38 @@
     {
       "id": "TX-T05",
       "path": "skills/v13-history-military/examples/stage0/TX-T05.md",
-      "chars": 955,
-      "scene_sections": 3,
+      "chars": 1267,
+      "scene_sections": 4,
       "state_evidence": true,
       "has_dialogue": true,
-      "sha": "41dc46ca28b7eac285d2c12ae4749da97a988712"
+      "sha": "15f97354ef7443e07aa1b4953f58b6cd8ee71653"
     },
     {
       "id": "TX-T06",
       "path": "skills/v13-history-military/examples/stage0/TX-T06.md",
-      "chars": 983,
-      "scene_sections": 3,
+      "chars": 1298,
+      "scene_sections": 4,
       "state_evidence": true,
       "has_dialogue": true,
-      "sha": "9680d2255b7f1fe888222ca7ff50f09181fdfc8b"
+      "sha": "9782de8809479cb586e36d53d482928698fddeee"
     },
     {
       "id": "TX-T07",
       "path": "skills/v13-history-military/examples/stage0/TX-T07.md",
-      "chars": 779,
-      "scene_sections": 2,
+      "chars": 1138,
+      "scene_sections": 3,
       "state_evidence": true,
       "has_dialogue": true,
-      "sha": "c85e108a4659cf09e30affa0589aa8edf86ff5de"
+      "sha": "1df6517ec0ef4442a217016369120c1b0b722db9"
     },
     {
       "id": "TX-T08",
       "path": "skills/v13-history-military/examples/stage0/TX-T08.md",
-      "chars": 895,
-      "scene_sections": 3,
+      "chars": 1203,
+      "scene_sections": 4,
       "state_evidence": true,
       "has_dialogue": true,
-      "sha": "bf6a1989957987cf03e43ac8da43893c98052899"
+      "sha": "d9c2d694a74b8fe4c2daf11ae955c052b32b465f"
     },
     {
       "id": "TX-T09",
@@ -88,11 +89,11 @@
     {
       "id": "TX-T10",
       "path": "skills/v13-history-military/examples/stage0/TX-T10.md",
-      "chars": 952,
-      "scene_sections": 3,
-      "state_evidence": false,
+      "chars": 1263,
+      "scene_sections": 4,
+      "state_evidence": true,
       "has_dialogue": true,
-      "sha": "d7c34e39c7bd32581f2bad2c54108e3c1818fd6c"
+      "sha": "911b5d5571f73468f130aa5b6e8498b45a72f760"
     }
   ]
 }
