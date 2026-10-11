@@ -1,4 +1,4 @@
-# V13｜正式恢复入口：批准11工作包
+> **2026-10-12 用户最新交付决定（优先级高于下方历史认证进度）：** W01—W11的主题SKILL建设成果已合并成[唯一实用主入口](skills/v13-history-military/SKILL.md)、[安装及工具说明](skills/v13-history-military/README.md)、[11工作包建设账](V13_W_BUILD_LEDGER_20261012.tsv)。用户明确不补独立验证，故原“W01 BLOCKED/0PASSED”只表示旧严格独立认证未取得，**不是阻止使用已交付SKILL的生产游标**。实际生产交付报告见[V13_W_BUILD_DELIVERY_20261012.md](V13_W_BUILD_DELIVERY_20261012.md)，无虚构盲评。\n\n# V13｜正式恢复入口：批准11工作包
 
 **现行V5：W01 BLOCKED，0/11。旧V4历史：N20 PASSED、N21 NOT_STARTED，20/48。** 旧N轮不再推进或作为游标；原N01—N20全部收据保持只读。
 用户2026-10-12明确批准28个未开始N轮合并为11工作包。完整责任保留，详情见`V13_W_MIGRATION_APPROVAL_20261012.md`。
