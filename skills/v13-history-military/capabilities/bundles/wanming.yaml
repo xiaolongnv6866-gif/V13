@@ -1,4 +1,4 @@
-# YAML 1.2 compatible JSON mapping; no original verified claim.
+# YAML 1.2 compatible JSON mapping; draft only, not official verified.yaml.
 {
   "schema": "V13-CANGJIE-SOURCE-BOUND-CAPABILITY-BUNDLE-v1",
   "book": "wanming",
@@ -22,8 +22,12 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f01.md",
+        "capabilities/cards/TX-f04.md"
+      ],
+      "stage3_relation_count": 2,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f02",
@@ -38,8 +42,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-p01.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f03",
@@ -54,8 +61,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f02.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f04",
@@ -70,8 +80,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-p05.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f05",
@@ -87,7 +100,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f06",
@@ -103,7 +118,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f08",
@@ -118,8 +135,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f09.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f10",
@@ -134,8 +154,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f10.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f11",
@@ -150,8 +173,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-p16.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f12",
@@ -166,8 +192,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-p21.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f13",
@@ -182,8 +211,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f13.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f14",
@@ -198,8 +230,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-p14.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f15",
@@ -214,8 +249,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-p19.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f16",
@@ -230,8 +268,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-p18.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-f17",
@@ -246,8 +287,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-f16.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p01",
@@ -262,8 +306,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f02.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p03",
@@ -279,7 +326,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p04",
@@ -295,7 +344,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p05",
@@ -310,8 +361,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f04.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p07",
@@ -327,7 +381,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p08",
@@ -343,7 +399,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p12",
@@ -358,8 +416,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/TX-p05.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p13",
@@ -375,7 +436,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p14",
@@ -390,8 +453,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f14.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p15",
@@ -407,7 +473,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p16",
@@ -422,8 +490,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f11.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p18",
@@ -438,8 +509,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f16.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p19",
@@ -455,7 +529,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p20",
@@ -471,7 +547,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p21",
@@ -486,8 +564,11 @@
       "independent_v3": "NOT_RUN_USER_WAIVED",
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
-        "references/07-EDITOR_AND_FAILURES.md"
-      ]
+        "references/07-EDITOR_AND_FAILURES.md",
+        "capabilities/cards/WM-f12.md"
+      ],
+      "stage3_relation_count": 1,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p22",
@@ -503,7 +584,9 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     },
     {
       "capability_id": "WM-p23",
@@ -519,7 +602,10 @@
       "also_read": [
         "references/05-STATE_AND_CONTINUITY.md",
         "references/07-EDITOR_AND_FAILURES.md"
-      ]
+      ],
+      "stage3_relation_count": 0,
+      "card_ria_standard": "ORIGINAL_R_READING_I_INTERPRETATION_A1_APPLICATION_A2_TRIGGER_E_EXECUTION_B_BOUNDARY"
     }
-  ]
+  ],
+  "stage3_relation_registry": "capabilities/RELATIONSHIPS.json"
 }
