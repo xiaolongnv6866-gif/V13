@@ -15,6 +15,36 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Fetch pinned original Cangjie compiler, not a rewritten substitute
+        run: |
+          git clone --quiet https://github.com/kangarooking/cangjie-skill.git /tmp/v13-pinned-cangjie
+          git -C /tmp/v13-pinned-cangjie checkout --quiet --detach a28de55ba881b9928956a55048f743f7a9e3b23e
+          test "$(git -C /tmp/v13-pinned-cangjie rev-parse HEAD)" = "a28de55ba881b9928956a55048f743f7a9e3b23e"
+      - name: Prepare user-waived non-V3 Cangjie protocol bundle
+        run: |
+          python -m pip install --quiet pyyaml jsonschema
+          python skills/v13-history-military/scripts/build_cangjie_adapter.py --out /tmp/v13-cangjie-bundle
+      - name: Run ORIGINAL Cangjie single compiler and record actual exit code
+        continue-on-error: true
+        run: |
+          set +e
+          python /tmp/v13-pinned-cangjie/scripts/cangjie.py compile --bundle /tmp/v13-cangjie-bundle --out /tmp/v13-cangjie-dist --output single > /tmp/v13-original-compile.log 2>&1
+          rc=$?
+          printf 'cangjie_original_compiler_exit=%s\\nindependent_v3=NOT_RUN_USER_WAIVED\\n' "$rc" > /tmp/v13-original-compile-status.txt
+          cat /tmp/v13-original-compile.log
+          exit "$rc"
+      - name: Upload original compiler evidence and draft single output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v13-pinned-cangjie-original-compile-evidence
+          path: |
+            /tmp/v13-cangjie-bundle/BUILD_ONLY_ADAPTER_STATUS.json
+            /tmp/v13-original-compile.log
+            /tmp/v13-original-compile-status.txt
+            /tmp/v13-cangjie-dist/**
+          if-no-files-found: warn
+          retention-days: 7
       - name: Run complete fictional-state regression suite
         run: python -m unittest discover -s skills/v13-history-military/tests -p 'test_*.py' -v
       - name: Check original ledger continuity
