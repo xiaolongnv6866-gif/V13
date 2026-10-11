@@ -1,0 +1,35 @@
+name: V13 finished writing skill - runnable structure only
+on:
+  push:
+    paths:
+      - 'skills/v13-history-military/**'
+      - '.github/workflows/v13-writing-skill-build.yml'
+  workflow_dispatch:
+
+jobs:
+  compile-and-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run complete fictional-state regression suite
+        run: python -m unittest discover -s skills/v13-history-military/tests -p 'test_*.py' -v
+      - name: Check original ledger continuity
+        run: python skills/v13-history-military/scripts/validate_state.py skills/v13-history-military/fixtures/chaoxun_ch05.json
+      - name: Check complete packaging inventory
+        run: python skills/v13-history-military/scripts/build_release.py --check
+      - name: Test cross-chat resume and package ZIP
+        run: |
+          python skills/v13-history-military/scripts/build_handoff.py --out /tmp/V13_HANDOFF.md
+          python skills/v13-history-military/scripts/build_release.py --out /tmp/V13_HISTORY_MILITARY_SKILL.zip
+          test -s /tmp/V13_HANDOFF.md
+          test -s /tmp/V13_HISTORY_MILITARY_SKILL.zip
+      - name: Preserve self-contained package as downloadable workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: v13-history-military-writing-skill
+          path: /tmp/V13_HISTORY_MILITARY_SKILL.zip
+          retention-days: 7
