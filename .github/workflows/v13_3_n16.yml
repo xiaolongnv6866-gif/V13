@@ -1,0 +1,21 @@
+name: V13.3 N16 Stage0/Stage1 consolidated structural integrity
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v13_3/n16/**'
+      - 'books/wanming/BOOK_OVERVIEW.md'
+      - 'books/tiexuecanming/BOOK_OVERVIEW.md'
+      - 'runs/N16_V4.md'
+      - 'V13_CURRENT_V4.json'
+      - 'V13_LEDGER_V4.tsv'
+      - 'scripts/validate_v13_n16.py'
+      - '.github/workflows/v13_3_n16.yml'
+  workflow_dispatch:
+jobs:
+  n16-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: N16 296/14/20->19, Stage1 ten extractors referential audit (not independent literary test)
+        run: python3 scripts/validate_v13_n16.py
