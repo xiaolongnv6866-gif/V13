@@ -57,3 +57,11 @@ original_skill_pins: Cangjie a28de55ba881b9928956a55048f743f7a9e3b23e; Nuwa fe03
 - 固定版本两套上游原版SKILL.md已实际远程读取；仓颉Stage1.5原版以V1来源、V2可执行、V3任务增益判断，且Stage4必须另做真实输出；女娲主题路径仍保留Phase1.5、2.5、4、5真实用户/独立主体要求。
 - **未消失的交付阻断**：独立创作者与盲审、女娲不同子Agent、最后的四臂隔离实验与普通新聊天真实Skill加载模式尚无实证。不能提前标W01/N21或最终交付PASS；不擅自增加费用。
 - 审计结论：在保持所有原合同、证据、质量门和用户确认的情况下，11工作包覆盖范围可以作为**正式替代28个剩余行政轮次的候选**，但批准前仅允许证据维护与现行N21合同内的准备，不改正式游标。
+
+## 六、普通聊天真实加载的宿主资格核查（2026-10-12）
+
+来源：[OpenAI 官方 Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt)（2026-10-12访问）：原生自定义Skills安装说明的适用用户为符合条件的 Business、Enterprise、Healthcare、Edu，并受workspace配置限制；未把个人Plus列为该原生功能适用套餐。GitHub connector能读取仓库文件，但这不等于普通聊天中自动安装或自动激活本项目SKILL。
+
+免费保底：[OpenAI 官方 Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)显示项目说明/资源可在**该项目内**新聊天复用，不等于项目外普通新聊天自动加载。个人Plus若无Skills安装入口，应先交付可从GitHub读取的独立SKILL.md包，并用干净新聊天明确读取入口、运行写作/续写验收；这种**显式加载模式**应单独标记，不得冒称**原生自动触发**。
+
+交付硬门不降低：W06先封装并验证上述可用路径，W11/N48要求实际新聊天实测；如果用户坚持无需任何显式加载的原生自动触发，而宿主未开放原生Skills，则需要用户授权改变运行宿主/费用或接受该交付限制。未确认前禁止写FINAL_SKILL_CERTIFIED。
