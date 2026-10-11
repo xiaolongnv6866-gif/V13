@@ -13,7 +13,8 @@ BASE=ROOT/"v13_w/w02/prework_20261012"
 LOCKED={
 "FROZEN_WM_TX_01_CONTRACT.md":"4e151ba33f75b7e9fcb80118b8bd975eb5aaa47b",
 "FROZEN_WM02_WM03_TX02_TX03.md":"067c35d7e8199086af25eb55cc2fc027a945a590",
-"FROZEN_WM04_06_TX04_06.md":"23fa704dcac44912bd5cb63267ae66dac957d5f5"
+"FROZEN_WM04_06_TX04_06.md":"23fa704dcac44912bd5cb63267ae66dac957d5f5",
+"FROZEN_WM07_10_TX07_10.md":"f3545731a4653a5dfe272b20cc2231be638b3ea0"
 }
 def blob_sha(p):
     b=p.read_bytes()
@@ -36,18 +37,30 @@ checks={
 "WM-T06":("WM_T06_THREE_SIDES.md",3,["顾琴","欧侯","田月","四筐","五筐"]),
 "TX-T04":("TX_T04_REPLACEMENT_COST.md",3,["柳闻","孟全","崔婶","四袋","五袋"]),
 "TX-T05":("TX_T05_POLICY_REVISION.md",3,["裴监","梁记","秦娥","杜闻","四栏"]),
-"TX-T06":("TX_T06_THREE_PARTY_AGREEMENT.md",3,["沈照","范榆","程嫂","六户","两袋"])
+"TX-T06":("TX_T06_THREE_PARTY_AGREEMENT.md",3,["沈照","范榆","程嫂","六户","两袋"]),
+"WM-T07":("WM_T07_POST_SUCCESS.md",2,["黎成","林礼","叶婶","龚常","四方后果"]),
+"WM-T08":("WM_T08_DELIBERATION.md",3,["闻主事","骆婆","林进","试行","决定权"]),
+"WM-T09":("WM_T09_POV_TIME.md",0,["傅吟","辛岑","陶姐","SEEN","HEARD","CONFIRMED","UNKNOWN"]),
+"WM-T10":("WM_T10_MEMORY_HISTORY.md",0,["谷秀","董婶","尤山","二十年","演出"]),
+"TX-T07":("TX_T07_OFFSTAGE_EFFECT.md",2,["秦七","屈嫂","顾同","后续因果树"]),
+"TX-T08":("TX_T08_REQUEST_EXECUTION.md",3,["米禾","周柱","刘杏","四阶段"]),
+"TX-T09":("TX_T09_PUBLIC_VERSION.md",3,["马嫂","宋罕","季望","五层版本"]),
+"TX-T10":("TX_T10_PROMISE_HOOK.md",3,["魏念","赵婶","第十五日","三栏事实"])
 }
 with (BASE/"W02_PREWORK_STATUS.tsv").open(encoding="utf-8") as f:
     rows={v["task_id"]:v for v in csv.DictReader(f,delimiter="\t")}
-assert len(rows)==12 and set(rows)==set(checks)
+assert len(rows)==20 and set(rows)==set(checks)==set(tasks)
 for task,(name,n,words) in checks.items():
     assert tasks[task]["truly_independent_C"]=="NOT_RUN"
     body=(BASE/name).read_text(encoding="utf-8")
-    assert sum("\u4e00"<=c<="\u9fff" for c in body)>=(1700 if task.endswith(("01","02","03")) else 1500),(task,"short output")
+    assert sum("\u4e00"<=c<="\u9fff" for c in body)>=(1700 if task.endswith(("01","02","03")) else 1500 if task.endswith(("04","05","06")) else 1200),(task,"short output")
     for i in range(1,n+1):
         mark="## "+["第一场","第二场","第三场"][i-1]
         assert body.count(mark)==1 or body.count("## 场景"+["一","二","三"][i-1])==1,(task,mark)
+    if task=="WM-T09":
+        assert all(h in body for h in ("## 第二卷末","## 第三卷首","## 第三卷中"))
+    if task=="WM-T10":
+        assert all(h in body for h in ("## 二十年前","## 二十年后","## 第三场"))
     for w in words: assert w in body,(task,w)
     assert "DIAGNOSTIC_ONLY" in body
     assert "独立C创作/评审均未执行" in body
@@ -57,7 +70,7 @@ for task,(name,n,words) in checks.items():
     assert row["independent_creator"]=="NOT_RUN"
     assert row["independent_judges"]=="NOT_RUN"
     assert row["official_w02_status"]=="NOT_STARTED"
-    required_commit="60d503feb8697433557c1287c97e42d0d4509324" if task.endswith("01") else "1e040f9dfb88bcc08922bbdc89f69e84dacb42d8" if task.endswith(("02","03")) else "b959f9fa90069e84973e716bfa5913628bc5a8f5"
+    required_commit="60d503feb8697433557c1287c97e42d0d4509324" if task.endswith("01") else "1e040f9dfb88bcc08922bbdc89f69e84dacb42d8" if task.endswith(("02","03")) else "b959f9fa90069e84973e716bfa5913628bc5a8f5" if task.endswith(("04","05","06")) else "c8908360db149096b4f3a70f40896bd9bdbc9831"
     assert row["input_commit"]==required_commit
 
 # Fixture arithmetic is an authored diagnostic assertion, not an evidence-of-truth certification.
@@ -86,4 +99,4 @@ cur=(ROOT/"V13_W_CURRENT_V5.json").read_text(encoding="utf-8")
 assert '"current_package": "W01"' in cur
 assert '"current_package_status": "BLOCKED"' in cur
 assert '"completed_packages": 0' in cur
-print("STRUCTURE_ONLY_PASS: 12/20 frozen prework outputs; 0/20 independent C. W01 BLOCKED, 0/11 packages.")
+print("STRUCTURE_ONLY_PASS: 20/20 authored frozen prework outputs; 0/20 independent C. W01 BLOCKED, 0/11 packages.")

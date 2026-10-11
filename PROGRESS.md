@@ -37,3 +37,9 @@ W01实际增量：56项不同原创公开校准题已固定，对应56个可测V
 冻结合同先单独提交[WM-T04/05/06与TX-T04/05/06](v13_w/w02/prework_20261012/FROZEN_WM04_06_TX04_06.md)（`b959f9f`）。在其后实际编写六份原创故事及资源和主体认知账：[现金流与工期](v13_w/w02/prework_20261012/WM_T04_CASHFLOW.md)、[三级命令视角差](v13_w/w02/prework_20261012/WM_T05_THREE_POV.md)、[对手自主与延迟消息](v13_w/w02/prework_20261012/WM_T06_THREE_SIDES.md)、[替代粮的二次成本](v13_w/w02/prework_20261012/TX_T04_REPLACEMENT_COST.md)、[制度晋升质疑和试行缺口](v13_w/w02/prework_20261012/TX_T05_POLICY_REVISION.md)、[三方知情与有限协作](v13_w/w02/prework_20261012/TX_T06_THREE_PARTY_AGREEMENT.md)。配套[可检查的作者声明资源账](v13_w/w02/prework_20261012/W02_6_CASE_RESOURCE_FIXTURES.json)，统一脚本校验12个样本的冻结原件、场次和账内算式。
 
 **质量门不变**：这12项为主Agent编写的公开前置作品，不是独立创作者的独立C；另8项尚未撰写，真正独立C=0/20，独立V3=0，W01 BLOCKED、W02官方NOT_STARTED、正式工作包0/11。
+
+## 2026-10-12｜W02 原20个Stage0 C合同的公开原创诊断作品写齐（不等于独立C通过）
+
+最后8项先冻结输入（`c890836`）再写作品：[WM-T07](v13_w/w02/prework_20261012/WM_T07_POST_SUCCESS.md)、[WM-T08](v13_w/w02/prework_20261012/WM_T08_DELIBERATION.md)、[WM-T09](v13_w/w02/prework_20261012/WM_T09_POV_TIME.md)、[WM-T10](v13_w/w02/prework_20261012/WM_T10_MEMORY_HISTORY.md)、[TX-T07](v13_w/w02/prework_20261012/TX_T07_OFFSTAGE_EFFECT.md)、[TX-T08](v13_w/w02/prework_20261012/TX_T08_REQUEST_EXECUTION.md)、[TX-T09](v13_w/w02/prework_20261012/TX_T09_PUBLIC_VERSION.md)、[TX-T10](v13_w/w02/prework_20261012/TX_T10_PROMISE_HOOK.md)。配套20项总状态及[全覆盖机械回归](scripts/validate_w02_prework.py)。
+
+**20/20是本Agent公开前置正文覆盖率，而非质量验收**；所有20项创作都出自本Agent，不符合独立C。官方W01 BLOCKED、W02 NOT_STARTED、0/11工作包、独立C=0/20、独立V3=0、SKILL认证=0保持不变。
