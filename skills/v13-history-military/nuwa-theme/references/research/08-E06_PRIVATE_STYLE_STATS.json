@@ -1,0 +1,38 @@
+{
+  "schema": "V13-E06-PRIVATE-STYLOMETRIC-NONIMITATIVE-SAMPLE-v1",
+  "date": "2026-10-12",
+  "sample_seed": 20261012,
+  "selection": "HTML p elements in EPUB zip order; 90<=length<=600 and >=5 punctuation; uniform sample with Python random.Random(20261012), n=20 per book",
+  "private_text_upload": false,
+  "books": {
+    "wanming": {
+      "epub_sha256": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+      "eligible_paragraphs": 9581,
+      "sample_n": 20,
+      "total_chars": 2453,
+      "mean_paragraph_chars": 122.7,
+      "mean_sentence_chars": 57.6,
+      "median_sentence_chars": 56.5,
+      "question_marks": 4,
+      "dialogue_open_quotes": 13,
+      "contrast_words": 2,
+      "certainty_words": 0,
+      "hedge_words": 0
+    },
+    "tiexuecanming": {
+      "epub_sha256": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf",
+      "eligible_paragraphs": 6730,
+      "sample_n": 20,
+      "total_chars": 2398,
+      "mean_paragraph_chars": 119.9,
+      "mean_sentence_chars": 52.4,
+      "median_sentence_chars": 52,
+      "question_marks": 2,
+      "dialogue_open_quotes": 10,
+      "contrast_words": 1,
+      "certainty_words": 0,
+      "hedge_words": 1
+    }
+  },
+  "interpretation": "Descriptive sample ONLY; not writer style replication, not whole-book representative; no author's expression copied."
+}
