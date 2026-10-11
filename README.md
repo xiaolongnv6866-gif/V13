@@ -1,9 +1,11 @@
-# V13.3｜原创历史军事长篇小说能力工程
+# V13｜原创历史军事长篇小说SKILL工程
 
-**当前唯一执行计划：** [V13.3 已批准48轮](V13_3_FIXED_48_ROUNDS.md)。
+**唯一目标**：严格按仓颉与女娲原版全部适用流程，研究《晚明》《铁血残明》的创作机制，最终交付能在普通聊天中创作、修改、续写原创长篇的真正可运行SKILL。未经过真实作品与独立使用检验，不宣布认证。
 
-**新会话只看** [START_HERE.md](START_HERE.md)；可复制简短的 [NEW_CHAT_START.md](NEW_CHAT_START.md)。当前进度以 [V13_CURRENT_V4.json](V13_CURRENT_V4.json) 和 [V13_LEDGER_V4.tsv](V13_LEDGER_V4.tsv) 为准，不以此页静态文字、旧R/B游标或聊天记忆为准。
+**先读全项目总控与清理结果**：[PROJECT_MASTER_AUDIT_20261012.md](PROJECT_MASTER_AUDIT_20261012.md)（覆盖旧R轮/89轮/110轮、V13.2/B轮96轮、V13.3/N轮48轮及清理前全部1,101个文件）。完整清理前快照见[备份分支](../../tree/archive/full-project-pre-consolidation-20261012)。
 
-关键入口：[下一步](NEXT_ACTION.md)｜[最新进度](PROGRESS.md)｜[执行规则](ROUND_EXECUTION_RULES.md)｜[两套原版SKILL来源](SKILL_SOURCES.md)｜[原著源身份](SOURCE_MANIFEST.md)。
+日常恢复只需：[START_HERE.md](START_HERE.md) → [正式游标](V13_CURRENT_V4.json) → [台账](V13_LEDGER_V4.tsv) → [唯一下一步](NEXT_ACTION.md)。
 
-既有文献、两书研究成果、原版SKILL流程、冻结合同和各轮证据未删除。旧项目控制文件仅供历史追溯。清理前的长恢复说明与旧入口已[归档](archive/2026-10-11-pre-cleanup/CLEANUP_MANIFEST.md)。
+适用流程：[锁定原版SKILL来源](SKILL_SOURCES.md)｜[全流程要求](V13_3_FULL_SKILL_REQUIREMENTS.tsv)｜[最终写作验收](V13_3_SKILL_DELIVERY_ACCEPTANCE.md)。
+
+**注意**：当前仍处于原批准48轮的20/48、N21 NOT_STARTED；在正式完成变更审批及回归前，不能把拟议的新轮次视为已经执行。
