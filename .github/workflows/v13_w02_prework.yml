@@ -1,0 +1,19 @@
+name: V13 W02 Original C Prework (not independent)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v13_w/w02/**'
+      - 'V13_3_STAGE0_20_TO_ROUNDS.tsv'
+      - 'scripts/validate_w02_prework.py'
+      - '.github/workflows/v13_w02_prework.yml'
+  workflow_dispatch:
+jobs:
+  mechanical:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify frozen WM-T01 and TX-T01, three scenes each and honest independent status
+        run: python3 scripts/validate_w02_prework.py
+      - name: Verify Python syntax
+        run: python3 -m py_compile scripts/validate_w02_prework.py
