@@ -68,5 +68,15 @@ for x in bridge:
     assert x["v3_independent_status"]==(b["independent_V3_evidence"] if wm else b["genuine_independent_v3"])=="NOT_RUN"
     assert x["v2_output_section"] in read(x["v2_actual_output_file"])
     assert x["source_bridge_status"]=="MECHANICAL_LINK_VERIFIED_ONLY"
+    expected_v1_file="v13_3/n17/N17_WM_V1_91.tsv" if wm else "v13_3/n18/N18_TX_V1_96.tsv"
+    assert x["v1_record_file"]==expected_v1_file
+    actual_v1=tab(expected_v1_file)
+    line=int(x["v1_record_line_1based"])
+    assert line>=2 and line<=len(actual_v1)+1
+    assert actual_v1[line-2]["candidate_id"]==cid.split("-",1)[1]
+    assert x["source_hashes_all"]==(a["paragraph_sha12_all"] if wm else a["all_paragraph_sha256"])
+    assert x["v1_scope"]==(a["V1_observed_original_scope"] if wm else a["source_scope_adjudication"])
+    assert x["v1_counterexample_boundary"]==(a["V1_counterexample_and_boundary"] if wm else a["competing_evidence_and_boundary"])
+    assert x["bridge_role"]=="ADDITIVE_SOURCE_METADATA_NO_BLIND_JUDGE_EXPOSURE"
 assert "GitHub Models" in read("v13_w/w01/W01_EVAL_PROTOCOL.md")
 print("PASS W01 input-only freeze: 56 prompts and V1/V2 source bridges; 5 partial + 8 V1-ineligible; 0 independent V3 claims")
