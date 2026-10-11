@@ -1,0 +1,35 @@
+{
+  "schema": "v13-novel-alpha-ledger-1",
+  "project": "YOUR_NEW_ORIGINAL_NOVEL",
+  "genre": "原创历史军事长篇",
+  "historical_disclaimer": "历史事实需另核，虚构世界规则明确标注",
+  "test_classification": "USER_CREATIVE_WORK",
+  "initial_accounts": {
+    "stock.dry": 0,
+    "stock.wet": 0,
+    "cash.public": 0,
+    "debt.wages": 0,
+    "stock.promised_not_arrived": 0
+  },
+  "permissions": [],
+  "facts": [
+    {
+      "fact_id": "starting_uncertainty",
+      "value": null,
+      "status": "UNKNOWN",
+      "source": null
+    }
+  ],
+  "characters": [],
+  "events": [],
+  "open_loops": [],
+  "next_chapter_brief": "",
+  "expected_balances": {
+    "stock.dry": 0,
+    "stock.wet": 0,
+    "cash.public": 0,
+    "debt.wages": 0,
+    "stock.promised_not_arrived": 0
+  },
+  "independent_review": "NOT_RUN_USER_WAIVED"
+}
