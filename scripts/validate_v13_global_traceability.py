@@ -39,18 +39,30 @@ assert sum(x["observed_status"]=="PASSED" for x in r89.values())==56
 assert r89["R057@v13.0"]["observed_status"]=="BLOCKED"
 assert sum(x["observed_status"]=="PASSED" for x in b.values())==9
 assert b["B076@v13.2"]["observed_status"]=="BLOCKED"
+# The traceability table is a 2026-10-12 historical snapshot, NOT a live
+# execution cursor. Keep the initial 20/48 evidence immutable; validate real
+# progress from V4 + the live ledger without freezing all future rounds at N21.
 assert sum(x["observed_status"]=="PASSED" for x in n.values())==20
-assert n["N21@v13.3"]["observed_status"]=="NOT_STARTED"
+assert all(n[f"N{i:02d}@v13.3"]["observed_status"]=="NOT_STARTED" for i in range(21,49))
 root=json.loads((P/"V13_CURRENT_V4.json").read_text(encoding="utf-8"))
-assert root["current_round"]=="N21" and root["completed_new_rounds"]==20
+assert root["total_new_rounds"]==48
+assert isinstance(root["completed_new_rounds"],int) and 20<=root["completed_new_rounds"]<=48
 plan=(P/"V13_REVISED_110_ROUNDS.md").read_text(encoding="utf-8")
 p110=re.findall(r"(?m)^\|R(\d{3})\|",plan)
 assert len(p110)==110 and p110==[f"{i:03d}" for i in range(1,111)]
 ledger=tsv("V13_LEDGER_V4.tsv")
 assert len(ledger)==48
 assert {x["round_id"]+"@v13.3" for x in ledger}==set(n)
-for x in ledger:
-    assert n[x["round_id"]+"@v13.3"]["observed_status"]==x["status"]
+done=root["completed_new_rounds"]
+assert all(x["status"]=="PASSED" for x in ledger[:done])
+assert all(x["status"]=="NOT_STARTED" for x in ledger[done+1:])
+if done<48:
+    assert ledger[done]["status"] in {"NOT_STARTED","IN_PROGRESS","BLOCKED","FAILED"}
+    assert (root["current_round"],root["current_round_status"])==(ledger[done]["round_id"],ledger[done]["status"])
+else:
+    assert (root["current_round"],root["current_round_status"])==(ledger[-1]["round_id"],ledger[-1]["status"])
+# The first 20 N receipts have already passed and may not regress.
+assert all(ledger[i]["status"]=="PASSED" for i in range(20))
 original=tsv("V13_3_ISSUES_426_TO_ROUNDS.tsv")
 require_same("ISSUE_426",None,[x["issue_id"] for x in original])
 src=tsv("v13_3/n16/N16_LITERARY_B_296_MASTER.tsv")
@@ -70,10 +82,17 @@ v3=tsv("V13_3_V3_69_TO_ROUNDS.tsv")
 require_same("V3_69",None,[x["repeat_id"] for x in v3])
 vg=Counter(x["trace_note"].split(";")[-1] for x in by("V3_69").values())
 assert vg=={"PRE_V3_ELIGIBLE":56,"V2_PARTIAL":5,"V1_INELIGIBLE":8},vg
-assert all(x["actual_independent_result"]=="NOT_RUN" for x in v3)
+# Genuine tests must be able to advance; never treat today's NOT_RUN as a
+# permanent invariant.  A claimed independent V3 outcome cannot be recorded
+# with unassigned creator/judges (still not a substitute for evidence review).
+assert all(x["actual_independent_result"].strip() for x in v3)
+for x in v3:
+    if x["actual_independent_result"]!="NOT_RUN":
+        assert all(x[k] and x[k]!="UNASSIGNED" for k in
+                   ("creator","blind_judge_one","blind_judge_two")), x["repeat_id"]
 c20=tsv("V13_3_STAGE0_20_TO_ROUNDS.tsv")
 require_same("STAGE0_C20",None,[x["old_task_id"] for x in c20])
-assert all(x["truly_independent_C"]=="NOT_RUN" for x in c20)
+assert all(x["truly_independent_C"].strip() for x in c20)
 co=tsv("V13_3_ORIGINAL_44_CONTRACTS_MAP.tsv")
 require_same("CONTRACT_44",None,[x["original_contract"]+"@v13.1" for x in co])
 assert all(x["original_required_actions"] and x["original_acceptance"] and x["do_not_delete"]=="TRUE" for x in co)
@@ -119,4 +138,4 @@ for row in manifest:
     else:
         assert not path.exists(), ("archived file still active", row["file_path"])
 
-print("PASS global traceability STRUCTURE ONLY: 1058 task records; 89->110 collision 32, manual R057; 426/187/69/20/44/35; 1101 source files; zero independent V3 or certified SKILL claimed.")
+print("PASS global traceability STRUCTURE ONLY: 1058 task records; 89->110 collision 32, manual R057; 426/187/69/20/44/35; 1101 source files; V3 pending "+str(sum(x["actual_independent_result"]=="NOT_RUN" for x in v3))+"/69; independent literary certification NOT tested by this script.")
