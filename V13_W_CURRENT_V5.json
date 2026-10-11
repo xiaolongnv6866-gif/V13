@@ -2,7 +2,7 @@
   "schema": "V13-W-V5",
   "project": "V13",
   "version": "V5",
-  "status": "EXECUTING_11_APPROVED_WORKPACKAGES",
+  "status": "LEGACY_W01_STRICT_CERTIFICATION_BLOCKED_AND_E01_E08_BUILD_DELIVERED",
   "approval": "2026-10-12 user replied 批准 to 28-to-11 proposal",
   "plan": "V13_APPROVED_11_WORKPACKAGES.md",
   "ledger": "V13_W_LEDGER_V5.tsv",
@@ -55,5 +55,26 @@
     "old_current_package_field": "Legacy strict acceptance cursor W01 BLOCKED - not the product delivery order",
     "independent_validation_and_host_install": "NOT_RUN_USER_WAIVED",
     "user_asks_to_reopen_independent_validation": false
+  },
+  "current_effective_user_directed_delivery": {
+    "decision_date": "2026-10-12",
+    "decision": "Execute last 8 substantive Cangjie/Nuwa construction rounds, waive independent tests, deliver unique fused SKILL",
+    "rounds_plan": "E01-E08_FIXED_NO_ADDITIONAL_ROUNDS",
+    "rounds_delivered": 8,
+    "rounds_total": 8,
+    "construction_status": "BUILD_DELIVERED",
+    "authoritative_product_entry": "skills/v13-history-military/SKILL.md",
+    "authoritative_product_manifest": "skills/v13-history-military/BUILD_MANIFEST.json",
+    "authoritative_construction_ledger": "v13_e/E01_E08_CONSTRUCTION_LEDGER.tsv",
+    "authoritative_delivery_receipt": "V13_E_FINAL_DELIVERY_20261012.md",
+    "original_cangjie_compile_single_pack": "CI_SUCCESS",
+    "nuwa_phase2_models": 4,
+    "nuwa_heuristics": 8,
+    "original_scene_tasks": 20,
+    "source_candidates_processed": 187,
+    "independent_literary_validation": "NOT_RUN_USER_WAIVED",
+    "nuwa_independent_agents": "NOT_RUN_USER_WAIVED",
+    "single_skill_entry": "skills/v13-history-military/SKILL.md",
+    "legacy_current_package_W01_not_reclassified": "W01_BLOCKED_STRICT_CERTIFICATION_ONLY"
   }
 }
