@@ -1,39 +1,58 @@
 #!/usr/bin/env python3
-"""Check W02 preregistered fiction evidence mechanically, without literary certification."""
+"""W02 public/preregistered original-fiction prework, STRUCTURE ONLY.
+
+Never treat this script as an independent literary C assessment.
+"""
 from pathlib import Path
 import csv
 import hashlib
-import re
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/"v13_w/w02/prework_20261012"
-CONTRACT=BASE/"FROZEN_WM_TX_01_CONTRACT.md"
-EXPECTED_CONTRACT_BLOB="4e151ba33f75b7e9fcb80118b8bd975eb5aaa47b"
+LOCKED={
+"FROZEN_WM_TX_01_CONTRACT.md":"4e151ba33f75b7e9fcb80118b8bd975eb5aaa47b",
+"FROZEN_WM02_WM03_TX02_TX03.md":"067c35d7e8199086af25eb55cc2fc027a945a590"
+}
+def blob_sha(p):
+    b=p.read_bytes()
+    return hashlib.sha1(b"blob "+str(len(b)).encode()+b"\0"+b).hexdigest()
+for name,sha in LOCKED.items():
+    assert blob_sha(BASE/name)==sha, f"Unfrozen or modified preregistration: {name}"
 
-def git_blob(path):
-    data=path.read_bytes()
-    return hashlib.sha1(b"blob "+str(len(data)).encode()+b"\0"+data).hexdigest()
-
-assert git_blob(CONTRACT)==EXPECTED_CONTRACT_BLOB,"frozen W02 preregistration unexpectedly changed"
-mapping={r["old_task_id"]:r for r in csv.DictReader(
-    (ROOT/"V13_3_STAGE0_20_TO_ROUNDS.tsv").read_text(encoding="utf-8").splitlines(),delimiter="\t")}
-assert len(mapping)==20
-required={"WM-T01":("WM_T01_3_SCENES.md",["田栀","彭槐","孟济","候补工","状态差值"]),
-          "TX-T01":("TX_T01_3_SCENES.md",["黄述","赵姑","范四","林末","四方关系"])}
-for key,(filename,words) in required.items():
-    assert mapping[key]["truly_independent_C"]=="NOT_RUN",key
-    body=(BASE/filename).read_text(encoding="utf-8")
-    assert sum("\u4e00"<=c<="\u9fff" for c in body)>=1700,key
-    for heading in ("## 第一场","## 第二场","## 第三场"):
-        assert body.count(heading)==1,(key,heading)
-    for word in words: assert word in body,(key,word)
+with (ROOT/"V13_3_STAGE0_20_TO_ROUNDS.tsv").open(encoding="utf-8") as f:
+    tasks={v["old_task_id"]:v for v in csv.DictReader(f,delimiter="\t")}
+assert len(tasks)==20
+checks={
+"WM-T01":("WM_T01_3_SCENES.md",3,["田栀","彭槐","孟济","候补工","状态差值"]),
+"TX-T01":("TX_T01_3_SCENES.md",3,["黄述","赵姑","范四","林末","四方关系"]),
+"WM-T02":("WM_T02_3_SCENES.md",3,["白荷","周椿","八根","六根","两根","双视角"]),
+"WM-T03":("WM_T03_FIVE_LEDGERS.md",3,["温绍","祝闻舟","五账","八两","四人","两人"]),
+"TX-T02":("TX_T02_APPLICATION_STATES.md",2,["蔡宁","何顺","宁振","五状态","授权","追责"]),
+"TX-T03":("TX_T03_AUTONOMOUS_STAFF.md",2,["叶监","陈豆","庄嫂","职责依赖图","西滩","东棚"])
+}
+with (BASE/"W02_PREWORK_STATUS.tsv").open(encoding="utf-8") as f:
+    rows={v["task_id"]:v for v in csv.DictReader(f,delimiter="\t")}
+assert len(rows)==6 and set(rows)==set(checks)
+for task,(name,n,words) in checks.items():
+    assert tasks[task]["truly_independent_C"]=="NOT_RUN"
+    body=(BASE/name).read_text(encoding="utf-8")
+    assert sum("\u4e00"<=c<="\u9fff" for c in body)>=1700,(task,"short output")
+    for i in range(1,n+1):
+        mark="## "+["第一场","第二场","第三场"][i-1]
+        assert body.count(mark)==1,(task,mark)
+    for w in words: assert w in body,(task,w)
     assert "DIAGNOSTIC_ONLY" in body
     assert "独立C创作/评审均未执行" in body
-status=(BASE/"W02_PREWORK_STATUS.tsv").read_text(encoding="utf-8")
-entries=list(csv.DictReader(status.splitlines(),delimiter="\t"))
-assert len(entries)==2 and set(r["task_id"] for r in entries)==set(required)
-for e in entries:
-    assert e["status"]=="WRITTEN_DIAGNOSTIC_ONLY"
-    assert e["independent_creator"]=="NOT_RUN"
-    assert e["independent_judges"]=="NOT_RUN"
-print("STRUCTURE_ONLY_PASS: frozen before writing; 2/20 prework texts, 0/20 independent C; W01 BLOCKED and W02 NOT_STARTED")
+    row=rows[task]
+    assert row["output_file"]==name
+    assert row["status"]=="WRITTEN_DIAGNOSTIC_ONLY"
+    assert row["independent_creator"]=="NOT_RUN"
+    assert row["independent_judges"]=="NOT_RUN"
+    assert row["official_w02_status"]=="NOT_STARTED"
+    required_commit="60d503feb8697433557c1287c97e42d0d4509324" if task.endswith("01") else "1e040f9dfb88bcc08922bbdc89f69e84dacb42d8"
+    assert row["input_commit"]==required_commit
+cur=(ROOT/"V13_W_CURRENT_V5.json").read_text(encoding="utf-8")
+assert '"current_package": "W01"' in cur
+assert '"current_package_status": "BLOCKED"' in cur
+assert '"completed_packages": 0' in cur
+print("STRUCTURE_ONLY_PASS: 6/20 frozen prework outputs; 0/20 independent C. W01 BLOCKED, 0/11 packages.")
