@@ -9,3 +9,6 @@
 审批事实/迁移映射：[V13_W_MIGRATION_APPROVAL_20261012.md](V13_W_MIGRATION_APPROVAL_20261012.md)｜[V13_W_MIGRATION_MAP_V5.tsv](V13_W_MIGRATION_MAP_V5.tsv)。原版用户确认门保留于W02、W06、W07、W08、W09、W10、W11。下步见[NEXT_ACTION.md](NEXT_ACTION.md)。
 
 W01实际增量：56项不同原创公开校准题已固定，对应56个可测V1/V2候选；5项V2部分完成和8项V1不具备资格单列不参加。**独立主体仍UNASSIGNED、真实V3仍0，W01保持BLOCKED**；不把公开校准冒充未泄漏保留题。
+
+## 与W01独立门并行的真实原创正文功能烟测
+2026-10-12已先独立冻结全新《潮汛账》三章测试题和资源/权限条件，再实际写三章连续完整原创小说、实验性自包含写作SKILL、终局反推大纲、跨章JSON账、审稿及自动回归。入口：[experiments/novel_field_test_20261012/README.md](experiments/novel_field_test_20261012/README.md)。该材料**不计正式69项独立V3或原20项独立C，也没有外部盲审和普通新聊天实测**。W01仍BLOCKED，0/11，不改变原版用户确认门。

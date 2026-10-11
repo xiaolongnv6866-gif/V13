@@ -1,0 +1,18 @@
+name: V13 Original Fiction Functional Smoke
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'experiments/novel_field_test_20261012/**'
+      - 'scripts/validate_novel_fieldtest_20261012.py'
+      - '.github/workflows/v13_novel_fieldtest.yml'
+  workflow_dispatch:
+jobs:
+  continuity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify frozen test before prose and multi-chapter continuity (not literary blind certification)
+        run: python3 scripts/validate_novel_fieldtest_20261012.py
+      - name: Check syntax and disclaimer
+        run: python3 -m py_compile scripts/validate_novel_fieldtest_20261012.py
