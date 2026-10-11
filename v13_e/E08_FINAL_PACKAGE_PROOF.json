@@ -1,0 +1,52 @@
+{
+  "schema": "V13-E08-FINAL-PACKAGE-INTEGRITY-v1",
+  "date": "2026-10-12",
+  "artifact_source": {
+    "workflow": "v13-writing-skill-build.yml",
+    "run_id": 38178085250,
+    "run_url": "https://github.com/xiaolongnv6866-gif/V13/actions/runs/38178085250",
+    "artifact_id": 11716406919,
+    "artifact_name": "v13-history-military-writing-skill",
+    "build_source_commit": "8180b3688c6fb7f69c598f819d989835facfefc1"
+  },
+  "source_tree_integrity": {
+    "remote_current_main_at_verification": "dff3eb93ef403c7e7d2d9b99f2052b056a7c05d0",
+    "skills_tree_sha": "da82c98e450ee75e4de5c8d9f4815a28d5ae43ab",
+    "skills_subtree_unchanged_since_build": true,
+    "books_subtree_unchanged_since_build": true
+  },
+  "unwrapped_install_package": {
+    "file_name": "V13_HISTORY_MILITARY_SKILL_V1_1_FINAL.zip",
+    "zip_sha256": "0f3a2234309269741994a405cbe22aeea7eac88857f180ada211d26c3696002d",
+    "zip_size_bytes": 445621,
+    "zip_file_count": 168,
+    "discoverable_skill_files": [
+      "v13-history-military/SKILL.md"
+    ],
+    "contained_original_stage0_prose_files": 20,
+    "contained_RIA_cards": 64,
+    "private_epub_count": 0,
+    "nuwa_models": 4,
+    "nuwa_heuristics": 8,
+    "manifest_version": "1.1.0"
+  },
+  "executed_evidence": {
+    "original_cangjie_single_compile": "PASS",
+    "original_cangjie_pack_compile": "PASS",
+    "original_cangjie_validate_skill_pack_py": "PASS",
+    "regression_unittest_count": 33,
+    "regression_result": "PASS",
+    "state_verification": "STRUCTURE_ONLY_PASS",
+    "cross_chat_handoff_build": "PASS",
+    "deterministic_zip_build": "PASS"
+  },
+  "independent_validation": {
+    "cangjie_V3": "NOT_RUN_USER_WAIVED",
+    "nuwa_phase4": "NOT_RUN_USER_WAIVED",
+    "nuwa_phase5_distinct_subjects": "NOT_RUN_USER_WAIVED",
+    "third_party_blind": "NOT_RUN_USER_WAIVED",
+    "four_arm": "NOT_RUN_USER_WAIVED",
+    "clean_host_load": "NOT_RUN_USER_WAIVED"
+  },
+  "assessment": "E01-E08 real construction and mechanical delivery completed; independent literary superiority NOT claimed."
+}
