@@ -1,0 +1,36 @@
+{
+  "schema": "V13-UNIFIED-WRITING-SKILL-DELIVERY-v1",
+  "name": "v13-history-military",
+  "version": "1.0.0",
+  "date": "2026-10-12",
+  "entry": "SKILL.md",
+  "status": "BUILT_DELIVERED_USER_WAIVED_EXTERNAL_VERIFICATION",
+  "source_epubs_sha256": {
+    "wanming": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+    "tiexuecanming": "9100bbcdb9f52bcd5458cbda92e16b646489efbc00df5161ed568ebac83ffbaf"
+  },
+  "original_method_candidates": 187,
+  "method_cards": 64,
+  "v2_scoped": 61,
+  "v1_supported_v2_not_done": 3,
+  "reference_only": 113,
+  "source_needs_review": 10,
+  "nuwa_independent_primary_theories": 3,
+  "nuwa_models": 3,
+  "nuwa_heuristics": 8,
+  "original_complete_chapter_examples": 5,
+  "tools": [
+    "scripts/validate_state.py",
+    "scripts/build_handoff.py",
+    "scripts/build_release.py"
+  ],
+  "primary_git_repo": "https://github.com/xiaolongnv6866-gif/V13",
+  "independent_V3": "NOT_RUN_USER_WAIVED",
+  "independent_C_tasks": "NOT_RUN_USER_WAIVED",
+  "nuwa_independent_phase4": "NOT_RUN_USER_WAIVED",
+  "nuwa_distinct_agent_phase5": "NOT_RUN_USER_WAIVED",
+  "four_arm_independent": "NOT_RUN_USER_WAIVED",
+  "clean_host_install": "NOT_RUN_USER_WAIVED",
+  "external_paid_permission": false,
+  "copyright": "Private source texts stay local; only source anchors/hash/abstract mechanisms are published."
+}
