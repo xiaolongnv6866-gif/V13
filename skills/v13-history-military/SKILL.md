@@ -1,7 +1,7 @@
 ---
 name: v13-history-military
 description: Build, write, revise, audit, and resume original Chinese long-form historical-military fiction. Trigger for an original historical military novel's premise, world, series outline, character ensemble, political/fiscal/logistics plot, chapter prose, continuation, or substantive rewrite. Never imitate a named living author's distinctive style or reproduce source novels.
-version: 1.1.1
+version: 1.2.0
 ---
 
 # V13｜原创长篇历史军事小说 · 正式创作主SKILL
@@ -12,7 +12,23 @@ version: 1.1.1
 
 **本版本是面向用户交付的单入口建设版。** 用户已免除本次交付的外部独立验证，不代表原版Cangjie V3/Stage4或Nuwa Phase4/5真的通过。实用性由可执行流程、原创建章样本与机械校验支持；独立文学效果仍标 NOT_RUN_USER_WAIVED。不要在日常写作中向用户反复讲验证流程。
 
-## V13.1.1｜章节交付门禁：无需用户提醒，必须在发布前自动执行
+## v1.2｜先写活人和故事，再用规则审查；文学审稿不可伪造
+
+**入口决定：**任何“写第一章/继续/改稿”请求，先读 `PROJECT_BIBLE`、最近正文与STATE，**必须同时加载`references/03-SCENE_AND_PROSE.md`和`07-EDITOR_AND_FAILURES.md`**。若这两个文件没实际读到，不能把本次正文标为V13成品。64卡负责专项问题，不得替代文学创作模块；先决定本章独有的人物与情势，再从真实相关的能力卡路由，不为填表选卡。
+
+**内在工作顺序（不能对用户展示检查表代替正文）：**
+1. 从本章的一个实际生活困局出发，选择两个不同的进入方式，只保留更有效的。未采用方案不是“初稿”。
+2. 写出人物具体私欲、其他人物不服务于主角的行动、不可撤销的选择。不要让历史人物给主角考试，也不要让现代知识变成自动通行证。
+3. **写出完整真实初稿并保存**。只有看到初稿之后才开展整体文学诊断；严禁先造一份近似终稿再故意做差，靠补回来骗取修订记录。
+4. 初稿整体阅读不看JSON：先判断是否让陌生读者愿意读下去、是否有时代生活、是否有人物独有的语感，再定位场景/物理因果/知情/文笔问题。先修故事骨架，再修句群，最后修字词。见03的“七项具体写法”和07的“四次回读”。
+5. 最终稿再读一遍。若仍有明确的主要缺陷，标 `LITERARY_REVISION_REQUIRED`；**不得因为chapter_gate.py显示结构PASS就宣称文学合格**。
+6. 若已有针对当前正文的未消除文学审计，必须先修正文而不是增加“完成”标签。未得到作者认可的稿件只能记为 `EDITOR_ACCEPTABLE_SELF_REVIEW` 或 `USER_REVIEW_PENDING`，不能记 `AUTHOR_ACCEPTED`。
+
+**64张能力卡的定位**：其RIA++保留来源完整性，执行E段对一般状态记录存在大量同构，是本版明确的“写作转化不足”；这些卡只能协助识别相关冲突和边界。实际生成语言的操作另见03；从哪里获得具体例证必须追溯原著定位，不得把自行举例当原作者写法。写作者每次按任务选卡，不把“全部使用64卡”当成功指标。
+
+**成功证据不是一张表。** 必须在正文中能指出：一个不能换身份的选择、一个由该时空产生的阻力、一段真实有呼吸的叙述、一场不会被删去而故事照常发生的关系行动、一项清楚的后续压力。若只能在REVIEW.json里讲清楚而正文看不出来，仍是不合格。
+
+## v1.1.1既有结构门禁（保留）：无需用户提醒，必须在发布前自动执行
 
 > **优先于「快速直接写完正文」的便利性。** 仓库里写了规则，不等于模型实际完成规则。过去的第一章试写暴露出：只读取少量参考便开写、跳过审稿和状态账，用户不得再承担追问「你使用SKILL了吗」的成本。所有原创正式章节（包括作者请求「写第一章让我看看」的试写），必须执行以下内部闭环；无需用户另行说「调用」「检查」或确认。
 
