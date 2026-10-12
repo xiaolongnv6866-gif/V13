@@ -15,6 +15,11 @@ class ChenQimingChapterOne(unittest.TestCase):
         self.assertIn("八万", content)
         self.assertIn("许得安", content)
         self.assertIn("孙传庭", content)
+        # Regression checks for known voice-attribution failures; not a literary score.
+        self.assertNotIn("“我不知道。”他说。", content)
+        self.assertNotIn("要过几百年才有", content)
+        self.assertIn("陈启明在心里", content)
+        self.assertIn("“小人不知道。”陈启明低声答道。", content)
         receipt=__import__("json").loads((project/"CHAPTER_001_REVIEW.json").read_text(encoding="utf-8"))
         self.assertEqual(receipt["literary_decision"],"LITERARY_REVISION_REQUIRED")
         self.assertGreaterEqual(receipt["editor_ai_flavor_severity_0_to_10"],7)
