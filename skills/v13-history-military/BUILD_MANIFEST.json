@@ -1,7 +1,7 @@
 {
   "schema": "V13-UNIFIED-WRITING-SKILL-DELIVERY-v2",
   "name": "v13-history-military",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "date": "2026-10-12",
   "entry": "SKILL.md",
   "status": "E01_E08_CONSTRUCTION_DELIVERED_USER_WAIVED_INDEPENDENT_VALIDATION",
@@ -74,8 +74,8 @@
     "scripts/validate_state.py",
     "scripts/chapter_gate.py"
   ],
-  "regression_tests_last_confirmed": 33,
-  "regression_run": "https://github.com/xiaolongnv6866-gif/V13/actions/runs/38177951201",
+  "regression_tests_last_confirmed": "AWAITING_V1_2_CI_AFTER_FINAL_COMMIT",
+  "regression_run": "AWAITING_V1_2_CI_AFTER_FINAL_COMMIT",
   "external_literary_blind_review": "NOT_RUN_USER_WAIVED",
   "source_integrity": {
     "private_paragraph_anchor_count": 322,
@@ -91,6 +91,12 @@
     "review_template": "templates/CHAPTER_REVIEW_RECEIPT.json",
     "structural_negative_tests": "tests/test_chapter_gate.py",
     "claim": "STRUCTURAL_ONLY_NOT_LITERARY_CERTIFICATION",
-    "host_auto_installation": "NOT_GUARANTEED"
+    "host_auto_installation": "NOT_GUARANTEED",
+    "literary_craft_reference": "references/03-SCENE_AND_PROSE.md",
+    "genuine_revision_reference": "references/07-EDITOR_AND_FAILURES.md",
+    "card_effectiveness_audit": "capabilities/EFFECTIVENESS_AUDIT.md",
+    "known_literary_rejection": "FAIL",
+    "author_acceptance": "USER_REVIEW_PENDING_NOT_AUTOMATICALLY_GRANTED",
+    "v13_novel_production_example": "../../novels/chen-qiming/CHAPTER_001.md"
   }
 }
