@@ -64,6 +64,14 @@ Composer 必须根据本次场景的**实际需要**而不是按文件名平均�
 
 文艺生成判断参见 [references/CREATIVE_ENGINE.md](references/CREATIVE_ENGINE.md)，同题修订走 [references/ITERATION_PROTOCOL.md](references/ITERATION_PROTOCOL.md)。
 
+## 3.4｜人物权重与心理视角的真正执行（作者最新反馈）
+
+直接执行 [references/VOICE_AND_CHARACTER_EXECUTION.md](references/VOICE_AND_CHARACTER_EXECUTION.md)：内心独白须有明确主体、心理引导与标点；第三人称旁白不伪装成无主心声或越界知道他人念头。心理必须引向行为，不能一章反复让旁白解释主角为什么正确。
+
+**人物入场在写之前完成选择，而不是写完再找意义**：每个登场或被提名而实质影响决策的人，其当日位置、人格动机、资源权限、戏份性质都应已知。凡是核心人物、长期人物、或能因一纸调任/提前释放撬动历史的“历史杠杆人物”，先按 [《陈启明》人物与历史分岔决策](../../novels/chen-qiming/CHARACTER_ENTRY_CAUSAL_DECISIONS.md) 选实际路径，推演长期后果；再决定是否让其在本章出场或触发事件。
+
+**禁止用孙传庭一声名字换取崇祯震惊，然后假定他早释却1641—1644一切依旧。** 他在1639年提名后如真引发用人变化，必须重算朝廷官员、农民军、南阳和1644皇帝处境。未推演前可延后提名；这不是删除历史人物，而是尊重其真实份量。不因完成“人物卡”就认为小说必然好看，最后仍以正文来证明。
+
 ## 3.5｜可运行的创作执行层（新增，不是假Agent）
 
 宿主可执行Python时，`scripts/creative_run.py` 负责真实阶段边界；**不要再仅靠段落标题声称“Planner/Reviewer/Reviser已执行”**。完整故事写作由模型负责，确定性的登记和事实检查由程序负责：
