@@ -65,6 +65,28 @@ python3 skills/v13-writer-mind/scripts/scene_lab.py verify \
 - [陈启明唯一Canon](../../novels/chen-qiming/PROJECT_BIBLE.md)
 - 旧 `skills/v13-history-military/`、`skills/v13-storycraft/` 作为资料，不再作为默认写作流程。
 
+
+## 可执行的 Creative Harness（2026-10-12 新增）
+
+源码：[scripts/creative_run.py](scripts/creative_run.py)。这是**真正可运行的文件级阶段控制**，不是单纯列出Writer/Reviewer/Reviser标签，也不是已经部署的InkOS多Agent。
+
+```bash
+python3 skills/v13-writer-mind/scripts/creative_run.py init \
+  --root training/creative_runs --case chen-001 --lock /path/to/TASK_LOCK.md
+python3 skills/v13-writer-mind/scripts/creative_run.py draft \
+  --root training/creative_runs --case chen-001 --file /path/to/V001.md --hypothesis "初稿选择"
+python3 skills/v13-writer-mind/scripts/creative_run.py review \
+  --root training/creative_runs --case chen-001 --version V001 --file /path/to/V001.review.json
+python3 skills/v13-writer-mind/scripts/creative_run.py draft \
+  --root training/creative_runs --case chen-001 --file /path/to/V002.md --hypothesis "完整结构重写"
+python3 skills/v13-writer-mind/scripts/creative_run.py status \
+  --root training/creative_runs --case chen-001
+```
+
+审稿JSON每项必须具有`line`（1起始的原文章行）、`quote`（该行确切原文片段）、`reader_cost`（读者实际损失）、`repair`（修复办法）；脚本逐项校验，不允许用没有原文证据的模型诊断假装执行成功。第二版必须存在第一版合法审稿且文本发生真实改变。稿件、审稿、运行任务锁都有SHA256防篡改核验，**任何版本不会自动晋升为正式Canon**。
+
+**能力边界**：Python脚本负责记录/校验，不自动调用LLM、不会按文学质量打分。本轮可运行流程已在本地以3份第一章候选全文、3份来源审稿、完整版本账及篡改/审稿关口测试实跑；读者未认可任何版本，因此它们仍属于`MODEL_CANDIDATE_UNRATED`。源码在GitHub，测试产物如未另行写入仓库，应以本轮实际交付压缩包为准。
+
 ## 可核实状态
 
 已完成：重写Skill，拆分专业参考、加入同题训练工具、保留旧材料和历史验收边界。
