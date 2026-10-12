@@ -2,7 +2,7 @@
   "schema": "v13-chapter-review-receipt-1",
   "chapter": 1,
   "status": "REVISED_AND_RECHECKED",
-  "literary_decision": "EDITOR_ACCEPTABLE_SELF_REVIEW",
+  "literary_decision": "LITERARY_REVISION_REQUIRED",
   "user_acceptance": "USER_REVIEW_PENDING",
   "opening_goal": "失去身份和自由的陈启明先求生，不愿假称懂军国决策；崇祯必须在宫中突然异变之时仍继续处理宁武欠饷案。",
   "exit_change": "皇帝对宁武欠饷作出查明的即时处置；亲见奇人及现代物件仍只作为异常证据。陈启明在被看管状态下留下有空白的三类陈述，向守卫打听孙传庭而被转报内侍。",
@@ -152,5 +152,9 @@
       "final_excerpt": "许得安本在廊下靠墙站着，听见这名字，立刻直起身。",
       "state_delta": "守卫将私问转报内侍，形成次章的实质情报传播"
     }
-  ]
+  ],
+  "editor_ai_flavor_severity_0_to_10": 7.5,
+  "editor_self_assessment_0_to_10": 5.2,
+  "last_literary_audit": "CHAPTER_001_V12_LITERARY_AUDIT.md",
+  "editorial_reason": "存在AI模板化场景、作者总结解释、崇祯变成现代专业知识考官、陈的孙传庭失误动机不足、文字残句和指令歧义；保留真实改稿证据但不能以编辑合格发布"
 }
