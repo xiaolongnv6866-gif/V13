@@ -89,6 +89,12 @@ class ChapterGateRegression(unittest.TestCase):
         with self.assertRaisesRegex(GateError,"NEXT_SCENE"):
             verify(self.p,1)
 
+    def test_explicit_literary_rejection_blocks(self):
+        self.receipt["literary_decision"]="LITERARY_REVISION_REQUIRED"
+        self.rfile.write_text(json.dumps(self.receipt,ensure_ascii=False),encoding="utf8")
+        with self.assertRaisesRegex(GateError,"known rejected literary draft"):
+            verify(self.p,1)
+
     def test_fake_card_blocks(self):
         self.receipt["applied_cards"][0]["id"]="FAKE-001"
         self.rfile.write_text(json.dumps(self.receipt,ensure_ascii=False),encoding="utf8")
