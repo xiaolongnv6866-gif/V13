@@ -95,6 +95,24 @@ class ChapterGateRegression(unittest.TestCase):
         with self.assertRaisesRegex(GateError,"known rejected literary draft"):
             verify(self.p,1)
 
+    def test_thirteen_relevant_cards_are_not_silently_dropped(self):
+        # A cross-domain chapter may genuinely trigger more than the
+        # previous arbitrary 12-card ceiling; structure must permit it.
+        ids=sorted(p.stem for p in (ROOT/"capabilities/cards").glob("*.md"))[:13]
+        self.assertEqual(len(ids),13)
+        original=self.receipt["applied_cards"][0]
+        self.receipt["applied_cards"]=[
+            {**original,"id":cid} for cid in ids
+        ]
+        self.rfile.write_text(json.dumps(self.receipt,ensure_ascii=False),encoding="utf8")
+        self.assertEqual(len(verify(self.p,1)["cards"]),13)
+
+    def test_duplicate_relevant_card_blocks(self):
+        self.receipt["applied_cards"].append(dict(self.receipt["applied_cards"][0]))
+        self.rfile.write_text(json.dumps(self.receipt,ensure_ascii=False),encoding="utf8")
+        with self.assertRaisesRegex(GateError,"duplicate applied cards"):
+            verify(self.p,1)
+
     def test_fake_card_blocks(self):
         self.receipt["applied_cards"][0]["id"]="FAKE-001"
         self.rfile.write_text(json.dumps(self.receipt,ensure_ascii=False),encoding="utf8")
