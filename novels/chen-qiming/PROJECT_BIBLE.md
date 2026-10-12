@@ -4,7 +4,7 @@
 ## 权威与等级
 - 本文件整合旧V10已锁定Canon、用户2026-10-06就已明确的小说设定，以及2026-10-12的重新确认和修正。新明确决定覆盖旧冲突；但「拟定」「待核」不得伪作既定事实。
 - 旧资料：`https://github.com/xiaolongnv6866-gif/V10-novel-runtime/blob/main/CANON/MASTER_SETTING.md`；`CURRENT/PROJECT_STATE.md`只作辅助，低于Canon。
-- 创作工具：`skills/v13-history-military/SKILL.md` v1.1.1。正文不复制《晚明》《铁血残明》角色、具体情节、独特语言。
+- 创作工具：`skills/v13-history-military/SKILL.md` v1.2.0。正文不复制《晚明》《铁血残明》角色、具体情节、独特语言。
 
 ## 锁定：体量和世界
 - 类型：明末穿越历史军事长篇。1639年开局，约1000章，每章约5000字、约500万字级，但不机械平均。
@@ -60,7 +60,7 @@
 
 ## 现状及交接
 - 2026-10-12旧版第一章《不在册的人》是已经否决的旧试写稿，**不计小说正史**。
-- **2026-10-12文学复审结论：**《多出来的一个人》虽然完成结构门禁，但文笔、人物与历史社会真实感不足，状态为 **LITERARY_REVISION_REQUIRED / USER_REVIEW_PENDING**，不得进入正式定稿；具体实证及改写方案见 [CHAPTER_001_LITERARY_AUDIT.md](./CHAPTER_001_LITERARY_AUDIT.md)。
-- 已生成**新改写第一章《多出来的一个人》**及 `CHAPTER_001_DRAFT.md`、`CHAPTER_001_BRIEF.md`、`CHAPTER_001_REVIEW.json`、`CHAPTER_001.md`、`STATE.json`、`NEXT_SCENE.md`。章节门禁结构核验另由GitHub CI测试；**成品仍待作者评价/批准，不擅自当作正式连载定稿**。在用户未批准时，STATE只代表该改写试稿自己的连续性，不覆盖上位Canon。
+- **2026-10-12旧稿文学复审结论：**《多出来的一个人》虽然完成结构门禁，但文笔、人物与历史社会真实感不足，属于 **LITERARY_REVISION_REQUIRED** 的历史版本；具体实证及缺陷见 [CHAPTER_001_LITERARY_AUDIT.md](./CHAPTER_001_LITERARY_AUDIT.md)。旧审计严格绑定旧版Git blob，不得拿来自动判定新稿。
+- **2026-10-12 V13 v1.2重新交稿：**第一章《御案前》已用真正的第一次创作初稿 `CHAPTER_001_DRAFT.md` 起步，随后按实际问题（崇祯被动问答、纸面解释、历史政务空泛、次要人物无独立选择、章尾无可见后果）进行实质重写，正文为 `CHAPTER_001.md`；审稿证据见 `CHAPTER_001_REVIEW.json`，连续性见 `STATE.json` 与 `NEXT_SCENE.md`。**此稿只标 EDITOR_ACCEPTABLE_SELF_REVIEW / USER_REVIEW_PENDING，未经作者认可不升为正式连载Canon。** 新稿的审美是否真好于旧稿，不以结构测试通过替代读者判断。
 - 下步按V13：以「战胜清军后赴澳，明朝自主发展」为终局倒推；为秘密商业与澳洲据点建立阶段性资产、人力、物资、关系及信息账；为两位女性建立独立角色卡与多年关系弧；再设计1639—1644史战节点→分岔战役因果→卷弧事件链→第一卷细纲→开章合同→正文→状态校验。
 - 对未定细节可提出建议与草案，但须清晰标「建议/待确认」，不得偷锁。
