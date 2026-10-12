@@ -74,8 +74,8 @@
     "scripts/validate_state.py",
     "scripts/chapter_gate.py"
   ],
-  "regression_tests_last_confirmed": "AWAITING_V1_2_CI_AFTER_FINAL_COMMIT",
-  "regression_run": "AWAITING_V1_2_CI_AFTER_FINAL_COMMIT",
+  "regression_tests_last_confirmed": "40 tests / OK (GitHub Actions 38187028442); structural and packaging only",
+  "regression_run": "https://github.com/xiaolongnv6866-gif/V13/actions/runs/38187028442",
   "external_literary_blind_review": "NOT_RUN_USER_WAIVED",
   "source_integrity": {
     "private_paragraph_anchor_count": 322,
