@@ -4,7 +4,7 @@
 ## 权威与等级
 - 本文件整合旧V10已锁定Canon、用户2026-10-06就已明确的小说设定，以及2026-10-12的重新确认和修正。新明确决定覆盖旧冲突；但「拟定」「待核」不得伪作既定事实。
 - 旧资料：`https://github.com/xiaolongnv6866-gif/V10-novel-runtime/blob/main/CANON/MASTER_SETTING.md`；`CURRENT/PROJECT_STATE.md`只作辅助，低于Canon。
-- **当前最新小说创作入口（2026-10-12全库彻底重建）**：`skills/v13-writer-mind/SKILL.md` v1.0.0：从整个V13仓库的研究、小说设定、真实原著事件、各轮文学失败和用户纠偏，重新合成为作者思维与主动创作能力，附原创新故事演示和完整文件来源地图。**旧 `skills/v13-history-military/` 与 `skills/v13-storycraft/` 均停止作为默认创作入口，仅保留版本历史与资料；文学能力效果依然 USER_REVIEW_PENDING，不能说已获作者认可。** 所有已锁定Canon、五万两/千人/五卫权限、历史日期与作者否决决定仍在此文件保持原位。正文不得复制《晚明》《铁血残明》角色、特定情节与独特语言。
+- **当前最新已提交的写作训练版入口（2026-10-12）**：`skills/v13-writer-mind/SKILL.md` v2.0.0-capability-lab：经14项已核验原著正例、DR01—DR07实际原创场景及四道存在预览污染的试写题，重新融合全库研究、否决证据与小说Canon；成稿一律 `MODEL_CANDIDATE_UNRATED`，不代表作者已认可文学质量。训练结果与限制见 `training/literary_capability_v1/CAPABILITY_TRIAL_STATUS.md`；最新首章仅为 `CHAPTER_001_CAPABILITY_V2_CANDIDATE.md`，**不覆盖正式候选正文和STATE**。**旧 `skills/v13-history-military/` 与 `skills/v13-storycraft/` 均停止作为默认创作入口，仅保留版本历史与资料；文学能力效果依然 USER_REVIEW_PENDING，不能说已获作者认可。** 所有已锁定Canon、五万两/千人/五卫权限、历史日期与作者否决决定仍在此文件保持原位。正文不得复制《晚明》《铁血残明》角色、特定情节与独特语言。
 
 
 ## 2026-10-12 最新锁定：启动资本、千人军职、强主角爽感
