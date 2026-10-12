@@ -9,6 +9,15 @@ from chapter_gate import verify
 class ChenQimingChapterOne(unittest.TestCase):
     def test_current_redraft_has_actual_complete_production_receipt(self):
         project=ROOT.parent.parent / "novels" / "chen-qiming"
+        content=(project/"CHAPTER_001.md").read_text(encoding="utf-8")
+        self.assertNotIn("陈启明的左脚踩住了一张奏疏。", content)
+        self.assertIn("宁武关", content)
+        self.assertIn("八万", content)
+        self.assertIn("许得安", content)
+        self.assertIn("孙传庭", content)
+        receipt=__import__("json").loads((project/"CHAPTER_001_REVIEW.json").read_text(encoding="utf-8"))
+        self.assertEqual(receipt["literary_decision"],"EDITOR_ACCEPTABLE_SELF_REVIEW")
+        self.assertEqual(receipt["user_acceptance"],"USER_REVIEW_PENDING")
         result=verify(project, 1)
         self.assertEqual(result["result"], "PASS_STRUCTURAL_GATE_ONLY")
         self.assertGreaterEqual(result["revisions"], 2)
