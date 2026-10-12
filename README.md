@@ -1,4 +1,4 @@
-> **2026-10-12 最新文学创作入口：** [全新V13小说家心智SKILL](skills/v13-writer-mind/SKILL.md)｜[全库来源和使用说明](skills/v13-writer-mind/README.md)。本入口是在整个主仓路径普查与跨领域原著研究/失败回读后**重建创作方法**，不是旧64卡或旧Storycraft的追加补丁。旧 `v13-history-military`/`v13-storycraft` 保留历史建设证据，不再作为小说创作默认入口；旧工作包验证账与用户豁免决策仍如实保留，不能据此宣称新SKILL已获文学验收。下文V5管理状态是历史工程门槛，并非最新创作入口。
+> **2026-10-12 最新创作入口（Creative Harness 3.0）：** [InkOS结构重写的V13 SKILL](skills/v13-writer-mind/SKILL.md)｜[执行架构与同题训练说明](skills/v13-writer-mind/README.md)｜[同题迭代协议](skills/v13-writer-mind/references/ITERATION_PROTOCOL.md)｜[实际版本记录工具](skills/v13-writer-mind/scripts/scene_lab.py)。这一版已重组为Profile—上下文编排—实际写作—有证据审稿—重写—状态与版本管理；保留前代文学知识而不使用旧规则卡作为创作程序。GitHub交付与文学水平验收是两回事。以下V5管理记录属于历史建设证据。
 
 # V13｜原创历史军事长篇小说SKILL工程
 
