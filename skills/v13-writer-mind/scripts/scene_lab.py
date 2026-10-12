@@ -109,7 +109,7 @@ def submit(args: argparse.Namespace) -> None:
         os.fsync(file.fileno())
     versions.append({
         "version": version,
-        "parent_version": versions[-1]["version"] if len(versions) > 1 else None,
+        "parent_version": versions[-1]["version"] if versions else None,
         "draft_path": relative,
         "draft_sha256": sha(data),
         "hypothesis": args.hypothesis,
