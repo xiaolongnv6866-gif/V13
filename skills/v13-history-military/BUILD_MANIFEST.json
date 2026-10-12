@@ -1,7 +1,7 @@
 {
   "schema": "V13-UNIFIED-WRITING-SKILL-DELIVERY-v2",
   "name": "v13-history-military",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "date": "2026-10-12",
   "entry": "SKILL.md",
   "status": "E01_E08_CONSTRUCTION_DELIVERED_USER_WAIVED_INDEPENDENT_VALIDATION",
@@ -74,8 +74,8 @@
     "scripts/validate_state.py",
     "scripts/chapter_gate.py"
   ],
-  "regression_tests_last_confirmed": "40 tests / OK (GitHub Actions 38187028442); structural and packaging only",
-  "regression_run": "https://github.com/xiaolongnv6866-gif/V13/actions/runs/38187028442",
+  "regression_tests_last_confirmed": "PENDING_V1_3_CI_RECHECK",
+  "regression_run": "PENDING_V1_3_CI_RECHECK",
   "external_literary_blind_review": "NOT_RUN_USER_WAIVED",
   "source_integrity": {
     "private_paragraph_anchor_count": 322,
@@ -98,5 +98,39 @@
     "known_literary_rejection": "FAIL",
     "author_acceptance": "USER_REVIEW_PENDING_NOT_AUTOMATICALLY_GRANTED",
     "v13_novel_production_example": "../../novels/chen-qiming/CHAPTER_001.md"
+  },
+  "integrated_runtime": {
+    "policy": "ALL_NINE_DOMAINS_ACTIVE_RELEVANCE_ROUTED_NO_RECENCY_BIAS",
+    "entry": "SKILL.md",
+    "references": [
+      "01-PLOT_AND_SERIES",
+      "02-WORLD_SYSTEMS",
+      "03-SCENE_AND_PROSE",
+      "04-CHARACTERS_AND_KNOWLEDGE",
+      "05-STATE_AND_CONTINUITY",
+      "06-HISTORY_AND_WAR",
+      "07-EDITOR_AND_FAILURES",
+      "08-ABILITIES_AND_THEORY",
+      "09-ROUTER_AND_HANDOFF"
+    ],
+    "source_method_cards_retained": 64,
+    "card_routing": "SCAN_ALL_64_INDEX_SELECT_EVERY_RELEVANT_CARD_NO_ARBITRARY_12_CAP",
+    "nuwa_models_retained": [
+      "M1",
+      "M2",
+      "M3",
+      "M4"
+    ],
+    "nuwa_heuristics_retained": 8,
+    "prose_principles": [
+      "SCENE_ACTION_OVER_EXPLANATION",
+      "DIRECT_THOUGHT_MUST_BE_ATTRIBUTED",
+      "CLEAR_DIALOGUE_PRONOUNS",
+      "POV_NO_FUTURE_KNOWLEDGE_LEAK",
+      "PROSE_RHYTHM",
+      "AI_FLAVOR_EDITORIAL_CHECK"
+    ],
+    "cross_domain_review": "RECHECK_PLOT_CHARACTER_HISTORY_FINANCE_POLITICS_LOGISTICS_WAR_TECH_POV_PROSE_AND_STATE_AFTER_ANY_CHANGE",
+    "quality_claim": "POLICY_AND_STRUCTURAL_TESTS_ONLY_NOT_AUTOMATED_LITERARY_CERTIFICATION"
   }
 }
