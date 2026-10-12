@@ -66,6 +66,27 @@ class EightBuildContract(unittest.TestCase):
             self.assertTrue(m["triad"].get("distinctiveness"))
         self.assertTrue((ROOT/"nuwa-theme/TOPIC_OPERATIONS.md").is_file())
         self.assertEqual(o["independent_phase4"],"NOT_RUN_USER_WAIVED")
+    def test_v13_whole_skill_retains_all_nine_domains_and_models(self):
+        """Structural guard against a future prose-only or AI-flavor-only rewrite."""
+        entry=(ROOT/"SKILL.md").read_text(encoding="utf-8")
+        router=(ROOT/"references/09-ROUTER_AND_HANDOFF.md").read_text(encoding="utf-8")
+        audit=(ROOT/"references/07-EDITOR_AND_FAILURES.md").read_text(encoding="utf-8")
+        index=(ROOT/"capabilities/INDEX.md").read_text(encoding="utf-8")
+        nuwa=(ROOT/"nuwa-theme/TOPIC_OPERATIONS.md").read_text(encoding="utf-8")
+        self.assertIn("整体创作能力运行协议",entry)
+        self.assertIn("最近一次用户纠正什么，不等于下一次只执行什么",entry)
+        self.assertIn("全域扫描",entry)
+        self.assertIn("综合审稿",entry)
+        for n in range(1,10):
+            self.assertRegex(entry,rf"references/{n:02}-[A-Z_]+\\.md")
+        for name in ("终局","财政","人物","历史","军事","连续性","文笔","心理","AI味","幽默"):
+            self.assertIn(name,entry,name)
+        for id in ("M1","M2","M3","M4","H01","H08"):
+            self.assertIn(id,nuwa,id)
+        self.assertIn("64张卡属于同一个作者能力系统",index)
+        self.assertIn("整体能力的统一路由",router)
+        self.assertIn("文学审稿必须与全部原有能力合并执行",audit)
+
     def test_two_complete_stage5_digest_and_package(self):
         for book in ("wanming","tiexuecanming"):
             digest=(REPO/"books"/book/"DIGEST.md").read_text(encoding="utf-8")
