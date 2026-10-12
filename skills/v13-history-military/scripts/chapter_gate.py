@@ -71,6 +71,8 @@ def verify(project: Path, chapter: int, skill_root: Path = SKILL_ROOT):
     need(receipt.get("chapter") == chapter, "receipt chapter mismatch")
     need(receipt.get("status") == "REVISED_AND_RECHECKED",
          "adversarial revision and recheck incomplete")
+    need(receipt.get("literary_decision") not in {"LITERARY_REVISION_REQUIRED", "REJECTED"},
+         "a known rejected literary draft cannot be delivered by structural gate")
     for key in ("opening_goal", "exit_change", "unpaid_obligation"):
         need(substantive(receipt.get(key)), "missing: " + key)
     actors = records(receipt, "independent_characters",
