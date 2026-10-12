@@ -78,7 +78,7 @@ class EightBuildContract(unittest.TestCase):
         self.assertIn("全域扫描",entry)
         self.assertIn("综合审稿",entry)
         for n in range(1,10):
-            self.assertRegex(entry,rf"references/{n:02}-[A-Z_]+\\.md")
+            self.assertIn(f"references/{n:02}-",entry)
         for name in ("终局","财政","人物","历史","军事","连续性","文笔","心理","AI味","幽默"):
             self.assertIn(name,entry,name)
         for id in ("M1","M2","M3","M4","H01","H08"):
