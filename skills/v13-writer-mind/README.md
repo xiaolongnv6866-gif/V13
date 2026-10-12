@@ -1,28 +1,74 @@
-# V13｜小说家心智 · 重新生成的写作能力
+# V13｜Creative Harness 3.0：InkOS结构驱动的原创小说写作SKILL
 
-**新SKILL唯一创作入口：[SKILL.md](SKILL.md)**
+**唯一写作入口：[SKILL.md](SKILL.md)**
 
-本版本不是对既有 `v13-history-military` 与 `v13-storycraft` 的补充，也不是把64张卡换一种编号。**旧创作程序停止作为默认入口**，但两部原著研究、旧实验、人物设定与失败版本保留作真实材料，不能删除证据就宣称已学会写小说。
+这是对V13默认写作Skill的**结构性重写**，不是在旧Skill上再增加几十条禁令。借鉴开源 InkOS 的 Profile、Composer、专业Skill、Writer、Reviewer、Reviser、Settler、状态与版本分离的工程思想；保留V13自己的《晚明》《铁血残明》研究、历史军事知识、作者明确决定、原创失败证据。
 
-这次重新从项目整个仓库理解文学创作：先看**真实人在过怎样的生活、为什么作出那个不可替换的选择**，由具体行动和他人反应生出可读的戏，再让这些人过去的选择影响后面多年；权力、财政、军队、家庭、消息和历史一起赋予世界真实重量，而不是把它们交给主人公逐项完成。
+**重点区别**：InkOS提供软件运行时；本仓现在提供一个兼容AgentSkills标准的Skill入口、按任务加载的专业参考模块与一个使用Python标准库的同题版本留存工具。并**没有**因此自动安装InkOS、获得其多智能体框架、数据库事务、模型后台作业或改变语言模型参数。不要混淆结构借鉴和已有软件能力。
 
-## 新写作能力和来源
+## 结构
 
-- **[小说家心智主入口](SKILL.md)**：人物发现、当场趣味、现代认知优势、长篇故事自然生长、叙事/心理/语言、社会历史与创作性重写；是一个整体思考方式，不是要读者看见九域清单。
-- **[整个仓库所有文件的来源地图](knowledge/FULL_REPO_SOURCE_ATLAS.json)**：指定Git树快照中1245份文件的路径、字节数、blob哈希和主题分区；路径全覆盖，未虚称逐字精读。
-- **[两部小说与V13全库材料重新合成的心智](knowledge/WHOLE_REPO_SYNTHESIS.md)**：原著结构与具体章节、早期研究、64卡、女娲研究、各轮测试与失败、旧版小说大纲、用户纠偏如何真正改变作者看事物的方式；区别已读事实与新综合推断。
-- **[一个普通故事从人物里生出来的原创实际试写](laboratory/CHARACTERS_MAKE_STORY.md)**：同题不同人生方向和《字不在这儿》原创完整场景，并坦承文学不足；不是原书情节复写。
-- **[短场景如何长出人物生命和多年关系](laboratory/SMALL_STORY_BECOMES_LONG_NOVEL.md)**：人物选择自然扩大、公众历史事件的真实边界、反对假主线。
-- **[陈启明项目权威设定](../../novels/chen-qiming/PROJECT_BIBLE.md)**：这份Canon属于特定小说，不包含在通用SKILL写作公式内。第一章及全部旧未批准大纲也不自动升格为Canon。
+```text
+skills/v13-writer-mind/
+├── SKILL.md                   # 唯一入口：Profile + Composer + 写作/审稿/修订/结算
+├── README.md                  # 使用方法和验证边界
+├── references/
+│   ├── CREATIVE_ENGINE.md     # 实际文学选择与写法，不是评分清单
+│   ├── CONTEXT_AND_STATE.md   # Protected/Compressible、Canon/候选分离
+│   ├── ITERATION_PROTOCOL.md  # 固定退婚等同题反复实写并累计作者反馈
+│   └── HISTORICAL_LONGFORM.md # 陈启明历史军事长篇的专用资料路由
+├── scripts/
+│   └── scene_lab.py           # 同题锁、不可覆盖的版本、人工反馈与稿间diff
+├── knowledge/                # 历史全库研究、来源地图（原材料保留）
+└── laboratory/               # 旧的原创练习与失败证据（原材料保留）
+```
 
-## 使用
+## 在ChatGPT等对话工具里直接用
 
-> 以 `skills/v13-writer-mind/SKILL.md` 为唯一创作入口，完整读取本文件及新SKILL的 `knowledge/WHOLE_REPO_SYNTHESIS.md`；如果需要设计具体故事，参考 `laboratory/` 中真实生成的例子。若写《陈启明》，还要读 `novels/chen-qiming/PROJECT_BIBLE.md` 和被作者认可的最新正文、STATE。不要重新调用旧V13主SKILL或v13-storycraft作为创作指导，也不能沿用被作者否决的主干。直接想像真实人物和他们的生活，写出让读者愿意看的原创场面，历史世界自然可信；不需要展示流程表。
+先读取完整 [SKILL.md](SKILL.md)，再按任务加载其要求的references及源材料。不需要调用不存在的InkOS后台服务。用户要写退婚就按`same-scene-lab`直接写同一场的下一版本，承接已知前稿和作者评价；只要作品，不用先交流程。要求写《陈启明》时，再加载 `novels/chen-qiming/PROJECT_BIBLE.md` 和批准的正史材料。
 
-## 可证实与尚不能宣称的结果
+跨聊天框必须恢复**相同稿件与反馈**，而非只转述“要精彩、少AI味”。Repo里没有查到的候选/用户反馈不能伪装已保存。
 
-|实际完成|尚未证明|
-|---|---|
-|全库Git tree与1245文件的元数据覆盖；横跨小说研究/阅读来源/女娲/64卡/历史否决与正文等类材料的内容回读；新的原创综合创作SKILL；两个原创实作样本；GitHub远程文件核验|1245文件每一行已全部精读；所有原研究命题都正确；单一模型能由一份SKILL稳定获得人类小说家水平；文学成果已经作者认可；独立V3或读者盲评通过；GitHub自动成为宿主已安装SKILL|
+## 同题训练的可运行工具
 
-**核心的成功判据是下一篇文章是否好看、下一个故事是否能自然生长。** 如果仍然只会把正确任务排成故事，那就说明这份创作系统还没有真正发挥作用。以后需要调整的是**人物想像、创意观察和实际叙事**，不是再加禁令清单。
+需要Python 3.10+，无第三方依赖。先把用户批准的场景锁写成 `/path/to/prompt.md`；把完整新稿写成 `/path/to/draft.md`。
+
+```bash
+python3 skills/v13-writer-mind/scripts/scene_lab.py init \
+  --root training/scene_lab --case tuihun --prompt /path/to/prompt.md
+
+python3 skills/v13-writer-mind/scripts/scene_lab.py submit \
+  --root training/scene_lab --case tuihun --draft /path/to/draft.md \
+  --hypothesis "让另一个当事人先采取行动，而不是等待主角解释"
+
+python3 skills/v13-writer-mind/scripts/scene_lab.py feedback \
+  --root training/scene_lab --case tuihun --version V001 \
+  --file /path/to/user-feedback.md --verdict mixed
+
+python3 skills/v13-writer-mind/scripts/scene_lab.py submit \
+  --root training/scene_lab --case tuihun --draft /path/to/v2.md \
+  --hypothesis "重新安排现场行动与受损关系"
+
+python3 skills/v13-writer-mind/scripts/scene_lab.py compare \
+  --root training/scene_lab --case tuihun --before V001 --after V002
+
+python3 skills/v13-writer-mind/scripts/scene_lab.py verify \
+  --root training/scene_lab --case tuihun
+```
+
+脚本只记录锁定题目、稿件哈希、父版本与人工反馈，不生成作品、不代替作者判断；既不会改写Canon，也不能证明真实文学水平提升。
+
+## 仍使用的V13研究资产
+
+- [全库跨领域研究综述](knowledge/WHOLE_REPO_SYNTHESIS.md)、[源文件地图](knowledge/FULL_REPO_SOURCE_ATLAS.json)
+- [真实原著正例索引](../../training/literary_capability_v1/SOURCE_CASE_INDEX.md)
+- [陈启明唯一Canon](../../novels/chen-qiming/PROJECT_BIBLE.md)
+- 旧 `skills/v13-history-military/`、`skills/v13-storycraft/` 作为资料，不再作为默认写作流程。
+
+## 可核实状态
+
+已完成：重写Skill，拆分专业参考、加入同题训练工具、保留旧材料和历史验收边界。
+
+尚需实际作品证明：退婚同题的用户认可连续提升、新题迁移、千章篇幅历史军事长篇质量。旧试写未经作者认可、非真正陌生盲测；GitHub文本和脚本提交不等于模型获得持久参数能力。
+
+验收以**读起来真正精彩的原创故事**为准，而不是新增多少文件、通过多少次工程测试。
