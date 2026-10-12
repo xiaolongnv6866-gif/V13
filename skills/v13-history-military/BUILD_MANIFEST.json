@@ -74,8 +74,8 @@
     "scripts/validate_state.py",
     "scripts/chapter_gate.py"
   ],
-  "regression_tests_last_confirmed": "PENDING_V1_3_CI_RECHECK",
-  "regression_run": "PENDING_V1_3_CI_RECHECK",
+  "regression_tests_last_confirmed": "43 tests / OK (GitHub Actions run 38190115639); compiler, original package, chapter structure, nine-domain wiring only",
+  "regression_run": "https://github.com/xiaolongnv6866-gif/V13/actions/runs/38190115639",
   "external_literary_blind_review": "NOT_RUN_USER_WAIVED",
   "source_integrity": {
     "private_paragraph_anchor_count": 322,
