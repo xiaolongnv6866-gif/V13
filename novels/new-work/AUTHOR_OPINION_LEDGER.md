@@ -131,13 +131,13 @@
 - **采纳动作**：记 ISSUE-10；作者已确认理解+根因「作者≠主角（全程）」并「继续从写」→开 V7（见 ISSUE/OP-11）。仍非 Canon、勿写第2章。
 - **落点**：`ISSUE_LEDGER.md` ISSUE-10/11；待 `CHAPTER_001_CANDIDATE_V7.md`
 - **转告**：Jo ✅｜主笔 ✅｜读者 ✅｜审稿编辑 ✅｜版本官 ✅
-- **状态**：adopted / open（改稿中｜V7）
+- **状态**：adopted / open（已交 Jo 短检｜非 Canon｜勿写第2章）
 
 ### OP-20261102-11｜确认理解并继续写 → V7
 
 - **时间**：2026-11-02（Jo 放行句）
 - **原文要点**：作者已确认理解并对齐根因「作者≠主角（全程，非开头删词）」；口头「继续从写」。ISSUE/OP-10 →「改稿中｜V7」；仍非 Canon、勿写第2章。Jo 改稿单 same-scene-lab；主笔开写 `CHAPTER_001_CANDIDATE_V7.md`。
 - **采纳动作**：ISSUE/OP-10 状态改改稿中｜V7；新开 ISSUE-11；通知主笔按全程「作者≠主角」改 V7。
-- **落点**：`ISSUE_LEDGER.md`；待 `/workspace/new-work-drafts/CHAPTER_001_CANDIDATE_V7.md`
+- **落点**：`ISSUE_LEDGER.md`；`/workspace/new-work-drafts/CHAPTER_001_CANDIDATE_V7.md`（CJK≈4792）；`JO_DELIVER_V7.txt`
 - **转告**：Jo ✅｜主笔 ✅｜读者 ✅｜审稿编辑 ✅｜版本官 ✅
-- **状态**：adopted / open（改稿中｜V7）
+- **状态**：adopted / open（已交 Jo 短检｜非 Canon｜勿写第2章）
