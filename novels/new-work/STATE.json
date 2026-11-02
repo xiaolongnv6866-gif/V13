@@ -1,0 +1,18 @@
+{
+  "schema": "v13-novel-alpha-ledger-1",
+  "project": "",
+  "status": "AWAITING_AUTHOR",
+  "genre": "",
+  "historical_disclaimer": "",
+  "test_classification": "NEW_WORK_EMPTY",
+  "note": "Blank scaffold for a new novel. No plot, characters, facts, or canon copied from archived works.",
+  "initial_accounts": {},
+  "expected_balances": {},
+  "permissions": [],
+  "facts": [],
+  "characters": [],
+  "events": [],
+  "open_loops": [],
+  "next_chapter_brief": "",
+  "independent_review": "NOT_RUN"
+}

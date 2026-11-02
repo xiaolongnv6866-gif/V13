@@ -22,7 +22,7 @@
 ## V13 v1.2：从形式检查转为真实创作与文学修订（2026-10-12）
 - v1.2历史修复入口（现由v1.3整合）：`SKILL.md` v1.3.0；正文文学层的首要操作在`references/03-SCENE_AND_PROSE.md`，不是仅靠64张以制度/信息/状态为主的能力卡。
 - 实际审稿与禁止倒造初稿：`references/07-EDITOR_AND_FAILURES.md`；完整64张静态有效性核查：`capabilities/EFFECTIVENESS_AUDIT.md`；结论是所有卡结构完整、E段存在高度同构，**不能据此认定64种独立文学执行效果均已证实**。
-- 用真实重写《陈启明》第一章《御案前》检查：`../../novels/chen-qiming/CHAPTER_001_DRAFT.md`（真实先行初稿）→`CHAPTER_001_REVIEW.json`（实质审稿）→`CHAPTER_001.md`（修改）→`STATE.json`与`NEXT_SCENE.md`；仅为创作者自审的可阅读候选，作者尚未批准。
+- 用真实重写《陈启明》第一章《御案前》检查（该小说已归档，不是现行 Canon）：`../../novels/_archive/chen-qiming/CHAPTER_001_DRAFT.md`（真实先行初稿）→`CHAPTER_001_REVIEW.json`（实质审稿）→`CHAPTER_001.md`（修改）→`STATE.json`与`NEXT_SCENE.md`；仅为创作者自审的可阅读候选，作者尚未批准。
 - 结构门禁可拒绝已标记`LITERARY_REVISION_REQUIRED`的稿件，却不能自动判断一篇未被审过的小说好不好看；用户放弃的独立V3/双盲/四臂测试不恢复为阻断。
 - **自动生效的真实边界**：只有宿主真正安装并加载此SKILL，正文请求才会按入口自动路由。GitHub仓库链接本身不提供跨会话自动安装或持续运行的魔法。不能虚报。
 

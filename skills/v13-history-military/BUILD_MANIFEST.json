@@ -97,7 +97,7 @@
     "card_effectiveness_audit": "capabilities/EFFECTIVENESS_AUDIT.md",
     "known_literary_rejection": "FAIL",
     "author_acceptance": "USER_REVIEW_PENDING_NOT_AUTOMATICALLY_GRANTED",
-    "v13_novel_production_example": "../../novels/chen-qiming/CHAPTER_001.md"
+    "v13_novel_production_example": "../../novels/_archive/chen-qiming/CHAPTER_001.md"
   },
   "integrated_runtime": {
     "policy": "ALL_NINE_DOMAINS_ACTIVE_RELEVANCE_ROUTED_NO_RECENCY_BIAS",

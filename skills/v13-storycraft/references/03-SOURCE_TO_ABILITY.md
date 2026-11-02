@@ -158,7 +158,7 @@
 
 **假历史权力：** 崇祯听了现代风险管理便照办；千人武职动用宫禁、王府银钱变私人海外商路；五名锦衣卫成无权限上级。→ **整条剧情否决**，因为不是词句问题，而是人物和权源的问题。
 
-用户已明确否决 `novels/chen-qiming/STORY_SPINE_V0_1_PROPOSAL.md`；该档不是本SKILL的故事种子。
+用户已明确否决 `novels/_archive/chen-qiming/STORY_SPINE_V0_1_PROPOSAL.md`；该档不是本SKILL的故事种子，也不是活动槽 `novels/new-work/` 的设定。
 
 ## 五、应用于新创作时的必要诚实
 
