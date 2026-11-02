@@ -110,4 +110,4 @@
 - **采纳动作**：关闭暂停（ISSUE-06）；ISSUE-05/07 改为「已确认→开写 V5」；新开 ISSUE-08；V4 作废参考；主笔开写 V5，**写完前勿交作者**；交稿前过读者与必核清单。V3/V4 仍非 Canon。
 - **落点**：`ISSUE_LEDGER.md` ISSUE-05/06/07/08；本条；`/workspace/new-work-drafts/CHAPTER_001_CANDIDATE_V5.md`
 - **转告**：Jo ✅｜主笔 ✅｜读者 ✅｜审稿编辑 ✅｜史实顾问 ✅｜版本官 ✅
-- **状态**：adopted / open（V5 开写完成→Jo短检中；仍勿交作者；交前过读者）
+- **状态**：adopted / open（V5 Jo短检已过→多方快核中含读者；仍勿交作者）
