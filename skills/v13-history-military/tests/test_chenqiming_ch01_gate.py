@@ -8,7 +8,7 @@ from chapter_gate import verify, GateError
 
 class ChenQimingChapterOne(unittest.TestCase):
     def test_current_redraft_with_literary_rejection_is_not_released(self):
-        project=ROOT.parent.parent / "novels" / "chen-qiming"
+        project=ROOT.parent.parent / "novels" / "_archive" / "chen-qiming"
         content=(project/"CHAPTER_001.md").read_text(encoding="utf-8")
         self.assertNotIn("陈启明的左脚踩住了一张奏疏。", content)
         self.assertIn("宁武关", content)

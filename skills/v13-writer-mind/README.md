@@ -25,7 +25,7 @@ skills/v13-writer-mind/
 
 ## 在ChatGPT等对话工具里直接用
 
-先读取完整 [SKILL.md](SKILL.md)，再按任务加载其要求的references及源材料。不需要调用不存在的InkOS后台服务。用户要写退婚就按`same-scene-lab`直接写同一场的下一版本，承接已知前稿和作者评价；只要作品，不用先交流程。要求写《陈启明》时，再加载 `novels/chen-qiming/PROJECT_BIBLE.md` 和批准的正史材料。
+先读取完整 [SKILL.md](SKILL.md)，再按任务加载其要求的references及源材料。不需要调用不存在的InkOS后台服务。用户要写退婚就按`same-scene-lab`直接写同一场的下一版本，承接已知前稿和作者评价；只要作品，不用先交流程。当前活动小说加载 `novels/new-work/PROJECT_BIBLE.md`（STATUS: AWAITING_AUTHOR）。只有作者明确要求写《陈启明》时，才加载 `novels/_archive/chen-qiming/PROJECT_BIBLE.md` 和该归档包里批准的正史材料。
 
 跨聊天框必须恢复**相同稿件与反馈**，而非只转述“要精彩、少AI味”。Repo里没有查到的候选/用户反馈不能伪装已保存。
 
@@ -62,7 +62,8 @@ python3 skills/v13-writer-mind/scripts/scene_lab.py verify \
 
 - [全库跨领域研究综述](knowledge/WHOLE_REPO_SYNTHESIS.md)、[源文件地图](knowledge/FULL_REPO_SOURCE_ATLAS.json)
 - [真实原著正例索引](../../training/literary_capability_v1/SOURCE_CASE_INDEX.md)
-- [陈启明唯一Canon](../../novels/chen-qiming/PROJECT_BIBLE.md)
+- [当前活动小说槽](../../novels/new-work/PROJECT_BIBLE.md)（STATUS: AWAITING_AUTHOR，不是旧作设定）
+- [归档《陈启明》](../../novels/_archive/chen-qiming/PROJECT_BIBLE.md)（非现行 Canon；仅作者明确要求时加载）
 - 旧 `skills/v13-history-military/`、`skills/v13-storycraft/` 作为资料，不再作为默认写作流程。
 
 

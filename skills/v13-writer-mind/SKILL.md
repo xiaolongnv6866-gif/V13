@@ -9,6 +9,10 @@ status: STRUCTURE_REBUILT / READER_VALIDATION_PENDING
 
 这是V13唯一默认写作入口。它借鉴InkOS的**Skill + Work Profile + Context Composer + Writer + Reviewer + Reviser + State Settler + Artifact/Trace**结构，但不是InkOS的复制品：V13的文学核心来自《晚明》《铁血残明》的合法研究摘要、用户实际纠偏、原创试写和作品反馈。此文件本身**不包含持久服务或多智能体运行时**；只有宿主真实提供GitHub/文件/脚本能力时才执行相应操作，没有工具便直接完成可完成的文学工作，并如实说明落盘状态。规则被正确加载，不等于文学水平已获证明。
 
+## 路径注（2026-11-02）
+
+当前活动小说槽是 `novels/new-work/`。长篇或续写默认只加载该目录的 `PROJECT_BIBLE.md`（STATUS: AWAITING_AUTHOR，设定待作者填写）、`STATE.json` 与 `NEXT_SCENE.md`。`novels/_archive/` **不是现行 Canon**。《陈启明》在 `novels/_archive/chen-qiming/`；下文关于该旧作的路径、人物分岔和已锁定顺序，仅在作者明确要求研读或续写时生效，不要写进新故事。写作方法本身不变。
+
 ## 0｜不可违背的工作契约
 
 1. **只以实际正文检验写作。** 请求写小说时先写小说，不先写研究报告、评分表、轮次计划；请求改稿时交付修改后的文字，不只报告问题。无需用户每次重新提醒“写现场、少旁白、不要AI味”。
@@ -40,7 +44,7 @@ status: STRUCTURE_REBUILT / READER_VALIDATION_PENDING
 
 **Protected（必须保真，不在压缩时静默丢掉）：** 本轮任务、不能变的题目/人物/事实、作者的拒绝与认可、正式Canon、已发生且被批准的事件、视角时空、已确认的人物知识边界。**Compressible（按需选段和浓缩）：** 多年前的讨论、旧的64卡、宏观研究、无关原著案例、过时规划、模型未经认可的评判。
 
-Composer 必须根据本次场景的**实际需要**而不是按文件名平均调取证据。分析《退婚》可取 `training/literary_capability_v1/SOURCE_CASE_INDEX.md` 中 TX01 的机制摘要；写陈启明必须重新读 `novels/chen-qiming/PROJECT_BIBLE.md` 与批准正文；普通原创题不要把陈启明Canon强塞进去。
+Composer 必须根据本次场景的**实际需要**而不是按文件名平均调取证据。分析《退婚》可取 `training/literary_capability_v1/SOURCE_CASE_INDEX.md` 中 TX01 的机制摘要；写当前活动小说必须重新读 `novels/new-work/PROJECT_BIBLE.md` 与作者已批准的正文；仅当作者明确要求写《陈启明》时，才读 `novels/_archive/chen-qiming/PROJECT_BIBLE.md` 与该归档包里的批准正文。普通原创题不要把归档 Canon 强塞进去。
 
 若上下文预算不足，先丢弃无关候选、只压缩 Compressible；Protected 冲突应按最新明确批准事实解决，不能默默改写。找不到权威材料时标注不可核验并只写不依赖它的部分。实际记录选入了什么，以便追查“为什么这次又忘了”。细则见 [references/CONTEXT_AND_STATE.md](references/CONTEXT_AND_STATE.md)。
 
@@ -74,9 +78,9 @@ Composer 必须根据本次场景的**实际需要**而不是按文件名平均�
 
 直接执行 [references/VOICE_AND_CHARACTER_EXECUTION.md](references/VOICE_AND_CHARACTER_EXECUTION.md)：内心独白须有明确主体、心理引导与标点；第三人称旁白不伪装成无主心声或越界知道他人念头。心理必须引向行为，不能一章反复让旁白解释主角为什么正确。
 
-**人物入场在写之前完成选择，而不是写完再找意义**：每个登场或被提名而实质影响决策的人，其当日位置、人格动机、资源权限、戏份性质都应已知。凡是核心人物、长期人物、或能因一纸调任/提前释放撬动历史的“历史杠杆人物”，先按 [《陈启明》人物与历史分岔决策](../../novels/chen-qiming/CHARACTER_ENTRY_CAUSAL_DECISIONS.md) 选实际路径，推演长期后果；再决定是否让其在本章出场或触发事件。
+**人物入场在写之前完成选择，而不是写完再找意义**：每个登场或被提名而实质影响决策的人，其当日位置、人格动机、资源权限、戏份性质都应已知。凡是核心人物、长期人物、或能因一纸调任/提前释放撬动历史的“历史杠杆人物”，先按该作品自己的人物与历史分岔材料选实际路径，推演长期后果；再决定是否让其在本章出场或触发事件。活动槽 `novels/new-work/` 尚无这份材料。仅作者明确要求续写归档《陈启明》时，才读 [该旧作的人物与历史分岔决策](../../novels/_archive/chen-qiming/CHARACTER_ENTRY_CAUSAL_DECISIONS.md)。
 
-**禁止用孙传庭一声名字换取崇祯震惊，然后假定他早释却1641—1644一切依旧。** 他在1639年提名后如真引发用人变化，必须重算朝廷官员、农民军、南阳和1644皇帝处境。未推演前可延后提名；这不是删除历史人物，而是尊重其真实份量。不因完成“人物卡”就认为小说必然好看，最后仍以正文来证明。
+**归档《陈启明》的反例，不要写进新故事：** 禁止用孙传庭一声名字换取崇祯震惊，然后假定他早释却1641—1644一切依旧。他在1639年提名后如真引发用人变化，必须重算朝廷官员、农民军、南阳和1644皇帝处境。未推演前可延后提名；这不是删除历史人物，而是尊重其真实份量。不因完成“人物卡”就认为小说必然好看，最后仍以正文来证明。新故事的人物以 `novels/new-work/PROJECT_BIBLE.md` 为准。
 
 ## 3.45｜以人物第一人称心声替代解释性第三人称旁白
 
@@ -92,7 +96,7 @@ Composer 必须根据本次场景的**实际需要**而不是按文件名平均�
 - 第二次 `draft` 之前必须具有前一稿的合法证据审稿，且改稿全文不得与上一稿完全一样。
 - `status`：重新核验全部文件SHA256与父版本、审稿数量；被改动过的旧稿不会悄悄通过。所有产物默认 `MODEL_CANDIDATE_UNRATED`，绝不自动写入正式Canon。
 
-实际演示命令在 `README.md`；样本作品、来源审稿和完整任务包应当保存为独立候选，不能修改 `novels/chen-qiming/CHAPTER_001.md` 或 `STATE.json`。**这个程序不会自己调用语言模型，也不会自己判断文学优劣。** 当前没有外部LLM密钥与InkOS完整运行时，不得声称已实现自动多Agent。真实执行是“模型按阶段创作和实质改稿 + 程序强制证据与版本界限”，能否提高文学水准最终仍由作者对全文的反馈决定。
+实际演示命令在 `README.md`；样本作品、来源审稿和完整任务包应当保存为独立候选，不能修改活动槽 `novels/new-work/` 里作者尚未批准的正式正文或 `STATE.json`，也不能改写归档包 `novels/_archive/chen-qiming/CHAPTER_001.md` 或其 `STATE.json`。**这个程序不会自己调用语言模型，也不会自己判断文学优劣。** 当前没有外部LLM密钥与InkOS完整运行时，不得声称已实现自动多Agent。真实执行是“模型按阶段创作和实质改稿 + 程序强制证据与版本界限”，能否提高文学水准最终仍由作者对全文的反馈决定。
 
 ## 4｜同题反复写：现在的核心训练模式
 
@@ -110,7 +114,7 @@ Composer 必须根据本次场景的**实际需要**而不是按文件名平均�
 
 ## 5｜长篇写作与独立事实层
 
-`longform-novel` 先读 [references/HISTORICAL_LONGFORM.md](references/HISTORICAL_LONGFORM.md)。写《陈启明》时以 `novels/chen-qiming/PROJECT_BIBLE.md` 当时最新版为唯一设定权威，不以这里的概述替代原文；保留1639肉身御前、秘密核验后皇命五万两与千人军职、五位锦衣卫仅监督奏报、1641南阳危机、1644救崇祯抵南京、对清战争胜利后赴长期经营澳洲据点等已锁定顺序，不偷调事件权限与时间。具体新稿未经批准不得替换正式首章/STATE。
+`longform-novel` 先读 [references/HISTORICAL_LONGFORM.md](references/HISTORICAL_LONGFORM.md)，并以活动槽 `novels/new-work/PROJECT_BIBLE.md` 为当前设定权威（现为 STATUS: AWAITING_AUTHOR，没有可沿用的旧情节）。仅当作者明确要求写归档《陈启明》时，才以 `novels/_archive/chen-qiming/PROJECT_BIBLE.md` 当时最新版为该旧作的设定权威，不以这里的概述替代原文；那种情况下保留1639肉身御前、秘密核验后皇命五万两与千人军职、五位锦衣卫仅监督奏报、1641南阳危机、1644救崇祯抵南京、对清战争胜利后赴长期经营澳洲据点等已锁定顺序，不偷调事件权限与时间。这些顺序不是新故事的设定。具体新稿未经批准不得替换正式首章/STATE。
 
 长篇事件从人物当天的生活和选择生出来。一次功劳、婚事、茶馆闲话、打仗后的归家都可以撑起真正有趣的故事；财政/官制/行军与商贸构成因果约束，而非代替情节的汇报表。主角主要目标按Canon取得成功，不等于人人臣服、事事预判和消灭对手的正当意愿。不要用平均分卷和平均章节事件配额填满千章。
 
@@ -139,7 +143,8 @@ Composer 必须根据本次场景的**实际需要**而不是按文件名平均�
 | 全库历史、原著学习、失败回读 | `knowledge/WHOLE_REPO_SYNTHESIS.md`、`knowledge/FULL_REPO_SOURCE_ATLAS.json` |
 | 已定位的合法两书叙事正例 | `training/literary_capability_v1/SOURCE_CASE_INDEX.md`、相关可用研究索引 |
 | 旧创作的实际不足与训练候选 | `training/literary_capability_v1/outputs/DR01.md`—`DR07.md`、`holdout_results/T01.md`—`T04.md`、正式第一章失败审计 |
-| 某本小说的正式Canon | `novels/chen-qiming/PROJECT_BIBLE.md`及被作者明确批准的正史材料 |
+| 当前活动小说 Canon | `novels/new-work/PROJECT_BIBLE.md`（STATUS: AWAITING_AUTHOR）及作者此后明确批准的正史材料 |
+| 归档旧作（非现行 Canon） | `novels/_archive/`；《陈启明》仅在作者明确要求时读 `novels/_archive/chen-qiming/PROJECT_BIBLE.md` |
 | 同题写作与升级 | `references/ITERATION_PROTOCOL.md` + 对应场景的锁定输入与实际反馈 |
 | 原来的历史军事知识与研究 | `skills/v13-history-military/`、`skills/v13-storycraft/`；作为材料库使用，不切换回旧主入口 |
 

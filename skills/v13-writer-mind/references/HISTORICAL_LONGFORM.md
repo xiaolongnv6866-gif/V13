@@ -1,6 +1,6 @@
 # V13｜历史军事长篇Profile
 
-只在历史军事作品、尤其《陈启明》被指定时激活。完整Canon以 `novels/chen-qiming/PROJECT_BIBLE.md` 为唯一权威，不把本摘要当替代品。普通退婚原创练习没有默认陈启明人物设定。
+只在历史军事长篇被指定时激活。当前活动 Canon 是 `novels/new-work/PROJECT_BIBLE.md`（STATUS: AWAITING_AUTHOR），不把本摘要当替代品。下方《陈启明》主干属于归档作品，文件在 `novels/_archive/chen-qiming/`，**不是现行设定**；仅作者明确要求续写该旧作时才当作该作品的权威，并改读归档包里的 `PROJECT_BIBLE.md`。普通退婚原创练习没有默认陈启明人物设定。
 
 ## 作者锁定的《陈启明》主干
 
@@ -24,11 +24,11 @@
 
 历史上孙传庭1639年下狱、1642年复起、1643年战死。若作者决定让其1639年提前复出，须改写1639—1644年相应军政与对手局势；若新局势消解原本的京师危机，1644救驾赴南京的已定目标必须找到从新因果生出的合情合理危机，不能让孙传庭有能力却多年无影响。当前只确认这一判断规则，**未批准任何孙传庭新结局**。
 
-写作之前读取 [人物出场因果决策底稿](../../novels/chen-qiming/CHARACTER_ENTRY_CAUSAL_DECISIONS.md)，实际心理、旁白及人物动作见 [创作执行范例](VOICE_AND_CHARACTER_EXECUTION.md)。只把有趣、可信的结果写成正文，内部推演不要化为讲义式旁白。
+续写归档《陈启明》之前读取 [人物出场因果决策底稿](../../novels/_archive/chen-qiming/CHARACTER_ENTRY_CAUSAL_DECISIONS.md)。活动槽 `novels/new-work/` 尚无对应底稿，不要用这份归档决策给新故事选角。实际心理、旁白及人物动作见 [创作执行范例](VOICE_AND_CHARACTER_EXECUTION.md)。只把有趣、可信的结果写成正文，内部推演不要化为讲义式旁白。
 
 ## 写章前需要实际恢复的内容
 
-- **Canon**：`novels/chen-qiming/PROJECT_BIBLE.md` 当前完整权威。
+- **Canon**：活动小说读 `novels/new-work/PROJECT_BIBLE.md`。归档《陈启明》只在作者点名时读 `novels/_archive/chen-qiming/PROJECT_BIBLE.md`，那不是新故事的权威。
 - **已有作品**：只读最近得到作者批准的正文、人物状态和后果；历史 `CHAPTER_001.md`、《御案前》等曾被否决的版本不能升格为正史。
 - **历史证据**：时间、地点、职官、物流、距离、军事组织按所写章节需要追查，不可凭泛化百科腔掩盖史实不确定。
 - **当前场景的生活动力**：在谈正事前，人物当日的具体打算、饥饱冷暖、亲友关系与体面真实存在。

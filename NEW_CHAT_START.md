@@ -1,4 +1,6 @@
-> **最新文学创作恢复提示（2026-10-12）**：如果目的是写《陈启明》或创造新小说，优先完整加载 `skills/v13-writer-mind/SKILL.md`、其 `knowledge/WHOLE_REPO_SYNTHESIS.md`、小说 `PROJECT_BIBLE.md` 与已获作者认可的正文/STATE；仓库旧工程W01记录只是研究/验证历史。新SKILL基于全库1245路径普查与跨类别研究，追求能直接创造鲜活人物、好看故事和长期自然因果，而不是用64卡或检查表写行政报告。已被作者否决的主干不可复活。**下面旧V5提示仍适用于历史工程核验，不替代当前写作调用方法。**
+> **2026-11-02 活动小说路径：** 写作入口仍是 `skills/v13-writer-mind/SKILL.md`。当前活动小说是 `novels/new-work/`（设定 STATUS: AWAITING_AUTHOR）。`novels/_archive/`（含《陈启明》）**不是现行 Canon**，除非作者明确要求研读，不要加载为当前设定。
+
+> **最新文学创作恢复提示（2026-10-12）**：如果目的是写当前活动小说，优先完整加载 `skills/v13-writer-mind/SKILL.md`、其 `knowledge/WHOLE_REPO_SYNTHESIS.md`，以及 `novels/new-work/PROJECT_BIBLE.md` 与该目录下已获作者认可的正文/STATE。`novels/_archive/` 只在作者点名时打开。仓库旧工程W01记录只是研究/验证历史。新SKILL基于全库路径普查与跨类别研究，追求能直接创造鲜活人物、好看故事和长期自然因果，而不是用64卡或检查表写行政报告。已被作者否决的主干不可复活。**下面旧V5提示仍适用于历史工程核验，不替代当前写作调用方法。**
 
 # V13｜新聊天恢复提示词（V5）
 

@@ -2,6 +2,8 @@
 
 这份文件仅记录已写出的作品和来源状态，不把完成文件数当文学成功。
 
+> 路径注（2026-11-02）：本记录里的《陈启明》文件现位于 `novels/_archive/chen-qiming/`。这是当时的训练记录，不是现行 Canon。活动小说槽是 `novels/new-work/`。
+
 ## 可回读作品
 - DR01：《歪招牌》：`outputs/DR01.md`。三种构思；老树与商户、老匠、送汤少年的自主利益。
 - DR02：《桥头两顿饭》：`outputs/DR02.md`。三种构思；旧渡口生意与新桥热闹相反的利害。
@@ -12,7 +14,7 @@
 - DR07：《第一锤》：`outputs/DR07.md`。三种构思；十年后修城门者因名誉、旧事与身份而异的公共记忆。
 - 测试试写：`holdout_results/T01.md` — `T04.md`；分别涉及小事人物、独立南阳人际相遇、可核算但容易失去趣味的买卖、三年后家庭玩笑意义改变。**四题在测试前已被预览，不能称为严格盲测**。全部 `MODEL_HOLDOUT_RESULT_UNRATED`。
 - 训练后新版能力：`../../skills/v13-writer-mind/SKILL.md`，版本 `2.0.0-capability-lab`，非训练过模型参数。
-- 陈启明首章候选：`../../novels/chen-qiming/CHAPTER_001_CAPABILITY_V2_CANDIDATE.md`；**非正式正文**、无Canon地位、没有改动状态账。
+- 陈启明首章候选：`../../novels/_archive/chen-qiming/CHAPTER_001_CAPABILITY_V2_CANDIDATE.md`；**非正式正文**、无Canon地位、没有改动状态账。
 
 ## 真实来源与程序校验
 上传本会话 `v13_capability_lab(1).zip` 包含七道练习、14个原著正例索引、四道保留题、审查脚本；两部用户上传EPUB为原著。2026-10-12本地实际执行 `validate.py` 得 PASS：9历史证据条目，2对照题，4保留题；`validate_sources.py /mnt/data` 得 PASS：14案例对应32章；无任何“人类认可的已完成原创优秀范文”，没有模型参数训练或偏好学习。原文可依据ZIP内结构化SHA256回核；原著独特句子、经典段落、人物不移植。
@@ -30,13 +32,13 @@ GitHub `skills/v13-writer-mind/knowledge/WHOLE_REPO_SYNTHESIS.md` 记录此前�
 全体原创成稿状态：`MODEL_CANDIDATE_UNRATED`；首章 `USER_REVIEW_PENDING`；真人优劣偏好对 **0**；独立未污染陌生题 **0**。源码校验为PASS只说明原著定位，不是文学评分。下一次改善应优先针对具体文本再做**真正不同的场景试写**，而不是给SKILL再增加禁止条款。
 
 ## 权威不变
-本轮没有改动 `novels/chen-qiming/CHAPTER_001.md`、`STATE.json`、`NEXT_SCENE.md` 或作者锁定Canon。新SKILL引用的项目权威仍为 `PROJECT_BIBLE.md`，任何新名字或情节均仅是候选正文事实。
+本轮没有改动 `novels/_archive/chen-qiming/CHAPTER_001.md`、`STATE.json`、`NEXT_SCENE.md` 或作者锁定Canon。新SKILL引用的项目权威仍为 `PROJECT_BIBLE.md`，任何新名字或情节均仅是候选正文事实。
 
 
 ## 2026-10-12持续创作：首章换发动机的实写证据
 
 - 实际试写并比较了**A《不许叫祥瑞》**（三方对突然来人“邀功／失职／生存”的竞争）和 **B《一封没来得及送的信》**（帝王家庭正在发生的争执被打断），见 `CH01_REINVENTION_TWO_SCENE_TRIALS.md`。B虽有家庭生活，却又有沦为“皇帝询问奇人”的风险，未选。
-- 将A扩成全章 `novels/chen-qiming/CHAPTER_001_CAPABILITY_V3_CANDIDATE.md`。动作和人物的独立选择包括：严福安主动抢定祥瑞名目并在失利后试图另行传话；韩自明坚持宫禁责任、拒绝自动承认奇人；郭寿接下改写了含义的纸后选择先去韩自明值房；陈启明识别这些彼此冲突的利益而要求留一个不愿纵放他的看守。这是新的原创文本，不是给《那碗粥》修几句。
+- 将A扩成全章 `novels/_archive/chen-qiming/CHAPTER_001_CAPABILITY_V3_CANDIDATE.md`。动作和人物的独立选择包括：严福安主动抢定祥瑞名目并在失利后试图另行传话；韩自明坚持宫禁责任、拒绝自动承认奇人；郭寿接下改写了含义的纸后选择先去韩自明值房；陈启明识别这些彼此冲突的利益而要求留一个不愿纵放他的看守。这是新的原创文本，不是给《那碗粥》修几句。
 - 原创实验内的基本锁定条件仍保持：陈启明于1639年肉身突然出现在崇祯御前；皇帝保持自身判断权和政务；来源与忠诚未获验证，**尚无五万两实银、千人军职、五锦衣卫出京安排**。小说Canon和STATE没有移动。
 - **未解决的文学问题**：V3前半至中段依然大量用争名目、问身份与谁来记载的台词推动；宫外社会尚未真正登台，结尾仍属于留置待核；虽有物理动作、权力差和一个小人物冒风险的选择，是否显著更有趣，模型没有可靠资格自己宣布。V3同为 `MODEL_CANDIDATE_UNRATED`。
 - **下一轮真正的创作改变**应针对*这一版具体文本*尝试增加能够跨场景延伸的非御前人物行动，而不是在已存在的第一章上继续添加同义文学限制或直接升级SKILL；保留两版供作者检验差异。

@@ -84,4 +84,4 @@ version: 2.0.0-prototype
 - `examples/ORIGINAL_LAB.md`：全新创作种子→三种改写方向→场景试演→连续两次变形，**不引用原著原文**。
 - `tests/QUALITY_TRIAL.md`：使用同一输入盲写、败因定位、编辑改写及作者评判标准；测试报告不得伪造。
 
-需要外部史实时，实际查史料或标待核；需要延续既有小说时，必须读取 `novels/chen-qiming/PROJECT_BIBLE.md`、最新正文与STATE，已被作者否决的 `STORY_SPINE_V0_1_PROPOSAL.md` **不得当续写基础**。
+需要外部史实时，实际查史料或标待核；需要延续当前小说时，读取活动槽 `novels/new-work/PROJECT_BIBLE.md`（STATUS: AWAITING_AUTHOR）、该目录最新正文与 `STATE.json`。`novels/_archive/` 不是现行 Canon。已被作者否决的 `novels/_archive/chen-qiming/STORY_SPINE_V0_1_PROPOSAL.md` **不得当续写基础**；该旧作仅在作者明确要求时打开。
