@@ -131,7 +131,7 @@
 - **采纳动作**：记 ISSUE-10；作者已确认理解+根因「作者≠主角（全程）」并「继续从写」→开 V7（见 ISSUE/OP-11）。仍非 Canon、勿写第2章。
 - **落点**：`ISSUE_LEDGER.md` ISSUE-10/11；待 `CHAPTER_001_CANDIDATE_V7.md`
 - **转告**：Jo ✅｜主笔 ✅｜读者 ✅｜审稿编辑 ✅｜版本官 ✅
-- **状态**：adopted / open（已交 Jo 短检｜V7b；非 Canon｜勿写第2章）
+- **状态**：adopted / open（等作者批｜V7b；非 Canon｜勿写第2章）
 
 ### OP-20261102-11｜确认理解并继续写 → V7
 
@@ -140,13 +140,13 @@
 - **采纳动作**：ISSUE/OP-10 状态改改稿中｜V7；新开 ISSUE-11；通知主笔按全程「作者≠主角」改 V7。
 - **落点**：`ISSUE_LEDGER.md`；`/workspace/new-work-drafts/CHAPTER_001_CANDIDATE_V7.md`（CJK≈4792）；`JO_DELIVER_V7.txt`
 - **转告**：Jo ✅｜主笔 ✅｜读者 ✅｜审稿编辑 ✅｜版本官 ✅
-- **状态**：adopted / open（已交 Jo 短检｜V7b；非 Canon｜勿写第2章）
+- **状态**：adopted / open（等作者批｜V7b；非 Canon｜勿写第2章）
 
 ### OP-20261102-12｜V7 齐审可交但须小改 → V7b
 
 - **时间**：2026-11-02（Jo）
 - **原文要点**：大纲/设定/史实通过；读者+审稿「可交但须小改」（济南奏对断言味）。已下主笔 V7b spot-fix。状态「小改中｜V7b」；仍非 Canon、勿写第2章。
-- **采纳动作**：记 ISSUE-12；ISSUE-10/11 改小改中｜V7b；主笔 spot-fix；改完再过必要门后再交作者。
+- **采纳动作**：记 ISSUE-12；V7b spot-fix（只动济南奏对挤残片）后 Jo 短检通过，已交作者终审；等作者批；未批前非 Canon、勿写第2章。
 - **落点**：`/workspace/new-work-drafts/CHAPTER_001_CANDIDATE_V7b.md`（CJK≈4750）；`JO_DELIVER_V7b.txt`
 - **转告**：Jo ✅｜主笔 ✅｜读者 ✅｜审稿编辑 ✅｜版本官 ✅
-- **状态**：adopted / open（已交 Jo 短检｜V7b）
+- **状态**：adopted / open（等作者批｜V7b）
