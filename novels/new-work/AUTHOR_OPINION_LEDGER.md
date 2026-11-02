@@ -116,7 +116,7 @@
 
 - **时间**：2026-11-02（Jo / 主笔转流程）
 - **原文要点**：读者须改、审稿可交（A–E 过）→已开 V6（读者四条+审稿软点）。多方快核→开写 V6；仍勿交作者、勿写第2章。落点 `CHAPTER_001_CANDIDATE_V6.md`。
-- **采纳动作**：记 ISSUE-20261102-09；ISSUE-08 改 watch；主笔改 V5→V6；交作者前仍须过读者终判。
+- **采纳动作**：记 ISSUE-20261102-09；ISSUE-08 改 watch；主笔改 V5→V6；帮手齐过后已交作者终审，等作者批；未批前非 Canon、勿写第2章。
 - **落点**：`ISSUE_LEDGER.md` ISSUE-09；`/workspace/new-work-drafts/CHAPTER_001_CANDIDATE_V6.md`（CJK≈4666）
 - **转告**：Jo ✅｜主笔 ✅｜读者 ✅｜审稿编辑 ✅｜版本官 ✅
-- **状态**：adopted / open（V6 开写完成→Jo短检中；仍勿交作者）
+- **状态**：adopted / open（V6 已交作者终审，等作者批；非 Canon）
