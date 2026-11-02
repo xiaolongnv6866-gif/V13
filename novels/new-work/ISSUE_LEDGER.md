@@ -199,7 +199,7 @@
 - **类型**：流程
 - **现象**：作者确认理解并对齐根因「作者≠主角（全程，非开头删词）」；口头「继续从写」。
 - **根因**：对齐完成，可动笔。
-- **已纠正**：ISSUE/OP-10 改「改稿中｜V7」；主笔已下 V7 改稿单。落点将为 `/workspace/new-work-drafts/CHAPTER_001_CANDIDATE_V7.md`。仍非 Canon、勿写第2章。
+- **已纠正**：ISSUE/OP-10 改「改稿中｜V7」；Jo 已下 V7 改稿单（same-scene-lab）；主笔开写 `/workspace/new-work-drafts/CHAPTER_001_CANDIDATE_V7.md`。仍非 Canon、勿写第2章。
 - **防复发**：放行须有作者确认理解+继续写明示；根因按全程执行非局部删词。
 - **状态**：open / 改稿中｜V7
 - **转告**：Jo ✅｜主笔 ✅｜读者 ✅｜审稿编辑 ✅｜版本官 ✅
